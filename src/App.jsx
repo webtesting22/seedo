@@ -25,10 +25,10 @@ const CustomCursor = () => {
           event.target.tagName === "BUTTON")
       ) {
         cursor.classList.add("hover-blast");
-        event.target.classList.add("text-blast"); // Add permanent blast effect to text
+        event.target.classList.add("text-blast");
         setTimeout(() => {
           cursor.classList.remove("hover-blast");
-        }, 1000000); // Reset cursor blast
+        }, 1000000);
       }
     };
     const handleMouseOut = (event) => {

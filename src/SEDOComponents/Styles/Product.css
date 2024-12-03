@@ -1,0 +1,49 @@
+.BannerContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.BannerContainer {
+    height: 50vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+#ProductShowContainer {
+    padding: 5rem 4rem;
+}
+
+.CategoriesFilters {
+    height: 80vh;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.089);
+    margin: 10px 0px;
+}
+
+#ProductCards {
+    padding: 0px 20px;
+}
+
+#ProductsGrid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.ProductCardDesign {
+    width: 33.33%;
+}
+
+.ProductCardDesign div {
+    background-color: rgba(255, 0, 0, 0.089);
+    max-width: 100%;
+    height: 400px;
+    margin: 10px;
+}
+
+.ProductCardDesign div h2 {
+    margin-top: 0px;
+}
