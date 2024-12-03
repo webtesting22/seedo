@@ -1,0 +1,204 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: .5s;
+}
+
+
+#MainUniqHeading {
+  display: flex;
+}
+
+.paragraph {
+  letter-spacing: -.03em;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 150%;
+  font-weight: 500;
+  color: white;
+}
+
+.buttonStylefirst {
+  color: red;
+  text-align: center;
+  letter-spacing: -.04em;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 2000px;
+  justify-content: center;
+  align-items: center;
+  padding: 1.75rem 3rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 90%;
+  text-decoration: none;
+  transition: background-color .2s, color .3s;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  border: none;
+}
+
+
+.buttonStyleSecond {
+  color: white;
+  text-align: center;
+  letter-spacing: -.04em;
+  cursor: pointer;
+  background-color: red;
+  border-radius: 2000px;
+  justify-content: center;
+  align-items: center;
+  padding: 1.75rem 3rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 90%;
+  text-decoration: none;
+  transition: background-color .2s, color .3s;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  border: none;
+  transition: .5s;
+}
+
+.buttonStyleSecond:hover {
+  color: white;
+  text-align: center;
+  letter-spacing: -.04em;
+  cursor: pointer;
+  background-color: rgb(255, 0, 0);
+  border-radius: 2000px;
+  justify-content: center;
+  align-items: center;
+  padding: 1.75rem 3rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 90%;
+  text-decoration: none;
+  transition: background-color .2s, color .3s;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  border: none;
+  transform: scale(1.05);
+  transition: .5s;
+  transform: translateY(-10px);
+}
+
+
+.custom-cursor {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  background-color: #ffdf22;
+  /* Orange cursor */
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: .3s;
+  opacity: 0.5;
+  /* transition: transform 0.30s ease-out; */
+  /* Smooth movement */
+  z-index: 10000;
+}
+
+/* Blast Effect on Hover */
+.custom-cursor.hover-blast {
+  width: 50px;
+  height: 50px;
+  background-color: #ffdf22;
+  /* Lighter orange */
+  transform: translate(-50%, -50%) scale(3);
+  /* Explode effect */
+  opacity: 0;
+  transition: .3s;
+  /* transition: transform 0.5s ease-out, opacity 0.5s ease-out; */
+  /* Smooth animation */
+}
+
+.SecondaryHeading {
+  letter-spacing: -.05em;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 110%;
+  margin-bottom: 1.5rem;
+  color: #ffdf22;
+}
+
+.PrimaryHeading {
+  letter-spacing: -.05em;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 110%;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.PrimaryHeading-black {
+  letter-spacing: -.05em;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 110%;
+  /* margin-bottom: 1.5rem; */
+  color: rgb(0, 0, 0);
+}
+
+.PrimaryHeading-color {
+  letter-spacing: -.05em;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 110%;
+  margin-bottom: 1.5rem;
+  color: #ffdf22;
+}
+
+.PrimaryHeading-red {
+  letter-spacing: -.05em;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 110%;
+  margin-bottom: 1.5rem;
+  color: #ff3030;
+}
+
+
+/* Add this CSS to your file */
+.rotating-image {
+  animation: rotateClockwise 3s linear infinite;
+  width: 30px;
+  height: 30px;
+  color: #ffdf22;
+  margin-bottom: 2rem;
+}
+
+/* Define the keyframe animation for rotating clockwise */
+@keyframes rotateClockwise {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

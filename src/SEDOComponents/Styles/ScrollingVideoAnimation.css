@@ -1,0 +1,52 @@
+#ScrollingVideoAnimationContainer {
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(0 0 0 / 93%);
+    /* margin-top: 100vh; */
+    position: relative;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5rem;
+}
+
+.VideoContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ScrollingVideoHeading {
+    max-width: 100%;
+    padding: 0rem 4rem;
+    display: flex;
+}
+
+.ScrollingVideoHeading div:first-child {
+    width: 65%;
+}
+
+.ScrollingVideoHeading div:last-child {
+    width: 35%;
+}
+
+/* Animated Container */
+.AnimatedScrollingContainer {
+    height: 80%;
+    width: 20%;
+    position: absolute;
+    bottom: -200px;
+    overflow: hidden;
+    transition: width 0.2s ease, border-radius 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Video Styling */
+.AnimatedScrollingContainer video {
+    height: 100%;
+    width: 80%;
+    object-fit: cover;
+}

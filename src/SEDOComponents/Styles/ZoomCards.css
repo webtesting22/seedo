@@ -1,0 +1,108 @@
+#ZoomCardsContainer {
+
+    padding-top: 18rem !important;
+    padding: 0rem 4rem;
+    overflow: hidden;
+    padding-bottom: 5rem !important;
+    position: relative;
+    /* background-color: rgb(247, 216, 101); */
+}
+
+ul[class] {
+    list-style-type: none;
+    /* margin: 0; */
+    padding: 0;
+    justify-content: space-evenly;
+}
+
+li {
+    position: relative;
+    width: 150px;
+    aspect-ratio: 1;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .3s;
+    margin: 0rem 1rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 0.5px solid gray; */
+
+    &:hover {
+        z-index: 2;
+        scale: 1.01;
+        box-shadow: 0 0 1rem 0 rgb(0 0 0 / .1);
+        transform: translateY(-20px);
+
+        +li {
+            scale: 1.01;
+            transform: translateY(-10px);
+
+            +li {
+                scale: 1.01;
+            }
+        }
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border-radius: 50%;
+        border: 1px solid black;
+        transform: scale(0);
+        transition: transform 0.5s ease;
+        z-index: -1;
+    }
+
+    &:hover::before {
+        transform: scale(1);
+    }
+
+    &:has(+ li:hover) {
+        scale: 1.01;
+        transform: translateY(-10px);
+    }
+
+    &:has(+ li + li:hover) {
+        scale: 1.01;
+    }
+
+
+}
+
+.avatars li img {
+    width: 80%;
+    object-fit: contain;
+    aspect-ratio: 3/2;
+}
+
+.avatars {
+    display: flex;
+    gap: .75rem;
+    margin-top: 5rem;
+}
+
+.avatars li h5 {
+    position: absolute;
+    bottom: -38%;
+    width: 100%;
+    text-align: center;
+}
+
+.ViewMoreBtn {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.BackoverlayImage {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /* margin-top: -12rem; */
+    z-index: -1;
+}

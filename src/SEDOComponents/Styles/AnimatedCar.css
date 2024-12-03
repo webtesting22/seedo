@@ -1,0 +1,22 @@
+#CardSlideAnimation img {
+    width: 20%;
+}
+
+#CardSlideAnimation {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        transform: translateX(0%);
+        transition: transform 7s cubic-bezier(0.25, 1, 0.5, 1);
+        border-radius: 115px;
+    }
+
+    &.animate img {
+        transform: translateX(400%);
+        width: 20%;
+    }
+}

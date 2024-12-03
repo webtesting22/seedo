@@ -1,0 +1,9 @@
+body {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  /* height: 600vh; */
+  transition: .5s;
+  scroll-behavior: smooth;
+}
