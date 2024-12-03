@@ -2,6 +2,7 @@ import React from "react";
 import ScrollingVideoScreen from "../../CommonComponents/ScrollingVideoScreen/ScrollingVideoScreen";
 import HomePage from "../HomePage/HomePage";
 import ZoomCards from "../../CommonComponents/ZoomCards/ZoomCards";
+import TwoSlideContainer from "../../CommonComponents/TwoSlideContainer/TwoSlideContainer";
 
 const HomeRoutes = () => {
     return (
@@ -10,6 +11,7 @@ const HomeRoutes = () => {
                 <HomePage />
                 <ScrollingVideoScreen />
                 <ZoomCards />
+                <TwoSlideContainer/>
                 {/* <AnimatedCar /> */}
             </section>
         </>

@@ -47,6 +47,6 @@
 /* Video Styling */
 .AnimatedScrollingContainer video {
     height: 100%;
-    width: 80%;
+    width: 90%;
     object-fit: cover;
 }
