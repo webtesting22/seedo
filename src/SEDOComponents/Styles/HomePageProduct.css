@@ -1,0 +1,151 @@
+#HomePageProductContainer {
+    padding-top: 5rem !important;
+    padding: 0rem 4rem;
+}
+
+.SlideBarContainer {
+    min-height: 40vh;
+    width: 100%;
+    background-color: white;
+    border: 1px solid rgb(219 219 219 / 42%);
+    padding: 1rem 0rem;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.ProductCardSlideBar {
+    display: flex;
+}
+
+.ProductCardSlideBar {
+    height: 17vh;
+    width: 100%;
+    /* background-color: green; */
+}
+
+.ProductCardSlideBar .imageShow {
+    /* display: flex; */
+    /* align-items: center; */
+    padding-left: 1rem;
+}
+
+.ProductCardSlideBar .imageShow img {
+    width: 150px;
+    background-color: #f4f4f4;
+    padding: 1rem 0rem;
+    border-radius: 10px;
+
+}
+
+.TitleShow {
+    padding: 1rem 1rem;
+}
+
+.TitleShow h4 {
+    margin-top: 10px;
+}
+
+.TitleShow span {
+    color: #999999;
+}
+
+.BigCardEdit {
+    min-height: 38vh;
+    width: 97%;
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(219 219 219 / 42%);
+}
+
+.BigCardEdit:hover {
+    min-height: 40vh;
+    width: 97%;
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid rgba(219, 219, 219, 0.795);
+}
+
+.RightSideRow {
+    padding-left: 2rem;
+}
+
+.HoverImageContainer {
+    padding: 2rem 0rem;
+    height: 180px;
+    display: flex;
+    align-items: center;
+}
+
+.HoverImageContainer img {
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    width: 100%;
+    /* height: 100%;
+    object-fit: cover; */
+    transition: opacity 0.3s ease-in-out;
+    aspect-ratio: 3 / 2;
+    object-fit: contain;
+    /* Smooth fade animation */
+}
+
+.TitleContainer {
+    padding: 1rem 1rem;
+}
+
+.TitleContainer span {
+    font-size: 13px;
+    color: #999999;
+}
+
+.TitleContainer h4 {
+    margin-top: 5px;
+}
+
+.ratingContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.star {
+    font-size: 16px;
+    color: red;
+    /* Change star color to red */
+    margin-right: 4px;
+}
+
+.star.empty {
+    color: #dcdcdc;
+    /* Light gray for empty stars */
+}
+
+.star.half {
+    color: red;
+    /* Red for half stars */
+}
+
+
+.defaultImage {
+    opacity: 1;
+    /* Default image visible initially */
+    z-index: 1;
+}
+
+.hoverImage {
+    opacity: 0;
+    /* Hover image hidden initially */
+    z-index: 2;
+}
+
+.BigCardEdit:hover .defaultImage {
+    opacity: 0;
+    /* Hide the default image on hover */
+}
+
+.BigCardEdit:hover .hoverImage {
+    opacity: 1;
+    /* Show the hover image on hover */
+}
