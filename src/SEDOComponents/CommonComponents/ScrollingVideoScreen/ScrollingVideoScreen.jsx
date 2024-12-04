@@ -51,7 +51,8 @@ const ScrollingVideoScreen = () => {
                     </svg>
                     <hr />
                     <p className="paragraph" data-aos="fade-up"
-                        data-aos-duration="800">Our toys inspire creativity, spark joy, and create unforgettable moments of play for children of all ages.
+                        data-aos-duration="800">Driven by creativity, we developed a range of high-quality toys over six months, ensuring they are safe, affordable, and meet the highest standards. Seedo Toys sparks children’s imaginations while offering parents confidence in our craftsmanship. We're excited to share our collection and bring joy to kids everywhere.
+
 
                     </p>
                 </div>

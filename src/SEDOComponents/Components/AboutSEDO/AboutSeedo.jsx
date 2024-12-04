@@ -9,24 +9,27 @@ const AboutSeedo = () => {
     const ServicesCardData = [
         {
             title: "Infrastructure",
-            content: "Our manufacturing capabilities span an ex-pansive 150,000 square feet, enabling us to wide range of products across vari- creategous categories. Within this space, we have dedicated 75,000 square feet specifically for the production of our exceptional toy line. This specialised area is equipped with state-of-the-art machinery and cutting-edge technology to ensure our toys are crafted to the highest standards of quality and innovation"
-        },
-        {
-            title: "Experience",
-            content: "Backed by a highly skilled team of experts with deep product knowledge, extensive market experience, and a wealth of expertise, we excel at developing ex- ceptional and innovative products that meet the highest standards of quality and customer satisfaction"
+            content: "Our 150,000 sq. ft. manufacturing facility includes a 75,000 sq. ft. area dedicated to toy production. Equipped with state-of-the-art machinery and advanced automation technology, our facility supports a production capacity of 5 billion battery-operated toys annually, ensuring we can meet large-scale demand without compromising on quality or safety."
         },
         {
             title: "Productivity",
-            content: "Seedo Toys operates a world- class, fully automated plant with an impressive annual production capacity of nearly 5 million battery-operated toys. Our state-of-the-art facilIty employs cutting-edge automation technology to ensure efficient manufacturing of high-quality toys with precision and consistency. We strive to meet customer demand while upholding the highest standards of excellence"
+            content: "With a fully automated plant, Seedo Toys achieves an annual production capacity of nearly 5 million battery-operated toys, employing the latest automation technologies to ensure efficient, high-quality manufacturing with precision and consistency."
         },
+        {
+            title: "Experience",
+            content: "Our team is made up of skilled experts with extensive market experience and deep product knowledge, allowing us to create innovative toys that meet the highest standards of quality and customer satisfaction."
+        },
+        {
+            title: "Quality and Affordability",
+            content: "Seedo Toys proves that high-quality products can also be affordable. By offering superior craftsmanship at budget-friendly prices, we challenge the norm and provide customers with excellent value, ensuring they get the best of both worlds—quality and affordability."
+        },
+      
         {
             title: "Make in india",
             content: "As strong advocates for local manufacturing, we take pride in sourcing all our components from within India. We fully support and align with Mr. Narendra Modi's vision of promoting the Make in India* initiative, fostering economic growth and self-reliance in our nation"
         },
-        {
-            title: "Quality and Price",
-            content: "Seedo Toys has set a benchmark by offering high-quality products at remarkably affordable prices, challenging the notion that quality and price cannot co exist. Our commitment to delivering exceptional value shows customers that they can enjoy superior quality toys without compromising their budget"
-        },
+       
+      
 
     ]
     return (
