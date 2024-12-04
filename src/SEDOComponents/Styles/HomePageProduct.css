@@ -10,6 +10,7 @@
     border: 1px solid rgb(219 219 219 / 42%);
     padding: 1rem 0rem;
     border-radius: 10px;
+    overflow: auto;
     margin-top: 5px;
 }
 
@@ -81,6 +82,9 @@
     height: 180px;
     display: flex;
     align-items: center;
+    overflow: hidden;
+    position: relative;
+    transition: .5s;
 }
 
 .HoverImageContainer img {
@@ -92,6 +96,7 @@
     object-fit: cover; */
     transition: opacity 0.3s ease-in-out;
     aspect-ratio: 3 / 2;
+    transition: .5s;
     object-fit: contain;
     /* Smooth fade animation */
 }
@@ -137,12 +142,16 @@
     opacity: 1;
     /* Default image visible initially */
     z-index: 1;
+    transition: .5s;
 }
 
 .hoverImage {
     opacity: 0;
     /* Hover image hidden initially */
     z-index: 2;
+    transform: rotate(10deg);
+    transition: .5s;
+    /* filter: drop-shadow(1px 1px 1px black); */
 }
 
 .BigCardEdit:hover .defaultImage {

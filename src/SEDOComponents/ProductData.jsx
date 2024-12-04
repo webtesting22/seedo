@@ -1,18 +1,24 @@
+import PackFive from "../../public/Images/Products/PackFive.png"
+import PackTen from "../../public/Images/Products/PackTen.png"
+import PackThree from "../../public/Images/Products/PackThree.png"
 const ProductData = [
     {
-        "title": "Remote Control Car",
-        "image": "https://example.com/images/remote-control-car.jpg",
-        "rating": 4.2
+        "title": "Pack of 5 Racing Car",
+        "image": PackFive,
+        "rating": 4.2,
+        "Categories": "Racing Car"
     },
     {
-        "title": "Lego Building Set",
-        "image": "https://example.com/images/lego-building-set.jpg",
-        "rating": 3.6
+        "title": "Pack of 10 Racing Car",
+        "image": PackTen,
+        "rating": 3.6,
+         "Categories": "Racing Car"
     },
     {
-        "title": "Stuffed Teddy Bear",
-        "image": "https://example.com/images/stuffed-teddy-bear.jpg",
-        "rating": 4.8
+        "title": "Pack of 3 Racing Car",
+        "image": PackThree,
+        "rating": 4.8,
+         "Categories": "Racing Car"
     },
     {
         "title": "Toy Train Set",

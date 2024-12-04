@@ -34,10 +34,11 @@ const HomePageProducts = () => {
                     <Row>
                         <Col lg={6} mg={24}>
                             <div className="SlideBarContainer">
+                            <h2 style={{marginLeft:"10px",marginTop:"0px"}}>Trending Toys</h2>
                                 {ProductData.slice(0, 7).map((item, index) => (
                                     <div key={index} className="ProductCardSlideBar" data-aos="fade-up"
-                                    // Set the fade-in animation
-                                                                                    data-aos-delay={`${index * 100}`}>
+                                        // Set the fade-in animation
+                                        data-aos-delay={`${index * 100}`}>
                                         <div className="imageShow">
                                             <img src={Construction} alt="" />
                                         </div>
@@ -60,19 +61,19 @@ const HomePageProducts = () => {
                                     {ProductData.slice(0, 9).map((item, index) => (
                                         <Col lg={8} md={12} key={index}>
                                             <div className="BigCardEdit" data-aos="fade-up"
-// Set the fade-in animation
+                                                // Set the fade-in animation
                                                 data-aos-delay={`${index * 100}`} >
                                                 <div className="HoverImageContainer">
-                                                    <img src={Construction} alt="Default Image" className="defaultImage" />
+                                                    <img src={item.image} alt="Default Image" className="defaultImage" />
                                                     <img
-                                                        src={DriftSeries1}
+                                                       src={item.image}
                                                         alt="Hover Image"
                                                         className="hoverImage"
                                                     />
                                                 </div>
 
                                                 <div className="TitleContainer">
-                                                    <span>Construction</span>
+                                                    <span>{item.Categories}</span>
                                                     <h4>{item.title}</h4>
                                                     <div className="ratingContainer">
                                                         {renderStars(item.rating)}
