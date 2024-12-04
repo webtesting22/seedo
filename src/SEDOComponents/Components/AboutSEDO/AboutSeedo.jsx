@@ -59,7 +59,13 @@ const AboutSeedo = () => {
                                 <div className="LeftSideContentContainer">
                                     {/* <h1>About SEDO</h1> */}
                                     <h2 className="PrimaryHeading-black">About SEEDO</h2>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys stan. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys stan.</p>
+                                    <p>Sanson is a leading innovator in consumer and trade pro-
+motions, trusted by major FMCG brands in India such as
+Unilever, Glaxò, Perfetti, Mondelez, Britannia, and more.
+With extensive expertise in collaborating with global
+brands and managing OEM licensors like Disney, Marvel,
+Mattel, Pokémon, and Doraemon, we prioritise safety and
+quality throughout the entire product cycle.</p>
                                     {/* <button></button> */}
                                 </div>
                             </Col>
