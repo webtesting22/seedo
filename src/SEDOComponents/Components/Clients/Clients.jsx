@@ -103,7 +103,7 @@ const Client = () => {
                         <div className="LogosContainer">
                             <Row>
                                 {LogosData.map((item, index) => (
-                                    <Col lg={8}>
+                                    <Col lg={8} xs={12}>
                                         <div className="ClientLogos">
                                             <img src={item.img} alt="" />
                                         </div>
@@ -120,7 +120,7 @@ const Client = () => {
                         <div className="LogosContainer">
                             <Row>
                                 {LogoDataSecond.map((item, index) => (
-                                    <Col lg={8}>
+                                    <Col lg={8} xs={12}>
                                         <div className="ClientLogos">
                                             <img src={item.img} alt="" />
                                         </div>

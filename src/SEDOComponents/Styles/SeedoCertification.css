@@ -26,3 +26,9 @@
     align-items: center;
     justify-content: center;
 }
+@media (max-width:769px){
+    #SeedoCertificationContainer{
+        padding-top: 2rem;
+        padding: 0rem 1rem;
+    }
+}

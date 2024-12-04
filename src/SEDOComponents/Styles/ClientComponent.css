@@ -1,56 +1,55 @@
 #ClientSection {
-    padding-top: 5rem !important;
-    padding: 0rem 4rem;
+  padding-top: 5rem !important;
+  padding: 0rem 4rem;
 }
 
-
 .LogosContainer {
-    width: 100%;
+  width: 100%;
 }
 
 .ClientLogos img {
-    width: 80%;
-    aspect-ratio: 3/2;
-    object-fit: contain;
-    animation: pulseGlow 2s infinite;
-    /* Apply pulse animation */
+  width: 80%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  animation: pulseGlow 2s infinite;
+  /* Apply pulse animation */
 }
 
 /* Define the pulse and glow animation */
 @keyframes pulseGlow {
-    0% {
-        transform: scale(1);
-        /* Default size */
-        filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
-        /* Light glow */
-    }
+  0% {
+    transform: scale(1);
+    /* Default size */
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
+    /* Light glow */
+  }
 
-    50% {
-        transform: scale(1.05);
-        /* Slightly larger */
-        filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.8));
-        /* Intense glow */
-    }
+  50% {
+    transform: scale(1.05);
+    /* Slightly larger */
+    filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.8));
+    /* Intense glow */
+  }
 
-    100% {
-        transform: scale(1);
-        /* Return to default size */
-        filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
-        /* Light glow */
-    }
+  100% {
+    transform: scale(1);
+    /* Return to default size */
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
+    /* Light glow */
+  }
 }
 
 .ClientLogos {
-    border: 1px solid rgb(239, 239, 239);
-    padding: 20px;
+  border: 1px solid rgb(239, 239, 239);
+  padding: 20px;
 }
 
 .SectionEdit {
-    padding: 0rem 2rem;
-    height: 100%;
-    /* width: 100%; */
-    display: flex;
-    align-items: center;
+  padding: 0rem 2rem;
+  height: 100%;
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
 }
 
 /* .SectionEdit:last-child{
@@ -58,6 +57,15 @@
     padding-left: 2rem;
 } */
 .SectionEdit h2 {
-    font-weight: 500;
-    color: red;
+  font-weight: 500;
+  color: red;
+}
+@media (max-width: 769px) {
+  #ClientSection {
+    padding-top: 2rem;
+    padding: 0rem 1rem;
+  }
+  .SectionEdit{
+    padding: 0;
+  }
 }

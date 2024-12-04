@@ -35,3 +35,11 @@
 .SmallPhotoContainer>div:last-child {
     margin-top: 10px;
 }
+@media (max-width:769px){
+    .BigPhoto{
+        height: 30vh;
+    }
+    .SmallPhotoContainer>div{
+        height: 15vh;
+    }
+}
