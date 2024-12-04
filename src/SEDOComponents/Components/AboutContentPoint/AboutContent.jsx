@@ -137,6 +137,7 @@ const AboutContent = () => {
                     <Col lg={16}>
                         <div className="ContentContainerCarousal">
                             <div>
+                                <br />
                                 <h2>Self-Reliant PCB Manufacturing</h2>
                                 <p>Seedo Toys has made significant strides by designing and producing its own PCBs, manufactured with the latest pick-and-place technology. We produce 150,000 to 200,000 PCBs monthly in our fully automated facility. Our PCB materials meet global safety standards, offering surge, voltage, and heat protection. They are phthalate-free, lead-free, and ROHS-compliant for international exports, ensuring both safety and reliability for our products.</p>
                             </div>
