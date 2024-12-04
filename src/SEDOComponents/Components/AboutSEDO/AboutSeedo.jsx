@@ -41,14 +41,14 @@ const AboutSeedo = () => {
                         {/* <div className="overlayContainer">
 
                         </div> */}
-                        <img src={ProductPageBanner} alt="" />
+                        <img src="https://images.unsplash.com/photo-1616267264277-1beeb1af1168?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
                     </div>
-                    <div style={{padding:"20px"}}>
-                    <span>
-                        <Link to="/" className="breadcrumb-link" style={{color:"black"}}>Home</Link> &gt;{" "}
-                        <Link to="/aboutSeedo" className="breadcrumb-link"style={{color:"black"}}>About Us</Link>
-                    </span>
-                </div>
+                    <div style={{ padding: "20px" }}>
+                        <span>
+                            <Link to="/" className="breadcrumb-link" style={{ color: "black" }}>Home</Link> &gt;{" "}
+                            <Link to="/aboutSeedo" className="breadcrumb-link" style={{ color: "black" }}>About Us</Link>
+                        </span>
+                    </div>
                     <div className="AboutUsContentContainer">
                         {/* <img src={Back} alt="" /> */}
                         {/* <div className="overlayContainersecond">
@@ -60,12 +60,12 @@ const AboutSeedo = () => {
                                     {/* <h1>About SEDO</h1> */}
                                     <h2 className="PrimaryHeading-black">About SEEDO</h2>
                                     <p>Sanson is a leading innovator in consumer and trade pro-
-motions, trusted by major FMCG brands in India such as
-Unilever, Glaxò, Perfetti, Mondelez, Britannia, and more.
-With extensive expertise in collaborating with global
-brands and managing OEM licensors like Disney, Marvel,
-Mattel, Pokémon, and Doraemon, we prioritise safety and
-quality throughout the entire product cycle.</p>
+                                        motions, trusted by major FMCG brands in India such as
+                                        Unilever, Glaxò, Perfetti, Mondelez, Britannia, and more.
+                                        With extensive expertise in collaborating with global
+                                        brands and managing OEM licensors like Disney, Marvel,
+                                        Mattel, Pokémon, and Doraemon, we prioritise safety and
+                                        quality throughout the entire product cycle.</p>
                                     {/* <button></button> */}
                                 </div>
                             </Col>
