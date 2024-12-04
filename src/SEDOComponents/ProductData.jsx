@@ -1,6 +1,30 @@
 import PackFive from "../../public/Images/Products/PackFive.png"
 import PackTen from "../../public/Images/Products/PackTen.png"
 import PackThree from "../../public/Images/Products/PackThree.png"
+import LightBlaster from "../../public/Images/Products/ProductImages/Light Blaster 2 Way.png"
+import FamousCar2 from "../../public/Images/Products/ProductImages/Famous Car 2 Way.png"
+import FormulaCar2 from "../../public/Images/Products/ProductImages/Formula Car 2 Way.png"
+import RacerCar4 from "../../public/Images/Products/ProductImages/Racer Car 4 way.png"
+import LittleRoaster from "../../public/Images/Products/ProductImages/Little Roaster.png"
+import SpectreCar from "../../public/Images/Products/ProductImages/Spectre Car.png"
+import RoadSniper from "../../public/Images/Products/ProductImages/Road Sniper 01.png"
+import RoadSniper02 from "../../public/Images/Products/ProductImages/Road Sniper 02.png"
+import PoliceCar from "../../public/Images/Products/ProductImages/Police Car.png"
+import BlazeRunner from "../../public/Images/Products/ProductImages/Blaze Runner.png"
+import LightBlaster4 from "../../public/Images/Products/ProductImages/Light Blaster 4 way.png"
+import FamousCar4 from "../../public/Images/Products/ProductImages/Famous Car 4 way.png"
+import StuntCar from "../../public/Images/Products/ProductImages/Stunt Car.png"
+import BigStunt from "../../public/Images/Products/ProductImages/Big Stunt.png"
+import Dazzling from "../../public/Images/Products/ProductImages/Dazzling.png"
+import RockCrawler from "../../public/Images/Products/ProductImages/Rock Crawler.png"
+import DinoSharkRockCrawler from "../../public/Images/Products/ProductImages/DinoShark Rock Crawler.png"
+import GunRockCrawler from "../../public/Images/Products/ProductImages/Gun Rock Crawler.png"
+import SmokeRockCrawler from "../../public/Images/Products/ProductImages/Smoke Rock Crawler.png"
+import PVCShellRockCrawler from "../../public/Images/Products/ProductImages/PVC Shell Rock Crawler.png"
+import LuxuriousCar4 from "../../public/Images/Products/ProductImages/Luxurious Car 4 .png"
+import HyperBeast from "../../public/Images/Products/ProductImages/Hyper Beast.png"
+import Thunderbird from "../../public/Images/Products/ProductImages/Thunderbird.png"
+import TwistingStunt from "../../public/Images/Products/ProductImages/Twisting Stunt.png"
 const ProductData = [
     {
         "title": "Pack of 5 Racing Car",
@@ -12,132 +36,140 @@ const ProductData = [
         "title": "Pack of 10 Racing Car",
         "image": PackTen,
         "rating": 3.6,
-         "Categories": "Racing Car"
+        "Categories": "Racing Car"
     },
     {
         "title": "Pack of 3 Racing Car",
         "image": PackThree,
         "rating": 4.8,
-         "Categories": "Racing Car"
+        "Categories": "Racing Car"
     },
     {
-        "title": "Toy Train Set",
-        "image": "https://example.com/images/toy-train-set.jpg",
-        "rating": 4.1
+        "title": "Light Blaster 2 Way",
+        "image": LightBlaster,
+        "rating": 4.1,
+        "Categories": "Racing Car"
     },
     {
-        "title": "Dollhouse",
-        "image": "https://example.com/images/dollhouse.jpg",
-        "rating": 3.9
+        "title": "Famous Car 2 Way",
+        "image": FamousCar2,
+        "rating": 3.9,
+        "Categories": "Racing Car"
     },
     {
-        "title": "Superhero Action Figure",
-        "image": "https://example.com/images/superhero-action-figure.jpg",
-        "rating": 4.5
+        "title": "Formula Car 2 Way",
+        "image": FormulaCar2,
+        "rating": 4.5,
+        "Categories": "Racing Car"
     },
     {
-        "title": "Musical Keyboard Toy",
-        "image": "https://example.com/images/musical-keyboard-toy.jpg",
-        "rating": 4.0
+        "title": "Racer Car 4 way",
+        "image": RacerCar4,
+        "rating": 4.0,
+        "Categories": "Racing Car"
     },
     {
-        "title": "Rubik's Cube",
-        "image": "https://example.com/images/rubiks-cube.jpg",
-        "rating": 4.7
+        "title": "Little Roaster",
+        "image": LittleRoaster,
+        "rating": 4.7,
+        "Categories": "Racing Car"
     },
     {
-        "title": "Puzzle Set",
-        "image": "https://example.com/images/puzzle-set.jpg",
-        "rating": 3.8
+        "title": "Spectre Car",
+        "image": SpectreCar,
+        "rating": 3.8,
+        "Categories": "Racing Car"
     },
     {
-        "title": "Toy Airplane",
-        "image": "https://example.com/images/toy-airplane.jpg",
-        "rating": 4.4
+        "title": "Road Sniper 01",
+        "image": RoadSniper,
+        "rating": 4.4,
+        "Categories": "Racing Car"
     },
     {
-        "title": "Building Blocks",
-        "image": "https://example.com/images/building-blocks.jpg",
-        "rating": 3.7
+        "title": "Road Sniper 02",
+        "image": RoadSniper02,
+        "rating": 3.7,
+        "Categories": "Racing Car"
     },
     {
-        "title": "Racing Track Set",
-        "image": "https://example.com/images/racing-track-set.jpg",
+        "title": "Police Car",
+        "image": PoliceCar,
         "rating": 4.6
     },
     {
-        "title": "Toy Robot",
-        "image": "https://example.com/images/toy-robot.jpg",
+        "title": "Blaze Runner",
+        "image": BlazeRunner,
         "rating": 4.3
     },
     {
-        "title": "Water Gun",
-        "image": "https://example.com/images/water-gun.jpg",
+        "title": "Light Blaster 4 way",
+        "image": LightBlaster4,
         "rating": 4.0
     },
     {
-        "title": "Yo-Yo",
-        "image": "https://example.com/images/yo-yo.jpg",
+        "title": "Famous Car 4 way",
+        "image": FamousCar4,
         "rating": 3.5
     },
     {
-        "title": "Plush Elephant",
-        "image": "https://example.com/images/plush-elephant.jpg",
+        "title": "Stunt Car",
+        "image": StuntCar,
         "rating": 4.2
     },
     {
-        "title": "Toy Drum Set",
-        "image": "https://example.com/images/toy-drum-set.jpg",
+        "title": "Big Stunt",
+        "image": BigStunt,
         "rating": 4.7
     },
     {
-        "title": "Action Figure Collection",
-        "image": "https://example.com/images/action-figure-collection.jpg",
+        "title": "Dazzling",
+        "image": Dazzling,
         "rating": 4.8
     },
     {
-        "title": "Bubble Blower",
-        "image": "https://example.com/images/bubble-blower.jpg",
+        "title": "Rock Crawler",
+        "image": RockCrawler,
         "rating": 3.9
     },
     {
-        "title": "Pull-Back Car",
-        "image": "https://example.com/images/pull-back-car.jpg",
+        "title": "DinoShark Rock Crawler",
+        "image": DinoSharkRockCrawler,
         "rating": 4.3
     },
     {
-        "title": "Magic Set",
-        "image": "https://example.com/images/magic-set.jpg",
+        "title": "Gun Rock Crawler",
+        "image": GunRockCrawler,
         "rating": 4.4
     },
     {
-        "title": "Toy Binoculars",
-        "image": "https://example.com/images/toy-binoculars.jpg",
+        "title": "Smoke Rock Crawler",
+        "image": SmokeRockCrawler,
         "rating": 3.8
     },
     {
-        "title": "Toy Dinosaur",
-        "image": "https://example.com/images/toy-dinosaur.jpg",
+        "title": "PVC Shell Rock Crawler",
+        "image": PVCShellRockCrawler,
         "rating": 4.5
     },
     {
-        "title": "Toy Microscope",
-        "image": "https://example.com/images/toy-microscope.jpg",
+        "title": "Luxurious Car 4",
+        "image": LuxuriousCar4,
         "rating": 4.1
     },
     {
-        "title": "Remote Control Boat",
-        "image": "https://example.com/images/remote-control-boat.jpg",
+        "title": "Hyper Beast",
+        "image": HyperBeast,
         "rating": 4.2
     },
     {
-        "title": "Toy Cooking Set",
-        "image": "https://example.com/images/toy-cooking-set.jpg",
+        "title": "Thunderbird",
+        "image": Thunderbird,
         "rating": 4.0
     },
     {
-        "title": "Toy Police Car",
-        "image": "https://example.com/images/toy-police-car.jpg",
+        "title": "Twisting Stunt",
+        "image": TwistingStunt,
         "rating": 4.6
     },
     {

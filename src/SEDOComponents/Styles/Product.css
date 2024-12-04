@@ -18,9 +18,9 @@
 
 .CategoriesFilters {
     height: 80vh;
-    width: 100%;
+    /* width: 100%; */
     background-color: rgba(255, 0, 0, 0.089);
-    margin: 10px 0px;
+    margin: 0px 20px;
 }
 
 #ProductCards {

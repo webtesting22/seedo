@@ -6,6 +6,8 @@ import Back from "./Back.png"
 import SeedoPoster from "../../../../public/Images/Banners/SeedoPoster.png"
 import SeedoCertification from "../Certification/SeedoCertification";
 import PhotosGrid from "../../CommonComponents/PhotosGrid/PhotosGrid";
+import AboutContent from "../AboutContentPoint/AboutContent";
+import Client from "../Clients/Clients";
 const AboutSeedo = () => {
     const ServicesCardData = [
         {
@@ -90,8 +92,11 @@ const AboutSeedo = () => {
                     </div>
                 </div>
             </section>
-            <PhotosGrid/>
+            <AboutContent/>
+            <PhotosGrid />
             <SeedoCertification />
+            <Client/>
+
         </>
     );
 };

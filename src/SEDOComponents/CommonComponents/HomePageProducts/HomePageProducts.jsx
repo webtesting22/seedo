@@ -34,7 +34,7 @@ const HomePageProducts = () => {
                     <Row>
                         <Col lg={6} mg={24}>
                             <div className="SlideBarContainer">
-                            <h2 style={{marginLeft:"10px",marginTop:"0px"}}>Trending Toys</h2>
+                                <h2 style={{ marginLeft: "10px", marginTop: "0px" }}>Trending Toys</h2>
                                 {ProductData.slice(0, 7).map((item, index) => (
                                     <div key={index} className="ProductCardSlideBar" data-aos="fade-up"
                                         // Set the fade-in animation
@@ -66,7 +66,7 @@ const HomePageProducts = () => {
                                                 <div className="HoverImageContainer">
                                                     <img src={item.image} alt="Default Image" className="defaultImage" />
                                                     <img
-                                                       src={item.image}
+                                                        src={item.image}
                                                         alt="Hover Image"
                                                         className="hoverImage"
                                                     />

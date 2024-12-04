@@ -49,8 +49,8 @@ const SeedoCertification = () => {
                 <div>
                     <Row>
                         {CertificationLogoData.map((item, index) => (
-                            <Col lg={6} md={12}  data-aos="fade-up"
-                            data-aos-delay={index * 100} data-aos-duration="1000" >
+                            <Col lg={6} md={12} data-aos="fade-up"
+                                data-aos-delay={index * 100} data-aos-duration="1000" >
                                 <div className="LogoContainer">
                                     <img src={item.img} alt="" />
                                 </div>
