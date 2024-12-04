@@ -1,4 +1,26 @@
-#SeedoCertificationContainer{
+#SeedoCertificationContainer {
     padding-top: 5rem !important;
     padding: 0rem 4rem;
+}
+
+.LogoContainer img {
+    width: 50%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    padding: 2rem;
+}
+
+
+
+.LogoContainer {
+    border: 1px solid rgb(239, 239, 239);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.LogoContainer:hover {
+    border: 1px solid rgb(208, 208, 208);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
