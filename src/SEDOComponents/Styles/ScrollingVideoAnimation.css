@@ -92,6 +92,13 @@
     align-items: center;
     justify-content: center;
 }
+.AnimatedScrollingContainer video {
+    height: 100%;
+    width: 90%;
+    object-fit: cover;
+    display: none;
+}
+
 
     
 }
