@@ -42,14 +42,15 @@ const SeedoCertification = () => {
             <section id="SeedoCertificationContainer">
                 <div className="LeftSideContentContainer">
                     <h2>Industrial Certification</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys stan. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys stan.</p>
+                    <p>Passed Testing, Awaiting Certificate</p>
                 </div>
                 <br />
                 <br />
                 <div>
                     <Row>
                         {CertificationLogoData.map((item, index) => (
-                            <Col lg={6} md={12}>
+                            <Col lg={6} md={12}  data-aos="fade-up"
+                            data-aos-delay={index * 100} data-aos-duration="1000" >
                                 <div className="LogoContainer">
                                     <img src={item.img} alt="" />
                                 </div>
