@@ -183,6 +183,7 @@
         object-fit: contain;
         /* Smooth fade animation */
     }
+
     .BigCardEdit {
         height: 20vh !important;
         width: 97%;
@@ -191,6 +192,7 @@
         border-radius: 10px;
         border: 1px solid rgb(219 219 219 / 42%);
     }
+
     .HoverImageContainer {
         padding: 2rem 0rem;
         height: 90px;
@@ -201,19 +203,21 @@
         transition: .5s;
         justify-content: center;
     }
-    
-    .RightSideRow .ant-row .ant-col{
+
+    .RightSideRow .ant-row .ant-col {
         width: 50% !important;
     }
+
     .RightSideRow {
         padding-left: 0rem;
     }
+
     .TitleShow h4 {
         margin-top: 10px;
         font-size: 15px;
         text-align: center;
     }
-    
+
     .ProductCardSlideBar .imageShow img {
         width: 100%;
         background-color: #f4f4f4;
