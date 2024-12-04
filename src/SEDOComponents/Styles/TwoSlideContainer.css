@@ -104,7 +104,7 @@
     transition: all 0.3s ease;
     cursor: pointer;
     width: 50%;
-    font-style: italic;
+    /* font-style: italic; */
     transition: .5s;
     text-align: center;
 }

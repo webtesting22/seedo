@@ -10,8 +10,8 @@ const TwoSlideContainer = () => {
 
     const headings = [
         { text: "Hello 1", image: "https://images.unsplash.com/photo-1609395464110-7116592351c6?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-        { text: "Hello 2", image: "https://images.unsplash.com/photo-1686773565608-0c45fc7ed94f?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-        { text: "Hello 3", image: "https://img.freepik.com/free-psd/3d-illustration-1920-s-element_23-2150967934.jpg?t=st=1733251439~exp=1733255039~hmac=29372f665d81697044307ac39b3cdc2f321d3fc193916e946285352211072aa5&w=1380" },
+        { text: "Hello 2", image: "https://plus.unsplash.com/premium_photo-1684795780827-3b1830a7daa0?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+        { text: "Hello 3", image: "https://img.freepik.com/premium-photo/festive-valentine-s-day-holiday-flat-lay-annual-holiday-shopping-concept-reasonable-consumption_330121-278.jpg?w=1800" },
     ];
 
     const handleHover = (image) => {
