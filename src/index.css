@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Ahom&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Signika+Negative:wght@300..700&display=swap');
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -137,27 +139,44 @@
   margin-bottom: 1.5rem;
   color: #ffdf22;
 }
-
+@keyframes fillColor {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
 .PrimaryHeading {
-  letter-spacing: -.05em;
+  letter-spacing: -0.05em;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 1.5rem;
   font-size: 3.5rem;
   font-weight: 600;
   line-height: 110%;
-  margin-bottom: 1.5rem;
-  color: white;
+  font-family: "Edu AU VIC WA NT Arrows", cursive;
+  background-image: linear-gradient(90deg, white,#ffdf22,white,#ffdf22);
+  background-size: 300%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: fillColor 2s linear infinite;
 }
 
 .PrimaryHeading-black {
-  letter-spacing: -.05em;
+  letter-spacing: -0.05em;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 1.5rem;
   font-size: 3.5rem;
   font-weight: 600;
   line-height: 110%;
-  /* margin-bottom: 1.5rem; */
-  color: rgb(0, 0, 0);
+  font-family: "Edu AU VIC WA NT Arrows", cursive;
+  background-image: linear-gradient(90deg, black,red,black,red);
+  background-size: 300%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: fillColor 2s linear infinite;
 }
 
 .PrimaryHeading-color {

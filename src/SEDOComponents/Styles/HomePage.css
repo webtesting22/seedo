@@ -34,13 +34,15 @@
 
 #MainUniqHeading {
     flex-direction: column;
+    gap: 55px;
 }
 
 #MainUniqHeading span {
-    font-size: 10rem;
+    font-size: 7rem;
     color: white;
     line-height: 100%;
     font-weight: 500;
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
 }
 
 #MainUniqHeading span:first-child {
