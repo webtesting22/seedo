@@ -8,6 +8,7 @@ import SeedoCertification from "../Certification/SeedoCertification";
 import PhotosGrid from "../../CommonComponents/PhotosGrid/PhotosGrid";
 import AboutContent from "../AboutContentPoint/AboutContent";
 import Client from "../Clients/Clients";
+import { Link } from "react-router-dom";
 const AboutSeedo = () => {
     const ServicesCardData = [
         {
@@ -42,6 +43,12 @@ const AboutSeedo = () => {
                         </div> */}
                         <img src={ProductPageBanner} alt="" />
                     </div>
+                    <div style={{padding:"20px"}}>
+                    <span>
+                        <Link to="/" className="breadcrumb-link" style={{color:"black"}}>Home</Link> &gt;{" "}
+                        <Link to="/aboutSeedo" className="breadcrumb-link"style={{color:"black"}}>About Us</Link>
+                    </span>
+                </div>
                     <div className="AboutUsContentContainer">
                         {/* <img src={Back} alt="" /> */}
                         {/* <div className="overlayContainersecond">
@@ -92,10 +99,10 @@ const AboutSeedo = () => {
                     </div>
                 </div>
             </section>
-            <AboutContent/>
+            <AboutContent />
             <PhotosGrid />
             <SeedoCertification />
-            <Client/>
+            <Client />
 
         </>
     );

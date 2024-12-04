@@ -172,21 +172,21 @@ const ProductData = [
         "image": TwistingStunt,
         "rating": 4.6
     },
-    {
-        "title": "Toy Fire Truck",
-        "image": "https://example.com/images/toy-fire-truck.jpg",
-        "rating": 4.3
-    },
-    {
-        "title": "Toy Space Rocket",
-        "image": "https://example.com/images/toy-space-rocket.jpg",
-        "rating": 4.8
-    },
-    {
-        "title": "Toy Basketball Hoop",
-        "image": "https://example.com/images/toy-basketball-hoop.jpg",
-        "rating": 4.5
-    }
+    // {
+    //     "title": "Toy Fire Truck",
+    //     "image": "https://example.com/images/toy-fire-truck.jpg",
+    //     "rating": 4.3
+    // },
+    // {
+    //     "title": "Toy Space Rocket",
+    //     "image": "https://example.com/images/toy-space-rocket.jpg",
+    //     "rating": 4.8
+    // },
+    // {
+    //     "title": "Toy Basketball Hoop",
+    //     "image": "https://example.com/images/toy-basketball-hoop.jpg",
+    //     "rating": 4.5
+    // }
 ];
 
 export default ProductData;

@@ -1,15 +1,18 @@
-import React,{useEffect} from "react";
-import ProductPageBanner from "../../../../public/Images/Banners/CarsBanner.jpg"
-import "../../Styles/Product.css"
-import { Row, Col } from "antd";
+import React, { useState, useEffect } from "react";
+import ProductPageBanner from "../../../../public/Images/Banners/CarsBanner.jpg";
+import "../../Styles/Product.css";
+import { Row, Col, Input, Slider,Tag } from "antd";
 import ProductData from "../../ProductData";
-import { FaLongArrowAltRight } from "react-icons/fa";
 import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
+import { Link } from "react-router-dom";
 const Products = () => {
+    const [searchTerm, setSearchTerm] = useState("");
+    const [filteredProducts, setFilteredProducts] = useState(ProductData);
+
     const renderStars = (rating) => {
-        const fullStars = Math.floor(rating); // Full stars
-        const halfStar = rating % 1 !== 0; // Check for half star
-        const emptyStars = 5 - Math.ceil(rating); // Remaining empty stars
+        const fullStars = Math.floor(rating);
+        const halfStar = rating % 1 !== 0;
+        const emptyStars = 5 - Math.ceil(rating);
 
         return (
             <>
@@ -23,59 +26,86 @@ const Products = () => {
             </>
         );
     };
+
+    useEffect(() => {
+        // Filter products based on search term
+        const filtered = ProductData.filter((product) =>
+            product.title.toLowerCase().includes(searchTerm.toLowerCase())
+        );
+        setFilteredProducts(filtered);
+    }, [searchTerm]);
+
     useEffect(() => {
         // Scroll to the top of the page when the component is mounted
         window.scrollTo(0, 0);
     }, []);
+
     return (
         <>
             <section id="ProductContainer">
                 <div className="BannerContainer">
                     <img src={ProductPageBanner} alt="" />
                 </div>
+                <div style={{ padding: "20px" }}>
+                    <span>
+                        <Link to="/" className="breadcrumb-link" style={{ color: "black" }}>Home</Link> &gt;{" "}
+                        <Link to="/products" className="breadcrumb-link" style={{ color: "black" }}>Product</Link>
+                    </span>
+                </div>
                 <div id="ProductShowContainer">
                     <div>
                         <Row>
                             <Col lg={6}>
                                 <div className="CategoriesFilters">
-                                    <div className="SelectedFiltersName">
-
-                                    </div>
-                                    <div className="FilterCheckBox">
-
-                                    </div>
                                     <div className="SearchBarContainer">
-
+                                        <h3>Search Product</h3>
+                                        <Input
+                                            placeholder="Search products..."
+                                            allowClear
+                                            onChange={(e) => setSearchTerm(e.target.value)}
+                                            style={{ marginBottom: "20px" }}
+                                        />
+                                    </div>
+                                    <div>
+            <h3>Selected Categories:</h3>
+            <Tag color="blue">Electronics</Tag>
+            <Tag color="green">Fashion</Tag>
+            <Tag color="red">Books</Tag>
+        </div>
+                                    <div className="PriceRange">
+                                        <div className="PriceRangeContainer">
+                                            <h3>Price Range</h3>
+                                            <div className="PriceRange">
+                                                <span>Min: ₹0</span>
+                                                <span>Max: ₹50,000</span>
+                                            </div>
+                                            <Slider range defaultValue={[0, 50000]} disabled />
+                                        </div>
                                     </div>
                                 </div>
                             </Col>
                             <Col lg={18}>
                                 <Row>
-                                    {ProductData.map((item, index) => (
+                                    {filteredProducts.map((item, index) => (
                                         <Col lg={8} md={12} key={index}>
-                                            <div className="BigCardEdit" data-aos="fade-up"
-                                                // Set the fade-in animation
-                                                data-aos-delay={`${index * 100}`} >
+                                            <div
+                                                className="BigCardEdit"
+                                                data-aos="fade-up"
+                                                data-aos-delay={`${index * 100}`}
+                                            >
                                                 <div className="HoverImageContainer">
-                                                    <img src={item.image} alt="Default Image" className="defaultImage" />
-                                                    <img
-                                                        src={item.image}
-                                                        alt="Hover Image"
-                                                        className="hoverImage"
-                                                    />
+                                                    <img src={item.image} alt="Default" className="defaultImage" />
+                                                    <img src={item.image} alt="Hover" className="hoverImage" />
                                                 </div>
-
                                                 <div className="TitleContainer">
                                                     <span>{item.Categories}</span>
                                                     <h4>{item.title}</h4>
                                                     <div className="ratingContainer">
                                                         {renderStars(item.rating)}
                                                     </div>
-
                                                 </div>
                                             </div>
                                         </Col>
-
                                     ))}
                                 </Row>
                             </Col>
@@ -84,6 +114,7 @@ const Products = () => {
                 </div>
             </section>
         </>
-    )
-}
-export default Products
+    );
+};
+
+export default Products;
