@@ -182,6 +182,23 @@
     text-transform: uppercase;
 }
 @media (max-width:769px){
+    .ServicesStickyCards:hover {
+        display: flex;
+        background-color: rgba(244, 244, 244, 0.583);
+        margin-bottom: 20px;
+        /* height: 35vh; */
+        transition: .5s;
+        padding: 50px 10px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+        border: 1px solid rgb(232, 232, 232);
+        border-radius: 10px;
+    }
+    .LeftSideContentContainer {
+        /* position: sticky;
+        top: 40%; */
+        padding-right: 0rem;
+        /* padding-left: 3rem; */
+    }
     .ServicesStickyCards{
         flex-direction: column;
     }
