@@ -18,9 +18,9 @@ const Footer = () => {
                                 <br />
                                 <p>Lorem ipsum dolor sit amet consectetur. Id fames there are many vulputate eget dolor.</p>
                                 <div className="LinksContainer">
-                                    <div><IoLocationSharp /><span>6391 Elgin St. Celina, Delaware 10299</span></div>
-                                    <div><IoMdCall /><span>+000-1234-456789</span></div>
-                                    <div><FaEnvelope /><span>toyup@gmail.com</span></div>
+                                    <div><IoLocationSharp /><span>B5/70, 1st Floor, Rama Road Industrial Area, New Delhi, India -110015.</span></div>
+                                    <div><IoMdCall /><span>+91 95990 36749</span></div>
+                                    <div><FaEnvelope /><span>info@seedotoys.com</span></div>
                                     {/* <div><span>+000-1234-55000</span></div> */}
                                 </div>
                             </div>

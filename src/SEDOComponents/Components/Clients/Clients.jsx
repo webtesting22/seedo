@@ -76,29 +76,26 @@ const Client = () => {
         <>
             <section id="ClientSection">
                 <div className="LeftSideContentContainer">
-                    <h2 className="PrimaryHeading-black">SEDO Clients</h2>
+                    <h2 className="PrimaryHeading-black">SEEDO Clients</h2>
                     <p>Trusted Partner</p>
                 </div>
                 <Row>
                     <Col lg={14}>
                         <div className="SectionEdit">
                             <div>
-                                <h2>Client Handled</h2>
+                                <h2>Clients Handled</h2>
                                 <p>Inspired by the "Make in India initiative"
                                     and the global interest in India as a
-                                    manufacturing hub, we saw a signifi-
-                                    cant opportunity in the toy industry,
+                                    manufacturing hub, we saw a significant opportunity in the toy industry,
                                     Driven by creativity and innovation, we
                                     spent six months developing a range
                                     of top-quality toys. Our commitment
                                     to safety and quality ensures our toys
                                     are affordable and meet the highest
-                                    standards. Seedo Toys captivates chil-
-                                    dren's imaginations while providing
-                                    parents with confidence in our crafts
-                                    manship and design We are excited
+                                    standards. Seedo Toys captivates children's imaginations while providing
+                                    parents with confidence in our craftsmanship and design. We are excited
                                     to present our toy collection and bring
-                                    joy to children everywhere</p>
+                                    joy to children everywhere.</p>
                             </div>
                         </div>
                     </Col>
@@ -135,17 +132,12 @@ const Client = () => {
                     <Col lg={14}>
                         <div className="SectionEdit">
                             <div>
-                                <h2>Licebsing Handled</h2>
+                                <h2>Licensing Handled</h2>
                                 <p>Committed to stringent standards, we
-                                    have built a state-of-the-art manufac-
-                                    turing facility adhering to global bench-
-                                    marks. Our facility features advanced
+                                    have built a state-of-the-art manufacturing facility adhering to global benchmarks. Our facility features advanced
                                     automation and quality management
-                                    systems, ensuring excellence through-
-                                    out. Seedo Toys proudly offers a pro-
-                                    duction capacity of 5 billion battery-op-
-                                    erated toys annually within our 75,000
-                                    square feet space We deliver large
+                                    systems, ensuring excellence throughout. Seedo Toys proudly offers a production capacity of 5 billion battery-operated toys annually within our 75,000
+                                    square feet space. We deliver large
                                     quantities without compromising on
                                     quality, upholding the highest standards
                                     of craftsmanship and safety.</p>
