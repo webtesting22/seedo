@@ -181,3 +181,18 @@
     font-weight: 500;
     text-transform: uppercase;
 }
+@media (max-width:769px){
+    .ServicesStickyCards{
+        flex-direction: column;
+    }
+    .AnimatedContent{
+        padding: 0;
+    }
+    .HoverableImage{
+        justify-content: center;
+        padding: 1rem 0rem;
+    }
+    .HoverableImage img{
+        width: 100%;
+    }
+}
