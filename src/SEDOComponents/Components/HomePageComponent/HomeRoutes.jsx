@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ScrollingVideoScreen from "../../CommonComponents/ScrollingVideoScreen/ScrollingVideoScreen";
 import HomePage from "../HomePage/HomePage";
 import ZoomCards from "../../CommonComponents/ZoomCards/ZoomCards";
@@ -7,15 +7,19 @@ import HomePageProducts from "../../CommonComponents/HomePageProducts/HomePagePr
 import Marquee from "../../CommonComponents/Marqee/Marquee";
 
 const HomeRoutes = () => {
+    useEffect(() => {
+        // Scroll to the top of the page when the component is mounted
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <>
             <section id="HomeComponentsContainer">
                 <HomePage />
                 <ScrollingVideoScreen />
                 <ZoomCards />
-                <TwoSlideContainer/>
+                <TwoSlideContainer />
                 {/* <Marquee/> */}
-                <HomePageProducts/>
+                <HomePageProducts />
                 {/* <AnimatedCar /> */}
             </section>
         </>

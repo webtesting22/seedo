@@ -1,7 +1,7 @@
 const NavigationLinks = [
 
     {
-        link: "AboutUs",
+        link: "About Us",
         path: "/aboutSeedo"
     },
     {

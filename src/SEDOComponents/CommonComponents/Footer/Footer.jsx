@@ -30,6 +30,7 @@ const Footer = () => {
                                     {/* <a>Home</a> */}
                                     <Link to="/">Home</Link>
                                     <Link to="/aboutSeedo">About Us</Link>
+                                    <Link to="/certification-and-client">Certifications and Clients</Link>
                                     <Link to="/products">Products</Link>
                                 </div>
                             </div>
