@@ -41,7 +41,7 @@ const AboutSeedo = () => {
                         {/* <div className="overlayContainer">
 
                         </div> */}
-                        <img src="https://images.unsplash.com/photo-1616267264277-1beeb1af1168?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+                        <img src="https://images.unsplash.com/photo-1664352603436-5138e3b679aa?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
                     </div>
                     <div style={{ padding: "20px" }}>
                         <span>

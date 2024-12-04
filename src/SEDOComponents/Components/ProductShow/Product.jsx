@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ProductPageBanner from "../../../../public/Images/Banners/CarsBanner.jpg";
 import "../../Styles/Product.css";
-import { Row, Col, Input, Slider,Tag } from "antd";
+import { Row, Col, Input, Slider, Tag } from "antd";
 import ProductData from "../../ProductData";
 import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -44,7 +44,7 @@ const Products = () => {
         <>
             <section id="ProductContainer">
                 <div className="BannerContainer">
-                    <img src={ProductPageBanner} alt="" />
+                    <img src="https://images.unsplash.com/photo-1531693251400-38df35776dc7?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
                 </div>
                 <div style={{ padding: "20px" }}>
                     <span>
@@ -67,11 +67,11 @@ const Products = () => {
                                         />
                                     </div>
                                     <div>
-            <h3>Selected Categories:</h3>
-            <Tag color="blue">Electronics</Tag>
-            <Tag color="green">Fashion</Tag>
-            <Tag color="red">Books</Tag>
-        </div>
+                                        <h3>Selected Categories:</h3>
+                                        <Tag color="blue">Electronics</Tag>
+                                        <Tag color="green">Fashion</Tag>
+                                        <Tag color="red">Books</Tag>
+                                    </div>
                                     <div className="PriceRange">
                                         <div className="PriceRangeContainer">
                                             <h3>Price Range</h3>

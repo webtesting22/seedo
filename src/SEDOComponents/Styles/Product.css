@@ -6,7 +6,7 @@
 }
 
 .BannerContainer {
-    height: 50vh;
+    height: 70vh;
     /* width: 100%; */
     overflow: hidden;
     display: flex;
@@ -70,5 +70,13 @@
         margin: 0px 0px;
         padding: 2rem 1rem;
         border-radius: 10px;
+    }
+    .BannerContainer {
+        height: 40vh;
+        /* width: 100%; */
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        padding: 10px;
     }
 }
