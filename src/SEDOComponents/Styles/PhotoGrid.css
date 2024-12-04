@@ -1,0 +1,37 @@
+#PhotosGrid {
+    padding-top: 5rem !important;
+    padding: 0rem 4rem;
+}
+
+#PhotosGrid img {
+    width: 100%;
+    /* margin: 10px; */
+}
+
+.GridContainer {
+    display: flex;
+
+}
+
+.BigPhoto {
+    height: 80vh;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
+    margin: 0px 10px;
+}
+
+.SmallPhotoContainer>div {
+    height: 39vh;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 100%;
+    margin: 0px 10px;
+}
+
+.SmallPhotoContainer>div:last-child {
+    margin-top: 10px;
+}

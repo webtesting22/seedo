@@ -5,6 +5,7 @@ import { Row, Col } from "antd";
 import Back from "./Back.png"
 import SeedoPoster from "../../../../public/Images/Banners/SeedoPoster.png"
 import SeedoCertification from "../Certification/SeedoCertification";
+import PhotosGrid from "../../CommonComponents/PhotosGrid/PhotosGrid";
 const AboutSeedo = () => {
     const ServicesCardData = [
         {
@@ -23,14 +24,11 @@ const AboutSeedo = () => {
             title: "Quality and Affordability",
             content: "Seedo Toys proves that high-quality products can also be affordable. By offering superior craftsmanship at budget-friendly prices, we challenge the norm and provide customers with excellent value, ensuring they get the best of both worlds—quality and affordability."
         },
-      
+
         {
             title: "Make in india",
             content: "As strong advocates for local manufacturing, we take pride in sourcing all our components from within India. We fully support and align with Mr. Narendra Modi's vision of promoting the Make in India* initiative, fostering economic growth and self-reliance in our nation"
         },
-       
-      
-
     ]
     return (
         <>
@@ -51,7 +49,7 @@ const AboutSeedo = () => {
                             <Col lg={24}>
                                 <div className="LeftSideContentContainer">
                                     {/* <h1>About SEDO</h1> */}
-                                    <h2>About SEEDO</h2>
+                                    <h2 className="PrimaryHeading-black">About SEEDO</h2>
                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys stan. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys stan.</p>
                                     {/* <button></button> */}
                                 </div>
@@ -92,6 +90,7 @@ const AboutSeedo = () => {
                     </div>
                 </div>
             </section>
+            <PhotosGrid/>
             <SeedoCertification />
         </>
     );

@@ -41,7 +41,7 @@ const SeedoCertification = () => {
         <>
             <section id="SeedoCertificationContainer">
                 <div className="LeftSideContentContainer">
-                    <h2>Industrial Certification</h2>
+                    <h2 className="PrimaryHeading-black">Industrial Certification</h2>
                     <p>Passed Testing, Awaiting Certificate</p>
                 </div>
                 <br />

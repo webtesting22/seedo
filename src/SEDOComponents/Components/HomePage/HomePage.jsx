@@ -100,7 +100,7 @@ const HomePage = () => {
                                             />
                                         )}
                                         <div className="ButtonsContainer">
-                                            <Link to="//aboutSeedo"><button className="buttonStylefirst">About Company</button></Link>
+                                            <Link to="/aboutSeedo"><button className="buttonStylefirst">About Company</button></Link>
                                             <button className="buttonStyleSecond">See the categories</button>
                                         </div>
                                     </div>
