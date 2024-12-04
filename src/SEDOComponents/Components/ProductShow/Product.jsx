@@ -68,19 +68,17 @@ const Products = () => {
                                     </div>
                                     <div>
                                         <h3>Selected Categories:</h3>
-                                        <Tag color="blue">Electronics</Tag>
-                                        <Tag color="green">Fashion</Tag>
-                                        <Tag color="red">Books</Tag>
+                                        <Tag >Cars</Tag>
+                                        <Tag >Teddies</Tag>
                                     </div>
+                                    {/* <br /> */}
                                     <div className="PriceRange">
-                                        <div className="PriceRangeContainer">
                                             <h3>Price Range</h3>
                                             <div className="PriceRange">
                                                 <span>Min: ₹0</span>
                                                 <span>Max: ₹50,000</span>
                                             </div>
                                             <Slider range defaultValue={[0, 50000]} disabled />
-                                        </div>
                                     </div>
                                 </div>
                             </Col>

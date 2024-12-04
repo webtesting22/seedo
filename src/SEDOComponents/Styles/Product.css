@@ -28,6 +28,9 @@
     padding: 2rem 1rem;
     border-radius: 10px;
 }
+.CategoriesFilters>div{
+    height: 200px;
+}
 
 #ProductCards {
     padding: 0px 20px;
@@ -58,6 +61,9 @@
 }
 
 @media (max-width:769px){
+    .CategoriesFilters>div{
+        height: 100px;
+    }
     #ProductCardRow .ant-col{
         padding: 0px;
     }
