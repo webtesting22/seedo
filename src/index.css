@@ -18,6 +18,9 @@
 #MainUniqHeading {
   display: flex;
 }
+#MainUniqHeading div{
+  overflow: hidden;
+}
 
 .paragraph {
   letter-spacing: -.03em;

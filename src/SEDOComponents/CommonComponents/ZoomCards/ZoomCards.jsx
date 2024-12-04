@@ -24,11 +24,16 @@ const ZoomCards = () => {
         <>
             <section id="ZoomCardsContainer">
                 <img src={ZoomBackImage} alt="" className="BackoverlayImage" />
-                <div>
-                    <h1 className="PrimaryHeading-black">Playful Creations </h1>
-                    <h1 className="PrimaryHeading-red"> Wonders</h1>
+                <div style={{ overflow: "hidden" }}>
+                    <h1 className="PrimaryHeading-black" data-aos="fade-right"
+                        data-aos-offset="300" data-aos-duration="500"
+                        data-aos-easing="ease-in-sine">Playful Creations </h1>
+                    <h1 className="PrimaryHeading-red" data-aos="fade-right"
+                        data-aos-offset="300" data-aos-duration="500"
+                        data-aos-easing="ease-in-sine"> Wonders</h1>
                 </div>
-                <ul className="avatars">
+                <ul className="avatars" data-aos="fade-up"
+                    data-aos-duration="500"> 
                     {items.map((item, index) => (
                         // <div>
                         <li

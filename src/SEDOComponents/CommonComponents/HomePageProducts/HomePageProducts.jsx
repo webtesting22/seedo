@@ -34,8 +34,10 @@ const HomePageProducts = () => {
                     <Row>
                         <Col lg={6} mg={24}>
                             <div className="SlideBarContainer">
-                            {ProductData.slice(0, 7).map((item, index) => (
-                                    <div key={index} className="ProductCardSlideBar">
+                                {ProductData.slice(0, 7).map((item, index) => (
+                                    <div key={index} className="ProductCardSlideBar" data-aos="fade-up"
+                                    // Set the fade-in animation
+                                                                                    data-aos-delay={`${index * 100}`}>
                                         <div className="imageShow">
                                             <img src={Construction} alt="" />
                                         </div>
@@ -50,14 +52,16 @@ const HomePageProducts = () => {
 
                         <Col lg={18} md={24}>
                             <div className="RightSideRow">
-                                <div style={{display:"flex",alignItems:"center",width:"100%",justifyContent:"space-between",marginBottom:"1rem"}}>
-                                <h2>Top Deals</h2>
-                                <Link to="/products"><button className="buttonStyleSecond" style={{padding:"0.75rem 2rem"}}>Explore More <FaLongArrowAltRight style={{marginLeft:"10px"}}/></button></Link>
+                                <div style={{ display: "flex", alignItems: "center", width: "100%", justifyContent: "space-between", marginBottom: "1rem" }}>
+                                    <h2>Top Deals</h2>
+                                    <Link to="/products"><button className="buttonStyleSecond" style={{ padding: "0.75rem 2rem" }}>Explore More <FaLongArrowAltRight style={{ marginLeft: "10px" }} /></button></Link>
                                 </div>
                                 <Row>
-                                {ProductData.slice(0, 9).map((item, index) => (
+                                    {ProductData.slice(0, 9).map((item, index) => (
                                         <Col lg={8} md={12} key={index}>
-                                            <div className="BigCardEdit">
+                                            <div className="BigCardEdit" data-aos="fade-up"
+// Set the fade-in animation
+                                                data-aos-delay={`${index * 100}`} >
                                                 <div className="HoverImageContainer">
                                                     <img src={Construction} alt="Default Image" className="defaultImage" />
                                                     <img

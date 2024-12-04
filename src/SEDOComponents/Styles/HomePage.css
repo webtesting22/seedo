@@ -43,6 +43,7 @@
     line-height: 100%;
     font-weight: 500;
     font-family: "Edu AU VIC WA NT Arrows", cursive;
+    padding-bottom: 2rem;
 }
 
 #MainUniqHeading span:first-child {
@@ -62,6 +63,31 @@
 
 .TaglineContainer {
     padding-top: 6rem;
+}
+
+.TaglineContainer hr {
+    width: 0%;
+    height: 1px;
+    margin: 10px 0px;
+    background-color: #ffffff;
+    /* Color of the line */
+    border: none;
+    transition: width 1s ease;
+    /* Optional transition for smoothness */
+    animation: expandLine 3s forwards;
+    /* Apply the animation */
+}
+
+@keyframes expandLine {
+    0% {
+        width: 0%;
+        /* Start at 0% width */
+    }
+
+    100% {
+        width: 100%;
+        /* End at 100% width */
+    }
 }
 
 .ButtonsContainer {

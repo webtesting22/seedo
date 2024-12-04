@@ -15,7 +15,7 @@
 
 .ProductCardSlideBar {
     display: flex;
-    transition: .5s;
+        transition: .5s;
 }
 .ProductCardSlideBar:hover{
     transform: scale(1.1);
