@@ -63,8 +63,7 @@ const AboutSeedo = () => {
                                 <div className="LeftSideContentContainer">
                                     {/* <h1>About SEDO</h1> */}
                                     <h2 className="PrimaryHeading-black">About SEEDO</h2>
-                                    <p>Sanson is a leading innovator in consumer and trade pro-
-                                        motions, trusted by major FMCG brands in India such as
+                                    <p>Sanson is a leading innovator in consumer and trade promotions, trusted by major FMCG brands in India such as
                                         Unilever, Glaxò, Perfetti, Mondelez, Britannia, and more.
                                         With extensive expertise in collaborating with global
                                         brands and managing OEM licensors like Disney, Marvel,

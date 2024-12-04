@@ -1,12 +1,16 @@
 const NavigationLinks = [
-   
+
     {
         link: "AboutUs",
-        path:"/aboutSeedo"
+        path: "/aboutSeedo"
     },
     {
-        link:"Product",
-        path:"/products"
+        link: "Certifications And Clients",
+        path: "/certification-and-client",
+    },
+    {
+        link: "Product",
+        path: "/products"
     }
 ]
 export default NavigationLinks

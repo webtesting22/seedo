@@ -1,50 +1,128 @@
 #NavigationContainer {
-    /* padding: 2rem; */
-    position: absolute;
-    z-index: 444444;
-    width: 100%;
+  /* padding: 2rem; */
+  position: absolute;
+  z-index: 444444;
+  width: 100%;
 }
 
 .NavigationLogo img {
-    width: 150px;
-    border-radius: 10px;
+  width: 150px;
+  border-radius: 10px;
+  position: sticky;
+  z-index: 10000000;
+
 }
 
 .ContainerNavigation {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem 3rem;
-    backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  backdrop-filter: blur(10px);
 }
 
 .LinksNavigation span {
-    margin: 0px 10px;
-    color: white;
+  margin: 0px 10px;
+  color: white;
 }
-.LinksNavigation span a{
-    color: white;
-    text-decoration: none;
-    transition: .5s;
+.LinksNavigation span a {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
 }
-.LinksNavigation span a:hover{
+.LinksNavigation span a:hover {
+  color: red;
+  text-decoration: none;
+  transition: 0.5s;
+  transform: translateY(10px);
+}
+.MenuToggle {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+.SidePanel {
+  display: flex;
+  justify-content: space-between;
+}
+.SidePanel span a {
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+}
+@media (max-width: 769px) {
+  .SidePanel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 10vh;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  .SidePanel.show {
+    transform: translateY(0);
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    height: 30vh;
+    background: white;
+    left: 0;
+    right: 0;
+    width: 100%;
+    flex-direction: column;
+  }
+  .SidePanel span{
+    padding: 10px 25px;
+  }
+  .SidePanel span a {
     color: red;
     text-decoration: none;
-    transition: .5s;
-    transform: translateY(10px);
-}
+    font-size: 15px;
+    transition: color 0.3s;
+  }
 
-@media (max-width:769px){
-    .ContainerNavigation {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0.5rem 1rem;
-        backdrop-filter: blur(10px);
-    }
-    .NavigationLogo img {
-        width: 100px;
-        border-radius: 10px;
-    }
-    
+  .SidePanel span a:hover {
+    color: red;
+  }
+  .ContainerNavigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    backdrop-filter: blur(10px);
+  }
+  .NavigationLogo img {
+    width: 100px;
+    border-radius: 10px;
+  }
+  .MenuToggle {
+    display: block;
+    color: red;
+    z-index: 10000;
+  }
+
+  .LinksNavigation {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+  }
+
+  .LinksNavigation.show {
+    display: flex;
+  }
+  .LinksNavigation span a {
+    color: black;
+  }
 }
