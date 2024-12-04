@@ -36,13 +36,16 @@
 }
 
 .SectionEdit {
-    padding-right: 2rem;
+    padding: 0rem 2rem;
     height: 100%;
     /* width: 100%; */
     display: flex;
     align-items: center;
 }
-.SectionEdit:last-child{
+/* .SectionEdit:last-child{
     padding-right: 0px;
     padding-left: 2rem;
-}
+} */
+ .SectionEdit h2{
+    font-weight: 500;
+ }
