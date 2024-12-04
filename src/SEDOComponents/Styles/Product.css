@@ -56,10 +56,11 @@
 
 @media (max-width:769px){
     #ProductShowContainer {
-        padding: 5rem 1rem;
+        padding: 3rem 1rem;
     }
     #ProductShowContainer .ant-row .ant-col{
         width: 100%;
+        margin: 10px 0px;
     }
     .CategoriesFilters {
         position: sticky;
