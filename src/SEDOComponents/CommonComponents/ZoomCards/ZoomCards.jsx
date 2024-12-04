@@ -24,7 +24,7 @@ const ZoomCards = () => {
         <>
             <section id="ZoomCardsContainer">
                 <img src={ZoomBackImage} alt="" className="BackoverlayImage" />
-                <div style={{ overflow: "hidden" }}>
+                <div >
                     <h1 className="PrimaryHeading-black" data-aos="fade-right"
                         data-aos-offset="300" data-aos-duration="500"
                         data-aos-easing="ease-in-sine">Playful Creations </h1>
