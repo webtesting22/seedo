@@ -6,7 +6,7 @@ import Drone from "../../../../public/Images/Banners/Drone.png"
 import CarBanner from "../../../../public/Images/Banners/CarBanner.jpeg"
 const TwoSlideContainer = () => {
     const [backgroundImage, setBackgroundImage] = useState(
-        "https://img.freepik.com/free-photo/green-easter-car-with-dotted-egg_23-2149301318.jpg?t=st=1733251376~exp=1733254976~hmac=71a0415dc642cb2490fa3c3338c34d25e58eac203d17c9d20e7f8f80185c5865&w=2000"
+        CarBanner
     );
     const [animationKey, setAnimationKey] = useState(0);
 
