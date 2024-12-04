@@ -5,6 +5,8 @@ import ScrollingVideoScreen from "../CommonComponents/ScrollingVideoScreen/Scrol
 import HomeRoutes from "../Components/HomePageComponent/HomeRoutes";
 import Products from "../Components/ProductShow/Product";
 import AboutSeedo from "../Components/AboutSEDO/AboutSeedo";
+import Footer from "../CommonComponents/Footer/Footer";
+
 const SEDORoutes = () => {
     return (
         <>
@@ -14,6 +16,7 @@ const SEDORoutes = () => {
                 <Route path="/products" element={<Products />} />
                 <Route path="/aboutSeedo" element={<AboutSeedo />} />
             </Routes>
+            <Footer/>
         </>
     )
 }

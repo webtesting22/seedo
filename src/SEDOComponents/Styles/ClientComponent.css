@@ -7,26 +7,36 @@
 .LogosContainer {
     width: 100%;
 }
+
 .ClientLogos img {
     width: 80%;
     aspect-ratio: 3/2;
     object-fit: contain;
-    animation: pulseGlow 2s infinite; /* Apply pulse animation */
+    animation: pulseGlow 2s infinite;
+    /* Apply pulse animation */
 }
 
 /* Define the pulse and glow animation */
 @keyframes pulseGlow {
     0% {
-        transform: scale(1); /* Default size */
-        filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5)); /* Light glow */
+        transform: scale(1);
+        /* Default size */
+        filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
+        /* Light glow */
     }
+
     50% {
-        transform: scale(1.05); /* Slightly larger */
-        filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.8)); /* Intense glow */
+        transform: scale(1.05);
+        /* Slightly larger */
+        filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.8));
+        /* Intense glow */
     }
+
     100% {
-        transform: scale(1); /* Return to default size */
-        filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5)); /* Light glow */
+        transform: scale(1);
+        /* Return to default size */
+        filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
+        /* Light glow */
     }
 }
 
@@ -42,10 +52,11 @@
     display: flex;
     align-items: center;
 }
+
 /* .SectionEdit:last-child{
     padding-right: 0px;
     padding-left: 2rem;
 } */
- .SectionEdit h2{
+.SectionEdit h2 {
     font-weight: 500;
- }
+}

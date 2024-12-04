@@ -1,0 +1,44 @@
+#Footer {
+    padding-top: 5rem !important;
+    padding: 0rem 4rem;
+    background-color: rgb(255, 223, 34);
+    margin-top: 3rem !important;
+    padding-bottom: 2rem;
+}
+
+.FooterLogoContainer img {
+    width: 100%;
+    padding: 0px !important;
+    border-radius: 25px;
+}
+
+#Footer h2 {
+    font-weight: 500 !important;
+}
+
+#Footer .ant-row .ant-col div {
+    padding-left: 3rem;
+}
+
+.LinksContainer {
+    padding: 0px !important;
+}
+
+.LinksContainer div {
+    padding: 0px !important;
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.LinksContainer div svg {
+    color: red;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+#Footer hr {
+    background: rgba(0, 0, 0, 0.318);
+    border: 0.5px solid rgba(0, 0, 0, 0.318);
+}
