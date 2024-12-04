@@ -1,9 +1,32 @@
-import React from "react";
+import React,{useEffect} from "react";
 import ProductPageBanner from "../../../../public/Images/Banners/CarsBanner.jpg"
 import "../../Styles/Product.css"
 import { Row, Col } from "antd";
 import ProductData from "../../ProductData";
+import { FaLongArrowAltRight } from "react-icons/fa";
+import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
 const Products = () => {
+    const renderStars = (rating) => {
+        const fullStars = Math.floor(rating); // Full stars
+        const halfStar = rating % 1 !== 0; // Check for half star
+        const emptyStars = 5 - Math.ceil(rating); // Remaining empty stars
+
+        return (
+            <>
+                {[...Array(fullStars)].map((_, index) => (
+                    <FaStar key={`full-${index}`} className="star full" />
+                ))}
+                {halfStar && <FaStarHalfAlt className="star half" />}
+                {[...Array(emptyStars)].map((_, index) => (
+                    <FaRegStar key={`empty-${index}`} className="star empty" />
+                ))}
+            </>
+        );
+    };
+    useEffect(() => {
+        // Scroll to the top of the page when the component is mounted
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <>
             <section id="ProductContainer">
@@ -45,9 +68,9 @@ const Products = () => {
                                                 <div className="TitleContainer">
                                                     <span>{item.Categories}</span>
                                                     <h4>{item.title}</h4>
-                                                    {/* <div className="ratingContainer">
+                                                    <div className="ratingContainer">
                                                         {renderStars(item.rating)}
-                                                    </div> */}
+                                                    </div>
 
                                                 </div>
                                             </div>

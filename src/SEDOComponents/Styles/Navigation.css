@@ -1,0 +1,35 @@
+#NavigationContainer {
+    /* padding: 2rem; */
+    position: absolute;
+    z-index: 444444;
+    width: 100%;
+}
+
+.NavigationLogo img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.ContainerNavigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    backdrop-filter: blur(10px);
+}
+
+.LinksNavigation span {
+    margin: 0px 10px;
+    color: white;
+}
+.LinksNavigation span a{
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+}
+.LinksNavigation span a:hover{
+    color: red;
+    text-decoration: none;
+    transition: .5s;
+    transform: translateY(10px);
+}

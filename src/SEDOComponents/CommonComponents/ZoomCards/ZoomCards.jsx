@@ -7,7 +7,7 @@ import DriftSeries from "../../../../public/Images/Products/DriftSeries.png"
 import Construction from "../../../../public/Images/Products/Construction.png"
 import NewLaunches from "../../../../public/Images/Products/NewLaunches.png"
 import ZoomBackImage from "../../../../public/Images/Banners/ZoomBackImage.jpg"
-
+import { Link } from "react-router-dom";
 const ZoomCards = () => {
     const [hoveredItem, setHoveredItem] = useState(null);
 
@@ -50,7 +50,7 @@ const ZoomCards = () => {
                     ))}
                 </ul>
                 <div className="ViewMoreBtn">
-                    <button className="buttonStyleSecond">Explore Toys World</button>
+                    <Link to="/products" style={{textDecoration:"none"}}><button className="buttonStyleSecond">Explore Toys World</button></Link>
                 </div>
 
             </section>

@@ -5,6 +5,7 @@ import SEEDOLogo from "../../../../public/SEEDOLogo.png"
 import { IoLocationSharp } from "react-icons/io5";
 import { IoMdCall } from "react-icons/io";
 import { FaEnvelope } from "react-icons/fa";
+import { Link } from "react-router-dom";
 const Footer = () => {
     return (
         <>
@@ -13,7 +14,7 @@ const Footer = () => {
                     <Row>
                         <Col lg={6}>
                             <div className="FooterLogoContainer" style={{ paddingLeft: "0px" }}>
-                                <img src={SEEDOLogo} alt="" />
+                                <Link to="/"><img src={SEEDOLogo} alt="" /></Link>
                                 <br />
                                 <p>Lorem ipsum dolor sit amet consectetur. Id fames there are many vulputate eget dolor.</p>
                                 <div className="LinksContainer">
