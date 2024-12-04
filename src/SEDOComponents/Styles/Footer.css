@@ -42,3 +42,32 @@
     background: rgba(0, 0, 0, 0.318);
     border: 0.5px solid rgba(0, 0, 0, 0.318);
 }
+
+@media (max-width:769px) {
+    #Footer {
+        padding-top: 3rem !important;
+        padding: 0rem 1rem;
+        background-color: rgb(255, 223, 34);
+        margin-top: 3rem !important;
+        padding-bottom: 2rem;
+    }
+
+    #Footer .ant-row .ant-col {
+        width: 100%;
+    }
+
+    #Footer .ant-row .ant-col div {
+        padding-left: 0rem;
+    }
+
+    .CopyWriteText p {
+        text-align: center;
+    }
+
+    .FooterLogoContainer img {
+        width: 100%;
+        padding: 0px !important;
+        border-radius: 25px;
+    }
+    
+}

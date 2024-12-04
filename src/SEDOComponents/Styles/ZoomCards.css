@@ -106,4 +106,38 @@ li {
     left: 0px;
     /* margin-top: -12rem; */
     z-index: -1;
+    
+}
+
+@media (max-width:769px){
+    li{
+        width: 30%;
+    }
+    .avatars {
+        display: flex;
+        flex-wrap: wrap;
+        gap: .75rem;
+        margin-top: 5rem;
+        /* overflow: hidden; */
+    }
+    #ZoomCardsContainer {
+
+        padding-top: 12rem !important;
+        padding: 0rem 1rem;
+        overflow: hidden;
+        padding-bottom: 5rem !important;
+        position: relative;
+        /* background-color: rgb(247, 216, 101); */
+    }
+    .BackoverlayImage {
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        /* margin-top: -12rem; */
+        z-index: -1;
+        height: 100%;
+        object-fit: cover;
+    }
+    
 }

@@ -32,7 +32,7 @@ const HomePageProducts = () => {
             <section id="HomePageProductContainer">
                 <div className="HomePageProductCard">
                     <Row>
-                        <Col lg={6} mg={24}>
+                        <Col lg={6} mg={24} style={{width:"100%"}}>
                             <div className="SlideBarContainer">
                                 <h2 style={{ marginLeft: "10px", marginTop: "0px" }}>Trending Toys</h2>
                                 {ProductData.slice(0, 7).map((item, index) => (

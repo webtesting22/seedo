@@ -107,3 +107,49 @@
 #ContentContainer .AnimatedSVGContainer>div {
     width: 50%;
 }
+
+@media (max-width:769px){
+    #BackImageOverlay {
+        overflow: hidden;
+        height: 1200px;
+        width: 100%;
+    
+    }
+    .ButtonsContainer {
+        display: flex;
+        align-items: center;
+        gap: 0rem 1rem;
+        margin: 2rem 0rem;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .ButtonsContainer button{
+        width: 100%;
+    }
+    .ButtonsContainer .buttonStylefirst, .ButtonsContainer .buttonStyleSecond{
+        padding: 1rem auto;
+    }
+    #ContentContainer .AnimatedSVGContainer>div {
+        width: 100%;
+    }
+#ContentContainer .AnimatedSVGContainer {
+    padding: 0rem 1rem;
+    padding-top: 5rem;
+    display: flex;
+    justify-content: end;
+    display: none;
+}
+    #ContentContainer .ant-row {
+        padding: 0rem 1rem;
+        padding-top: 15rem;
+    }
+    #MainUniqHeading span {
+        font-size: 4rem;
+        color: white;
+        line-height: 100%;
+        font-weight: 500;
+        font-family: "Edu AU VIC WA NT Arrows", cursive;
+        padding-bottom: 0.5rem;
+    }
+    
+}

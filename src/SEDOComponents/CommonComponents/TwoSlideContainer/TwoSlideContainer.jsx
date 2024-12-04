@@ -31,8 +31,8 @@ const TwoSlideContainer = () => {
                     className="backgroundImage"
                     style={{ backgroundImage: `url(${backgroundImage})` }}
                 ></div>
-                <Row>
-                    <Col lg={24}>
+                <Row style={{width:"100%"}}>
+                    <Col lg={24} style={{width:"100%"}}>
                         <div className="ImageCard">
                             <div className="ImageContainer">
                                 <div className="overlayColor"></div>

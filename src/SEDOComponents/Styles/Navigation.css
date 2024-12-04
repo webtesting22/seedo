@@ -33,3 +33,13 @@
     transition: .5s;
     transform: translateY(10px);
 }
+
+@media (max-width:769px){
+    .ContainerNavigation {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 1rem;
+        backdrop-filter: blur(10px);
+    }
+}

@@ -32,8 +32,6 @@
 }
 
 .ProductCardSlideBar .imageShow {
-    /* display: flex; */
-    /* align-items: center; */
     padding-left: 1rem;
     display: flex;
     align-items: center;
@@ -168,4 +166,64 @@
 .BigCardEdit:hover .hoverImage {
     opacity: 1;
     /* Show the hover image on hover */
+}
+
+@media (max-width:769px) {
+    .BigCardEdit {
+        height: 20vh !important;
+        width: 97%;
+        background-color: rgb(255, 255, 255);
+        margin: 5px;
+        border-radius: 10px;
+        border: 1px solid rgb(219 219 219 / 42%);
+    }
+    .HoverImageContainer {
+        padding: 2rem 0rem;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        position: relative;
+        transition: .5s;
+    }
+    
+    .RightSideRow .ant-row .ant-col{
+        width: 50% !important;
+    }
+    .RightSideRow {
+        padding-left: 0rem;
+    }
+    .TitleShow h4 {
+        margin-top: 10px;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .ProductCardSlideBar .imageShow img {
+        width: 100%;
+        background-color: #f4f4f4;
+        padding: 1rem 0rem;
+        border-radius: 10px;
+
+    }
+
+    #HomePageProductContainer {
+        padding-top: 3rem !important;
+        padding: 0rem 1rem;
+    }
+
+    .ProductCardSlideBar {
+        display: flex;
+        transition: .5s;
+        flex-direction: column;
+    }
+
+    .ProductCardSlideBar {
+        height: 30vh;
+        width: 100%;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.257);
+        margin-bottom: 1rem;
+        /* background-color: green; */
+    }
+
 }

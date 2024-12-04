@@ -112,3 +112,37 @@
     transition: .5s;
     -webkit-text-stroke: 0;
 }
+
+@media (max-width:769px){
+
+.outlineText {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    width: 100%;
+    /* font-style: italic; */
+    transition: .5s;
+    text-align: center;
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+}
+
+.HeadingContainer {
+    /* height: 100%;  */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 3;
+    flex-wrap: wrap;
+}
+    #TwoSlideContainer {
+        margin-top: 5rem;
+        padding: 0rem 1rem;
+        position: relative;
+    }
+}
