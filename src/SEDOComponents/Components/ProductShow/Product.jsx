@@ -85,7 +85,7 @@ const Products = () => {
                                 </div>
                             </Col>
                             <Col lg={18}>
-                                <Row>
+                                <Row id="ProductCardRow">
                                     {filteredProducts.map((item, index) => (
                                         <Col lg={8} md={12} key={index}>
                                             <div

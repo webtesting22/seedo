@@ -53,8 +53,14 @@
 .ProductCardDesign div h2 {
     margin-top: 0px;
 }
+#ProductCardRow .ant-col{
+    padding: 5px;
+}
 
 @media (max-width:769px){
+    #ProductCardRow .ant-col{
+        padding: 0px;
+    }
     #ProductShowContainer {
         padding: 3rem 1rem;
     }

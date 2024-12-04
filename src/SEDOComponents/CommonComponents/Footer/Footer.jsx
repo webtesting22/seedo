@@ -61,7 +61,7 @@ const Footer = () => {
                 </div>
                 <hr />
                 <div className="CopyWriteText">
-                    <p>© 2024 OutLead Solutions. All rights reserved.</p>
+                    <p>© 2024 <Link to="https://www.outleadsolutions.com/" target="_blank" style={{color:"white",textDecoration:"none"}}><b>OutLead Solutions.</b></Link> All rights reserved.</p>
                 </div>
             </section>
         </>

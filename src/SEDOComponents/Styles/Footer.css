@@ -1,106 +1,124 @@
 #Footer {
-  padding-top: 5rem !important;
-  padding: 0rem 4rem;
-  background-color: rgb(255, 223, 34);
-  margin-top: 3rem !important;
-  padding-bottom: 2rem;
+    padding-top: 5rem !important;
+    padding: 0rem 4rem;
+    background-color: rgb(0 0 0 / 93%);
+    margin-top: 3rem !important;
+    padding-bottom: 2rem;
 }
 
 .FooterLogoContainer img {
-  width: 70%;
-  padding: 0px !important;
-  border-radius: 25px;
+    width: 70%;
+    padding: 0px !important;
+    border-radius: 25px;
 }
 
 #Footer h2 {
-  font-weight: 500 !important;
-  margin-top: 0;
-  color: red;
+    font-weight: 500 !important;
+    margin-top: 0;
+    color: #ffdf22;
 }
 
 .LinksContainer {
-  padding: 0px !important;
+    padding: 0px !important;
 }
 
 .LinksContainer div {
-  padding-left: 0 !important;
-  padding-bottom: 10px;
-  display: flex;
-  align-items: center;
+    padding-left: 0 !important;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
 }
+
 .LinksContainer a {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: white;
 }
+
 .LinksContainer a:hover {
-  color: red;
+    color: white;
 }
+
 .LinksContainer div svg {
-  color: red;
-  height: 30px;
-  width: 30px;
-  margin-right: 10px;
+    color: white;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
 }
 
 #Footer hr {
-  background: rgba(0, 0, 0, 0.318);
-  border: 0.5px solid rgba(0, 0, 0, 0.318);
+    background: rgba(0, 0, 0, 0.318);
+    border: 0.5px solid rgba(255, 255, 255, 0.163);
 }
+
 .footerNavigation {
-  display: flex;
-  flex-direction: column;
-  padding-left: 0 !important;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0 !important;
 }
+
 .footerNavigation a {
-  color: black;
-  padding-bottom: 10px;
-  text-decoration: none;
+    color: white;
+    padding-bottom: 10px;
+    text-decoration: none;
 }
-.footerNavigation a:hover{
-    color: red;
+
+.footerNavigation a:hover {
+    color: #ffdf22;
 }
+
 .FooterCategoriesContainer {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
+
 .FooterCategoriesContainer p {
-  margin: 0;
-  padding-bottom: 10px;
+    margin: 0;
+    padding-bottom: 10px;
+    color: white;
 }
+
 .FooterCategoriesContainer a {
-  color: red;
+    color: #ffdf22;
 }
-@media (max-width: 769px) {
-  #Footer {
-    padding-top: 3rem !important;
-    padding: 0rem 1rem;
-    background-color: rgb(255, 223, 34);
-    margin-top: 3rem !important;
-    padding-bottom: 1rem;
-  }
 
-  #Footer .ant-row .ant-col {
-    width: 100%;
-  }
-
-  #Footer .ant-row .ant-col div {
-    padding-left: 0rem;
-  }
-
-  .CopyWriteText p {
+.CopyWriteText p {
     text-align: center;
-  }
+    color: #ffffff;
+}
 
-  .FooterLogoContainer img {
-    width: 100%;
-    padding: 0px !important;
-    border-radius: 25px;
-    margin-bottom: 1rem;
-  }
-  .FooterLinksContainer {
-    padding-left: 1rem !important;
-  }
-  .LinksContainer {
-    padding-left: 1rem !important;
-  }
+@media (max-width: 769px) {
+    #Footer {
+        padding-top: 2rem !important;
+        padding: 0rem 1rem;
+        background-color: rgb(0 0 0 / 93%);
+        margin-top: 3rem !important;
+        padding-bottom: 1rem;
+    }
+
+    #Footer .ant-row .ant-col {
+        width: 100%;
+    }
+
+    #Footer .ant-row .ant-col div {
+        padding-left: 0rem;
+    }
+
+    .CopyWriteText p {
+        text-align: center;
+    }
+
+    .FooterLogoContainer img {
+        width: 70%;
+        padding: 0px !important;
+        border-radius: 25px;
+        margin-bottom: 1rem;
+    }
+
+    .FooterLinksContainer {
+        padding-left: 1rem !important;
+    }
+
+    .LinksContainer {
+        padding-left: 1rem !important;
+    }
 }
