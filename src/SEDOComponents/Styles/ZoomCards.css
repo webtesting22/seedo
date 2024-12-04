@@ -83,7 +83,7 @@ li {
     display: flex;
     gap: .75rem;
     margin-top: 5rem;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .avatars li h5 {
