@@ -31,4 +31,8 @@
         padding-top: 2rem;
         padding: 0rem 1rem;
     }
+
+#SeedoCertificationContainer .ant-row .ant-col{
+    width: 50%;
+}
 }
