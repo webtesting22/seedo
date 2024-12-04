@@ -40,10 +40,10 @@ const HomePageProducts = () => {
                                         // Set the fade-in animation
                                         data-aos-delay={`${index * 100}`}>
                                         <div className="imageShow">
-                                            <img src={Construction} alt="" />
+                                            <img src={item.image}alt="" />
                                         </div>
                                         <div className="TitleShow">
-                                            <span>Construction</span>
+                                            {/* <span>Construction</span> */}
                                             <h4>{item.title}</h4>
                                         </div>
                                     </div>
