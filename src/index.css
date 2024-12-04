@@ -44,7 +44,7 @@
   align-items: center;
   padding: 1.75rem 3rem;
   font-size: 1.25rem;
-  font-weight: 600;
+  font-weight: 300;
   line-height: 90%;
   text-decoration: none;
   transition: background-color .2s, color .3s;
@@ -62,11 +62,12 @@
   cursor: pointer;
   background-color: red;
   border-radius: 2000px;
+  font-weight: 300;
   justify-content: center;
   align-items: center;
   padding: 1.75rem 3rem;
   font-size: 1.25rem;
-  font-weight: 600;
+  font-weight: 300;
   line-height: 90%;
   text-decoration: none;
   transition: background-color .2s, color .3s;
@@ -88,7 +89,7 @@
   align-items: center;
   padding: 1.75rem 3rem;
   font-size: 1.25rem;
-  font-weight: 600;
+  font-weight: 300;
   line-height: 90%;
   text-decoration: none;
   transition: background-color .2s, color .3s;

@@ -54,8 +54,8 @@ const HomePageProducts = () => {
                                             {/* <span>Construction</span> */}
                                             <h4>{item.title}</h4>
                                             <div className="ratingContainer">
-                                                        {renderStars(item.rating)}
-                                                    </div>
+                                                {renderStars(item.rating)}
+                                            </div>
                                         </div>
                                     </div>
                                 ))}
@@ -70,7 +70,7 @@ const HomePageProducts = () => {
                                     </svg>
                                     <h2>Top Deals</h2>
                                 </div>
-                                <Link to="/products"><button className="buttonStyleSecond" style={{ padding: "0.75rem 2rem" }}>Explore More <FaLongArrowAltRight style={{ marginLeft: "10px" }} /></button></Link>
+                                <Link to="/products"><button className="buttonStyleSecond" style={{ padding: "0.75rem 2rem" }}>Explore More</button></Link>
                             </div>
                             <div className="RightSideRow">
 
