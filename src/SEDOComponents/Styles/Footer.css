@@ -87,6 +87,8 @@
 }
 
 @media (max-width: 769px) {
+
+
     #Footer {
         padding-top: 2rem !important;
         padding: 0rem 1rem;
@@ -120,5 +122,6 @@
 
     .LinksContainer {
         padding-left: 1rem !important;
+        padding-top: 2rem !important;
     }
 }
