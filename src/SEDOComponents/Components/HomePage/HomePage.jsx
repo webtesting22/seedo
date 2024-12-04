@@ -85,6 +85,7 @@ const HomePage = () => {
                                         className="TaglineContainer"
                                         ref={animationRef} // Attach ref for Intersection Observer
                                     >
+                                        <p style={{color:"#ffdf22"}}><b>SANSON PROMO INNOVATIONS LLP</b></p>
                                         <hr />
                                         {animationTriggered && (
                                             <TypeAnimation
