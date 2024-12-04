@@ -9,10 +9,14 @@ const TwoSlideContainer = () => {
     const [animationKey, setAnimationKey] = useState(0);
 
     const headings = [
-        { text: "Hello 1", image: "https://images.unsplash.com/photo-1609395464110-7116592351c6?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-        { text: "Hello 2", image: "https://plus.unsplash.com/premium_photo-1684795780827-3b1830a7daa0?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-        { text: "Hello 3", image: "https://img.freepik.com/premium-photo/festive-valentine-s-day-holiday-flat-lay-annual-holiday-shopping-concept-reasonable-consumption_330121-278.jpg?w=1800" },
+        { text: "Racing Car", image: "https://images.unsplash.com/photo-1609395464110-7116592351c6?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+        { text: "Rock Crawler", image: "https://plus.unsplash.com/premium_photo-1684795780827-3b1830a7daa0?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+        { text: "Hyper Car", image: "https://img.freepik.com/premium-photo/festive-valentine-s-day-holiday-flat-lay-annual-holiday-shopping-concept-reasonable-consumption_330121-278.jpg?w=1800" },
+        { text: "Drone", image: "https://img.freepik.com/premium-photo/festive-valentine-s-day-holiday-flat-lay-annual-holiday-shopping-concept-reasonable-consumption_330121-278.jpg?w=1800" },
+        { text: "Twisting Stunt", image: "https://img.freepik.com/premium-photo/festive-valentine-s-day-holiday-flat-lay-annual-holiday-shopping-concept-reasonable-consumption_330121-278.jpg?w=1800" },
+
     ];
+
 
     const handleHover = (image) => {
         setBackgroundImage(image);
