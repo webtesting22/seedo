@@ -12,6 +12,7 @@
     border-radius: 10px;
     overflow: auto;
     margin-top: 5px;
+    overflow: hidden;
 }
 
 .ProductCardSlideBar {
