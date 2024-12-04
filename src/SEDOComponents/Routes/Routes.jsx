@@ -4,6 +4,7 @@ import MegaNavigation from "../Components/MegaNavigation/MegaNavigation";
 import ScrollingVideoScreen from "../CommonComponents/ScrollingVideoScreen/ScrollingVideoScreen";
 import HomeRoutes from "../Components/HomePageComponent/HomeRoutes";
 import Products from "../Components/ProductShow/Product";
+import AboutSeedo from "../Components/AboutSEDO/AboutSeedo";
 const SEDORoutes = () => {
     return (
         <>
@@ -11,6 +12,7 @@ const SEDORoutes = () => {
             <Routes>
                 <Route path="/" element={<HomeRoutes />} />
                 <Route path="/products" element={<Products />} />
+                <Route path="/aboutSeedo" element={<AboutSeedo />} />
             </Routes>
         </>
     )

@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import "../../Styles/HomePage.css";
 import { Row, Col } from "antd";
 import { TypeAnimation } from "react-type-animation";
+import { Link } from "react-router-dom";
 const HomePage = () => {
     const imageRef = useRef(null);
     const sectionRef = useRef(null);  // Ref for the section to apply shadow effect
@@ -85,7 +86,7 @@ const HomePage = () => {
                                         className="TaglineContainer"
                                         ref={animationRef} // Attach ref for Intersection Observer
                                     >
-                                        <p style={{color:"#ffdf22"}}><b>SANSON PROMO INNOVATIONS LLP</b></p>
+                                        <p style={{ color: "#ffdf22" }}><b>SANSON PROMO INNOVATIONS LLP</b></p>
                                         <hr />
                                         {animationTriggered && (
                                             <TypeAnimation
@@ -99,7 +100,7 @@ const HomePage = () => {
                                             />
                                         )}
                                         <div className="ButtonsContainer">
-                                            <button className="buttonStylefirst">Explore Now</button>
+                                            <Link to="//aboutSeedo"><button className="buttonStylefirst">About Company</button></Link>
                                             <button className="buttonStyleSecond">See the categories</button>
                                         </div>
                                     </div>

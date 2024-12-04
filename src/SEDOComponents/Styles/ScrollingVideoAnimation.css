@@ -1,6 +1,6 @@
 #ScrollingVideoAnimationContainer {
     height: 80vh;
-    width: 100%;
+    /* width: 100%; */
     background-color: rgb(0 0 0 / 93%);
     /* margin-top: 100vh; */
     position: relative;
@@ -8,7 +8,8 @@
     /* justify-content: center; */
     align-items: center;
     flex-direction: column;
-    padding-top: 5rem;
+    padding-top: 5rem !important;
+    padding: 0rem 4rem;
 }
 
 .VideoContainer {
@@ -18,8 +19,8 @@
 }
 
 .ScrollingVideoHeading {
-    max-width: 100%;
-    padding: 0rem 4rem;
+    width: 100%;
+    /* padding: 0rem 4rem; */
     display: flex;
 }
 

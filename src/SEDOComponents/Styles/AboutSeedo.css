@@ -1,0 +1,183 @@
+.overlayContainer {
+    background-color: #00000059;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 50vh;
+    width: 100%;
+    z-index: 2;
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.2) 30%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.2) 70%);
+    background-size: 200% 100%;
+    animation: shineEffect 2s linear infinite;
+
+}
+
+@keyframes shineEffect {
+    0% {
+        background-position: -200% 0;
+        /* Start from left */
+    }
+
+    100% {
+        background-position: 200% 0;
+        /* End at right */
+    }
+}
+
+#AboutSEDOSection {
+    position: relative;
+
+}
+
+.overlayContainersecond {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.086);
+    z-index: 1;
+}
+
+.AboutUsContentContainer {
+    padding-top: 5rem !important;
+    padding: 0rem 4rem;
+
+}
+
+.HoverableImage {
+    height: 100%;
+    /* width: 100%; */
+    padding: 0rem 2rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.HoverableImage img {
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+    transition: .5s;
+}
+
+.ServicesStickyCards {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.583);
+    margin-bottom: 20px;
+    /* height: 35vh; */
+    transition: .5s;
+    border-bottom: 1px solid #e5e5e5 !important;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 30px 0px;
+}
+
+.ServicesStickyCards:hover {
+    display: flex;
+    background-color: rgba(244, 244, 244, 0.583);
+    margin-bottom: 20px;
+    /* height: 35vh; */
+    transition: .5s;
+    padding: 50px 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 10px;
+}
+
+
+
+.ServicesStickyCards:hover .HoverableImage img {
+    transform: scale(1.03);
+    transition: .5s;
+    border-radius: 20px;
+}
+
+.AnimatedContent {
+    padding: 0rem 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.AnimatedContent p {
+    margin: 0px;
+}
+
+.LeftSideContentContainer {
+    position: sticky;
+    top: 40%;
+    padding-right: 3rem;
+    /* padding-left: 3rem; */
+}
+
+.LeftSideContentContainer h2 {
+    font-size: 48px;
+    margin-bottom: 0px;
+    /* font-weight: 400; */
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+    /* color: red; */
+}
+
+.LeftSideContentContainer h1 {
+    font-size: 70px;
+    position: absolute;
+    margin-top: 1.8rem;
+    text-transform: uppercase;
+    color: rgba(128, 128, 128, 0.053);
+    /* Base gray color for the text */
+    background-image: linear-gradient(45deg,
+            rgba(151, 151, 151, 0.1) 30%,
+            /* Overlay black gradient */
+            rgba(0, 0, 0, 0.086) 50%,
+            rgba(157, 157, 157, 0.1) 70%);
+    background-size: 400%;
+    /* Allows gradient movement */
+    -webkit-background-clip: text;
+    /* Clips the background gradient to text */
+    background-clip: text;
+    color: transparent;
+    /* Makes the base color visible with gradient animation */
+    animation: Heading 4s linear infinite;
+    /* Smooth animation */
+}
+
+@keyframes Heading {
+    0% {
+        background-position: -200% 0;
+        /* Start far left */
+    }
+
+    100% {
+        background-position: 200% 0;
+        /* Move to far right */
+    }
+}
+
+.imageAnimation {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.imageAnimation svg {
+    /* position: absolute;
+    top: 25px;
+    left: -5px; */
+    color: red;
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+}
+
+.imageAnimation h2 {
+    margin-left: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: red;
+    font-weight: 500;
+    text-transform: uppercase;
+}

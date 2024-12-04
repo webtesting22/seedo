@@ -33,7 +33,7 @@ const ZoomCards = () => {
                         data-aos-easing="ease-in-sine"> Wonders</h1>
                 </div>
                 <ul className="avatars" data-aos="fade-up"
-                    data-aos-duration="500"> 
+                    data-aos-duration="500">
                     {items.map((item, index) => (
                         // <div>
                         <li
