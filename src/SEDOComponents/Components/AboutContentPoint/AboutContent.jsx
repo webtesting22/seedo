@@ -106,7 +106,7 @@ const AboutContent = () => {
                         </div>
                     </Col>
                 </Row>
-                <Row>
+                <Row className="row-reverse">
 
                     <Col lg={8}>
                         <div id="swiperContainerSecond">
@@ -135,7 +135,7 @@ const AboutContent = () => {
                         </div>
                     </Col>
                     <Col lg={16}>
-                        <div className="ContentContainerCarousal">
+                        <div className="ContentContainerCarousal ContentContainerCarousal2">
                             <div>
                                 <br />
                                 <h2>Self-Reliant PCB Manufacturing</h2>

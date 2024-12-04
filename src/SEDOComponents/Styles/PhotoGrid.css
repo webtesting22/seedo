@@ -37,9 +37,15 @@
 }
 @media (max-width:769px){
     .BigPhoto{
-        height: 30vh;
+        height: 31vh;
     }
     .SmallPhotoContainer>div{
         height: 15vh;
+    }
+    #PhotosGrid img{
+        height: 100%;
+    }
+    #PhotosGrid{
+        padding: 0rem 1rem;
     }
 }

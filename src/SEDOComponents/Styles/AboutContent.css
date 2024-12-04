@@ -57,19 +57,7 @@
         padding-top: 1rem !important;
         padding: 0rem 1rem;
     }
-    #swiperContainerFirst{
-        margin-bottom: 2rem;
+    .ContentContainerCarousal2{
+        padding-top: 2rem;
     }
-    #swiperContainerFirst .swiper-slide img {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
-    #swiperContainerSecond .swiper-slide img {
-        height: 100%;
-    width: 100%;
-        object-fit: cover;
-        margin-bottom: 1rem;
-    }
-    
 }

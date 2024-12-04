@@ -224,3 +224,9 @@
     transform: rotate(360deg);
   }
 }
+@media (max-width:769px){
+  .row-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

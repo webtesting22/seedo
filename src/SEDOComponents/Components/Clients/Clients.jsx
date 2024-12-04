@@ -114,7 +114,7 @@ const Client = () => {
                     </Col>
                 </Row>
                 <br /><br />
-                <Row>
+                <Row className="row-reverse">
 
                     <Col lg={10}>
                         <div className="LogosContainer">
