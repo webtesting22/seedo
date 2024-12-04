@@ -4,6 +4,7 @@ import HomePage from "../HomePage/HomePage";
 import ZoomCards from "../../CommonComponents/ZoomCards/ZoomCards";
 import TwoSlideContainer from "../../CommonComponents/TwoSlideContainer/TwoSlideContainer";
 import HomePageProducts from "../../CommonComponents/HomePageProducts/HomePageProducts";
+import Marquee from "../../CommonComponents/Marqee/Marquee";
 
 const HomeRoutes = () => {
     return (
@@ -13,6 +14,7 @@ const HomeRoutes = () => {
                 <ScrollingVideoScreen />
                 <ZoomCards />
                 <TwoSlideContainer/>
+                {/* <Marquee/> */}
                 <HomePageProducts/>
                 {/* <AnimatedCar /> */}
             </section>

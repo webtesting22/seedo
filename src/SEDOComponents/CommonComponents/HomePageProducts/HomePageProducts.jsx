@@ -6,6 +6,8 @@ import Construction from "../../../../public/Images/Products/Construction.png"
 import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
 import DriftSeries1 from "../../../../public/Images/Products/DriftSeries1.png"
 import { Link } from "react-router-dom";
+import { FaLongArrowAltRight } from "react-icons/fa";
+
 const HomePageProducts = () => {
     const renderStars = (rating) => {
         const fullStars = Math.floor(rating); // Full stars
@@ -50,7 +52,7 @@ const HomePageProducts = () => {
                             <div className="RightSideRow">
                                 <div style={{display:"flex",alignItems:"center",width:"100%",justifyContent:"space-between",marginBottom:"1rem"}}>
                                 <h2>Top Deals</h2>
-                                <Link to="/products"><button className="buttonStyleSecond" style={{padding:"0.75rem 2rem"}}>Explore More</button></Link>
+                                <Link to="/products"><button className="buttonStyleSecond" style={{padding:"0.75rem 2rem"}}>Explore More <FaLongArrowAltRight style={{marginLeft:"10px"}}/></button></Link>
                                 </div>
                                 <Row>
                                 {ProductData.slice(0, 9).map((item, index) => (

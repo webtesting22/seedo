@@ -1,0 +1,33 @@
+#marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.marqueeContent {
+    display: inline-flex;
+    animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.marqueeItem {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.marqueeItem .icon {
+    margin-right: 8px;
+    font-size: 24px;
+}
