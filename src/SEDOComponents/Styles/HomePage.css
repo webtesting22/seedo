@@ -6,7 +6,7 @@
 
 #BackImageOverlay {
     overflow: hidden;
-    height: 200vh;
+    height: 1700px;
     width: 100%;
 
 }
@@ -111,7 +111,7 @@
 @media (max-width:769px){
     #BackImageOverlay {
         overflow: hidden;
-        height: 1200px;
+        height: 1900px;
         width: 100%;
     
     }
@@ -137,7 +137,7 @@
     padding-top: 5rem;
     display: flex;
     justify-content: end;
-    display: none;
+    /* display: none; */
 }
     #ContentContainer .ant-row {
         padding: 0rem 1rem;
