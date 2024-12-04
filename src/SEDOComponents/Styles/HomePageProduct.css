@@ -79,6 +79,7 @@
 
 .RightSideRow {
     padding-left: 2rem;
+
 }
 
 .HoverImageContainer {
@@ -194,7 +195,7 @@
     }
 
     .HoverImageContainer {
-        padding: 2rem 0rem;
+        padding: 0rem 0rem;
         height: 170px;
         display: flex;
         align-items: center;
@@ -206,10 +207,12 @@
 
     .RightSideRow .ant-row .ant-col {
         width: 50% !important;
+        margin: 3px 0px;
     }
 
     .RightSideRow {
         padding-left: 0rem;
+        padding-top: 2rem;
     }
 
     .TitleShow h4 {
