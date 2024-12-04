@@ -72,12 +72,16 @@
     visibility: visible;
     opacity: 1;
     transition: 0.5s;
-    height: 30vh;
+    height: 28vh;
     background: white;
     left: 0;
     right: 0;
     width: 100%;
     flex-direction: column;
+    display: flex
+;
+    justify-content: end;
+    padding-bottom: 20px;
   }
   .SidePanel span{
     padding: 10px 25px;
