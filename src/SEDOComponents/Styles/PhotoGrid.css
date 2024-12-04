@@ -36,8 +36,21 @@
     margin-top: 10px;
 }
 @media (max-width:769px){
+
+.SmallPhotoContainer>div {
+    height: 39vh;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 100%;
+    margin: 0px 4px;
+}
+
+    .SmallPhotoContainer>div:last-child {
+        margin-top: 3px;
+    }
     .BigPhoto{
         height: 31vh;
+        margin: 0px;
     }
     .SmallPhotoContainer>div{
         height: 15vh;

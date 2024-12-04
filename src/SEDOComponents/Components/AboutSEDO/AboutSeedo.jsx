@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import ProductPageBanner from "../../../../public/Images/Banners/CarsBanner.jpg";
 import "../../Styles/AboutSeedo.css";
 import { Row, Col } from "antd";
@@ -33,6 +33,10 @@ const AboutSeedo = () => {
             content: "As strong advocates for local manufacturing, we take pride in sourcing all our components from within India. We fully support and align with Mr. Narendra Modi's vision of promoting the Make in India* initiative, fostering economic growth and self-reliance in our nation"
         },
     ]
+    useEffect(() => {
+        // Scroll to the top of the page when the component is mounted
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <>
             <section id="AboutSEDOSection">
@@ -107,8 +111,8 @@ const AboutSeedo = () => {
             </section>
             <AboutContent />
             <PhotosGrid />
-            <SeedoCertification />
-            <Client />
+            {/* <SeedoCertification />
+            <Client /> */}
 
         </>
     );
