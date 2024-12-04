@@ -78,11 +78,11 @@
 }
 
 .buttonStyleSecond:hover {
-  color: white;
+  color: red;
   text-align: center;
   letter-spacing: -.04em;
   cursor: pointer;
-  background-color: rgb(255, 0, 0);
+  background-color: white;
   border-radius: 2000px;
   justify-content: center;
   align-items: center;
@@ -99,6 +99,7 @@
   transform: scale(1.05);
   transition: .5s;
   transform: translateY(-10px);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 
