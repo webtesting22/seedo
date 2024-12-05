@@ -9,32 +9,45 @@ import logo5 from "../../../../public/Images/Logos/ISO.png"
 import logo6 from "../../../../public/Images/Logos/Manak.png"
 import logo7 from "../../../../public/Images/Logos/MSME.png"
 import logo8 from "../../../../public/Images/Logos/ROHS.png"
-
+import MakeInIndia from "../../../../public/Images/Logos/MakeInIndia.jpg"
 const SeedoCertification = () => {
     const CertificationLogoData = [
         {
-            img: logo1
+            img: MakeInIndia,
+            title: " Make in India"
         },
         {
-            img: logo2
+            img: logo1,
+            title: "Conformité Européenne"
+
         },
         {
-            img: logo3
+            img: logo2,
+            title: "Green Environment Management"
         },
         {
-            img: logo4
+            img: logo3,
+            title: "Good Manufacturing Practices"
         },
         {
-            img: logo5
+            img: logo4,
+            title: "Gulf Conformity Mark"
         },
         {
-            img: logo6
+            img: logo5,
+            title: "International Organization for Standardization"
         },
         {
-            img: logo7
+            img: logo6,
+            title: "मानक : पथप्रदर्शक"
         },
         {
-            img: logo8
+            img: logo7,
+            title: "Ministry of Micro, Small and Medium Enterprises"
+        },
+        {
+            img: logo8,
+            title: "Restriction of Hazardous Substances"
         },
     ]
     return (
@@ -53,6 +66,7 @@ const SeedoCertification = () => {
                                 data-aos-delay={index * 100} data-aos-duration="1000" >
                                 <div className="LogoContainer">
                                     <img src={item.img} alt="" />
+                                    <p>{item.title}</p>
                                 </div>
                             </Col>
                         ))}

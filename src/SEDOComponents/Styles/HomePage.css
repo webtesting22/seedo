@@ -6,7 +6,7 @@
 
 #BackImageOverlay {
     overflow: hidden;
-    height: 1700px;
+    height: 1500px;
     width: 100%;
 
 }
@@ -29,7 +29,7 @@
 
 #ContentContainer .ant-row {
     padding: 0rem 4rem;
-    padding-top: 15rem;
+    /* padding-top: 15rem; */
 }
 
 #MainUniqHeading {
@@ -110,6 +110,9 @@
 .ScrollingLogoContainer{
     display: flex;
     justify-content: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 .ScrollingLogoContainer img{
     width: 300px;
@@ -122,9 +125,16 @@
 }
 
 @media (max-width:769px){
+    .ScrollingLogoContainer{
+        display: flex;
+        justify-content: center;
+        height: 65vh;
+        display: flex;
+        align-items: center;
+    }
     #BackImageOverlay {
         overflow: hidden;
-        height: 1200px;
+        height: 1300px;
         width: 100%;
     
     }
@@ -147,14 +157,14 @@
     }
 #ContentContainer .AnimatedSVGContainer {
     padding: 0rem 1rem;
-    padding-top: 5rem;
+    /* padding-top: 5rem; */
     display: flex;
     justify-content: end;
-    display: none;
+    /* display: none; */
 }
     #ContentContainer .ant-row {
         padding: 0rem 1rem;
-        padding-top: 15rem;
+        /* padding-top: 15rem; */
     }
     #MainUniqHeading span {
         font-size: 3.5rem;

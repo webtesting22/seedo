@@ -2,6 +2,7 @@ import React,{useEffect} from "react";
 import SeedoCertification from "../Certification/SeedoCertification";
 import Client from "../Clients/Clients";
 import { Link } from "react-router-dom";
+import ClientPageBanner from "../../../../public/ClientPageBanner.webp"
 const CertificationAndClient = () => {
     useEffect(() => {
         // Scroll to the top of the page when the component is mounted
@@ -14,7 +15,7 @@ const CertificationAndClient = () => {
                     {/* <div className="overlayContainer">
 
                         </div> */}
-                    <img src="https://images.unsplash.com/photo-1604882846805-a6813013c2b5?q=80&w=2937&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+                    <img src={ClientPageBanner} alt="" />
                 </div>
                 <div style={{ padding: "20px" }}>
                     <span>

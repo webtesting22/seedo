@@ -19,7 +19,7 @@ const HomeRoutes = () => {
                 <ZoomCards />
                 <TwoSlideContainer />
                 {/* <Marquee/> */}
-                <HomePageProducts />
+                {/* <HomePageProducts /> */}
                 {/* <AnimatedCar /> */}
             </section>
         </>

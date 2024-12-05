@@ -9,7 +9,7 @@
   width: 150px;
   border-radius: 10px;
   position: sticky;
-  display: none;
+  /* display: none; */
   z-index: 10000000;
 
 }
@@ -47,7 +47,7 @@
   justify-content: space-between;
 }
 .SidePanel span a {
-  color: white;
+  color: red;
   text-decoration: none;
   padding: 0 10px;
 }

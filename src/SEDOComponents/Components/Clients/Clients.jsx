@@ -17,9 +17,11 @@ import ChhotaBheem from "../../../../public/Images/Logos/Clientlogos/ChhotaBheem
 import ToyStory3 from "../../../../public/Images/Logos/Clientlogos/ToyStory3.png"
 import Barbie from "../../../../public/Images/Logos/Clientlogos/Barbie.png"
 import doraemon from "../../../../public/Images/Logos/Clientlogos/doraemon.png"
+
 const Client = () => {
 
     const LogosData = [
+        
         {
             img: Amway
         },
@@ -43,10 +45,7 @@ const Client = () => {
         },
         {
             img: Britannia
-        }
-    ]
-
-    const LogoDataSecond = [
+        },
         {
             img: CartoonNetwork
         },
@@ -72,19 +71,24 @@ const Client = () => {
             img: doraemon
         }
     ]
+
+    // const LogoDataSecond = [
+        
+    // ]
     return (
         <>
             <section id="ClientSection">
                 <div className="LeftSideContentContainer">
-                    <h2 className="PrimaryHeading-black">SEEDO Clients</h2>
-                    <p>Trusted Partner</p>
+                    <h2 className="PrimaryHeading-black">Trusted Partner</h2>
+                    {/* <p>Trusted Partner</p> */}
                 </div>
+                <br /><br />
                 <Row>
-                    <Col lg={14}>
+                    <Col lg={24} md={24}>
                         <div className="SectionEdit">
                             <div>
-                                <h2>Clients Handled</h2>
-                                <p>Inspired by the "Make in India initiative"
+                                {/* <h2>Clients Handled</h2> */}
+                                {/* <p>Inspired by the "Make in India initiative"
                                     and the global interest in India as a
                                     manufacturing hub, we saw a significant opportunity in the toy industry,
                                     Driven by creativity and innovation, we
@@ -95,15 +99,15 @@ const Client = () => {
                                     standards. Seedo Toys captivates children's imaginations while providing
                                     parents with confidence in our craftsmanship and design. We are excited
                                     to present our toy collection and bring
-                                    joy to children everywhere.</p>
+                                    joy to children everywhere.</p> */}
                             </div>
                         </div>
                     </Col>
-                    <Col lg={10}>
+                    <Col lg={24}>
                         <div className="LogosContainer">
                             <Row>
                                 {LogosData.map((item, index) => (
-                                    <Col lg={8} xs={12}>
+                                    <Col lg={4} xs={12} md={8}>
                                         <div className="ClientLogos">
                                             <img src={item.img} alt="" />
                                         </div>
@@ -114,7 +118,7 @@ const Client = () => {
                     </Col>
                 </Row>
                 <br /><br />
-                <Row className="row-reverse">
+                {/* <Row className="row-reverse">
 
                     <Col lg={10}>
                         <div className="LogosContainer">
@@ -144,7 +148,7 @@ const Client = () => {
                             </div>
                         </div>
                     </Col>
-                </Row>
+                </Row> */}
             </section>
         </>
     )

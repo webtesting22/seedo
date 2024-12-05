@@ -55,7 +55,7 @@ const Products = () => {
                 <div id="ProductShowContainer">
                     <div>
                         <Row>
-                            <Col lg={6}>
+                            {/* <Col lg={6}>
                                 <div className="CategoriesFilters">
                                     <div className="SearchBarContainer">
                                         <h3>Search Product</h3>
@@ -71,7 +71,6 @@ const Products = () => {
                                         <Tag >Cars</Tag>
                                         <Tag >Teddies</Tag>
                                     </div>
-                                    {/* <br /> */}
                                     <div className="PriceRange">
                                             <h3>Price Range</h3>
                                             <div className="PriceRange">
@@ -81,11 +80,11 @@ const Products = () => {
                                             <Slider range defaultValue={[0, 50000]} disabled />
                                     </div>
                                 </div>
-                            </Col>
-                            <Col lg={18}>
+                            </Col> */}
+                            <Col lg={24}>
                                 <Row id="ProductCardRow">
                                     {filteredProducts.map((item, index) => (
-                                        <Col lg={8} md={12} key={index}>
+                                        <Col lg={6} md={8} key={index}>
                                             <div
                                                 className="BigCardEdit"
                                                 data-aos="fade-up"
@@ -98,9 +97,9 @@ const Products = () => {
                                                 <div className="TitleContainer">
                                                     <span>{item.Categories}</span>
                                                     <h4>{item.title}</h4>
-                                                    <div className="ratingContainer">
+                                                    {/* <div className="ratingContainer">
                                                         {renderStars(item.rating)}
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </Col>
