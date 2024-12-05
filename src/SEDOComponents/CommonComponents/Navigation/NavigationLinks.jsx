@@ -1,5 +1,5 @@
 const NavigationLinks = [
-    { path: "/", link: "Home" }, 
+    // { path: "/", link: "Home" }, 
     {
         link: "Products",
         path: "/products"
