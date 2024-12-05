@@ -60,7 +60,7 @@ const Client = () => {
         },
         {
             img: tomandjerry,
-            link: "https://www.warnerbros.com/tom-and-jerry"
+            link: "https://www.warnerbros.com/brands/tom-and-jerry",
         },
         {
             img: Disney,
@@ -76,7 +76,7 @@ const Client = () => {
         },
         {
             img: ToyStory3,
-            link: "https://www.pixar.com/feature-films/toy-story-3"
+            link: "https://www.pixar.com/toy-story-3"
         },
         {
             img: Barbie,
@@ -84,7 +84,7 @@ const Client = () => {
         },
         {
             img: doraemon,
-            link: "https://www.doraemonworld.com"
+            link: "https://dora-world.com/"
         }
     ]
 
