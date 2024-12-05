@@ -12,7 +12,7 @@ import CertificationAndClient from "../Components/CertificationAndClient/Certifi
 const SEDORoutes = () => {
     return (
         <>
-        <Navigation/>
+
             {/* <MegaNavigation/> */}
             <Routes>
                 <Route path="/" element={<HomeRoutes />} />
@@ -20,7 +20,7 @@ const SEDORoutes = () => {
                 <Route path="/aboutSeedo" element={<AboutSeedo />} />
                 <Route path="/certification-and-client" element={<CertificationAndClient />} />
             </Routes>
-            <Footer/>
+            <Footer />
         </>
     )
 }

@@ -182,7 +182,13 @@
     font-weight: 500;
     text-transform: uppercase;
 }
-@media (max-width:769px){
+
+#AboutUs .NavigationLogo.hidden {
+    opacity: 1;
+    transform: translateY(-0px);
+}
+
+@media (max-width:769px) {
     .ServicesStickyCards:hover {
         display: flex;
         background-color: rgba(244, 244, 244, 0.583);
@@ -194,23 +200,28 @@
         border: 1px solid rgb(232, 232, 232);
         border-radius: 10px;
     }
+
     .LeftSideContentContainer {
         /* position: sticky;
         top: 40%; */
         padding-right: 0rem;
         /* padding-left: 3rem; */
     }
-    .ServicesStickyCards{
+
+    .ServicesStickyCards {
         flex-direction: column;
     }
-    .AnimatedContent{
+
+    .AnimatedContent {
         padding: 0;
     }
-    .HoverableImage{
+
+    .HoverableImage {
         justify-content: center;
         padding: 1rem 0rem;
     }
-    .HoverableImage img{
+
+    .HoverableImage img {
         width: 100%;
     }
 }

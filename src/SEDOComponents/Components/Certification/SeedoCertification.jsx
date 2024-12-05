@@ -9,6 +9,7 @@ import logo5 from "../../../../public/Images/Logos/ISO.png"
 import logo6 from "../../../../public/Images/Logos/Manak.png"
 import logo7 from "../../../../public/Images/Logos/MSME.png"
 import logo8 from "../../../../public/Images/Logos/ROHS.png"
+
 import MakeInIndia from "../../../../public/Images/Logos/MakeInIndia.jpg"
 const SeedoCertification = () => {
     const CertificationLogoData = [
@@ -52,6 +53,7 @@ const SeedoCertification = () => {
     ]
     return (
         <>
+       
             <section id="SeedoCertificationContainer">
                 <div className="LeftSideContentContainer">
                     <h2 className="PrimaryHeading-black">Industrial Certification</h2>

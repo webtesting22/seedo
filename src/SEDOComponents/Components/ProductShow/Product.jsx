@@ -7,6 +7,7 @@ import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import BannerAbout from "../../../../public/Images/Banners/tranBanner.png"
 import HomePageProducts from "../../CommonComponents/HomePageProducts/HomePageProducts";
+import Navigation from "../../CommonComponents/Navigation/Navigation";
 const Products = () => {
     const [searchTerm, setSearchTerm] = useState("");
     const [filteredProducts, setFilteredProducts] = useState(ProductData);
@@ -44,6 +45,9 @@ const Products = () => {
 
     return (
         <>
+        <div id="AboutUs">
+        <Navigation/>
+        </div>
             <section id="ProductContainer">
                 <div className="BannerContainer">
                     <img src={BannerAbout} alt="" />

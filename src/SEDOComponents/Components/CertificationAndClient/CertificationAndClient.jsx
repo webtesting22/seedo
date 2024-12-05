@@ -3,6 +3,7 @@ import SeedoCertification from "../Certification/SeedoCertification";
 import Client from "../Clients/Clients";
 import { Link } from "react-router-dom";
 import ClientPageBanner from "../../../../public/ClientPageBanner.webp"
+import Navigation from "../../CommonComponents/Navigation/Navigation";
 const CertificationAndClient = () => {
     useEffect(() => {
         // Scroll to the top of the page when the component is mounted
@@ -10,6 +11,9 @@ const CertificationAndClient = () => {
     }, []);
     return (
         <>
+         <div id="AboutUs">
+        <Navigation/>
+        </div>
             <section id="CertificationAndClient">
                 <div className="BannerContainer">
                     {/* <div className="overlayContainer">

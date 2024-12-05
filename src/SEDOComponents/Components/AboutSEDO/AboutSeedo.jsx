@@ -10,6 +10,7 @@ import AboutContent from "../AboutContentPoint/AboutContent";
 import Client from "../Clients/Clients";
 import { Link } from "react-router-dom";
 import BannerAbout from "../../../../public/BannerAbout.avif"
+import Navigation from "../../CommonComponents/Navigation/Navigation";
 const AboutSeedo = () => {
     const ServicesCardData = [
         {
@@ -40,6 +41,9 @@ const AboutSeedo = () => {
     }, []);
     return (
         <>
+        <div id="AboutUs">
+        <Navigation/>
+        </div>
             <section id="AboutSEDOSection">
                 <div>
                     <div className="BannerContainer">
