@@ -26,8 +26,9 @@ const SeedoCertification = () => {
         },
         {
             img: logo2,
-            title: "Green Environment Management",
-            link: "https://green-em.com/"
+            title: "Government E Marketplace",
+            // link: "https://green-em.com/"
+            link:"https://gem.gov.in/",
         },
         {
             img: logo3,
