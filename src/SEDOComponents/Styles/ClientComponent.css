@@ -5,9 +5,12 @@
 
 .LogosContainer {
   width: 100%;
+  
 }
 
 .ClientLogos img {
+  display: flex;
+  margin: auto;
   width: 80%;
   aspect-ratio: 3/2;
   object-fit: contain;
