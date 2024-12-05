@@ -1,6 +1,6 @@
 #NavigationContainer {
   /* padding: 2rem; */
-  position: absolute;
+  position: fixed;
   z-index: 444444;
   width: 100%;
 }
@@ -9,10 +9,19 @@
   width: 150px;
   border-radius: 10px;
   position: sticky;
-  /* display: none; */
   z-index: 10000000;
 }
+.NavigationLogo.visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: 0.5s;
+}
 
+.NavigationLogo.hidden {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: 0.5s;
+}
 .ContainerNavigation {
   display: flex;
   align-items: center;
@@ -58,6 +67,7 @@
   text-decoration: none;
   padding: 0 10px;
 }
+
 @media (max-width: 769px) {
   .SidePanel {
     position: fixed;
