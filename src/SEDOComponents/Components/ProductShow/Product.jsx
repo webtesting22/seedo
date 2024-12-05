@@ -5,6 +5,7 @@ import { Row, Col, Input, Slider, Tag } from "antd";
 import ProductData from "../../ProductData";
 import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import BannerAbout from "../../../../public/Images/Banners/tranBanner.png"
 const Products = () => {
     const [searchTerm, setSearchTerm] = useState("");
     const [filteredProducts, setFilteredProducts] = useState(ProductData);
@@ -44,7 +45,7 @@ const Products = () => {
         <>
             <section id="ProductContainer">
                 <div className="BannerContainer">
-                    <img src="https://images.unsplash.com/photo-1531693251400-38df35776dc7?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+                    <img src={BannerAbout} alt="" />
                 </div>
                 <div style={{ padding: "20px" }}>
                     <span>
