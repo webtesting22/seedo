@@ -1,270 +1,260 @@
 #HomePageProductContainer {
-    padding-top: 0rem !important;
-    padding: 0rem 4rem;
+  padding-top: 0rem !important;
+  padding: 0rem 4rem;
 }
 
 .SlideBarContainer {
-    min-height: 40vh;
-    width: 100%;
-    background-color: white;
-    border: 1px solid rgb(219 219 219 / 42%);
-    padding: 1rem 0rem;
-    border-radius: 10px;
-    overflow: auto;
-    margin-top: 5px;
-    overflow: hidden;
-    box-shadow: rgba(0, 0, 0, 0.027) 0px 1px 4px;
+  min-height: 40vh;
+  width: 100%;
+  background-color: white;
+  border: 1px solid rgb(219 219 219 / 42%);
+  padding: 1rem 0rem;
+  border-radius: 10px;
+  overflow: auto;
+  margin-top: 5px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.027) 0px 1px 4px;
 }
 
 .ProductCardSlideBar {
-    display: flex;
-    transition: .5s;
+  display: flex;
+  transition: 0.5s;
 }
 
 .ProductCardSlideBar:hover {
-    transform: scale(1.1);
-    transition: .5s;
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
 .ProductCardSlideBar {
-    height: 17vh;
-    width: 100%;
-    margin: 10px 0px;
-    /* background-color: green; */
+  height: 17vh;
+  width: 100%;
+  margin: 10px 0px;
+  /* background-color: green; */
 }
 
 .ProductCardSlideBar .imageShow {
-    padding-left: 1rem;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    justify-content: center;
+  padding-left: 1rem;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  justify-content: center;
 }
 
 .ProductCardSlideBar .imageShow img {
-    width: 150px;
-    background-color: #f4f4f4;
-    padding: 1rem 0rem;
-    border-radius: 10px;
-
+  width: 150px;
+  background-color: #f4f4f4;
+  padding: 1rem 0rem;
+  border-radius: 10px;
 }
 
 .TitleShow {
-    padding: 1rem 1rem;
+  padding: 1rem 1rem;
 }
 
 .TitleShow h4 {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .TitleShow span {
-    color: #999999;
+  color: #999999;
 }
 
 .BigCardEdit {
-    /* min-height: 38vh; */
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    /* margin: 5px; */
-    border-radius: 10px;
-    border: 1px solid rgb(219 219 219 / 42%);
+  /* min-height: 38vh; */
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  /* margin: 5px; */
+  border-radius: 10px;
+  border: 1px solid rgb(219 219 219 / 42%);
 }
 
 .BigCardEdit:hover {
-    /* min-height: 40vh; */
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    /* margin: 5px; */
-    border-radius: 10px;
-    border: 1px solid rgba(219, 219, 219, 0.795);
+  /* min-height: 40vh; */
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  /* margin: 5px; */
+  border-radius: 10px;
+  border: 1px solid rgba(219, 219, 219, 0.795);
 }
 
-
-
 .HoverImageContainer {
-    padding: 2rem 0rem;
-    height: 200px;
+  padding: 2rem 0rem;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  transition: 0.5s;
+  justify-content: center;
+}
+
+.HoverImageContainer img {
+  position: absolute;
+  /* top: 0; */
+  /* left: 0; */
+  width: 80%;
+  /* height: 100%;
+    object-fit: cover; */
+  transition: opacity 0.3s ease-in-out;
+  aspect-ratio: 3 / 2;
+  transition: 0.5s;
+  object-fit: contain;
+  /* Smooth fade animation */
+}
+
+.TitleContainer {
+  padding: 1rem 1rem;
+}
+
+.TitleContainer span {
+  font-size: 13px;
+  color: #999999;
+}
+
+.TitleContainer h4 {
+  margin-top: 5px;
+}
+
+.ratingContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.star {
+  font-size: 16px;
+  color: red;
+  /* Change star color to red */
+  margin-right: 4px;
+}
+
+.star.empty {
+  color: #dcdcdc;
+  /* Light gray for empty stars */
+}
+
+.star.half {
+  color: red;
+  /* Red for half stars */
+}
+
+.defaultImage {
+  opacity: 1;
+  /* Default image visible initially */
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.hoverImage {
+  opacity: 0;
+  /* Hover image hidden initially */
+  z-index: 2;
+  transform: scale(1.04);
+  transition: 0.5s;
+  /* filter: drop-shadow(1px 1px 1px black); */
+}
+
+.BigCardEdit:hover .defaultImage {
+  opacity: 0;
+  /* Hide the default image on hover */
+}
+
+.BigCardEdit:hover .hoverImage {
+  opacity: 1;
+  /* Show the hover image on hover */
+}
+
+.RightSideRow .ant-row .ant-col {
+  padding: 5px;
+}
+
+.headingSVG {
+  display: flex;
+  align-items: center;
+}
+
+.headingSVG svg {
+  margin: 0px;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  color: red;
+}
+
+@media (max-width: 769px) {
+  .HoverImageContainer img {
+    position: absolute;
+    /* top: 0; */
+    left: unset;
+    width: 70%;
+    /* height: 100%;
+        object-fit: cover; */
+    transition: opacity 0.3s ease-in-out;
+    aspect-ratio: 3 / 2;
+    transition: 0.5s;
+    object-fit: contain;
+    /* Smooth fade animation */
+  }
+
+  .BigCardEdit {
+    height: 100%;
+    width: 97%;
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(219 219 219 / 42%);
+  }
+
+  .HoverImageContainer {
+    padding: 0rem 0rem;
+    /* height: 170px; */
     display: flex;
     align-items: center;
     overflow: hidden;
     position: relative;
-    transition: .5s;
+    transition: 0.5s;
     justify-content: center;
-}
+  }
 
-.HoverImageContainer img {
-    position: absolute;
-    /* top: 0; */
-    /* left: 0; */
-    width: 80%;
-    /* height: 100%;
-    object-fit: cover; */
-    transition: opacity 0.3s ease-in-out;
-    aspect-ratio: 3 / 2;
-    transition: .5s;
-    object-fit: contain;
-    /* Smooth fade animation */
-}
+  .RightSideRow .ant-row .ant-col {
+    width: 50% !important;
+  }
 
-.TitleContainer {
-    padding: 1rem 1rem;
-}
+  .RightSideRow {
+    padding-left: 0rem;
+    padding-top: 0rem;
+  }
 
-.TitleContainer span {
-    font-size: 13px;
-    color: #999999;
-}
+  .TitleShow h4 {
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
+  }
 
-.TitleContainer h4 {
-    margin-top: 5px;
-}
+  .ProductCardSlideBar .imageShow img {
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 1rem 0rem;
+    border-radius: 10px;
+  }
 
-.ratingContainer {
+  #HomePageProductContainer {
+    padding-top: 0rem !important;
+    padding: 0rem;
+  }
+
+  .ProductCardSlideBar {
     display: flex;
-    align-items: center;
-    margin-top: 8px;
-}
+    transition: 0.5s;
+    flex-direction: column;
+  }
 
-.star {
-    font-size: 16px;
-    color: red;
-    /* Change star color to red */
-    margin-right: 4px;
-}
-
-.star.empty {
-    color: #dcdcdc;
-    /* Light gray for empty stars */
-}
-
-.star.half {
-    color: red;
-    /* Red for half stars */
-}
-
-
-.defaultImage {
-    opacity: 1;
-    /* Default image visible initially */
-    z-index: 1;
-    transition: .5s;
-}
-
-.hoverImage {
-    opacity: 0;
-    /* Hover image hidden initially */
-    z-index: 2;
-    transform:scale(1.04);
-    transition: .5s;
-    /* filter: drop-shadow(1px 1px 1px black); */
-}
-
-.BigCardEdit:hover .defaultImage {
-    opacity: 0;
-    /* Hide the default image on hover */
-}
-
-.BigCardEdit:hover .hoverImage {
-    opacity: 1;
-    /* Show the hover image on hover */
-}
-
-
-
-.RightSideRow .ant-row .ant-col {
-    padding: 5px;
-}
-
-.headingSVG {
-    display: flex;
-    align-items: center;
-}
-
-.headingSVG svg {
-    margin: 0px;
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-    color: red;
-}
-
-@media (max-width:769px) {
-   
-
-    .HoverImageContainer img {
-        position: absolute;
-        /* top: 0; */
-        left: unset;
-        width: 70%;
-        /* height: 100%;
-        object-fit: cover; */
-        transition: opacity 0.3s ease-in-out;
-        aspect-ratio: 3 / 2;
-        transition: .5s;
-        object-fit: contain;
-        /* Smooth fade animation */
-    }
-
-    .BigCardEdit {
-        height: 100%;
-        width: 97%;
-        background-color: rgb(255, 255, 255);
-        margin: 5px;
-        border-radius: 10px;
-        border: 1px solid rgb(219 219 219 / 42%);
-    }
-
-    .HoverImageContainer {
-        padding: 0rem 0rem;
-        /* height: 170px; */
-        display: flex;
-        align-items: center;
-        overflow: hidden;
-        position: relative;
-        transition: .5s;
-        justify-content: center;
-    }
-
-    .RightSideRow .ant-row .ant-col {
-        width: 50% !important;
-    }
-
-    .RightSideRow {
-        padding-left: 0rem;
-        padding-top: 0rem;
-    }
-
-    .TitleShow h4 {
-        margin-top: 10px;
-        font-size: 15px;
-        text-align: center;
-    }
-
-    .ProductCardSlideBar .imageShow img {
-        width: 100%;
-        background-color: #f4f4f4;
-        padding: 1rem 0rem;
-        border-radius: 10px;
-
-    }
-
-    #HomePageProductContainer {
-        padding-top: 0rem !important;
-        padding: 0rem 1rem;
-    }
-
-    .ProductCardSlideBar {
-        display: flex;
-        transition: .5s;
-        flex-direction: column;
-    }
-
-    .ProductCardSlideBar {
-        height: 30vh;
-        width: 100%;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.257);
-        margin-bottom: 1rem;
-        /* background-color: green; */
-    }
-
+  .ProductCardSlideBar {
+    height: 30vh;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.257);
+    margin-bottom: 1rem;
+    /* background-color: green; */
+  }
 }

@@ -68,4 +68,7 @@
   .SectionEdit{
     padding: 0;
   }
+  .ClientLogos img{
+    width: 100%;
+  }
 }
