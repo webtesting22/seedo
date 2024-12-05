@@ -1,5 +1,5 @@
 #HomePageProductContainer {
-    padding-top: 5rem !important;
+    padding-top: 0rem !important;
     padding: 0rem 4rem;
 }
 
@@ -169,9 +169,6 @@
     /* Show the hover image on hover */
 }
 
-#Adjust {
-    padding-left: 1rem;
-}
 
 
 .RightSideRow .ant-row .ant-col {
@@ -192,10 +189,7 @@
 }
 
 @media (max-width:769px) {
-    #Adjust {
-        padding-left: 0rem;
-        padding-top: 3rem;
-    }
+   
 
     .HoverImageContainer img {
         position: absolute;
@@ -237,7 +231,7 @@
 
     .RightSideRow {
         padding-left: 0rem;
-        padding-top: 2rem;
+        padding-top: 0rem;
     }
 
     .TitleShow h4 {
@@ -255,7 +249,7 @@
     }
 
     #HomePageProductContainer {
-        padding-top: 3rem !important;
+        padding-top: 0rem !important;
         padding: 0rem 1rem;
     }
 

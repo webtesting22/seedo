@@ -6,6 +6,7 @@ import ProductData from "../../ProductData";
 import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import BannerAbout from "../../../../public/Images/Banners/tranBanner.png"
+import HomePageProducts from "../../CommonComponents/HomePageProducts/HomePageProducts";
 const Products = () => {
     const [searchTerm, setSearchTerm] = useState("");
     const [filteredProducts, setFilteredProducts] = useState(ProductData);
@@ -55,7 +56,8 @@ const Products = () => {
                 </div>
                 <div id="ProductShowContainer">
                     <div>
-                        <Row>
+                        <HomePageProducts/>
+                        {/* <Row> */}
                             {/* <Col lg={6}>
                                 <div className="CategoriesFilters">
                                     <div className="SearchBarContainer">
@@ -82,7 +84,7 @@ const Products = () => {
                                     </div>
                                 </div>
                             </Col> */}
-                            <Col lg={24}>
+                            {/* <Col lg={24}>
                                 <Row id="ProductCardRow">
                                     {filteredProducts.map((item, index) => (
                                         <Col lg={6} md={8} key={index}>
@@ -101,13 +103,13 @@ const Products = () => {
                                                     {/* <div className="ratingContainer">
                                                         {renderStars(item.rating)}
                                                     </div> */}
-                                                </div>
+                                                {/* </div>
                                             </div>
                                         </Col>
                                     ))}
-                                </Row>
-                            </Col>
-                        </Row>
+                                </Row> */}
+                            {/* </Col> */}
+                        {/* </Row>  */}
                     </div>
                 </div>
             </section>
