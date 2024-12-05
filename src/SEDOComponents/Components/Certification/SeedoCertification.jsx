@@ -9,51 +9,60 @@ import logo5 from "../../../../public/Images/Logos/ISO.png"
 import logo6 from "../../../../public/Images/Logos/Manak.png"
 import logo7 from "../../../../public/Images/Logos/MSME.png"
 import logo8 from "../../../../public/Images/Logos/ROHS.png"
-
+import { Link } from "react-router-dom";
 import MakeInIndia from "../../../../public/Images/Logos/MakeInIndia.jpg"
 const SeedoCertification = () => {
     const CertificationLogoData = [
         {
             img: MakeInIndia,
-            title: " Make in India"
+            title: " Make in India",
+            link: "https://www.makeinindia.com/"
         },
         {
             img: logo1,
-            title: "Conformité Européenne"
+            title: "Conformité Européenne",
+            link: "https://ec.europa.eu/growth/single-market/ce-marking/"
 
         },
         {
             img: logo2,
-            title: "Green Environment Management"
+            title: "Green Environment Management",
+            link: "https://green-em.com/"
         },
         {
             img: logo3,
-            title: "Good Manufacturing Practices"
+            title: "Good Manufacturing Practices",
+            link: "https://www.who.int/teams/health-product-policy-and-standards/standards-and-specifications/norms-and-standards/gmp"
         },
         {
             img: logo4,
-            title: "Gulf Conformity Mark"
+            title: "Gulf Conformity Mark",
+            link: "https://www.gso.org.sa/en/conformity/gcc-conformity-mark/"
         },
         {
             img: logo5,
-            title: "International Organization for Standardization"
+            title: "International Organization for Standardization",
+            link: "https://www.iso.org/home.html"
         },
         {
             img: logo6,
-            title: "मानक : पथप्रदर्शक"
+            title: "मानक : पथप्रदर्शक",
+            link: "https://www.bis.gov.in"
         },
         {
             img: logo7,
-            title: "Ministry of Micro, Small and Medium Enterprises"
+            title: "Ministry of Micro, Small and Medium Enterprises",
+            link: "https://www.msme.gov.in"
         },
         {
             img: logo8,
-            title: "Restriction of Hazardous Substances"
+            title: "Restriction of Hazardous Substances",
+            link: "https://www.rohsguide.com"
         },
     ]
     return (
         <>
-       
+
             <section id="SeedoCertificationContainer">
                 <div className="LeftSideContentContainer">
                     <h2 className="PrimaryHeading-black">Industrial Certification</h2>
@@ -66,10 +75,12 @@ const SeedoCertification = () => {
                         {CertificationLogoData.map((item, index) => (
                             <Col lg={6} md={12} data-aos="fade-up"
                                 data-aos-delay={index * 100} data-aos-duration="1000" >
-                                <div className="LogoContainer">
-                                    <img src={item.img} alt="" />
-                                    <p>{item.title}</p>
-                                </div>
+                                <Link to={item.link} target="_blank" style={{color:"black"}}>
+                                    <div className="LogoContainer">
+                                        <img src={item.img} alt="" />
+                                        <p>{item.title}</p>
+                                    </div>
+                                </Link>
                             </Col>
                         ))}
                     </Row>

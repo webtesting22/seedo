@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import SeedoCertification from "../Certification/SeedoCertification";
 import Client from "../Clients/Clients";
 import { Link } from "react-router-dom";
@@ -11,9 +11,9 @@ const CertificationAndClient = () => {
     }, []);
     return (
         <>
-         <div id="AboutUs">
-        <Navigation/>
-        </div>
+            <div id="AboutUs">
+                <Navigation />
+            </div>
             <section id="CertificationAndClient">
                 <div className="BannerContainer">
                     {/* <div className="overlayContainer">

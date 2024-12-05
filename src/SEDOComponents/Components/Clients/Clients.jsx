@@ -17,63 +17,79 @@ import ChhotaBheem from "../../../../public/Images/Logos/Clientlogos/ChhotaBheem
 import ToyStory3 from "../../../../public/Images/Logos/Clientlogos/ToyStory3.png"
 import Barbie from "../../../../public/Images/Logos/Clientlogos/Barbie.png"
 import doraemon from "../../../../public/Images/Logos/Clientlogos/doraemon.png"
-
+import { Link } from "react-router-dom";
 const Client = () => {
 
     const LogosData = [
-        
+
         {
-            img: Amway
+            img: Amway,
+            link: "https://www.amway.com"
         },
         {
-            img: himalaya
+            img: himalaya,
+            link: "https://www.himalayawellness.com"
         },
         {
-            img: Haldiram
+            img: Haldiram,
+            link: "https://www.haldirams.com"
         },
         {
-            img: Perfetti
+            img: Perfetti,
+            link: " https://www.perfettivanmelle.com"
         },
         {
-            img: unilever
+            img: unilever,
+            link: "https://www.unilever.com"
         },
         {
-            img: Pepsi
+            img: Pepsi,
+            link: "https://www.pepsi.com"
         },
         {
-            img: GSK
+            img: GSK,
+            link: "https://www.gsk.com"
         },
         {
-            img: Britannia
+            img: Britannia,
+            link: "https://www.britannia.co.in"
         },
         {
-            img: CartoonNetwork
+            img: CartoonNetwork,
+            link: "https://www.cartoonnetwork.co.uk/"
         },
         {
-            img: tomandjerry
+            img: tomandjerry,
+            link: "https://www.warnerbros.com/tom-and-jerry"
         },
         {
-            img: Disney
+            img: Disney,
+            link: "https://www.disney.com"
         },
         {
-            img: Marvel
+            img: Marvel,
+            link: "https://www.marvel.com"
         },
         {
-            img: ChhotaBheem
+            img: ChhotaBheem,
+            link: "https://www.chhotabheem.com"
         },
         {
-            img: ToyStory3
+            img: ToyStory3,
+            link: "https://www.pixar.com/feature-films/toy-story-3"
         },
         {
-            img: Barbie
+            img: Barbie,
+            link: "https://www.barbie.com"
         },
         {
-            img: doraemon
+            img: doraemon,
+            link: "https://www.doraemonworld.com"
         }
     ]
 
     // const LogoDataSecond = [
-        
+
     // ]
     return (
         <>
@@ -108,9 +124,10 @@ const Client = () => {
                             <Row>
                                 {LogosData.map((item, index) => (
                                     <Col lg={4} xs={12} md={8}>
+                                        <Link to={item.link} target="_blank">
                                         <div className="ClientLogos">
                                             <img src={item.img} alt="" />
-                                        </div>
+                                        </div></Link>
                                     </Col>
                                 ))}
                             </Row>
