@@ -36,7 +36,7 @@ const Client = () => {
         },
         {
             img: Perfetti,
-            link: " https://www.perfettivanmelle.com"
+            link: "https://www.perfettivanmelle.com"
         },
         {
             img: unilever,
@@ -125,9 +125,9 @@ const Client = () => {
                                 {LogosData.map((item, index) => (
                                     <Col lg={4} xs={12} md={8}>
                                         <Link to={item.link} target="_blank">
-                                        <div className="ClientLogos">
-                                            <img src={item.img} alt="" />
-                                        </div></Link>
+                                            <div className="ClientLogos">
+                                                <img src={item.img} alt="" />
+                                            </div></Link>
                                     </Col>
                                 ))}
                             </Row>
