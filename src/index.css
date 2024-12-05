@@ -18,7 +18,8 @@
 #MainUniqHeading {
   display: flex;
 }
-#MainUniqHeading div{
+
+#MainUniqHeading div {
   overflow: hidden;
 }
 
@@ -144,14 +145,17 @@
   margin-bottom: 1.5rem;
   color: #ffdf22;
 }
+
 @keyframes fillColor {
   0% {
     background-position: 0 0;
   }
+
   100% {
     background-position: 100% 0;
   }
 }
+
 .PrimaryHeading {
   letter-spacing: -0.05em;
   margin-top: 0;
@@ -159,8 +163,9 @@
   font-size: 3.5rem;
   font-weight: 600;
   line-height: 110%;
-  font-family: "Edu AU VIC WA NT Arrows", cursive;
-  background-image: linear-gradient(90deg, white,#ffdf22,white,#ffdf22);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+  background-image: linear-gradient(90deg, white, #ffdf22, white, #ffdf22);
   background-size: 300%;
   background-clip: text;
   -webkit-background-clip: text;
@@ -175,13 +180,22 @@
   font-size: 3.5rem;
   font-weight: 600;
   line-height: 110%;
-  font-family: "Edu AU VIC WA NT Arrows", cursive;
-  background-image: linear-gradient(90deg, black,red,black,red);
+  display: flex;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+  background-image: linear-gradient(90deg, black, red, black, red);
   background-size: 300%;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   animation: fillColor 2s linear infinite;
+}
+
+.PrimaryHeading-black svg {
+  margin: 0px !important;
+  margin-right: 10px !important;
+  color: red;
 }
 
 .PrimaryHeading-color {
@@ -226,8 +240,9 @@
     transform: rotate(360deg);
   }
 }
-@media (max-width:769px){
-  .row-reverse{
+
+@media (max-width:769px) {
+  .row-reverse {
     display: flex;
     flex-direction: column-reverse;
   }

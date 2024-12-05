@@ -9,6 +9,7 @@
   width: 150px;
   border-radius: 10px;
   position: sticky;
+  display: none;
   z-index: 10000000;
 
 }

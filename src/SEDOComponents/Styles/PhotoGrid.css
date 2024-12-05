@@ -22,14 +22,20 @@
     justify-content: center;
     /* width: 100%; */
     margin: 0px 10px;
+    width: 50%;
 }
-
+.SmallPhotoContainer{
+    width: 50%;
+}
 .SmallPhotoContainer>div {
     height: 39vh;
     overflow: hidden;
     border-radius: 10px;
     width: 100%;
     margin: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .SmallPhotoContainer>div:last-child {

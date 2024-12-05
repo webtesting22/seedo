@@ -107,6 +107,19 @@
 #ContentContainer .AnimatedSVGContainer>div {
     width: 50%;
 }
+.ScrollingLogoContainer{
+    display: flex;
+    justify-content: center;
+}
+.ScrollingLogoContainer img{
+    width: 300px;
+    border-radius: 20px;
+}
+.ScrollingLogoContainer h2{
+    color:#ffdf22;
+    text-align: center;
+    font-size: 2.5rem;
+}
 
 @media (max-width:769px){
     #BackImageOverlay {
