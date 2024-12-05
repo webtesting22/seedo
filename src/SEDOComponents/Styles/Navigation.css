@@ -55,7 +55,7 @@
   justify-content: space-between;
 }
 .SidePanel span a {
-  color: red;
+  /* color: red; */
   text-decoration: none;
   padding: 0 10px;
 }
