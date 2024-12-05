@@ -47,7 +47,8 @@ const SeedoCertification = () => {
         },
         {
             img: logo6,
-            title: "मानक : पथप्रदर्शक",
+            // title: "मानक : पथप्रदर्शक",
+            title:"Bureau of Indian Standards",
             link: "https://www.bis.gov.in"
         },
         {
