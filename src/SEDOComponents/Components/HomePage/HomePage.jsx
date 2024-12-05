@@ -77,7 +77,7 @@ const HomePage = () => {
                                 <div className="ScrollingLogoContainer">
                                     <div>
                                     <img src={SEDOLogo} alt="" />
-                                    <h2>Brief the Limit</h2>
+                                    <h2>BREAK THE LIMIT</h2>
                                     </div>
                                 </div>
                                 {/* <div>
