@@ -1,178 +1,176 @@
 #HomepageContainer {
-    max-width: 100%;
-    height: 100%;
-    position: relative;
+  max-width: 100%;
+  height: 100%;
+  position: relative;
 }
 
 #BackImageOverlay {
-    overflow: hidden;
-    height: 1500px;
-    width: 100%;
-
+  overflow: hidden;
+  height: 1500px;
+  width: 100%;
 }
 
 #BackImageOverlay img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 #ContentContainer {
-    position: absolute;
-    width: 100%;
-    top: 0%;
-    /* height: 100%; */
-    /* display: flex; */
-    /* align-items: center; */
-    z-index: 2;
+  position: absolute;
+  width: 100%;
+  top: 0%;
+  /* height: 100%; */
+  /* display: flex; */
+  /* align-items: center; */
+  z-index: 2;
 }
 
 #ContentContainer .ant-row {
-    padding: 0rem 4rem;
-    /* padding-top: 15rem; */
+  padding: 0rem 4rem;
+  /* padding-top: 15rem; */
 }
 
 #MainUniqHeading {
-    flex-direction: column;
-    gap: 55px;
+  flex-direction: column;
+  gap: 55px;
 }
 
 #MainUniqHeading span {
-    font-size: 7rem;
-    color: white;
-    line-height: 100%;
-    font-weight: 500;
-    font-family: "Edu AU VIC WA NT Arrows", cursive;
-    padding-bottom: 0.5rem;
+  font-size: 7rem;
+  color: white;
+  line-height: 100%;
+  font-weight: 500;
+  font-family: "Edu AU VIC WA NT Arrows", cursive;
+  padding-bottom: 0.5rem;
 }
 
 #MainUniqHeading span:first-child {
-    color: #ff3030;
+  color: #ff3030;
 }
 
 .blackoverlay {
-    height: 100%;
-    position: absolute;
-    width: 100%;
-    top: 0px;
-    left: 0px;
-    /* background-color: #000000d7; */
-    z-index: 1;
-    transition: .5s;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  /* background-color: #000000d7; */
+  z-index: 1;
+  transition: 0.5s;
 }
 
 .TaglineContainer {
-    padding-top: 6rem;
+  padding-top: 6rem;
 }
 
 .TaglineContainer hr {
-    width: 0%;
-    height: 1px;
-    margin: 10px 0px;
-    background-color: #ffffff;
-    /* Color of the line */
-    border: none;
-    transition: width 1s ease;
-    /* Optional transition for smoothness */
-    animation: expandLine 3s forwards;
-    /* Apply the animation */
+  width: 0%;
+  height: 1px;
+  margin: 10px 0px;
+  background-color: #ffffff;
+  /* Color of the line */
+  border: none;
+  transition: width 1s ease;
+  /* Optional transition for smoothness */
+  animation: expandLine 3s forwards;
+  /* Apply the animation */
 }
 
 @keyframes expandLine {
-    0% {
-        width: 0%;
-        /* Start at 0% width */
-    }
+  0% {
+    width: 0%;
+    /* Start at 0% width */
+  }
 
-    100% {
-        width: 100%;
-        /* End at 100% width */
-    }
+  100% {
+    width: 100%;
+    /* End at 100% width */
+  }
 }
 
 .ButtonsContainer {
+  display: flex;
+  align-items: center;
+  gap: 0rem 1rem;
+  margin: 2rem 0rem;
+}
+
+#ContentContainer .AnimatedSVGContainer {
+  padding: 0rem 4rem;
+  padding-top: 5rem;
+  display: flex;
+  justify-content: end;
+}
+
+#ContentContainer .AnimatedSVGContainer > div {
+  width: 50%;
+}
+.ScrollingLogoContainer {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.ScrollingLogoContainer img {
+  width: 300px;
+  border-radius: 20px;
+}
+.ScrollingLogoContainer h2 {
+  color: #ffdf22;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+@media (max-width: 769px) {
+  .ScrollingLogoContainer {
+    display: flex;
+    justify-content: center;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+  }
+  #BackImageOverlay {
+    overflow: hidden;
+    height: 1300px;
+    width: 100%;
+  }
+  .ButtonsContainer {
     display: flex;
     align-items: center;
     gap: 0rem 1rem;
     margin: 2rem 0rem;
-}
-
-#ContentContainer .AnimatedSVGContainer {
-    padding: 0rem 4rem;
-    padding-top: 5rem;
-    display: flex;
-    justify-content: end;
-}
-
-#ContentContainer .AnimatedSVGContainer>div {
-    width: 50%;
-}
-.ScrollingLogoContainer{
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-}
-.ScrollingLogoContainer img{
-    width: 300px;
-    border-radius: 20px;
-}
-.ScrollingLogoContainer h2{
-    color:#ffdf22;
-    text-align: center;
-    font-size: 2.5rem;
-}
-
-@media (max-width:769px){
-    .ScrollingLogoContainer{
-        display: flex;
-        justify-content: center;
-        height: 65vh;
-        display: flex;
-        align-items: center;
-    }
-    #BackImageOverlay {
-        overflow: hidden;
-        height: 1300px;
-        width: 100%;
-    
-    }
-    .ButtonsContainer {
-        display: flex;
-        align-items: center;
-        gap: 0rem 1rem;
-        margin: 2rem 0rem;
-        flex-direction: column;
-        gap: 20px;
-    }
-    .ButtonsContainer button{
-        width: 100%;
-    }
-    .ButtonsContainer .buttonStylefirst, .ButtonsContainer .buttonStyleSecond{
-        padding: 1rem auto;
-    }
-    #ContentContainer .AnimatedSVGContainer>div {
-        width: 100%;
-    }
-#ContentContainer .AnimatedSVGContainer {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .ButtonsContainer button {
+    width: 100%;
+  }
+  .ButtonsContainer .buttonStylefirst,
+  .ButtonsContainer .buttonStyleSecond {
+    padding: 1rem auto;
+  }
+  #ContentContainer .AnimatedSVGContainer > div {
+    width: 100%;
+  }
+  #ContentContainer .AnimatedSVGContainer {
     padding: 0rem 1rem;
     /* padding-top: 5rem; */
     display: flex;
     justify-content: end;
     /* display: none; */
-}
-    #ContentContainer .ant-row {
-        padding: 0rem 1rem;
-        /* padding-top: 15rem; */
-    }
-    #MainUniqHeading span {
-        font-size: 3.5rem;
-        color: white;
-        line-height: 100%;
-        font-weight: 500;
-        font-family: "Edu AU VIC WA NT Arrows", cursive;
-        padding-bottom: 0.5rem;
-    }
-    
+  }
+  #ContentContainer .ant-row {
+    padding: 0rem 1rem;
+    /* padding-top: 15rem; */
+  }
+  #MainUniqHeading span {
+    font-size: 3.5rem;
+    color: white;
+    line-height: 100%;
+    font-weight: 500;
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+    padding-bottom: 0.5rem;
+  }
 }
