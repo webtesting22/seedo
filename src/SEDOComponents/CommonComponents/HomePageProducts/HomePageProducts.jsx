@@ -92,9 +92,9 @@ const HomePageProducts = () => {
                                                 <div className="TitleContainer">
                                                     <span>{item.Categories}</span>
                                                     <h4>{item.title}</h4>
-                                                    <div className="ratingContainer">
+                                                    {/* <div className="ratingContainer">
                                                         {renderStars(item.rating)}
-                                                    </div>
+                                                    </div> */}
 
                                                 </div>
                                             </div>
