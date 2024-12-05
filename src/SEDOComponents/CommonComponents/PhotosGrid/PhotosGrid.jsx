@@ -1,7 +1,7 @@
 import React from "react";
 import "../../Styles/PhotoGrid.css"
-import SeedoAboutUsGrid from "../../../../public/SeedoAboutUsGrid.jpg"
-import GridImage2 from "../../../../public/GridImage2.avif"
+import SeedoAboutUsGrid from "../../../../public/SeedoAboutUsGrid-removebg-preview.png"
+import GridImage2 from "../../../../public/GridImage2-removebg-preview.png"
 import AboutUsGrid3 from "../../../../public/AboutUsGrid3.avif"
 const PhotosGrid = () => {
     return (
