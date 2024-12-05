@@ -29,7 +29,8 @@
     padding: 2rem 1rem;
     border-radius: 10px;
 }
-.CategoriesFilters>div{
+
+.CategoriesFilters>div {
     height: 200px;
 }
 
@@ -57,11 +58,12 @@
 .ProductCardDesign div h2 {
     margin-top: 0px;
 }
-#ProductCardRow .ant-col{
+
+#ProductCardRow .ant-col {
     padding: 5px;
 }
 
-@media (max-width:769px){
+@media (max-width:769px) {
     .BannerContainer img {
         width: 100%;
         height: 100%;
@@ -69,20 +71,24 @@
         border-radius: 20px;
         padding: 000px;
     }
-    
-    .CategoriesFilters>div{
+
+    .CategoriesFilters>div {
         height: 100px;
     }
-    #ProductCardRow .ant-col{
+
+    #ProductCardRow .ant-col {
         padding: 0px;
     }
+
     #ProductShowContainer {
         padding: 3rem 1rem;
     }
-    #ProductShowContainer .ant-row .ant-col{
+
+    #ProductShowContainer .ant-row .ant-col {
         width: 100%;
         margin: 10px 0px;
     }
+
     .CategoriesFilters {
         position: sticky;
         top: 5%;
@@ -93,6 +99,7 @@
         padding: 2rem 1rem;
         border-radius: 10px;
     }
+
     .BannerContainer {
         height: 40vh;
         /* width: 100%; */
