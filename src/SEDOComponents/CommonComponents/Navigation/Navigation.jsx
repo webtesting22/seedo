@@ -12,7 +12,7 @@ const Navigation = () => {
         setMobileMenuOpen(false);
     };
     const { pathname } = useLocation(); // Get the current path
-    const linkColor = pathname === "/" ? "white" : "red"; // Determine color based on the current page
+    const linkColor = pathname === "/" ? "white" : "black"; // Determine color based on the current page
 
     return (
         <>

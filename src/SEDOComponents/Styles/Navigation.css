@@ -95,7 +95,7 @@
     padding: 10px 25px;
   }
   .SidePanel span a {
-    color: red !important;
+    color: rgb(0, 0, 0) !important;
     text-decoration: none;
     font-size: 15px;
     transition: color 0.3s;
