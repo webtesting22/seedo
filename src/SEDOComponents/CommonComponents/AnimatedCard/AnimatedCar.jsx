@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import AnimationImage from "../../../../public/Images/Banners/AnimationImage.jpg";
+import AnimationImage from "/Images/Banners/AnimationImage.jpg";
 import "../../Styles/AnimatedCar.css";
 
 const AnimatedCar = () => {

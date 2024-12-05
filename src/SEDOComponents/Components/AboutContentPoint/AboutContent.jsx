@@ -1,17 +1,17 @@
 import React from "react";
 import "../../Styles/AboutContent.css"
 import { Row, Col } from "antd";
-import Image1 from "../../../../public/Images/Banners/About1.png"
-import Image2 from "../../../../public/Images/Banners/About2.png"
-import Image3 from "../../../../public/Images/Banners/About3.png"
-import Image4 from "../../../../public/Images/Banners/About4.png"
-import Image5 from "../../../../public/Images/Banners/About5.png"
-import Image6 from "../../../../public/Images/Banners/About6.png"
-import Image7 from "../../../../public/Images/Banners/About7.png"
-import Image8 from "../../../../public/Images/Banners/About8.png"
-import Image9 from "../../../../public/Images/Banners/About9.png"
-import Image10 from "../../../../public/Images/Banners/About10.png"
-import Image11 from "../../../../public/Images/Banners/About11.png"
+import Image1 from "/Images/Banners/About1.png"
+import Image2 from "/Images/Banners/About2.png"
+import Image3 from "/Images/Banners/About3.png"
+import Image4 from "/Images/Banners/About4.png"
+import Image5 from "/Images/Banners/About5.png"
+import Image6 from "/Images/Banners/About6.png"
+import Image7 from "/Images/Banners/About7.png"
+import Image8 from "/Images/Banners/About8.png"
+import Image9 from "/Images/Banners/About9.png"
+import Image10 from "/Images/Banners/About10.png"
+import Image11 from "/Images/Banners/About11.png"
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles

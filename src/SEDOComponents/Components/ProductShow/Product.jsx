@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import ProductPageBanner from "../../../../public/Images/Banners/CarsBanner.jpg";
+import ProductPageBanner from "/Images/Banners/CarsBanner.jpg";
 import "../../Styles/Product.css";
 import { Row, Col, Input, Slider, Tag } from "antd";
 import ProductData from "../../ProductData";
 import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import BannerAbout from "../../../../public/Images/Banners/tranBanner.png"
+import BannerAbout from "/Images/Banners/tranBanner.png"
 import HomePageProducts from "../../CommonComponents/HomePageProducts/HomePageProducts";
 import Navigation from "../../CommonComponents/Navigation/Navigation";
 const Products = () => {

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import "../../Styles/ScrollingVideoAnimation.css";
-import ScrollingVideoAnimated from "../../../../public/Videos/ScrollingVideoAnimated.mp4";
+import ScrollingVideoAnimated from "/Videos/ScrollingVideoAnimated.mp4";
 
 const ScrollingVideoScreen = () => {
     const containerRef = useRef(null);

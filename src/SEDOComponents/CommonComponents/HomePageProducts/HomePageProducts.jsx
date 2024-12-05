@@ -2,9 +2,9 @@ import React from "react";
 import "../../Styles/HomePageProduct.css"
 import ProductData from "../../ProductData";
 import { Row, Col } from "antd";
-import Construction from "../../../../public/Images/Products/Construction.png"
+import Construction from "/Images/Products/Construction.png"
 import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
-import DriftSeries1 from "../../../../public/Images/Products/DriftSeries1.png"
+import DriftSeries1 from "/Images/Products/DriftSeries1.png"
 import { Link } from "react-router-dom";
 import { FaLongArrowAltRight } from "react-icons/fa";
 

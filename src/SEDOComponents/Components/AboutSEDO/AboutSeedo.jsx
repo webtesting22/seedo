@@ -1,15 +1,11 @@
 import React, { useEffect } from "react";
-import ProductPageBanner from "../../../../public/Images/Banners/CarsBanner.jpg";
 import "../../Styles/AboutSeedo.css";
 import { Row, Col } from "antd";
-import Back from "./Back.png"
-import SeedoPoster from "../../../../public/Images/Banners/SeedoPoster.png"
-import SeedoCertification from "../Certification/SeedoCertification";
+import SeedoPoster from "/Images/Banners/SeedoPoster.png"
 import PhotosGrid from "../../CommonComponents/PhotosGrid/PhotosGrid";
 import AboutContent from "../AboutContentPoint/AboutContent";
-import Client from "../Clients/Clients";
 import { Link } from "react-router-dom";
-import BannerAbout from "../../../../public/BannerAbout.avif"
+import BannerAbout from "/BannerAbout.avif"
 import Navigation from "../../CommonComponents/Navigation/Navigation";
 const AboutSeedo = () => {
     const ServicesCardData = [

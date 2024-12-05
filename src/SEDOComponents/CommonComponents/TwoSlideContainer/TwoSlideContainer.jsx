@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Row, Col } from "antd";
 import "../../Styles/TwoSlideContainer.css";
-import HoverBack from "../../../../public/Images/Banners/HoverBack.png"
-import Drone from "../../../../public/Images/Banners/Drone.png"
-import CarBanner from "../../../../public/Images/Banners/CarBanner.jpeg"
+import HoverBack from "/Images/Banners/HoverBack.png"
+import Drone from "/Images/Banners/Drone.png"
+import CarBanner from "/Images/Banners/CarBanner.jpeg"
 const TwoSlideContainer = () => {
     const [backgroundImage, setBackgroundImage] = useState(
         CarBanner

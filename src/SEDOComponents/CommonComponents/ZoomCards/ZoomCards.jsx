@@ -1,12 +1,12 @@
 import React, { useState, useRef, useEffect } from "react";
 import "../../Styles/ZoomCards.css"
-import Teddy from "../../../../public/Images/Products/Teddy.png"
-import JetSeries from "../../../../public/Images/Products/JetSeries.png"
-import Racingseries from "../../../../public/Images/Products/Racingseries.png"
-import DriftSeries from "../../../../public/Images/Products/DriftSeries.png"
-import Construction from "../../../../public/Images/Products/Construction.png"
-import NewLaunches from "../../../../public/Images/Products/NewLaunches.png"
-import ZoomBackImage from "../../../../public/Images/Banners/ZoomBackImage.jpg"
+import Teddy from "/Images/Products/Teddy.png"
+import JetSeries from "/Images/Products/JetSeries.png"
+import Racingseries from "/Images/Products/Racingseries.png"
+import DriftSeries from "/Images/Products/DriftSeries.png"
+import Construction from "/Images/Products/Construction.png"
+import NewLaunches from "/Images/Products/NewLaunches.png"
+import ZoomBackImage from "/Images/Banners/ZoomBackImage.jpg"
 import { Link } from "react-router-dom";
 const ZoomCards = () => {
     const [hoveredItem, setHoveredItem] = useState(null);

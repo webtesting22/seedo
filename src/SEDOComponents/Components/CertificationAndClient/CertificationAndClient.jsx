@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import SeedoCertification from "../Certification/SeedoCertification";
 import Client from "../Clients/Clients";
 import { Link } from "react-router-dom";
-import ClientPageBanner from "../../../../public/ClientPageBanner.webp"
+import ClientPageBanner from "/ClientPageBanner.webp"
 import Navigation from "../../CommonComponents/Navigation/Navigation";
 const CertificationAndClient = () => {
     useEffect(() => {

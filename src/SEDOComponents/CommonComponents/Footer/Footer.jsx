@@ -1,7 +1,7 @@
 import React from "react";
 import "../../Styles/Footer.css"
 import { Row, Col } from "antd";
-import SEEDOLogo from "../../../../public/SEEDOLogo.png"
+import SEEDOLogo from "/SEEDOLogo.png"
 import { IoLocationSharp } from "react-icons/io5";
 import { IoMdCall } from "react-icons/io";
 import { FaEnvelope } from "react-icons/fa";

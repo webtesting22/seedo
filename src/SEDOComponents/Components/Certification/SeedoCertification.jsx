@@ -1,16 +1,16 @@
 import React from "react";
 import "../../Styles/SeedoCertification.css"
 import { Row, Col } from "antd";
-import logo1 from "../../../../public/Images/Logos/CE.webp"
-import logo2 from "../../../../public/Images/Logos/GEM.png"
-import logo3 from "../../../../public/Images/Logos/GMP.jpg"
-import logo4 from "../../../../public/Images/Logos/GulfConformity.jpg"
-import logo5 from "../../../../public/Images/Logos/ISO.png"
-import logo6 from "../../../../public/Images/Logos/Manak.png"
-import logo7 from "../../../../public/Images/Logos/MSME.png"
-import logo8 from "../../../../public/Images/Logos/ROHS.png"
+import logo1 from "/Images/Logos/CE.webp"
+import logo2 from "/Images/Logos/GEM.png"
+import logo3 from "/Images/Logos/GMP.jpg"
+import logo4 from "/Images/Logos/GulfConformity.jpg"
+import logo5 from "/Images/Logos/ISO.png"
+import logo6 from "/Images/Logos/Manak.png"
+import logo7 from "/Images/Logos/MSME.png"
+import logo8 from "/Images/Logos/ROHS.png"
 import { Link } from "react-router-dom";
-import MakeInIndia from "../../../../public/Images/Logos/MakeInIndia.jpg"
+import MakeInIndia from "/Images/Logos/MakeInIndia.jpg"
 const SeedoCertification = () => {
     const CertificationLogoData = [
         {

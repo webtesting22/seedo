@@ -1,9 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "../../Styles/HomePage.css";
 import { Row, Col } from "antd";
-import { TypeAnimation } from "react-type-animation";
-import { Link } from "react-router-dom";
-import SEDOLogo from "../../../../public/SEEDOLogo.png"
+import SEEDOLogo from "/SEEDOLogo.png";
 const HomePage = () => {
     const imageRef = useRef(null);
     const sectionRef = useRef(null);  // Ref for the section to apply shadow effect
@@ -76,7 +74,7 @@ const HomePage = () => {
                             <Col lg={24} md={24} style={{ width: "100%" }}>
                                 <div className="ScrollingLogoContainer">
                                     <div>
-                                    <img src={SEDOLogo} alt="" />
+                                    <img src={SEEDOLogo} alt="" />
                                     <h2>BREAK THE LIMIT</h2>
                                     </div>
                                 </div>
