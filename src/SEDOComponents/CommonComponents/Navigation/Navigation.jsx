@@ -25,7 +25,10 @@ const Navigation = () => {
                     <div className={`SidePanel ${isMobileMenuOpen ? "show" : ""}`}>
                         {NavigationLinks.map((item, index) => (
                             <span key={index} onClick={closeMenu}>
-                                <Link to={item.path}>{item.link}</Link>
+                               
+                                <Link to={item.path} style={{
+                    color: item.path === "/" ? "red" : "red", // Red for "/", green for others
+                }}> {console.log(item.path)}{item.link}</Link>
                             </span>
                         ))}
                     </div>

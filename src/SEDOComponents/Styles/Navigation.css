@@ -22,6 +22,14 @@
   backdrop-filter: blur(10px);
 }
 
+.red-link {
+  color: red;
+}
+
+.green-link {
+  color: green;
+}
+
 .LinksNavigation span {
   margin: 0px 10px;
   color: white;
