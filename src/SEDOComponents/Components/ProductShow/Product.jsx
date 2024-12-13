@@ -8,10 +8,46 @@ import { Link } from "react-router-dom";
 import BannerAbout from "/Images/Banners/tranBanner.png"
 import HomePageProducts from "../../CommonComponents/HomePageProducts/HomePageProducts";
 import Navigation from "../../CommonComponents/Navigation/Navigation";
+const tagsData = [
+    {
+        category: 'Friction & Pull Back + Press & Go',
+        subcategories: ['Friction & Pull Back + Press & Go']
+    },
+    {
+        category: 'RC Car',
+        subcategories: ['RC Car']
+    },
+    {
+        category: 'Easy Learning Toys',
+        subcategories: ['Easy Learning Toys']
+    },
+    {
+        category: 'Seedo Metal X Racer',
+        subcategories: ['Construction Series', 'Pull Back Series', 'Cruiser Series', 'Drift Series', 'Racing Series', 'Jet Series', 'Fire Birds Series', 'Pack']
+    }
+];
+
+
 const Products = () => {
+
     const [searchTerm, setSearchTerm] = useState("");
     const [filteredProducts, setFilteredProducts] = useState(ProductData);
+    const [selectedTags, setSelectedTags] = useState([]);
 
+    const [selectedSubcategories, setSelectedSubcategories] = useState([]);
+    const handleCategoryChange = (tag, checked) => {
+        const nextSelectedTags = checked
+            ? [...selectedTags, tag]
+            : selectedTags.filter((t) => t !== tag);
+        setSelectedTags(nextSelectedTags);
+    };
+
+    const handleSubcategoryChange = (subcategory, checked) => {
+        const nextSelectedSubcategories = checked
+            ? [...selectedSubcategories, subcategory]
+            : selectedSubcategories.filter((s) => s !== subcategory);
+        setSelectedSubcategories(nextSelectedSubcategories);
+    };
     const renderStars = (rating) => {
         const fullStars = Math.floor(rating);
         const halfStar = rating % 1 !== 0;
@@ -45,9 +81,9 @@ const Products = () => {
 
     return (
         <>
-        <div id="AboutUs">
-        <Navigation/>
-        </div>
+            <div id="AboutUs">
+                <Navigation />
+            </div>
             <section id="ProductContainer">
                 <div className="BannerContainer">
                     <img src={BannerAbout} alt="" />
@@ -60,10 +96,35 @@ const Products = () => {
                 </div>
                 <div id="ProductShowContainer">
                     <div>
-                        <HomePageProducts/>
-                        {/* <Row> */}
-                            {/* <Col lg={6}>
+                        {/* <HomePageProducts /> */}
+                        <Row>
+                            <Col lg={6} md={24} xs={24} sm={24}>
                                 <div className="CategoriesFilters">
+                                    <h3>Categories:</h3>
+                                    {tagsData.map((tag) => (
+                                        <div key={tag.category}>
+                                            <Tag.CheckableTag
+                                                checked={selectedTags.includes(tag.category)}
+                                                onChange={(checked) => handleCategoryChange(tag.category, checked)}
+                                            >
+                                                {tag.category}
+                                            </Tag.CheckableTag>
+                                            {selectedTags.includes(tag.category) && tag.category === "Seedo Metal X Racer" &&
+
+                                                tag.subcategories.map((subcategory) => (
+                                                    <div key={subcategory} style={{ paddingLeft: "30px" }}>
+                                                        <Tag.CheckableTag
+                                                            checked={selectedSubcategories.includes(subcategory)}
+                                                            onChange={(checked) => handleSubcategoryChange(subcategory, checked)}
+                                                        >
+                                                            {subcategory}
+                                                        </Tag.CheckableTag>
+                                                    </div>
+                                                ))}
+                                        </div>
+                                    ))}
+                                </div>
+                                {/* <div className="CategoriesFilters">
                                     <div className="SearchBarContainer">
                                         <h3>Search Product</h3>
                                         <Input
@@ -73,11 +134,16 @@ const Products = () => {
                                             style={{ marginBottom: "20px" }}
                                         />
                                     </div>
-                                    <div>
-                                        <h3>Selected Categories:</h3>
-                                        <Tag >Cars</Tag>
-                                        <Tag >Teddies</Tag>
-                                    </div>
+                                    <h3>Selected Categories:</h3>
+                                    {tagsData.map((tag) => (
+                                        <Tag.CheckableTag
+                                            key={tag}
+                                            checked={selectedTags.includes(tag)}
+                                            onChange={(checked) => handleChange(tag, checked)}
+                                        >
+                                            {tag}
+                                        </Tag.CheckableTag>
+                                    ))}
                                     <div className="PriceRange">
                                             <h3>Price Range</h3>
                                             <div className="PriceRange">
@@ -86,9 +152,9 @@ const Products = () => {
                                             </div>
                                             <Slider range defaultValue={[0, 50000]} disabled />
                                     </div>
-                                </div>
-                            </Col> */}
-                            {/* <Col lg={24}>
+                                </div> */}
+                            </Col>
+                            <Col lg={18}>
                                 <Row id="ProductCardRow">
                                     {filteredProducts.map((item, index) => (
                                         <Col lg={6} md={8} key={index}>
@@ -107,13 +173,13 @@ const Products = () => {
                                                     {/* <div className="ratingContainer">
                                                         {renderStars(item.rating)}
                                                     </div> */}
-                                                {/* </div>
+                                                </div>
                                             </div>
                                         </Col>
                                     ))}
-                                </Row> */}
-                            {/* </Col> */}
-                        {/* </Row>  */}
+                                </Row>
+                            </Col>
+                        </Row>
                     </div>
                 </div>
             </section>

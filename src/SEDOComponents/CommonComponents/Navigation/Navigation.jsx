@@ -63,7 +63,9 @@ const Navigation = () => {
                                     color: linkColor, // Apply determined color
 
 
-                                }}> {console.log(item.path)}{item.link}</Link>
+                                }}>
+                                 {item.link}
+                                 </Link>
                             </span>
                         ))}
                     </div>
