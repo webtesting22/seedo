@@ -80,7 +80,7 @@
 
 .HoverImageContainer {
   padding: 2rem 0rem;
-  height: 200px;
+  height: 150px;
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -93,7 +93,7 @@
   position: absolute;
   /* top: 0; */
   /* left: 0; */
-  width: 80%;
+  width: 70%;
   /* height: 100%;
     object-fit: cover; */
   transition: opacity 0.3s ease-in-out;
