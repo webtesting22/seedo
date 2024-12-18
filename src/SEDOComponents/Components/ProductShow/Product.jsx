@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "../../Styles/Product.css";
 import { Row, Col, Checkbox, Button, Input } from "antd";
 import { Link } from "react-router-dom";
@@ -9,12 +9,13 @@ import { TfiLayoutGrid3Alt } from "react-icons/tfi";
 import { TfiLayoutGrid4Alt } from "react-icons/tfi";
 
 const { Search } = Input;
-
+import Grid3x3Icon from '@mui/icons-material/Grid3x3';
+import Grid4x4Icon from '@mui/icons-material/Grid4x4';
 const Products = () => {
-     useEffect(() => {
-            // Scroll to the top of the page when the component is mounted
-            window.scrollTo(0, 0);
-        }, []);
+    useEffect(() => {
+        // Scroll to the top of the page when the component is mounted
+        window.scrollTo(0, 0);
+    }, []);
     // State to hold the selected categories
     const [selectedCategories, setSelectedCategories] = useState([]);
     const [layout, setLayout] = useState(8); // Default layout 4x4x4

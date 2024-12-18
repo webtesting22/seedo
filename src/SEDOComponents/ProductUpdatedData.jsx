@@ -76,12 +76,14 @@ import RC00127MHz from "/Images/ProductsImages/RC Car/116RC001-27MHz.png"
 import RC00224GHz from "/Images/ProductsImages/RC Car/116RC002-2.4GHz.png"
 import RC00227MHz from "/Images/ProductsImages/RC Car/116RC002-27MHz.png"
 import RC003 from "/Images/ProductsImages/RC Car/116RC003.png"
+import RC003_2 from "/Images/ProductsImages/RC Car/116RC003 (2).png"
 import SC001 from "/Images/ProductsImages/RC Car/116SC001.png"
 import SC002 from "/Images/ProductsImages/RC Car/116SC002.png"
 import SC003 from "/Images/ProductsImages/RC Car/116SC003.png"
 import BC023 from "/Images/ProductsImages/RC Car/118BC023.png"
 import MT001 from "/Images/ProductsImages/RC Car/118MT001.png"
 import MT002 from "/Images/ProductsImages/RC Car/118MT002.png"
+import MT002_2 from "/Images/ProductsImages/RC Car/118MT002 (2).png"
 import MT003 from "/Images/ProductsImages/RC Car/118MT003.png"
 import MT003_2 from "/Images/ProductsImages/RC Car/118MT003(2).png"
 import MT003G from "/Images/ProductsImages/RC Car/118MT003G.png"
@@ -98,6 +100,7 @@ import PRC001 from "/Images/ProductsImages/RC Car/124PRC001.png"
 import RC001_124 from "/Images/ProductsImages/RC Car/124RC001.png"
 import SC001_124 from "/Images/ProductsImages/RC Car/124SC001.png"
 import W001 from "/Images/ProductsImages/RC Car/1182W001.png"
+import W001_2 from "/Images/ProductsImages/RC Car/1182W001 (2).png"
 import W002 from "/Images/ProductsImages/RC Car/1182W002.png"
 import W003 from "/Images/ProductsImages/RC Car/1182W003.png"
 import STDR001 from "/Images/ProductsImages/RC Car/STDR001.png"
@@ -712,7 +715,7 @@ const SEEDOData = [
     {
         ProductTitle: "SEEDO Light Blaster Car",
         ProductImage: [
-            W001
+            W001, W001_2
         ],
         ProductCategories: "RC Car",
         ProductWheelWay: "2way",
@@ -797,15 +800,7 @@ const SEEDOData = [
         ProductElectricType: "-",
         ProductStyleCode: "124LRC00E"
     },
-    {
-        ProductTitle: "SEEDO Road Sniper 03 Car",
-        ProductImage: "",
-        ProductCategories: "RC Car",
-        ProductWheelWay: "4way",
-        ProductBatteryType: "Rechargable",
-        ProductElectricType: "-",
-        ProductStyleCode: "124LRC00F"
-    },
+   
     {
         ProductTitle: "SEEDO Blaze Runner Car",
         ProductImage: [
@@ -897,7 +892,7 @@ const SEEDOData = [
     {
         ProductTitle: "SEEDO Rock Crawler",
         ProductImage: [
-            MT002
+            MT002,MT002_2
         ],
         ProductCategories: "RC Car",
         ProductWheelWay: "4way",
@@ -985,7 +980,7 @@ const SEEDOData = [
     {
         ProductTitle: "SEEDO Thunder Bird Car",
         ProductImage: [
-            RC003
+            RC003,RC003_2
         ],
         ProductCategories: "RC Car",
         ProductWheelWay: "4way",
