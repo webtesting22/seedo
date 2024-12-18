@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import "../../Styles/Product.css";
 import { Row, Col, Checkbox, Button } from "antd";
 import { Link } from "react-router-dom";
@@ -7,6 +7,10 @@ import SEEDOData from "../../ProductUpdatedData";
 import ProductsPageBanner from "/Images/Banners/ProductsPageBanner.jpg";
 
 const Products = () => {
+     useEffect(() => {
+            // Scroll to the top of the page when the component is mounted
+            window.scrollTo(0, 0);
+        }, []);
     // State to hold the selected categories
     const [selectedCategories, setSelectedCategories] = useState([]);
     const [layout, setLayout] = useState(8); // Default layout 4x4x4

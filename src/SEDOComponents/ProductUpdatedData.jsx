@@ -754,7 +754,7 @@ const SEEDOData = [
         ProductStyleCode: "124LRC00A"
     },
     {
-        ProductTitle: "SEEDO Little Roster Car",
+        ProductTitle: "SEEDO Little Roaster Car",
         ProductImage: [
             LRC00B
         ],
