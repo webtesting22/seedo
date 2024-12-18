@@ -1,10 +1,14 @@
 import React, { useState,useEffect } from "react";
 import "../../Styles/Product.css";
-import { Row, Col, Checkbox, Button } from "antd";
+import { Row, Col, Checkbox, Button, Input } from "antd";
 import { Link } from "react-router-dom";
 import Navigation from "../../CommonComponents/Navigation/Navigation";
 import SEEDOData from "../../ProductUpdatedData";
 import ProductsPageBanner from "/Images/Banners/ProductsPageBanner.jpg";
+import { TfiLayoutGrid3Alt } from "react-icons/tfi";
+import { TfiLayoutGrid4Alt } from "react-icons/tfi";
+
+const { Search } = Input;
 
 const Products = () => {
      useEffect(() => {
@@ -14,6 +18,8 @@ const Products = () => {
     // State to hold the selected categories
     const [selectedCategories, setSelectedCategories] = useState([]);
     const [layout, setLayout] = useState(8); // Default layout 4x4x4
+    const [searchQuery, setSearchQuery] = useState(""); // Search query state
+
     // Define static categories directly
     const staticCategories = [
         "Friction & Pull back + Press & Go",
@@ -33,15 +39,30 @@ const Products = () => {
     const handleCategoryChange = (checkedValues) => {
         setSelectedCategories(checkedValues);
     };
+
     // Set the grid layout based on button click
     const handleLayoutChange = (layoutType) => {
         setLayout(layoutType);
     };
 
-    // Filter products based on selected categories
-    const filteredProducts = selectedCategories.length
-        ? SEEDOData.filter(item => selectedCategories.includes(item.ProductCategories))
-        : SEEDOData; // Show all products if no category is selected
+    // Handle search input change
+    const handleSearch = (value) => {
+        setSearchQuery(value);
+    };
+
+    // Filter products based on selected categories and search query
+    const filteredProducts = SEEDOData.filter(item => {
+        const matchesCategory = selectedCategories.length
+            ? selectedCategories.includes(item.ProductCategories)
+            : true;
+
+        const matchesSearchQuery = searchQuery
+            ? item.ProductTitle.toLowerCase().includes(searchQuery.toLowerCase()) ||
+            item.ProductCategories.toLowerCase().includes(searchQuery.toLowerCase())
+            : true;
+
+        return matchesCategory && matchesSearchQuery;
+    });
 
     return (
         <>
@@ -66,9 +87,20 @@ const Products = () => {
                         </div>
                     </div>
                     <div className="SearchAndAddons">
-                        <div style={{ marginBottom: "20px" }}>
-                            <Button onClick={() => handleLayoutChange(8)} style={{ marginRight: "10px" }}>8x8x8 Layout</Button>
-                            <Button onClick={() => handleLayoutChange(6)} style={{ marginRight: "10px" }}>6x6x6 Layout</Button>
+                        <div className="SearchBarContainer" style={{ marginBottom: "20px", width: "100%" }}>
+                            {/* AntD Search Bar */}
+
+                        </div>
+                        <div style={{ marginBottom: "20px", display: "flex", justifyContent: "end", width: "100%", gap: "5px" }}>
+                            <Search
+                                placeholder="Search for products"
+                                allowClear
+                                size="large"
+                                onChange={(e) => setSearchQuery(e.target.value)} // Real-time update
+                                style={{ width: "40%" }}
+                            />
+                            <Button onClick={() => handleLayoutChange(8)} style={{ height: "100%" }}><TfiLayoutGrid3Alt style={{ cursor: "pointer", }} /></Button>
+                            <Button onClick={() => handleLayoutChange(6)} style={{ height: "100%" }}><TfiLayoutGrid4Alt style={{ cursor: "pointer", height: "100%" }} /></Button>
                         </div>
                     </div>
 
