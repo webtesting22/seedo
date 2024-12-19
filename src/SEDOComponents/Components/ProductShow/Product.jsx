@@ -89,7 +89,6 @@ const Products = () => {
                     </div>
                     <div className="SearchAndAddons">
                         <div className="SearchBarContainer" style={{ marginBottom: "20px", width: "100%" }}>
-                            {/* AntD Search Bar */}
 
                         </div>
                         <div style={{ marginBottom: "20px", display: "flex", justifyContent: "end", width: "100%", gap: "5px" }}>
@@ -129,7 +128,7 @@ const Products = () => {
                                         <div
                                             className="BigCardEdit"
                                             data-aos="fade-up"
-                                            data-aos-delay={`${index * 100}`}
+                                            data-aos-delay={`${index * 20}`}
                                         >
                                             <div className="HoverImageContainer">
                                                 {/* First image as default */}

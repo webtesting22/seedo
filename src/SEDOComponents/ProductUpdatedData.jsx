@@ -800,7 +800,7 @@ const SEEDOData = [
         ProductElectricType: "-",
         ProductStyleCode: "124LRC00E"
     },
-   
+
     {
         ProductTitle: "SEEDO Blaze Runner Car",
         ProductImage: [
@@ -892,7 +892,7 @@ const SEEDOData = [
     {
         ProductTitle: "SEEDO Rock Crawler",
         ProductImage: [
-            MT002,MT002_2
+            MT002, MT002_2
         ],
         ProductCategories: "RC Car",
         ProductWheelWay: "4way",
@@ -980,7 +980,7 @@ const SEEDOData = [
     {
         ProductTitle: "SEEDO Thunder Bird Car",
         ProductImage: [
-            RC003,RC003_2
+            RC003, RC003_2
         ],
         ProductCategories: "RC Car",
         ProductWheelWay: "4way",
@@ -1034,7 +1034,9 @@ const SEEDOData = [
     },
     {
         ProductTitle: "SEEDO Brainy Bear",
-        ProductImage: "",
+        ProductImage: [
+            SLTBB001,
+        ],
         ProductCategories: "Early Learning Toys",
         ProductWheelWay: "_",
         ProductBatteryType: "Rechargable",
@@ -1043,7 +1045,9 @@ const SEEDOData = [
     },
     {
         ProductTitle: "SEEDO Pick and Pop",
-        ProductImage: "",
+        ProductImage: [
+            SLTPP001,
+        ],
         ProductCategories: "Early Learning Toys",
         ProductWheelWay: "_",
         ProductBatteryType: "Rechargable",
@@ -1052,7 +1056,9 @@ const SEEDOData = [
     },
     {
         ProductTitle: "SEEDO Techno Tutor",
-        ProductImage: "",
+        ProductImage: [
+            SLTTT001,
+        ],
         ProductCategories: "Early Learning Toys",
         ProductWheelWay: "_",
         ProductBatteryType: "Rechargable",
@@ -1061,7 +1067,7 @@ const SEEDOData = [
     },
     {
         ProductTitle: "Cube",
-        ProductImage: "",
+        ProductImage: [Cube],
         ProductCategories: "Early Learning Toys",
         ProductWheelWay: "_",
         ProductBatteryType: "Colorful",
@@ -1070,7 +1076,7 @@ const SEEDOData = [
     },
     {
         ProductTitle: "Walker",
-        ProductImage: "",
+        ProductImage: [Walker],
         ProductCategories: "Early Learning Toys",
         ProductWheelWay: "_",
         ProductBatteryType: "_",
