@@ -191,7 +191,7 @@
 
   .BannerContainer img {
     width: 100%;
-    height: 100%;
+    height: unset;
     object-fit: cover;
     border-radius: 20px;
     padding: 000px;

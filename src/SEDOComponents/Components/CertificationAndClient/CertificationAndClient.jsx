@@ -19,7 +19,7 @@ const CertificationAndClient = () => {
                     {/* <div className="overlayContainer">
 
                         </div> */}
-                    <img src={ClientPageBanner} alt="" />
+                    <img src="/Images/ gen8.jpg" alt="" />
                 </div>
                 <div style={{ padding: "20px", }}>
                     <span>
