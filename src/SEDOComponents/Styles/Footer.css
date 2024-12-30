@@ -3,7 +3,7 @@
     padding: 0rem 4rem;
     background-color: rgb(0 0 0 / 93%);
     margin-top: 3rem !important;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .FooterLogoContainer img {
@@ -40,14 +40,15 @@
 
 .LinksContainer div svg {
     color: white;
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 20px;
     margin-right: 10px;
 }
 
 #Footer hr {
     background: rgba(0, 0, 0, 0.318);
     border: 0.5px solid rgba(255, 255, 255, 0.163);
+    margin: 0px;
 }
 
 .footerNavigation {
@@ -84,17 +85,26 @@
 .CopyWriteText p {
     text-align: center;
     color: #ffffff;
+    margin-bottom: 0px;
+}
+
+#Footer .ant-row .ant-col {
+    padding-left: 20px;
+    border-left: 1px solid #ffde223a;
 }
 
 @media (max-width: 769px) {
 
+    .FactoryContainer {
+        padding: 2rem 0rem;
+    }
 
     #Footer {
         padding-top: 2rem !important;
         padding: 0rem 1rem;
         background-color: rgb(0 0 0 / 93%);
         margin-top: 3rem !important;
-        padding-bottom: 1rem;
+        padding-bottom: 0rem !important;
     }
 
     #Footer .ant-row .ant-col {
@@ -117,11 +127,11 @@
     }
 
     .FooterLinksContainer {
-        padding-left: 1rem !important;
+        padding-left: 0rem !important;
     }
 
     .LinksContainer {
-        padding-left: 1rem !important;
+        padding-left: 0rem !important;
         padding-top: 2rem !important;
     }
 }

@@ -26,6 +26,7 @@
 
 #AboutSEDOSection {
     position: relative;
+    background-color: #A5252B;
 
 }
 
@@ -118,7 +119,7 @@
     margin-bottom: 0px;
     /* font-weight: 400; */
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-
+color: #A5252B;
     /* color: red; */
 }
 
@@ -168,7 +169,7 @@
     /* position: absolute;
     top: 25px;
     left: -5px; */
-    color: red;
+    color: #A5252B;
     width: 20px;
     height: 20px;
     margin: 0px;
@@ -178,7 +179,7 @@
     margin-left: 10px;
     margin-bottom: 0px;
     margin-top: 0px;
-    color: red;
+    color: #A5252B;
     font-weight: 500;
     text-transform: uppercase;
 }
@@ -189,6 +190,14 @@
 }
 
 @media (max-width:769px) {
+    .LeftSideContentContainer h2 {
+        font-size: 2rem;
+        margin-bottom: 0px;
+        /* font-weight: 400; */
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    color: white;
+        /* color: red; */
+    }
     .ServicesStickyCards:hover {
         display: flex;
         background-color: rgba(244, 244, 244, 0.583);
@@ -210,6 +219,7 @@
 
     .ServicesStickyCards {
         flex-direction: column;
+        padding: 30px 10px;
     }
 
     .AnimatedContent {

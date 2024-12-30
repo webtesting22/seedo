@@ -11,12 +11,13 @@
 }
 
 .BannerContainer {
-  height: 60vh;
+  height: 70vh;
   /* width: 100%; */
   overflow: hidden;
   display: flex;
   align-items: center;
   padding: 10px;
+  justify-content: center;
 }
 
 #ProductShowContainer {
@@ -121,31 +122,31 @@
 
 #ProductShowContainer .ant-input-affix-wrapper:focus-within {
   /* color: red; */
-  border-color: red;
+  border-color: #A5252B;
 }
 
 #ProductShowContainer .ant-input-affix-wrapper:hover {
   /* color: red; */
-  border-color: red;
+  border-color: #A5252B;
 }
 
 #ProductShowContainer .ant-input-affix-wrapper:focus {
-  color: red;
-  border-color: red !important;
+  color: #A5252B;
+  border-color: #A5252B !important;
 }
 
 #ProductShowContainer .ant-btn {
-  color: red;
+  color: #A5252Bed;
 }
 
 #ProductShowContainer .ant-btn:hover {
-  color: red;
-  border-color: red;
+  color: #A5252Bed;
+  border-color: #A5252B;
 }
 
 #ProductShowContainer .ant-btn:focus {
-  color: red;
-  border-color: red;
+  color: #A5252B;
+  border-color: #A5252B;
 }
 
 @media (max-width: 769px) {

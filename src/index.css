@@ -35,7 +35,7 @@
 }
 
 .buttonStylefirst {
-  color: red;
+  color: #A5252B;
   text-align: center;
   letter-spacing: -.04em;
   cursor: pointer;
@@ -61,7 +61,7 @@
   text-align: center;
   letter-spacing: -.04em;
   cursor: pointer;
-  background-color: red;
+  background-color: #A5252B;
   border-radius: 2000px;
   font-weight: 300;
   justify-content: center;
@@ -80,7 +80,7 @@
 }
 
 .buttonStyleSecond:hover {
-  color: red;
+  color: #A5252B;
   text-align: center;
   letter-spacing: -.04em;
   cursor: pointer;
@@ -184,18 +184,18 @@
   align-items: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 
-  background-image: linear-gradient(90deg, black, red, black, red);
+  /* background-image: linear-gradient(90deg, black, #A5252B, black, #A5252B); */
   background-size: 300%;
   background-clip: text;
   -webkit-background-clip: text;
-  color: transparent;
+  color: #A5252B;
   animation: fillColor 2s linear infinite;
 }
 
 .PrimaryHeading-black svg {
   margin: 0px !important;
   margin-right: 10px !important;
-  color: red;
+  color: white;
 }
 
 .PrimaryHeading-color {
@@ -217,7 +217,7 @@
   font-weight: 600;
   line-height: 110%;
   margin-bottom: 1.5rem;
-  color: #ff3030;
+  color: #A5252B;
 }
 
 
@@ -229,7 +229,16 @@
   color: #ffdf22;
   margin-bottom: 2rem;
 }
-
+.AddressContainer{
+  display: flex;
+  
+}
+.AddressContainer p{
+  color: white;
+}
+.AddressContainer h3{
+  color: white !important;
+}
 /* Define the keyframe animation for rotating clockwise */
 @keyframes rotateClockwise {
   0% {
@@ -242,6 +251,18 @@
 }
 
 @media (max-width:769px) {
+  .AddressContainer h3{
+    color: white !important;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .AddressContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  .PrimaryHeading-black {
+    font-size: 2rem;
+  }
   .row-reverse {
     display: flex;
     flex-direction: column-reverse;

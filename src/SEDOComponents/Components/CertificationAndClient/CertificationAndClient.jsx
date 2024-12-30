@@ -21,7 +21,7 @@ const CertificationAndClient = () => {
                         </div> */}
                     <img src={ClientPageBanner} alt="" />
                 </div>
-                <div style={{ padding: "20px" }}>
+                <div style={{ padding: "20px", }}>
                     <span>
                         <Link to="/" className="breadcrumb-link" style={{ color: "black" }}>Home</Link> &gt;{" "}
                         <Link to="/certification-and-client" className="breadcrumb-link" style={{ color: "black" }}>Certification and Client</Link>

@@ -124,7 +124,7 @@
 
 .star {
   font-size: 16px;
-  color: red;
+  color: #A5252B;
   /* Change star color to red */
   margin-right: 4px;
 }
@@ -135,7 +135,7 @@
 }
 
 .star.half {
-  color: red;
+  color: #A5252B;
   /* Red for half stars */
 }
 
@@ -179,7 +179,7 @@
   width: 20px;
   height: 20px;
   margin-right: 10px;
-  color: red;
+  color: #A5252B;
 }
 
 @media (max-width: 769px) {
