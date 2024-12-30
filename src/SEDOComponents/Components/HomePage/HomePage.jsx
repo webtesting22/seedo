@@ -66,7 +66,7 @@ const HomePage = () => {
                     <div id="BackImageOverlay">
                         <img
                             ref={imageRef}
-                            src="https://images.unsplash.com/photo-1632060203819-4a605c798db3?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            src="https://images.unsplash.com/photo-1652014492117-e062baed36f8?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                             alt="Background"
                         />
                     </div>

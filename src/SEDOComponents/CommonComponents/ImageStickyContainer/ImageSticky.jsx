@@ -11,9 +11,9 @@ const ImageSticky = () => {
                 </div>
                 <div className="WriteUpRelatedCompany">
                     <div>
-                        <p style={{ margin: "0px" }}>About The Shop</p>
+                        <p style={{ margin: "0px",color:"#F8D966" }}>About The SEEDO</p>
                         <h2 style={{ marginTop: "0px" }}>Watch Our Story</h2>
-                        <p>There is no magic formula to write perfect ad copy. It is based on a number of factors, including ad placement, demographic, even the consumer’s mood.</p>
+                        <p>Sanson is a leading innovator in consumer and trade promotions, trusted by major FMCG brands in India such as Unilever, Glaxò, Perfetti, Mondelez, Britannia, and more...</p>
                         <div style={{display:"flex",justifyContent:"center",width:"100%"}}>
                         <Link to="/aboutSeedo"><button><FaArrowRightLong/></button></Link>
                         </div>
