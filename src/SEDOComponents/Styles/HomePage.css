@@ -103,9 +103,10 @@
   justify-content: end;
 }
 
-#ContentContainer .AnimatedSVGContainer > div {
+#ContentContainer .AnimatedSVGContainer>div {
   width: 50%;
 }
+
 .ScrollingLogoContainer {
   display: flex;
   justify-content: center;
@@ -113,10 +114,12 @@
   display: flex;
   align-items: center;
 }
+
 .ScrollingLogoContainer img {
   width: 300px;
   border-radius: 20px;
 }
+
 .ScrollingLogoContainer h2 {
   color: #ffdf22;
   text-align: center;
@@ -131,11 +134,13 @@
     display: flex;
     align-items: center;
   }
+
   #BackImageOverlay {
     overflow: hidden;
     height: 1300px;
     width: 100%;
   }
+
   .ButtonsContainer {
     display: flex;
     align-items: center;
@@ -144,16 +149,16 @@
     flex-direction: column;
     gap: 20px;
   }
+
   .ButtonsContainer button {
     width: 100%;
   }
+
   .ButtonsContainer .buttonStylefirst,
   .ButtonsContainer .buttonStyleSecond {
     padding: 1rem auto;
   }
-  #ContentContainer .AnimatedSVGContainer > div {
-    width: 100%;
-  }
+
   #ContentContainer .AnimatedSVGContainer {
     padding: 0rem 1rem;
     /* padding-top: 5rem; */
@@ -161,10 +166,12 @@
     justify-content: end;
     /* display: none; */
   }
+
   #ContentContainer .ant-row {
     padding: 0rem 1rem;
     /* padding-top: 15rem; */
   }
+
   #MainUniqHeading span {
     font-size: 3.5rem;
     color: white;
@@ -173,4 +180,20 @@
     font-family: "Edu AU VIC WA NT Arrows", cursive;
     padding-bottom: 0.5rem;
   }
+  
+}
+
+@media (max-width:900px) {
+
+  #ContentContainer .AnimatedSVGContainer>div {
+    width: 100% !important;
+  }
+
+#ContentContainer .AnimatedSVGContainer {
+  padding: 0rem 1rem;
+  padding-top: 0rem;
+  display: flex;
+  justify-content: end;
+}
+
 }

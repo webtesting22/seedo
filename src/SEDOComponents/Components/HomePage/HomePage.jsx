@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import "../../Styles/HomePage.css";
 import { Row, Col } from "antd";
 import SEEDOLogo from "/SEEDOLogo.png";
+import SanSon from "./SanSon.png"
 const HomePage = () => {
     const imageRef = useRef(null);
     const sectionRef = useRef(null);  // Ref for the section to apply shadow effect
@@ -115,9 +116,10 @@ const HomePage = () => {
                         </Row>
                         <div className="AnimatedSVGContainer">
                             <div>
-                                <svg width="100%" class="svg rotating-image" height="100%" viewBox="0 0 20 23" fill="red" xmlns="http://www.w3.org/2000/svg">
+                                <svg width="100%" class="svg rotating-image" style={{marginBottom:"0.4rem"}} height="100%" viewBox="0 0 20 23" fill="red" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M8.01745 19.7867C8.01745 21.7867 9.29195 23.001 10 23.001C10.7081 23.001 11.9826 21.7867 11.9826 19.7867C11.9826 19.5724 10.2124 14.2867 10.1416 11.7867C12.195 13.0724 15.9477 17.2867 16.1601 17.3581C17.8594 18.3581 19.4879 17.8581 19.9128 17.2867C20.196 16.6438 19.842 14.9295 18.0718 13.9295C17.8594 13.7867 12.549 12.7153 10.2832 11.501C12.549 10.2867 17.8594 9.21526 18.0718 9.0724C19.842 8.0724 20.196 6.35812 19.9128 5.78669C19.4879 5.14383 17.8594 4.64383 16.1601 5.64383C15.9477 5.78669 12.195 9.92955 10.1416 11.2867C10.2124 8.71526 11.9826 3.57241 11.9826 3.21526C11.9826 1.21526 10.7081 0.000976562 10 0.000976562C9.29195 0.000976562 8.01745 1.21526 8.01745 3.21526C8.01745 3.50097 9.71678 8.71526 9.85839 11.2867C7.73423 9.92955 4.12315 5.78669 3.83993 5.64383C2.1406 4.64383 0.512072 5.14383 0.0872398 5.78669C-0.195982 6.35812 0.158045 8.0724 1.92818 9.0724C2.2114 9.21526 7.451 10.2867 9.64597 11.501C7.451 12.7153 2.2114 13.7867 1.92818 13.9295C0.158045 14.9295 -0.195982 16.6438 0.0872398 17.2867C0.512072 17.8581 2.1406 18.3581 3.83993 17.3581C4.05234 17.2153 7.73423 13.0724 9.85839 11.7867C9.71678 14.2867 8.01745 19.5724 8.01745 19.7867Z" fill="currentColor"></path>
                                 </svg>
+                                <img src={SanSon} alt="" style={{width:"40px",marginLeft:"20px",borderRadius:"5px"}}/>
                                 <h2 className="SecondaryHeading">About Sanson Promo Innovations LLP</h2>
                                 <p className="paragraph"><b>Sanson Promo Innovations LLP</b> is a leader in consumer and trade promotions, trusted by top FMCG brands like Unilever, Glaxo, Perfetti, Mondelez, and Britannia. We specialize in collaborating with renowned licensors such as Disney, Marvel, Mattel, Pokémon, and Doraemon. Our end-to-end expertise includes conceptualization, product engineering, mass manufacturing, quality assurance, and logistics. This comprehensive approach ensures that we consistently exceed client expectations, delivering high-quality products and innovative campaigns that foster brand loyalty and drive business growth.</p>
                             </div>

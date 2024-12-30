@@ -1,27 +1,24 @@
 import React, { useState, useEffect } from "react";
-import "../../Styles/Product.css";
-import { Row, Col, Checkbox, Button, Input } from "antd";
+import { Row, Col, Checkbox, Button, Input, Drawer } from "antd";
 import { Link } from "react-router-dom";
+import { TfiLayoutGrid3Alt, TfiLayoutGrid4Alt } from "react-icons/tfi";
+import { CiFilter } from "react-icons/ci";
+import { useMediaQuery } from "react-responsive";
+import "../../Styles/Product.css";
 import Navigation from "../../CommonComponents/Navigation/Navigation";
 import SEEDOData from "../../ProductUpdatedData";
-import ProductsPageBanner from "/Images/Banners/ProductsPageBanner.jpg";
-import { TfiLayoutGrid3Alt } from "react-icons/tfi";
-import { TfiLayoutGrid4Alt } from "react-icons/tfi";
+import gene7 from "/Images/gene7.jpg";
 
 const { Search } = Input;
-import Grid3x3Icon from '@mui/icons-material/Grid3x3';
-import Grid4x4Icon from '@mui/icons-material/Grid4x4';
+
 const Products = () => {
-    useEffect(() => {
-        // Scroll to the top of the page when the component is mounted
-        window.scrollTo(0, 0);
-    }, []);
-    // State to hold the selected categories
+    const [isDrawerOpen, setDrawerOpen] = useState(false);
+    const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
+
     const [selectedCategories, setSelectedCategories] = useState([]);
     const [layout, setLayout] = useState(8); // Default layout 4x4x4
     const [searchQuery, setSearchQuery] = useState(""); // Search query state
 
-    // Define static categories directly
     const staticCategories = [
         "Friction & Pull back + Press & Go",
         "RC Car",
@@ -36,22 +33,12 @@ const Products = () => {
         "Fire Birds Series",
     ];
 
-    // Handle category selection
-    const handleCategoryChange = (checkedValues) => {
-        setSelectedCategories(checkedValues);
-    };
+    const handleCategoryChange = (checkedValues) => setSelectedCategories(checkedValues);
 
-    // Set the grid layout based on button click
-    const handleLayoutChange = (layoutType) => {
-        setLayout(layoutType);
-    };
+    const handleLayoutChange = (layoutType) => setLayout(layoutType);
 
-    // Handle search input change
-    const handleSearch = (value) => {
-        setSearchQuery(value);
-    };
+    const handleSearch = (value) => setSearchQuery(value);
 
-    // Filter products based on selected categories and search query
     const filteredProducts = SEEDOData.filter(item => {
         const matchesCategory = selectedCategories.length
             ? selectedCategories.includes(item.ProductCategories)
@@ -65,6 +52,13 @@ const Products = () => {
         return matchesCategory && matchesSearchQuery;
     });
 
+    const showDrawer = () => setDrawerOpen(true);
+    const closeDrawer = () => setDrawerOpen(false);
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <>
             <div id="AboutUs">
@@ -72,7 +66,7 @@ const Products = () => {
             </div>
             <section id="ProductContainer">
                 <div className="BannerContainer">
-                    <img src={ProductsPageBanner} alt="Products Banner" />
+                    <img src={gene7} alt="Products Banner" />
                 </div>
                 <div style={{ padding: "20px" }}>
                     <span>
@@ -88,25 +82,44 @@ const Products = () => {
                         </div>
                     </div>
                     <div className="SearchAndAddons">
-                        <div className="SearchBarContainer" style={{ marginBottom: "20px", width: "100%" }}>
 
-                        </div>
-                        <div style={{ marginBottom: "20px", display: "flex", justifyContent: "end", width: "100%", gap: "5px" }}>
+                        <div style={{ display: "flex", justifyContent: "space-between", width: "100%", gap: "10px" }}>
+                            <div className="SearchBarContainer" style={{ width: "100%" }}>
+
+                            </div>
                             <Search
                                 placeholder="Search for products"
                                 allowClear
                                 size="large"
-                                onChange={(e) => setSearchQuery(e.target.value)} // Real-time update
-                                style={{ width: "40%" }}
+                                onChange={(e) => setSearchQuery(e.target.value)}
                             />
-                            <Button onClick={() => handleLayoutChange(8)} style={{ height: "100%" }}><TfiLayoutGrid3Alt style={{ cursor: "pointer", }} /></Button>
-                            <Button onClick={() => handleLayoutChange(6)} style={{ height: "100%" }}><TfiLayoutGrid4Alt style={{ cursor: "pointer", height: "100%" }} /></Button>
+                            <div className="LayoutBtn" style={{ display: "flex", gap: "10px" }}>
+                                <Button onClick={() => handleLayoutChange(8)}>
+                                    <TfiLayoutGrid3Alt />
+                                </Button>
+                                <Button onClick={() => handleLayoutChange(6)}>
+                                    <TfiLayoutGrid4Alt />
+                                </Button>
+                            </div>
+                            {isMobile && (
+                                <div className="FilterBtn">
+                                    <Button onClick={showDrawer}>
+                                        <CiFilter />
+                                    </Button>
+                                </div>
+                            )}
                         </div>
                     </div>
-
-                    <Row>
-                        {/* Sidebar with checkbox filters */}
-                        <Col lg={6} md={24} xs={24} sm={24}>
+                    <br />
+                    {/* Drawer for mobile filters */}
+                    {isMobile && (
+                        <Drawer
+                            title="Filter by Categories"
+                            placement="right"
+                            onClose={closeDrawer}
+                            open={isDrawerOpen}
+                            style={{position:"relative"}}
+                        >
                             <div className="CategoriesFilters">
                                 <h3>Filter by Categories</h3>
                                 <Checkbox.Group
@@ -118,50 +131,70 @@ const Products = () => {
                                     onChange={handleCategoryChange}
                                     className="FilterCheckBox"
                                 />
+
                             </div>
-                        </Col>
-                        {/* Product cards */}
-                        <Col lg={18}>
-                            <Row id="ProductCardRow">
-                                {filteredProducts.map((item, index) => (
-                                    <Col lg={layout} md={layout} key={index}>
-                                        <div
-                                            className="BigCardEdit"
-                                            data-aos="fade-up"
-                                            data-aos-delay={`${index * 20}`}
-                                        >
-                                            <div className="HoverImageContainer">
-                                                {/* First image as default */}
-                                                <img
-                                                    src={item.ProductImage[0]}
-                                                    alt={`${item.ProductTitle} Default`}
-                                                    className="defaultImage"
-                                                />
-                                                {/* Second image as hover, fallback to default if not present */}
-                                                {item.ProductImage[1] ? (
-                                                    <img
-                                                        src={item.ProductImage[1]}
-                                                        alt={`${item.ProductTitle} Hover`}
-                                                        className="hoverImage"
-                                                    />
-                                                ) : (
+                            <Button type="primary" onClick={closeDrawer} style={{ position: "absolute", bottom: "20px", width: "200px",background:"#A5252B" }}>Apply</Button>
+                        </Drawer>
+                    )}
+
+                    <div>
+                        <Row>
+                            {!isMobile && (
+                                <Col lg={6} md={24} xs={24} sm={24}>
+                                    <div className="CategoriesFilters">
+                                        <h3>Filter by Categories</h3>
+                                        <Checkbox.Group
+                                            options={staticCategories.map(category =>
+                                                category === "Seedo Metal X Racer"
+                                                    ? { label: category, value: category, disabled: true }
+                                                    : { label: category, value: category }
+                                            )}
+                                            onChange={handleCategoryChange}
+                                            className="FilterCheckBox"
+                                        />
+                                    </div>
+                                </Col>
+                            )}
+                            <Col lg={18} sm={24}>
+                                <Row id="ProductCardRow">
+                                    {filteredProducts.map((item, index) => (
+                                        <Col lg={layout} md={layout} key={index}>
+                                            <div
+                                                className="BigCardEdit"
+                                                data-aos="fade-up"
+                                                data-aos-delay={`${index * 20}`}
+                                            >
+                                                <div className="HoverImageContainer">
                                                     <img
                                                         src={item.ProductImage[0]}
-                                                        alt={`${item.ProductTitle} Hover`}
-                                                        className="hoverImage"
+                                                        alt={`${item.ProductTitle} Default`}
+                                                        className="defaultImage"
                                                     />
-                                                )}
+                                                    {item.ProductImage[1] ? (
+                                                        <img
+                                                            src={item.ProductImage[1]}
+                                                            alt={`${item.ProductTitle} Hover`}
+                                                            className="hoverImage"
+                                                        />
+                                                    ) : (
+                                                        <img
+                                                            src={item.ProductImage[0]}
+                                                            alt={`${item.ProductTitle} Hover`}
+                                                            className="hoverImage"
+                                                        />
+                                                    )}
+                                                </div>
+                                                <div className="TitleContainer">
+                                                    <span>{item.ProductCategories}</span>
+                                                    <h4>{item.ProductTitle}</h4>
+                                                </div>
                                             </div>
-                                            <div className="TitleContainer">
-                                                <span>{item.ProductCategories}</span>
-                                                <h4>{item.ProductTitle}</h4>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                ))}
-                            </Row>
-                        </Col>
-                    </Row>
+                                        </Col>
+                                    ))}
+                                </Row>
+                            </Col>
+                        </Row>
+                    </div>
                 </div>
             </section>
         </>
