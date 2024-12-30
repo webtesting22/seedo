@@ -1,6 +1,6 @@
 #ZoomCardsContainer {
 
-    padding-top: 18rem !important;
+    padding-top: 5rem !important;
     padding: 0rem 4rem;
     overflow: hidden;
     padding-bottom: 5rem !important;
@@ -15,26 +15,29 @@ ul[class] {
     justify-content: space-evenly;
 }
 
-li {
+.avatars li {
     position: relative;
     width: 150px;
     aspect-ratio: 1;
     background: rgb(255, 255, 255);
     border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
     cursor: pointer;
     transition: .3s;
     margin: 0rem 1rem;
-    overflow: hidden;
+    /* overflow: hidden; */
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     /* border: 0.5px solid gray; */
 
     &:hover {
         z-index: 2;
-        scale: 1.4;
+        scale: 1.2;
         box-shadow: 0 0 1rem 0 rgb(0 0 0 / .1);
         transform: translateY(-20px);
+
 
         +li {
             scale: 1.01;
@@ -51,7 +54,7 @@ li {
         position: absolute;
         inset: 0;
         border-radius: 50%;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         transform: scale(0);
         transition: transform 0.5s ease;
         z-index: -1;
@@ -73,6 +76,17 @@ li {
 
 }
 
+.avatars li p {
+    position: absolute;
+    bottom: -70px;
+    font-size: 17px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.654);
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
 .avatars li img {
     width: 80%;
     object-fit: contain;
@@ -82,7 +96,7 @@ li {
 .avatars {
     display: flex;
     gap: .75rem;
-    margin-top: 5rem;
+    margin-top: 8rem;
     /* overflow: hidden; */
 }
 
@@ -104,15 +118,18 @@ li {
     position: absolute;
     top: 0px;
     left: 0px;
+    height: 100%;
+    object-fit: cover;
     /* margin-top: -12rem; */
     z-index: -1;
-    
+
 }
 
-@media (max-width:769px){
-    li{
+@media (max-width:769px) {
+    li {
         width: 30%;
     }
+
     .avatars {
         display: flex;
         flex-wrap: wrap;
@@ -120,6 +137,7 @@ li {
         margin-top: 5rem;
         /* overflow: hidden; */
     }
+
     #ZoomCardsContainer {
 
         padding-top: 8rem !important;
@@ -129,6 +147,7 @@ li {
         position: relative;
         /* background-color: rgb(247, 216, 101); */
     }
+
     .BackoverlayImage {
         width: 100%;
         position: absolute;
@@ -139,5 +158,5 @@ li {
         height: 100%;
         object-fit: cover;
     }
-    
+
 }

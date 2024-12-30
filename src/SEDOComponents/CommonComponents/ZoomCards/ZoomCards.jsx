@@ -8,6 +8,7 @@ import Construction from "/Images/Products/Construction.png"
 import NewLaunches from "/Images/Products/NewLaunches.png"
 import ZoomBackImage from "/Images/Banners/ZoomBackImage.jpg"
 import { Link } from "react-router-dom";
+import { FaArrowRightLong } from "react-icons/fa6";
 const ZoomCards = () => {
     const [hoveredItem, setHoveredItem] = useState(null);
 
@@ -23,35 +24,38 @@ const ZoomCards = () => {
     return (
         <>
             <section id="ZoomCardsContainer">
-                <img src={ZoomBackImage} alt="" className="BackoverlayImage" />
-                <div >
+                {/* <img src={ZoomBackImage} alt="" className="BackoverlayImage" /> */}
+                <div className="HrHeadingAnimated">
                     <h1 className="PrimaryHeading-black" data-aos="fade-right"
                         data-aos-offset="300" data-aos-duration="500"
                         data-aos-easing="ease-in-sine">Playful Creations </h1>
-                    <h1 className="PrimaryHeading-red" data-aos="fade-right"
-                        data-aos-offset="300" data-aos-duration="500"
-                        data-aos-easing="ease-in-sine"> Wonders</h1>
+                    <hr />
+                    <p> <Link to="/products"> See All Toys &nbsp;<FaArrowRightLong /></Link></p>
                 </div>
                 <ul className="avatars" data-aos="fade-up"
                     data-aos-duration="500">
                     {items.map((item, index) => (
                         // <div>
-                        <li
-                            key={index}
-                            className={hoveredItem === index ? "hovered" : ""}
-                            onMouseEnter={() => setHoveredItem(index)}
-                            onMouseLeave={() => setHoveredItem(null)}
-                        >
-                            <img src={item.image} alt="" />
-                            <div className="icon"></div>
-                        </li>
+                        <>
+
+                            <li
+                                key={index}
+                                className={hoveredItem === index ? "hovered" : ""}
+                                onMouseEnter={() => setHoveredItem(index)}
+                                onMouseLeave={() => setHoveredItem(null)}
+                            >
+                                <img src={item.image} alt="" />
+                                <div className="icon"></div>
+                                <p>  Category Name</p>
+                            </li>
+                        </>
                         //  <h5>{item.heading}</h5>
                         // </div>
                     ))}
                 </ul>
-                <div className="ViewMoreBtn">
-                    <Link to="/products" style={{textDecoration:"none"}}><button className="buttonStyleSecond">Explore Toys World</button></Link>
-                </div>
+                {/* <div className="ViewMoreBtn">
+                    <Link to="/products" style={{ textDecoration: "none" }}><button className="buttonStyleSecond">Explore Toys World</button></Link>
+                </div> */}
 
             </section>
         </>

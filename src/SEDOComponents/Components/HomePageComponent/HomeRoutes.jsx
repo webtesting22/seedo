@@ -6,6 +6,8 @@ import TwoSlideContainer from "../../CommonComponents/TwoSlideContainer/TwoSlide
 import HomePageProducts from "../../CommonComponents/HomePageProducts/HomePageProducts";
 import Marquee from "../../CommonComponents/Marqee/Marquee";
 import Navigation from "../../CommonComponents/Navigation/Navigation";
+import PosterShowGrid from "../../CommonComponents/PosterGridComponent/PosterShowGrid";
+import ImageSticky from "../../CommonComponents/ImageStickyContainer/ImageSticky";
 const HomeRoutes = () => {
     useEffect(() => {
         // Scroll to the top of the page when the component is mounted
@@ -13,12 +15,15 @@ const HomeRoutes = () => {
     }, []);
     return (
         <>
-                <Navigation/>
+            <Navigation />
             <section id="HomeComponentsContainer">
                 <HomePage />
-                <ScrollingVideoScreen />
+                {/* <PosterShowGrid /> */}
+ 
                 <ZoomCards />
-                <TwoSlideContainer />
+                <ImageSticky/>
+                               <ScrollingVideoScreen />
+                {/* <TwoSlideContainer /> */}
                 {/* <Marquee/> */}
                 {/* <HomePageProducts /> */}
                 {/* <AnimatedCar /> */}

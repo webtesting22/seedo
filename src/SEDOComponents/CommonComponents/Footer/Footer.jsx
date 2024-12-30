@@ -20,13 +20,9 @@ const Footer = () => {
                                 {/* <Link to="/"><img src={SEEDOLogo} alt="" /></Link> */}
 
 
-                                <h2>OFFICE</h2>
-                                <div><IoLocationSharp style={{ color: "white" }} />&nbsp;<span style={{ color: "white" }}>B5/70, 1st Floor, Rama Road Industrial Area, New Delhi, India -110015.</span></div>
-                                {/* <p>Lorem ipsum dolor sit amet consectetur. Id fames there are many vulputate eget dolor.</p> */}
-                                <br />
 
                                 <div className="FactoryContainer">
-                                    <h2 style={{marginBottom:"0px"}}>FACTORY</h2>
+                                    <h2 style={{ marginBottom: "0px" }}>FACTORY</h2>
                                     <div className="AddressContainer">
                                         <div>
                                             <h3>UNIT 1</h3>
@@ -53,7 +49,7 @@ const Footer = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={4} md={12} xs={12}>
+                        <Col lg={3} md={12} xs={12}>
                             <div className="FooterCategoriesContainer">
                                 <h2>Categories</h2>
                                 <p>Cars</p>
@@ -61,11 +57,10 @@ const Footer = () => {
                                 <Link to="/Products">View More</Link>
                             </div>
                         </Col>
-                        <Col lg={5} >
+                        <Col lg={6} >
                             <div>
                                 <div className="LinksContainer">
                                     <h2>Contact Us</h2>
-
                                     <div><LocationOnIcon /><Link to="https://maps.app.goo.gl/iTpGNmjCsHpCQwYw9" target="_blank">B5/70, 1st Floor, Rama Road Industrial Area, New Delhi, India -110015.</Link></div>
                                     <div><PhoneIcon /><Link to="tel:+919599036749" target="_blank">+91 95990 36749</Link></div>
                                     <div><MailIcon /><Link to="mailto:info@seedotoys.com" target="_blank">info@seedotoys.com</Link></div>

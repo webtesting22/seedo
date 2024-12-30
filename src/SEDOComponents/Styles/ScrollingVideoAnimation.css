@@ -1,106 +1,56 @@
-#ScrollingVideoAnimationContainer {
-    height: 80vh;
-    /* width: 100%; */
-    background-color: rgb(0 0 0 / 93%);
-    /* margin-top: 100vh; */
-    position: relative;
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    flex-direction: column;
+#ScrollingVideoAnimationContainer{
     padding-top: 5rem !important;
     padding: 0rem 4rem;
-}
-
-.VideoContainer {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.ScrollingVideoHeading {
-    width: 100%;
-    /* padding: 0rem 4rem; */
-    display: flex;
-}
-
-.ScrollingVideoHeading div:first-child {
-    width: 65%;
-}
-
-.ScrollingVideoHeading div:last-child {
-    width: 100%;
-}
-
-/* Animated Container */
-.AnimatedScrollingContainer {
-    height: 80%;
-    width: 20%;
-    position: absolute;
-    bottom: -250px;
     overflow: hidden;
-    transition: width 0.2s ease, border-radius 0.2s ease;
+    padding-bottom: 5rem !important;
+    position: relative;
+}
+.AboutHomeHeader h2, .AboutHomeHeader{
+    margin-bottom: 3cqb;
+}
+.AboutHomeHeader h2, .AboutHomeHeader p{
+    text-align: center;
+}
+.AboutUsHomeImage img{
+    width: 100%;
+    border-radius: 20px;
+}
+.AboutHomeContent{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.AboutHomeContent .InsideContainer{
+    width: 80%;
+    /* height: 100%; */
+}
+
+.InsideContainer button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #A5252B;
+    border: none;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 95vw;
+    transform: rotate(-45deg);
+    transition: .5s;
 }
 
-/* Video Styling */
-.AnimatedScrollingContainer video {
-    height: 100%;
-    width: 90%;
-    object-fit: cover;
-}
-
-
-@media (max-width:769px){
-    #ScrollingVideoAnimationContainer {
-        height: 100%;
-        /* width: 100%; */
-        background-color: rgb(0 0 0 / 93%);
-        /* margin-top: 100vh; */
-        position: relative;
-        display: flex;
-        /* justify-content: center; */
-        align-items: center;
-        flex-direction: column;
-        padding-top: 5rem !important;
-        padding: 0rem 1rem;
-        padding-bottom: 3rem;
-    }
-    .ScrollingVideoHeading {
-        width: 100%;
-        /* padding: 0rem 4rem; */
-        display: flex;
-        flex-direction: column;
-    }
-    .ScrollingVideoHeading div:first-child {
-        width: 100%;
-    }
-    
-    .ScrollingVideoHeading div:last-child {
-        width: 100%;
-    }
-    /* Animated Container */
-.AnimatedScrollingContainer {
-    height: 30%;
-    width: 20%;
-    position: absolute;
-    bottom: -70px;
-    overflow: hidden;
-    transition: width 0.2s ease, border-radius 0.2s ease;
+.InsideContainer button:hover {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #A5252B;
+    border: none;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.AnimatedScrollingContainer video {
-    height: 100%;
-    width: 90%;
-    object-fit: cover;
-    display: none;
-}
-
-
-    
+    transform: rotate(-45deg);
+    transform: scale(1.1);
+    transition: .5s;
+    cursor: pointer;
 }

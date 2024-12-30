@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Ahom&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Signika+Negative:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  font-family: "Varela Round", serif;  line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
   color: rgba(0, 0, 0, 0.87);
@@ -139,7 +139,7 @@
   letter-spacing: -.05em;
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 2.5rem;
+  font-size: 28px;
   font-weight: 600;
   line-height: 110%;
   margin-bottom: 1.5rem;
@@ -163,7 +163,7 @@
   font-size: 3.5rem;
   font-weight: 600;
   line-height: 110%;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: "Varela Round", serif;
 
   background-image: linear-gradient(90deg, white, #ffdf22, white, #ffdf22);
   background-size: 300%;
@@ -177,18 +177,18 @@
   letter-spacing: -0.05em;
   margin-top: 0;
   margin-bottom: 1.5rem;
-  font-size: 3.5rem;
-  font-weight: 600;
+  font-size: 28px;
+  font-family: "Varela Round", serif;
+  font-weight: bolder;
   /* line-height: 110%; */
   display: flex;
   align-items: center;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 
   /* background-image: linear-gradient(90deg, black, #A5252B, black, #A5252B); */
   background-size: 300%;
   background-clip: text;
   -webkit-background-clip: text;
-  color: #A5252B;
+  color: black;
   animation: fillColor 2s linear infinite;
 }
 
@@ -218,6 +218,7 @@
   line-height: 110%;
   margin-bottom: 1.5rem;
   color: #A5252B;
+
 }
 
 
@@ -229,15 +230,50 @@
   color: #ffdf22;
   margin-bottom: 2rem;
 }
-.AddressContainer{
+
+.AddressContainer {
   display: flex;
-  
+
 }
-.AddressContainer p{
+
+.AddressContainer p {
   color: white;
 }
-.AddressContainer h3{
+
+.AddressContainer h3 {
   color: white !important;
+}
+
+.HrHeadingAnimated {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.346);
+  position: relative;
+
+}
+
+.HrHeadingAnimated hr {
+  position: absolute;
+  bottom: -1.3px;
+  width: 200px;
+  height: 0px;
+  border: 1px solid #A5252B;
+  background-color: #A5252B;
+  margin: 0px;
+}
+
+.HrHeadingAnimated {
+  display: flex;
+  justify-content: space-between;
+}
+
+.HrHeadingAnimated p {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+.HrHeadingAnimated p a{
+  color: black;
+  text-decoration: none;
 }
 /* Define the keyframe animation for rotating clockwise */
 @keyframes rotateClockwise {
@@ -251,18 +287,21 @@
 }
 
 @media (max-width:769px) {
-  .AddressContainer h3{
+  .AddressContainer h3 {
     color: white !important;
     margin-bottom: 0px;
     margin-top: 0px;
   }
-  .AddressContainer{
+
+  .AddressContainer {
     display: flex;
     flex-direction: column;
   }
+
   .PrimaryHeading-black {
-    font-size: 2rem;
+    font-size: 28px;
   }
+
   .row-reverse {
     display: flex;
     flex-direction: column-reverse;
