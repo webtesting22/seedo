@@ -6,7 +6,7 @@
 }
 
 .NavigationLogo img {
-  width: 150px;
+  width: 100px;
   border-radius: 10px;
   position: sticky;
   z-index: 10000000;

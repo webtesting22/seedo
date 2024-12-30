@@ -1,96 +1,54 @@
-#MissionVisionComponent {
+#MissionVisionComponent{
     padding-top: 5rem !important;
     padding: 0rem 4rem;
-    border-bottom: 1px solid #A5252B;
-    padding-bottom: 5rem;
+    background-color: #f9f9f9;
+    padding-bottom: 3rem;
 }
-
-.SeedoLogoContainerImage img {
-    width: 150px;
-}
-
-.SeedoLogoContainerImage {
+.MiddleImageContainer{
+    height: 400px;
+    overflow: hidden;
     display: flex;
+    align-items: center;
     justify-content: center;
-    margin-bottom: 3rem;
 }
-
-#MissionVisionComponent .ant-row .ant-col:hover {
-
-    transition: .5s;
-}
-
-#MissionVisionComponent .ant-row .ant-col {
-    /* padding: 20px; */
-    transition: .5s;
-    /* height: 100%; */
+.MiddleImageContainer img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
     border-radius: 10px;
-    border: 1px solid transparent;
 }
-#MissionVisionComponent .ant-row .ant-col div{
-    border: 1px solid transparent;
-    padding: 10px;
-    transition: .5s;
+.MainContainerVisionMission .ant-row .ant-col{
+    padding: 0px 20px;
 }
-#MissionVisionComponent .ant-row .ant-col:hover div{
-    border: 1px solid #A5252B;
-    padding: 10px;
-    transition: .5s;
-    border-radius: 5px;
-}
-
-#MissionVisionComponent .ant-row .ant-col:nth-child(2) div {
-    background-color: #A5252B;
-    transition: .5s;
-    border-radius: 5px;
-}
-#MissionVisionComponent .ant-row .ant-col:nth-child(2){
-    margin-top: -3rem !important;
-    transition: .5s;
-}
-#MissionVisionComponent .ant-row .ant-col:hover:nth-child(2){
-    margin-top: -3rem !important;
-    transition: .5s;
-
-}
-#MissionVisionComponent h2 {
-    margin-bottom: 0px;
-    margin-top: 0px;
-    color: #A5252B;
-    font-weight: 500;
-    text-transform: uppercase;
-    text-align: center;
-}
-#MissionVisionComponent p {
-    text-align: center;
-}
-
-
-
-
-
-
-
-
-@media (max-width:769px) {
-    #MissionVisionComponent .ant-row .ant-col:hover:nth-child(2){
-        margin-top: 0rem !important;
-        transition: .5s;
-    }
-    #MissionVisionComponent .ant-row .ant-col:nth-child(2){
-        margin-top: 0rem !important;
-        transition: .5s;
-    }
-    #MissionVisionComponent {
-        padding-top: 2rem !important;
-        padding: 0rem 1rem;
-        border-bottom: 1px solid #A5252B;
-        padding-bottom: 2rem;
-    }
-    .SeedoLogoContainerImage {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 0rem;
-    }
+.MainContainerVisionMission .ant-row .ant-col:first-child .LeftSideMissionContainer{
+    height: 100%;
+    display: flex;
+    align-items:center;
+    margin-top: -3rem;
     
-} 
+}
+.MainContainerVisionMission .ant-row .ant-col:last-child .RightSideVisionContainer{
+    height: 100%;
+    display: flex;
+    align-items:center;
+    margin-top: 3rem;
+}
+
+.carousel-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.carousel-image.active {
+    opacity: 1;
+}
+
+.carousel-image.inactive {
+    opacity: 0;
+}

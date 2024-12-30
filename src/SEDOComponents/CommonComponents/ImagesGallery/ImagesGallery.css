@@ -1,0 +1,38 @@
+.ImageGalleryContainer {
+    padding-top: 5rem !important;
+    padding: 0rem 4rem;
+    overflow: hidden;
+    padding-bottom: 5rem !important;
+    position: relative;
+}
+
+.ImagesContainer .ant-row .ant-col .GalleryCardImage img {
+    width: 60%;
+    /* height: 100%; */
+    object-fit: cover;
+}
+
+.GalleryCardImage {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 10px;
+    height: 200px;
+    /* width: 100%; */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(234, 234, 234); */
+    margin: 10px;
+    transition: .5s
+        /* padding: 20px; */
+}
+
+.GalleryCardImage:hover {
+    transform: scale(1.05);
+    transition: .5s;
+}
+@media (max-width:769px){
+    .ImageGalleryContainer{
+        display: none;
+    }
+}

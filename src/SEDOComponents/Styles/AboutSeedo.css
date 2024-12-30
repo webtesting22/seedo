@@ -1,3 +1,10 @@
+#AboutSEDOSection {
+    padding-top: 8rem;
+    position: relative;
+    /* background-color: #A5252B; */
+
+}
+
 .overlayContainer {
     background-color: #00000059;
     position: absolute;
@@ -22,12 +29,6 @@
         background-position: 200% 0;
         /* End at right */
     }
-}
-
-#AboutSEDOSection {
-    position: relative;
-    background-color: #A5252B;
-
 }
 
 .overlayContainersecond {
@@ -67,33 +68,15 @@
 .ServicesStickyCards {
     display: flex;
     background-color: rgba(255, 255, 255, 0.583);
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     /* height: 35vh; */
     transition: .5s;
     border-bottom: 1px solid #e5e5e5 !important;
     border: 1px solid rgb(255, 255, 255);
-    padding: 30px 0px;
+    /* padding: 30px 0px; */
+    height: 100%;
 }
 
-.ServicesStickyCards:hover {
-    display: flex;
-    background-color: rgba(244, 244, 244, 0.583);
-    margin-bottom: 20px;
-    /* height: 35vh; */
-    transition: .5s;
-    padding: 50px 0px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
-    border: 1px solid rgb(232, 232, 232);
-    border-radius: 10px;
-}
-
-
-
-.ServicesStickyCards:hover .HoverableImage img {
-    transform: scale(1.03);
-    transition: .5s;
-    border-radius: 20px;
-}
 
 .AnimatedContent {
     padding: 0rem 2rem;
@@ -114,13 +97,6 @@
     /* padding-left: 3rem; */
 }
 
-.LeftSideContentContainer h2 {
-    font-size: 48px;
-    margin-bottom: 0px;
-    /* font-weight: 400; */
-color: #A5252B;
-    /* color: red; */
-}
 
 .LeftSideContentContainer h1 {
     font-size: 70px;
@@ -168,7 +144,7 @@ color: #A5252B;
     /* position: absolute;
     top: 25px;
     left: -5px; */
-    color: #A5252B;
+    color: black;
     width: 20px;
     height: 20px;
     margin: 0px;
@@ -178,7 +154,7 @@ color: #A5252B;
     margin-left: 10px;
     margin-bottom: 0px;
     margin-top: 0px;
-    color: #A5252B;
+    color: black;
     font-weight: 500;
     text-transform: uppercase;
 }
@@ -188,14 +164,75 @@ color: #A5252B;
     transform: translateY(-0px);
 }
 
-@media (max-width:769px) {
-    .LeftSideContentContainer h2 {
-        font-size: 2rem;
-        margin-bottom: 0px;
-        /* font-weight: 400; */
-        color: #A5252B;
-        /* color: red; */
+.TopLinksContainer {
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+
+    border-radius: 20px;
+    padding: 0rem 4rem;
+
+}
+
+.TopLinksContainer>div {
+    width: 100%;
+    border: 1px solid #999;
+    padding: 10px 0px;
+}
+
+.TopLinksContainer>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.LeftSideContentContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.LeftSideContentContainer>div {
+    width: 60%;
+}
+
+.LeftSideContentContainer>div p {
+    text-align: center;
+}
+
+.AboutUsInsideCarBanner img {
+    width: 60%;
+    height: 100%;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.AboutUsInsideCarBanner {
+    height: 40vh;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#WidthAjustContainer {
+    width: 50%;
+    min-height: 300px;
+    /* overflow: auto; */
+}
+
+
+@media (min-width:700px) and (max-width:1100px) {
+    #WidthAjustContainer {
+        width: 50%;
+    min-height: 300px;
+        /* overflow: auto; */
     }
+}
+
+@media (max-width:769px) {
+
     .ServicesStickyCards:hover {
         display: flex;
         background-color: rgba(244, 244, 244, 0.583);
