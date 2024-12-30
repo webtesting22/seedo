@@ -3,14 +3,21 @@ import { Row, Col } from "antd";
 import "./ImagesGallery.css"
 import { FaArrowRightLong } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+import image1 from "./1.png"
+import image2 from "./2.png"
+import image3 from "./3.png"
+import image4 from "./4.png"
+import image5 from "./5.png"
+import image6 from "./6.png"
+
 const ImagesGallery = () => {
     const ImagesGalleryData = [
-        "/Images/ProductsImages/Friction and pull back products/FLG-DS-PO12(2).png",
-        "/Images/ProductsImages/Friction and pull back products/FLG-DS-PO12(2).png",
-        "/Images/ProductsImages/Friction and pull back products/FLG-DS-PO12(2).png",
-        "/Images/ProductsImages/Friction and pull back products/FLG-DS-PO12(2).png",
-        "/Images/ProductsImages/Friction and pull back products/FLG-DS-PO12(2).png",
-        "/Images/ProductsImages/Friction and pull back products/FLG-DS-PO12(2).png"
+        image1,
+        image2,
+        image3,
+        image4,
+        image5,
+        image6,
     ]
     return (
         <>
