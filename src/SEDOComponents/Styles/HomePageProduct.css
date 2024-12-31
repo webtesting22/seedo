@@ -214,11 +214,11 @@
 
   .BigCardEdit {
     height: 100%;
-    width: 97%;
-    background: #ffdf2224;
+    width: 100%;
+    background: #fd787b0f;
     margin: 5px 0;
     border-radius: 10px;
-    border: 1px solid rgb(219 219 219 / 42%);
+    border: 1px dashed #fd787b0f;
   }
 
   .HoverImageContainer {

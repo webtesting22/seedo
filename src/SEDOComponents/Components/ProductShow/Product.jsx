@@ -9,6 +9,7 @@ import Navigation from "../../CommonComponents/Navigation/Navigation";
 import SEEDOData from "../../ProductUpdatedData";
 import gene7 from "/Images/gene7.jpg";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { FaArrowRight } from "react-icons/fa";
 const { Search } = Input;
 
 const Products = () => {
@@ -37,7 +38,7 @@ const Products = () => {
 
     const handleCategoryChange = (checkedValues) => setSelectedCategories(checkedValues);
 
-    
+
     const handleLayoutChange = (layoutType) => {
         setLayout(layoutType);
         AOS.refresh(); // Reinitialize AOS animations after changing the layout
@@ -84,7 +85,7 @@ const Products = () => {
                 <Navigation />
             </div>
             <section id="ProductContainer">
-                <div className="BannerContainer">
+                {/* <div className="BannerContainer">
                     <img src={gene7} alt="Products Banner" />
                 </div>
                 <div style={{ padding: "20px" }}>
@@ -92,6 +93,12 @@ const Products = () => {
                         <Link to="/" className="breadcrumb-link" style={{ color: "black" }}>Home</Link> &gt;{" "}
                         <Link to="/products" className="breadcrumb-link" style={{ color: "black" }}>Product</Link>
                     </span>
+                </div> */}
+                <div className="TopLinksContainer">
+                    <div >
+                        <Link to="/" className="breadcrumb-link" style={{ color: "#999", fontSize: "12px" }}>Home</Link>&nbsp;&nbsp; <span style={{ color: "#999", fontSize: "12px", display: "flex" }}><FaArrowRight /></span> &nbsp;&nbsp;
+                        <Link to="/products" className="breadcrumb-link" style={{ color: "#999", fontSize: "12px" }}>Products</Link>
+                    </div>
                 </div>
                 <div id="ProductShowContainer">
                     <div className="CategorieHeadingContainer">
@@ -221,7 +228,9 @@ const Products = () => {
                 visible={isModalOpen}
                 onCancel={closeModal}
                 footer={null}
+                width={800}
             >
+
                 {selectedProduct && (
                     <div>
                         <div className="ModalImageContainer">
@@ -230,11 +239,23 @@ const Products = () => {
                                     key={index}
                                     src={image}
                                     alt={`${selectedProduct.ProductTitle} - Image ${index + 1}`}
-                                    style={{ width: "100%", maxWidth: "150px", height: "100%", objectFit: "cover" }}
+                                    style={{ width: "100%", maxWidth: "250px", height: "100%", objectFit: "cover" }}
                                 />
-                            ))}                        </div>
+                            ))}
+                        </div>
+                        <br />
+                        <div className="ColoursContainer">
+                            {selectedProduct.ProductColours}
+                        </div>
+                        {/* <br /> */}
+                        <div>
+                            {selectedProduct.ProductSpecs}
+                        </div>
                         <p><strong>Category:</strong> {selectedProduct.ProductCategories}</p>
                         <p><strong>Description:</strong> {selectedProduct.ProductDescription || "No description available."}</p>
+                        <div>
+                            <div>{selectedProduct.ModalInfo}</div>
+                        </div>
                     </div>
                 )}
             </Modal>

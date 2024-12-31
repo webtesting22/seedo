@@ -1,3 +1,14 @@
+import { Link } from "react-router-dom"
+import { FaArrowRightLong } from "react-icons/fa6";
+import { SiMaterialdesignicons } from "react-icons/si";
+import { GiLightningFrequency } from "react-icons/gi";
+import { MdOutlineUsb } from "react-icons/md";
+import { TbRulerMeasure } from "react-icons/tb";
+import { TbBatteryOff } from "react-icons/tb";
+import { IoMdBarcode } from "react-icons/io";
+import { FaBoxOpen } from "react-icons/fa";
+
+
 import FLGDSPO12 from "/Images/ProductsImages/Friction and pull back products/FLG-DS-PO12.png"
 import FLGDSPO12_2 from "/Images/ProductsImages/Friction and pull back products/FLG-DS-PO12(2).png"
 import MTToys from "/Images/ProductsImages/Friction and pull back products/MT-Toys.png"
@@ -204,7 +215,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-CS-A01/6"
+        ProductStyleCode: "SMR-CS-A01/6",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Construction Series-A02/6",
@@ -215,7 +280,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-CS-A02/6"
+        ProductStyleCode: "SMR-CS-A02/6",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Construction Series-A03/6",
@@ -226,7 +345,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-CS-A03/6"
+        ProductStyleCode: "SMR-CS-A03/6",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Construction Series-A04/6",
@@ -237,7 +410,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-CS-A04/6"
+        ProductStyleCode: "SMR-CS-A04/6",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Construction Series-A05/6",
@@ -248,7 +475,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-CS-A05/6"
+        ProductStyleCode: "SMR-CS-A05/6",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Construction Series-A06/6",
@@ -259,7 +540,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-CS-A06/6"
+        ProductStyleCode: "SMR-CS-A06/6",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Pull Back Series-A01/6",
@@ -270,7 +605,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-PBS-A01/6"
+        ProductStyleCode: "SMR-PBS-A01/6",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Pull Back Series-A02/6",
@@ -281,7 +670,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-PBS-A02/6"
+        ProductStyleCode: "SMR-PBS-A02/6",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Pull Back Series-A03/6",
@@ -292,7 +735,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-PBS-A03/6"
+        ProductStyleCode: "SMR-PBS-A03/6",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Pull Back Series-A04/6",
@@ -303,7 +800,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-PBS-A04/6"
+        ProductStyleCode: "SMR-PBS-A04/6",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Pull Back Series-A05/6",
@@ -314,7 +865,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-PBS-A05/6"
+        ProductStyleCode: "SMR-PBS-A05/6",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Pull Back Series-A06/6",
@@ -325,7 +930,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-PBS-A06/6"
+        ProductStyleCode: "SMR-PBS-A06/6",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Cruiser Series-CS01/4",
@@ -336,7 +995,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FW-CS01/4"
+        ProductStyleCode: "SMR-FW-CS01/4",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Cruiser Series-CS02/4",
@@ -347,7 +1060,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FW-CS02/4"
+        ProductStyleCode: "SMR-FW-CS02/4",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Cruiser Series-CS03/4",
@@ -358,7 +1125,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FW-CS03/4"
+        ProductStyleCode: "SMR-FW-CS03/4",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Cruiser Series-CS04/4",
@@ -369,7 +1190,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FW-CS04/4"
+        ProductStyleCode: "SMR-FW-CS04/4",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Drift Series-DS01/6",
@@ -380,7 +1255,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FW-DS01/6"
+        ProductStyleCode: "SMR-FW-DS01/6",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Drift Series-DS02/6",
@@ -391,7 +1320,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FW-DS02/6"
+        ProductStyleCode: "SMR-FW-DS02/6",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Drift Series-DS03/6",
@@ -402,7 +1385,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FW-DS03/6"
+        ProductStyleCode: "SMR-FW-DS03/6",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Drift Series-DS04/6",
@@ -413,7 +1450,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FW-DS04/6"
+        ProductStyleCode: "SMR-FW-DS04/6",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Drift Series-DS05/6",
@@ -424,7 +1515,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FW-DS05/6"
+        ProductStyleCode: "SMR-FW-DS05/6",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Drift Series-DS06/6",
@@ -435,7 +1580,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FW-DS06/6"
+        ProductStyleCode: "SMR-FW-DS06/6",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Racing Series-RS01/6",
@@ -446,7 +1645,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FW-RS01/6"
+        ProductStyleCode: "SMR-FW-RS01/6",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Racing Series-RS02/6",
@@ -457,7 +1710,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FW-RS02/6"
+        ProductStyleCode: "SMR-FW-RS02/6",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Racing Series-RS03/6",
@@ -468,7 +1775,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FW-RS03/6"
+        ProductStyleCode: "SMR-FW-RS03/6",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Racing Series-RS04/6",
@@ -479,7 +1840,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FW-RS04/6"
+        ProductStyleCode: "SMR-FW-RS04/6",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Racing Series-RS05/6",
@@ -490,7 +1905,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FW-RS05/6"
+        ProductStyleCode: "SMR-FW-RS05/6",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Racing Series-RS06/6",
@@ -501,7 +1970,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FW-RS06/6"
+        ProductStyleCode: "SMR-FW-RS06/6",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Jet Series-JS01/8",
@@ -512,7 +2035,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FW-JS01/8"
+        ProductStyleCode: "SMR-FW-JS01/8",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Jet Series-JS02/8",
@@ -523,7 +2100,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FW-JS02/8"
+        ProductStyleCode: "SMR-FW-JS02/8",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Jet Series-JS03/8",
@@ -534,7 +2165,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FW-JS03/8"
+        ProductStyleCode: "SMR-FW-JS03/8",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Jet Series-JS04/8",
@@ -545,7 +2230,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FW-JS04/8"
+        ProductStyleCode: "SMR-FW-JS04/8",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Jet Series-JS05/8",
@@ -556,7 +2295,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FW-JS05/8"
+        ProductStyleCode: "SMR-FW-JS05/8",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Jet Series-JS06/8",
@@ -567,7 +2360,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FW-JS06/8"
+        ProductStyleCode: "SMR-FW-JS06/8",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Jet Series-JS07/8",
@@ -578,7 +2425,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FW-JS07/8"
+        ProductStyleCode: "SMR-FW-JS07/8",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Jet Series-JS08/8",
@@ -589,7 +2490,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FW-JS08/8"
+        ProductStyleCode: "SMR-FW-JS08/8",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Fire Birds Series-FBS01/8",
@@ -600,7 +2555,62 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FW-FBS01/8"
+        ProductStyleCode: "SMR-FW-FBS01/8",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
+
     },
     {
         ProductTitle: "SMR Fire Birds Series-FBS02/8",
@@ -611,7 +2621,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FW-FBS02/8"
+        ProductStyleCode: "SMR-FW-FBS02/8",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Fire Birds Series-FBS03/8",
@@ -622,7 +2686,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FW-FBS03/8"
+        ProductStyleCode: "SMR-FW-FBS03/8",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Fire Birds Series-FBS04/8",
@@ -633,7 +2751,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FW-FBS04/8"
+        ProductStyleCode: "SMR-FW-FBS04/8",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Fire Birds Series-FBS05/8",
@@ -644,7 +2816,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FW-FBS05/8"
+        ProductStyleCode: "SMR-FW-FBS05/8",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Fire Birds Series-FBS06/8",
@@ -655,7 +2881,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FW-FBS06/8"
+        ProductStyleCode: "SMR-FW-FBS06/8",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Fire Birds Series-FBS07/8",
@@ -666,7 +2946,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FW-FBS07/8"
+        ProductStyleCode: "SMR-FW-FBS07/8",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SMR Fire Birds Series-FBS08/8",
@@ -677,7 +3011,61 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FW-FBS08/8"
+        ProductStyleCode: "SMR-FW-FBS08/8",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Packing options</p>
+                        </div>
+                        <div>
+                            <p>Pack of 1/3/5/10</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>72 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SEEDO Metal Racers Pack of 3",
@@ -688,7 +3076,60 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FWPB-P3"
+        ProductStyleCode: "SMR-FWPB-P3",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Content</p>
+                        </div>
+                        <div>
+                            <p>5 Cars</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>32 pcs in the box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SEEDO Metal Racers Pack of 5",
@@ -699,7 +3140,60 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FWPB-P5"
+        ProductStyleCode: "SMR-FWPB-P5",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Content</p>
+                        </div>
+                        <div>
+                            <p>3 Cars</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>25 pcs in the box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SEEDO Metal Racers Pack of 10",
@@ -710,7 +3204,60 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "Non-Electric",
-        ProductStyleCode: "SMR-FWPB-P10"
+        ProductStyleCode: "SMR-FWPB-P10",
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Metal Die Cast</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:64
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030090</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Content</p>
+                        </div>
+                        <div>
+                            <p>10 Cars</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>10 pcs in the box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SEEDO Light Blaster Car",
@@ -721,7 +3268,108 @@ const SEEDOData = [
         ProductWheelWay: "2way",
         ProductBatteryType: "Non - Rechargable",
         ProductElectricType: "-",
-        ProductStyleCode: "1182W001"
+        ProductStyleCode: "1182W001",
+        ProductColours: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Orange</p>
+                </div>
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Red</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Yellow</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Green</p>
+                </div>
+            </div>
+        </>,
+        ProductSpecs: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Rubber tires</p>
+                </div>
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Moves 2 Way</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Head Lights</p>
+                </div>
+            </div>
+        </>,
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Virgin grade, High Strenght ABS Material</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><GiLightningFrequency />&nbsp;&nbsp;Frequency</p>
+                        </div>
+                        <div>
+                            <p>27 MHz</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><MdOutlineUsb />&nbsp;&nbsp;USB Included</p>
+                        </div>
+                        <div>
+                            <p>No</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:18
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbBatteryOff />&nbsp;&nbsp;Non rechargable</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030030</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>48 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SEEDO Famous Car",
@@ -732,7 +3380,108 @@ const SEEDOData = [
         ProductWheelWay: "2way",
         ProductBatteryType: "Non - Rechargable",
         ProductElectricType: "-",
-        ProductStyleCode: "1182W002"
+        ProductStyleCode: "1182W002",
+        ProductColours: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Orange</p>
+                </div>
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Red</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Yellow</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Green</p>
+                </div>
+            </div>
+        </>,
+        ProductSpecs: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Rubber tires</p>
+                </div>
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Moves 2 Way</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Head Lights</p>
+                </div>
+            </div>
+        </>,
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Virgin grade, High Strenght ABS Material</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><GiLightningFrequency />&nbsp;&nbsp;Frequency</p>
+                        </div>
+                        <div>
+                            <p>27 MHz</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><MdOutlineUsb />&nbsp;&nbsp;USB Included</p>
+                        </div>
+                        <div>
+                            <p>No</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:18
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbBatteryOff />&nbsp;&nbsp;Non rechargable</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030030</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>48 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SEEDO Formula Car",
@@ -743,7 +3492,108 @@ const SEEDOData = [
         ProductWheelWay: "2way",
         ProductBatteryType: "Non - Rechargable",
         ProductElectricType: "-",
-        ProductStyleCode: "1182W003"
+        ProductStyleCode: "1182W003",
+        ProductColours: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Orange</p>
+                </div>
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Red</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Yellow</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Green</p>
+                </div>
+            </div>
+        </>,
+        ProductSpecs: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Rubber tires</p>
+                </div>
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Moves 2 Way</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Head Lights</p>
+                </div>
+            </div>
+        </>,
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Virgin grade, High Strenght ABS Material</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><GiLightningFrequency />&nbsp;&nbsp;Frequency</p>
+                        </div>
+                        <div>
+                            <p>27 MHz</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><MdOutlineUsb />&nbsp;&nbsp;USB Included</p>
+                        </div>
+                        <div>
+                            <p>No</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:18
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbBatteryOff />&nbsp;&nbsp;Non rechargable</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030030</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>48 pcs./box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SEEDO Racer Car",
@@ -754,7 +3604,119 @@ const SEEDOData = [
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
-        ProductStyleCode: "124LRC00A"
+        ProductStyleCode: "124LRC00A",
+        ProductColours: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Orange</p>
+                </div>
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Red</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Blue</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Yellow</p>
+                </div>
+            </div>
+        </>,
+        ProductSpecs: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Rubber tires</p>
+                </div>
+                <div>
+                    <img src="/Images/Move4Way.png" alt="404 not found" />
+                    <p>Moves 4 Way</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Head Lights</p>
+                </div>
+            </div>
+        </>,
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Virgin grade, High Strenght ABS Material</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><GiLightningFrequency />&nbsp;&nbsp;Frequency</p>
+                        </div>
+                        <div>
+                            <p>27 MHz</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><MdOutlineUsb />&nbsp;&nbsp;USB Included</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:24
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbBatteryOff />&nbsp;&nbsp;Type C Charging</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030030</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>48 pcs./box</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Battery cell type</p>
+                        </div>
+                        <div>
+                            <p>3.7V Li-ion Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SEEDO Little Roaster Car",
@@ -765,7 +3727,119 @@ const SEEDOData = [
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
-        ProductStyleCode: "124LRC00B"
+        ProductStyleCode: "124LRC00B",
+        ProductColours: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Gray</p>
+                </div>
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Red</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>White</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Yellow</p>
+                </div>
+            </div>
+        </>,
+        ProductSpecs: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Rubber tires</p>
+                </div>
+                <div>
+                    <img src="/Images/Move4Way.png" alt="404 not found" />
+                    <p>Moves 4 Way</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Head Lights</p>
+                </div>
+            </div>
+        </>,
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Virgin grade, High Strenght ABS Material</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><GiLightningFrequency />&nbsp;&nbsp;Frequency</p>
+                        </div>
+                        <div>
+                            <p>27 MHz</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><MdOutlineUsb />&nbsp;&nbsp;USB Included</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:24
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbBatteryOff />&nbsp;&nbsp;Type C Charging</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030030</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>48 pcs./box</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Battery cell type</p>
+                        </div>
+                        <div>
+                            <p>3.7V Li-ion Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SEEDO Spectre Car",
@@ -776,7 +3850,119 @@ const SEEDOData = [
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
-        ProductStyleCode: "124LRC00C"
+        ProductStyleCode: "124LRC00C",
+        ProductColours: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Blue</p>
+                </div>
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Red</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Orange</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Yellow</p>
+                </div>
+            </div>
+        </>,
+        ProductSpecs: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Rubber tires</p>
+                </div>
+                <div>
+                    <img src="/Images/Move4Way.png" alt="404 not found" />
+                    <p>Moves 4 Way</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Head Lights</p>
+                </div>
+            </div>
+        </>,
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Virgin grade, High Strenght ABS Material</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><GiLightningFrequency />&nbsp;&nbsp;Frequency</p>
+                        </div>
+                        <div>
+                            <p>27 MHz</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><MdOutlineUsb />&nbsp;&nbsp;USB Included</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:24
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbBatteryOff />&nbsp;&nbsp;Type C Charging</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030030</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>48 pcs./box</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Battery cell type</p>
+                        </div>
+                        <div>
+                            <p>3.7V Li-ion Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SEEDO Road Sniper 01 Car",
@@ -787,7 +3973,119 @@ const SEEDOData = [
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
-        ProductStyleCode: "124LRC00D"
+        ProductStyleCode: "124LRC00D",
+        ProductColours: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Blue</p>
+                </div>
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Red</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Grey</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Black</p>
+                </div>
+            </div>
+        </>,
+        ProductSpecs: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Rubber tires</p>
+                </div>
+                <div>
+                    <img src="/Images/Move4Way.png" alt="404 not found" />
+                    <p>Moves 4 Way</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Head Lights</p>
+                </div>
+            </div>
+        </>,
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Virgin grade, High Strenght ABS Material</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><GiLightningFrequency />&nbsp;&nbsp;Frequency</p>
+                        </div>
+                        <div>
+                            <p>27 MHz</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><MdOutlineUsb />&nbsp;&nbsp;USB Included</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:24
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbBatteryOff />&nbsp;&nbsp;Type C Charging</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030030</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>48 pcs./box</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Battery cell type</p>
+                        </div>
+                        <div>
+                            <p>3.7V Li-ion Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SEEDO Road Sniper 02 Car",
@@ -798,7 +4096,119 @@ const SEEDOData = [
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
-        ProductStyleCode: "124LRC00E"
+        ProductStyleCode: "124LRC00E",
+        ProductColours: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Blue</p>
+                </div>
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Red</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Yellow</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Orange</p>
+                </div>
+            </div>
+        </>,
+        ProductSpecs: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Rubber tires</p>
+                </div>
+                <div>
+                    <img src="/Images/Move4Way.png" alt="404 not found" />
+                    <p>Moves 4 Way</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Head Lights</p>
+                </div>
+            </div>
+        </>,
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Virgin grade, High Strenght ABS Material</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><GiLightningFrequency />&nbsp;&nbsp;Frequency</p>
+                        </div>
+                        <div>
+                            <p>27 MHz</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><MdOutlineUsb />&nbsp;&nbsp;USB Included</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:24
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbBatteryOff />&nbsp;&nbsp;Type C Charging</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030030</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>48 pcs./box</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Battery cell type</p>
+                        </div>
+                        <div>
+                            <p>3.7V Li-ion Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
 
     {
@@ -810,7 +4220,119 @@ const SEEDOData = [
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
-        ProductStyleCode: "118RC001"
+        ProductStyleCode: "118RC001",
+        ProductColours: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Blue</p>
+                </div>
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Red</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Green</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Yellow</p>
+                </div>
+            </div>
+        </>,
+        ProductSpecs: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Rubber tires</p>
+                </div>
+                <div>
+                    <img src="/Images/Move4Way.png" alt="404 not found" />
+                    <p>Moves 4 Way</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Head Lights</p>
+                </div>
+            </div>
+        </>,
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Virgin grade, High Strenght ABS Material</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><GiLightningFrequency />&nbsp;&nbsp;Frequency</p>
+                        </div>
+                        <div>
+                            <p>27 MHz</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><MdOutlineUsb />&nbsp;&nbsp;USB Included</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:24
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbBatteryOff />&nbsp;&nbsp;Type C Charging</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030030</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>48 pcs./box</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Battery cell type</p>
+                        </div>
+                        <div>
+                            <p>3.7V Li-ion Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SEEDO Blaster 023 Car",
@@ -843,7 +4365,112 @@ const SEEDOData = [
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
-        ProductStyleCode: "124PRC001"
+        ProductStyleCode: "124PRC001",
+        ProductColours: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>White</p>
+                </div>
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>black</p>
+                </div>
+
+            </div>
+        </>,
+        ProductSpecs: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Rubber tires</p>
+                </div>
+                <div>
+                    <img src="/Images/Move4Way.png" alt="404 not found" />
+                    <p>Moves 4 Way</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Head Lights</p>
+                </div>
+            </div>
+        </>,
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Virgin grade, High Strenght ABS Material</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><GiLightningFrequency />&nbsp;&nbsp;Frequency</p>
+                        </div>
+                        <div>
+                            <p>27 MHz</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><MdOutlineUsb />&nbsp;&nbsp;USB Included</p>
+                        </div>
+                        <div>
+                            <p>No</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:24
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbBatteryOff />&nbsp;&nbsp;Type C Charging</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030030</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>48 pcs./box</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Battery cell type</p>
+                        </div>
+                        <div>
+                            <p>3.7V Li-ion Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SEEDO Stunt Car",
@@ -854,7 +4481,120 @@ const SEEDOData = [
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
-        ProductStyleCode: "124SC001"
+        ProductStyleCode: "124SC001",
+        ProductColours: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Blue</p>
+                </div>
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Red</p>
+                </div>
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Yellow</p>
+                </div>
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Green</p>
+                </div>
+
+            </div>
+        </>,
+        ProductSpecs: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Rubber tires</p>
+                </div>
+                <div>
+                    <img src="/Images/Move4Way.png" alt="404 not found" />
+                    <p>Moves 4 Way</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Action</p>
+                </div>
+            </div>
+        </>,
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Virgin grade, High Strenght ABS Material</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><GiLightningFrequency />&nbsp;&nbsp;Frequency</p>
+                        </div>
+                        <div>
+                            <p>27 MHz</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><MdOutlineUsb />&nbsp;&nbsp;USB Included</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:24
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbBatteryOff />&nbsp;&nbsp;Type C Charging</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030030</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>48 pcs./box</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Battery cell type</p>
+                        </div>
+                        <div>
+                            <p>3.7V Li-ion Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SEEDO Big Stunt Car",
@@ -865,7 +4605,113 @@ const SEEDOData = [
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
-        ProductStyleCode: "118SC001"
+        ProductStyleCode: "118SC001",
+        ProductColours: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Sky Blue</p>
+                </div>
+
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Orange</p>
+                </div>
+
+            </div>
+        </>,
+        ProductSpecs: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Rubber tires</p>
+                </div>
+                <div>
+                    <img src="/Images/Move4Way.png" alt="404 not found" />
+                    <p>Moves 4 Way</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>360 Flip</p>
+                </div>
+            </div>
+        </>,
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Virgin grade, High Strenght ABS Material</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><GiLightningFrequency />&nbsp;&nbsp;Frequency</p>
+                        </div>
+                        <div>
+                            <p>27 MHz</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><MdOutlineUsb />&nbsp;&nbsp;USB Included</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:18
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbBatteryOff />&nbsp;&nbsp;Type C Charging</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030030</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>48 pcs./box</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Battery cell type</p>
+                        </div>
+                        <div>
+                            <p>3.7V Li-ion Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SEEDO Dazzling Car",
@@ -876,7 +4722,125 @@ const SEEDOData = [
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
-        ProductStyleCode: "124RC001"
+        ProductStyleCode: "124RC001",
+        ProductColours: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p> Blue</p>
+                </div>
+
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Green</p>
+                </div>
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Red</p>
+                </div>
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Orange</p>
+                </div>
+
+            </div>
+        </>,
+        ProductSpecs: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Rubber tires</p>
+                </div>
+                <div>
+                    <img src="/Images/Move4Way.png" alt="404 not found" />
+                    <p>Moves 4 Way</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Lights</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Music</p>
+                </div>
+            </div>
+        </>,
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Virgin grade, High Strenght ABS Material</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><GiLightningFrequency />&nbsp;&nbsp;Frequency</p>
+                        </div>
+                        <div>
+                            <p>27 MHz</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><MdOutlineUsb />&nbsp;&nbsp;USB Included</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:24
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbBatteryOff />&nbsp;&nbsp;Type C Charging</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030030</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>36 pcs./box</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Battery cell type</p>
+                        </div>
+                        <div>
+                            <p>3.7V Li-ion Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SEEDO Monster Acrobatics Truck",
@@ -898,7 +4862,126 @@ const SEEDOData = [
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
-        ProductStyleCode: "118MT002"
+        ProductStyleCode: "118MT002",
+        ProductColours: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p> Blue</p>
+                </div>
+
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Green</p>
+                </div>
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Red</p>
+                </div>
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Yellow</p>
+                </div>
+
+            </div>
+        </>,
+        ProductSpecs: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Rubber tires</p>
+                </div>
+                <div>
+                    <img src="/Images/Move4Way.png" alt="404 not found" />
+                    <p>Moves 4 Way</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Shock
+                        Absorber</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Head Lights</p>
+                </div>
+            </div>
+        </>,
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Virgin grade, High Strenght ABS Material</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><GiLightningFrequency />&nbsp;&nbsp;Frequency</p>
+                        </div>
+                        <div>
+                            <p>27 MHz</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><MdOutlineUsb />&nbsp;&nbsp;USB Included</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:18
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbBatteryOff />&nbsp;&nbsp;Type C Charging</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030030</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>24 pcs./box</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Battery cell type</p>
+                        </div>
+                        <div>
+                            <p>3.7V Li-ion Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SEEDO Dino/Shark/PVC Rock Crawler",
@@ -909,7 +4992,126 @@ const SEEDOData = [
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
-        ProductStyleCode: "118MT003"
+        ProductStyleCode: "118MT003",
+        ProductColours: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p> Blue</p>
+                </div>
+
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Green</p>
+                </div>
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Red</p>
+                </div>
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Yellow</p>
+                </div>
+
+            </div>
+        </>,
+        ProductSpecs: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Rubber tires</p>
+                </div>
+                <div>
+                    <img src="/Images/Move4Way.png" alt="404 not found" />
+                    <p>Moves 4 Way</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Shock
+                        Absorber</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Shell Lights</p>
+                </div>
+            </div>
+        </>,
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>PVC</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><GiLightningFrequency />&nbsp;&nbsp;Frequency</p>
+                        </div>
+                        <div>
+                            <p>2.4 MHz</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><MdOutlineUsb />&nbsp;&nbsp;USB Included</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:18
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbBatteryOff />&nbsp;&nbsp;Type C Charging</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030030</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>24 pcs./box</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Battery cell type</p>
+                        </div>
+                        <div>
+                            <p>3.7V Li-ion Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SEEDO Gun Rock Crawler",
@@ -920,7 +5122,126 @@ const SEEDOData = [
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
-        ProductStyleCode: "118MT003G"
+        ProductStyleCode: "118MT003G",
+        ProductColours: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p> Blue</p>
+                </div>
+
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Green</p>
+                </div>
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Red</p>
+                </div>
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Yellow</p>
+                </div>
+
+            </div>
+        </>,
+        ProductSpecs: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Rubber tires</p>
+                </div>
+                <div>
+                    <img src="/Images/Move4Way.png" alt="404 not found" />
+                    <p>Moves 4 Way</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Shock
+                        Absorber</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Head Lights</p>
+                </div>
+            </div>
+        </>,
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>PVC</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><GiLightningFrequency />&nbsp;&nbsp;Frequency</p>
+                        </div>
+                        <div>
+                            <p>2.4 MHz</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><MdOutlineUsb />&nbsp;&nbsp;USB Included</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:18
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbBatteryOff />&nbsp;&nbsp;Type C Charging</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030030</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>24 pcs./box</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Battery cell type</p>
+                        </div>
+                        <div>
+                            <p>3.7V Li-ion Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SEEDO Smoke Rock Crawler",
@@ -931,7 +5252,126 @@ const SEEDOData = [
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
-        ProductStyleCode: "118MT003S"
+        ProductStyleCode: "118MT003S",
+        ProductColours: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p> Blue</p>
+                </div>
+
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Green</p>
+                </div>
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Red</p>
+                </div>
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Yellow</p>
+                </div>
+
+            </div>
+        </>,
+        ProductSpecs: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Rubber tires</p>
+                </div>
+                <div>
+                    <img src="/Images/Move4Way.png" alt="404 not found" />
+                    <p>Moves 4 Way</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Shock
+                        Absorber</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Head Lights</p>
+                </div>
+            </div>
+        </>,
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>PVC</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><GiLightningFrequency />&nbsp;&nbsp;Frequency</p>
+                        </div>
+                        <div>
+                            <p>2.4 MHz</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><MdOutlineUsb />&nbsp;&nbsp;USB Included</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:18
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbBatteryOff />&nbsp;&nbsp;Type C Charging</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030030</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>24 pcs./box</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Battery cell type</p>
+                        </div>
+                        <div>
+                            <p>3.7V Li-ion Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SEEDO Luxurious Sports  Car 27 MHz",
@@ -945,7 +5385,7 @@ const SEEDOData = [
         ProductStyleCode: "116RC001/27MHz"
     },
     {
-        ProductTitle: "SEEDO Luxurious Sports  Car 2.4GHz",
+        ProductTitle: "SEEDO Luxurious Sports Car 2.4GHz",
         ProductImage: [
             RC00124GHz
         ],
@@ -953,7 +5393,131 @@ const SEEDOData = [
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
-        ProductStyleCode: "116RC001/2.4GHz"
+        ProductStyleCode: "116RC001/2.4GHz",
+        ProductColours: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Orange</p>
+                </div>
+
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>red</p>
+                </div>
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Blue</p>
+                </div>
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Yellow</p>
+                </div>
+
+            </div>
+        </>,
+        ProductSpecs: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Rubber tires</p>
+                </div>
+                <div>
+                    <img src="/Images/Move4Way.png" alt="404 not found" />
+                    <p>Moves 4 Way</p>
+                </div>
+
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Head Lights</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Tail Lights</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Metalic Finish</p>
+                </div>
+            </div>
+        </>,
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Virgin grade, High strenght ABS Material</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><GiLightningFrequency />&nbsp;&nbsp;Frequency</p>
+                        </div>
+                        <div>
+                            <p>2.4 MHz</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><MdOutlineUsb />&nbsp;&nbsp;USB Included</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:16
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbBatteryOff />&nbsp;&nbsp;Type C Charging</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030030</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>18 pcs./box</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Battery cell type</p>
+                        </div>
+                        <div>
+                            <p>3.7V Li-ion Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
+
     },
     {
         ProductTitle: "SEEDO Hyper Beast Car 27 MHz",
@@ -964,7 +5528,130 @@ const SEEDOData = [
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
-        ProductStyleCode: "116RC002/27MHz"
+        ProductStyleCode: "116RC002/27MHz",
+        ProductColours: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Grey</p>
+                </div>
+
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>red</p>
+                </div>
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Blue</p>
+                </div>
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Yellow</p>
+                </div>
+
+            </div>
+        </>,
+        ProductSpecs: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Rubber tires</p>
+                </div>
+                <div>
+                    <img src="/Images/Move4Way.png" alt="404 not found" />
+                    <p>Moves 4 Way</p>
+                </div>
+
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Head Lights</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Tail Lights</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Metalic Finish</p>
+                </div>
+            </div>
+        </>,
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Virgin grade, High strenght ABS Material</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><GiLightningFrequency />&nbsp;&nbsp;Frequency</p>
+                        </div>
+                        <div>
+                            <p>2.4 MHz</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><MdOutlineUsb />&nbsp;&nbsp;USB Included</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:16
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbBatteryOff />&nbsp;&nbsp;Type C Charging</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030030</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>48 pcs./box</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Battery cell type</p>
+                        </div>
+                        <div>
+                            <p>3.7V Li-ion Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SEEDO Hyper Beast Car 2.4GHz",
@@ -986,7 +5673,131 @@ const SEEDOData = [
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
-        ProductStyleCode: "116RC003"
+        ProductStyleCode: "116RC003",
+        ProductColours: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Black</p>
+                </div>
+
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Orange</p>
+                </div>
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Yellow</p>
+                </div>
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Red</p>
+                </div>
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Grey</p>
+                </div>
+
+            </div>
+        </>,
+        ProductSpecs: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Rubber tires</p>
+                </div>
+                <div>
+                    <img src="/Images/Move4Way.png" alt="404 not found" />
+                    <p>Moves 4 Way</p>
+                </div>
+
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Head & Tail Lights</p>
+                </div>
+
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Premium Look</p>
+                </div>
+            </div>
+        </>,
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Virgin grade, High strenght ABS Material</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><GiLightningFrequency />&nbsp;&nbsp;Frequency</p>
+                        </div>
+                        <div>
+                            <p>2.4 MHz</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><MdOutlineUsb />&nbsp;&nbsp;USB Included</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:24
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbBatteryOff />&nbsp;&nbsp;Type C Charging</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030030</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>12 pcs./box</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Battery cell type</p>
+                        </div>
+                        <div>
+                            <p>3.7V Li-ion Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SEEDO Twisting Stunt Car",
@@ -997,7 +5808,117 @@ const SEEDOData = [
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
-        ProductStyleCode: "116SC001"
+        ProductStyleCode: "116SC001",
+        ProductColours: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Sky Blue</p>
+                </div>
+
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Orange</p>
+                </div>
+
+
+            </div>
+        </>,
+        ProductSpecs: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Rubber tires</p>
+                </div>
+                <div>
+                    <img src="/Images/Move4Way.png" alt="404 not found" />
+                    <p>Moves 4 Way</p>
+                </div>
+
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>360 Flip</p>
+                </div>
+
+
+            </div>
+        </>,
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Virgin grade, High strenght ABS Material</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><GiLightningFrequency />&nbsp;&nbsp;Frequency</p>
+                        </div>
+                        <div>
+                            <p>2.4 MHz</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><MdOutlineUsb />&nbsp;&nbsp;USB Included</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:16
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbBatteryOff />&nbsp;&nbsp;Type C Charging</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030030</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>12 pcs./box</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Battery cell type</p>
+                        </div>
+                        <div>
+                            <p>3.7V Li-ion Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SEEDO Twisting Drift Car",
@@ -1008,7 +5929,117 @@ const SEEDOData = [
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
-        ProductStyleCode: "116SC003"
+        ProductStyleCode: "116SC003",
+        ProductColours: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Sky Blue</p>
+                </div>
+
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Orange</p>
+                </div>
+
+
+            </div>
+        </>,
+        ProductSpecs: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Rubber tires</p>
+                </div>
+                <div>
+                    <img src="/Images/Move4Way.png" alt="404 not found" />
+                    <p>Moves 4 Way</p>
+                </div>
+
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>360 Flip</p>
+                </div>
+
+
+            </div>
+        </>,
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Virgin grade, High strenght ABS Material</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><GiLightningFrequency />&nbsp;&nbsp;Frequency</p>
+                        </div>
+                        <div>
+                            <p>2.4 MHz</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><MdOutlineUsb />&nbsp;&nbsp;USB Included</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:16
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbBatteryOff />&nbsp;&nbsp;Type C Charging</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030030</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>12 pcs./box</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Battery cell type</p>
+                        </div>
+                        <div>
+                            <p>3.7V Li-ion Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SEEDO Super Sonic Stunt Car",
@@ -1019,7 +6050,125 @@ const SEEDOData = [
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
-        ProductStyleCode: "116SC002"
+        ProductStyleCode: "116SC002",
+        ProductColours: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Red</p>
+                </div>
+
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Black</p>
+                </div>
+
+
+            </div>
+        </>,
+        ProductSpecs: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Foam tires</p>
+                </div>
+                <div>
+                    <img src="/Images/Move4Way.png" alt="404 not found" />
+                    <p>Stunt shots in various directions</p>
+                </div>
+
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Shock Absorber</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Stunt shot</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Durable</p>
+                </div>
+
+
+            </div>
+        </>,
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Virgin grade, High strenght ABS Material</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><GiLightningFrequency />&nbsp;&nbsp;Frequency</p>
+                        </div>
+                        <div>
+                            <p>2.4 MHz</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><MdOutlineUsb />&nbsp;&nbsp;USB Included</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbRulerMeasure />&nbsp;&nbsp;Scale</p>
+                        </div>
+                        <div>
+                            1:16
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><TbBatteryOff />&nbsp;&nbsp;Type C Charging</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030030</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>12 pcs./box</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Battery cell type</p>
+                        </div>
+                        <div>
+                            <p>3.7V Li-ion Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SEEDO 750 Drone",
@@ -1030,7 +6179,115 @@ const SEEDOData = [
         ProductWheelWay: "6way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
-        ProductStyleCode: "STDR001"
+        ProductStyleCode: "STDR001",
+        ProductColours: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Yellow</p>
+                </div>
+
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Green</p>
+                </div>
+
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>White</p>
+                </div>
+
+
+            </div>
+        </>,
+        ProductSpecs: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Stability</p>
+                </div>
+                <div>
+                    <img src="/Images/Move4Way.png" alt="404 not found" />
+                    <p>Premium Design</p>
+                </div>
+
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Collision Avoidance</p>
+                </div>
+
+
+            </div>
+        </>,
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Virgin grade, High strenght ABS Material</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><GiLightningFrequency />&nbsp;&nbsp;Frequency</p>
+                        </div>
+                        <div>
+                            <p>2.4 MHz</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><MdOutlineUsb />&nbsp;&nbsp;USB Included</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <p><TbBatteryOff />&nbsp;&nbsp;Type C Charging</p>
+                        </div>
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030030</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>24 pcs./box</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Battery cell type</p>
+                        </div>
+                        <div>
+                            <p>3.7V Li-ion Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SEEDO Brainy Bear",
@@ -1041,7 +6298,166 @@ const SEEDOData = [
         ProductWheelWay: "_",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
-        ProductStyleCode: "SLT-BB-001"
+        ProductStyleCode: "SLT-BB-001",
+        ProductColours: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Beige</p>
+                </div>
+
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Brown</p>
+                </div>
+
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>White</p>
+                </div>
+
+
+
+            </div>
+        </>,
+        ProductSpecs: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Rhymes</p>
+                </div>
+                <div>
+                    <img src="/Images/Move4Way.png" alt="404 not found" />
+                    <p>Record</p>
+                </div>
+
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Music</p>
+                </div>
+
+
+            </div>
+        </>,
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        {/* <div>
+                            <p>1</p>
+                        </div> */}
+                        <div>
+                            <p>1. Left Ear</p>
+                        </div>
+                    </div>
+                    <div>
+                        {/* <div>
+                            <p>2</p>
+                        </div> */}
+                        <div>
+                            <p>2. Right Ear</p>
+                        </div>
+                    </div>
+                    <div>
+
+                        <div>
+                            <p>3. Left Eye brow</p>
+                        </div>
+                    </div>
+
+                    <div>
+
+                        <div>
+                            <p>4. Right Eye brow</p>
+                        </div>
+                    </div>
+                    <div>
+
+                        <div>
+                            <p>5. Left Eye</p>
+                        </div>
+                    </div>
+                    <div>
+
+                        <div>
+                            <p>6. Right Right</p>
+                        </div>
+                    </div>
+                    <div>
+
+                        <div>
+                            <p>7. Nose</p>
+                        </div>
+                    </div>
+                    <div>
+
+                        <div>
+                            <p>8. Left Cheek</p>
+                        </div>
+                    </div>
+                    <div>
+
+                        <div>
+                            <p>9. Voice Recording</p>
+                        </div>
+                    </div>
+                    <div>
+
+                        <div>
+                            <p>10. Musical Ryhmes</p>
+                        </div>
+                    </div>
+                    <div>
+
+                        <div>
+                            <p>11. Tail</p>
+                        </div>
+                    </div>
+                    <div>
+
+                        <div>
+                            <p>12. Left Arm</p>
+                        </div>
+                    </div>
+                    <div>
+
+                        <div>
+                            <p>13. Bely</p>
+                        </div>
+                    </div>
+                    <div>
+
+                        <div>
+                            <p>14. Left Leg</p>
+                        </div>
+                    </div>
+                    <div>
+
+                        <div>
+                            <p>15. Right Leg</p>
+                        </div>
+                    </div>
+                    <div>
+
+                        <div>
+                            <p>16. Left Foot</p>
+                        </div>
+                    </div>
+                    <div>
+
+                        <div>
+                            <p>17. Right Foot</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SEEDO Pick and Pop",
@@ -1052,7 +6468,81 @@ const SEEDOData = [
         ProductWheelWay: "_",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
-        ProductStyleCode: "SLT-PP-001"
+        ProductStyleCode: "SLT-PP-001",
+        ProductColours: <>
+            <div className="SpecsContainer">
+                {/* <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Yellow</p>
+                </div>
+
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Green</p>
+                </div>
+
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>White</p>
+                </div> */}
+
+
+            </div>
+        </>,
+        ProductSpecs: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Fine Motor
+                        Training</p>
+                </div>
+                <div>
+                    <img src="/Images/Move4Way.png" alt="404 not found" />
+                    <p>Touch Sense</p>
+                </div>
+
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Mad Music</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Limb Training</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Auditory Training</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Training
+                        Visual Training</p>
+                </div>
+
+
+            </div>
+        </>,
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Virgin grade, High strenght ABS Material</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "SEEDO Techno Tutor",
@@ -1063,7 +6553,257 @@ const SEEDOData = [
         ProductWheelWay: "_",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
-        ProductStyleCode: "SLT-TT-001"
+        ProductStyleCode: "SLT-TT-001",
+        ProductColours: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Pink</p>
+                </div>
+
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Yellow</p>
+                </div>
+
+                <div>
+                    <img src="/Images/Move2Way.png" alt="404 not found" />
+                    <p>Blue</p>
+                </div>
+
+
+            </div>
+        </>,
+        ProductSpecs: <>
+            <div className="SpecsContainer">
+                <div>
+                    <img src="/Images/RubberTire.png" alt="404 not found" />
+                    <p>Fine Motor
+                        Training</p>
+                </div>
+                <div>
+                    <img src="/Images/Move4Way.png" alt="404 not found" />
+                    <p>Touch Sense</p>
+                </div>
+
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Mad Music</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Limb Training</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Auditory Training</p>
+                </div>
+                <div>
+                    <img src="/Images/HeadLights.png" alt="404 not found" />
+                    <p>Training
+                        Visual Training</p>
+                </div>
+
+
+            </div>
+        </>,
+        ModalInfo: <>
+            <div>
+                <br />
+                <div className="HrHeadingAnimated">
+                    <h1 className="PrimaryHeading-black" style={{ marginBottom: "5px" }} >Product Specification </h1>
+                    <hr />
+                    {/* <p> <Link to="/products"> See All Toys &nbsp;</Link></p> */}
+                </div>
+                <div className="ProductSpecificationContainer">
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Say the letter</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Write the letter</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Press the correct letter</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Where is the letter</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Say the words</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Spelling test</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Press the correct word</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Find the word</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Say the number</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Write the number</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Press the correct number</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p> Find the number</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Play melody</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Play notes</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Press the correct note</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p> Listen and find note</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p> Catch me</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Find the match pair</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Star shooting</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Draw a picture</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><SiMaterialdesignicons />&nbsp;&nbsp;Material Type</p>
+                        </div>
+                        <div>
+                            <p>Virgin grade, High strenght ABS Material</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><IoMdBarcode />&nbsp;&nbsp;HSN Code</p>
+                        </div>
+                        <div>
+                            <p>95030030</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p><FaBoxOpen />&nbsp;&nbsp;Box Size</p>
+                        </div>
+                        <div>
+                            <p>22 pcs per box</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </>
     },
     {
         ProductTitle: "Cube",

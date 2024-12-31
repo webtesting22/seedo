@@ -1,5 +1,6 @@
 #ProductContainer {
   background-color: #ffffff;
+  padding-top: 8rem;
 }
 
 .BannerContainer img {
@@ -173,6 +174,70 @@
   object-fit: cover;
 }
 
+.ProductSpecificationContainer>div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.ProductSpecificationContainer>div div {
+  width: 100%;
+  padding: 10px 0px;
+  border-bottom: 1px solid #a5252b31;
+}
+
+.ProductSpecificationContainer>div div p {
+  margin: 0px;
+}
+
+.ProductSpecificationContainer>div div:first-child p {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.ProductSpecificationContainer>div div:first-child p svg {
+ color: #A5252B;
+}
+
+
+.SpecsContainer {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.SpecsContainer>div {
+  padding: 10px 20px;
+  border: 1px dashed #A5252B;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.SpecsContainer>div p {
+  margin: 0px;
+  font-weight: 600;
+}
+
+.SpecsContainer>div img {
+  width: 30px;
+}
+
+.ColoursContainer .SpecsContainer {
+  width: 50%;
+  margin-bottom: 1rem;
+}
+
+.ColoursContainer .SpecsContainer>div {
+  border: 1px dashed transparent;
+}
+
+.ant-modal-mask{
+  backdrop-filter: blur(4px) !important;
+}
 @media (max-width: 769px) {
   .SearchAndAddons {
     width: 100%;
