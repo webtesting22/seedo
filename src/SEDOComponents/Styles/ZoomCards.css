@@ -76,9 +76,20 @@ ul[class] {
 
 }
 
+@media (min-width:679px) and (max-width:900px){
+    .avatars li {
+        margin-bottom: 6rem;
+    }
+}
+@media (max-width:679px) {
+    .avatars li {
+        margin-bottom: 6rem;
+    }
+}
+
 .avatars li p {
     position: absolute;
-    bottom: -70px;
+    bottom: -80px;
     font-size: 17px;
     width: 100%;
     text-align: center;
@@ -143,7 +154,7 @@ ul[class] {
         padding-top: 8rem !important;
         padding: 0rem 1rem;
         overflow: hidden;
-        padding-bottom: 5rem !important;
+        padding-bottom: 2rem !important;
         position: relative;
         /* background-color: rgb(247, 216, 101); */
     }
