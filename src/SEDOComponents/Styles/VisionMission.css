@@ -52,3 +52,29 @@
 .carousel-image.inactive {
     opacity: 0;
 }
+
+@media (max-width:900px){
+    .MainContainerVisionMission .ant-row .ant-col{
+        padding: 0px 0px;
+    }
+    .MainContainerVisionMission .ant-row .ant-col:first-child .LeftSideMissionContainer{
+        height: 100%;
+        display: flex;
+        align-items:center;
+        margin-top: 0rem;
+        
+    }
+    .MainContainerVisionMission .ant-row .ant-col:last-child .RightSideVisionContainer{
+        height: 100%;
+        display: flex;
+        align-items:center;
+        margin-top: 0rem;
+    }
+    
+    #MissionVisionComponent{
+        padding-top: 5rem !important;
+        padding: 0rem 1rem;
+        background-color: #f9f9f9;
+        padding-bottom: 3rem;
+    }
+}

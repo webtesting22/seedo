@@ -75,3 +75,21 @@
     transition: .5s;
     cursor: pointer;
 }
+
+@media (max-width:900px){
+    #ImageStickyContainer {
+        height: 50vh;
+        padding-top: 5rem !important;
+        padding: 0rem 1rem;
+        overflow: hidden;
+        padding-bottom: 5rem !important;
+        position: relative;
+        background-image: url("../../../../public/Images/HomeStickyImageback.jpeg");
+        background-size: cover;
+        background-attachment: fixed;
+        margin-top: 3rem;
+    }
+    .WriteUpRelatedCompany div {
+        width: 100%;
+    }
+}

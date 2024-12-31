@@ -54,3 +54,13 @@
     transition: .5s;
     cursor: pointer;
 }
+
+@media (max-width:900px){
+    #ScrollingVideoAnimationContainer{
+        padding-top: 5rem !important;
+        padding: 0rem 1rem;
+        overflow: hidden;
+        /* padding-bottom: 5rem !important; */
+        position: relative;
+    }
+}

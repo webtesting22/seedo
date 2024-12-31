@@ -252,7 +252,7 @@ const Products = () => {
                             {selectedProduct.ProductSpecs}
                         </div>
                         <p><strong>Category:</strong> {selectedProduct.ProductCategories}</p>
-                        <p><strong>Description:</strong> {selectedProduct.ProductDescription || "No description available."}</p>
+                        {/* <p><strong>Description:</strong> {selectedProduct.ProductDescription || "No description available."}</p> */}
                         <div>
                             <div>{selectedProduct.ModalInfo}</div>
                         </div>

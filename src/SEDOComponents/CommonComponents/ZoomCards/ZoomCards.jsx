@@ -13,12 +13,12 @@ const ZoomCards = () => {
     const [hoveredItem, setHoveredItem] = useState(null);
 
     const items = [
-        { item: "Item 1", heading: "Brainy Bear", image: Teddy,Category:"Early Learning Toys"},
-        { item: "Item 4", heading: "Jet Series", image: JetSeries,Category:"RC Car"  },
-        { item: "Item 5", heading: "Racing Series", image: Racingseries,Category:"Racing Series" },
-        { item: "Item 5", heading: "Drift Series", image: DriftSeries, Category:"Drift Series" },
-        { item: "Item 5", heading: "Construction Series", image: Construction, Category:"Construction Series" },
-        { item: "Item 5", heading: "New launches", image: NewLaunches,Category:"New Launches"  },
+        { item: "Item 1", heading: "Brainy Bear", image: Teddy, Category: "Early Learning Toys" },
+        { item: "Item 4", heading: "Jet Series", image: JetSeries, Category: "RC Car" },
+        { item: "Item 5", heading: "Racing Series", image: Racingseries, Category: "Racing Series" },
+        { item: "Item 5", heading: "Drift Series", image: DriftSeries, Category: "Drift Series" },
+        { item: "Item 5", heading: "Construction Series", image: Construction, Category: "Construction Series" },
+        { item: "Item 5", heading: "New launches", image: NewLaunches, Category: "New Launches" },
     ];
 
     return (
@@ -38,17 +38,17 @@ const ZoomCards = () => {
                         // <div>
                         <>
 
-                           <Link to="/products">
-                           <li
-                                key={index}
-                                className={hoveredItem === index ? "hovered" : ""}
-                                onMouseEnter={() => setHoveredItem(index)}
-                                onMouseLeave={() => setHoveredItem(null)}
-                            >
-                                <img src={item.image} alt="" />
-                                <div className="icon"></div>
-                                <p style={{color:"black"}}>{item.Category}</p>
-                            </li></Link>
+                            <Link to="/products">
+                                <li
+                                    key={index}
+                                    className={hoveredItem === index ? "hovered" : ""}
+                                    onMouseEnter={() => setHoveredItem(index)}
+                                    onMouseLeave={() => setHoveredItem(null)}
+                                >
+                                    <img src={item.image} alt="" />
+                                    <div className="icon"></div>
+                                    <p style={{ color: "black" }}>{item.Category}</p>
+                                </li></Link>
                         </>
                         //  <h5>{item.heading}</h5>
                         // </div>

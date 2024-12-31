@@ -29,7 +29,7 @@ const MissionVision = () => {
                 <div className="MainContainerVisionMission">
 
                     <Row>
-                        <Col lg={8} md={12}>
+                        <Col lg={8} md={12} style={{width:"100%"}}>
                             <div className="LeftSideMissionContainer">
                                 <div>
                                     <h2>Our Mission</h2>To deliver high-quality, safe, and innovative toys that inspire creativity and confidence in children and parents alike.
@@ -37,7 +37,7 @@ const MissionVision = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={8} md={12}>
+                        <Col lg={8} md={12} style={{width:"100%"}}>
                             <div className="MiddleImageContainer">
                             {images.map((image, index) => (
                     <img
@@ -50,7 +50,7 @@ const MissionVision = () => {
                     />
                 ))} </div>
                         </Col>
-                        <Col lg={8} md={12}>
+                        <Col lg={8} md={12} style={{width:"100%"}}>
                             <div className="RightSideVisionContainer">
                                 <div>
                                     <h2>Our Vision</h2>
