@@ -15,18 +15,7 @@ const CertificationAndClient = () => {
                 <Navigation />
             </div>
             <section id="CertificationAndClient">
-                <div className="BannerContainer">
-                    {/* <div className="overlayContainer">
-
-                        </div> */}
-                    <img src="/Images/ gen8.jpg" alt="" />
-                </div>
-                <div style={{ padding: "20px", }}>
-                    <span>
-                        <Link to="/" className="breadcrumb-link" style={{ color: "black" }}>Home</Link> &gt;{" "}
-                        <Link to="/certification-and-client" className="breadcrumb-link" style={{ color: "black" }}>Certification and Client</Link>
-                    </span>
-                </div>
+               
                 <SeedoCertification />
                 <Client />
             </section>
