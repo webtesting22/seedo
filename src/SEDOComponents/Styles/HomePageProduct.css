@@ -66,7 +66,7 @@
   background-color: rgb(255, 255, 255);
   /* margin: 5px; */
   border-radius: 10px;
-  border: 1px solid rgb(219 219 219 / 42%);
+  border: 1px dashed #fd787a49 ;
 }
 
 .BigCardEdit:hover {
@@ -75,7 +75,7 @@
   background-color: rgb(255, 255, 255);
   /* margin: 5px; */
   border-radius: 10px;
-  border: 1px solid rgba(219, 219, 219, 0.795);
+  border: 1px solid #fd787a49;
 }
 
 .HoverImageContainer {
@@ -87,13 +87,17 @@
   position: relative;
   transition: 0.5s;
   justify-content: center;
+  width: 80%;
+  background: white;
+  border-radius: 0px 0px 20px 20px;
+  transition: 5s;
 }
 
 .HoverImageContainer img {
   position: absolute;
   /* top: 0; */
   /* left: 0; */
-  width: 80%;
+  width: 300px;
   /* height: 100%;
     object-fit: cover; */
   transition: opacity 0.3s ease-in-out;
@@ -105,6 +109,9 @@
 
 .TitleContainer {
   padding: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .TitleContainer span {
@@ -155,6 +162,14 @@
   /* filter: drop-shadow(1px 1px 1px black); */
 }
 
+.BigCardEdit {
+  background: #fd787b0f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 5s;
+}
+
 .BigCardEdit:hover .defaultImage {
   opacity: 0;
   /* Hide the default image on hover */
@@ -200,7 +215,7 @@
   .BigCardEdit {
     height: 100%;
     width: 97%;
-    background-color: rgb(255, 255, 255);
+    background: #ffdf2224;
     margin: 5px 0;
     border-radius: 10px;
     border: 1px solid rgb(219 219 219 / 42%);

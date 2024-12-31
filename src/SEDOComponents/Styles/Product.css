@@ -1,5 +1,5 @@
 #ProductContainer {
-  background-color: #f0f0f0;
+  background-color: #ffffff;
 }
 
 .BannerContainer img {
@@ -150,6 +150,27 @@
 #ProductShowContainer .ant-btn:focus {
   color: #A5252B;
   border-color: #A5252B;
+}
+
+#ProductButton button {
+  height: 40px;
+  width: 40px;
+}
+
+.ModalImageContainer {
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.ModalImageContainer img {
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
 }
 
 @media (max-width: 769px) {

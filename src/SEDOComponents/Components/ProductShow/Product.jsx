@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Row, Col, Checkbox, Button, Input, Drawer } from "antd";
+import { Row, Col, Checkbox, Button, Input, Drawer, Modal, Image } from "antd"; // Import Modal
 import { Link } from "react-router-dom";
 import { TfiLayoutGrid3Alt, TfiLayoutGrid4Alt } from "react-icons/tfi";
 import { CiFilter } from "react-icons/ci";
@@ -8,15 +8,17 @@ import "../../Styles/Product.css";
 import Navigation from "../../CommonComponents/Navigation/Navigation";
 import SEEDOData from "../../ProductUpdatedData";
 import gene7 from "/Images/gene7.jpg";
-
+import { FaArrowRightLong } from "react-icons/fa6";
 const { Search } = Input;
 
 const Products = () => {
     const [isDrawerOpen, setDrawerOpen] = useState(false);
+    const [isModalOpen, setModalOpen] = useState(false); // Modal visibility state
+    const [selectedProduct, setSelectedProduct] = useState(null); // Selected product
     const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
 
     const [selectedCategories, setSelectedCategories] = useState([]);
-    const [layout, setLayout] = useState(8); // Default layout 4x4x4
+    const [layout, setLayout] = useState(6); // Default layout 4x4x4
     const [searchQuery, setSearchQuery] = useState(""); // Search query state
 
     const staticCategories = [
@@ -35,7 +37,12 @@ const Products = () => {
 
     const handleCategoryChange = (checkedValues) => setSelectedCategories(checkedValues);
 
-    const handleLayoutChange = (layoutType) => setLayout(layoutType);
+    
+    const handleLayoutChange = (layoutType) => {
+        setLayout(layoutType);
+        AOS.refresh(); // Reinitialize AOS animations after changing the layout
+    };
+
 
     const handleSearch = (value) => setSearchQuery(value);
 
@@ -55,9 +62,21 @@ const Products = () => {
     const showDrawer = () => setDrawerOpen(true);
     const closeDrawer = () => setDrawerOpen(false);
 
+    const openModal = (product) => {
+        setSelectedProduct(product);
+        setModalOpen(true);
+    };
+
+    const closeModal = () => {
+        setModalOpen(false);
+        setSelectedProduct(null);
+    };
+
     useEffect(() => {
+        AOS.init(); // Initialize AOS
         window.scrollTo(0, 0);
     }, []);
+
 
     return (
         <>
@@ -82,11 +101,8 @@ const Products = () => {
                         </div>
                     </div>
                     <div className="SearchAndAddons">
-
                         <div style={{ display: "flex", justifyContent: "space-between", width: "100%", gap: "10px" }}>
-                            <div className="SearchBarContainer" style={{ width: "100%" }}>
-
-                            </div>
+                            <div className="SearchBarContainer" style={{ width: "100%" }}></div>
                             <Search
                                 placeholder="Search for products"
                                 allowClear
@@ -111,14 +127,13 @@ const Products = () => {
                         </div>
                     </div>
                     <br />
-                    {/* Drawer for mobile filters */}
                     {isMobile && (
                         <Drawer
                             title="Filter by Categories"
                             placement="right"
                             onClose={closeDrawer}
                             open={isDrawerOpen}
-                            style={{position:"relative"}}
+                            style={{ position: "relative" }}
                         >
                             <div className="CategoriesFilters">
                                 <h3>Filter by Categories</h3>
@@ -131,15 +146,14 @@ const Products = () => {
                                     onChange={handleCategoryChange}
                                     className="FilterCheckBox"
                                 />
-
                             </div>
-                            <Button type="primary" onClick={closeDrawer} style={{ position: "absolute", bottom: "20px", width: "200px",background:"#A5252B" }}>Apply</Button>
+                            <Button type="primary" onClick={closeDrawer} style={{ position: "absolute", bottom: "20px", width: "200px", background: "#A5252B" }}>Apply</Button>
                         </Drawer>
                     )}
 
                     <div>
                         <Row>
-                            {!isMobile && (
+                            {/* {!isMobile && (
                                 <Col lg={6} md={24} xs={24} sm={24}>
                                     <div className="CategoriesFilters">
                                         <h3>Filter by Categories</h3>
@@ -154,15 +168,15 @@ const Products = () => {
                                         />
                                     </div>
                                 </Col>
-                            )}
-                            <Col lg={18} sm={24}>
+                            )} */}
+                            <Col lg={24} sm={24}>
                                 <Row id="ProductCardRow">
                                     {filteredProducts.map((item, index) => (
                                         <Col lg={layout} md={layout} key={index}>
                                             <div
                                                 className="BigCardEdit"
                                                 data-aos="fade-up"
-                                                data-aos-delay={`${index * 20}`}
+                                                data-aos-delay={`${index * 10}`}
                                             >
                                                 <div className="HoverImageContainer">
                                                     <img
@@ -187,6 +201,9 @@ const Products = () => {
                                                 <div className="TitleContainer">
                                                     <span>{item.ProductCategories}</span>
                                                     <h4>{item.ProductTitle}</h4>
+                                                    <div style={{ display: "flex", justifyContent: "center", width: "100%" }} className="InsideContainer" id="ProductButton">
+                                                        <button onClick={() => openModal(item)}><FaArrowRightLong /></button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </Col>
@@ -197,6 +214,30 @@ const Products = () => {
                     </div>
                 </div>
             </section>
+
+            {/* Modal for product info */}
+            <Modal
+                title={selectedProduct?.ProductTitle || "Product Info"}
+                visible={isModalOpen}
+                onCancel={closeModal}
+                footer={null}
+            >
+                {selectedProduct && (
+                    <div>
+                        <div className="ModalImageContainer">
+                            {selectedProduct.ProductImage.map((image, index) => (
+                                <Image
+                                    key={index}
+                                    src={image}
+                                    alt={`${selectedProduct.ProductTitle} - Image ${index + 1}`}
+                                    style={{ width: "100%", maxWidth: "150px", height: "100%", objectFit: "cover" }}
+                                />
+                            ))}                        </div>
+                        <p><strong>Category:</strong> {selectedProduct.ProductCategories}</p>
+                        <p><strong>Description:</strong> {selectedProduct.ProductDescription || "No description available."}</p>
+                    </div>
+                )}
+            </Modal>
         </>
     );
 };
