@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "../Navigation/Navigation";
 import "./Contact.css"
-import { Row,Col } from "antd";
+import { Row, Col } from "antd";
 const Contact = () => {
     return (
         <>
@@ -26,7 +26,7 @@ const Contact = () => {
                         </Col>
                     </Row>
                 </div>
-                <div style={{minHeight:"600px"}}>
+                <div style={{ minHeight: "600px" }}>
 
                 </div>
             </section>

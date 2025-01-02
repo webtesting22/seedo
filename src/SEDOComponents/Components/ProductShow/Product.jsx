@@ -85,6 +85,68 @@ const Products = () => {
                 <Navigation />
             </div>
             <section id="ProductContainer">
+                <div className="ProductHeaderContainer">
+                    <h1>CATALOGUE</h1>
+                </div>
+                <div className="CatalogueCardsContainer">
+                    <Row>
+                        <Col lg={12} md={24} style={{ width: "100%" }}>
+                            <div className="CatalogueCardContainer">
+                                <div className="CatalogueImageContainer">
+
+                                </div>
+                                <div className="productTitleContainer">
+                                    <h1>Product Name</h1>
+                                    <p>Category</p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col lg={12} md={24} style={{ width: "100%" }}>
+                            <div className="CatalogueCardContainer">
+                                <div className="CatalogueImageContainer">
+
+                                </div>
+                                <div className="productTitleContainer">
+                                    <h1>Product Name</h1>
+                                    <p>Category</p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col lg={12} md={24} style={{ width: "100%" }}>
+                            <div className="CatalogueCardContainer">
+                                <div className="CatalogueImageContainer">
+
+                                </div>
+                                <div className="productTitleContainer">
+                                    <h1>Product Name</h1>
+                                    <p>Category</p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col lg={12} md={24} style={{ width: "100%" }}>
+                            <div className="CatalogueCardContainer">
+                                <div className="CatalogueImageContainer">
+
+                                </div>
+                                <div className="productTitleContainer">
+                                    <h1>Product Name</h1>
+                                    <p>Category</p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col lg={12} md={24} style={{ width: "100%" }}>
+                            <div className="CatalogueCardContainer">
+                                <div className="CatalogueImageContainer">
+
+                                </div>
+                                <div className="productTitleContainer">
+                                    <h1>Product Name</h1>
+                                    <p>Category</p>
+                                </div>
+                            </div>
+                        </Col>
+                    </Row>
+                </div>
                 {/* <div className="BannerContainer">
                     <img src={gene7} alt="Products Banner" />
                 </div>
@@ -94,7 +156,7 @@ const Products = () => {
                         <Link to="/products" className="breadcrumb-link" style={{ color: "black" }}>Product</Link>
                     </span>
                 </div> */}
-                <div className="TopLinksContainer">
+                {/* <div className="TopLinksContainer">
                     <div >
                         <Link to="/" className="breadcrumb-link" style={{ color: "#999", fontSize: "12px" }}>Home</Link>&nbsp;&nbsp; <span style={{ color: "#999", fontSize: "12px", display: "flex" }}><FaArrowRight /></span> &nbsp;&nbsp;
                         <Link to="/products" className="breadcrumb-link" style={{ color: "#999", fontSize: "12px" }}>Products</Link>
@@ -160,22 +222,7 @@ const Products = () => {
 
                     <div>
                         <Row>
-                            {/* {!isMobile && (
-                                <Col lg={6} md={24} xs={24} sm={24}>
-                                    <div className="CategoriesFilters">
-                                        <h3>Filter by Categories</h3>
-                                        <Checkbox.Group
-                                            options={staticCategories.map(category =>
-                                                category === "Seedo Metal X Racer"
-                                                    ? { label: category, value: category, disabled: true }
-                                                    : { label: category, value: category }
-                                            )}
-                                            onChange={handleCategoryChange}
-                                            className="FilterCheckBox"
-                                        />
-                                    </div>
-                                </Col>
-                            )} */}
+                          
                             <Col lg={24} sm={24}>
                                 <Row id="ProductCardRow">
                                     {filteredProducts.map((item, index) => (
@@ -219,7 +266,7 @@ const Products = () => {
                             </Col>
                         </Row>
                     </div>
-                </div>
+                </div> */}
             </section>
 
             {/* Modal for product info */}

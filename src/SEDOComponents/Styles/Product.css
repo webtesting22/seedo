@@ -1,6 +1,6 @@
 #ProductContainer {
   background-color: #ffffff;
-  padding-top: 8rem;
+  padding-top: 5rem;
 }
 
 .BannerContainer img {
@@ -195,8 +195,9 @@
   display: flex;
   align-items: center;
 }
+
 .ProductSpecificationContainer>div div:first-child p svg {
- color: #A5252B;
+  color: #A5252B;
 }
 
 
@@ -235,9 +236,10 @@
   border: 1px dashed transparent;
 }
 
-.ant-modal-mask{
+.ant-modal-mask {
   backdrop-filter: blur(4px) !important;
 }
+
 @media (max-width: 769px) {
   .SearchAndAddons {
     width: 100%;
@@ -310,4 +312,45 @@
     align-items: center;
     padding: 10px;
   }
+}
+
+
+
+.ProductHeaderContainer {
+  min-height: 400px;
+  width: 100%;
+  background-color: #D9D9D9;
+  display: flex;
+  align-items: end;
+  padding: 0px 40px;
+}
+
+.ProductHeaderContainer h1 {
+  font-size: 100px;
+  font-weight: 700;
+  margin-top: 0px;
+}
+
+.CatalogueCardContainer {
+  background-color: white;
+  /* min-height: 400px; */
+  margin: 20px 70px;
+  border-radius: 20px;
+  border: 2px solid #000;
+}
+
+.CatalogueCardsContainer {
+  padding: 0px 40px;
+  margin-top: 5rem;
+}
+
+.CatalogueImageContainer {
+  min-height: 400px;
+  width: 100%;
+  background-color: #D9D9D9;
+  border-radius: 19px;
+}
+
+.productTitleContainer {
+  padding: 20px 40px;
 }
