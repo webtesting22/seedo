@@ -79,7 +79,7 @@ const SingleProductPage = () => {
                     </div>
                     <div className="OptionsContainer">
                         <Row>
-                            <Col lg={12} md={24} style={{width:"100%"}}>
+                            <Col lg={12} md={24} style={{ width: "100%" }}>
                                 <div className="logosContainer">
                                     <div className="HeaderHeadingContainer">
                                         <h1>ONLINE</h1>
@@ -94,7 +94,7 @@ const SingleProductPage = () => {
                                     </div>
                                 </div>
                             </Col>
-                            <Col lg={12} md={24} style={{width:"100%"}}>
+                            <Col lg={12} md={24} style={{ width: "100%" }}>
                                 <div className="logosContainer">
                                     <div className="HeaderHeadingContainer">
                                         <h1>OFFLINE STORE</h1>
@@ -113,8 +113,55 @@ const SingleProductPage = () => {
                     </div>
                 </div>
                 <div className="SIMILARPRODUCTSContainer">
-                    <div>
+                    <div className="HeaderContainer">
                         <h1>SIMILAR PRODUCTS </h1>
+                    </div>
+                    <div style={{ overflow: "hidden" }}>
+                        <div className="OverflowContainerStyle">
+                            <div className="OverlaygreyBox">
+
+                            </div>
+                            <div className="OverlaygreyBox">
+
+                            </div>
+                            <div className="OverlaygreyBox">
+
+                            </div>
+                            <div className="OverlaygreyBox">
+
+                            </div>
+                            <div className="OverlaygreyBox">
+
+                            </div>
+                            <div className="OverlaygreyBox">
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <br /><br />
+                    <div style={{ overflow: "hidden" }}>
+                        <div className="OverflowContainerStyle" style={{marginLeft:"0px"}}>
+                            <div className="OverlaygreyBox">
+
+                            </div>
+                            <div className="OverlaygreyBox">
+
+                            </div>
+                            <div className="OverlaygreyBox">
+
+                            </div>
+                            <div className="OverlaygreyBox">
+
+                            </div>
+                            <div className="OverlaygreyBox">
+
+                            </div>
+                            <div className="OverlaygreyBox">
+
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </section>

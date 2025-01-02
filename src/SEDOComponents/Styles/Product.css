@@ -354,3 +354,9 @@
 .productTitleContainer {
   padding: 20px 40px;
 }
+.productTitleContainer p{
+  color: black;
+}
+.productTitleContainer h1{
+  color: black;
+}

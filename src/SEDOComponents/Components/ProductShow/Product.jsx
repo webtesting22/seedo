@@ -91,59 +91,69 @@ const Products = () => {
                 <div className="CatalogueCardsContainer">
                     <Row>
                         <Col lg={12} md={24} style={{ width: "100%" }}>
-                            <div className="CatalogueCardContainer">
-                                <div className="CatalogueImageContainer">
+                            <Link to="/product-name">
+                                <div className="CatalogueCardContainer">
+                                    <div className="CatalogueImageContainer">
 
+                                    </div>
+                                    <div className="productTitleContainer">
+                                        <h1>Product Name</h1>
+                                        <p>Category</p>
+                                    </div>
                                 </div>
-                                <div className="productTitleContainer">
-                                    <h1>Product Name</h1>
-                                    <p>Category</p>
-                                </div>
-                            </div>
+                            </Link>
                         </Col>
                         <Col lg={12} md={24} style={{ width: "100%" }}>
-                            <div className="CatalogueCardContainer">
-                                <div className="CatalogueImageContainer">
-                                        
+                            <Link to="/product-name">
+                                <div className="CatalogueCardContainer">
+                                    <div className="CatalogueImageContainer">
+
+                                    </div>
+                                    <div className="productTitleContainer">
+                                        <h1>Product Name</h1>
+                                        <p>Category</p>
+                                    </div>
                                 </div>
-                                <div className="productTitleContainer">
-                                    <h1>Product Name</h1>
-                                    <p>Category</p>
-                                </div>
-                            </div>
+                            </Link>
                         </Col>
                         <Col lg={12} md={24} style={{ width: "100%" }}>
-                            <div className="CatalogueCardContainer">
-                                <div className="CatalogueImageContainer">
+                            <Link to="/product-name">
+                                <div className="CatalogueCardContainer">
+                                    <div className="CatalogueImageContainer">
 
+                                    </div>
+                                    <div className="productTitleContainer">
+                                        <h1>Product Name</h1>
+                                        <p>Category</p>
+                                    </div>
                                 </div>
-                                <div className="productTitleContainer">
-                                    <h1>Product Name</h1>
-                                    <p>Category</p>
-                                </div>
-                            </div>
+                            </Link>
                         </Col>
                         <Col lg={12} md={24} style={{ width: "100%" }}>
-                            <div className="CatalogueCardContainer">
-                                <div className="CatalogueImageContainer">
+                            <Link to="/product-name">
+                                <div className="CatalogueCardContainer">
+                                    <div className="CatalogueImageContainer">
 
+                                    </div>
+                                    <div className="productTitleContainer">
+                                        <h1>Product Name</h1>
+                                        <p>Category</p>
+                                    </div>
                                 </div>
-                                <div className="productTitleContainer">
-                                    <h1>Product Name</h1>
-                                    <p>Category</p>
-                                </div>
-                            </div>
+                            </Link>
                         </Col>
                         <Col lg={12} md={24} style={{ width: "100%" }}>
-                            <div className="CatalogueCardContainer">
-                                <div className="CatalogueImageContainer">
+                            <Link to="/product-name">
+                                <div className="CatalogueCardContainer">
+                                    <div className="CatalogueImageContainer">
 
+                                    </div>
+                                    <div className="productTitleContainer">
+                                        <h1>Product Name</h1>
+                                        <p>Category</p>
+                                    </div>
                                 </div>
-                                <div className="productTitleContainer">
-                                    <h1>Product Name</h1>
-                                    <p>Category</p>
-                                </div>
-                            </div>
+                            </Link>
                         </Col>
                     </Row>
                 </div>

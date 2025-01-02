@@ -107,6 +107,7 @@
 
 .BuyNowContainer h1 {
     font-size: 78px;
+    margin-bottom: 0px;
 }
 
 .OptionsContainer .ant-row .ant-col:first-child .HeaderHeadingContainer {
@@ -140,17 +141,43 @@
     background: white;
     list-style: none;
     height: 96px;
-    border-radius:22px;
+    border-radius: 22px;
     margin: 10px 0px;
     width: 70%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.SIMILARPRODUCTSContainer{
-    padding: 0px 40px;
+
+.SIMILARPRODUCTSContainer {
+    /* padding: 0px 40px; */
     margin-top: 5rem;
 }
-.SIMILARPRODUCTSContainer h1{
+.SIMILARPRODUCTSContainer .HeaderContainer{
+    padding: 0px 40px;
+}
+
+.SIMILARPRODUCTSContainer h1 {
     font-size: 78px;
+    margin-bottom: 0px;
+}
+
+/* Full-width container with hidden overflow */
+.OverflowContainerStyle {
+    width: 4000px;
+    overflow: hidden;
+    display: flex;
+    margin-left: -90px;
+    align-items: center;
+}
+
+/* Child boxes with fixed width */
+.OverlaygreyBox {
+    width: 400px;
+    height: 331px;
+    background-color: grey;
+    /* Set background color for visibility */
+    margin-right: 70px;
+    /* Add spacing between boxes if needed */
+    border-radius: 20px;
 }
