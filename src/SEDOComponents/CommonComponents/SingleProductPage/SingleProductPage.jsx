@@ -1,7 +1,9 @@
 import React from "react";
 import Navigation from "../Navigation/Navigation";
 import "./SingleProductPage.css"
-import { Row, Col } from "antd";
+import { Row, Col, Input } from "antd";
+import { IoStarSharp } from "react-icons/io5";
+
 const SingleProductPage = () => {
     return (
         <>
@@ -141,7 +143,7 @@ const SingleProductPage = () => {
                     </div>
                     <br /><br />
                     <div style={{ overflow: "hidden" }}>
-                        <div className="OverflowContainerStyle" style={{marginLeft:"0px"}}>
+                        <div className="OverflowContainerStyle" style={{ marginLeft: "0px" }}>
                             <div className="OverlaygreyBox">
 
                             </div>
@@ -162,6 +164,61 @@ const SingleProductPage = () => {
                             </div>
 
                         </div>
+                    </div>
+                </div>
+                <div className="ReviewContainer">
+                    <div className="HeaderContainer">
+                        <h1>Review</h1>
+                    </div>
+                    <div className="ReviewCardContainer">
+                        <Row>
+                            <Col lg={6} md={12}>
+                                <div className="reviewLeftSidephotoContainer">
+                                    <div>
+
+                                    </div>
+                                </div>
+                            </Col>
+                            <Col lg={18} md={12}>
+                                <div className="MassageContainer">
+                                    <div>
+                                    <h2>Feedback</h2>
+                                    <div>
+                                    <IoStarSharp />
+                                    <IoStarSharp />
+                                    <IoStarSharp />
+
+                                    </div>
+                                    <br />
+                                    <Input type="text" value="like the product so much !!"/>
+                                    </div>
+                                </div>
+                            </Col>
+                        </Row>
+                        <br />
+                        <Row>
+                            <Col lg={6} md={12}>
+                                <div className="reviewLeftSidephotoContainer">
+                                    <div>
+
+                                    </div>
+                                </div>
+                            </Col>
+                            <Col lg={18} md={12}>
+                                <div className="MassageContainer">
+                                    <div>
+                                    <h2>Feedback</h2>
+                                    <div>
+                                    <IoStarSharp />
+                                    <IoStarSharp />
+
+                                    </div>
+                                    <br />
+                                    <Input type="text" value="like the product so much !!"/>
+                                    </div>
+                                </div>
+                            </Col>
+                        </Row>
                     </div>
                 </div>
             </section>
