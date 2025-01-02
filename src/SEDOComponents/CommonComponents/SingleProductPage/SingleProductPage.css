@@ -184,9 +184,11 @@
     /* Add spacing between boxes if needed */
     border-radius: 20px;
 }
-.ReviewCardContainer{
+
+.ReviewCardContainer {
     padding: 0px 40px;
 }
+
 .ReviewContainer {
     margin-top: 5rem;
 }
@@ -199,11 +201,12 @@
     display: flex;
     align-items: center;
     /* justify-content: center; */
-   
-    
+
+
 
 }
-.reviewLeftSidephotoContainer>div{
+
+.reviewLeftSidephotoContainer>div {
     background-color: #D9D9D9;
     width: 278px;
     height: 228px;
@@ -216,15 +219,19 @@
     height: 100%;
     /* padding-left: 100px; */
 }
-.MassageContainer>div{
+
+.MassageContainer>div {
     width: 100%;
 }
-.MassageContainer h2{
+
+.MassageContainer h2 {
     margin: 0px;
 }
-.MassageContainer .ant-input{
+
+.MassageContainer .ant-input {
     min-height: 100px;
 }
-.MassageContainer svg{
-    color:#F9D978;
+
+.MassageContainer svg {
+    color: #F9D978;
 }

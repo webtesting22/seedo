@@ -1,10 +1,18 @@
-import React from "react";
+import React,{useEffect} from "react";
+
 import Navigation from "../Navigation/Navigation";
 import "./SingleProductPage.css"
 import { Row, Col, Input } from "antd";
 import { IoStarSharp } from "react-icons/io5";
 
 const SingleProductPage = () => {
+    useEffect(() => {
+        window.scrollTo({
+          top: 0,
+          left: 0,
+          behavior: "smooth",
+        });
+      }, []);
     return (
         <>
             <Navigation />

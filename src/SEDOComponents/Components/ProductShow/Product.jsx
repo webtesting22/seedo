@@ -44,7 +44,13 @@ const Products = () => {
         AOS.refresh(); // Reinitialize AOS animations after changing the layout
     };
 
-
+    useEffect(() => {
+        window.scrollTo({
+          top: 0,
+          left: 0,
+          behavior: "smooth",
+        });
+      }, []);
     const handleSearch = (value) => setSearchQuery(value);
 
     const filteredProducts = SEEDOData.filter(item => {
@@ -91,7 +97,7 @@ const Products = () => {
                 <div className="CatalogueCardsContainer">
                     <Row>
                         <Col lg={12} md={24} style={{ width: "100%" }}>
-                            <Link to="/product-name">
+                            <Link to="/subcategories">
                                 <div className="CatalogueCardContainer">
                                     <div className="CatalogueImageContainer">
 
@@ -104,7 +110,7 @@ const Products = () => {
                             </Link>
                         </Col>
                         <Col lg={12} md={24} style={{ width: "100%" }}>
-                            <Link to="/product-name">
+                            <Link to="/subcategories">
                                 <div className="CatalogueCardContainer">
                                     <div className="CatalogueImageContainer">
 
@@ -117,7 +123,7 @@ const Products = () => {
                             </Link>
                         </Col>
                         <Col lg={12} md={24} style={{ width: "100%" }}>
-                            <Link to="/product-name">
+                            <Link to="/subcategories">
                                 <div className="CatalogueCardContainer">
                                     <div className="CatalogueImageContainer">
 
@@ -130,7 +136,7 @@ const Products = () => {
                             </Link>
                         </Col>
                         <Col lg={12} md={24} style={{ width: "100%" }}>
-                            <Link to="/product-name">
+                            <Link to="/subcategories">
                                 <div className="CatalogueCardContainer">
                                     <div className="CatalogueImageContainer">
 
@@ -143,7 +149,7 @@ const Products = () => {
                             </Link>
                         </Col>
                         <Col lg={12} md={24} style={{ width: "100%" }}>
-                            <Link to="/product-name">
+                            <Link to="/subcategories">
                                 <div className="CatalogueCardContainer">
                                     <div className="CatalogueImageContainer">
 
