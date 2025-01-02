@@ -116,12 +116,13 @@
 
 .OptionsContainer .ant-row .ant-col .HeaderHeadingContainer {
     background-color: #B2AAAA;
-    padding: 5px 30px;
+    padding: 20px 30px;
 }
 
 .HeaderHeadingContainer h1 {
     font-size: 28px;
     text-align: center;
+    margin-top: 0px;
 }
 
 .logosContainer {
