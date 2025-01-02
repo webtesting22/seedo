@@ -9,18 +9,21 @@ import Footer from "../CommonComponents/Footer/Footer";
 import Navigation from "../CommonComponents/Navigation/Navigation";
 import CertificationAndClient from "../Components/CertificationAndClient/CertificationAndClient";
 import Contact from "../CommonComponents/ContactUs/Contact";
+import SingleProductPage from "../CommonComponents/SingleProductPage/SingleProductPage";
 
 const SEDORoutes = () => {
     return (
         <>
 
             {/* <MegaNavigation /> */}
+            {/* <Navigation/> */}
             <Routes>
                 <Route path="/" element={<HomeRoutes />} />
                 <Route path="/products" element={<Products />} />
                 <Route path="/aboutSeedo" element={<AboutSeedo />} />
                 <Route path="/certification-and-client" element={<CertificationAndClient />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/product-name" element={<SingleProductPage />} />
             </Routes>
             <Footer />
         </>

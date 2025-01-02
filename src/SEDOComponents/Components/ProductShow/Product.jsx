@@ -86,7 +86,7 @@ const Products = () => {
             </div>
             <section id="ProductContainer">
                 <div className="ProductHeaderContainer">
-                    <h1>CATALOGUE</h1>
+                    <h1>Product Categories</h1>
                 </div>
                 <div className="CatalogueCardsContainer">
                     <Row>
@@ -104,7 +104,7 @@ const Products = () => {
                         <Col lg={12} md={24} style={{ width: "100%" }}>
                             <div className="CatalogueCardContainer">
                                 <div className="CatalogueImageContainer">
-
+                                        
                                 </div>
                                 <div className="productTitleContainer">
                                     <h1>Product Name</h1>
