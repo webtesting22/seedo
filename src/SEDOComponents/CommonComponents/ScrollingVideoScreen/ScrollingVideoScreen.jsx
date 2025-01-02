@@ -8,7 +8,10 @@ const ScrollingVideoScreen = () => {
 
     return (
         <section id="ScrollingVideoAnimationContainer">
-            <div className="AboutHomeHeader">
+            <div className="makeInIndiaCardGray">
+                <h1>MAKE IN INDIA </h1>
+            </div>
+            {/* <div className="AboutHomeHeader">
                 <p style={{ marginBottom: "0px", color: "#A5252B" }}>Planting Creativity, Growing Joy.
                 </p>
                 <h2 style={{ marginTop: "0px" }}>Where Imagination Comes to Life.</h2>
@@ -36,7 +39,7 @@ const ScrollingVideoScreen = () => {
                         </div>
                     </Col>
                 </Row>
-            </div>
+            </div> */}
         </section>
     );
 };

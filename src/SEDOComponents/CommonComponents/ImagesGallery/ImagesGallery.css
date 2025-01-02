@@ -1,6 +1,6 @@
 .ImageGalleryContainer {
     padding-top: 5rem !important;
-    padding: 0rem 4rem;
+    padding: 0rem 0rem;
     overflow: hidden;
     padding-bottom: 5rem !important;
     position: relative;
@@ -31,8 +31,65 @@
     transform: scale(1.05);
     transition: .5s;
 }
-@media (max-width:769px){
-    .ImageGalleryContainer{
+
+.StoryGrayContainer {
+    height: 500px;
+    width: 100%;
+    background-color: #A1A1A1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.StoryGrayContainer h1 {
+    font-size: 78px;
+}
+
+.RightSideImageContainerGray {
+    height: 500px;
+    width: 100%;
+    background-color: #ECECEC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:769px) {
+    .ImageGalleryContainer {
         display: none;
     }
+}
+
+
+
+
+.OurServicesSection {
+    background-color: #A1A1A1;
+    /* width: 100%; */
+    min-height: 500px;
+    padding-left: 40px !important;
+    padding: 50px 0px;
+}
+
+.OurServicesSection .headingHeaderContainer h1 {
+    font-size: 78px;
+
+}
+
+.CardsContainer {
+    padding-left: 200px;
+}
+
+.CardsContainer .GreyBox {
+    height: 300px;
+    /* width: 100%; */
+    background-color: #D9D9D9;
+    margin: 20px;
+    border-radius: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.CardsContainer p {
+    font-size: 24px;
 }

@@ -6,7 +6,7 @@
 
 #BackImageOverlay {
   overflow: hidden;
-  height: 1500px;
+  height: 900px;
   width: 100%;
 }
 
@@ -126,6 +126,74 @@
   font-size: 4rem;
 }
 
+.HomePageContentContainer {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  height: 100%;
+  /* width: 100%; */
+  display: flex;
+  padding-top: 150px;
+  z-index: 5;
+  padding-left: 40px;
+}
+
+.HomePageContentContainer h1 {
+  font-size: 100px;
+  color: white;
+  font-weight: 600;
+  margin: 0px;
+  line-height: 100px;
+}
+
+.HomeheadingContainer {
+  width: 40%;
+}
+
+.GrayElementBox {
+  background-color: #ECECEC;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 100%; */
+  border-radius: 36px;
+}
+
+.SANSONGraphicContainer {
+  min-height: 500px;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  left: 0px;
+  margin-left: -40px;
+  margin-top: 70px;
+  border-radius: 80px;
+}
+
+.SANSONGraphicContainer div {
+  background-color: #253874;
+  height: 500px;
+  /* width: 1; */
+  border-radius: 70px;
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.SANSONGraphicContainer div p {
+  text-align: center;
+  color: white;
+}
+
+.BoxRowContainer {
+  padding-top: 100px;
+}
+
 @media (max-width: 769px) {
   .ScrollingLogoContainer {
     display: flex;
@@ -135,11 +203,6 @@
     align-items: center;
   }
 
-  #BackImageOverlay {
-    overflow: hidden;
-    height: 1300px;
-    width: 100%;
-  }
 
   .ButtonsContainer {
     display: flex;
@@ -180,7 +243,7 @@
     font-family: "Edu AU VIC WA NT Arrows", cursive;
     padding-bottom: 0.5rem;
   }
-  
+
 }
 
 @media (max-width:1100px) {
@@ -189,11 +252,11 @@
     width: 100% !important;
   }
 
-#ContentContainer .AnimatedSVGContainer {
-  padding: 0rem 1rem;
-  padding-top: 0rem;
-  display: flex;
-  justify-content: end;
-}
+  #ContentContainer .AnimatedSVGContainer {
+    padding: 0rem 1rem;
+    padding-top: 0rem;
+    display: flex;
+    justify-content: end;
+  }
 
 }

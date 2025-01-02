@@ -1,8 +1,9 @@
 #NavigationContainer {
   /* padding: 2rem; */
   position: fixed;
-  z-index: 444444;
+  z-index: 55;
   width: 100%;
+  background-color: #EFEEEE;
 }
 
 .NavigationLogo img {
@@ -11,6 +12,7 @@
   position: sticky;
   z-index: 10000000;
 }
+
 .NavigationLogo.visible {
   opacity: 1;
   transform: translateY(0);
@@ -22,12 +24,13 @@
   transform: translateY(-20px);
   transition: 0.5s;
 }
+
 .ContainerNavigation {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1rem 3rem;
-  backdrop-filter: blur(10px);
+  /* backdrop-filter: blur(10px); */
 }
 
 .red-link {
@@ -42,26 +45,32 @@
   margin: 0px 10px;
   color: white;
 }
+
 .LinksNavigation span a {
   color: white;
   text-decoration: none;
   transition: 0.5s;
 }
+
 .LinksNavigation span a:hover {
   color: #A5252B;
   text-decoration: none;
   transition: 0.5s;
   transform: translateY(10px);
 }
-.MenuToggle {
-  display: none;
-  font-size: 24px;
+
+
+
+.MenuToggle svg {
+  font-size: 30px;
   cursor: pointer;
 }
+
 .SidePanel {
   display: flex;
   justify-content: space-between;
 }
+
 .SidePanel span a {
   /* color: red; */
   text-decoration: none;
@@ -85,6 +94,7 @@
     opacity: 0;
     transition: 0.5s;
   }
+
   .SidePanel.show {
     transform: translateY(0);
     visibility: visible;
@@ -103,9 +113,11 @@
     border-radius: 0px 0px 20px 20px;
     border: 1px dashed #fd787a49;
   }
+
   .SidePanel span {
     padding: 10px 25px;
   }
+
   .SidePanel span a {
     color: rgb(0, 0, 0) !important;
     text-decoration: none;
@@ -116,6 +128,7 @@
   .SidePanel span a:hover {
     color: #A5252B;
   }
+
   .ContainerNavigation {
     display: flex;
     align-items: center;
@@ -123,13 +136,15 @@
     padding: 0.5rem 1rem;
     backdrop-filter: blur(10px);
   }
+
   .NavigationLogo img {
     width: 100px;
     border-radius: 10px;
   }
+
   .MenuToggle {
     display: block;
-    color: #A5252B;
+    color: black;
     z-index: 10000;
   }
 
@@ -146,6 +161,7 @@
   .LinksNavigation.show {
     display: flex;
   }
+
   .LinksNavigation span a {
     color: black;
   }

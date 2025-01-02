@@ -1,20 +1,18 @@
 import React, { useState, useEffect } from "react";
 import NavigationLinks from "./NavigationLinks";
-import "../../Styles/Navigation.css"
-import SEEDoLogo from "/SEEDOLogo.png"
-import { AiOutlineClose } from "react-icons/ai";
-import { AiOutlineMenu } from "react-icons/ai";
+import "../../Styles/Navigation.css";
+import SEEDoLogo from "/SEEDOLogo.png";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { Link, useLocation } from "react-router-dom";
+import { Drawer } from "antd"; // Import the Drawer component from Ant Design
 
 const Navigation = () => {
     const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
     const [isLogoVisible, setLogoVisible] = useState(false); // Track visibility of Navigation Logo
 
-    const closeMenu = () => {
-        setMobileMenuOpen(false);
-    };
     const { pathname } = useLocation(); // Get the current path
-    const linkColor = pathname === "/" ? "white" : "black"; // Determine color based on the current page
+    const linkColor = pathname === "/" ? "black" : "black"; // Determine color based on the current page
+
     useEffect(() => {
         if (pathname === "/") {
             // Logo visibility animation for the homepage
@@ -47,32 +45,43 @@ const Navigation = () => {
             <section id="NavigationContainer">
                 <div className="ContainerNavigation">
                     <div>
-                        <div className={`NavigationLogo ${pathname === "/" && !isLogoVisible ? "visible" : "hidden"}`}
-                        >
-                            <Link to="/"> <img src={SEEDoLogo} alt="" /></Link>
+                        <div className={`NavigationLogo ${pathname === "/"}`}>
+                            <Link to="/">
+                                <img src={SEEDoLogo} alt="Logo" />
+                            </Link>
                         </div>
                     </div>
                     <div className="MenuToggle" onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}>
                         {isMobileMenuOpen ? <AiOutlineClose /> : <AiOutlineMenu />}
                     </div>
-                    <div className={`SidePanel ${isMobileMenuOpen ? "show" : ""}`}>
-                        {NavigationLinks.map((item, index) => (
-                            <span key={index} onClick={closeMenu}>
-
-                                <Link to={item.path} style={{
-                                    color: linkColor, // Apply determined color
-
-
-                                }}>
-                                 {item.link}
-                                 </Link>
-                            </span>
-                        ))}
-                    </div>
                 </div>
 
+                {/* Ant Design Drawer */}
+                <Drawer
+                    title="Menu"
+                    placement="right"
+                    closable={true}
+                    onClose={() => setMobileMenuOpen(false)}
+                    open={isMobileMenuOpen}
+                >
+                    {NavigationLinks.map((item, index) => (
+                        <div key={index} style={{ marginBottom: "1rem" }}>
+                            <Link
+                                to={item.path}
+                                style={{
+                                    color: linkColor, // Apply determined color
+                                    textDecoration: "none",
+                                }}
+                                onClick={() => setMobileMenuOpen(false)} // Close drawer on link click
+                            >
+                                {item.link}
+                            </Link>
+                        </div>
+                    ))}
+                </Drawer>
             </section>
         </>
-    )
-}
-export default Navigation
+    );
+};
+
+export default Navigation;

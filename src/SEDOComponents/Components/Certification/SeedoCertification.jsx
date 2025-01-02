@@ -82,7 +82,8 @@ const SeedoCertification = () => {
                 <div className="TopLinksContainer" style={{ padding: "0px" }}>
                     <div >
                         <Link to="/" className="breadcrumb-link" style={{ color: "#999", fontSize: "12px" }}>Home</Link>&nbsp;&nbsp; <span style={{ color: "#999", fontSize: "12px", display: "flex" }}><FaArrowRight /></span> &nbsp;&nbsp;
-                        <Link to="/aboutSeedo" className="breadcrumb-link" style={{ color: "#999", fontSize: "12px" }}>About Us</Link>
+                        <Link to="/certification-and-client" className="breadcrumb-link" style={{ color: "#999", fontSize: "12px" }}>Industrial Certification
+                        </Link>
                     </div>
                 </div>
 

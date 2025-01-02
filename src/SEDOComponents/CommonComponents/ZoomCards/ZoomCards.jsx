@@ -9,6 +9,16 @@ import NewLaunches from "/Images/Products/NewLaunches.png"
 import ZoomBackImage from "/Images/Banners/ZoomBackImage.jpg"
 import { Link } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+// import required modules
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+
 const ZoomCards = () => {
     const [hoveredItem, setHoveredItem] = useState(null);
 
@@ -24,8 +34,127 @@ const ZoomCards = () => {
     return (
         <>
             <section id="ZoomCardsContainer">
+                <div className="headingHeaderContainer">
+                    <h1>Where to buy?</h1>
+                </div>
+                <div>
+                    <Swiper
+                        slidesPerView={6} // Adjust based on screen size or requirement
+                        spaceBetween={30}
+                        loop={true} // Enable infinite scroll
+                        autoplay={{
+                            delay: 100,
+                            disableOnInteraction: false,
+                        }}
+                        speed={3000} // Smooth scrolling speed
+                        modules={[Autoplay, Pagination, Navigation]}
+                        className="mySwiper"
+                    >
+                        {/* {items.map((item, index) => ( */}
+                        <SwiperSlide >
+                            <div className="GrayCardContainer">
+
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide >
+                            <div className="GrayCardContainer">
+
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide >
+                            <div className="GrayCardContainer">
+
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide >
+                            <div className="GrayCardContainer">
+
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide >
+                            <div className="GrayCardContainer">
+
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide >
+                            <div className="GrayCardContainer">
+
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide >
+                            <div className="GrayCardContainer">
+
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide >
+                            <div className="GrayCardContainer">
+
+                            </div>
+                        </SwiperSlide>
+
+                        {/* ))} */}
+                    </Swiper>
+                    <br /><br />
+                    <Swiper
+                        slidesPerView={6} // Adjust based on screen size or requirement
+                        spaceBetween={30}
+                        loop={true} // Enable infinite scroll
+                        autoplay={{
+                            delay: 100,
+                            disableOnInteraction: false,
+                            reverseDirection: true, 
+                        }}
+                        speed={3000} // Smooth scrolling speed
+                        modules={[Autoplay, Pagination, Navigation]}
+                        className="mySwiper"
+                    >
+                        {/* {items.map((item, index) => ( */}
+                        <SwiperSlide >
+                            <div className="GrayCardContainer">
+
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide >
+                            <div className="GrayCardContainer">
+
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide >
+                            <div className="GrayCardContainer">
+
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide >
+                            <div className="GrayCardContainer">
+
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide >
+                            <div className="GrayCardContainer">
+
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide >
+                            <div className="GrayCardContainer">
+
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide >
+                            <div className="GrayCardContainer">
+
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide >
+                            <div className="GrayCardContainer">
+
+                            </div>
+                        </SwiperSlide>
+
+                        {/* ))} */}
+                    </Swiper>
+                </div>
                 {/* <img src={ZoomBackImage} alt="" className="BackoverlayImage" /> */}
-                <div className="HrHeadingAnimated">
+                {/* <div className="HrHeadingAnimated">
                     <h1 className="PrimaryHeading-black" data-aos="fade-right"
                         data-aos-offset="300" data-aos-duration="500"
                         data-aos-easing="ease-in-sine">Playful Creations </h1>
@@ -35,7 +164,7 @@ const ZoomCards = () => {
                 <ul className="avatars" data-aos="fade-up"
                     data-aos-duration="500">
                     {items.map((item, index) => (
-                        // <div>
+                
                         <>
 
                             <Link to="/products">
@@ -50,10 +179,9 @@ const ZoomCards = () => {
                                     <p style={{ color: "black" }}>{item.Category}</p>
                                 </li></Link>
                         </>
-                        //  <h5>{item.heading}</h5>
-                        // </div>
+                      
                     ))}
-                </ul>
+                </ul> */}
                 {/* <div className="ViewMoreBtn">
                     <Link to="/products" style={{ textDecoration: "none" }}><button className="buttonStyleSecond">Explore Toys World</button></Link>
                 </div> */}

@@ -6,7 +6,15 @@ const ImageSticky = () => {
     return (
         <>
             <section id="ImageStickyContainer">
-                <div className="BlackOverlayContainer">
+                <div className="headingHeaderContainer">
+                    <h1>We have hold on more then ON  +3000 stores in india</h1>
+                </div>
+                <div className="WhyUsContainer">
+                    <h2>why us?</h2>
+                    <p>Primary CTA</p>
+                </div>
+
+                {/* <div className="BlackOverlayContainer">
 
                 </div>
                 <div className="WriteUpRelatedCompany">
@@ -18,7 +26,7 @@ const ImageSticky = () => {
                         <Link to="/aboutSeedo"><button><FaArrowRightLong/></button></Link>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </section>
         </>
     )

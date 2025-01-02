@@ -1,14 +1,14 @@
 #ImageStickyContainer {
-    height: 50vh;
+    /* height: 50vh; */
     padding-top: 5rem !important;
-    padding: 0rem 4rem;
+    padding: 0rem 0rem;
     overflow: hidden;
     padding-bottom: 5rem !important;
     position: relative;
-    background-image: url("../../../../public/Images/HomeStickyImageback.jpeg");
+    /* background-image: url("../../../../public/Images/HomeStickyImageback.jpeg"); */
     background-size: cover;
     background-attachment: fixed;
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
 }
 
 .BlackOverlayContainer {
@@ -76,7 +76,38 @@
     cursor: pointer;
 }
 
-@media (max-width:900px){
+#ImageStickyContainer h1 {
+    font-size: 78px;
+    text-align: center;
+    color: #253874;
+}
+
+#ImageStickyContainer .headingHeaderContainer {
+    padding: 0rem 4rem;
+}
+
+#ImageStickyContainer .WhyUsContainer {
+    min-height: 600px;
+    width: 100%;
+    background-color: #BC252B;
+    padding: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.WhyUsContainer h2 {
+    font-size: 78px;
+    text-align: center;
+}
+
+.WhyUsContainer p {
+    text-align: center;
+    font-size: 50px;
+}
+
+@media (max-width:900px) {
     #ImageStickyContainer {
         height: 50vh;
         padding-top: 5rem !important;
@@ -89,6 +120,7 @@
         background-attachment: fixed;
         margin-top: 3rem;
     }
+
     .WriteUpRelatedCompany div {
         width: 100%;
     }

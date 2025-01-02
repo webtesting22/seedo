@@ -22,7 +22,19 @@ const ImagesGallery = () => {
     return (
         <>
             <section className="ImageGalleryContainer">
-                <div>
+                <Row>
+                    <Col lg={12} md={24}>
+                        <div className="StoryGrayContainer">
+                            <h1>STORY</h1>
+                        </div>
+                    </Col>
+                    <Col lg={12} md={24}>
+                        <div className="RightSideImageContainerGray">
+                            <h1>IMAGE</h1>
+                        </div>
+                    </Col>
+                </Row>
+                {/* <div>
                     <p style={{ marginBottom: "0px", textAlign: "center" }}>@SEEDOToys</p>
                     <h2 style={{ marginTop: "0px", textAlign: "center" }}>We're on Instagram!</h2>
                 </div>
@@ -41,6 +53,33 @@ const ImagesGallery = () => {
                     <br />
                     <div style={{ display: "flex", justifyContent: "center", width: "100%" }} className="InsideContainer">
                         <Link to="https://www.instagram.com/seedotoys/" target="_blank"><button><FaArrowRightLong /></button></Link>
+                    </div>
+                </div> */}
+            </section>
+            <section className="ourServices">
+                <div className="OurServicesSection">
+                    <div className="headingHeaderContainer">
+                        <h1>OUR Services</h1>
+                    </div>
+                    <div className="CardsContainer">
+                        <Row>
+                            <Col lg={8}>
+                                <div className="GreyBox">
+                                    <p>OEM</p>
+                                </div>
+                            </Col>
+                            <Col lg={8}>
+                                <div className="GreyBox">
+                                    <p>OEM</p>
+                                </div>
+                            </Col>
+                            <Col lg={8}>
+                                <div className="GreyBox">
+                                    <p>OEM</p>
+                                </div>
+                            </Col>
+
+                        </Row>
                     </div>
                 </div>
             </section>
