@@ -12,6 +12,10 @@ const NavigationLinks = [
         link: "Certifications And Clients",
         path: "/certification-and-client",
     },
+    {
+        link: "Contact",
+        path: "/contact",
+    },
 
 ]
 export default NavigationLinks

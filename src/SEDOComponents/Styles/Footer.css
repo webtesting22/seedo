@@ -7,10 +7,11 @@
     min-height: 400px;
 }
 
-#Footer h1{
+#Footer h1 {
     font-size: 78px;
     color: white;
 }
+
 .FooterLogoContainer img {
     width: 70%;
     padding: 0px !important;
