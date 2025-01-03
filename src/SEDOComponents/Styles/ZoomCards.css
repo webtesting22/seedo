@@ -150,6 +150,12 @@ ul[class] {
 }
 
 @media (max-width:769px) {
+
+#ZoomCardsContainer .headingHeaderContainer h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0px;
+}
     #ZoomCardsContainer .GrayCardContainer{
         height:100px;
         width: 100%;
