@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 
 import Navigation from "../Navigation/Navigation";
 import "./SingleProductPage.css"
@@ -8,11 +8,11 @@ import { IoStarSharp } from "react-icons/io5";
 const SingleProductPage = () => {
     useEffect(() => {
         window.scrollTo({
-          top: 0,
-          left: 0,
-          behavior: "smooth",
+            top: 0,
+            left: 0,
+            behavior: "smooth",
         });
-      }, []);
+    }, []);
     return (
         <>
             <Navigation />
@@ -190,15 +190,15 @@ const SingleProductPage = () => {
                             <Col lg={18} md={12}>
                                 <div className="MassageContainer">
                                     <div>
-                                    <h2>Feedback</h2>
-                                    <div>
-                                    <IoStarSharp />
-                                    <IoStarSharp />
-                                    <IoStarSharp />
+                                        <h2>Feedback</h2>
+                                        <div>
+                                            <IoStarSharp />
+                                            <IoStarSharp />
+                                            <IoStarSharp />
 
-                                    </div>
-                                    <br />
-                                    <Input type="text" value="like the product so much !!"/>
+                                        </div>
+                                        <br />
+                                        <Input type="text" value="like the product so much !!" />
                                     </div>
                                 </div>
                             </Col>
@@ -215,14 +215,14 @@ const SingleProductPage = () => {
                             <Col lg={18} md={12}>
                                 <div className="MassageContainer">
                                     <div>
-                                    <h2>Feedback</h2>
-                                    <div>
-                                    <IoStarSharp />
-                                    <IoStarSharp />
+                                        <h2>Feedback</h2>
+                                        <div>
+                                            <IoStarSharp />
+                                            <IoStarSharp />
 
-                                    </div>
-                                    <br />
-                                    <Input type="text" value="like the product so much !!"/>
+                                        </div>
+                                        <br />
+                                        <Input type="text" value="like the product so much !!" />
                                     </div>
                                 </div>
                             </Col>

@@ -150,6 +150,12 @@ ul[class] {
 }
 
 @media (max-width:769px) {
+    #ZoomCardsContainer .GrayCardContainer{
+        height:100px;
+        width: 100%;
+        background-color: #D9D9D9;
+        border-radius: 26px;
+    }
     li {
         width: 30%;
     }
@@ -181,6 +187,10 @@ ul[class] {
         z-index: -1;
         height: 100%;
         object-fit: cover;
+    }
+    #ZoomCardsContainer .swiper-slide{
+        /* margin-right: 100px !important; */
+        width: 100px !important;
     }
 
 }

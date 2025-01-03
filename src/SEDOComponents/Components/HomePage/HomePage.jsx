@@ -82,7 +82,7 @@ const HomePage = () => {
                             <div className="BoxRowContainer">
                                 <Row>
 
-                                    <Col lg={12} md={24}>
+                                    <Col lg={12} md={24} style={{width:"100%"}}>
                                         <div className="SANSONGraphicContainer">
                                             <div>
                                                 <h1>SANSON</h1>
@@ -90,7 +90,7 @@ const HomePage = () => {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col lg={12} md={24}>
+                                    <Col lg={12} md={24} style={{width:"100%"}}>
                                         <div className="GrayElementBox">
                                             <h4>Graphic element</h4>
                                         </div>

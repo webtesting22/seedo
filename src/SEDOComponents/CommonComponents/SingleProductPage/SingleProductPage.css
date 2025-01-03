@@ -39,7 +39,7 @@
 
 .SingelProductPageContainerLayout {
     margin-top: 5rem;
-    padding: 0px 40px;
+    padding: 0rem 4rem;
 }
 
 .ButtonContainerProduct button:first-child {
@@ -102,7 +102,7 @@
 
 .BuyNowContainer {
     margin-top: 5rem;
-    padding: 0px 40px;
+    padding: 0rem 4rem;
 }
 
 .BuyNowContainer h1 {
@@ -157,7 +157,7 @@
 
 .SIMILARPRODUCTSContainer .HeaderContainer,
 .ReviewContainer .HeaderContainer {
-    padding: 0px 40px;
+    padding: 0rem 4rem;
 }
 
 .SIMILARPRODUCTSContainer h1 {
@@ -186,7 +186,7 @@
 }
 
 .ReviewCardContainer {
-    padding: 0px 40px;
+    padding: 0rem 4rem;
 }
 
 .ReviewContainer {
@@ -234,4 +234,26 @@
 
 .MassageContainer svg {
     color: #F9D978;
+}
+
+
+@media (min-width:1500px) and (max-width:3000px) {
+    .SingelProductPageContainerLayout {
+        margin-top: 5rem;
+        padding: 0rem 10rem;
+    }
+
+    .BuyNowContainer {
+        margin-top: 5rem;
+        padding: 0rem 10rem;
+    }
+
+    .SIMILARPRODUCTSContainer .HeaderContainer,
+    .ReviewContainer .HeaderContainer {
+        padding: 0rem 10rem;
+    }
+    .ReviewCardContainer {
+        padding: 0rem 10rem;
+    }
+
 }

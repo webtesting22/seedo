@@ -63,17 +63,17 @@ const ImagesGallery = () => {
                     </div>
                     <div className="CardsContainer">
                         <Row>
-                            <Col lg={8}>
+                            <Col lg={8} md={12} style={{width:"100%"}}>
                                 <div className="GreyBox">
                                     <p>OEM</p>
                                 </div>
                             </Col>
-                            <Col lg={8}>
+                            <Col lg={8} md={12} style={{width:"100%"}}>
                                 <div className="GreyBox">
                                     <p>OEM</p>
                                 </div>
                             </Col>
-                            <Col lg={8}>
+                            <Col lg={8} md={12} style={{width:"100%"}}>
                                 <div className="GreyBox">
                                     <p>OEM</p>
                                 </div>

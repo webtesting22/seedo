@@ -147,9 +147,6 @@
   line-height: 100px;
 }
 
-.HomeheadingContainer {
-  width: 40%;
-}
 
 .GrayElementBox {
   background-color: #ECECEC;
@@ -195,6 +192,69 @@
 }
 
 @media (max-width: 769px) {
+  .SANSONGraphicContainer {
+    min-height: 100%;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    border-radius: 80px;
+  }
+
+  .GrayElementBox {
+    background-color: #ECECEC;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
+    border-radius: 36px;
+    display: none;
+    /* hide Element */
+  }
+
+  .SANSONGraphicContainer div {
+    background-color: #253874;
+    height: 400px;
+    /* width: 1; */
+    border-radius: 70px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+
+  .HomePageContentContainer h1 {
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+    margin: 0px;
+    line-height: 70px;
+    padding-left: 10px;
+  }
+
+  .HomeheadingContainer {
+    width: 100%;
+  }
+
+  .HomePageContentContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    /* width: 100%; */
+    display: flex;
+    padding-top: 150px;
+    z-index: 5;
+    padding-left: 0px;
+  }
+
   .ScrollingLogoContainer {
     display: flex;
     justify-content: center;

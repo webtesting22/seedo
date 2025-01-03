@@ -313,7 +313,7 @@
 }
 
 .paddingContainer {
-    padding: 0px 40px;
+    padding: 0rem 4rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -342,7 +342,7 @@
 }
 
 .founderSectionContainer {
-    padding: 0px 40px;
+    padding: 0rem 4rem;
 }
 
 .grayBoxContainer {
@@ -374,9 +374,11 @@
     font-weight: 600;
 
 }
-.MissionContainer{
+
+.MissionContainer {
     margin-top: 5rem !important;
 }
+
 .MissionContainer,
 .VisionContainer,
 .PurposeContainer {
@@ -403,28 +405,126 @@
 }
 
 
-.OURLEADERSHIPContainer h1{
+.OURLEADERSHIPContainer h1 {
     font-size: 100px;
 }
-.LeaderShipHeaderContainer{
-    padding: 0px 40px;
+
+.LeaderShipHeaderContainer {
+    padding: 0rem 4rem;
 }
 
-.LeaderShipCardContainer{
+.LeaderShipCardContainer {
 
-    padding: 0px 40px;
+    padding: 0rem 4rem;
 }
-.LeaderShipCardContainerCard{
+
+.LeaderShipCardContainerCard {
     border: 1px solid #000;
     margin: 20px;
     border-radius: 76px;
 }
-.LeaderShipCardContainerCard .LeaderShipImageCardContainer{
+
+.LeaderShipCardContainerCard .LeaderShipImageCardContainer {
     height: 300px;
     width: 100%;
     background-color: #D9D9D9;
     border-radius: 80px;
 }
-.LeaderShipContentCardContainer{
+
+.LeaderShipContentCardContainer {
     padding: 20px 30px;
+}
+
+@media (max-width:900px) {
+    .LeaderShipCardContainerCard {
+        border: 1px solid #000;
+        margin: 20px 0px;
+        border-radius: 76px;
+    }
+    
+    .LeaderShipCardContainer {
+
+        padding: 0rem 1rem;
+    }
+    
+    .LeaderShipHeaderContainer {
+        padding: 0rem 1rem;
+    }
+    
+    .OURLEADERSHIPContainer h1 {
+        font-size: 50px;
+    }
+    .MissionContainer h1,
+    .VisionContainer h1,
+    .PurposeContainer h1 {
+        font-size: 50px;
+        color: #000;
+        text-align: center;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .MissionContainer p,
+    .VisionContainer p,
+    .PurposeContainer p {
+        padding: 0rem 1rem;
+    }
+
+    .MissionContainer,
+    .VisionContainer,
+    .PurposeContainer {
+        background-color: #D9D9D9;
+        padding: 50px 00px;
+        margin-top: 2rem;
+    }
+
+    .MilestonesContainerABout {
+        min-height: 300px;
+        width: 100%;
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        background-color: #A1A1A1;
+        margin-top: 5rem;
+    }
+
+    .MilestonesContainerABout h1 {
+        font-size: 50px;
+        font-weight: 600;
+
+    }
+
+    .founderSectionContainer {
+        padding: 0rem 1rem;
+    }
+
+    .FounderContent {
+        width: 100%;
+    }
+
+    .FounderContent h1 {
+        font-size: 50px;
+        margin-top: 0px;
+    }
+
+    .paddingContainer p {
+        width: 100%;
+        text-align: center;
+        color: #000;
+    }
+
+    .paddingContainer {
+        padding: 0rem 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .AboutContentContainer h1 {
+        font-size: 50px;
+        text-align: center;
+        font-weight: 800;
+        margin-bottom: 0px;
+    }
 }

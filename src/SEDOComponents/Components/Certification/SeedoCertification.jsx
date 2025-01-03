@@ -72,12 +72,12 @@ const SeedoCertification = () => {
                 </div>
                 <div className="CertificationRowContainer">
                     <Row>
-                        <Col lg={12}>
+                        <Col lg={12} md={24} style={{width:"100%"}}>
                             <div className="CertificationLeftContent">
                                 <p>We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. We look forward to hearing from you!We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. We look </p>
                             </div>
                         </Col>
-                        <Col lg={12}>
+                        <Col lg={12} md={24} style={{width:"100%"}}>
                             <div className="CertificationgrayBoxContainer">
                                 <h1>logo</h1>
                             </div>
@@ -141,7 +141,7 @@ const SeedoCertification = () => {
                 </div>
                 <div>
                     <Row>
-                        <Col lg={8} md={12}>
+                        <Col lg={8} md={12} >
                             <div className="CerticationCardGreyBox">
                                 <h1>Grid</h1>
                             </div>
@@ -171,7 +171,7 @@ const SeedoCertification = () => {
                                 <h1>Grid</h1>
                             </div>
                         </Col>
-                        
+
                     </Row>
                 </div>
             </section>

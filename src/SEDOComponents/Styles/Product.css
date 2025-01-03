@@ -318,7 +318,7 @@
 
 .ProductHeaderContainer {
   min-height: 400px;
-  width: 100%;
+  /* width: 100%; */
   background-color: #D9D9D9;
   display: flex;
   align-items: end;
@@ -340,7 +340,7 @@
 }
 
 .CatalogueCardsContainer {
-  padding: 0px 40px;
+  padding: 0rem 4rem;
   margin-top: 5rem;
 }
 
@@ -354,9 +354,57 @@
 .productTitleContainer {
   padding: 20px 40px;
 }
-.productTitleContainer p{
+
+.productTitleContainer p {
   color: black;
 }
-.productTitleContainer h1{
+
+.productTitleContainer h1 {
   color: black;
+}
+
+
+@media (min-width:1500px) and (max-width:3000px) {
+  .CatalogueCardsContainer {
+    padding: 0rem 10rem;
+    margin-top: 5rem;
+  }
+}
+
+@media (max-width:769px) {
+  .ProductHeaderContainer {
+    min-height: 400px;
+    /* width: 100%; */
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: end;
+    padding: 0rem 1rem;
+  }
+
+.CatalogueImageContainer {
+  min-height: 200px;
+  width: 100%;
+  background-color: #D9D9D9;
+  border-radius: 19px;
+}
+  .ProductHeaderContainer h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 0px;
+  }
+
+  .CatalogueCardsContainer {
+    padding: 0rem 1rem;
+    margin-top: 5rem;
+  }
+
+  .CatalogueCardContainer {
+    background-color: white;
+    /* min-height: 400px; */
+    margin: 20px 00px;
+    border-radius: 20px;
+    border: 2px solid #000;
+  }
+
+
 }

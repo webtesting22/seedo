@@ -86,16 +86,7 @@
     padding: 0rem 4rem;
 }
 
-#ImageStickyContainer .WhyUsContainer {
-    min-height: 600px;
-    width: 100%;
-    background-color: #BC252B;
-    padding: 50px 0px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-}
+
 
 .WhyUsContainer h2 {
     font-size: 78px;
@@ -107,8 +98,30 @@
     font-size: 50px;
 }
 
+#ImageStickyContainer .WhyUsContainer {
+    min-height: 300px;
+    width: 100%;
+    background-color: #BC252B;
+    padding: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
 @media (max-width:900px) {
-    #ImageStickyContainer {
+
+    .WhyUsContainer h2 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    #ImageStickyContainer h1 {
+        font-size: 50px;
+        text-align: center;
+        color: #253874;
+    }
+
+    /* #ImageStickyContainer {
         height: 50vh;
         padding-top: 5rem !important;
         padding: 0rem 1rem;
@@ -119,9 +132,42 @@
         background-size: cover;
         background-attachment: fixed;
         margin-top: 3rem;
+    } */
+    #ImageStickyContainer {
+        /* height: 50vh; */
+        padding-top: 5rem !important;
+        padding: 0rem 0rem;
+        overflow: hidden;
+        padding-bottom: 5rem !important;
+        position: relative;
+        /* background-image: url("../../../../public/Images/HomeStickyImageback.jpeg"); */
+        background-size: cover;
+        background-attachment: fixed;
+        /* margin-top: 3rem; */
     }
 
     .WriteUpRelatedCompany div {
         width: 100%;
+    }
+
+    #ImageStickyContainer .headingHeaderContainer {
+        padding: 0rem 1rem;
+    }
+
+    #ImageStickyContainer .WhyUsContainer {
+        min-height: 300px;
+        width: 100%;
+        background-color: #BC252B;
+        padding: 50px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}
+
+@media (min-width:1500px) and (max-width:3000px) {
+    #ImageStickyContainer .headingHeaderContainer {
+        padding: 0rem 10rem;
     }
 }
