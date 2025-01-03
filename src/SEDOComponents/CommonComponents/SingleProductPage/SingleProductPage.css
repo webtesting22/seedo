@@ -3,7 +3,7 @@
     background-color: #D9D9D9;
     display: flex;
     align-items: end;
-    padding: 0px 40px;
+    padding: 0rem 4rem;
     margin-top: 5rem;
 }
 
@@ -252,8 +252,111 @@
     .ReviewContainer .HeaderContainer {
         padding: 0rem 10rem;
     }
+
     .ReviewCardContainer {
         padding: 0rem 10rem;
     }
 
+}
+
+@media (max-width:900px) {
+    .MassageContainer {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        /* padding-left: 100px; */
+    }
+    
+    .reviewLeftSidephotoContainer>div {
+        background-color: #D9D9D9;
+        width: 100%;
+        height: 228px;
+    }
+    .ReviewCardContainer {
+        padding: 0rem 1rem;
+    }
+    
+    .ReviewContainer h1 {
+        font-size: 50px;
+    }
+.BuyNowContainer h1 {
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+    .OverlaygreyBox {
+        width: 200px;
+        height: 200px;
+        background-color: grey;
+        /* Set background color for visibility */
+        margin-right: 70px;
+        /* Add spacing between boxes if needed */
+        border-radius: 20px;
+    }
+    .SIMILARPRODUCTSContainer .HeaderContainer,
+.ReviewContainer .HeaderContainer {
+    padding: 0rem 1rem;
+}
+    .SIMILARPRODUCTSContainer h1 {
+        font-size: 50px;
+        margin-bottom: 0px;
+    }
+    .logosContainer ul li {
+        background: white;
+        list-style: none;
+        height: 96px;
+        border-radius: 22px;
+        margin: 10px 0px;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .BuyNowContainer {
+        margin-top: 5rem;
+        padding: 0rem 1rem;
+    }
+
+    .SpecificationContainer ul li {
+        width: 100%;
+    }
+
+    .ProductSpecificationDetailsContainer {
+        padding-left: 0px;
+    }
+
+    .ProductSpecificationDetailsContainer h1 {
+        font-size: 50px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        line-height: 80px;
+    }
+
+    .ProductOtherImageContainer>div {
+        width: 104px;
+        height: 103px;
+        background-color: #D9D9D9;
+        margin: 10px 20px;
+        border-radius: 22px;
+        margin-left: 0px !important;
+    }
+
+    .SingelProductPageContainerLayout {
+        margin-top: 5rem;
+        padding: 0rem 1rem;
+    }
+
+    .TopBannerContainer {
+        min-height: 400px;
+        background-color: #D9D9D9;
+        display: flex;
+        align-items: end;
+        padding: 0rem 1rem;
+        margin-top: 5rem;
+    }
+
+    .TopBannerContainer h1 {
+        font-size: 50px;
+        margin-bottom: 0px;
+    }
 }

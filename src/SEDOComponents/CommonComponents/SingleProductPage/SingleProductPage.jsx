@@ -22,7 +22,7 @@ const SingleProductPage = () => {
                 </div>
                 <div className="SingelProductPageContainerLayout">
                     <Row>
-                        <Col lg={12} md={24}>
+                        <Col lg={12} md={24} style={{width:"100%"}}>
                             <div className="ProductImagesContainer">
                                 <div className="ProductOtherImageContainer">
                                     <div>
@@ -44,7 +44,7 @@ const SingleProductPage = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={12} md={24} >
+                        <Col lg={12} md={24} style={{width:"100%"}}>
                             <div className="ProductSpecificationDetailsContainer">
                                 <h1>Name of the product</h1>
                                 <h2>ITEM CODE:   </h2>
@@ -180,14 +180,14 @@ const SingleProductPage = () => {
                     </div>
                     <div className="ReviewCardContainer">
                         <Row>
-                            <Col lg={6} md={12}>
+                            <Col lg={6} md={12} style={{ width: "100%" }}>
                                 <div className="reviewLeftSidephotoContainer">
                                     <div>
 
                                     </div>
                                 </div>
                             </Col>
-                            <Col lg={18} md={12}>
+                            <Col lg={18} md={12} style={{ width: "100%" }}>
                                 <div className="MassageContainer">
                                     <div>
                                         <h2>Feedback</h2>
@@ -205,14 +205,14 @@ const SingleProductPage = () => {
                         </Row>
                         <br />
                         <Row>
-                            <Col lg={6} md={12}>
+                            <Col lg={6} md={12} style={{ width: "100%" }}>
                                 <div className="reviewLeftSidephotoContainer">
                                     <div>
 
                                     </div>
                                 </div>
                             </Col>
-                            <Col lg={18} md={12}>
+                            <Col lg={18} md={12} style={{ width: "100%" }}>
                                 <div className="MassageContainer">
                                     <div>
                                         <h2>Feedback</h2>
