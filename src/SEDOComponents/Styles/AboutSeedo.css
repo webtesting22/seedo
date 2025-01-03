@@ -436,6 +436,13 @@
 }
 
 @media (max-width:900px) {
+    .grayBoxContainer {
+        height: 300px;
+        /* width: 100%; */
+        background-color: #D9D9D9;
+        margin-left: 0px;
+        border-radius: 47px;
+    }
     .LeaderShipCardContainerCard {
         border: 1px solid #000;
         margin: 20px 0px;
