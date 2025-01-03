@@ -140,6 +140,7 @@ ul[class] {
 #ZoomCardsContainer .headingHeaderContainer h1 {
     font-size: 78px;
     text-align: center;
+    margin-top: 0px;
 }
 
 #ZoomCardsContainer .GrayCardContainer{
