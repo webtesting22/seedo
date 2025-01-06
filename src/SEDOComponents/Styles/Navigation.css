@@ -7,6 +7,9 @@
   top: 0px;
 }
 
+#NavigationLink a{
+  font-size: 18px;
+}
 .NavigationLogo img {
   width: 100px;
   border-radius: 10px;

@@ -65,7 +65,7 @@ const Navigation = () => {
                     open={isMobileMenuOpen}
                 >
                     {NavigationLinks.map((item, index) => (
-                        <div key={index} style={{ marginBottom: "1rem" }}>
+                        <div key={index} style={{ marginBottom: "1rem" }} id="NavigationLink">
                             <Link
                                 to={item.path}
                                 style={{
