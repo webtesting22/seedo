@@ -9,7 +9,10 @@ const ScrollingVideoScreen = () => {
     return (
         <section id="ScrollingVideoAnimationContainer">
             <div className="makeInIndiaCardGray">
-                <h1>MAKE IN INDIA </h1>
+                {/* <h1>MAKE IN INDIA </h1> */}
+                <p>As strong advocates for local manufacturing, we take pride in sourcing all our components from within India. We fully support and align with Mr Narendra Modi's vision of promoting the
+                    “Make In India" initiative, fostering economic growth and self-reliance in our nation.
+                </p>
             </div>
             {/* <div className="AboutHomeHeader">
                 <p style={{ marginBottom: "0px", color: "#A5252B" }}>Planting Creativity, Growing Joy.

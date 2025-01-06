@@ -126,7 +126,8 @@ const AboutSeedo = () => {
                 <div className="AboutContentContainer">
                     <div className="paddingContainer">
                         <h1>About us</h1>
-                        <p>We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. We look forward to hearing from you!We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. Wg from you!We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. We look forward to hearing from you!We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the </p>
+                        <p>Seedo has recently expanded its capabilities by introducing pad painting and spray painting in early 2024, along with in-house PCB manufacturing to reduce reliance on imports from China. This strategic move has led to Seedo receiving "Make in India" certification, allowing them to begin global exports by January 2025.
+                        </p>
                     </div>
                 </div>
             </section>
@@ -147,25 +148,25 @@ const AboutSeedo = () => {
             </section>
             <section className="MilestonesContainerABout">
                 <div>
-                    <h1>MILESTONES </h1>
+                    <h1>Our Journey </h1>
                 </div>
             </section>
             <section className="MissionContainer">
                 <div>
                     <h1>OUR MISSION</h1>
-                    <p>We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. We look forward to hearing from you!We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. We look forward to hearing from you!We offer these services, and we invite you to reach out for any inquiries. </p>
+                    <p>To deliver high-quality, safe, and innovative toys that inspire creativity and confidence in children and parents alike. </p>
                 </div>
             </section>
             <section className="VisionContainer">
                 <div>
                     <h1>OUR VISION</h1>
-                    <p>We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. We look forward to hearing from you!We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. </p>
+                    <p>To become a leading toy manufacturer globally, Seedo Toys aims to be recognized for excellence in product quality and innovation while integrating advanced technology into its offerings.</p>
                 </div>
             </section>
             <section className="PurposeContainer">
                 <div>
                     <h1>OUR PURPOSE</h1>
-                    <p>We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. We look forward to hearing from you!We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. We  </p>
+                    <p>To foster children's imagination through engaging play experiences while ensuring parents' trust in our craftsmanship and commitment to safety.</p>
                 </div>
             </section>
             <section className="OURLEADERSHIPContainer">
@@ -186,7 +187,7 @@ const AboutSeedo = () => {
                             </div>
                         </Col>
                         <Col lg={8}>
-                        <div className="LeaderShipCardContainerCard">
+                            <div className="LeaderShipCardContainerCard">
                                 <div className="LeaderShipImageCardContainer">
 
                                 </div>
@@ -197,7 +198,7 @@ const AboutSeedo = () => {
                             </div>
                         </Col>
                         <Col lg={8}>
-                        <div className="LeaderShipCardContainerCard">
+                            <div className="LeaderShipCardContainerCard">
                                 <div className="LeaderShipImageCardContainer">
 
                                 </div>

@@ -10,12 +10,15 @@ import ZoomBackImage from "/Images/Banners/ZoomBackImage.jpg"
 import { Link } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import client1 from "./Client1.png"
+import client2 from "./Client2.png"
+import client3 from "./Client3.png"
+import client4 from "./Client4.png"
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-
+import { Row, Col } from "antd";
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
@@ -34,10 +37,31 @@ const ZoomCards = () => {
     return (
         <>
             <section id="ZoomCardsContainer">
-                <div className="headingHeaderContainer">
-                    <h1>Where to buy?</h1>
+                <div style={{display:"flex",justifyContent:"center"}}>
+                    <div className="SANSONGraphicContainer">
+                        <div>
+                            <h1 style={{fontSize:"40px",color:"white",margin:"0px"}}>SANSON</h1>
+                            <p>Sanson Promo Innovations LLP is a prominent leader in consumer and trade promotions, trusted by major FMCG brands such as Unilever, Glaxo, Perfetti, Mondelez, and Britannia. The company excels in collaborating with esteemed licensors like Disney, Marvel, Mattel, Pokémon, and Doraemon. With comprehensive expertise in conceptualization, product engineering, mass manufacturing, quality assurance, and logistics, Sanson consistently surpasses client expectations.  This commitment to delivering high-quality products and innovative campaigns not only fosters brand loyalty but also drives significant business growth.</p>
+                        </div>
+                    </div>
                 </div>
-                <div>
+                <Row>
+                    <Col lg={12}>
+                        <div className="headingHeaderContainer" style={{ padding: "0px" }}>
+                            <h1>We have hold on more then ON  +3000 stores in india</h1>
+                        </div>
+                    </Col>
+                    <Col lg={12}>
+                        <div>
+                            <p style={{ fontSize: "18px" }}>To learn more about our perspective on how we achieved this goal and to understand our vision, please continue reading.</p>
+                            <button className="KnowMorebtn">Know More</button>
+                        </div>
+                    </Col>
+                </Row>
+                <div className="headingHeaderContainer">
+                    <h1 style={{ textAlign: "center" }}>Where to buy?</h1>
+                </div>
+                <div id="ClientSliderContainer">
                     <Swiper
                         slidesPerView={6} // Adjust based on screen size or requirement
                         spaceBetween={30}
@@ -53,62 +77,42 @@ const ZoomCards = () => {
                         {/* {items.map((item, index) => ( */}
                         <SwiperSlide >
                             <div className="GrayCardContainer">
-
+                                <img src={client1} alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide >
                             <div className="GrayCardContainer">
-
+                                <img src={client2} alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide >
                             <div className="GrayCardContainer">
-
+                                <img src={client3} alt="" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide >
                             <div className="GrayCardContainer">
-
+                                <img src={client4} alt="" />
                             </div>
                         </SwiperSlide>
-                        <SwiperSlide >
-                            <div className="GrayCardContainer">
 
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide >
-                            <div className="GrayCardContainer">
-
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide >
-                            <div className="GrayCardContainer">
-
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide >
-                            <div className="GrayCardContainer">
-
-                            </div>
-                        </SwiperSlide>
 
                         {/* ))} */}
                     </Swiper>
                     <br /><br />
-                    <Swiper
+                    {/* <Swiper
                         slidesPerView={6} // Adjust based on screen size or requirement
                         spaceBetween={30}
                         loop={true} // Enable infinite scroll
                         autoplay={{
                             delay: 100,
                             disableOnInteraction: false,
-                            reverseDirection: true, 
+                            reverseDirection: true,
                         }}
                         speed={3000} // Smooth scrolling speed
                         modules={[Autoplay, Pagination, Navigation]}
                         className="mySwiper"
                     >
-                        {/* {items.map((item, index) => ( */}
                         <SwiperSlide >
                             <div className="GrayCardContainer">
 
@@ -150,8 +154,8 @@ const ZoomCards = () => {
                             </div>
                         </SwiperSlide>
 
-                        {/* ))} */}
-                    </Swiper>
+                    
+                    </Swiper> */}
                 </div>
                 {/* <img src={ZoomBackImage} alt="" className="BackoverlayImage" /> */}
                 {/* <div className="HrHeadingAnimated">

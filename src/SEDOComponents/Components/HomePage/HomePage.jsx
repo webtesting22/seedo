@@ -3,6 +3,7 @@ import "../../Styles/HomePage.css";
 import { Row, Col } from "antd";
 import SEEDOLogo from "/SEEDOLogo.png";
 import SanSon from "./SanSon.png"
+import gen8 from "./ gen8.jpg"
 const HomePage = () => {
     const imageRef = useRef(null);
     const sectionRef = useRef(null);  // Ref for the section to apply shadow effect
@@ -67,7 +68,7 @@ const HomePage = () => {
                         <div id="BackImageOverlay">
                             <img
                                 ref={imageRef}
-                                src="https://images.unsplash.com/photo-1652014492117-e062baed36f8?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                src={gen8}
                                 alt="Background"
                             />
                         </div>
@@ -76,7 +77,8 @@ const HomePage = () => {
                     </div>
                     <div className="HomePageContentContainer">
                         <div style={{ width: "100%" }}>
-                            <div className="HomeheadingContainer">
+                            <h1>BREAK THE LIMITS</h1>
+                            {/* <div className="HomeheadingContainer">
                                 <h1>We Create For You!</h1>
                             </div>
                             <div className="BoxRowContainer">
@@ -96,7 +98,7 @@ const HomePage = () => {
                                         </div>
                                     </Col>
                                 </Row>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

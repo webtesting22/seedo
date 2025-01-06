@@ -23,7 +23,7 @@ const HomeRoutes = () => {
 
                 <ZoomCards />
                 <ImageSticky />
-                <ScrollingVideoScreen />
+                {/* <ScrollingVideoScreen /> */}
                 <ImagesGallery/>
                 {/* <TwoSlideContainer /> */}
                 {/* <Marquee/> */}

@@ -11,6 +11,7 @@ import CertificationAndClient from "../Components/CertificationAndClient/Certifi
 import Contact from "../CommonComponents/ContactUs/Contact";
 import SingleProductPage from "../CommonComponents/SingleProductPage/SingleProductPage";
 import SubCategories from "../CommonComponents/SubCategories/SubCategories";
+import OurServices from "../Components/OurServices/OurServices";
 const SEDORoutes = () => {
     return (
         <>
@@ -25,6 +26,7 @@ const SEDORoutes = () => {
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/product-name" element={<SingleProductPage />} />
                 <Route path="/subcategories" element={<SubCategories />} />
+                <Route path="/ourservices" element={<OurServices />} />
             </Routes>
             <Footer />
         </>
