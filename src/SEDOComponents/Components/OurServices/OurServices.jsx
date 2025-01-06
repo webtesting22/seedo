@@ -39,14 +39,26 @@ const OurServices = () => {
                 <div className="AjustCenterContainer">
                     <div className="AdjustWidthSection">
                         <div>
-                            <h1>PBSs</h1>
+                            <h1>SELF-RELIANT PCBS
+                                MANUFACTURING</h1>
                         </div>
                         <div>
                             <div className="PendingGrayBox">
 
                             </div>
                             <br />
-                            <p>We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. We look forward to hearing from you!We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. We look forward to hearing from you!We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or </p>
+                            <p>Seedo Toys has made significant
+                                strides by designing and producing its
+                                own PCBs, manufactured with the latest
+                                pick-and-place technology. We produce
+                                150,000 to 200,000 PCBs monthly in
+                                our fully automated facility. Our PCB
+                                materials meet global safety standards,
+                                offering surge, voltage, and heat
+                                protection. They are phthalate-free,
+                                lead-free, and ROHS-compliant for
+                                international exports, ensuring both
+                                safety and reliability for our products</p>
                             <div style={{ display: "flex", justifyContent: "center" }}>
                                 <button>Read More</button>
                             </div>
@@ -61,7 +73,18 @@ const OurServices = () => {
 
                             </div>
                             <br />
-                            <p>We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. We look forward to hearing from you!We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. We look forward to hearing from you!We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or </p>
+                            <p>At Seedo Toys, we take pride in our
+                                in-house spraying capabilities, including
+                                pad printing, spray printing, tampo
+                                printing, and other finishing techniques.
+                                Our state-of-the-art facility is capable of
+                                spraying 200,000 toys per month,
+                                delivering stunning finishes Such as
+                                high-gloss, anti-scratch, metallic, and
+                                pearl effects. All chemicals, coatings, and
+                                pigments used meet child safety
+                                standards, ensuring the highest safety for
+                                young users.</p>
                             <div style={{ display: "flex", justifyContent: "center" }}>
                                 <button>Read More</button>
                             </div>
