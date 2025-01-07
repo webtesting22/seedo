@@ -10,6 +10,7 @@ import Navigation from "../../CommonComponents/Navigation/Navigation";
 import MissionVision from "../VisionMission/MissionVision";
 import generative from "./generative .jpg"
 import { FaArrowRight } from "react-icons/fa";
+import BackBannerAbout from "./BackBannerAbout.svg"
 const AboutSeedo = () => {
     const ServicesCardData = [
         {
@@ -121,7 +122,7 @@ const AboutSeedo = () => {
 
 
                 <div className="TopVideoContainer">
-                    <h1>COMPANY VIDEO</h1>
+                   <img src={BackBannerAbout} alt="" />
                 </div>
                 <div className="AboutContentContainer">
                     <div className="paddingContainer">

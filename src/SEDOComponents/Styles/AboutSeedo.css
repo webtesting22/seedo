@@ -293,16 +293,21 @@
 
 
 .TopVideoContainer {
-    min-height: 400px;
+    min-height: 300px;
     width: 100%;
     background-color: #D9D9D9;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.TopVideoContainer img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 
-.TopVideoContainer h1 {
-    font-size: 40px;
+.AboutContentContainer{
+    padding: 80px 0px;
 }
 
 .AboutContentContainer h1 {

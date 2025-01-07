@@ -143,10 +143,11 @@
 }
 
 .HomePageContentContainer h1 {
-  font-size: 100px;
-  color: white;
+  font-size: 60px;
+  color: #BC252B;
+  -webkit-text-stroke: 1.5px #F9E92B; /* Combined shorthand for stroke color and width */
   font-weight: 600;
-  margin: 0px;
+  margin: 0;
   line-height: 100px;
   text-align: center;
 }

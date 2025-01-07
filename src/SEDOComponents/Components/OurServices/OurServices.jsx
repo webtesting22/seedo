@@ -2,6 +2,12 @@ import React from "react";
 import "./OurServices.css"
 import Navigation from "../../CommonComponents/Navigation/Navigation";
 import { Row, Col } from "antd";
+import About1 from "./About1.svg"
+import About2 from "./About2.svg"
+import About3 from "./About3.svg"
+import About5 from "./About5 1.svg"
+import About7 from "./About7 1.svg"
+import About10  from "./About10 1.svg"
 const OurServices = () => {
     const servicesData = [
         {
@@ -37,40 +43,24 @@ const OurServices = () => {
                 </div>
                 <br /><br /><br />
                 <div className="AjustCenterContainer">
-                    <div className="AdjustWidthSection">
-                        <div>
-                            <h1>SELF-RELIANT PCBS
-                                MANUFACTURING</h1>
-                        </div>
-                        <div>
-                            <div className="PendingGrayBox">
 
-                            </div>
-                            <br />
-                            <p>Seedo Toys has made significant
-                                strides by designing and producing its
-                                own PCBs, manufactured with the latest
-                                pick-and-place technology. We produce
-                                150,000 to 200,000 PCBs monthly in
-                                our fully automated facility. Our PCB
-                                materials meet global safety standards,
-                                offering surge, voltage, and heat
-                                protection. They are phthalate-free,
-                                lead-free, and ROHS-compliant for
-                                international exports, ensuring both
-                                safety and reliability for our products</p>
-                            <div style={{ display: "flex", justifyContent: "center" }}>
-                                <button>Read More</button>
-                            </div>
-                        </div>
-                    </div>
                     <div className="AdjustWidthSection">
                         <div>
                             <h1>In house spraying</h1>
                         </div>
                         <div>
                             <div className="PendingGrayBox">
-
+                                <div style={{display:"flex",height:"100%"}}>
+                                    <div>
+                                    <img src={About3} alt="" />
+                                    </div>
+                                   <div>
+                                   <img src={About1} alt="" />
+                                   </div>
+                                    <div>
+                                    <img src={About2} alt="" />
+                                    </div>
+                                </div>
                             </div>
                             <br />
                             <p>At Seedo Toys, we take pride in our
@@ -85,9 +75,46 @@ const OurServices = () => {
                                 pigments used meet child safety
                                 standards, ensuring the highest safety for
                                 young users.</p>
-                            <div style={{ display: "flex", justifyContent: "center" }}>
+                            {/* <div style={{ display: "flex", justifyContent: "center" }}>
                                 <button>Read More</button>
+                            </div> */}
+                        </div>
+                    </div>
+                    <div className="AdjustWidthSection">
+                        <div>
+                            <h1>SELF-RELIANT PCBS
+                                MANUFACTURING</h1>
+                        </div>
+                        <div>
+                        <div className="PendingGrayBox">
+                                <div style={{display:"flex",height:"100%"}}>
+                                    <div>
+                                    <img src={About5} alt="" />
+                                    </div>
+                                   <div>
+                                   <img src={About7} alt="" />
+                                   </div>
+                                    <div>
+                                    <img src={About10} alt="" />
+                                    </div>
+                                </div>
                             </div>
+                            <br />
+                            <p>Seedo Toys has made significant
+                                strides by designing and producing its
+                                own PCBs, manufactured with the latest
+                                pick-and-place technology. We produce
+                                150,000 to 200,000 PCBs monthly in
+                                our fully automated facility. Our PCB
+                                materials meet global safety standards,
+                                offering surge, voltage, and heat
+                                protection. They are phthalate-free,
+                                lead-free, and ROHS-compliant for
+                                international exports, ensuring both
+                                safety and reliability for our products</p>
+                            {/* <div style={{ display: "flex", justifyContent: "center" }}>
+                                <button>Read More</button>
+                            </div> */}
                         </div>
                     </div>
                 </div>
