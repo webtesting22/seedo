@@ -3,7 +3,7 @@
     /* padding-top: 5rem !important; */
     padding: 0rem 0rem;
     overflow: hidden;
-    padding-bottom: 5rem !important;
+    /* padding-bottom: 5rem !important; */
     position: relative;
     /* background-image: url("../../../../public/Images/HomeStickyImageback.jpeg"); */
     background-size: cover;
@@ -99,7 +99,7 @@
 
 
 .WhyUsContainer h2 {
-    font-size: 40px;
+    font-size: 80px;
     text-align: center;
     margin-bottom: 10px;
 }

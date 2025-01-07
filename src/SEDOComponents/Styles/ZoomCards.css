@@ -1,6 +1,6 @@
 #ZoomCardsContainer {
 
-    padding-top: 5rem !important;
+    /* padding-top: 5rem !important; */
     padding: 0rem 4rem;
     overflow: hidden;
     /* padding-bottom: 5rem !important; */
@@ -137,7 +137,7 @@ ul[class] {
 
 }
 #ZoomCardsContainer .headingHeaderContainer{
-    padding-top: 80px;
+    padding-top: 120px;
 }
 #ZoomCardsContainer .headingHeaderContainer h1 {
     font-size: 40px;

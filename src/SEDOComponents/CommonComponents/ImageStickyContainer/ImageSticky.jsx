@@ -9,7 +9,7 @@ const ImageSticky = () => {
             <section id="ImageStickyContainer">
                
                 <div className="WhyUsContainer">
-                    <h2>why us?</h2>
+                    <h2>why us<span style={{color:"red"}}>?</span></h2>
                     <p>We are a company that is highly cautious about our claims, and we assure you that our services and products undergo thorough testing to eliminate any signs of carelessness on our part. We are developing an electronic product that is 100% safe for kids and of the highest quality. I am excited to share that we will soon be one of India's leading companies.</p>
                     {/* <p>Primary CTA</p> */}
                 </div>

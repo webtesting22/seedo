@@ -173,21 +173,22 @@
   border-radius: 80px;
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 120px;
 }
 
 .SANSONGraphicContainer div {
   background-color: #253874;
   /* height: 500px; */
   /* width: 1; */
-  border-radius: 20px;
-  margin: 30px;
+  /* border-radius: 20px; */
+  /* margin-top: 0px !important; */
+  /* margin: 30px; */
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 50px 20px;
-  width: 70%;
+  padding: 50px 200px;
+  width: 100%;
 }
 
 .SANSONGraphicContainer div p {

@@ -10,10 +10,13 @@ import ZoomBackImage from "/Images/Banners/ZoomBackImage.jpg"
 import { Link } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import client1 from "./Client1.png"
-import client2 from "./Client2.png"
-import client3 from "./Client3.png"
-import client4 from "./Client4.png"
+import amazon from "./amazon.svg"
+import flifkart from "./flifkart.svg"
+import smartBazaar from "./smartBazaar.svg"
+import Snooplay from "./Snooplay.svg"
+import swiggy from "./swiggy.svg"
+import whole9years from "./whole9years.svg"
+import zapto from "./zapto.svg"
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -23,32 +26,33 @@ import { Row, Col } from "antd";
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 const ZoomCards = () => {
-    const [hoveredItem, setHoveredItem] = useState(null);
+    // const [hoveredItem, setHoveredItem] = useState(null);
 
-    const items = [
-        { item: "Item 1", heading: "Brainy Bear", image: Teddy, Category: "Early Learning Toys" },
-        { item: "Item 4", heading: "Jet Series", image: JetSeries, Category: "RC Car" },
-        { item: "Item 5", heading: "Racing Series", image: Racingseries, Category: "Racing Series" },
-        { item: "Item 5", heading: "Drift Series", image: DriftSeries, Category: "Drift Series" },
-        { item: "Item 5", heading: "Construction Series", image: Construction, Category: "Construction Series" },
-        { item: "Item 5", heading: "New launches", image: NewLaunches, Category: "New Launches" },
-    ];
+    // const items = [
+    //     { item: "Item 1", heading: "Brainy Bear", image: Teddy, Category: "Early Learning Toys" },
+    //     { item: "Item 4", heading: "Jet Series", image: JetSeries, Category: "RC Car" },
+    //     { item: "Item 5", heading: "Racing Series", image: Racingseries, Category: "Racing Series" },
+    //     { item: "Item 5", heading: "Drift Series", image: DriftSeries, Category: "Drift Series" },
+    //     { item: "Item 5", heading: "Construction Series", image: Construction, Category: "Construction Series" },
+    //     { item: "Item 5", heading: "New launches", image: NewLaunches, Category: "New Launches" },
+    // ];
 
     return (
         <>
-            <section id="ZoomCardsContainer">
-                <div style={{ display: "flex", justifyContent: "center" }}>
+        <div style={{ display: "flex", justifyContent: "center" }}>
                     <div className="SANSONGraphicContainer">
                         <div>
-                            <h1 style={{ fontSize: "40px", color: "white", margin: "0px" }}>SANSON</h1>
-                            <p>Sanson Promo Innovations LLP is a prominent leader in consumer and trade promotions, trusted by major FMCG brands such as Unilever, Glaxo, Perfetti, Mondelez, and Britannia. The company excels in collaborating with esteemed licensors like Disney, Marvel, Mattel, Pokémon, and Doraemon. With comprehensive expertise in conceptualization, product engineering, mass manufacturing, quality assurance, and logistics, Sanson consistently surpasses client expectations. This commitment to delivering high-quality products and innovative campaigns not only fosters brand loyalty but also drives significant business growth.</p>
+                            <h1 style={{ fontSize: "40px", color: "white", margin: "0px" }}>Sanson promotion innovation LLP</h1>
+                            <p>Sanson Promo Innovations LLP is a prominent leader in consumer and trade promotions, trusted by major FMCG brands such as Unilever, Glaxo, Perfetti, Mondelez, and Britannia. The company excels in collaborating with esteemed licensors like Disney, Marvel, Mattel, Pokémon, and Doraemon. With comprehensive expertise in conceptualization, product engineering, mass manufacturing, quality assurance, and logistics, Sanson consistently surpasses client expectations.This commitment to delivering high-quality products and innovative campaigns not only fosters brand loyalty but also drives significant business growth.</p>
                         </div>
                     </div>
                 </div>
+            <section id="ZoomCardsContainer">
+                
                 <Row>
                     <Col lg={12}>
                         <div className="headingHeaderContainer" style={{ padding: "0px" }}>
-                            <h1>We have hold on more then ON  +3000 stores in india</h1>
+                            <h1>We have hold on more then <span style={{color:"#BC252B"}}>ON  +3000 stores in india</span></h1>
                         </div>
                     </Col>
                     <Col lg={12}>
@@ -63,111 +67,76 @@ const ZoomCards = () => {
                 </div>
                 <div id="ClientSliderContainer">
                     <Swiper
-                    slidesPerView={6} // Adjust based on screen size or requirement
-                    spaceBetween={30}
-                    loop={true} // Enable infinite scroll
-                    autoplay={{
-                        delay: 100,
-                        disableOnInteraction: false,
-                    }}
-                    speed={3000} // Smooth scrolling speed
-                    modules={[Autoplay, Pagination, Navigation]}
-                    className="mySwiper"
-                >
-                    {/* {items.map((item, index) => ( */}
-                    <SwiperSlide >
-                        <Link to="https://whole9yards.in/" target="_blank">
-                            <div className="GrayCardContainer">
-                                <img src={client1} alt="" />
-                            </div>
-                        </Link>
-                    </SwiperSlide>
-                    <SwiperSlide >
-                        <Link to="https://www.firstcry.com/" target="_blank">
-                            <div className="GrayCardContainer">
-                                <img src={client2} alt="" />
-                            </div>
-                        </Link>
-                    </SwiperSlide>
-                    <SwiperSlide >
-                        <Link to="https://www.filesure.in/" target="_blank">
-                            <div className="GrayCardContainer">
-                                <img src={client3} alt="" />
-                            </div>
-                        </Link>
-                    </SwiperSlide>
-                    <SwiperSlide >
-                        <Link to="https://www.uscindia.co.in/" target="_blank">
-                            <div className="GrayCardContainer">
-                                <img src={client4} alt="" />
-                            </div>
-                        </Link>
-                    </SwiperSlide>
-
-
-                    {/* ))} */}
-                </Swiper>
-            <br /><br />
-            {/* <Swiper
-                slidesPerView={6} // Adjust based on screen size or requirement
+                        slidesPerView={6} // Adjust based on screen size or requirement
                         spaceBetween={30}
                         loop={true} // Enable infinite scroll
                         autoplay={{
                             delay: 100,
                             disableOnInteraction: false,
-                            reverseDirection: true,
                         }}
                         speed={3000} // Smooth scrolling speed
                         modules={[Autoplay, Pagination, Navigation]}
                         className="mySwiper"
                     >
+                        {/* {items.map((item, index) => ( */}
                         <SwiperSlide >
-                            <div className="GrayCardContainer">
-
-                            </div>
+                            <Link to="https://whole9yards.in/" target="_blank">
+                                <div className="GrayCardContainer">
+                                    <img src={amazon} alt="" />
+                                </div>
+                            </Link>
                         </SwiperSlide>
+                        <SwiperSlide  >
+                            <Link to="https://www.firstcry.com/" target="_blank">
+                                <div className="GrayCardContainer">
+                                    <img src={flifkart} alt="" />
+                                </div>
+                            </Link>
+                        </SwiperSlide >
                         <SwiperSlide >
-                            <div className="GrayCardContainer">
-
-                            </div>
-                        </SwiperSlide>
+                            <Link to="https://www.filesure.in/" target="_blank">
+                                <div className="GrayCardContainer">
+                                    <img src={smartBazaar} alt="" />
+                                </div>
+                            </Link >
+                        </SwiperSlide >
                         <SwiperSlide >
-                            <div className="GrayCardContainer">
-
-                            </div>
-                        </SwiperSlide>
+                            <Link to="https://www.uscindia.co.in/" target="_blank">
+                                <div className="GrayCardContainer">
+                                    <img src={Snooplay} alt="" />
+                                </div>
+                            </Link >
+                        </SwiperSlide >
                         <SwiperSlide >
-                            <div className="GrayCardContainer">
-
-                            </div>
-                        </SwiperSlide>
+                            <Link to="https://www.uscindia.co.in/" target="_blank">
+                                <div className="GrayCardContainer">
+                                    <img src={swiggy} alt="" />
+                                </div>
+                            </Link >
+                        </SwiperSlide >
                         <SwiperSlide >
-                            <div className="GrayCardContainer">
-
-                            </div>
-                        </SwiperSlide>
+                            <Link to="https://www.uscindia.co.in/" target="_blank">
+                                <div className="GrayCardContainer">
+                                    <img src={whole9years} alt="" />
+                                </div>
+                            </Link >
+                        </SwiperSlide >
                         <SwiperSlide >
-                            <div className="GrayCardContainer">
+                            <Link to="https://www.uscindia.co.in/" target="_blank">
+                                <div className="GrayCardContainer">
+                                    <img src={zapto} alt="" />
+                                </div>
+                            </Link >
+                        </SwiperSlide >
 
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide >
-                            <div className="GrayCardContainer">
 
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide >
-                            <div className="GrayCardContainer">
+                        {/* ))} */}
+                    </Swiper>
 
-                            </div>
-                        </SwiperSlide>
-
-                    
-                    </Swiper> */}
                 </div>
-        {/* < img src={ZoomBackImage} alt="" className="BackoverlayImage" /> */}
-            {/* <div className="HrHeadingAnimated">   
-        <h1 className="PrimaryHeading-black" data-aos="fade-right"
+                {/* < img src={ZoomBackImage} alt="" className="BackoverlayImage" /> */}
+                {/* <div className="HrHeadingAnimated">     
+                    <h1 className="PrimaryHeading-black" data-aos="fade-right"
                         data-aos-offset="300" data-aos-duration="500"
                         data-aos-easing="ease-in-sine">Playful Creations </h1>
                     <hr />
@@ -192,14 +161,14 @@ const ZoomCards = () => {
                                 </li></Link>
                         </>
                       
-                    ))}
+    ))}
                 </ul> */}
                 {/* <div className="ViewMoreBtn">
-        <Link to="/products" style={{ textDecoration: "none" }}><button className="buttonStyleSecond">Explore Toys World</button></Link>
-                </div> */}
+                    <Link to="/products" style={{ textDecoration: "none" }}><button className="buttonStyleSecond">Explore Toys World</button></Link>
+                </div > */}
 
             </section>
-        </>   
+        </>
     )
 }
-export default ZoomCards
+export default ZoomCards;

@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
 
 :root {
-  font-family: "Varela Round", serif;  line-height: 1.5;
+  /* font-family: "Varela Round", serif;  line-height: 1.5; */
   font-weight: 400;
   color-scheme: light dark;
   color: rgba(0, 0, 0, 0.87);
@@ -163,7 +163,7 @@
   font-size: 3.5rem;
   font-weight: 600;
   line-height: 110%;
-  font-family: "Varela Round", serif;
+  /* font-family: "Varela Round", serif; */
 
   background-image: linear-gradient(90deg, white, #ffdf22, white, #ffdf22);
   background-size: 300%;
@@ -178,7 +178,7 @@
   margin-top: 0;
   margin-bottom: 1.5rem;
   font-size: 28px;
-  font-family: "Varela Round", serif;
+  /* font-family: "Varela Round", serif; */
   font-weight: bolder;
   /* line-height: 110%; */
   display: flex;
