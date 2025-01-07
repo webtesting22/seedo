@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import "../../Styles/VisionMission.css"
 import { Row, Col } from "antd";
 const MissionVision = () => {
@@ -29,7 +29,7 @@ const MissionVision = () => {
                 <div className="MainContainerVisionMission">
 
                     <Row>
-                        <Col lg={8} md={12} style={{width:"100%"}}>
+                        <Col lg={8} md={12} style={{ width: "100%" }}>
                             <div className="LeftSideMissionContainer">
                                 <div>
                                     <h2>Our Mission</h2>To deliver high-quality, safe, and innovative toys that inspire creativity and confidence in children and parents alike.
@@ -37,20 +37,19 @@ const MissionVision = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={8} md={12} style={{width:"100%"}}>
+                        <Col lg={8} md={12} style={{ width: "100%" }}>
                             <div className="MiddleImageContainer">
-                            {images.map((image, index) => (
-                    <img
-                        key={index}
-                        src={image}
-                        alt={`Slide ${index + 1}`}
-                        className={`carousel-image ${
-                            index === currentIndex ? "active" : "inactive"
-                        }`}
-                    />
-                ))} </div>
+                                {images.map((image, index) => (
+                                    <img
+                                        key={index}
+                                        src={image}
+                                        alt={`Slide ${index + 1}`}
+                                        className={`carousel-image ${index === currentIndex ? "active" : "inactive"
+                                            }`}
+                                    />
+                                ))} </div>
                         </Col>
-                        <Col lg={8} md={12} style={{width:"100%"}}>
+                        <Col lg={8} md={12} style={{ width: "100%" }}>
                             <div className="RightSideVisionContainer">
                                 <div>
                                     <h2>Our Vision</h2>

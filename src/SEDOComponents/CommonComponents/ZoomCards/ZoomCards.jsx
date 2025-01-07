@@ -39,20 +39,20 @@ const ZoomCards = () => {
 
     return (
         <>
-        <div style={{ display: "flex", justifyContent: "center" }}>
-                    <div className="SANSONGraphicContainer">
-                        <div>
-                            <h1 style={{ fontSize: "40px", color: "white", margin: "0px" }}>Sanson promotion innovation LLP</h1>
-                            <p>Sanson Promo Innovations LLP is a prominent leader in consumer and trade promotions, trusted by major FMCG brands such as Unilever, Glaxo, Perfetti, Mondelez, and Britannia. The company excels in collaborating with esteemed licensors like Disney, Marvel, Mattel, Pokémon, and Doraemon. With comprehensive expertise in conceptualization, product engineering, mass manufacturing, quality assurance, and logistics, Sanson consistently surpasses client expectations.This commitment to delivering high-quality products and innovative campaigns not only fosters brand loyalty but also drives significant business growth.</p>
-                        </div>
+            <div style={{ display: "flex", justifyContent: "center" }}>
+                <div className="SANSONGraphicContainer">
+                    <div>
+                        <h1 style={{ fontSize: "40px", color: "white", margin: "0px" }}>Sanson promotion innovation LLP</h1>
+                        <p>Sanson Promo Innovations LLP is a prominent leader in consumer and trade promotions, trusted by major FMCG brands such as Unilever, Glaxo, Perfetti, Mondelez, and Britannia. The company excels in collaborating with esteemed licensors like Disney, Marvel, Mattel, Pokémon, and Doraemon. With comprehensive expertise in conceptualization, product engineering, mass manufacturing, quality assurance, and logistics, Sanson consistently surpasses client expectations.This commitment to delivering high-quality products and innovative campaigns not only fosters brand loyalty but also drives significant business growth.</p>
                     </div>
                 </div>
+            </div>
             <section id="ZoomCardsContainer">
-                
+
                 <Row>
                     <Col lg={12}>
                         <div className="headingHeaderContainer" style={{ padding: "0px" }}>
-                            <h1>We have hold on more then <span style={{color:"#BC252B"}}>ON  +3000 stores in india</span></h1>
+                            <h1>We have hold on more then <span style={{ color: "#BC252B" }}>ON  +3000 stores in india</span></h1>
                         </div>
                     </Col>
                     <Col lg={12}>
@@ -67,7 +67,7 @@ const ZoomCards = () => {
                 </div>
                 <div id="ClientSliderContainer">
                     <Swiper
-                        slidesPerView={6} // Adjust based on screen size or requirement
+                        slidesPerView={5} // Adjust based on screen size or requirement
                         spaceBetween={30}
                         loop={true} // Enable infinite scroll
                         autoplay={{
@@ -80,49 +80,49 @@ const ZoomCards = () => {
                     >
                         {/* {items.map((item, index) => ( */}
                         <SwiperSlide >
-                            <Link to="https://whole9yards.in/" target="_blank">
+                            <Link to="https://www.amazon.in/" target="_blank">
                                 <div className="GrayCardContainer">
                                     <img src={amazon} alt="" />
                                 </div>
                             </Link>
                         </SwiperSlide>
                         <SwiperSlide  >
-                            <Link to="https://www.firstcry.com/" target="_blank">
+                            <Link to="https://www.flipkart.com/" target="_blank">
                                 <div className="GrayCardContainer">
                                     <img src={flifkart} alt="" />
                                 </div>
                             </Link>
                         </SwiperSlide >
                         <SwiperSlide >
-                            <Link to="https://www.filesure.in/" target="_blank">
+                            <Link to="https://reliancesmartbazaar.com/" target="_blank">
                                 <div className="GrayCardContainer">
                                     <img src={smartBazaar} alt="" />
                                 </div>
                             </Link >
                         </SwiperSlide >
                         <SwiperSlide >
-                            <Link to="https://www.uscindia.co.in/" target="_blank">
+                            <Link to="https://snooplay.in/" target="_blank">
                                 <div className="GrayCardContainer">
                                     <img src={Snooplay} alt="" />
                                 </div>
                             </Link >
                         </SwiperSlide >
                         <SwiperSlide >
-                            <Link to="https://www.uscindia.co.in/" target="_blank">
+                            <Link to="https://www.swiggy.com/" target="_blank">
                                 <div className="GrayCardContainer">
                                     <img src={swiggy} alt="" />
                                 </div>
                             </Link >
                         </SwiperSlide >
                         <SwiperSlide >
-                            <Link to="https://www.uscindia.co.in/" target="_blank">
+                            <Link to="https://whole9yards.in/" target="_blank">
                                 <div className="GrayCardContainer">
                                     <img src={whole9years} alt="" />
                                 </div>
                             </Link >
                         </SwiperSlide >
                         <SwiperSlide >
-                            <Link to="https://www.uscindia.co.in/" target="_blank">
+                            <Link to="https://www.zeptonow.com/" target="_blank">
                                 <div className="GrayCardContainer">
                                     <img src={zapto} alt="" />
                                 </div>

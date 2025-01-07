@@ -122,7 +122,7 @@ const AboutSeedo = () => {
 
 
                 <div className="TopVideoContainer">
-                   <img src={BackBannerAbout} alt="" />
+                    <img src={BackBannerAbout} alt="" />
                 </div>
                 <div className="AboutContentContainer">
                     <div className="paddingContainer">
@@ -153,23 +153,35 @@ const AboutSeedo = () => {
                 </div>
             </section>
             <section className="MissionContainer">
-                <div>
-                    <h1>OUR MISSION</h1>
-                    <p>To deliver high-quality, safe, and innovative toys that inspire creativity and confidence in children and parents alike. </p>
+                <div className="gridContainer">
+                    <Row>
+                        <Col lg={8} md={12}>
+                            <div>
+                                <h2>Our <br />Mission</h2>
+                                <p>To deliver high-quality, safe, and innovative toys that inspire creativity and confidence in children and parents alike. </p>
+                            </div>
+                        </Col>
+                        <Col lg={8} md={12}>
+                            <div>
+                                <h2>Our <br /> Vision</h2>
+                                <p>To become a leading toy manufacturer globally, Seedo Toys aims to be recognized for excellence in product quality and innovation while integrating advanced technology into its offerings.</p>
+                            </div>
+                        </Col>
+                        <Col lg={8} md={12}>
+                            <div>
+                                <h2>Our <br />Purpose</h2>
+                                <p>To foster children's imagination through engaging play experiences while ensuring parents' trust in our craftsmanship and commitment to safety.</p>
+                            </div>
+                        </Col>
+                    </Row>
                 </div>
             </section>
-            <section className="VisionContainer">
-                <div>
-                    <h1>OUR VISION</h1>
-                    <p>To become a leading toy manufacturer globally, Seedo Toys aims to be recognized for excellence in product quality and innovation while integrating advanced technology into its offerings.</p>
-                </div>
+            {/* <section className="VisionContainer">
+              
             </section>
             <section className="PurposeContainer">
-                <div>
-                    <h1>OUR PURPOSE</h1>
-                    <p>To foster children's imagination through engaging play experiences while ensuring parents' trust in our craftsmanship and commitment to safety.</p>
-                </div>
-            </section>
+                
+            </section> */}
             <section className="OURLEADERSHIPContainer">
                 <div className="LeaderShipHeaderContainer">
                     <h1>OUR LEADERSHIP</h1>

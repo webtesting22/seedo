@@ -10,6 +10,11 @@ import SEEDOData from "../../ProductUpdatedData";
 import gene7 from "/Images/gene7.jpg";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa";
+import ProductPageBanner from "./ProductPageBanner.svg"
+import friction from "./friction.svg"
+import RemoteCar from "./RemoteCar.svg"
+import DieCast from "./DieCast.svg"
+import EarlyLearning from "./EarlyLearning.svg"
 const { Search } = Input;
 
 const Products = () => {
@@ -46,11 +51,11 @@ const Products = () => {
 
     useEffect(() => {
         window.scrollTo({
-          top: 0,
-          left: 0,
-          behavior: "smooth",
+            top: 0,
+            left: 0,
+            behavior: "smooth",
         });
-      }, []);
+    }, []);
     const handleSearch = (value) => setSearchQuery(value);
 
     const filteredProducts = SEEDOData.filter(item => {
@@ -92,74 +97,75 @@ const Products = () => {
             </div>
             <section id="ProductContainer">
                 <div className="ProductHeaderContainer">
-                    <h1>Product Categories</h1>
+                    <img src={ProductPageBanner} alt="" />
+                    <h1>We create for you!</h1>
                 </div>
                 <div className="CatalogueCardsContainer">
                     <Row>
                         <Col lg={12} md={24} style={{ width: "100%" }}>
-                            <Link to="/subcategories">
-                                <div className="CatalogueCardContainer">
-                                    <div className="CatalogueImageContainer">
-
-                                    </div>
-                                    <div className="productTitleContainer">
-                                        <h1>Product Name</h1>
-                                        <p>Category</p>
-                                    </div>
+                            {/* <Link to="/subcategories"> */}
+                            <div className="CatalogueCardContainer">
+                                <div className="CatalogueImageContainer">
+                                    <img src={friction} alt="" />
                                 </div>
-                            </Link>
+                                <div className="productTitleContainer">
+                                    <h1>Friction & Pull back + Press & Go </h1>
+                                    <p>Category</p>
+                                </div>
+                            </div>
+                            {/* </Link> */}
                         </Col>
                         <Col lg={12} md={24} style={{ width: "100%" }}>
-                            <Link to="/subcategories">
-                                <div className="CatalogueCardContainer">
-                                    <div className="CatalogueImageContainer">
-
-                                    </div>
-                                    <div className="productTitleContainer">
-                                        <h1>Product Name</h1>
-                                        <p>Category</p>
-                                    </div>
+                            {/* <Link to="/subcategories"> */}
+                            <div className="CatalogueCardContainer">
+                                <div className="CatalogueImageContainer">
+                                    <img src={RemoteCar} alt="" />
                                 </div>
-                            </Link>
+                                <div className="productTitleContainer">
+                                    <h1>Remote Controlled Car</h1>
+                                    <p>Category</p>
+                                </div>
+                            </div>
+                            {/* </Link> */}
                         </Col>
                         <Col lg={12} md={24} style={{ width: "100%" }}>
-                            <Link to="/subcategories">
-                                <div className="CatalogueCardContainer">
-                                    <div className="CatalogueImageContainer">
+                            {/* <Link to="/subcategories"> */}
+                            <div className="CatalogueCardContainer">
+                                <div className="CatalogueImageContainer">
 
-                                    </div>
-                                    <div className="productTitleContainer">
-                                        <h1>Product Name</h1>
-                                        <p>Category</p>
-                                    </div>
                                 </div>
-                            </Link>
+                                <div className="productTitleContainer">
+                                    <h1>Metal X Racer</h1>
+                                    <p>Category</p>
+                                </div>
+                            </div>
+                            {/* </Link> */}
                         </Col>
                         <Col lg={12} md={24} style={{ width: "100%" }}>
-                            <Link to="/subcategories">
-                                <div className="CatalogueCardContainer">
-                                    <div className="CatalogueImageContainer">
-
-                                    </div>
-                                    <div className="productTitleContainer">
-                                        <h1>Product Name</h1>
-                                        <p>Category</p>
-                                    </div>
+                            {/* <Link to="/subcategories"> */}
+                            <div className="CatalogueCardContainer">
+                                <div className="CatalogueImageContainer">
+                                    <img src={DieCast} alt="" />
                                 </div>
-                            </Link>
+                                <div className="productTitleContainer">
+                                    <h1>Die cast cars</h1>
+                                    <p>Category</p>
+                                </div>
+                            </div>
+                            {/* </Link> */}
                         </Col>
                         <Col lg={12} md={24} style={{ width: "100%" }}>
-                            <Link to="/subcategories">
-                                <div className="CatalogueCardContainer">
-                                    <div className="CatalogueImageContainer">
-
-                                    </div>
-                                    <div className="productTitleContainer">
-                                        <h1>Product Name</h1>
-                                        <p>Category</p>
-                                    </div>
+                            {/* <Link to="/subcategories"> */}
+                            <div className="CatalogueCardContainer">
+                                <div className="CatalogueImageContainer">
+                                    <img src={EarlyLearning} alt="" />
                                 </div>
-                            </Link>
+                                <div className="productTitleContainer">
+                                    <h1>Early learning toys </h1>
+                                    <p>Category</p>
+                                </div>
+                            </div>
+                            {/* </Link> */}
                         </Col>
                     </Row>
                 </div>

@@ -300,13 +300,14 @@
     align-items: center;
     justify-content: center;
 }
-.TopVideoContainer img{
+
+.TopVideoContainer img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.AboutContentContainer{
+.AboutContentContainer {
     padding: 80px 0px;
 }
 
@@ -441,6 +442,62 @@
     padding: 20px 30px;
 }
 
+.gridContainer .ant-row .ant-col {
+    padding: 10px;
+}
+
+.gridContainer .ant-row .ant-col div {
+    background: #BC252B;
+    height: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.gridContainer .ant-row .ant-col:hover div {
+    /* height: 300px; */
+    transition: .5s;
+}
+
+.gridContainer .ant-row .ant-col div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gridContainer .ant-row .ant-col div p {
+    opacity: 0;
+    transition: .5s;
+    color: white;
+    text-align: start;
+    /* transform: translatey(100px); */
+}
+
+.gridContainer .ant-row .ant-col div:hover p {
+    opacity: 1;
+    transition: .5s;
+    color: white;
+    text-align: start;
+
+}
+
+
+
+.gridContainer .ant-row .ant-col div h2 {
+    font-size: 64px;
+    color: white;
+    transition: .5s;
+    margin: 0px;
+    transform: translateY(40px);
+}
+.gridContainer .ant-row .ant-col:hover div h2 {
+    font-size: 50px;
+    color: white;
+    transition: .5s;
+    transform: translateY(0px);
+}
+
 @media (max-width:900px) {
     .grayBoxContainer {
         height: 300px;
@@ -449,24 +506,26 @@
         margin-left: 0px;
         border-radius: 47px;
     }
+
     .LeaderShipCardContainerCard {
         border: 1px solid #000;
         margin: 20px 0px;
         border-radius: 76px;
     }
-    
+
     .LeaderShipCardContainer {
 
         padding: 0rem 1rem;
     }
-    
+
     .LeaderShipHeaderContainer {
         padding: 0rem 1rem;
     }
-    
+
     .OURLEADERSHIPContainer h1 {
         font-size: 50px;
     }
+
     .MissionContainer h1,
     .VisionContainer h1,
     .PurposeContainer h1 {
