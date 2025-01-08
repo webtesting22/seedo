@@ -1,7 +1,7 @@
 import React from "react";
 import "./OurServices.css"
 import Navigation from "../../CommonComponents/Navigation/Navigation";
-import { Row, Col ,Image} from "antd";
+import { Row, Col, Image } from "antd";
 import About1 from "./About1.svg"
 import About2 from "./About2.svg"
 import About3 from "./About3.svg"
@@ -18,7 +18,7 @@ const OurServices = () => {
         },
         {
             title: "ODM",
-            img:ODMBanner,
+            img: ODMBanner,
             description: "We specialize in Original Design manufacturing, creating innovative products tailored to clients' specifications. Our focus is on quality, customization, and delivering exceptional value to our partners."
         },
         {
@@ -58,15 +58,24 @@ const OurServices = () => {
                         <div>
                             <div className="PendingGrayBox">
                                 <div style={{ display: "flex", height: "100%" }}>
-                                    <div>
-                                        <Image src={About3} alt="" />
-                                    </div>
-                                    <div>
-                                        <Image src={About1} alt="" />
-                                    </div>
-                                    <div>
-                                        <Image src={About2} alt="" />
-                                    </div>
+                                    <Row style={{ width: "100%" }}>
+                                        <Col lg={8}>
+
+                                            <div>
+                                                <Image src={About3} alt="" />
+                                            </div>
+                                        </Col>
+                                        <Col lg={8}>
+                                            <div>
+                                                <Image src={About1} alt="" />
+                                            </div>
+                                        </Col>
+                                        <Col lg={8}>
+                                            <div>
+                                                <Image src={About2} alt="" />
+                                            </div>
+                                        </Col>
+                                    </Row>
                                 </div>
                             </div>
                             <br />
@@ -95,15 +104,25 @@ const OurServices = () => {
                         <div>
                             <div className="PendingGrayBox">
                                 <div style={{ display: "flex", height: "100%" }}>
-                                    <div>
-                                        <Image src={About5} alt="" />
-                                    </div>
-                                    <div>
-                                        <Image src={About7} alt="" />
-                                    </div>
-                                    <div>
-                                        <Image src={About10} alt="" />
-                                    </div>
+                                    <Row style={{ width: "100%" }}>
+                                        <Col lg={8}>
+
+                                            <div>
+                                                <Image src={About5} alt="" />
+                                            </div>
+                                        </Col>
+                                        <Col lg={8}>
+                                            <div>
+                                                <Image src={About7} alt="" />
+                                            </div>
+                                        </Col>
+                                        <Col lg={8}>
+                                            <div>
+                                                <Image src={About10} alt="" />
+                                            </div>
+                                        </Col>
+                                    </Row>
+
                                 </div>
                             </div>
                             <br />
@@ -141,7 +160,7 @@ const OurServices = () => {
                             </Col>
                             <Col lg={12} md={24}>
                                 <div className="BlankGrayBoxContainer">
-                                        <img src={item.img} alt="" />
+                                    <img src={item.img} alt="" />
                                 </div>
                             </Col>
                         </Row>
