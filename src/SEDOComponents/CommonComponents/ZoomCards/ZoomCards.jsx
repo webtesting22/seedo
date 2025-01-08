@@ -58,7 +58,7 @@ const ZoomCards = () => {
                     <Col lg={12}>
                         <div>
                             <p style={{ fontSize: "18px" }}>To learn more about our perspective on how we achieved this goal and to understand our vision, please continue reading.</p>
-                            <button className="KnowMorebtn">Know More</button>
+                            <Link to="/aboutSeedo"><button className="KnowMorebtn">Know More</button></Link>
                         </div>
                     </Col>
                 </Row>

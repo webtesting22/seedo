@@ -293,7 +293,7 @@
 
 
 .TopVideoContainer {
-    min-height: 300px;
+    height: 500px;
     width: 100%;
     background-color: #D9D9D9;
     display: flex;
@@ -339,7 +339,7 @@
 .FounderContent h1 {
     font-size: 40px;
     margin-top: 0px;
-    font-weight: 400;
+    /* font-weight: 400; */
 }
 
 .FounderContent p {
@@ -349,7 +349,7 @@
 }
 
 .founderSectionContainer {
-    padding: 0rem 4rem;
+    padding: 80px 40px;
 }
 
 .grayBoxContainer {
@@ -359,11 +359,6 @@
     margin-left: 50px;
     border-radius: 47px;
 }
-
-.founderSectionContainer {
-    padding-top: 100px;
-}
-
 
 
 .MilestonesContainerABout {
@@ -381,17 +376,17 @@
     font-weight: 600;
 
 }
-
+/* 
 .MissionContainer {
     margin-top: 5rem !important;
-}
+} */
 
 .MissionContainer,
 .VisionContainer,
 .PurposeContainer {
-    background-color: #D9D9D9;
-    padding: 50px 200px;
-    margin-top: 2rem;
+    /* background-color: #D9D9D9; */
+    padding: 80px 40px;
+    /* margin-top: 2rem; */
 }
 
 .MissionContainer h1,
@@ -411,7 +406,9 @@
     color: #000;
 }
 
-
+.OURLEADERSHIPContainer{
+    padding: 80px 0px;
+}
 .OURLEADERSHIPContainer h1 {
     font-size: 40px;
 }
@@ -422,7 +419,7 @@
 
 .LeaderShipCardContainer {
 
-    padding: 0rem 4rem;
+    padding: 0px 40px;
 }
 
 .LeaderShipCardContainerCard {
@@ -441,6 +438,10 @@
 .LeaderShipContentCardContainer {
     padding: 20px 30px;
 }
+.LeaderShipContentCardContainer h5{
+    font-size: 18px;
+margin: 0px;
+}
 
 .gridContainer .ant-row .ant-col {
     padding: 10px;
@@ -453,18 +454,18 @@
     border-radius: 20px;
     overflow: hidden;
     transition: .5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
 }
 
 .gridContainer .ant-row .ant-col:hover div {
     /* height: 300px; */
     transition: .5s;
+    background: #9D0006;
 }
 
-.gridContainer .ant-row .ant-col div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
 .gridContainer .ant-row .ant-col div p {
     opacity: 0;
@@ -485,12 +486,13 @@
 
 
 .gridContainer .ant-row .ant-col div h2 {
-    font-size: 64px;
+    font-size: 60px;
     color: white;
     transition: .5s;
     margin: 0px;
     transform: translateY(40px);
 }
+
 .gridContainer .ant-row .ant-col:hover div h2 {
     font-size: 50px;
     color: white;
@@ -498,7 +500,31 @@
     transform: translateY(0px);
 }
 
+.OurJourneyContainer {
+    padding: 80px 0px;
+}
+
+.JourneyImageContainer img:first-child {
+    display: block;
+    width: 100%;
+}
+
+.JourneyImageContainer img:last-child {
+    display: none;
+    width: 100%;
+}
+
 @media (max-width:900px) {
+    .JourneyImageContainer img:first-child {
+        display: none;
+        width: 100%;
+    }
+
+    .JourneyImageContainer img:last-child {
+        display: block;
+        width: 100%;
+    }
+
     .grayBoxContainer {
         height: 300px;
         /* width: 100%; */
@@ -575,7 +601,7 @@
     }
 
     .FounderContent h1 {
-        font-size: 50px;
+        font-size: 40px;
         margin-top: 0px;
     }
 

@@ -11,6 +11,8 @@ import MissionVision from "../VisionMission/MissionVision";
 import generative from "./generative .jpg"
 import { FaArrowRight } from "react-icons/fa";
 import BackBannerAbout from "./BackBannerAbout.svg"
+import timelinepc from "./timelinepc.png"
+import timelinemobile from "./timelinemobile.png"
 const AboutSeedo = () => {
     const ServicesCardData = [
         {
@@ -147,9 +149,13 @@ const AboutSeedo = () => {
                     </Col>
                 </Row>
             </section>
-            <section className="MilestonesContainerABout">
-                <div>
+            <section className="OurJourneyContainer">
+                {/* <div>
                     <h1>Our Journey </h1>
+                </div> */}
+                <div className="JourneyImageContainer">
+                    <img src={timelinepc} alt="" />
+                    <img src={timelinemobile} alt="" />
                 </div>
             </section>
             <section className="MissionContainer">

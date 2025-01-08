@@ -11,10 +11,12 @@ import gene7 from "/Images/gene7.jpg";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa";
 import ProductPageBanner from "./ProductPageBanner.svg"
+import SeedoProductData from "../../ProductData";
 import friction from "./friction.svg"
 import RemoteCar from "./RemoteCar.svg"
 import DieCast from "./DieCast.svg"
 import EarlyLearning from "./EarlyLearning.svg"
+import ProductContext from "./Context/ProductContext";
 const { Search } = Input;
 
 const Products = () => {
@@ -22,6 +24,7 @@ const Products = () => {
     const [isModalOpen, setModalOpen] = useState(false); // Modal visibility state
     const [selectedProduct, setSelectedProduct] = useState(null); // Selected product
     const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
+    // const { toggleComponent } = ProductContext();
 
     const [selectedCategories, setSelectedCategories] = useState([]);
     const [layout, setLayout] = useState(6); // Default layout 4x4x4
@@ -88,6 +91,7 @@ const Products = () => {
         AOS.init(); // Initialize AOS
         window.scrollTo(0, 0);
     }, []);
+    const staticProductCategories = ["Category1", "Category2", "Category3"]; // Define static categories
 
 
     return (
@@ -95,6 +99,7 @@ const Products = () => {
             <div id="AboutUs">
                 <Navigation />
             </div>
+
             <section id="ProductContainer">
                 <div className="ProductHeaderContainer">
                     <img src={ProductPageBanner} alt="" />
@@ -102,21 +107,28 @@ const Products = () => {
                 </div>
                 <div className="CatalogueCardsContainer">
                     <Row>
-                        <Col lg={12} md={24} style={{ width: "100%" }}>
-                            {/* <Link to="/subcategories"> */}
-                            <div className="CatalogueCardContainer">
-                                <div className="CatalogueImageContainer">
-                                    <img src={friction} alt="" />
-                                </div>
-                                <div className="productTitleContainer">
-                                    <h1>Friction & Pull back + Press & Go </h1>
-                                    <p>Category</p>
-                                </div>
-                            </div>
-                            {/* </Link> */}
-                        </Col>
-                        <Col lg={12} md={24} style={{ width: "100%" }}>
-                            {/* <Link to="/subcategories"> */}
+                        {Object.keys(SeedoProductData).map((categoryName, index) => {
+                            const categoryData = SeedoProductData[categoryName];
+                            const hasSubcategories = categoryData.subcategories;
+
+                            return (
+                                <Col key={index} lg={8} md={12} style={{ width: "100%" }}>
+                                    {/* If subcategories exist, redirect to subcategories page; otherwise, to products page */}
+                                    <Link to={hasSubcategories ? `/subcategories/${categoryName}` : `/subcategoriesproducts/${categoryName}`}>
+                                        <div className="CatalogueCardContainer">
+                                            <div className="CatalogueImageContainer">
+                                                <img src="path/to/friction.jpg" alt={categoryName} />
+                                            </div>
+                                            <div className="productTitleContainer">
+                                                <h1>{categoryName}</h1>
+                                            </div>
+                                        </div>
+                                    </Link>
+                                </Col>
+                            );
+                        })}
+                        {/* <Col lg={12} md={24} style={{ width: "100%" }}>
+
                             <div className="CatalogueCardContainer">
                                 <div className="CatalogueImageContainer">
                                     <img src={RemoteCar} alt="" />
@@ -126,10 +138,10 @@ const Products = () => {
                                     <p>Category</p>
                                 </div>
                             </div>
-                            {/* </Link> */}
+
                         </Col>
                         <Col lg={12} md={24} style={{ width: "100%" }}>
-                            {/* <Link to="/subcategories"> */}
+
                             <div className="CatalogueCardContainer">
                                 <div className="CatalogueImageContainer">
 
@@ -139,10 +151,10 @@ const Products = () => {
                                     <p>Category</p>
                                 </div>
                             </div>
-                            {/* </Link> */}
+
                         </Col>
                         <Col lg={12} md={24} style={{ width: "100%" }}>
-                            {/* <Link to="/subcategories"> */}
+
                             <div className="CatalogueCardContainer">
                                 <div className="CatalogueImageContainer">
                                     <img src={DieCast} alt="" />
@@ -152,10 +164,10 @@ const Products = () => {
                                     <p>Category</p>
                                 </div>
                             </div>
-                            {/* </Link> */}
+
                         </Col>
                         <Col lg={12} md={24} style={{ width: "100%" }}>
-                            {/* <Link to="/subcategories"> */}
+
                             <div className="CatalogueCardContainer">
                                 <div className="CatalogueImageContainer">
                                     <img src={EarlyLearning} alt="" />
@@ -165,10 +177,11 @@ const Products = () => {
                                     <p>Category</p>
                                 </div>
                             </div>
-                            {/* </Link> */}
-                        </Col>
+
+                        </Col> */}
                     </Row>
                 </div>
+                {/* <button onClick={toggleComponent}>Switch Component</button> */}
                 {/* <div className="BannerContainer">
                     <img src={gene7} alt="Products Banner" />
                 </div>

@@ -1,16 +1,23 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
+import { useParams } from "react-router-dom";
 import Navigation from "../Navigation/Navigation";
 import "./SubCategories.css"
+import SeedoProductData from "../../ProductData";
 import { Row, Col } from "antd";
 import { Link } from "react-router-dom";
 const SubCategories = () => {
+    const { categoryName } = useParams(); // Get the category name from URL
+    const categoryData = SeedoProductData[categoryName];
+    const hasSubcategories = categoryData.subcategories;
+
+
     useEffect(() => {
         window.scrollTo({
-          top: 0,
-          left: 0,
-          behavior: "smooth",
+            top: 0,
+            left: 0,
+            behavior: "smooth",
         });
-      }, []);
+    }, []);
     return (
         <>
             <Navigation />
@@ -20,77 +27,34 @@ const SubCategories = () => {
                 </div>
                 <div className="CatalogueCardsContainer">
                     <Row>
-                        <Col lg={12} md={24} style={{ width: "100%" }}>
-                            <Link to="/product-name">
+                        {hasSubcategories ? (
+                            Object.keys(categoryData.subcategories).map((subcategoryName, index) => (
+                                <Col key={index} lg={8} md={12} style={{ width: "100%" }}>
+                                    <Link to={`/subcategories/${categoryName}/${subcategoryName}`}>
+                                        <div className="CatalogueCardContainer">
+                                            <div className="CatalogueImageContainer">
+                                                <img src="path/to/placeholder.jpg" alt={subcategoryName} />
+                                            </div>
+                                            <div className="productTitleContainer">
+                                                <h1>{subcategoryName}</h1>
+                                            </div>
+                                        </div>
+                                    </Link>
+                                </Col>
+                            ))
+                        ) : (
+                            // Redirect to product page if no subcategories
+                            <Link to={`/products/${categoryName}`}>
                                 <div className="CatalogueCardContainer">
                                     <div className="CatalogueImageContainer">
-
+                                        <img src="path/to/placeholder.jpg" alt={categoryName} />
                                     </div>
                                     <div className="productTitleContainer">
-                                        <h1>Product Name</h1>
-                                        <p>SubCategory</p>
+                                        <h1>{categoryName} Products</h1>
                                     </div>
                                 </div>
                             </Link>
-                        </Col>
-                        <Col lg={12} md={24} style={{ width: "100%" }}>
-
-                            <Link to="/product-name">
-                                <div className="CatalogueCardContainer">
-                                    <div className="CatalogueImageContainer">
-
-                                    </div>
-                                    <div className="productTitleContainer">
-                                        <h1>Product Name</h1>
-                                        <p>SubCategory</p>
-                                    </div>
-                                </div>
-                            </Link>
-                        </Col>
-                        <Col lg={12} md={24} style={{ width: "100%" }}>
-
-                            <Link to="/product-name">
-                                <div className="CatalogueCardContainer">
-                                    <div className="CatalogueImageContainer">
-
-                                    </div>
-                                    <div className="productTitleContainer">
-                                        <h1>Product Name</h1>
-                                        <p>SubCategory</p>
-                                    </div>
-                                </div>
-                            </Link>
-                        </Col>
-                        <Col lg={12} md={24} style={{ width: "100%" }}>
-
-                            <Link to="/product-name">
-                                <div className="CatalogueCardContainer">
-                                    <div className="CatalogueImageContainer">
-
-                                    </div>
-                                    <div className="productTitleContainer">
-                                        <h1>Product Name</h1>
-                                        <p>SubCategory</p>
-                                    </div>
-                                </div>
-                            </Link>
-
-                        </Col>
-                        <Col lg={12} md={24} style={{ width: "100%" }}>
-
-                            <Link to="/product-name">
-                                <div className="CatalogueCardContainer">
-                                    <div className="CatalogueImageContainer">
-
-                                    </div>
-                                    <div className="productTitleContainer">
-                                        <h1>Product Name</h1>
-                                        <p>SubCategory</p>
-                                    </div>
-                                </div>
-                            </Link>
-
-                        </Col>
+                        )}
                     </Row>
                 </div>
             </section>

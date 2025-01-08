@@ -1,11 +1,16 @@
 #ZoomCardsContainer {
 
+    /* padding-top: 80px !important; */
     /* padding-top: 5rem !important; */
-    padding: 0rem 4rem;
+    padding: 80px 40px;
     overflow: hidden;
     /* padding-bottom: 5rem !important; */
     position: relative;
+    /* padding-bottom: 80px !important; */
     /* background-color: rgb(247, 216, 101); */
+}
+#ZoomCardsContainer .ant-row{
+    padding-bottom: 80px !important;
 }
 
 ul[class] {
@@ -137,12 +142,13 @@ ul[class] {
 
 }
 #ZoomCardsContainer .headingHeaderContainer{
-    padding-top: 120px;
+    padding-top: 80px;
 }
 #ZoomCardsContainer .headingHeaderContainer h1 {
     font-size: 40px;
     /* text-align: center; */
     margin-top: 0px;
+    /* margin-bottom: 0px; */
 }
 
 #ZoomCardsContainer .GrayCardContainer {

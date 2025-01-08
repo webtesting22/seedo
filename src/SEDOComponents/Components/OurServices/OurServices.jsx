@@ -1,13 +1,13 @@
 import React from "react";
 import "./OurServices.css"
 import Navigation from "../../CommonComponents/Navigation/Navigation";
-import { Row, Col } from "antd";
+import { Row, Col ,Image} from "antd";
 import About1 from "./About1.svg"
 import About2 from "./About2.svg"
 import About3 from "./About3.svg"
 import About5 from "./About5 1.svg"
 import About7 from "./About7 1.svg"
-import About10  from "./About10 1.svg"
+import About10 from "./About10 1.svg"
 const OurServices = () => {
     const servicesData = [
         {
@@ -26,19 +26,22 @@ const OurServices = () => {
     return (
         <>
             <Navigation />
-            <section className="OurServicesContainer">
+            <div className="TopVideoContainer" style={{ paddingTop: "5rem" }}>
                 <div>
-                    <h1>OUR SERVICES</h1>
+                    <h1 style={{ fontSize: "60px" }}>OUR SERVICES</h1>
                 </div>
-                <div>
+            </div>
+            <section className="OurServicesContainer">
+
+                <div className="OurServicesParagraph">
                     <Row>
-                        <Col lg={12}>
+                        <Col lg={24}>
                             <div>
                                 <p>We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. We look forward to hearing from you!We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. We look forward to hearing from you!We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or </p>
                             </div>
                         </Col>
-                        <Col lg={12}>
-                        </Col>
+                        {/* <Col lg={12}>
+                        </Col> */}
                     </Row>
                 </div>
                 <br /><br /><br />
@@ -50,15 +53,15 @@ const OurServices = () => {
                         </div>
                         <div>
                             <div className="PendingGrayBox">
-                                <div style={{display:"flex",height:"100%"}}>
+                                <div style={{ display: "flex", height: "100%" }}>
                                     <div>
-                                    <img src={About3} alt="" />
+                                        <Image src={About3} alt="" />
                                     </div>
-                                   <div>
-                                   <img src={About1} alt="" />
-                                   </div>
                                     <div>
-                                    <img src={About2} alt="" />
+                                        <Image src={About1} alt="" />
+                                    </div>
+                                    <div>
+                                        <Image src={About2} alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -86,16 +89,16 @@ const OurServices = () => {
                                 MANUFACTURING</h1>
                         </div>
                         <div>
-                        <div className="PendingGrayBox">
-                                <div style={{display:"flex",height:"100%"}}>
+                            <div className="PendingGrayBox">
+                                <div style={{ display: "flex", height: "100%" }}>
                                     <div>
-                                    <img src={About5} alt="" />
+                                        <Image src={About5} alt="" />
                                     </div>
-                                   <div>
-                                   <img src={About7} alt="" />
-                                   </div>
                                     <div>
-                                    <img src={About10} alt="" />
+                                        <Image src={About7} alt="" />
+                                    </div>
+                                    <div>
+                                        <Image src={About10} alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -127,9 +130,9 @@ const OurServices = () => {
                                     <h2>{item.title}</h2>
                                     <p>{item.description}</p>
                                     <br />
-                                    <div style={{ display: "flex", justifyContent: "end", padding: "0px" }}>
-                                        <button>Read More</button>
-                                    </div>
+                                    {/* <div style={{ display: "flex", justifyContent: "end", padding: "0px" }}>
+                                        <button className="KnowMorebtn">Read More</button>
+                                    </div> */}
                                 </div>
                             </Col>
                             <Col lg={12} md={24}>

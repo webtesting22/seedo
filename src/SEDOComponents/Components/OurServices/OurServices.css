@@ -1,6 +1,6 @@
 
 .OurServicesContainer{
-    padding-top: 120px !important;
+    padding-top: 5rem !important;
     padding: 0px 40px;
 }
 .OurServicesContainer div h1{
@@ -60,9 +60,18 @@
 .RowColumnsAdjustContainer .ant-row{
     margin: 40px 0px;
 }
-.RowColumnsAdjustContainer button{
+/* .RowColumnsAdjustContainer button{
     background-color: #D9D9D9;
     padding: 10px 40px;
     color: black;
     border: none;
+} */
+.OurServicesParagraph .ant-row .ant-col div{
+    display: flex;
+    justify-content: center;
+}
+.OurServicesParagraph p{
+    width: 70%;
+    text-align: center;
+    font-size: 18px;
 }

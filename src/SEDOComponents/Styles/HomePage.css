@@ -42,7 +42,7 @@
   color: white;
   line-height: 100%;
   font-weight: 500;
-  font-family: "Edu AU VIC WA NT Arrows", cursive;
+  font-family: "Raleway", serif;
   padding-bottom: 0.5rem;
 }
 
@@ -56,7 +56,6 @@
   width: 100%;
   top: 0px;
   left: 0px;
-  /* background-color: #000000d7; */
   z-index: 1;
   transition: 0.5s;
 }
@@ -174,7 +173,7 @@
   border-radius: 80px;
   display: flex;
   justify-content: center;
-  margin-bottom: 120px;
+  /* margin-bottom: 120px; */
 }
 
 .SANSONGraphicContainer div {
@@ -188,7 +187,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 50px 200px;
+  padding: 80px 200px;
   width: 100%;
 }
 
@@ -310,7 +309,7 @@
     color: white;
     line-height: 100%;
     font-weight: 500;
-    font-family: "Edu AU VIC WA NT Arrows", cursive;
+    font-family: "Raleway", serif;
     padding-bottom: 0.5rem;
   }
 

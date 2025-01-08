@@ -148,7 +148,7 @@ const ImagesGallery = () => {
                     </div>
                 </div>
             </section>
-            <section className="OurBestsellers" style={{paddingBottom:"0px"}}>
+            <section className="OurBestsellers">
                 <div className="OurServicesSection" style={{ paddingTop: "0px" }}>
                     {/* <div className="headingHeaderContainer">
                      

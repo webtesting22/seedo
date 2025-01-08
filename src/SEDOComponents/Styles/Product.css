@@ -337,7 +337,7 @@
 }
 
 .ProductHeaderContainer h1 {
-  font-size: 64px;
+  font-size: 40px;
   font-weight: 700;
   margin-top: 0px;
   position: sticky;
@@ -349,14 +349,14 @@
 .CatalogueCardContainer {
   background-color: white;
   /* min-height: 400px; */
-  margin: 20px 70px;
+  margin: 20px 10px;
   border-radius: 20px;
-  border: 2px solid #000;
+  border: 2px dashed #bc252a72;
 }
 
 .CatalogueCardsContainer {
-  padding: 0rem 4rem;
-  margin-top: 5rem;
+  padding: 80px 40px;
+  /* margin-top: 5rem; */
 }
 
 .CatalogueImageContainer {
@@ -364,11 +364,15 @@
   width: 100%;
   /* background-color: #D9D9D9; */
   border-radius: 19px;
+  padding: 10px;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .CatalogueImageContainer img {
-  width: 100%;
+  width: 60%;
   height: 100%;
   object-fit: cover;
 }
@@ -383,6 +387,7 @@
 
 .productTitleContainer h1 {
   color: black;
+  font-size: 20px;
 }
 
 

@@ -127,7 +127,7 @@ const SEEDOData = [
         ProductWheelWay: "-",
         ProductBatteryType: "-",
         ProductElectricType: "-",
-        ProductStyleCode: "FLG-DS-PO12"
+        ProductCode: "FLG-DS-PO12"
     },
     {
         ProductTitle: "Space Rocket",
@@ -3264,7 +3264,7 @@ const SEEDOData = [
         ProductImage: [
             W001, W001_2
         ],
-        ProductCategories: "RC Car",
+        ProductCategories: "Remote Controlled Car",
         ProductWheelWay: "2way",
         ProductBatteryType: "Non - Rechargable",
         ProductElectricType: "-",
@@ -3376,7 +3376,7 @@ const SEEDOData = [
         ProductImage: [
             W002
         ],
-        ProductCategories: "RC Car",
+        ProductCategories: "Remote Controlled Car",
         ProductWheelWay: "2way",
         ProductBatteryType: "Non - Rechargable",
         ProductElectricType: "-",
@@ -3488,7 +3488,7 @@ const SEEDOData = [
         ProductImage: [
             W003
         ],
-        ProductCategories: "RC Car",
+        ProductCategories: "Remote Controlled Car",
         ProductWheelWay: "2way",
         ProductBatteryType: "Non - Rechargable",
         ProductElectricType: "-",
@@ -3600,7 +3600,7 @@ const SEEDOData = [
         ProductImage: [
             LRC00A
         ],
-        ProductCategories: "RC Car",
+        ProductCategories: "Remote Controlled Car",
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
@@ -3723,7 +3723,7 @@ const SEEDOData = [
         ProductImage: [
             LRC00B
         ],
-        ProductCategories: "RC Car",
+        ProductCategories: "Remote Controlled Car",
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
@@ -3846,7 +3846,7 @@ const SEEDOData = [
         ProductImage: [
             LRC00C
         ],
-        ProductCategories: "RC Car",
+        ProductCategories: "Remote Controlled Car",
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
@@ -3969,7 +3969,7 @@ const SEEDOData = [
         ProductImage: [
             LRC00D
         ],
-        ProductCategories: "RC Car",
+        ProductCategories: "Remote Controlled Car",
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
@@ -4092,7 +4092,7 @@ const SEEDOData = [
         ProductImage: [
             LRC00E
         ],
-        ProductCategories: "RC Car",
+        ProductCategories: "Remote Controlled Car",
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
@@ -4216,7 +4216,7 @@ const SEEDOData = [
         ProductImage: [
             RC001
         ],
-        ProductCategories: "RC Car",
+        ProductCategories: "Remote Controlled Car",
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
@@ -4339,7 +4339,7 @@ const SEEDOData = [
         ProductImage: [
             BC023
         ],
-        ProductCategories: "RC Car",
+        ProductCategories: "Remote Controlled Car",
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
@@ -4350,7 +4350,7 @@ const SEEDOData = [
         ProductImage: [
             RC003_118
         ],
-        ProductCategories: "RC Car",
+        ProductCategories: "Remote Controlled Car",
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
@@ -4361,7 +4361,7 @@ const SEEDOData = [
         ProductImage: [
             PRC001
         ],
-        ProductCategories: "RC Car",
+        ProductCategories: "Remote Controlled Car",
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
@@ -4477,7 +4477,7 @@ const SEEDOData = [
         ProductImage: [
             SC001_124
         ],
-        ProductCategories: "RC Car",
+        ProductCategories: "Remote Controlled Car",
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
@@ -4601,7 +4601,7 @@ const SEEDOData = [
         ProductImage: [
             SC001_118
         ],
-        ProductCategories: "RC Car",
+        ProductCategories: "Remote Controlled Car",
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
@@ -4718,7 +4718,7 @@ const SEEDOData = [
         ProductImage: [
             RC001_124
         ],
-        ProductCategories: "RC Car",
+        ProductCategories: "Remote Controlled Car",
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
@@ -4847,7 +4847,7 @@ const SEEDOData = [
         ProductImage: [
             MT001
         ],
-        ProductCategories: "RC Car",
+        ProductCategories: "Remote Controlled Car",
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
@@ -4858,7 +4858,7 @@ const SEEDOData = [
         ProductImage: [
             MT002, MT002_2
         ],
-        ProductCategories: "RC Car",
+        ProductCategories: "Remote Controlled Car",
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
@@ -4988,7 +4988,7 @@ const SEEDOData = [
         ProductImage: [
             MT003, MT003_2
         ],
-        ProductCategories: "RC Car",
+        ProductCategories: "Remote Controlled Car",
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
@@ -5118,7 +5118,7 @@ const SEEDOData = [
         ProductImage: [
             MT003G
         ],
-        ProductCategories: "RC Car",
+        ProductCategories: "Remote Controlled Car",
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
@@ -5248,7 +5248,7 @@ const SEEDOData = [
         ProductImage: [
             MT003S
         ],
-        ProductCategories: "RC Car",
+        ProductCategories: "Remote Controlled Car",
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
@@ -5378,7 +5378,7 @@ const SEEDOData = [
         ProductImage: [
             RC00127MHz
         ],
-        ProductCategories: "RC Car",
+        ProductCategories: "Remote Controlled Car",
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
@@ -5389,7 +5389,7 @@ const SEEDOData = [
         ProductImage: [
             RC00124GHz
         ],
-        ProductCategories: "RC Car",
+        ProductCategories: "Remote Controlled Car",
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
@@ -5524,7 +5524,7 @@ const SEEDOData = [
         ProductImage: [
             RC00227MHz
         ],
-        ProductCategories: "RC Car",
+        ProductCategories: "Remote Controlled Car",
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
@@ -5658,7 +5658,7 @@ const SEEDOData = [
         ProductImage: [
             RC00224GHz
         ],
-        ProductCategories: "RC Car",
+        ProductCategories: "Remote Controlled Car",
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
@@ -5669,7 +5669,7 @@ const SEEDOData = [
         ProductImage: [
             RC003, RC003_2
         ],
-        ProductCategories: "RC Car",
+        ProductCategories: "Remote Controlled Car",
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
@@ -5804,7 +5804,7 @@ const SEEDOData = [
         ProductImage: [
             SC001
         ],
-        ProductCategories: "RC Car",
+        ProductCategories: "Remote Controlled Car",
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
@@ -5925,7 +5925,7 @@ const SEEDOData = [
         ProductImage: [
             SC003
         ],
-        ProductCategories: "RC Car",
+        ProductCategories: "Remote Controlled Car",
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
@@ -6046,7 +6046,7 @@ const SEEDOData = [
         ProductImage: [
             SC002
         ],
-        ProductCategories: "RC Car",
+        ProductCategories: "Remote Controlled Car",
         ProductWheelWay: "4way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
@@ -6175,7 +6175,7 @@ const SEEDOData = [
         ProductImage: [
             STDR001
         ],
-        ProductCategories: "RC Car",
+        ProductCategories: "Remote Controlled Car",
         ProductWheelWay: "6way",
         ProductBatteryType: "Rechargable",
         ProductElectricType: "-",
@@ -6825,5 +6825,6 @@ const SEEDOData = [
     },
 
 ]
+// { "Category 1": [{ "subcategory1": [], "subcategory2": [] }] }
 
 export default SEEDOData

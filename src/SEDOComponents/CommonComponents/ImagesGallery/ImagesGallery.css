@@ -60,7 +60,7 @@
     /* min-height: 400px; */
     display: flex;
     /* padding-left: 4rem !important; */
-    padding: 120px 40px;
+    padding: 80px 40px;
 }
 
 .OurServicesSection .headingHeaderContainer h1 {
@@ -112,7 +112,7 @@
     margin-top: 0px;
 }
 .OurBestsellers{
-    padding-bottom: 120px;
+ padding: 80px 40px;
 }
 
 .OurBestsellers .ant-row .ant-col:nth-child(1)>div {
