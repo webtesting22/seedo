@@ -58,7 +58,7 @@ const Navigation = () => {
 
                 {/* Ant Design Drawer */}
                 <Drawer
-                    title="Menu"
+                    title="SEEDO"
                     placement="right"
                     closable={true}
                     onClose={() => setMobileMenuOpen(false)}

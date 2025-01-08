@@ -77,7 +77,7 @@
 .CertificationgrayBoxContainer {
     height: 100%;
     width: 100%;
-    background-color: #D9D9D9;
+    /* background-color: #D9D9D9; */
     display: flex;
     align-items: center;
     justify-content: center
@@ -88,7 +88,7 @@
 }
 
 .CertificationRowContainer {
-    padding: 0rem 4rem;
+    padding: 0px 80px;
 }
 
 .CertificationLeftContent {
@@ -96,10 +96,14 @@
 }
 
 .CertificationgrayBoxContainer {
-    min-height: 400px;
+    /* min-height: 400px; */
     width: 100%;
-    background-color: #D9D9D9;
+    /* background-color: #D9D9D9; */
     border-radius: 23px;
+}
+
+.CertificationgrayBoxContainer img {
+    width: 80%;
 }
 
 .CertificatesHeadingContainer {
@@ -107,7 +111,7 @@
 }
 
 .CertificatesHeadingContainer h1 {
-    font-size: 60px;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -115,35 +119,94 @@
 .CerticationCardGreyBox {
     min-height: 300px;
     /* width: 100%; */
+    padding: 10px;
     border-radius: 23px;
-    background: #D9D9D9;
-    margin: 10px;
+    /* background: #D9D9D9; */
+    margin: 10px 10px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    border: 0.5px solid rgba(0, 0, 0, 0.215);
+    transition: .5s;
+
+
+}
+
+.CerticationCardGreyBox:hover {
+    min-height: 300px;
+    /* width: 100%; */
+    padding: 10px;
+    border-radius: 23px;
+    /* background: #D9D9D9; */
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid rgba(0, 0, 0, 0.771);
+    transition: .5s;
+
+}
+
+
+.CerticationCardGreyBox img {
+    width: 200px;
+    height: 100%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
 }
 
 .Certificates {
     padding: 0rem 4rem;
 }
-.CerticationCardGreyBox h1{
-    font-size: 40px;
-    font-weight: 400;
+
+.CerticationCardGreyBox h2 {
+    font-size: 20px;
+    text-align: center;
+    color: #BC252B;
+    /* font-weight: 400; */
 }
 
-.Certificates .ant-row .ant-col{
+.Certificates .ant-row .ant-col {
     width: 100% !important;
 }
 
-@media (max-width:900px){
+.CerticationHeadline {
+    display: flex;
+    justify-content: center;
+}
+
+.CerticationHeadline div {
+    width: 50%;
+    border-bottom: 1px solid #BC252B;
+    border-right: 1px solid #BC252B;
+    border-left: 1px solid #BC252B;
+    position: relative;
+    min-height: 120px;
+}
+
+.CerticationHeadline div p {
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    bottom: -60px;
+    background-color: white;
+    margin: 0px 40px;
+    color: #BC252B;
+}
+
+@media (max-width:900px) {
     .Certificates {
         padding: 0rem 1rem;
     }
+
     .CertificatesHeadingContainer h1 {
         font-size: 50px;
         text-align: center;
         margin-bottom: 20px;
     }
+
     .CertificationContainer {
         min-height: 400px;
         width: 100%;
@@ -153,15 +216,17 @@
         padding: 0rem 0rem;
         margin-bottom: 100px;
     }
+
     .CertificationLeftContent {
         width: 100%;
     }
-    
+
     .CertificationRowContainer {
         padding: 0rem 1rem;
     }
+
     .CertificationContainer h1 {
-        font-size:50px;
+        font-size: 50px;
         margin-top: 0px;
         margin-bottom: 0px;
     }

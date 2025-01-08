@@ -13,6 +13,14 @@ import { FaArrowRight } from "react-icons/fa";
 import BackBannerAbout from "./BackBannerAbout.svg"
 import timelinepc from "./timelinepc.png"
 import timelinemobile from "./timelinemobile.png"
+import pngwing from "./Logos/pngwing.com.svg"
+import logo from "./Logos/logo (1).svg"
+import Perfetti from "./Logos/Perfetti_Van_Melle_logo.svg.svg"
+import GSK from "./Logos/GSK_logo_2014.svg.svg"
+import Vector from "./Logos/Vector (1).svg"
+import TheHimalayaLogo from "./Logos/The_Himalaya_Drug_Company_logo.svg"
+import Amway from "./Logos/Amway_(logo).svg.svg"
+import Disney from "./Logos/Disney-Logo-2019-2024.svg"
 const AboutSeedo = () => {
     const ServicesCardData = [
         {
@@ -36,6 +44,42 @@ const AboutSeedo = () => {
             title: "Make in india",
             content: "As strong advocates for local manufacturing, we take pride in sourcing all our components from within India. We fully support and align with Mr. Narendra Modi's vision of promoting the Make in India* initiative, fostering economic growth and self-reliance in our nation"
         },
+    ]
+
+
+    const LogosData = [
+        {
+            img: pngwing,
+            link: "https://www.unilever.com/"
+        },
+        {
+            img: logo,
+            link: "https://www.uscindia.co.in/"
+        },
+        {
+            img: Perfetti,
+            link: "https://www.perfettivanmelle.com/"
+        },
+        {
+            img: GSK,
+            link: "https://www.gsk.com/en-gb/"
+        },
+        {
+            img: Vector,
+            link: "https://www.haldiram.com/"
+        },
+        {
+            img: TheHimalayaLogo,
+            link: "https://himalayawellness.in/"
+        },
+        {
+            img: Amway,
+            link: "https://www.amway.in/"
+        },
+        {
+            img: Disney,
+            link: "https://www.disney.in/"
+        }
     ]
     useEffect(() => {
         // Scroll to the top of the page when the component is mounted
@@ -190,11 +234,21 @@ const AboutSeedo = () => {
             </section> */}
             <section className="OURLEADERSHIPContainer">
                 <div className="LeaderShipHeaderContainer">
-                    <h1>OUR LEADERSHIP</h1>
+                    <h1>Sanson promo innovation LLP clients</h1>
                 </div>
                 <div className="LeaderShipCardContainer">
                     <Row>
-                        <Col lg={8}>
+                        {LogosData.map((item, index) => (
+                            <Col lg={6}>
+                                <Link to={item.link} target="_blank">
+                                <div className="CerticationCardGreyBox">
+                                    <img src={item.img} alt="" />
+                                </div>
+                                </Link>
+                            </Col>
+                        ))}
+
+                        {/* <Col lg={8}>
                             <div className="LeaderShipCardContainerCard">
                                 <div className="LeaderShipImageCardContainer">
 
@@ -226,7 +280,7 @@ const AboutSeedo = () => {
                                     <p>We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. We look forward to hearing from you!We offer these services, and </p>
                                 </div>
                             </div>
-                        </Col>
+                        </Col> */}
                     </Row>
                 </div>
             </section>

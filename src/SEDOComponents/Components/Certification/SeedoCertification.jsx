@@ -72,14 +72,14 @@ const SeedoCertification = () => {
                 </div>
                 <div className="CertificationRowContainer">
                     <Row>
-                        <Col lg={12} md={24} style={{width:"100%"}}>
+                        <Col lg={12} md={24} style={{ width: "100%" }}>
                             <div className="CertificationLeftContent">
-                                <p>We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. We look forward to hearing from you!We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. We look </p>
+                                <p>As strong advocates for local manufacturing, we take pride in sourcing all our components from within India. We fully support and align with Mr. Narendra Modi's visions of promoting the “Make In India" initiative, fostering economic growth and self-reliance in our nation. </p>
                             </div>
                         </Col>
-                        <Col lg={12} md={24} style={{width:"100%"}}>
+                        <Col lg={12} md={24} style={{ width: "100%" }}>
                             <div className="CertificationgrayBoxContainer">
-                                <h1>logo</h1>
+                                <img src="/src/SEDOComponents/CommonComponents/ImagesGallery/Make-in-India-Logo-PNG-HD.svg" alt="" />
                             </div>
                         </Col>
                     </Row>
@@ -141,40 +141,30 @@ const SeedoCertification = () => {
                 </div>
                 <div>
                     <Row>
-                        <Col lg={8} md={12} >
-                            <div className="CerticationCardGreyBox">
-                                <h1>Grid</h1>
-                            </div>
-                        </Col>
-                        <Col lg={8} md={12}>
-                            <div className="CerticationCardGreyBox">
-                                <h1>Grid</h1>
-                            </div>
-                        </Col>
-                        <Col lg={8} md={12}>
-                            <div className="CerticationCardGreyBox">
-                                <h1>Grid</h1>
-                            </div>
-                        </Col>
-                        <Col lg={8} md={12}>
-                            <div className="CerticationCardGreyBox">
-                                <h1>Grid</h1>
-                            </div>
-                        </Col>
-                        <Col lg={8} md={12}>
-                            <div className="CerticationCardGreyBox">
-                                <h1>Grid</h1>
-                            </div>
-                        </Col>
-                        <Col lg={8} md={12}>
-                            <div className="CerticationCardGreyBox">
-                                <h1>Grid</h1>
-                            </div>
-                        </Col>
+                        {CertificationLogoData.map((item, index) => (
 
+                            <Col
+                                lg={8} // Use lg={12} for the first two items, and lg={8} for the rest
+                                md={12}
+                                key={index}
+                            >
+                                <Link to={item.link} target="_blank">
+                                    <div className="CerticationCardGreyBox">
+                                        <img src={item.img} alt="" />
+                                        <h2>{item.title}</h2>
+                                    </div>
+                                </Link>
+                            </Col>
+
+                        ))}
                     </Row>
+                    <div className="CerticationHeadline">
+                              <div>
+                              <p>Passed testing awaiting certificate</p>
+                              </div>
+                    </div>
                 </div>
-            </section>
+            </section >
         </>
     )
 }
