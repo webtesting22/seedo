@@ -137,7 +137,13 @@
 }
 
 @media (max-width:900px) {
-
+    .WhyUsContainer p {
+        text-align: center;
+        color: rgb(0, 0, 0);
+        width: 100%;
+        /* font-size: 50px; */
+    }
+   
     .WhyUsContainer h2 {
         font-size: 50px;
         text-align: center;
@@ -163,10 +169,10 @@
     } */
     #ImageStickyContainer {
         /* height: 50vh; */
-        padding-top: 5rem !important;
+        padding-top: rem !important;
         padding: 0rem 0rem;
         overflow: hidden;
-        padding-bottom: 5rem !important;
+        padding-bottom: 0rem !important;
         position: relative;
         /* background-image: url("../../../../public/Images/HomeStickyImageback.jpeg"); */
         background-size: cover;
@@ -184,9 +190,9 @@
 
     #ImageStickyContainer .WhyUsContainer {
         min-height: 300px;
-        width: 100%;
-        background-color: #BC252B;
-        padding: 50px 0px;
+        width: unset;
+        /* background-color: #BC252B; */
+        padding: 20px 10px;
         display: flex;
         align-items: center;
         justify-content: space-between;

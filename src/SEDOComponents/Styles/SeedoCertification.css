@@ -196,7 +196,66 @@
     color: #BC252B;
 }
 
-@media (max-width:900px) {
+.LeaderShipCardContainer .ant-row .ant-col {
+    width: 100%;
+}
+
+@media (max-width:769px) {
+    .CerticationCardGreyBox img {
+        width: 80%;
+        height: 100%;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+    }
+
+    .LeaderShipCardContainer .ant-row {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .LeaderShipCardContainer .ant-row .ant-col {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .CerticationCardGreyBox {
+        min-height: 100%;
+        /* width: 100%; */
+        padding: 20px 10px;
+        border-radius: 23px;
+        /* background: #D9D9D9; */
+        margin: 10px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 0.5px solid rgba(0, 0, 0, 0.215);
+        transition: .5s;
+
+
+    }
+
+    .CerticationCardGreyBox:hover {
+        min-height: 100%;
+        /* width: 100%; */
+        padding: 20px 10px;
+        border-radius: 23px;
+        /* background: #D9D9D9; */
+        margin: 10px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 0.5px solid rgba(0, 0, 0, 0.771);
+        transition: .5s;
+
+    }
+
+
+
     .Certificates {
         padding: 0rem 1rem;
     }

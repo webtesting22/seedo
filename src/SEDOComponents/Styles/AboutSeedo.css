@@ -298,6 +298,7 @@
     background-color: #D9D9D9;
     display: flex;
     align-items: center;
+    position: relative;
     justify-content: center;
 }
 
@@ -305,8 +306,15 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+    position: absolute;
 }
 
+.TopVideoContainer>div{
+    position: sticky;
+}
+.TopVideoContainer>div h1{
+    color: white;
+}
 .AboutContentContainer {
     padding: 80px 0px;
 }
@@ -314,7 +322,7 @@
 .AboutContentContainer h1 {
     font-size: 40px;
     text-align: center;
-    font-weight: 800;
+    /* font-weight: 800; */
     margin-bottom: 0px;
 }
 
@@ -334,6 +342,7 @@
 
 .FounderContent {
     width: 70%;
+    padding: 80px 0px;
 }
 
 .FounderContent h1 {
@@ -516,6 +525,13 @@ margin: 0px;
 }
 
 @media (max-width:900px) {
+    .FounderContent {
+        width: 70%;
+        padding: 20px 0px;
+    }
+    .AboutContentContainer {
+        padding: 20px 0px;
+    }
     .JourneyImageContainer img:first-child {
         display: none;
         width: 100%;
@@ -548,7 +564,9 @@ margin: 0px;
     .LeaderShipHeaderContainer {
         padding: 0rem 1rem;
     }
-
+    .OURLEADERSHIPContainer{
+        padding: 20px 0px;
+    }
     .OURLEADERSHIPContainer h1 {
         font-size: 50px;
     }
@@ -572,7 +590,7 @@ margin: 0px;
     .MissionContainer,
     .VisionContainer,
     .PurposeContainer {
-        background-color: #D9D9D9;
+        /* background-color: #D9D9D9; */
         padding: 50px 00px;
         margin-top: 2rem;
     }
@@ -623,7 +641,7 @@ margin: 0px;
     .AboutContentContainer h1 {
         font-size: 50px;
         text-align: center;
-        font-weight: 800;
+        /* font-weight: 800; */
         margin-bottom: 0px;
     }
 }

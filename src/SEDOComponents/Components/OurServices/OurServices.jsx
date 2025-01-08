@@ -8,6 +8,8 @@ import About3 from "./About3.svg"
 import About5 from "./About5 1.svg"
 import About7 from "./About7 1.svg"
 import About10 from "./About10 1.svg"
+import TopBanner from "./TopBanner.svg"
+import ODMBanner from "./ODMBanner.svg"
 const OurServices = () => {
     const servicesData = [
         {
@@ -16,6 +18,7 @@ const OurServices = () => {
         },
         {
             title: "ODM",
+            img:ODMBanner,
             description: "We specialize in Original Design manufacturing, creating innovative products tailored to clients' specifications. Our focus is on quality, customization, and delivering exceptional value to our partners."
         },
         {
@@ -27,6 +30,7 @@ const OurServices = () => {
         <>
             <Navigation />
             <div className="TopVideoContainer" style={{ paddingTop: "5rem" }}>
+                <img src={TopBanner} alt="" />
                 <div>
                     <h1 style={{ fontSize: "60px" }}>OUR SERVICES</h1>
                 </div>
@@ -137,7 +141,7 @@ const OurServices = () => {
                             </Col>
                             <Col lg={12} md={24}>
                                 <div className="BlankGrayBoxContainer">
-
+                                        <img src={item.img} alt="" />
                                 </div>
                             </Col>
                         </Row>
