@@ -25,6 +25,7 @@ import { Row, Col } from "antd";
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import AboutUsSection from "./AboutUsSection.png"
+import Zepto from "./Zepto.png"
 
 const ZoomCards = () => {
     const imageRef = useRef(null);
@@ -182,7 +183,7 @@ const ZoomCards = () => {
                         <SwiperSlide >
                             <Link to="https://www.zeptonow.com/" target="_blank">
                                 <div className="GrayCardContainer">
-                                    <img src={zapto} alt="" />
+                                    <img src={Zepto} alt="" />
                                 </div>
                             </Link >
                         </SwiperSlide >
