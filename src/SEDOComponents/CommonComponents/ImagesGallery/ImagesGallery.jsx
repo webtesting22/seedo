@@ -19,9 +19,10 @@ import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 // import required modules
-import { Autoplay, Pagination, Navigation,FreeMode } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation, FreeMode } from 'swiper/modules';
 import MakeinIndia from "./Make-in-India-Logo-PNG-HD.svg"
 import BestSellerProducts from "../../BestSellerProductList";
+
 const ImagesGallery = () => {
     const ImagesGalleryData = [
         image1,
@@ -99,8 +100,9 @@ const ImagesGallery = () => {
                             <Col lg={8} md={12} style={{ width: "100%" }}>
                                 <Link to="/ourservices">
                                     <div className="GreyBox">
-                                        <h4>Original Equipment Manufacturer</h4>
-                                        <p className="HidePara">OEM</p>
+                                        <h4>Original Equipment Manufacturer (OEM)</h4>
+                                        {/* <p className="HidePara"></p> */}
+                                        <button><FaArrowRightLong /></button>
                                         {/* <p>We specialize in Original Design manufacturing, creating innovative products tailored to clients' specifications. Our focus is on quality, customization, and delivering exceptional value to our partners.</p> */}
                                     </div>
                                 </Link>
@@ -108,8 +110,9 @@ const ImagesGallery = () => {
                             <Col lg={8} md={12} style={{ width: "100%" }}>
                                 <Link to="/ourservices">
                                     <div className="GreyBox">
-                                        <h4>Original Design Manufacturing</h4>
-                                        <p className="HidePara">ODM</p>
+                                        <h4>Original Design Manufacturing (ODM)</h4>
+                                        {/* <p className="HidePara"></p> */}
+                                        <button><FaArrowRightLong /></button>
                                         {/* <p>We specialize in producing high-quality products tailored to our client's specifications, ensuring exceptional quality and performance while fostering
                                         strong partnerships for mutual growth success.
                                     </p> */}
@@ -120,6 +123,7 @@ const ImagesGallery = () => {
                                 <Link to="/ourservices">
                                     <div className="GreyBox">
                                         <h4 >WHITE LABEL</h4>
+                                        <button><FaArrowRightLong /></button>
                                         {/* <p>We offer white-label solutions, allowing you to brand our high-quality products as your own. This enables you to expand your product range while maintaining your unique brand identity.
                                     </p> */}
                                     </div>
@@ -154,7 +158,7 @@ const ImagesGallery = () => {
                             pagination={{
                                 clickable: true,
                             }}
-                            modules={[Autoplay,FreeMode, Pagination]}
+                            modules={[Autoplay, FreeMode, Pagination]}
                             className="mySwiper"
                         >
                             {BestSellerProducts.BestSeller.products.map((item, index) => (
