@@ -1,33 +1,71 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./ImageStickyContainer.css"
 import { FaArrowRightLong } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { Row, Col } from "antd";
 const ImageSticky = () => {
+    const containerRef = useRef(null);
+
+    useEffect(() => {
+        const images = containerRef.current.querySelectorAll('img');
+
+        const handleScroll = () => {
+            images.forEach((image) => {
+                const rect = image.getBoundingClientRect();
+                const screenHeight = window.innerHeight;
+
+                // Calculate fade based on position relative to the viewport
+                const fadeFactor = Math.min(Math.max((screenHeight - rect.top) / screenHeight, 0), 1);
+                image.style.opacity = fadeFactor.toString();
+            });
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        // Run once initially to ensure images are updated correctly on load
+        handleScroll();
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return (
         <>
-            <section id="ImageStickyContainer">
-               
-                <div className="WhyUsContainer">
-                    <h2>why us<span style={{color:"red"}}>?</span></h2>
-                    <p>We are a company that is highly cautious about our claims, and we assure you that our services and products undergo thorough testing to eliminate any signs of carelessness on our part. We are developing an electronic product that is 100% safe for kids and of the highest quality. I am excited to share that we will soon be one of India's leading companies.</p>
-                    {/* <p>Primary CTA</p> */}
+            <div className="WhyUsContainer">
+                <div className="stickyContainer">
+                    <h2>Why Choose Us?</h2>
+                    <p>We are committed to excellence and safety in everything we do. Every product undergoes rigorous quality checks to ensure it meets the highest safety standards, making them 100% kid-safe and crafted with precision.
+                        Our goal? To become India’s leading brand, setting new benchmarks for quality and creativity.
+                    </p>
                 </div>
-
-                {/* <div className="BlackOverlayContainer">
-
+                <div className="AnimatedImageContainer" ref={containerRef}>
+                    <Row>
+                        <Col lg={8}>
+                            <img
+                                src="https://images.unsplash.com/photo-1623939012339-5b3dc8eca7c6?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                alt=""
+                                className="fade-image"
+                            />
+                        </Col>
+                        <Col lg={8}>
+                            <img
+                                src="https://plus.unsplash.com/premium_photo-1661430916195-f8bfa159d705?q=80&w=2711&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                alt=""
+                                className="fade-image"
+                            />
+                        </Col>
+                        <Col lg={8}>
+                            <img
+                                src="https://images.unsplash.com/photo-1606818230946-61140311ad95?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                alt=""
+                                className="fade-image"
+                            />
+                        </Col>
+                    </Row>
                 </div>
-                <div className="WriteUpRelatedCompany">
-                    <div>
-                        <p style={{ margin: "0px",color:"#F8D966" }}>About The SEEDO</p>
-                        <h2 style={{ marginTop: "0px" }}>Watch Our Story</h2>
-                        <p>Sanson is a leading innovator in consumer and trade promotions, trusted by major FMCG brands in India such as Unilever, Glaxò, Perfetti, Mondelez, Britannia, and more...</p>
-                        <div style={{display:"flex",justifyContent:"center",width:"100%"}}>
-                        <Link to="/aboutSeedo"><button><FaArrowRightLong/></button></Link>
-                        </div>
-                    </div>
-                </div> */}
-            </section>
+                {/* <p>Primary CTA</p> */}
+            </div>
         </>
     )
 }

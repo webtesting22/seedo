@@ -66,8 +66,8 @@
 .OurServicesSection .headingHeaderContainer h1 {
     font-size: 40px;
     margin-top: 0px;
-    width: 60%;
-    /* text-align: center; */
+    width: 100%;
+    text-align: center;
 
 }
 
@@ -92,26 +92,25 @@
 .CardsContainer .GreyBox {
     /* height: 300px; */
     /* width: 100%; */
-    background-color: #BC252B;
+    /* background-color: #BC252B; */
     margin: 20px;
     border-radius: 23px;
+    border: 1px solid red;
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: rgb(0, 0, 0);
     flex-direction: column;
 }
 
-.CardsContainer .GreyBox:hover {
-    background-color: #8f1c20;
-}
 
 .CardsContainer .GreyBox h4 {
-    font-size: 26px;
+    font-size: 25px;
     transform: translateY(20px);
     transition: .5s;
 }
+
 .CardsContainer .GreyBox:hover h4 {
     font-size: 26px;
     transform: translateY(0px);
@@ -162,12 +161,30 @@
 
 }
 
+.BestSellerCardsContainer {
+    border: 1px dashed #BC252B;
+    padding: 20px 10px;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 180px;
+    justify-content: space-between;
+    background-color: rgb(235, 235, 235);
+}
+
+.BestSellerCardsContainer h3{
+    margin-bottom: 0px;
+    font-size: 18px;
+    text-align: center;
+}
 .OurBestsellers .ant-row .ant-col:nth-child(1)>div {
     padding-right: 40px;
 }
 
 .BestSellerImage {
-    width: 90%;
+    width: 150px;
     aspect-ratio: 3/2;
     object-fit: contain;
 }

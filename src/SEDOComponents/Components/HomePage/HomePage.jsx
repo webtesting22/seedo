@@ -77,7 +77,7 @@ const HomePage = () => {
                     </div>
                     <div className="HomePageContentContainer">
                         <div style={{ width: "100%" }}>
-                            <h1>BREAK THE LIMITS</h1>
+                            <h1>BREAK THE LIMIT</h1>
                             {/* <div className="HomeheadingContainer">
                                 <h1>We Create For You!</h1>
                             </div>

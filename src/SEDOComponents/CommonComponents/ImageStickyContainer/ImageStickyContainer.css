@@ -11,6 +11,48 @@
     /* margin-top: 3rem; */
 }
 
+.WhyUsContainer {
+    padding: 80px 40px;
+}
+
+.stickyContainer {
+    position: sticky;
+    top: 30%;
+    z-index: 5;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.AnimatedImageContainer .ant-row .ant-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AnimatedImageContainer .ant-row .ant-col:nth-child(2) img{
+    margin-top: 100px;
+}
+.AnimatedImageContainer .ant-row .ant-col img {
+    width: 70%;
+    border-radius: 20px;
+}
+
+.AnimatedImageContainer img {
+    opacity: 0; /* Start completely transparent */
+    transition: opacity 0.3s ease; /* Smooth fade transition */
+    will-change: opacity; /* Optimize for better performance */
+  }
+  
+  .AnimatedImageContainer {
+    position: relative;
+    overflow: hidden; /* Prevent scrollbars from appearing */
+  }
+  
+  .AnimatedImageContainer img.fade-image {
+    transform: translateY(10px); /* Optional slight movement for extra smoothness */
+  }
+  
 .BlackOverlayContainer {
     position: absolute;
     left: 0px;
@@ -113,7 +155,7 @@
 
 
 .WhyUsContainer h2 {
-    font-size: 60px;
+    font-size: 40px;
     text-align: center;
     margin: 0px;
 }
@@ -122,6 +164,7 @@
     text-align: center;
     color: rgb(0, 0, 0);
     width: 60%;
+    font-size: 20px;
     /* font-size: 50px; */
 }
 
@@ -143,9 +186,9 @@
         width: 100%;
         /* font-size: 50px; */
     }
-   
+
     .WhyUsContainer h2 {
-        font-size: 50px;
+        font-size: 40px;
         text-align: center;
     }
 

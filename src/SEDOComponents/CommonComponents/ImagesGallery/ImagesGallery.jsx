@@ -19,8 +19,9 @@ import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 // import required modules
-import { FreeMode, Pagination } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation,FreeMode } from 'swiper/modules';
 import MakeinIndia from "./Make-in-India-Logo-PNG-HD.svg"
+import BestSellerProducts from "../../BestSellerProductList";
 const ImagesGallery = () => {
     const ImagesGalleryData = [
         image1,
@@ -33,9 +34,18 @@ const ImagesGallery = () => {
 
     const BestSellerdata = [
 
-        BestSeller3,
-        BestSeller1,
+        // BestSeller3,
+        // BestSeller1,
         BestSeller2,
+        BestSeller2,
+        BestSeller2,
+        BestSeller2,
+        BestSeller2,
+        BestSeller2,
+        BestSeller2,
+        BestSeller2,
+
+
 
 
     ]
@@ -81,35 +91,35 @@ const ImagesGallery = () => {
 
                     <div className="CardsContainer" style={{ width: "100%" }}>
                         <Row style={{ width: "100%" }}>
-                            <Col lg={6} style={{ width: "100%" }}>
+                            <Col lg={24} style={{ width: "100%" }}>
                                 <div className="headingHeaderContainer">
                                     <h1>Our Services</h1>
                                 </div>
                             </Col>
-                            <Col lg={6} md={12} style={{ width: "100%" }}>
+                            <Col lg={8} md={12} style={{ width: "100%" }}>
                                 <Link to="/ourservices">
                                     <div className="GreyBox">
-                                        <h4>OEM</h4>
-                                        <p className="HidePara">Original Equipment Manufacturer</p>
+                                        <h4>Original Equipment Manufacturer</h4>
+                                        <p className="HidePara">OEM</p>
                                         {/* <p>We specialize in Original Design manufacturing, creating innovative products tailored to clients' specifications. Our focus is on quality, customization, and delivering exceptional value to our partners.</p> */}
                                     </div>
                                 </Link>
                             </Col>
-                            <Col lg={6} md={12} style={{ width: "100%" }}>
+                            <Col lg={8} md={12} style={{ width: "100%" }}>
                                 <Link to="/ourservices">
                                     <div className="GreyBox">
-                                        <h4>ODM</h4>
-                                        <p className="HidePara">Original Design Manufacturing</p>
+                                        <h4>Original Design Manufacturing</h4>
+                                        <p className="HidePara">ODM</p>
                                         {/* <p>We specialize in producing high-quality products tailored to our client's specifications, ensuring exceptional quality and performance while fostering
                                         strong partnerships for mutual growth success.
                                     </p> */}
                                     </div>
                                 </Link>
                             </Col>
-                            <Col lg={6} md={12} style={{ width: "100%" }}>
+                            <Col lg={8} md={12} style={{ width: "100%" }}>
                                 <Link to="/ourservices">
                                     <div className="GreyBox">
-                                        <h4 >WHITE LABLE</h4>
+                                        <h4 >WHITE LABEL</h4>
                                         {/* <p>We offer white-label solutions, allowing you to brand our high-quality products as your own. This enables you to expand your product range while maintaining your unique brand identity.
                                     </p> */}
                                     </div>
@@ -132,29 +142,42 @@ const ImagesGallery = () => {
                     <br />
                     <div>
                         <Swiper
-                            slidesPerView={3}
+                            slidesPerView={5}
                             spaceBetween={30}
                             freeMode={true}
+                            loop={true}
+                            autoplay={{
+                                delay: 600,
+                                disableOnInteraction: false,
+                            }}
+                            speed={1000}
                             pagination={{
                                 clickable: true,
                             }}
-                            modules={[FreeMode, Pagination]}
+                            modules={[Autoplay,FreeMode, Pagination]}
                             className="mySwiper"
                         >
-                            {BestSellerdata.map((item, index) => (
-                                <SwiperSlide key={index}>
-                                    <img src={item} alt={`Best Seller ${index + 1}`} className="BestSellerImage" />
+                            {BestSellerProducts.BestSeller.products.map((item, index) => (
+                                <SwiperSlide key={item.id}>
+                                    <div className="BestSellerCardsContainer">
+                                        <img
+                                            src={item.ProductImage[0]} // Use the first image in the ProductImage array
+                                            alt={item.name} // Set alt text to the product name
+                                            className="BestSellerImage"
+                                        />
+                                        <h3 className="BestSellerTitle">{item.name}</h3>
+                                    </div>
                                 </SwiperSlide>
                             ))}
                         </Swiper>
                     </div>
                 </div>
             </section>
-            <section className="OurBestsellers">
+            {/* <section className="OurBestsellers">
                 <div className="OurServicesSection" style={{ padding: "0px" }}>
-                    {/* <div className="headingHeaderContainer">
+                    <div className="headingHeaderContainer">
                      
-                    </div> */}
+                    </div>
                     <Row>
                         <Col lg={12}>
                             <div>
@@ -170,7 +193,7 @@ const ImagesGallery = () => {
                         </Col>
                     </Row>
                 </div>
-            </section>
+            </section> */}
         </>
     )
 }

@@ -24,8 +24,40 @@ import 'swiper/css/navigation';
 import { Row, Col } from "antd";
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import AboutUsSection from "./AboutUsSection.png"
 
 const ZoomCards = () => {
+    const imageRef = useRef(null);
+    const [width, setWidth] = useState('40%');
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (imageRef.current) {
+                const rect = imageRef.current.getBoundingClientRect();
+                const scrollFactor = Math.min(Math.max((window.innerHeight - rect.top) / window.innerHeight, 0), 1);
+                const newWidth = 40 + scrollFactor * 30; // 40% to 100%
+                setWidth(`${newWidth}%`);
+            }
+        };
+
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    window.addEventListener('scroll', handleScroll);
+                } else {
+                    window.removeEventListener('scroll', handleScroll);
+                }
+            },
+            { threshold: 0.1 }
+        );
+
+        if (imageRef.current) observer.observe(imageRef.current);
+
+        return () => {
+            observer.disconnect();
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
     // const [hoveredItem, setHoveredItem] = useState(null);
 
     // const items = [
@@ -39,31 +71,57 @@ const ZoomCards = () => {
 
     return (
         <>
+            {/* <div style={{ display: "flex", justifyContent: "center" }}>
+                <div className="SANSONGraphicContainer">
+                    <div>
+                        <h1 style={{ fontSize: "40px", color: "white", margin: "0px" }}>Sanson Promotion Innovations LLP</h1>
+                        <p>Sanson Promo Innovations LLP is a prominent leader in consumer and trade promotions, trusted by major FMCG brands such as Unilever, Glaxo, Perfetti, Mondelez, and Britannia. The company excels in collaborating with esteemed licensors like Disney, Marvel, Mattel, Pokémon, and Doraemon. With comprehensive expertise in conceptualization, product engineering, mass manufacturing, quality assurance, and logistics, Sanson consistently surpasses client expectations.This commitment to delivering high-quality products and innovative campaigns not only fosters brand loyalty but also drives significant business growth.</p>
+                    </div>
+                </div>
+            </div> */}
+            <div className="AboutSeedoContent">
+                <div>
+                    <p>Welcome to Seedo Toys</p>
+                    <h1>Where Imagination Comes to Life!</h1>
+                </div>
+                <div>
+                    <div>
+                        <img ref={imageRef} src={AboutUsSection} alt="" style={{
+                            width,
+                            // transition: 'width 0.2s ease',
+                            height: '100%',
+                            objectFit: 'cover',
+                        }} />
+                        <p><b>At Seedo Toys,</b> we believe in sparking <b>creativity and joy</b> with every toy we make. Our collection of high-quality, safe, and affordable toys is crafted to inspire children’s imaginations while giving <b>parents complete peace of mind</b>.
+                        </p>
+                    </div>
+                </div>
+            </div>
             <div style={{ display: "flex", justifyContent: "center" }}>
                 <div className="SANSONGraphicContainer">
                     <div>
-                        <h1 style={{ fontSize: "40px", color: "white", margin: "0px" }}>Sanson Promotion Innovation LLP</h1>
+                        <h1 style={{ fontSize: "40px", color: "white", margin: "0px" }}>Sanson Promotion Innovations LLP</h1>
                         <p>Sanson Promo Innovations LLP is a prominent leader in consumer and trade promotions, trusted by major FMCG brands such as Unilever, Glaxo, Perfetti, Mondelez, and Britannia. The company excels in collaborating with esteemed licensors like Disney, Marvel, Mattel, Pokémon, and Doraemon. With comprehensive expertise in conceptualization, product engineering, mass manufacturing, quality assurance, and logistics, Sanson consistently surpasses client expectations.This commitment to delivering high-quality products and innovative campaigns not only fosters brand loyalty but also drives significant business growth.</p>
                     </div>
                 </div>
             </div>
             <section id="ZoomCardsContainer">
 
-                <Row>
+                {/* <Row>
                     <Col lg={12}>
                         <div className="headingHeaderContainer" style={{ padding: "0px" }}>
-                            <h1>We have hold on more then <span style={{ color: "#BC252B" }}>ON  +3000 stores in india</span></h1>
+                            <h1>Trusted Presence <b>Across India</b></h1>
                         </div>
                     </Col>
                     <Col lg={12}>
                         <div>
-                            <p style={{ fontSize: "18px" }}>To learn more about our perspective on how we achieved this goal and to understand our vision, please continue reading.</p>
+                            <p style={{ fontSize: "18px" }}>Proudly available in 3000+ stores nationwide, bringing quality and innovation closer to you every day!</p>
                             <Link to="/aboutSeedo"><button className="KnowMorebtn">Know More</button></Link>
                         </div>
                     </Col>
-                </Row>
+                </Row> */}
                 <div className="headingHeaderContainer">
-                    <h1 style={{ textAlign: "center" }}>Where to buy?</h1>
+                    <h1 style={{ textAlign: "center" }}>Where to Find Us?</h1>
                 </div>
                 <div id="ClientSliderContainer">
                     <Swiper
@@ -74,7 +132,7 @@ const ZoomCards = () => {
                             delay: 100,
                             disableOnInteraction: false,
                         }}
-                        speed={3000} // Smooth scrolling speed
+                        speed={2000} // Smooth scrolling speed
                         modules={[Autoplay, Pagination, Navigation]}
                         className="mySwiper"
                     >

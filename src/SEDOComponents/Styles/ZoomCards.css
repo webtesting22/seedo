@@ -162,9 +162,6 @@ ul[class] {
 
 }
 
-#ZoomCardsContainer .headingHeaderContainer {
-    padding-top: 80px;
-}
 
 #ZoomCardsContainer .headingHeaderContainer h1 {
     font-size: 40px;
@@ -181,10 +178,11 @@ ul[class] {
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid black;
 }
 
 .GrayCardContainer img {
-    width: 100%;
+    width: 200px;
     aspect-ratio: 3/2;
     object-fit: contain;
 }
@@ -206,7 +204,50 @@ ul[class] {
     width: 100%;
 } */
 
+
+
+.AboutSeedoContent {
+    padding: 80px 40px;
+}
+
+
+.AboutSeedoContent div h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+.AboutSeedoContent div:first-child p {
+    text-align: center;
+    color: #BC252B;
+    margin-bottom: 10px;
+}
+
+.AboutSeedoContent div:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.AboutSeedoContent div:last-child p {
+    width: 60%;
+    text-align: center;
+    color: black;
+}
+.AboutSeedoContent div:last-child div img{
+    width: 70%;
+    padding: 40px 0px;
+}
 @media (max-width:769px) {
+    .AboutSeedoContent div:last-child p {
+        width: 100%;
+        text-align: center;
+        color: black;
+    }
+.AboutSeedoContent {
+    padding: 80px 10px;
+}
 
     #ZoomCardsContainer .headingHeaderContainer h1 {
         font-size: 50px;
@@ -260,3 +301,5 @@ ul[class] {
     }
 
 }
+
+
