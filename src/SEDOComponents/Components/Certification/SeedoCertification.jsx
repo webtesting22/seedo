@@ -12,6 +12,7 @@ import logo8 from "/Images/Logos/ROHS.png"
 import { Link } from "react-router-dom";
 import MakeInIndia from "/Images/Logos/MakeInIndia.jpg"
 import { FaArrowRight } from "react-icons/fa";
+import ASTM from "./ASTM_logo.svg.png"
 const SeedoCertification = () => {
     const CertificationLogoData = [
         {
@@ -20,10 +21,14 @@ const SeedoCertification = () => {
             link: "https://www.makeinindia.com/"
         },
         {
-            img: logo1,
-            title: "Conformité Européenne",
-            link: "https://ec.europa.eu/growth/single-market/ce-marking/"
-
+            img: logo7,
+            title: "Ministry of Micro, Small and Medium Enterprises",
+            link: "https://www.msme.gov.in"
+        },
+        {
+            img: logo3,
+            title: "Good Manufacturing Practices",
+            link: "https://www.who.int/teams/health-product-policy-and-standards/standards-and-specifications/norms-and-standards/gmp"
         },
         {
             img: logo2,
@@ -32,31 +37,35 @@ const SeedoCertification = () => {
             link: "https://gem.gov.in/",
         },
         {
-            img: logo3,
-            title: "Good Manufacturing Practices",
-            link: "https://www.who.int/teams/health-product-policy-and-standards/standards-and-specifications/norms-and-standards/gmp"
+            img: logo1,
+            title: "Conformité Européenne",
+            link: "https://ec.europa.eu/growth/single-market/ce-marking/"
+
         },
+
+
         {
             img: logo4,
             title: "Gulf Conformity Mark",
             link: "https://www.gso.org.sa/en/conformity/gcc-conformity-mark/"
         },
         {
-            img: logo5,
-            title: "International Organization for Standardization",
-            link: "https://www.iso.org/home.html"
+            img: ASTM,
+            title: "ASTM International",
+            link: "https://www.astm.org/"
         },
-        {
-            img: logo6,
-            // title: "मानक : पथप्रदर्शक",
-            title: "Bureau of Indian Standards",
-            link: "https://www.bis.gov.in"
-        },
-        {
-            img: logo7,
-            title: "Ministry of Micro, Small and Medium Enterprises",
-            link: "https://www.msme.gov.in"
-        },
+        // {
+        //     img: logo5,
+        //     title: "International Organization for Standardization",
+        //     link: "https://www.iso.org/home.html"
+        // },
+        // {
+        //     img: logo6,
+        //     // title: "मानक : पथप्रदर्शक",
+        //     title: "Bureau of Indian Standards",
+        //     link: "https://www.bis.gov.in"
+        // },
+
         {
             img: logo8,
             title: "Restriction of Hazardous Substances",
@@ -68,7 +77,7 @@ const SeedoCertification = () => {
 
             <section id="SeedoCertificationContainer">
                 <div className="CertificationContainer">
-                    <h1>Make In India </h1>
+                    <h1>Certifications </h1>
                 </div>
                 <div className="CertificationRowContainer">
                     <Row>
@@ -158,11 +167,11 @@ const SeedoCertification = () => {
 
                         ))}
                     </Row>
-                    <div className="CerticationHeadline">
-                              <div>
-                              <p>Passed testing awaiting certificate</p>
-                              </div>
-                    </div>
+                    {/* <div className="CerticationHeadline">
+                        <div>
+                            <p>Passed testing awaiting certificate</p>
+                        </div>
+                    </div> */}
                 </div>
             </section >
         </>

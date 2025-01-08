@@ -13,7 +13,9 @@ import BestSeller1 from "./1.svg"
 import BestSeller2 from "./2.svg"
 import BestSeller3 from "./3.svg"
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import odm from "./odm.png"
+import oem from "./oem.png"
+import white from "./white label.png"
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/free-mode';
@@ -100,7 +102,9 @@ const ImagesGallery = () => {
                             <Col lg={8} md={12} style={{ width: "100%" }}>
                                 <Link to="/ourservices">
                                     <div className="GreyBox">
+                                        <img src={oem} alt="" />
                                         <h4>Original Equipment Manufacturer (OEM)</h4>
+                                        <p>We specialize in producing high-quality products tailored to our client's...</p>
                                         {/* <p className="HidePara"></p> */}
                                         <button><FaArrowRightLong /></button>
                                         {/* <p>We specialize in Original Design manufacturing, creating innovative products tailored to clients' specifications. Our focus is on quality, customization, and delivering exceptional value to our partners.</p> */}
@@ -110,8 +114,9 @@ const ImagesGallery = () => {
                             <Col lg={8} md={12} style={{ width: "100%" }}>
                                 <Link to="/ourservices">
                                     <div className="GreyBox">
+                                        <img src={odm} alt="" />
                                         <h4>Original Design Manufacturing (ODM)</h4>
-                                        {/* <p className="HidePara"></p> */}
+                                        <p >We specialize in Original Design manufacturing, creating innovative products...</p>
                                         <button><FaArrowRightLong /></button>
                                         {/* <p>We specialize in producing high-quality products tailored to our client's specifications, ensuring exceptional quality and performance while fostering
                                         strong partnerships for mutual growth success.
@@ -122,7 +127,9 @@ const ImagesGallery = () => {
                             <Col lg={8} md={12} style={{ width: "100%" }}>
                                 <Link to="/ourservices">
                                     <div className="GreyBox">
-                                        <h4 >WHITE LABEL</h4>
+                                        <img src={white} alt="" />
+                                        <h4 >White Label</h4>
+                                        <p>We offer white-label solutions, allowing you to brand our high-quality products...</p>
                                         <button><FaArrowRightLong /></button>
                                         {/* <p>We offer white-label solutions, allowing you to brand our high-quality products as your own. This enables you to expand your product range while maintaining your unique brand identity.
                                     </p> */}

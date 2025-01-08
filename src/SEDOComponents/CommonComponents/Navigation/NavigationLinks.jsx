@@ -1,24 +1,26 @@
 const NavigationLinks = [
     {
-        link: "Products",
-        path: "/products"
-    },
-    {
         link: "About Us",
         path: "/aboutSeedo"
     },
+    {
+        link: "Our Products",
+        path: "/products"
+    },
+   
 
     {
-        link: "Certifications And Clients",
+        link: "Certifications",
         path: "/certification-and-client",
+    },
+   
+    {
+        link: "Our Services",
+        path: "/ourservices",
     },
     {
         link: "Contact",
         path: "/contact",
-    },
-    {
-        link: "Our Services",
-        path: "/ourservices",
     },
 
 ]

@@ -97,13 +97,36 @@
     border-radius: 23px;
     border: 1px dashed #bc252a7e;
     padding: 20px;
-    min-height: 200px;
+    min-height: 320px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: rgb(0, 0, 0);
     flex-direction: column;
     overflow: hidden;
+}
+.CardsContainer .GreyBox img{
+    width: 40px;
+    height: 40px;
+    background-color: #bc252a;
+    padding: 10px;
+    aspect-ratio: 3 / 2;
+    border-radius: 50%;
+    object-fit: contain;
+    transform: translateY(30px);
+    transition: .5s;
+}
+
+.CardsContainer .GreyBox:hover img{
+    width: 40px;
+    height: 40px;
+    background-color: #bc252a;
+    padding: 10px;
+    aspect-ratio: 3 / 2;
+    border-radius: 50%;
+    object-fit: contain;
+    transform: translateY(00px);
+    transition: .5s;
 }
 
 
@@ -151,7 +174,8 @@
 }
 
 .CardsContainer .GreyBox p {
-    font-size: 18px
+    font-size: 18px;
+    text-align: center;
 }
 
 .CardsContainer .GreyBox .HidePara {
@@ -204,7 +228,7 @@
     flex-direction: column;
     min-height: 180px;
     justify-content: space-between;
-    background-color: rgb(235, 235, 235);
+    /* background-color: rgb(235, 235, 235); */
 }
 
 .BestSellerCardsContainer h3 {

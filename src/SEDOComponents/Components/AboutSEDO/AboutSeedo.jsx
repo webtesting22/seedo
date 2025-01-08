@@ -234,7 +234,7 @@ const AboutSeedo = () => {
             </section> */}
             <section className="OURLEADERSHIPContainer">
                 <div className="LeaderShipHeaderContainer">
-                    <h1>Sanson promo innovation LLP clients</h1>
+                    <h1>Sanson Promotion Innovations LLP clients</h1>
                 </div>
                 <div className="LeaderShipCardContainer">
                     <Row>
