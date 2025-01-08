@@ -23,7 +23,7 @@ const Footer = () => {
                             <div className="ContactContainerandSocial">
                                 <div>
                                     <p>Contact us</p>
-                                    <p>Email: XYZ@GMAIL.COM</p>
+                                    <p>Email:  <Link to="mailto:info@seedotoys.com" target="_blank" style={{color:"white"}}>info@seedotoys.com</Link></p>
                                     <p>Privacy Policy</p>
                                     <p>Terms and Condition</p>
                                 </div>

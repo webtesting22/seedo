@@ -90,6 +90,7 @@ const ImagesGallery = () => {
                                 <Link to="/ourservices">
                                     <div className="GreyBox">
                                         <h4>OEM</h4>
+                                        <p className="HidePara">Original Equipment Manufacturer</p>
                                         {/* <p>We specialize in Original Design manufacturing, creating innovative products tailored to clients' specifications. Our focus is on quality, customization, and delivering exceptional value to our partners.</p> */}
                                     </div>
                                 </Link>
@@ -98,6 +99,7 @@ const ImagesGallery = () => {
                                 <Link to="/ourservices">
                                     <div className="GreyBox">
                                         <h4>ODM</h4>
+                                        <p className="HidePara">Original Design Manufacturing</p>
                                         {/* <p>We specialize in producing high-quality products tailored to our client's specifications, ensuring exceptional quality and performance while fostering
                                         strong partnerships for mutual growth success.
                                     </p> */}
@@ -107,7 +109,7 @@ const ImagesGallery = () => {
                             <Col lg={6} md={12} style={{ width: "100%" }}>
                                 <Link to="/ourservices">
                                     <div className="GreyBox">
-                                        <h4>WHITE LABLE</h4>
+                                        <h4 >WHITE LABLE</h4>
                                         {/* <p>We offer white-label solutions, allowing you to brand our high-quality products as your own. This enables you to expand your product range while maintaining your unique brand identity.
                                     </p> */}
                                     </div>

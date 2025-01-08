@@ -1,7 +1,7 @@
 #Footer {
     padding-top: 4rem !important;
     padding: 0rem 4rem;
-    background-color: #BC252B;
+    background: #253874;
     margin-top: 3rem !important;
     padding-bottom: 1rem;
     color: white;
@@ -11,6 +11,7 @@
 #Footer .LinksContainer ul li {
     list-style: none;
     padding: 7px 0px;
+    font-size: 18px;
 }
 
 .ContactContainerandSocial>div:nth-child(2) {
@@ -32,7 +33,7 @@
     #Footer {
         padding-top: 4rem !important;
         padding: 20px 10px;
-        background-color: #BC252B;
+        background: #253874;
         margin-top: 3rem !important;
         padding-bottom: 1rem;
         color: white;

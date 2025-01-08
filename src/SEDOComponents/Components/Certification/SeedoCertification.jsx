@@ -68,7 +68,7 @@ const SeedoCertification = () => {
 
             <section id="SeedoCertificationContainer">
                 <div className="CertificationContainer">
-                    <h1>MAKE IN INDIA </h1>
+                    <h1>Make In India </h1>
                 </div>
                 <div className="CertificationRowContainer">
                     <Row>

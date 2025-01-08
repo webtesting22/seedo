@@ -264,7 +264,7 @@ const SeedoProductData = {
                 name: "SEEDO Road Sniper 02 Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
-                    "LRC00E"
+                    LRC00E
                 ],
                 ProductStyleCode: "124LRC00E"
             },
@@ -273,7 +273,7 @@ const SeedoProductData = {
                 name: "SEEDO Blaze Runner Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
-                    "RC001"
+                    RC001
                 ],
                 ProductStyleCode: "118RC001"
             },
@@ -282,7 +282,7 @@ const SeedoProductData = {
                 name: "SEEDO Blaster 023 Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
-                    "BC023"
+                    BC023
                 ],
                 ProductStyleCode: "118BC023"
             },
@@ -291,7 +291,7 @@ const SeedoProductData = {
                 name: "SEEDO Famous 4W",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
-                    "RC003_118"
+                    RC003_118
                 ],
                 ProductStyleCode: "118RC003"
             },
@@ -300,7 +300,7 @@ const SeedoProductData = {
                 name: "SEEDO Police Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
-                    "PRC001"
+                    PRC001
                 ],
                 ProductStyleCode: "124PRC001"
             },
@@ -309,7 +309,7 @@ const SeedoProductData = {
                 name: "SEEDO Stunt Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
-                    "SC001_124"
+                    SC001_124
                 ],
                 ProductStyleCode: "124SC001"
             },
@@ -318,7 +318,7 @@ const SeedoProductData = {
                 name: "SEEDO Big Stunt Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
-                    "SC001_118"
+                    SC001_118
                 ],
                 ProductStyleCode: "118SC001"
             },
@@ -327,7 +327,7 @@ const SeedoProductData = {
                 name: "SEEDO Dazzling Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
-                    "RC001_124"
+                    RC001_124
                 ],
                 ProductStyleCode: "124RC001"
             },
@@ -336,7 +336,7 @@ const SeedoProductData = {
                 name: "SEEDO Monster Acrobatics Truck",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
-                    "MT001"
+                    MT001
                 ],
                 ProductStyleCode: "118MT001"
             },
@@ -345,7 +345,7 @@ const SeedoProductData = {
                 name: "SEEDO Rock Crawler",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
-                    "MT002", "MT002_2"
+                    MT002, MT002_2
                 ],
                 ProductStyleCode: "118MT002"
             },
@@ -354,7 +354,7 @@ const SeedoProductData = {
                 name: "SEEDO Dino/Shark/PVC Rock Crawler",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
-                    "MT003", "MT003_2"
+                    MT003, MT003_2
                 ],
                 ProductStyleCode: "118MT003"
             },
@@ -363,7 +363,7 @@ const SeedoProductData = {
                 name: "SEEDO Gun Rock Crawler",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
-                    "MT003G"
+                    MT003G
                 ],
                 ProductStyleCode: "118MT003G"
             },
@@ -372,7 +372,7 @@ const SeedoProductData = {
                 name: "SEEDO Smoke Rock Crawler",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
-                    "MT003S"
+                    MT003S
                 ],
                 ProductStyleCode: "118MT003S"
             },
@@ -381,7 +381,7 @@ const SeedoProductData = {
                 name: "SEEDO Luxurious Sports Car 27 MHz",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
-                    "RC00127MHz"
+                    RC00127MHz
                 ],
                 ProductStyleCode: "116RC001/27MHz"
             },
@@ -390,7 +390,7 @@ const SeedoProductData = {
                 name: "SEEDO Luxurious Sports Car 2.4GHz",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
-                    "RC00124GHz"
+                    RC00124GHz
                 ],
                 ProductStyleCode: "116RC001/2.4GHz"
             },
@@ -399,7 +399,7 @@ const SeedoProductData = {
                 name: "SEEDO Hyper Beast Car 27 MHz",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
-                    "RC00227MHz"
+                    RC00227MHz
                 ],
                 ProductStyleCode: "116RC002/27MHz"
             },
@@ -408,7 +408,7 @@ const SeedoProductData = {
                 name: "SEEDO Hyper Beast Car 2.4GHz",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
-                    "RC00224GHz"
+                    RC00224GHz
                 ],
                 ProductStyleCode: "116RC002/2.4GHz"
             },
@@ -417,7 +417,7 @@ const SeedoProductData = {
                 name: "SEEDO Thunder Bird Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
-                    "RC003", "RC003_2"
+                    RC003, RC003_2
                 ],
                 ProductStyleCode: "116RC003"
             },
@@ -426,7 +426,7 @@ const SeedoProductData = {
                 name: "SEEDO Twisting Stunt Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
-                    "SC001"
+                    SC001
                 ],
                 ProductStyleCode: "116SC001"
             },
@@ -435,7 +435,7 @@ const SeedoProductData = {
                 name: "SEEDO Twisting Drift Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
-                    "SC003"
+                    SC003
                 ],
                 ProductStyleCode: "116SC003"
             },
@@ -444,7 +444,7 @@ const SeedoProductData = {
                 name: "SEEDO Super Sonic Stunt Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
-                    "SC002"
+                    SC002
                 ],
                 ProductStyleCode: "116SC002"
             },
@@ -453,7 +453,7 @@ const SeedoProductData = {
                 name: "SEEDO 750 Drone",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
-                    "STDR001"
+                    STDR001
                 ],
                 ProductStyleCode: "STDR001"
             }
@@ -501,7 +501,7 @@ const SeedoProductData = {
                     name: "SMR Construction Series-A01/6",
                     ProductBatteryType: "-",
                     ProductImage: [
-                        "SMRCSA016"
+                        SMRCSA016
                     ],
                     ProductStyleCode: "SMR-CS-A01/6"
                 },
@@ -510,7 +510,7 @@ const SeedoProductData = {
                     name: "SMR Construction Series-A02/6",
                     ProductBatteryType: "-",
                     ProductImage: [
-                        "SMRCSA026"
+                        SMRCSA026
                     ],
                     ProductStyleCode: "SMR-CS-A02/6"
                 },
@@ -519,7 +519,7 @@ const SeedoProductData = {
                     name: "SMR Construction Series-A03/6",
                     ProductBatteryType: "-",
                     ProductImage: [
-                        "SMRCSA036"
+                        SMRCSA036
                     ],
                     ProductStyleCode: "SMR-CS-A03/6"
                 },
@@ -528,7 +528,7 @@ const SeedoProductData = {
                     name: "SMR Construction Series-A04/6",
                     ProductBatteryType: "-",
                     ProductImage: [
-                        "SMRCSA046"
+                        SMRCSA046
                     ],
                     ProductStyleCode: "SMR-CS-A04/6"
                 },
@@ -537,7 +537,7 @@ const SeedoProductData = {
                     name: "SMR Construction Series-A05/6",
                     ProductBatteryType: "-",
                     ProductImage: [
-                        "SMRCSA056"
+                        SMRCSA056
                     ],
                     ProductStyleCode: "SMR-CS-A05/6"
                 },
@@ -546,14 +546,292 @@ const SeedoProductData = {
                     name: "SMR Construction Series-A06/6",
                     ProductBatteryType: "-",
                     ProductImage: [
-                        "SMRCSA066"
+                        SMRCSA066
                     ],
                     ProductStyleCode: "SMR-CS-A06/6"
                 },
 
             ],
-            "subcategory2": [
-                { id: 3, name: "Product 3", price: 150, description: "Description for Product 3" }
+            "Pull Back Series": [
+
+                {
+                    id: 41,
+                    name: "SMR Pull Back Series-A01/6",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRPBSA016],
+                    ProductStyleCode: "SMR-PBS-A01/6"
+                },
+                {
+                    id: 42,
+                    name: "SMR Pull Back Series-A02/6",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRPBSA026],
+                    ProductStyleCode: "SMR-PBS-A02/6"
+                },
+                {
+                    id: 43,
+                    name: "SMR Pull Back Series-A03/6",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRPBSA036],
+                    ProductStyleCode: "SMR-PBS-A03/6"
+                },
+                {
+                    id: 44,
+                    name: "SMR Pull Back Series-A04/6",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRPBSA046],
+                    ProductStyleCode: "SMR-PBS-A04/6"
+                },
+                {
+                    id: 45,
+                    name: "SMR Pull Back Series-A05/6",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRPBSA056],
+                    ProductStyleCode: "SMR-PBS-A05/6"
+                },
+                {
+                    id: 46,
+                    name: "SMR Pull Back Series-A06/6",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRPBSA066],
+                    ProductStyleCode: "SMR-PBS-A06/6"
+                }
+
+
+            ],
+            "Cruiser Series": [
+                {
+                    id: 47,
+                    name: "SMR Cruiser Series-CS01/4",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRFWCS014],
+                    ProductStyleCode: "SMR-FW-CS01/4"
+                },
+                {
+                    id: 48,
+                    name: "SMR Cruiser Series-CS02/4",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRFWCS024],
+                    ProductStyleCode: "SMR-FW-CS02/4"
+                },
+                {
+                    id: 49,
+                    name: "SMR Cruiser Series-CS03/4",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRFWCS034],
+                    ProductStyleCode: "SMR-FW-CS03/4"
+                },
+                {
+                    id: 50,
+                    name: "SMR Cruiser Series-CS04/4",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRFWCS044],
+                    ProductStyleCode: "SMR-FW-CS04/4"
+                }
+            ],
+            "Drift Series": [
+                {
+                    id: 51,
+                    name: "SMR Drift Series-DS01/6",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRFWDS016],
+                    ProductStyleCode: "SMR-FW-DS01/6"
+                },
+                {
+                    id: 52,
+                    name: "SMR Drift Series-DS02/6",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRFWDS026],
+                    ProductStyleCode: "SMR-FW-DS02/6"
+                },
+                {
+                    id: 53,
+                    name: "SMR Drift Series-DS03/6",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRFWDS036],
+                    ProductStyleCode: "SMR-FW-DS03/6"
+                },
+                {
+                    id: 54,
+                    name: "SMR Drift Series-DS04/6",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRFWDS046],
+                    ProductStyleCode: "SMR-FW-DS04/6"
+                },
+                {
+                    id: 55,
+                    name: "SMR Drift Series-DS05/6",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRFWDS056],
+                    ProductStyleCode: "SMR-FW-DS05/6"
+                },
+                {
+                    id: 56,
+                    name: "SMR Drift Series-DS06/6",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRFWDS066],
+                    ProductStyleCode: "SMR-FW-DS06/6"
+                }
+            ],
+            "Racing Series": [
+                {
+                    id: 57,
+                    name: "SMR Racing Series-RS01/6",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRFWRS016],
+                    ProductStyleCode: "SMR-FW-RS01/6"
+                },
+                {
+                    id: 58,
+                    name: "SMR Racing Series-RS02/6",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRFWRS026],
+                    ProductStyleCode: "SMR-FW-RS02/6"
+                },
+                {
+                    id: 59,
+                    name: "SMR Racing Series-RS03/6",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRFWRS036],
+                    ProductStyleCode: "SMR-FW-RS03/6"
+                },
+                {
+                    id: 60,
+                    name: "SMR Racing Series-RS04/6",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRFWRS046],
+                    ProductStyleCode: "SMR-FW-RS04/6"
+                },
+                {
+                    id: 61,
+                    name: "SMR Racing Series-RS05/6",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRFWRS056],
+                    ProductStyleCode: "SMR-FW-RS05/6"
+                },
+                {
+                    id: 62,
+                    name: "SMR Racing Series-RS06/6",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRFWRS066],
+                    ProductStyleCode: "SMR-FW-RS06/6"
+                }
+            ],
+            "Jet Series": [
+                {
+                    id: 63,
+                    name: "SMR Jet Series-JS01/8",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRFWJS018],
+                    ProductStyleCode: "SMR-FW-JS01/8"
+                },
+                {
+                    id: 64,
+                    name: "SMR Jet Series-JS02/8",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRFWJS028],
+                    ProductStyleCode: "SMR-FW-JS02/8"
+                },
+                {
+                    id: 65,
+                    name: "SMR Jet Series-JS03/8",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRFWJS038],
+                    ProductStyleCode: "SMR-FW-JS03/8"
+                },
+                {
+                    id: 66,
+                    name: "SMR Jet Series-JS04/8",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRFWJS048],
+                    ProductStyleCode: "SMR-FW-JS04/8"
+                },
+                {
+                    id: 67,
+                    name: "SMR Jet Series-JS05/8",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRFWJS058],
+                    ProductStyleCode: "SMR-FW-JS05/8"
+                },
+                {
+                    id: 68,
+                    name: "SMR Jet Series-JS06/8",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRFWJS068],
+                    ProductStyleCode: "SMR-FW-JS06/8"
+                },
+                {
+                    id: 69,
+                    name: "SMR Jet Series-JS07/8",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRFWJS078],
+                    ProductStyleCode: "SMR-FW-JS07/8"
+                },
+                {
+                    id: 70,
+                    name: "SMR Jet Series-JS08/8",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRFWJS088],
+                    ProductStyleCode: "SMR-FW-JS08/8"
+                }
+            ],
+            "Fire Birds Series": [
+                {
+                    id: 71,
+                    name: "SMR Fire Birds Series-FBS01/8",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRFWFBS018],
+                    ProductStyleCode: "SMR-FW-FBS01/8"
+                },
+                {
+                    id: 72,
+                    name: "SMR Fire Birds Series-FBS02/8",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRFWFBS028],
+                    ProductStyleCode: "SMR-FW-FBS02/8"
+                },
+                {
+                    id: 73,
+                    name: "SMR Fire Birds Series-FBS03/8",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRFWFBS038],
+                    ProductStyleCode: "SMR-FW-FBS03/8"
+                },
+                {
+                    id: 74,
+                    name: "SMR Fire Birds Series-FBS04/8",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRFWFBS048],
+                    ProductStyleCode: "SMR-FW-FBS04/8"
+                },
+                {
+                    id: 75,
+                    name: "SMR Fire Birds Series-FBS05/8",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRFWFBS058],
+                    ProductStyleCode: "SMR-FW-FBS05/8"
+                },
+                {
+                    id: 76,
+                    name: "SMR Fire Birds Series-FBS06/8",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRFWFBS068],
+                    ProductStyleCode: "SMR-FW-FBS06/8"
+                },
+                {
+                    id: 77,
+                    name: "SMR Fire Birds Series-FBS07/8",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRFWFBS078],
+                    ProductStyleCode: "SMR-FW-FBS07/8"
+                },
+                {
+                    id: 78,
+                    name: "SMR Fire Birds Series-FBS08/8",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRFWFBS088],
+                    ProductStyleCode: "SMR-FW-FBS08/8"
+                }
             ]
         }
     }

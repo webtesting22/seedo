@@ -72,7 +72,7 @@
 }
 
 
-@media (min-width:1500px) and (max-width:30000px){
+@media (min-width:1500px) and (max-width:30000px) {
     .OurServicesSection {
         /* background-color: #A1A1A1; */
         /* width: 100%; */
@@ -81,8 +81,9 @@
         /* padding-left: 4rem !important; */
         padding: 80px 150px;
     }
-    
+
 }
+
 /* 
 .CardsContainer {
     padding-left: 200px;
@@ -99,14 +100,40 @@
     align-items: center;
     justify-content: center;
     color: white;
+    flex-direction: column;
 }
-.CardsContainer .GreyBox:hover{
+
+.CardsContainer .GreyBox:hover {
     background-color: #8f1c20;
 }
 
+.CardsContainer .GreyBox h4 {
+    font-size: 26px;
+    transform: translateY(20px);
+    transition: .5s;
+}
+.CardsContainer .GreyBox:hover h4 {
+    font-size: 26px;
+    transform: translateY(0px);
+    transition: .5s;
+}
 
 .CardsContainer .GreyBox p {
     font-size: 18px
+}
+
+.CardsContainer .GreyBox .HidePara {
+    opacity: 0;
+    margin: 0px;
+    transform: translateY(100px);
+    transition: .5s;
+}
+
+.CardsContainer .GreyBox:hover .HidePara {
+    opacity: 1;
+    margin: 0px;
+    transform: translateY(-20px);
+    transition: .5s;
 }
 
 .OurBestsellers .swiper-wrapper .swiper-slide {
@@ -123,21 +150,23 @@
     margin-bottom: 0px;
     margin-top: 0px;
 }
-.OurBestsellers{
- padding: 80px 40px;
+
+.OurBestsellers {
+    padding: 80px 40px;
 }
 
-@media (min-width:1500px) and (max-width:30000px){
-    .OurBestsellers{
+@media (min-width:1500px) and (max-width:30000px) {
+    .OurBestsellers {
         padding: 80px 150px;
-       }
-    
+    }
+
 }
+
 .OurBestsellers .ant-row .ant-col:nth-child(1)>div {
     padding-right: 40px;
 }
 
-.BestSellerImage{
+.BestSellerImage {
     width: 90%;
     aspect-ratio: 3/2;
     object-fit: contain;
@@ -145,13 +174,14 @@
 
 @media (max-width:769px) {
 
-.OurBestsellers .ant-row .ant-col:nth-child(1)>div {
-    padding-right: 0px;
-}
-    .OurBestsellers{
+    .OurBestsellers .ant-row .ant-col:nth-child(1)>div {
+        padding-right: 0px;
+    }
+
+    .OurBestsellers {
         padding: 20px 10px;
-       }
-       
+    }
+
     .CardsContainer .GreyBox {
         /* height: 300px; */
         /* width: 100%; */

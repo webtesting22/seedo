@@ -42,7 +42,7 @@ const ZoomCards = () => {
             <div style={{ display: "flex", justifyContent: "center" }}>
                 <div className="SANSONGraphicContainer">
                     <div>
-                        <h1 style={{ fontSize: "40px", color: "white", margin: "0px" }}>Sanson promotion innovation LLP</h1>
+                        <h1 style={{ fontSize: "40px", color: "white", margin: "0px" }}>Sanson Promotion Innovation LLP</h1>
                         <p>Sanson Promo Innovations LLP is a prominent leader in consumer and trade promotions, trusted by major FMCG brands such as Unilever, Glaxo, Perfetti, Mondelez, and Britannia. The company excels in collaborating with esteemed licensors like Disney, Marvel, Mattel, Pokémon, and Doraemon. With comprehensive expertise in conceptualization, product engineering, mass manufacturing, quality assurance, and logistics, Sanson consistently surpasses client expectations.This commitment to delivering high-quality products and innovative campaigns not only fosters brand loyalty but also drives significant business growth.</p>
                     </div>
                 </div>

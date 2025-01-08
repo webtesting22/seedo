@@ -38,11 +38,15 @@ const SubcategoriesProducts = () => {
                                             {/* Check if ProductImage exists and is not empty */}
                                             {product.ProductImage && product.ProductImage.length > 1 ? (
                                                 // Display the image at index 1
-                                                <img src={product.ProductImage[1]} alt={`${product.name}-1`} />
+                                                <img src={product.ProductImage[1]} alt={`${product.ProductTitle}-1`} />
+                                            ) : product.ProductImage && product.ProductImage.length > 0 ? (
+                                                // If there's only one image, display the first one
+                                                <img src={product.ProductImage[0]} alt={`${product.ProductTitle}-0`} />
                                             ) : (
-                                                // If index 1 doesn't exist, display a default image or message
+                                                // If no images, display a default image
                                                 <img src="path/to/default-image.jpg" alt="Default Image" />
                                             )}
+
                                         </div>
                                         <div className="productTitleContainer">
                                             <h1>{product.name}</h1>

@@ -194,17 +194,17 @@ ul[class] {
     justify-content: center;
 }
 
-#ZoomCardsContainer .ant-row .ant-col p {
+/* #ZoomCardsContainer .ant-row .ant-col p {
     text-align: center;
 
-}
+} */
 
-#ZoomCardsContainer .ant-row .ant-col a {
+/* #ZoomCardsContainer .ant-row .ant-col a {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-}
+} */
 
 @media (max-width:769px) {
 

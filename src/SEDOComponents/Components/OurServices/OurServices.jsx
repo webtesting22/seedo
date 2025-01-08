@@ -30,9 +30,9 @@ const OurServices = () => {
         <>
             <Navigation />
             <div className="TopVideoContainer" style={{ paddingTop: "5rem" }}>
-                <img src={TopBanner} alt="" />
+                {/* <img src={TopBanner} alt="" /> */}
                 <div>
-                    <h1 style={{ fontSize: "60px" }}>OUR SERVICES</h1>
+                    <h1 style={{ fontSize: "60px" }}>Our Services</h1>
                 </div>
             </div>
             <section className="OurServicesContainer">
