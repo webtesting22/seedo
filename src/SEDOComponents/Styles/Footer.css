@@ -21,13 +21,14 @@
 .ContactContainerandSocial>div:nth-child(2) p svg {
     font-size: 20px;
 }
-.FooterAdressContainer{
+
+.FooterAdressContainer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-@media (max-width:769px){
+@media (max-width:769px) {
     #Footer {
         padding-top: 4rem !important;
         padding: 20px 10px;

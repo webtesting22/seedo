@@ -149,7 +149,7 @@ const ImagesGallery = () => {
                 </div>
             </section>
             <section className="OurBestsellers">
-                <div className="OurServicesSection" style={{ paddingTop: "0px" }}>
+                <div className="OurServicesSection" style={{ padding: "0px" }}>
                     {/* <div className="headingHeaderContainer">
                      
                     </div> */}

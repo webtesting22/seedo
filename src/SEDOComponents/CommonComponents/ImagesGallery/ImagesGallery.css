@@ -71,6 +71,18 @@
 
 }
 
+
+@media (min-width:1500px) and (max-width:30000px){
+    .OurServicesSection {
+        /* background-color: #A1A1A1; */
+        /* width: 100%; */
+        /* min-height: 400px; */
+        display: flex;
+        /* padding-left: 4rem !important; */
+        padding: 80px 150px;
+    }
+    
+}
 /* 
 .CardsContainer {
     padding-left: 200px;
@@ -115,6 +127,12 @@
  padding: 80px 40px;
 }
 
+@media (min-width:1500px) and (max-width:30000px){
+    .OurBestsellers{
+        padding: 80px 150px;
+       }
+    
+}
 .OurBestsellers .ant-row .ant-col:nth-child(1)>div {
     padding-right: 40px;
 }

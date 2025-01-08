@@ -300,6 +300,7 @@
     align-items: center;
     position: relative;
     justify-content: center;
+    overflow: hidden;
 }
 
 .TopVideoContainer img {
@@ -309,12 +310,14 @@
     position: absolute;
 }
 
-.TopVideoContainer>div{
+.TopVideoContainer>div {
     position: sticky;
 }
-.TopVideoContainer>div h1{
+
+.TopVideoContainer>div h1 {
     color: white;
 }
+
 .AboutContentContainer {
     padding: 80px 0px;
 }
@@ -327,7 +330,7 @@
 }
 
 .paddingContainer {
-    padding: 0rem 4rem;
+    padding: 0px 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -361,6 +364,8 @@
     padding: 80px 40px;
 }
 
+
+
 .grayBoxContainer {
     height: 100%;
     /* width: 100%; */
@@ -385,6 +390,7 @@
     font-weight: 600;
 
 }
+
 /* 
 .MissionContainer {
     margin-top: 5rem !important;
@@ -397,6 +403,8 @@
     padding: 80px 40px;
     /* margin-top: 2rem; */
 }
+
+
 
 .MissionContainer h1,
 .VisionContainer h1,
@@ -415,9 +423,10 @@
     color: #000;
 }
 
-.OURLEADERSHIPContainer{
+.OURLEADERSHIPContainer {
     padding: 80px 0px;
 }
+
 .OURLEADERSHIPContainer h1 {
     font-size: 40px;
     text-align: center;
@@ -427,9 +436,23 @@
     padding: 0rem 4rem;
 }
 
-.LeaderShipCardContainer {
 
-    padding: 0px 40px;
+@media (min-width:1500px) and (max-width:30000px) {
+    .founderSectionContainer {
+        padding: 80px 150px;
+    }
+
+    .MissionContainer,
+    .VisionContainer,
+    .PurposeContainer {
+        padding: 80px 150px;
+    }
+
+    .LeaderShipCardContainer {
+
+        padding: 0px 150px;
+    }
+
 }
 
 .LeaderShipCardContainerCard {
@@ -448,9 +471,10 @@
 .LeaderShipContentCardContainer {
     padding: 20px 30px;
 }
-.LeaderShipContentCardContainer h5{
+
+.LeaderShipContentCardContainer h5 {
     font-size: 18px;
-margin: 0px;
+    margin: 0px;
 }
 
 .gridContainer .ant-row .ant-col {
@@ -525,13 +549,26 @@ margin: 0px;
 }
 
 @media (max-width:900px) {
+
+.TopVideoContainer {
+    height:300px;
+    width: 100%;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    overflow: hidden;
+}
     .FounderContent {
         width: 70%;
         padding: 20px 0px;
     }
+
     .AboutContentContainer {
         padding: 20px 0px;
     }
+
     .JourneyImageContainer img:first-child {
         display: none;
         width: 100%;
@@ -564,9 +601,11 @@ margin: 0px;
     .LeaderShipHeaderContainer {
         padding: 0rem 1rem;
     }
-    .OURLEADERSHIPContainer{
+
+    .OURLEADERSHIPContainer {
         padding: 20px 0px;
     }
+
     .OURLEADERSHIPContainer h1 {
         font-size: 50px;
     }

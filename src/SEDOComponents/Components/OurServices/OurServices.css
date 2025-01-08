@@ -48,6 +48,9 @@
     height: 100%;
     border-radius: 20px;
 }
+.BlankGrayBoxContainer img{
+    width: 100%;
+}
 .RowColumnsAdjustContainer .ant-row .ant-col:first-child div h2{
     font-size: 40px;
     margin-bottom: 0px;
@@ -74,4 +77,25 @@
     width: 70%;
     text-align: center;
     font-size: 18px;
+}
+
+@media (max-width:769px){
+    .OurServicesContainer{
+        padding-top: 5rem !important;
+        padding: 0px 10px;
+    }
+    .OurServicesParagraph p{
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+    }
+    .AdjustWidthSection{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .RowColumnsAdjustContainer .ant-row .ant-col:first-child div{
+        padding: 20px 0px;
+        padding-right: 0px !important;
+    
+    }
 }
