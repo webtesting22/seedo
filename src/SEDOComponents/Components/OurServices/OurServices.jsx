@@ -46,7 +46,7 @@ const OurServices = () => {
                                 <div style={{ padding: "0px" }}>
                                     <h1 style={{ fontSize: "40px" }}>Our Services</h1>
                                 </div>
-                                <p>We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. We look forward to hearing from you!We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. We look forward to hearing from you!We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or </p>
+                                <p>We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. We look forward to hearing from you!</p>
                             </div>
                         </Col>
                         {/* <Col lg={12}>
