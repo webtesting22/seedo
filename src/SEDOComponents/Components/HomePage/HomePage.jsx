@@ -4,12 +4,29 @@ import { Row, Col } from "antd";
 import SEEDOLogo from "/SEEDOLogo.png";
 import SanSon from "./SanSon.png"
 import gen8 from "./ gen8.jpg"
+import HomePageCarousal from "./HomePageCarousal.jpeg"
 const HomePage = () => {
     const imageRef = useRef(null);
     const sectionRef = useRef(null);  // Ref for the section to apply shadow effect
     const animationRef = useRef(null);
     const overlayRef = useRef(null);
     const [animationTriggered, setAnimationTriggered] = useState(false);
+    const images = [
+        "https://images.unsplash.com/photo-1490902931801-d6f80ca94fe4?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        gen8,
+        "https://images.unsplash.com/photo-1681351623149-91d23d44909b?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+       "https://images.unsplash.com/photo-1485321586038-4cc99992a06f?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+       HomePageCarousal
+    ];
+    const [currentIndex, setCurrentIndex] = useState(0);
+
+    useEffect(() => {
+      const interval = setInterval(() => {
+        setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+      }, 3000); // Change image every 2 seconds
+  
+      return () => clearInterval(interval);
+    }, [images.length]);
     // Parallax Effect and Darkening Effect on Scroll
     const handleScroll = () => {
         const scrollTop = window.scrollY;
@@ -59,6 +76,7 @@ const HomePage = () => {
         };
     }, [animationTriggered]);
 
+   
     return (
         <>
             <section id="HomepageContainer" ref={sectionRef}> {/* Add ref here */}
@@ -66,18 +84,44 @@ const HomePage = () => {
                     <div>
                         <div className="blackoverlay" ref={overlayRef}></div> {/* Apply ref here */}
                         <div id="BackImageOverlay">
-                            <img
+                            {images.map((image, index) => (
+                                <img
+                                    key={index}
+                                    src={image}
+                                    alt={`Slide ${index + 1}`}
+                                    className={`carousel-image ${index === currentIndex ? "visible" : "hidden"
+                                        }`}
+                                />
+                            ))}
+                            {/* <img
                                 ref={imageRef}
-                                src={gen8}
+                                src={HomePageCarousal}
                                 alt="Background"
                             />
+                              <img
+                                ref={imageRef}
+                                src={HomePageCarousal}
+                                alt="Background"
+                            />
+                              <img
+                                ref={imageRef}
+                                src={HomePageCarousal}
+                                alt="Background"
+                            />
+                              <img
+                                ref={imageRef}
+                                src={HomePageCarousal}
+                                alt="Background"
+                            />
+                             */}
                         </div>
 
 
                     </div>
                     <div className="HomePageContentContainer">
-                        <div style={{ width: "100%" }}>
-                            <h1>BREAK THE LIMIT</h1>
+                        <div style={{ width: "100%",display:"flex",justifyContent:"center",alignItems:"center" }}>
+                            {/* <h1>BREAK THE LIMIT</h1> */}
+                            <h1>Beyond Limits, Beyond Ordinary.</h1>
                             {/* <div className="HomeheadingContainer">
                                 <h1>We Create For You!</h1>
                             </div>

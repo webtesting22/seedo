@@ -232,9 +232,9 @@ const AboutSeedo = () => {
                 </div> */}
 
 
-                <div className="TopVideoContainer">
+                {/* <div className="TopVideoContainer">
                     <img src={BackBannerAbout} alt="" />
-                </div>
+                </div> */}
                 <div className="AboutContentContainer">
                     <div className="paddingContainer">
                         <h1>About us</h1>
@@ -243,7 +243,7 @@ const AboutSeedo = () => {
                     </div>
                 </div>
             </section>
-            <section className="founderSectionContainer">
+            {/* <section className="founderSectionContainer">
                 <Row>
                     <Col lg={14} style={{ width: "100%" }}>
                         <div className="FounderContent">
@@ -257,7 +257,7 @@ const AboutSeedo = () => {
                         </div>
                     </Col>
                 </Row>
-            </section>
+            </section> */}
             <section className="OurJourneyContainer">
                 {/* <div>
                     <h1>Our Journey </h1>
@@ -276,7 +276,7 @@ const AboutSeedo = () => {
                                 spaceBetween={30}
                                 centeredSlides={true}
                                 autoplay={{
-                                    delay: 3000,
+                                    delay: 2000,
                                     disableOnInteraction: false,
                                 }}
                                 speed={600}

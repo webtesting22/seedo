@@ -68,6 +68,7 @@
     margin-top: 0px;
     width: 100%;
     text-align: center;
+    background-color: #bc252b0a;
 
 }
 
@@ -205,7 +206,18 @@
     /* font-weight: 400; */
     margin-bottom: 0px;
     margin-top: 0px;
+    position: relative;
+    background-color: #bc252b0a;
 }
+/* .OurBestsellers h1::before{
+    height: 1px ;
+    width: 200px;
+    background-color: red;
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    display: inline-flex;
+} */
 
 .OurBestsellers {
     padding: 80px 40px;
