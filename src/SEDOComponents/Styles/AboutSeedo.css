@@ -328,6 +328,7 @@
     /* font-weight: 800; */
     margin-bottom: 0px;
     width: 100%;
+    margin-top: 0px;
     background-color: #bc252b0a;
     text-transform:capitalize;
 }

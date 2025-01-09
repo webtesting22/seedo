@@ -29,18 +29,19 @@ const OurServices = () => {
     return (
         <>
             <Navigation />
-            <div className="TopVideoContainer" style={{ paddingTop: "5rem" }}>
-                {/* <img src={TopBanner} alt="" /> */}
-                <div>
-                    <h1 style={{ fontSize: "60px" }}>Our Services</h1>
-                </div>
-            </div>
+            {/* <div className="TopVideoContainer" style={{ paddingTop: "5rem" }}>
+                <img src={TopBanner} alt="" />
+              
+            </div> */}
             <section className="OurServicesContainer">
 
                 <div className="OurServicesParagraph">
                     <Row>
                         <Col lg={24}>
                             <div>
+                                <div style={{padding:"0px"}}>
+                                    <h1 style={{ fontSize: "40px" }}>Our Services</h1>
+                                </div>
                                 <p>We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. We look forward to hearing from you!We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. We look forward to hearing from you!We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or </p>
                             </div>
                         </Col>
@@ -48,7 +49,6 @@ const OurServices = () => {
                         </Col> */}
                     </Row>
                 </div>
-                <br /><br /><br />
                 <div className="AjustCenterContainer">
 
                     <div className="AdjustWidthSection">

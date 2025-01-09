@@ -110,7 +110,7 @@
 }
 
 .CertificatesHeadingContainer {
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .CertificatesHeadingContainer h1 {
@@ -121,7 +121,7 @@
 }
 
 .CerticationCardGreyBox {
-    /* min-height: 300px; */
+    min-height: 200px;
     /* width: 100%; */
     padding: 20px;
     border-radius: 23px;
