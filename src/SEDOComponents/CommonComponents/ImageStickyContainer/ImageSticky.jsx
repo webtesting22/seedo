@@ -15,7 +15,7 @@ const ImageSticky = () => {
                 const screenHeight = window.innerHeight;
 
                 // Calculate fade based on position relative to the viewport
-                const fadeFactor = Math.min(Math.max((screenHeight - rect.top) / screenHeight, 0), 1);
+                const fadeFactor = Math.max(0, 0.6 - Math.abs(rect.top) / screenHeight); // Starts at 1, decreases as the image moves up
                 image.style.opacity = fadeFactor.toString();
             });
         };

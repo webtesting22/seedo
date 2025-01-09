@@ -39,7 +39,7 @@
 }
 
 .AnimatedImageContainer img {
-    opacity: 0; /* Start completely transparent */
+    opacity: 0.4; /* Start completely transparent */
     transition: opacity 0.3s ease; /* Smooth fade transition */
     will-change: opacity; /* Optimize for better performance */
   }
