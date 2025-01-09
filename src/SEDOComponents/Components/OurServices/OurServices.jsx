@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./OurServices.css"
 import Navigation from "../../CommonComponents/Navigation/Navigation";
 import { Row, Col, Image } from "antd";
@@ -26,6 +26,10 @@ const OurServices = () => {
             description: "Our white-label solutions allow you to brand our high-quality products as your own. This enables you to expand your product range while maintaining your unique brand identity."
         }
     ]
+    useEffect(() => {
+        // Scroll to the top of the page when the component is mounted
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <>
             <Navigation />
@@ -84,7 +88,7 @@ const OurServices = () => {
 
                                 <br />
                                 <Col lg={12}>
-                                    
+
                                     <p>At Seedo Toys, we take pride in our
                                         in-house spraying capabilities, including
                                         pad printing, spray printing, tampo

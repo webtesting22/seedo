@@ -22,6 +22,10 @@
     color: white;
     transform: translateX(10px);
     transition: .5s;
+    /* border-bottom: 1px solid white; */
+}
+#Footer .LinksContainer ul{
+    padding: 0px;
 }
 
 .ContactContainerandSocial>div:nth-child(2) {
