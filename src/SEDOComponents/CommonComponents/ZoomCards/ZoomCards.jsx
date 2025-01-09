@@ -23,7 +23,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Row, Col } from "antd";
 // import required modules
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, Pagination, FreeMode } from 'swiper/modules';
 import AboutUsSection from "./AboutUsSection.png"
 import Zepto from "./Zepto.png"
 
@@ -61,14 +61,37 @@ const ZoomCards = () => {
     }, []);
     // const [hoveredItem, setHoveredItem] = useState(null);
 
-    // const items = [
-    //     { item: "Item 1", heading: "Brainy Bear", image: Teddy, Category: "Early Learning Toys" },
-    //     { item: "Item 4", heading: "Jet Series", image: JetSeries, Category: "RC Car" },
-    //     { item: "Item 5", heading: "Racing Series", image: Racingseries, Category: "Racing Series" },
-    //     { item: "Item 5", heading: "Drift Series", image: DriftSeries, Category: "Drift Series" },
-    //     { item: "Item 5", heading: "Construction Series", image: Construction, Category: "Construction Series" },
-    //     { item: "Item 5", heading: "New launches", image: NewLaunches, Category: "New Launches" },
-    // ];
+    const Clients = [
+        {
+            link: "https://www.amazon.in/",
+            img: amazon
+        },
+        {
+            link: "https://www.flipkart.com/",
+            img: flifkart
+        },
+        {
+            link: "https://reliancesmartbazaar.com/",
+            img: smartBazaar
+        },
+        {
+            link: "https://snooplay.in/",
+            img: Snooplay
+        },
+        {
+            link: "https://www.swiggy.com/",
+            img: swiggy
+        },
+        {
+            link: "https://whole9yards.in/",
+            img: whole9years
+        },
+        {
+            link: "https://www.zeptonow.com/",
+            img: Zepto
+        }
+
+    ];
 
     return (
         <>
@@ -124,75 +147,81 @@ const ZoomCards = () => {
                 <div className="headingHeaderContainer">
                     <h1 style={{ textAlign: "center" }}>Where to Find Us?</h1>
                 </div>
-                <div id="ClientSliderContainer">
+                {/* <div id="ClientSliderContainer"> */}
                     <Swiper
-                        slidesPerView={5} // Adjust based on screen size or requirement
+                        slidesPerView={5}
                         spaceBetween={30}
-                        loop={true} // Enable infinite scroll
+                        freeMode={true}
+                        loop={true}
                         autoplay={{
-                            delay: 100,
+                            delay: 2000,
                             disableOnInteraction: false,
                         }}
-                        speed={2000} // Smooth scrolling speed
-                        modules={[Autoplay, Pagination, Navigation]}
+                        speed={1000}
+                        // pagination={{
+                        //     clickable: true,
+                        // }}
+                        modules={[Autoplay, FreeMode]}
                         className="mySwiper"
+                        breakpoints={{
+                            320: { // Mobile breakpoint (320px and up)
+                                slidesPerView: 2, // Display 2 slides on mobile
+                            },
+                            768: { // Tablet breakpoint (768px and up)
+                                slidesPerView: 3, // Display 3 slides on tablet
+                            },
+                            1024: { // Desktop breakpoint (1024px and up)
+                                slidesPerView: 5, // Display 5 slides on desktop
+                            },
+                        }}
                     >
-                        {/* {items.map((item, index) => ( */}
-                        <SwiperSlide >
-                            <Link to="https://www.amazon.in/" target="_blank">
-                                <div className="GrayCardContainer">
-                                    <img src={amazon} alt="" />
-                                </div>
-                            </Link>
-                        </SwiperSlide>
-                        <SwiperSlide  >
-                            <Link to="https://www.flipkart.com/" target="_blank">
-                                <div className="GrayCardContainer">
-                                    <img src={flifkart} alt="" />
-                                </div>
-                            </Link>
-                        </SwiperSlide >
-                        <SwiperSlide >
-                            <Link to="https://reliancesmartbazaar.com/" target="_blank">
-                                <div className="GrayCardContainer">
-                                    <img src={smartBazaar} alt="" />
-                                </div>
-                            </Link >
-                        </SwiperSlide >
-                        <SwiperSlide >
-                            <Link to="https://snooplay.in/" target="_blank">
-                                <div className="GrayCardContainer">
-                                    <img src={Snooplay} alt="" />
-                                </div>
-                            </Link >
-                        </SwiperSlide >
-                        <SwiperSlide >
-                            <Link to="https://www.swiggy.com/" target="_blank">
-                                <div className="GrayCardContainer">
-                                    <img src={swiggy} alt="" />
-                                </div>
-                            </Link >
-                        </SwiperSlide >
-                        <SwiperSlide >
-                            <Link to="https://whole9yards.in/" target="_blank">
-                                <div className="GrayCardContainer">
-                                    <img src={whole9years} alt="" />
-                                </div>
-                            </Link >
-                        </SwiperSlide >
-                        <SwiperSlide >
-                            <Link to="https://www.zeptonow.com/" target="_blank">
-                                <div className="GrayCardContainer">
-                                    <img src={Zepto} alt="" />
-                                </div>
-                            </Link >
-                        </SwiperSlide >
-
-
-                        {/* ))} */}
+                        {Clients.map((item, index) => (
+                            <SwiperSlide key={index}>
+                                <Link to={item.link} target="_blank">
+                                    <div className="GrayCardContainer">
+                                        <img src={item.img} alt="" />
+                                    </div>
+                                </Link>
+                            </SwiperSlide>
+                        ))}
                     </Swiper>
-
+                    {/* <Swiper
+    slidesPerView={5} // Adjust based on screen size or requirement
+    spaceBetween={30}
+    loop={true} // Enable infinite scroll
+    loopAdditionalSlides={5} // Increase the number of cloned slides
+    autoplay={{
+        delay: 100,
+        disableOnInteraction: false,
+    }}
+    speed={2000} // Smooth scrolling speed
+    modules={[Autoplay, Pagination, Navigation]}
+    className="mySwiper"
+    breakpoints={{
+        320: { // Mobile breakpoint (320px and up)
+            slidesPerView: 2, // Display 2 slides on mobile
+        },
+        768: { // Tablet breakpoint (768px and up)
+            slidesPerView: 3, // Display 3 slides on tablet
+        },
+        1024: { // Desktop breakpoint (1024px and up)
+            slidesPerView: 5, // Display 5 slides on desktop
+        },
+    }}
+>
+    {Clients.map((item, index) => (
+        <SwiperSlide key={index}>
+            <Link to={item.link} target="_blank">
+                <div className="GrayCardContainer">
+                    <img src={item.img} alt="" />
                 </div>
+            </Link>
+        </SwiperSlide>
+    ))}
+</Swiper> */}
+
+
+                {/* </div> */}
                 {/* < img src={ZoomBackImage} alt="" className="BackoverlayImage" /> */}
                 {/* <div className="HrHeadingAnimated">     
                     <h1 className="PrimaryHeading-black" data-aos="fade-right"

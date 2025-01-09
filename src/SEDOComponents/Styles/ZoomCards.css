@@ -187,10 +187,10 @@ ul[class] {
     object-fit: contain;
 }
 
-#ClientSliderContainer .swiper-wrapper {
+/* #ClientSliderContainer .swiper-wrapper {
     display: flex;
     justify-content: center;
-}
+} */
 
 /* #ZoomCardsContainer .ant-row .ant-col p {
     text-align: center;
@@ -261,12 +261,7 @@ ul[class] {
         margin-top: 0px;
     }
 
-    #ZoomCardsContainer .GrayCardContainer {
-        height: 100px;
-        width: 100%;
-        /* background-color: #D9D9D9; */
-        border-radius: 26px;
-    }
+   
 
     li {
         width: 30%;
@@ -301,11 +296,7 @@ ul[class] {
         object-fit: cover;
     }
 
-    #ZoomCardsContainer .swiper-slide {
-        /* margin-right: 100px !important; */
-        width: 100px !important;
-    }
-
+ 
 }
 
 

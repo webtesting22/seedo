@@ -167,6 +167,17 @@ const ImagesGallery = () => {
                             }}
                             modules={[Autoplay, FreeMode, Pagination]}
                             className="mySwiper"
+                            breakpoints={{
+                                320: { // Mobile breakpoint (320px and up)
+                                    slidesPerView: 2, // Display 2 slides on mobile
+                                },
+                                768: { // Tablet breakpoint (768px and up)
+                                    slidesPerView: 3, // Display 3 slides on tablet
+                                },
+                                1024: { // Desktop breakpoint (1024px and up)
+                                    slidesPerView: 5, // Display 5 slides on desktop
+                                },
+                            }}
                         >
                             {BestSellerProducts.BestSeller.products.map((item, index) => (
                                 <SwiperSlide key={item.id}>
