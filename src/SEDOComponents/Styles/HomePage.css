@@ -228,6 +228,10 @@
   }
 }
 @media (max-width: 769px) {
+  .SANSONGraphicContainer div p {
+    text-align: start;
+    color: white;
+  }
   .SANSONGraphicContainer {
     min-height: 100%;
     width: 100%;
@@ -266,7 +270,7 @@
 
 
   .HomePageContentContainer h1 {
-    font-size: 60px;
+    font-size: 40px;
     color: #BC252B;
     font-weight: 600;
     margin: 0px;
