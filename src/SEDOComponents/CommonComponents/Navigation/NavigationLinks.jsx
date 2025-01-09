@@ -11,7 +11,7 @@ const NavigationLinks = [
 
     {
         link: "Certifications",
-        path: "/certification-and-client",
+        path: "/certification",
     },
    
     {

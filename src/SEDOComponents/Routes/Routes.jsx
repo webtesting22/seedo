@@ -23,7 +23,7 @@ const SEDORoutes = () => {
                 <Route path="/" element={<HomeRoutes />} />
                 <Route path="/products" element={<Products />} />
                 <Route path="/aboutSeedo" element={<AboutSeedo />} />
-                <Route path="/certification-and-client" element={<CertificationAndClient />} />
+                <Route path="/certification" element={<CertificationAndClient />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/product-name" element={<SingleProductPage />} />
                 <Route path="/subcategories/:categoryName" element={<SubCategories />} />
