@@ -20,7 +20,15 @@ import GSK from "./Logos/GSK_logo_2014.svg.svg"
 import Vector from "./Logos/Vector (1).svg"
 import TheHimalayaLogo from "./Logos/The_Himalaya_Drug_Company_logo.svg"
 import Amway from "./Logos/Amway_(logo).svg.svg"
-import Disney from "./Logos/Disney-Logo-2019-2024.svg"
+import CartoonNetwork from "/Images/Logos/Clientlogos/CartoonNetwork.png"
+import tomandjerry from "/Images/Logos/Clientlogos/tomandjerry.png"
+import Disney from "/Images/Logos/Clientlogos/Disney.png"
+import Marvel from "/Images/Logos/Clientlogos/Marvel.png"
+import ChhotaBheem from "/Images/Logos/Clientlogos/ChhotaBheem.png"
+import ToyStory3 from "/Images/Logos/Clientlogos/ToyStory3.png"
+import Barbie from "/Images/Logos/Clientlogos/Barbie.png"
+import doraemon from "/Images/Logos/Clientlogos/doraemon.png"
+import Pepsi from "/Images/Logos/Clientlogos/Pepsi.png"
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
@@ -87,7 +95,39 @@ const AboutSeedo = () => {
         {
             img: Disney,
             link: "https://www.disney.in/"
-        }
+        },
+        {
+            img: doraemon,
+            link: "https://dora-world.com/"
+        },
+        {
+            img: Barbie,
+            link: "https://www.barbie.com"
+        },
+        {
+            img: tomandjerry,
+            link: "https://www.warnerbros.com/brands/tom-and-jerry",
+        },
+        {
+            img: Pepsi,
+            link: "https://www.pepsi.com"
+        },
+        {
+            img: Marvel,
+            link: "https://www.marvel.com"
+        },
+        {
+            img: CartoonNetwork,
+            link: "https://www.cartoonnetwork.co.uk/"
+        },
+        {
+            img: ToyStory3,
+            link: "https://www.pixar.com/toy-story-3"
+        },
+        {
+            img: ChhotaBheem,
+            link: "https://www.chhotabheem.com"
+        },
     ]
 
 

@@ -240,6 +240,12 @@ ul[class] {
     padding: 40px 0px;
 }
 @media (max-width:769px) {
+    .GrayCardContainer img {
+        width: 100%;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+    }
+    
     .AboutSeedoContent div:last-child p {
         width: 100%;
         text-align: center;
