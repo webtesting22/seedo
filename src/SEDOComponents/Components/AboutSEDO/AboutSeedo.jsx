@@ -238,6 +238,7 @@ const AboutSeedo = () => {
                 <div className="AboutContentContainer">
                     <div className="paddingContainer">
                         <h1>About us</h1>
+                        <br />
                         <p>Seedo has recently expanded its capabilities by introducing pad painting and spray painting in early 2024, along with in-house PCB manufacturing to reduce reliance on imports from China. This strategic move has led to Seedo receiving "Make in India" certification, allowing them to begin global exports by January 2025.
                         </p>
                     </div>

@@ -32,7 +32,7 @@ const SeedoCertification = () => {
         },
         {
             img: logo2,
-            title: "Government E Marketplace",
+            title: "Government E-Marketplace",
             // link: "https://green-em.com/"
             link: "https://gem.gov.in/",
         },

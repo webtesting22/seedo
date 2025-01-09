@@ -12,7 +12,7 @@ import PhoneIcon from '@mui/icons-material/Phone';
 import { LiaFacebookSquare } from "react-icons/lia";
 import { CiInstagram } from "react-icons/ci";
 import { FaXTwitter } from "react-icons/fa6";
-
+import NavigationLinks from "../Navigation/NavigationLinks";
 const Footer = () => {
     return (
         <>
@@ -23,9 +23,9 @@ const Footer = () => {
                             <div className="ContactContainerandSocial">
                                 <div>
                                     {/* <p>Contact us</p> */}
-                                    <p>Email:  <Link to="mailto:info@seedotoys.com" target="_blank" style={{color:"white"}}>info@seedotoys.com</Link></p>
-                                    <p>Privacy Policy</p>
-                                    <p>Terms and Condition</p>
+                                    <p><b>Email:</b>  <Link to="mailto:info@seedotoys.com" target="_blank" style={{ color: "white" }}>info@seedotoys.com</Link></p>
+                                    <p><b>Privacy Policy</b></p>
+                                    <p><b>Terms and Condition</b></p>
                                 </div>
                                 <div>
                                     <p><LiaFacebookSquare /></p>
@@ -37,25 +37,25 @@ const Footer = () => {
                         </Col>
                         <Col lg={8}>
                             <div className="LinksContainer">
+                                <p><b>Social Links</b></p>
                                 <ul>
-                                    <li>Home</li>
-                                    <li>About us</li>
-                                    <li>Catalogue</li>
-                                    <li>Services</li>
-                                    <li>Contact us</li>
-                                    <li>Investor</li>
+                                    {NavigationLinks.map((item, index) => (
+                                        <Link to={item.path} key={index}>
+                                            <li >{item.link}</li>
+                                        </Link>
+                                    ))}
                                 </ul>
                             </div>
                         </Col>
                         <Col lg={8}>
                             <div className="FooterAdressContainer">
                                 <div>
-                                    <p>Address</p>
-                                    <p>Plot No. 23, Sector-57, Phase-IV, HSIIDC Industrial Area, Kundli, Dist. Sonipat, Haryana, INDIA 131028</p>
+                                    <p><b>Address</b></p>
+                                    <p>Plot No. 23, Sector-57, Phase-IV, HSIIDC Industrial Area, Kundli, Sonipat, Haryana-131028</p>
                                 </div>
                                 <div>
-                                    <p>Address </p>
-                                    <p>Plot No 139, Sector-56, Phase-V, HSIIDC Industrial Estate, Kundli, Dist. Sonepat, Haryana, INDIA 131028</p>
+                                    {/* <p>Address </p> */}
+                                    <p>Plot No 139, Sector-56, Phase-V, HSIIDC Industrial Area, Kundli, Sonipat, Haryana-131028</p>
                                 </div>
                             </div>
                         </Col>

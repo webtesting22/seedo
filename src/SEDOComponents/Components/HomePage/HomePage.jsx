@@ -120,8 +120,8 @@ const HomePage = () => {
                     </div>
                     <div className="HomePageContentContainer">
                         <div style={{ width: "100%",display:"flex",justifyContent:"center",alignItems:"center" }}>
-                            {/* <h1>BREAK THE LIMIT</h1> */}
-                            <h1>Beyond Limits, Beyond Ordinary.</h1>
+                            <h1>BREAK THE LIMIT</h1>
+                            {/* <h1>Beyond Limits, Beyond Ordinary.</h1> */}
                             {/* <div className="HomeheadingContainer">
                                 <h1>We Create For You!</h1>
                             </div>

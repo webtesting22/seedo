@@ -14,16 +14,16 @@ const OurServices = () => {
     const servicesData = [
         {
             title: "Original Equipment Manufacturer (OEM)",
-            description: "We specialize in producing high-quality products tailored to our client's specifications, ensuring exceptional quality and performance while fostering strong partnerships for mutual growth and success."
+            description: "Our expertise lies in producing high-quality products tailored to our client's specifications, ensuring exceptional quality and performance while fostering strong partnerships for mutual growth and success."
         },
         {
             title: "Original Design Manufacturer (ODM)",
             img: ODMBanner,
-            description: "We specialize in Original Design manufacturing, creating innovative products tailored to clients' specifications. Our focus is on quality, customization, and delivering exceptional value to our partners."
+            description: "We focus on innovative design manufaturing, creating unique and effective products."
         },
         {
             title: "White Label",
-            description: "We offer white-label solutions, allowing you to brand our high-quality products as your own. This enables you to expand your product range while maintaining your unique brand identity."
+            description: "Our white-label solutions allow you to brand our high-quality products as your own. This enables you to expand your product range while maintaining your unique brand identity."
         }
     ]
     return (
@@ -90,7 +90,7 @@ const OurServices = () => {
                                         pad printing, spray printing, tampo
                                         printing, and other finishing techniques.
                                         Our state-of-the-art facility is capable of
-                                        spraying 200,000 toys per month,
+                                        spraying 2,00,000 toys per month,
                                         delivering stunning finishes Such as
                                         high-gloss, anti-scratch, metallic, and
                                         pearl effects. All chemicals, coatings, and
@@ -122,7 +122,7 @@ const OurServices = () => {
                                         protection. They are phthalate-free,
                                         lead-free, and ROHS-compliant for
                                         international exports, ensuring both
-                                        safety and reliability for our products</p>
+                                        safety and reliability for our products.</p>
                                 </Col>
                                 <Col lg={12}><div className="PendingGrayBox">
                                     <div style={{ display: "flex", height: "100%" }} className="ImageAdjust">

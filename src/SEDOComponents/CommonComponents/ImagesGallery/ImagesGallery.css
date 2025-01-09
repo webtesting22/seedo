@@ -112,7 +112,7 @@
     background-color: #bc252a;
     padding: 10px;
     aspect-ratio: 3 / 2;
-    border-radius: 50%;
+    border-radius: 2px;
     object-fit: contain;
     transform: translateY(30px);
     transition: .5s;
@@ -124,7 +124,7 @@
     background-color: #bc252a;
     padding: 10px;
     aspect-ratio: 3 / 2;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     object-fit: contain;
     transform: translateY(00px);
     transition: .5s;

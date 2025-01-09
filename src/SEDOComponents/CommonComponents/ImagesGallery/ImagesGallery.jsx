@@ -104,7 +104,7 @@ const ImagesGallery = () => {
                                     <div className="GreyBox">
                                         <img src={oem} alt="" />
                                         <h4>Original Equipment Manufacturer (OEM)</h4>
-                                        <p>We specialize in producing high-quality products tailored to our client's...</p>
+                                        <p>Our expertise lies in producing high-quality products tailored to our client's...</p>
                                         {/* <p className="HidePara"></p> */}
                                         <button><FaArrowRightLong /></button>
                                         {/* <p>We specialize in Original Design manufacturing, creating innovative products tailored to clients' specifications. Our focus is on quality, customization, and delivering exceptional value to our partners.</p> */}
@@ -116,7 +116,7 @@ const ImagesGallery = () => {
                                     <div className="GreyBox">
                                         <img src={odm} alt="" />
                                         <h4>Original Design Manufacturer (ODM)</h4>
-                                        <p >We specialize in Original Design manufacturing, creating innovative products...</p>
+                                        <p >We focus on innovative design manufaturing, creating unique and effective products...</p>
                                         <button><FaArrowRightLong /></button>
                                         {/* <p>We specialize in producing high-quality products tailored to our client's specifications, ensuring exceptional quality and performance while fostering
                                         strong partnerships for mutual growth success.
@@ -129,7 +129,7 @@ const ImagesGallery = () => {
                                     <div className="GreyBox">
                                         <img src={white} alt="" />
                                         <h4 >White Label</h4>
-                                        <p>We offer white-label solutions, allowing you to brand our high-quality products...</p>
+                                        <p>Our white-label solutions allow you to brand our high-quality products...</p>
                                         <button><FaArrowRightLong /></button>
                                         {/* <p>We offer white-label solutions, allowing you to brand our high-quality products as your own. This enables you to expand your product range while maintaining your unique brand identity.
                                     </p> */}
@@ -175,23 +175,25 @@ const ImagesGallery = () => {
                                     slidesPerView: 3, // Display 3 slides on tablet
                                 },
                                 1024: { // Desktop breakpoint (1024px and up)
-                                    slidesPerView: 5, // Display 5 slides on desktop
+                                    slidesPerView: 4, // Display 5 slides on desktop
                                 },
                             }}
                         >
                             {BestSellerProducts.BestSeller.products.map((item, index) => (
                                 <SwiperSlide key={item.id}>
                                     <div className="BestSellerCardsContainer">
-                                        <img src={ProductsBackShape} alt="" className="BackShapeAjust"/>
-                                        <img
-                                            src={item.ProductImage[0]} // Use the first image in the ProductImage array
-                                            alt={item.name} // Set alt text to the product name
-                                            className="BestSellerImage"
-                                        />
-                                       <div style={{width:"100%"}}>
-                                       <hr />
-                                       <h3 className="BestSellerTitle">{item.name}</h3>
-                                       </div>
+                                        <div>
+                                            <img src={ProductsBackShape} alt="" className="BackShapeAjust" />
+                                            <img
+                                                src={item.ProductImage[0]} // Use the first image in the ProductImage array
+                                                alt={item.name} // Set alt text to the product name
+                                                className="BestSellerImage"
+                                            />
+                                        </div>
+                                        <div style={{ width: "100%",height:"60px" }}>
+                                            <hr />
+                                            <h3 className="BestSellerTitle">{item.name}</h3>
+                                        </div>
                                     </div>
                                 </SwiperSlide>
                             ))}
