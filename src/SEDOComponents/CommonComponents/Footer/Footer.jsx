@@ -29,9 +29,8 @@ const Footer = () => {
                                 </div>
                                 <div>
                                     <p><LiaFacebookSquare /></p>
-                                    <p><CiInstagram /></p>
-                                    <p><FaXTwitter />
-                                    </p>
+                                    <Link to="https://www.instagram.com/seedotoys/" target="_blank"><p><CiInstagram style={{ color: "white" }} /></p></Link>
+                                    <p><FaXTwitter /></p>
                                 </div>
                             </div>
                         </Col>
@@ -51,12 +50,13 @@ const Footer = () => {
                             <div className="FooterAdressContainer">
                                 <div>
                                     <p><b>Address</b></p>
-                                    <p>Plot No. 23, Sector-57, Phase-IV, HSIIDC Industrial Area, Kundli, Sonipat, Haryana-131028</p>
+                                    <p>Plot No. 23, Sector-57, Phase-IV & <br /> Plot No. 139, Sector-56, Phase-V, <br /> HSIIDC Industrial Area/Estate, Kundli, Sonipat, Haryana-131028</p>
+                                    {/* <p>Plot No. 23, Sector-57, Phase-IV, HSIIDC Industrial Area, Kundli, Sonipat, Haryana-131028</p> */}
                                 </div>
-                                <div>
-                                    {/* <p>Address </p> */}
+                                {/* <div>
+                                    <p>Address </p>
                                     <p>Plot No 139, Sector-56, Phase-V, HSIIDC Industrial Area, Kundli, Sonipat, Haryana-131028</p>
-                                </div>
+                                </div> */}
                             </div>
                         </Col>
                     </Row>
