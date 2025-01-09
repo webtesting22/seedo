@@ -116,6 +116,9 @@ const ZoomCards = () => {
                             height: '100%',
                             objectFit: 'cover',
                         }} />
+                       <h2 style={{marginBottom:"0px"}}>Trusted Presence Across India</h2>
+                                    <p style={{color:"#BC252B"}}>Proudly <b>available in 3000+ stores nationwide</b>, bringing quality and innovation closer to you every day!
+                                    </p>
                         <p><b>At Seedo Toys,</b> we believe in sparking <b>creativity and joy</b> with every toy we make. Our collection of high-quality, safe, and affordable toys is crafted to inspire children’s imaginations while giving <b>parents complete peace of mind</b>.
                         </p>
                     </div>

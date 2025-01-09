@@ -39,7 +39,7 @@ const OurServices = () => {
                     <Row>
                         <Col lg={24}>
                             <div>
-                                <div style={{padding:"0px"}}>
+                                <div style={{ padding: "0px" }}>
                                     <h1 style={{ fontSize: "40px" }}>Our Services</h1>
                                 </div>
                                 <p>We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. We look forward to hearing from you!We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. We look forward to hearing from you!We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or </p>
@@ -84,6 +84,7 @@ const OurServices = () => {
 
                                 <br />
                                 <Col lg={12}>
+                                    
                                     <p>At Seedo Toys, we take pride in our
                                         in-house spraying capabilities, including
                                         pad printing, spray printing, tampo
