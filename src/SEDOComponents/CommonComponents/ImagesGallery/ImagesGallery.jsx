@@ -24,7 +24,7 @@ import 'swiper/css/pagination';
 import { Autoplay, Pagination, Navigation, FreeMode } from 'swiper/modules';
 import MakeinIndia from "./Make-in-India-Logo-PNG-HD.svg"
 import BestSellerProducts from "../../BestSellerProductList";
-
+import ProductsBackShape from "./ProductsBackShape.svg"
 const ImagesGallery = () => {
     const ImagesGalleryData = [
         image1,
@@ -157,10 +157,10 @@ const ImagesGallery = () => {
                             spaceBetween={30}
                             freeMode={true}
                             loop={true}
-                            // autoplay={{
-                            //     delay: 600,
-                            //     disableOnInteraction: false,
-                            // }}
+                            autoplay={{
+                                delay: 2000,
+                                disableOnInteraction: false,
+                            }}
                             speed={1000}
                             pagination={{
                                 clickable: true,
@@ -171,6 +171,7 @@ const ImagesGallery = () => {
                             {BestSellerProducts.BestSeller.products.map((item, index) => (
                                 <SwiperSlide key={item.id}>
                                     <div className="BestSellerCardsContainer">
+                                        <img src={ProductsBackShape} alt="" className="BackShapeAjust"/>
                                         <img
                                             src={item.ProductImage[0]} // Use the first image in the ProductImage array
                                             alt={item.name} // Set alt text to the product name

@@ -13,16 +13,16 @@ import ODMBanner from "./ODMBanner.svg"
 const OurServices = () => {
     const servicesData = [
         {
-            title: "OEM",
+            title: "Original Equipment Manufacturer (OEM)",
             description: "We specialize in producing high-quality products tailored to our client's specifications, ensuring exceptional quality and performance while fostering strong partnerships for mutual growth and success."
         },
         {
-            title: "ODM",
+            title: "Original Design Manufacturer (ODM)",
             img: ODMBanner,
             description: "We specialize in Original Design manufacturing, creating innovative products tailored to clients' specifications. Our focus is on quality, customization, and delivering exceptional value to our partners."
         },
         {
-            title: "White label",
+            title: "White Label",
             description: "We offer white-label solutions, allowing you to brand our high-quality products as your own. This enables you to expand your product range while maintaining your unique brand identity."
         }
     ]
@@ -56,41 +56,48 @@ const OurServices = () => {
                             <h1>In house spraying</h1>
                         </div>
                         <div>
-                            <div className="PendingGrayBox">
-                                <div style={{ display: "flex", height: "100%" }}>
-                                    <Row style={{ width: "100%" }}>
-                                        <Col lg={8}>
+                            <Row>
+                                <Col lg={12}>
+                                    <div className="PendingGrayBox">
+                                        <div style={{ display: "flex", height: "100%" }} className="ImageAdjust">
+                                            <Row style={{ width: "100%" }}>
+                                                <Col lg={8}>
 
-                                            <div>
-                                                <Image src={About3} alt="" />
-                                            </div>
-                                        </Col>
-                                        <Col lg={8}>
-                                            <div>
-                                                <Image src={About1} alt="" />
-                                            </div>
-                                        </Col>
-                                        <Col lg={8}>
-                                            <div>
-                                                <Image src={About2} alt="" />
-                                            </div>
-                                        </Col>
-                                    </Row>
-                                </div>
-                            </div>
-                            <br />
-                            <p>At Seedo Toys, we take pride in our
-                                in-house spraying capabilities, including
-                                pad printing, spray printing, tampo
-                                printing, and other finishing techniques.
-                                Our state-of-the-art facility is capable of
-                                spraying 200,000 toys per month,
-                                delivering stunning finishes Such as
-                                high-gloss, anti-scratch, metallic, and
-                                pearl effects. All chemicals, coatings, and
-                                pigments used meet child safety
-                                standards, ensuring the highest safety for
-                                young users.</p>
+                                                    <div>
+                                                        <Image src={About3} alt="" />
+                                                    </div>
+                                                </Col>
+                                                <Col lg={8}>
+                                                    <div>
+                                                        <Image src={About1} alt="" />
+                                                    </div>
+                                                </Col>
+                                                <Col lg={8}>
+                                                    <div>
+                                                        <Image src={About2} alt="" />
+                                                    </div>
+                                                </Col>
+                                            </Row>
+                                        </div>
+                                    </div>
+                                </Col>
+
+                                <br />
+                                <Col lg={12}>
+                                    <p>At Seedo Toys, we take pride in our
+                                        in-house spraying capabilities, including
+                                        pad printing, spray printing, tampo
+                                        printing, and other finishing techniques.
+                                        Our state-of-the-art facility is capable of
+                                        spraying 200,000 toys per month,
+                                        delivering stunning finishes Such as
+                                        high-gloss, anti-scratch, metallic, and
+                                        pearl effects. All chemicals, coatings, and
+                                        pigments used meet child safety
+                                        standards, ensuring the highest safety for
+                                        young users.</p>
+                                </Col>
+                            </Row>
                             {/* <div style={{ display: "flex", justifyContent: "center" }}>
                                 <button>Read More</button>
                             </div> */}
@@ -98,46 +105,49 @@ const OurServices = () => {
                     </div>
                     <div className="AdjustWidthSection">
                         <div>
-                            <h1>SELF-RELIANT PCBS
-                                MANUFACTURING</h1>
+                            <h1>Self-Reliant PCBs Manufacturing</h1>
                         </div>
                         <div>
-                            <div className="PendingGrayBox">
-                                <div style={{ display: "flex", height: "100%" }}>
-                                    <Row style={{ width: "100%" }}>
-                                        <Col lg={8}>
+                            <Row>
+                                <Col lg={12}>
+                                    <p>Seedo Toys has made significant
+                                        strides by designing and producing its
+                                        own PCBs, manufactured with the latest
+                                        pick-and-place technology. We produce
+                                        150,000 to 200,000 PCBs monthly in
+                                        our fully automated facility. Our PCB
+                                        materials meet global safety standards,
+                                        offering surge, voltage, and heat
+                                        protection. They are phthalate-free,
+                                        lead-free, and ROHS-compliant for
+                                        international exports, ensuring both
+                                        safety and reliability for our products</p>
+                                </Col>
+                                <Col lg={12}><div className="PendingGrayBox">
+                                    <div style={{ display: "flex", height: "100%" }} className="ImageAdjust">
+                                        <Row style={{ width: "100%" }}>
+                                            <Col lg={8}>
+                                                <div>
+                                                    <Image src={About5} alt="" />
+                                                </div>
+                                            </Col>
+                                            <Col lg={8}>
+                                                <div>
+                                                    <Image src={About7} alt="" />
+                                                </div>
+                                            </Col>
+                                            <Col lg={8}>
+                                                <div>
+                                                    <Image src={About10} alt="" />
+                                                </div>
+                                            </Col>
+                                        </Row>
 
-                                            <div>
-                                                <Image src={About5} alt="" />
-                                            </div>
-                                        </Col>
-                                        <Col lg={8}>
-                                            <div>
-                                                <Image src={About7} alt="" />
-                                            </div>
-                                        </Col>
-                                        <Col lg={8}>
-                                            <div>
-                                                <Image src={About10} alt="" />
-                                            </div>
-                                        </Col>
-                                    </Row>
-
+                                    </div>
                                 </div>
-                            </div>
-                            <br />
-                            <p>Seedo Toys has made significant
-                                strides by designing and producing its
-                                own PCBs, manufactured with the latest
-                                pick-and-place technology. We produce
-                                150,000 to 200,000 PCBs monthly in
-                                our fully automated facility. Our PCB
-                                materials meet global safety standards,
-                                offering surge, voltage, and heat
-                                protection. They are phthalate-free,
-                                lead-free, and ROHS-compliant for
-                                international exports, ensuring both
-                                safety and reliability for our products</p>
+
+                                </Col>
+                            </Row>
                             {/* <div style={{ display: "flex", justifyContent: "center" }}>
                                 <button>Read More</button>
                             </div> */}

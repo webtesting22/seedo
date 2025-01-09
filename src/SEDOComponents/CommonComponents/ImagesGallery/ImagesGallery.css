@@ -243,6 +243,20 @@
 
 .BestSellerCardsContainer {
     /* border: 1px dashed #BC252B; */
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
+    padding: 20px 10px;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 200px;
+    justify-content: space-between;
+    transition: .5s;
+    /* background-color: rgb(235, 235, 235); */
+}
+.BestSellerCardsContainer:hover {
+    /* border: 1px dashed #BC252B; */
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     padding: 20px 10px;
     border-radius: 20px;
@@ -252,7 +266,6 @@
     flex-direction: column;
     min-height: 200px;
     justify-content: space-between;
-    /* background-color: rgb(235, 235, 235); */
 }
 
 .BestSellerCardsContainer h3 {
@@ -270,6 +283,16 @@
     width: 150px;
     aspect-ratio: 3/2;
     object-fit: contain;
+    position: sticky;
+    z-index: 5;
+}
+
+.BackShapeAjust{
+width: 150px;
+position: absolute;
+z-index: 4;
+margin-top: -8px;
+opacity: 0.7;
 }
 
 @media (max-width:769px) {

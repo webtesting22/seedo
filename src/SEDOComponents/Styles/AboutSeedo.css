@@ -327,6 +327,9 @@
     text-align: center;
     /* font-weight: 800; */
     margin-bottom: 0px;
+    width: 100%;
+    background-color: #bc252b0a;
+    text-transform:capitalize;
 }
 
 .paddingContainer {
@@ -431,6 +434,7 @@
     font-size: 40px;
     text-align: center;
     margin-top: 0px;
+    background-color: #bc252b0a;
 }
 
 .LeaderShipHeaderContainer {
