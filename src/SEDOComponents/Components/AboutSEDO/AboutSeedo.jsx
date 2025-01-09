@@ -21,6 +21,14 @@ import Vector from "./Logos/Vector (1).svg"
 import TheHimalayaLogo from "./Logos/The_Himalaya_Drug_Company_logo.svg"
 import Amway from "./Logos/Amway_(logo).svg.svg"
 import Disney from "./Logos/Disney-Logo-2019-2024.svg"
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+// import required modules
+import { Autoplay, Pagination } from 'swiper/modules';
+
 const AboutSeedo = () => {
     const ServicesCardData = [
         {
@@ -79,6 +87,23 @@ const AboutSeedo = () => {
         {
             img: Disney,
             link: "https://www.disney.in/"
+        }
+    ]
+
+
+    const VissionMissionData = [
+        {
+            title: "MISSION",
+            description: "To deliver high-quality, safe, and innovative toys that inspire creativity and confidence in children and parents alike."
+
+        },
+        {
+            title: "VISION",
+            description: "To become a leading toy manufacturer globally, Seedo Toys aims to be recognized for excellence in product quality and innovation while integrating advanced technology into its offerings."
+        },
+        {
+            title: "PURPOSE",
+            description: "To foster children's imagination through engaging play experiences while ensuring parents' trust in our craftsmanship and commitment to safety."
         }
     ]
     useEffect(() => {
@@ -203,7 +228,46 @@ const AboutSeedo = () => {
                 </div>
             </section>
             <section className="MissionContainer">
-                <div className="gridContainer">
+                <div>
+                    <Row>
+
+                        <Col lg={12} md={24} style={{ width: "100%" }}>
+                            <Swiper
+                                spaceBetween={30}
+                                centeredSlides={true}
+                                autoplay={{
+                                    delay: 3000,
+                                    disableOnInteraction: false,
+                                }}
+                                speed={600}
+                                loop={true}
+                                pagination={{
+                                    clickable: true,
+                                }}
+                                modules={[Autoplay, Pagination]}
+                                className="mySwiper"
+                                style={{ height: "100%" }}
+                            >
+                                {VissionMissionData.map((item, index) => (
+                                    <SwiperSlide key={index}>
+                                        <div className="VisionMissionDescriptionContainer">
+                                            <h4>{item.title}</h4>
+                                            <p>{item.description}</p>
+                                        </div>
+                                    </SwiperSlide>
+                                ))}
+                            </Swiper>
+                        </Col>
+
+
+                        <Col lg={12} md={24}>
+                            <div className="VisionMissionImageContainer">
+                                <img src="https://images.unsplash.com/photo-1681351623149-91d23d44909b?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+                            </div>
+                        </Col>
+                    </Row>
+                </div>
+                {/* <div className="gridContainer">
                     <Row>
                         <Col lg={8} md={12}>
                             <div>
@@ -224,7 +288,7 @@ const AboutSeedo = () => {
                             </div>
                         </Col>
                     </Row>
-                </div>
+                </div> */}
             </section>
             {/* <section className="VisionContainer">
               
@@ -241,9 +305,9 @@ const AboutSeedo = () => {
                         {LogosData.map((item, index) => (
                             <Col lg={4} md={6}>
                                 <Link to={item.link} target="_blank">
-                                <div className="CerticationCardGreyBox">
-                                    <img src={item.img} alt="" />
-                                </div>
+                                    <div className="CerticationCardGreyBox">
+                                        <img src={item.img} alt="" />
+                                    </div>
                                 </Link>
                             </Col>
                         ))}

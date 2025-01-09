@@ -210,6 +210,17 @@
 .OurBestsellers {
     padding: 80px 40px;
 }
+.BestSellerCardsContainer hr{
+    width: 100%;
+    /* position: absolute; */
+    /* left: 0px;
+    right: 0px; */
+    background-color: #BC252B;
+    border: 0.2px solid #BC252B;
+    bottom: 90px;
+    opacity: 0.4;
+    margin-bottom: 0px;
+}
 
 @media (min-width:1500px) and (max-width:30000px) {
     .OurBestsellers {
@@ -219,14 +230,15 @@
 }
 
 .BestSellerCardsContainer {
-    border: 1px dashed #BC252B;
+    /* border: 1px dashed #BC252B; */
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     padding: 20px 10px;
     border-radius: 20px;
     width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
-    min-height: 180px;
+    min-height: 200px;
     justify-content: space-between;
     /* background-color: rgb(235, 235, 235); */
 }
@@ -235,6 +247,7 @@
     margin-bottom: 0px;
     font-size: 18px;
     text-align: center;
+    /* margin-top: 0px; */
 }
 
 .OurBestsellers .ant-row .ant-col:nth-child(1)>div {

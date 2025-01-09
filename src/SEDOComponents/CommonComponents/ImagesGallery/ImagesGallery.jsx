@@ -115,7 +115,7 @@ const ImagesGallery = () => {
                                 <Link to="/ourservices">
                                     <div className="GreyBox">
                                         <img src={odm} alt="" />
-                                        <h4>Original Design Manufacturing (ODM)</h4>
+                                        <h4>Original Design Manufacturer (ODM)</h4>
                                         <p >We specialize in Original Design manufacturing, creating innovative products...</p>
                                         <button><FaArrowRightLong /></button>
                                         {/* <p>We specialize in producing high-quality products tailored to our client's specifications, ensuring exceptional quality and performance while fostering
@@ -157,10 +157,10 @@ const ImagesGallery = () => {
                             spaceBetween={30}
                             freeMode={true}
                             loop={true}
-                            autoplay={{
-                                delay: 600,
-                                disableOnInteraction: false,
-                            }}
+                            // autoplay={{
+                            //     delay: 600,
+                            //     disableOnInteraction: false,
+                            // }}
                             speed={1000}
                             pagination={{
                                 clickable: true,
@@ -176,7 +176,10 @@ const ImagesGallery = () => {
                                             alt={item.name} // Set alt text to the product name
                                             className="BestSellerImage"
                                         />
-                                        <h3 className="BestSellerTitle">{item.name}</h3>
+                                       <div style={{width:"100%"}}>
+                                       <hr />
+                                       <h3 className="BestSellerTitle">{item.name}</h3>
+                                       </div>
                                     </div>
                                 </SwiperSlide>
                             ))}
