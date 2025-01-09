@@ -175,7 +175,7 @@ const ImagesGallery = () => {
                                     slidesPerView: 3, // Display 3 slides on tablet
                                 },
                                 1024: { // Desktop breakpoint (1024px and up)
-                                    slidesPerView: 4, // Display 5 slides on desktop
+                                    slidesPerView: 3, // Display 5 slides on desktop
                                 },
                             }}
                         >
@@ -191,7 +191,7 @@ const ImagesGallery = () => {
                                             />
                                         </div>
                                         <div style={{ width: "100%",height:"60px" }}>
-                                            <hr />
+                                            {/* <hr /> */}
                                             <h3 className="BestSellerTitle">{item.name}</h3>
                                         </div>
                                     </div>

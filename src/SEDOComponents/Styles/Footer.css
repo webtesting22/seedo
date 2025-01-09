@@ -1,7 +1,7 @@
 #Footer {
     padding-top: 4rem !important;
     padding: 0rem 4rem;
-    background: #a12024;
+    background: #253874;
     /* margin-top: 3rem !important; */
     padding-bottom: 1rem;
     color: white;
@@ -34,7 +34,7 @@
 }
 
 .ContactContainerandSocial>div:nth-child(2) p svg {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .FooterAdressContainer {

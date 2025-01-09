@@ -28,9 +28,9 @@ const Footer = () => {
                                     <p><b>Terms and Condition</b></p>
                                 </div>
                                 <div>
-                                    <p><LiaFacebookSquare /></p>
+                                    {/* <p><LiaFacebookSquare /></p> */}
                                     <Link to="https://www.instagram.com/seedotoys/" target="_blank"><p><CiInstagram style={{ color: "white" }} /></p></Link>
-                                    <p><FaXTwitter /></p>
+                                    {/* <p><FaXTwitter /></p> */}
                                 </div>
                             </div>
                         </Col>

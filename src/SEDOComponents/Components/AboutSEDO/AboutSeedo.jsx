@@ -133,16 +133,16 @@ const AboutSeedo = () => {
 
     const VissionMissionData = [
         {
-            title: "MISSION",
+            title: "Mission",
             description: "To deliver high-quality, safe, and innovative toys that inspire creativity and confidence in children and parents alike."
 
         },
         {
-            title: "VISION",
+            title: "Vision",
             description: "To become a leading toy manufacturer globally, Seedo Toys aims to be recognized for excellence in product quality and innovation while integrating advanced technology into its offerings."
         },
         {
-            title: "PURPOSE",
+            title: "Purpose",
             description: "To foster children's imagination through engaging play experiences while ensuring parents' trust in our craftsmanship and commitment to safety."
         }
     ]
@@ -345,7 +345,7 @@ const AboutSeedo = () => {
             </section> */}
             <section className="OURLEADERSHIPContainer">
                 <div className="LeaderShipHeaderContainer">
-                    <h1>Sanson Promotion Innovations LLP clients</h1>
+                    <h1>Sanson Promotion Innovations LLP Clients</h1>
                 </div>
                 <div className="LeaderShipCardContainer">
                     <Row>

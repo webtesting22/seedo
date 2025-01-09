@@ -35,7 +35,7 @@ const ImageSticky = () => {
             <div className="WhyUsContainer">
                 <div className="stickyContainer">
                     <h2>Why Choose Us ?</h2>
-                    <p>We are committed to excellence and safety in everything we do. Every product undergoes rigorous quality checks to ensure it meets the highest safety standards, making them 100% kid-safe and crafted with precision.
+                    <p>We are committed to excellence and safety in everything we do. Every product undergoes rigorous quality checks to ensure it meets the highest safety standards, making them 100% kid safe and crafted with precision.
                        <br /> Our goal? To become India’s leading brand, setting new benchmarks for quality and creativity.
                     </p>
                 </div>

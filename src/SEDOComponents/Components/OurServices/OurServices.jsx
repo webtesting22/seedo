@@ -22,7 +22,7 @@ const OurServices = () => {
             description: "We focus on innovative design manufaturing, creating unique and effective products."
         },
         {
-            title: "White Label",
+            title: "White Labelling",
             description: "Our white-label solutions allow you to brand our high-quality products as your own. This enables you to expand your product range while maintaining your unique brand identity."
         }
     ]
@@ -39,7 +39,7 @@ const OurServices = () => {
             </div> */}
             <section className="OurServicesContainer">
 
-                <div className="OurServicesParagraph">
+                {/* <div className="OurServicesParagraph">
                     <Row>
                         <Col lg={24}>
                             <div>
@@ -49,10 +49,10 @@ const OurServices = () => {
                                 <p>We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. We look forward to hearing from you!</p>
                             </div>
                         </Col>
-                        {/* <Col lg={12}>
-                        </Col> */}
+                        <Col lg={12}>
+                        </Col>
                     </Row>
-                </div>
+                </div> */}
                 <div className="AjustCenterContainer">
 
                     <div className="AdjustWidthSection">

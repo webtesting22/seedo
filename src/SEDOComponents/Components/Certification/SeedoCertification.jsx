@@ -149,24 +149,23 @@ const SeedoCertification = () => {
                     <h1>Certificates</h1>
                 </div>
                 <div>
-                    <Row>
-                        {CertificationLogoData.map((item, index) => (
+                <Row>
+    {CertificationLogoData.map((item, index) => (
+        <Col
+            lg={index < 2 ? 12 : 8} // lg={12} for the first two items, lg={8} for the rest
+            md={12} // md={12} for all items
+            key={index}
+        >
+            <Link to={item.link} target="_blank">
+                <div className="CerticationCardGreyBox">
+                    <img src={item.img} alt={item.title} />
+                    <h2>{item.title}</h2>
+                </div>
+            </Link>
+        </Col>
+    ))}
+</Row>
 
-                            <Col
-                                lg={6} // Use lg={12} for the first two items, and lg={8} for the rest
-                                md={12}
-                                key={index}
-                            >
-                                <Link to={item.link} target="_blank">
-                                    <div className="CerticationCardGreyBox">
-                                        <img src={item.img} alt="" />
-                                        <h2>{item.title}</h2>
-                                    </div>
-                                </Link>
-                            </Col>
-
-                        ))}
-                    </Row>
                     {/* <div className="CerticationHeadline">
                         <div>
                             <p>Passed testing awaiting certificate</p>
