@@ -182,7 +182,7 @@ const ImagesGallery = () => {
                             {BestSellerProducts.BestSeller.products.map((item, index) => (
                                 <SwiperSlide key={item.id}>
                                     <div className="BestSellerCardsContainer">
-                                        <div>
+                                        <div style={{display:"flex",justifyContent:"center",alignItems:"center"}}> 
                                             <img src={ProductsBackShape} alt="" className="BackShapeAjust" />
                                             <img
                                                 src={item.ProductImage[0]} // Use the first image in the ProductImage array

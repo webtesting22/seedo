@@ -281,7 +281,7 @@
 }
 
 .BestSellerImage {
-    width: 150px;
+    width: 200px;
     aspect-ratio: 3/2;
     object-fit: contain;
     position: sticky;

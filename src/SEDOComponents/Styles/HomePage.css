@@ -227,7 +227,7 @@
     transform: scale(1.06); /* Slightly zoomed in */
   }
 }
-@media (max-width: 769px) {
+@media (max-width: 900px) {
   .SANSONGraphicContainer div p {
     text-align: start;
     color: white;
