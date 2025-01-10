@@ -26,6 +26,7 @@ import { Row, Col } from "antd";
 import { Autoplay, Pagination, FreeMode } from 'swiper/modules';
 import AboutUsSection from "./AboutUsSection.png"
 import Zepto from "./Zepto.png"
+import Whiskey from "./Whiskey.svg"
 
 const ZoomCards = () => {
     const imageRef = useRef(null);
@@ -89,6 +90,10 @@ const ZoomCards = () => {
         {
             link: "https://www.zeptonow.com/",
             img: Zepto
+        },
+        {
+            link:"https://www.thewhiskyexchange.com/",
+            img:Whiskey
         }
 
     ];

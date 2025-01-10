@@ -17,8 +17,22 @@ import ChhotaBheem from "/Images/Logos/Clientlogos/ChhotaBheem.png"
 import ToyStory3 from "/Images/Logos/Clientlogos/ToyStory3.png"
 import Barbie from "/Images/Logos/Clientlogos/Barbie.png"
 import doraemon from "/Images/Logos/Clientlogos/doraemon.png"
+import amazon from "../../CommonComponents/ZoomCards/amazon.svg"
+import flifkart from "../../CommonComponents/ZoomCards/flifkart.svg"
+import smartBazaar from "../../CommonComponents/ZoomCards/smartBazaar.svg"
+import Snooplay from "../../CommonComponents/ZoomCards/Snooplay.svg"
+import swiggy from "../../CommonComponents/ZoomCards/swiggy.svg"
+import whole9years from "../../CommonComponents/ZoomCards/whole9years.svg"
+import Zepto from "../../CommonComponents/ZoomCards/Zepto.png"
+import Whiskey from "../../CommonComponents/ZoomCards/Whiskey.svg"
 import { Link } from "react-router-dom";
 import Navigation from "../../CommonComponents/Navigation/Navigation";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+// import required modules
+import { Autoplay, Pagination, FreeMode } from 'swiper/modules';
 const Client = () => {
 
     const LogosData = [
@@ -89,9 +103,41 @@ const Client = () => {
         }
     ]
 
-    // const LogoDataSecond = [
+    const Clients = [
+        {
+            link: "https://www.amazon.in/",
+            img: amazon
+        },
+        {
+            link: "https://www.flipkart.com/",
+            img: flifkart
+        },
+        {
+            link: "https://reliancesmartbazaar.com/",
+            img: smartBazaar
+        },
+        {
+            link: "https://snooplay.in/",
+            img: Snooplay
+        },
+        {
+            link: "https://www.swiggy.com/",
+            img: swiggy
+        },
+        {
+            link: "https://whole9yards.in/",
+            img: whole9years
+        },
+        {
+            link: "https://www.zeptonow.com/",
+            img: Zepto
+        },
+        {
+            link:"https://www.thewhiskyexchange.com/",
+            img:Whiskey
+        }
 
-    // ]
+    ];
     return (
         <>
        <div className="AboutUs">
@@ -152,6 +198,49 @@ const Client = () => {
                     </Row>
                 </div>
             </section>
+            <div className="headingHeaderContainer">
+                    <h1 style={{ textAlign: "center",fontSize:"30px",backgroundColor:"#bc252b0a" }}>Where To Find Us?</h1>
+                </div>
+                <br /><br />
+                {/* <div id="ClientSliderContainer"> */}
+                <Swiper
+                    slidesPerView={5}
+                    spaceBetween={30}
+                    freeMode={true}
+                    loop={true}
+                    autoplay={{
+                        delay: 2000,
+                        disableOnInteraction: false,
+                    }}
+                    speed={1000}
+                    // pagination={{
+                    //     clickable: true,
+                    // }}
+                    modules={[Autoplay, FreeMode]}
+                    className="mySwiper"
+                    breakpoints={{
+                        320: { // Mobile breakpoint (320px and up)
+                            slidesPerView: 2, // Display 2 slides on mobile
+                        },
+                        768: { // Tablet breakpoint (768px and up)
+                            slidesPerView: 3, // Display 3 slides on tablet
+                        },
+                        1024: { // Desktop breakpoint (1024px and up)
+                            slidesPerView: 5, // Display 5 slides on desktop
+                        },
+                    }}
+                >
+                    {Clients.map((item, index) => (
+                        <SwiperSlide key={index} >
+                            <Link to={item.link} target="_blank">
+                                <div className="GrayCardContainer">
+                                    <img src={item.img} alt="" />
+                                </div>
+                            </Link>
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
+                <br /><br />
                 {/* <div className="LeftSideContentContainer">
                     <h2 className="PrimaryHeading-black"><svg width="100%" class="svg rotating-image" height="100%" viewBox="0 0 20 23" fill="red" xmlns="http://www.w3.org/2000/svg">
                         <path d="M8.01745 19.7867C8.01745 21.7867 9.29195 23.001 10 23.001C10.7081 23.001 11.9826 21.7867 11.9826 19.7867C11.9826 19.5724 10.2124 14.2867 10.1416 11.7867C12.195 13.0724 15.9477 17.2867 16.1601 17.3581C17.8594 18.3581 19.4879 17.8581 19.9128 17.2867C20.196 16.6438 19.842 14.9295 18.0718 13.9295C17.8594 13.7867 12.549 12.7153 10.2832 11.501C12.549 10.2867 17.8594 9.21526 18.0718 9.0724C19.842 8.0724 20.196 6.35812 19.9128 5.78669C19.4879 5.14383 17.8594 4.64383 16.1601 5.64383C15.9477 5.78669 12.195 9.92955 10.1416 11.2867C10.2124 8.71526 11.9826 3.57241 11.9826 3.21526C11.9826 1.21526 10.7081 0.000976562 10 0.000976562C9.29195 0.000976562 8.01745 1.21526 8.01745 3.21526C8.01745 3.50097 9.71678 8.71526 9.85839 11.2867C7.73423 9.92955 4.12315 5.78669 3.83993 5.64383C2.1406 4.64383 0.512072 5.14383 0.0872398 5.78669C-0.195982 6.35812 0.158045 8.0724 1.92818 9.0724C2.2114 9.21526 7.451 10.2867 9.64597 11.501C7.451 12.7153 2.2114 13.7867 1.92818 13.9295C0.158045 14.9295 -0.195982 16.6438 0.0872398 17.2867C0.512072 17.8581 2.1406 18.3581 3.83993 17.3581C4.05234 17.2153 7.73423 13.0724 9.85839 11.7867C9.71678 14.2867 8.01745 19.5724 8.01745 19.7867Z" fill="currentColor"></path>
