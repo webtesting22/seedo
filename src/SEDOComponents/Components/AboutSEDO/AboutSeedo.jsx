@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "../../Styles/AboutSeedo.css";
-import { Row, Col } from "antd";
+import { Row, Col, Image } from "antd";
 import SeedoPoster from "/Images/Banners/SeedoPoster.png"
 import PhotosGrid from "../../CommonComponents/PhotosGrid/PhotosGrid";
 import AboutContent from "../AboutContentPoint/AboutContent";
@@ -30,7 +30,12 @@ import Barbie from "/Images/Logos/Clientlogos/Barbie.png"
 import doraemon from "/Images/Logos/Clientlogos/doraemon.png"
 import Pepsi from "/Images/Logos/Clientlogos/Pepsi.png"
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import About1 from "./About1.svg"
+import About2 from "./About2.svg"
+import About3 from "./About3.svg"
+import About5 from "./About5 1.svg"
+import About7 from "./About7 1.svg"
+import About10 from "./About10 1.svg"
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -238,15 +243,24 @@ const AboutSeedo = () => {
                 <div className="AboutContentContainer">
                     <div className="paddingContainer">
                         <h1 data-aos="fade-up"
-     data-aos-duration="1000">About us</h1>
+                            data-aos-duration="1000">About us</h1>
                         <br />
                         <p data-aos="fade-up"
-     data-aos-duration="1500">Seedo has recently expanded its capabilities by introducing pad painting and spray painting in early 2024, along with in-house PCB manufacturing to reduce reliance on imports from China. This strategic move has led to <b>Seedo receiving "Make in India" certification</b>, allowing them to begin global exports by January 2025.</p>
+                            data-aos-duration="1500">Driven by innovation and strong technical control
+                            we at Seedo have developed a range of
+                            high-quality toys, ensuring they are safe,
+                            affordable, and meet the highest standards. Seedo
+                            Toys sparks children’s imaginations while offering
+                            parents confidence in our craftsmanship.
+                            We are committed to becoming India's leading toy
+                            manufacturers and aim for tenfold growth within
+                            three years. We are excited to share our collection
+                            and bring joy to kids everywhere!</p>
                         {/* <p>Seedo has recently expanded its capabilities by introducing pad painting and spray painting in early 2024, along with in-house PCB manufacturing to reduce reliance on imports from China. This strategic move has led to Seedo receiving "Make in India" certification, allowing them to begin global exports by January 2025.
                         </p> */}
-                        <p data-aos="fade-up"
-     data-aos-duration="1600">The company focuses on scalability, quality control, and volume handling, with plans to launch easy early-learning toys and STEM toys in early 2025. Currently, <b>Seedo operates over 3,000 stores</b> across various formats, including General Trade and Modern Trade. Following the successful establishment of their product line, they aim to <b>launch premium B2C stores post-2026</b> and have a national sales team covering General Trade throughout India.
-                        </p>
+                        {/* <p data-aos="fade-up"
+                            data-aos-duration="1600">The company focuses on scalability, quality control, and volume handling, with plans to launch easy early-learning toys and STEM toys in early 2025. Currently, <b>Seedo operates over 3,000 stores</b> across various formats, including General Trade and Modern Trade. Following the successful establishment of their product line, they aim to <b>launch premium B2C stores post-2026</b> and have a national sales team covering General Trade throughout India.
+                        </p> */}
                     </div>
                 </div>
             </section>
@@ -280,11 +294,11 @@ const AboutSeedo = () => {
 
                         <Col lg={12}>
                             {VissionMissionData.map((item, index) => (
-                                <div className="VisionMissionDescriptionContainer" key={index}  data-aos="fade-up"
-                                data-aos-delay={`${index * 100}`}>
+                                <div className="VisionMissionDescriptionContainer" key={index} data-aos="fade-up"
+                                    data-aos-delay={`${index * 100}`}>
                                     <h4>{item.title}</h4>
                                     <p>{item.description}</p>
-                                    
+
                                 </div>
 
                             ))}
@@ -323,7 +337,7 @@ const AboutSeedo = () => {
 
 
                         <Col lg={12} md={24}>
-                            
+
                             <div className="VisionMissionImageContainer">
                                 <img src="https://images.unsplash.com/photo-1681351623149-91d23d44909b?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
                             </div>
@@ -359,9 +373,9 @@ const AboutSeedo = () => {
             <section className="PurposeContainer">
                 
             </section> */}
-            <section className="OURLEADERSHIPContainer">
+            {/* <section className="OURLEADERSHIPContainer">
                 <div className="LeaderShipHeaderContainer">
-                    {/* <h1>Sanson Promotion Innovations LLP Clients</h1> */}
+                    <h1>Sanson Promotion Innovations LLP Clients</h1>
                     <h1>Our Trusted Partners</h1>
                 </div>
                 <div className="LeaderShipCardContainer">
@@ -377,7 +391,7 @@ const AboutSeedo = () => {
                             </Col>
                         ))}
 
-                        {/* <Col lg={8}>
+                        <Col lg={8}>
                             <div className="LeaderShipCardContainerCard">
                                 <div className="LeaderShipImageCardContainer">
 
@@ -409,10 +423,123 @@ const AboutSeedo = () => {
                                     <p>We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. We look forward to hearing from you!We offer these services, and </p>
                                 </div>
                             </div>
-                        </Col> */}
+                        </Col>
                     </Row>
                 </div>
-            </section>
+            </section> */}
+
+            <div className="AjustCenterContainer">
+
+                <div className="AdjustWidthSection">
+                    <div>
+                        <h1 data-aos="fade-up"
+                            data-aos-duration="1000">In House Spraying</h1>
+                    </div>
+                    <div>
+                        <Row>
+                            <Col lg={12}>
+                                <div className="PendingGrayBox" data-aos="fade-up"
+                                    data-aos-duration="1300">
+                                    <div style={{ display: "flex", height: "100%" }} className="ImageAdjust">
+                                        <Row style={{ width: "100%" }}>
+                                            <Col lg={8}>
+
+                                                <div>
+                                                    <Image src={About3} alt="" />
+                                                </div>
+                                            </Col>
+                                            <Col lg={8}>
+                                                <div>
+                                                    <Image src={About1} alt="" />
+                                                </div>
+                                            </Col>
+                                            <Col lg={8}>
+                                                <div>
+                                                    <Image src={About2} alt="" />
+                                                </div>
+                                            </Col>
+                                        </Row>
+                                    </div>
+                                </div>
+                            </Col>
+
+                            <br />
+                            <Col lg={12}>
+
+                                <p data-aos="fade-up"
+                                    data-aos-duration="1400">At Seedo Toys, we take pride in our
+                                    in-house spraying capabilities, including
+                                    pad printing, spray printing, tampo
+                                    printing, and other finishing techniques.
+                                    Our state-of-the-art facility is capable of
+                                    spraying 2,00,000 toys per month,
+                                    delivering stunning finishes such as
+                                    high-gloss, anti-scratch, metallic, and
+                                    pearl effects. All chemicals, coatings, and
+                                    pigments used meet child safety
+                                    standards, ensuring the highest safety for
+                                    young users.</p>
+                            </Col>
+                        </Row>
+                        {/* <div style={{ display: "flex", justifyContent: "center" }}>
+                                <button>Read More</button>
+                            </div> */}
+                    </div>
+                </div>
+                <div className="AdjustWidthSection">
+                    <div>
+                        <h1 data-aos="fade-up"
+                            data-aos-duration="1000">Self-Reliant PCBs Manufacturing</h1>
+                    </div>
+                    <div>
+                        <Row>
+                            <Col lg={12}>
+                                <p data-aos="fade-up"
+                                    data-aos-duration="1300">Seedo Toys has made significant
+                                    strides by designing and producing its
+                                    own PCBs, manufactured with the latest
+                                    pick-and-place technology. We produce
+                                    1,50,000 to 2,00,000 PCBs monthly in
+                                    our fully automated facility. Our PCB
+                                    materials meet global safety standards,
+                                    offering surge, voltage, and heat
+                                    protection. They are phthalate-free,
+                                    lead-free, and ROHS-compliant for
+                                    international exports, ensuring both
+                                    safety and reliability for our products.</p>
+                            </Col>
+                            <Col lg={12}><div className="PendingGrayBox">
+                                <div style={{ display: "flex", height: "100%" }} className="ImageAdjust" data-aos="fade-up"
+                                    data-aos-duration="1400">
+                                    <Row style={{ width: "100%" }}>
+                                        <Col lg={8}>
+                                            <div>
+                                                <Image src={About5} alt="" />
+                                            </div>
+                                        </Col>
+                                        <Col lg={8}>
+                                            <div>
+                                                <Image src={About7} alt="" />
+                                            </div>
+                                        </Col>
+                                        <Col lg={8}>
+                                            <div>
+                                                <Image src={About10} alt="" />
+                                            </div>
+                                        </Col>
+                                    </Row>
+
+                                </div>
+                            </div>
+
+                            </Col>
+                        </Row>
+                        {/* <div style={{ display: "flex", justifyContent: "center" }}>
+                                <button>Read More</button>
+                            </div> */}
+                    </div>
+                </div>
+            </div>
             {/* <MissionV¸¸¸¸ent /> */}
             {/* <PhotosGrid /> */}
             {/* <SeedoCertification />

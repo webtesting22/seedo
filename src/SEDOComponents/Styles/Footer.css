@@ -14,6 +14,7 @@
     font-size: 18px;
     color: white;
     transition: .5s;
+    width: 100%;
 }
 
 #Footer .LinksContainer ul li:hover {
@@ -24,6 +25,9 @@
     transform: translateX(10px);
     transition: .5s;
     /* border-bottom: 1px solid white; */
+}
+.FooterAdjustContainer .ant-row .ant-col{
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.669);
 }
 
 #Footer .LinksContainer ul {
@@ -68,7 +72,7 @@
     flex-direction: column;
 }
     #Footer {
-        padding-top: 4rem !important;
+        padding-top: 2rem !important;
         padding: 20px 10px;
         background: #253874;
         margin-top: 3rem !important;

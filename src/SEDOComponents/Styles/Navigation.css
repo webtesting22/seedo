@@ -7,14 +7,24 @@
   top: 0px;
 }
 
+#NavigationLink {
+  margin-bottom: 0px !important;
+}
+
 #NavigationLink a {
-  font-size: 20px;
+  font-size: 18px;
   transition: .5s;
+  font-weight: 500;
 }
 
 #NavigationLink a:hover {
-  padding-left: 10px;
-  transition: .5s;
+  padding-top: -10px;
+  font-weight: 600;
+}
+
+
+.PcManuOnly {
+  display: block;
 }
 
 .NavigationLogo img {
@@ -99,7 +109,41 @@
   padding: 0 10px;
 }
 
+.MenuToggle {
+  display: none;
+}
+
+.OnMoblilemenu {
+  display: none !important;
+}
+
 @media (max-width: 769px) {
+
+#NavigationLink {
+  margin-bottom:20px !important;
+}
+  .PcManuOnly {
+    display: none !important;
+  }
+
+  #NavigationLink a {
+    font-size: 20px;
+    transition: .5s;
+  }
+
+  #NavigationLink a:hover {
+    padding-left: 10px;
+    transition: .5s;
+  }
+
+  .MenuToggle {
+    display: block;
+  }
+
+  .OnMoblilemenu {
+    display: block;
+  }
+
   .SidePanel {
     position: fixed;
     top: 0;

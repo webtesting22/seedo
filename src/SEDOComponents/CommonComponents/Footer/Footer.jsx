@@ -57,7 +57,7 @@ const Footer = () => {
                             </div>
                         </Col>
                     </Row>
-                    <hr style={{opacity:"0.4",border:"0.5px solid white"}}/>
+                    {/* <hr style={{opacity:"0.4",border:"0.5px solid white"}}/> */}
                     <div className="CopywriteText">
                         <div style={{display:"flex",alignItems:"center"}}>
                             <p><b>Join Us</b> &nbsp;&nbsp;</p>
@@ -67,7 +67,7 @@ const Footer = () => {
                             </div>
                             {/* <p><FaXTwitter /></p> */}
                         </div>
-                        <p>@2024 <Link to="https://www.outleadsolutions.com/" target="_blank">OutLead solutions.</Link> All rights reserved.</p>
+                        <p style={{margin:"0px"}}>@2024 <Link to="https://www.outleadsolutions.com/" target="_blank">OutLead solutions.</Link> All rights reserved.</p>
                     </div>
                 </div>
                 {/* <h1>GET IN TOUCH</h1> */}

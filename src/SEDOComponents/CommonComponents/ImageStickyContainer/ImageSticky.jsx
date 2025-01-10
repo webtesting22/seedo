@@ -4,44 +4,44 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { Row, Col } from "antd";
 const ImageSticky = () => {
-    const containerRef = useRef(null);
+    // const containerRef = useRef(null);
 
-    useEffect(() => {
-        const images = containerRef.current.querySelectorAll('img');
+    // useEffect(() => {
+    //     const images = containerRef.current.querySelectorAll('img');
 
-        const handleScroll = () => {
-            images.forEach((image) => {
-                const rect = image.getBoundingClientRect();
-                const screenHeight = window.innerHeight;
+    //     const handleScroll = () => {
+    //         images.forEach((image) => {
+    //             const rect = image.getBoundingClientRect();
+    //             const screenHeight = window.innerHeight;
 
-                // Calculate fade based on position relative to the viewport
-                const fadeFactor = Math.max(0, 0.6 - Math.abs(rect.top) / screenHeight); // Starts at 1, decreases as the image moves up
-                image.style.opacity = fadeFactor.toString();
-            });
-        };
+    //             // Calculate fade based on position relative to the viewport
+    //             const fadeFactor = Math.max(0, 0.6 - Math.abs(rect.top) / screenHeight); // Starts at 1, decreases as the image moves up
+    //             image.style.opacity = fadeFactor.toString();
+    //         });
+    //     };
 
-        window.addEventListener('scroll', handleScroll);
+    //     window.addEventListener('scroll', handleScroll);
 
-        // Run once initially to ensure images are updated correctly on load
-        handleScroll();
+    //     // Run once initially to ensure images are updated correctly on load
+    //     handleScroll();
 
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
+    //     return () => {
+    //         window.removeEventListener('scroll', handleScroll);
+    //     };
+    // }, []);
 
     return (
         <>
             <div className="WhyUsContainer">
                 <div className="stickyContainer">
                     <h2 data-aos="fade-up"
-     data-aos-duration="1000">Why Choose Us ?</h2>
+                        data-aos-duration="1000">Why Choose Us ?</h2>
                     <p data-aos="fade-up"
-     data-aos-duration="1500">We are committed to excellence and safety in everything we do. Every product undergoes rigorous quality checks to ensure it meets the highest safety standards, making them 100% kid safe and crafted with precision.
-                       <br /> Our goal? To become India’s leading brand, setting new benchmarks for quality and creativity.
+                        data-aos-duration="1500">We are committed to excellence and safety in everything we do. Every product undergoes rigorous quality checks to ensure it meets the highest safety standards, making them 100% kid safe and crafted with precision.
+                        <br /> Our goal? To become India’s leading brand, setting new benchmarks for quality and creativity.
                     </p>
                 </div>
-                <div className="AnimatedImageContainer" ref={containerRef}>
+                {/* <div className="AnimatedImageContainer" ref={containerRef}>
                     <Row>
                         <Col lg={8}>
                             <img
@@ -65,7 +65,7 @@ const ImageSticky = () => {
                             />
                         </Col>
                     </Row>
-                </div>
+                </div> */}
                 {/* <p>Primary CTA</p> */}
             </div>
         </>

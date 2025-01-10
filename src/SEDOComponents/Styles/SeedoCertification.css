@@ -202,17 +202,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 120px;
+    min-height: 65px;
 }
 
 .CerticationHeadline div p {
     text-align: center;
     font-size: 20px;
     position: absolute;
-    /* bottom: -60px; */
+    bottom: -12px;
     background-color: white;
     margin: 0px 40px;
-    color: black;
+    color: #BC252B;
 }
 
 .LeaderShipCardContainer .ant-row .ant-col {
@@ -220,6 +220,19 @@
 }
 
 @media (max-width:769px) {
+
+.CerticationHeadline div {
+    width: 100%;
+    border-bottom: 1px solid #BC252B;
+    border-right: 1px solid #BC252B;
+    border-left: 1px solid #BC252B;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 120px;
+}
+
     .Certificates .CerticationCardGreyBox{
         min-height: unset;
     }

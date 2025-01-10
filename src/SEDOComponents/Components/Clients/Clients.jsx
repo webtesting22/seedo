@@ -25,6 +25,12 @@ import swiggy from "../../CommonComponents/ZoomCards/swiggy.svg"
 import whole9years from "../../CommonComponents/ZoomCards/whole9years.svg"
 import Zepto from "../../CommonComponents/ZoomCards/Zepto.png"
 import Whiskey from "../../CommonComponents/ZoomCards/Whiskey.svg"
+import image1 from "./8d3a0f196563391.Y3JvcCwxODA3LDE0MTQsOTMsMA.svg"
+import image2 from "./24Seven_logo.svg"
+import image3 from "./619a4143-2b0f-40a7-b92f-4bf48d5bed8e-removebg-preview 1.svg"
+import image4 from "./Ralleyz_Logo-02.svg"
+import image5 from "./Toys__R__Us_logo.svg.svg"
+import image6 from "./VMM-1 1.svg"
 import { Link } from "react-router-dom";
 import Navigation from "../../CommonComponents/Navigation/Navigation";
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -34,7 +40,26 @@ import 'swiper/css/navigation';
 // import required modules
 import { Autoplay, Pagination, FreeMode } from 'swiper/modules';
 const Client = () => {
-
+    const OfllineClients = [
+        {
+            img: image1
+        },
+        {
+            img: image2,
+        },
+        {
+            img: image3
+        },
+        {
+            img: image4
+        },
+        {
+            img: image5
+        },
+        {
+            img: image6
+        }
+    ]
     const LogosData = [
 
         {
@@ -133,36 +158,72 @@ const Client = () => {
             img: Zepto
         },
         {
-            link:"https://www.thewhiskyexchange.com/",
-            img:Whiskey
+            link: "https://www.thewhiskyexchange.com/",
+            img: Whiskey
         }
 
     ];
     return (
         <>
-       <div className="AboutUs">
-       <Navigation/>
-       </div>
+            <div className="AboutUs">
+                <Navigation />
+            </div>
             <section id="ClientSection">
-            <section className="OURLEADERSHIPContainer">
-                <div className="LeaderShipHeaderContainer">
-                    {/* <h1>Sanson Promotion Innovations LLP Clients</h1> */}
-                    <h1>Our Trusted Partners</h1>
+                <div className="headingHeaderContainer">
+                    <h1 style={{ textAlign: "center", fontSize: "30px", backgroundColor: "#bc252b0a" }}>Online Seedo</h1>
                 </div>
-                <div className="LeaderShipCardContainer">
-                    <Row>
-                        {LogosData.map((item, index) => (
-                            <Col lg={4} md={6} key={index}  data-aos="fade-up"
+                <br /><br />
+                <Row>
+                    {/* <div id="ClientSliderContainer"> */}
+                    {Clients.map((item, index) => (
+                        <Col lg={4} md={6} key={index} data-aos="fade-up"
                             data-aos-delay={`${index * 100}`}>
-                                <Link to={item.link} target="_blank">
-                                    <div className="CerticationCardGreyBox">
-                                        <img src={item.img} alt="" />
-                                    </div>
-                                </Link>
-                            </Col>
-                        ))}
+                            <Link to={item.link} target="_blank">
+                                <div className="CerticationCardGreyBox">
+                                    <img src={item.img} alt="" />
+                                </div>
+                            </Link>
+                        </Col>
+                    ))}
+                </Row>
+                <br /><br />
+                <div className="headingHeaderContainer">
+                    <h1 style={{ textAlign: "center", fontSize: "30px", backgroundColor: "#bc252b0a" }}>Offline Seedo</h1>
+                </div>
+                <br /><br />
+                <Row>
+                    {/* <div id="ClientSliderContainer"> */}
+                    {OfllineClients.map((item, index) => (
+                        <Col lg={4} md={6} key={index} data-aos="fade-up"
+                            data-aos-delay={`${index * 100}`}>
+                            {/* <Link to={item.link} target="_blank"> */}
+                                <div className="CerticationCardGreyBox">
+                                    <img src={item.img} alt="" />
+                                </div>
+                            {/* </Link> */}
+                        </Col>
+                    ))}
+                </Row>
 
-                        {/* <Col lg={8}>
+                <section className="OURLEADERSHIPContainer">
+                    <div className="LeaderShipHeaderContainer">
+                        {/* <h1>Sanson Promotion Innovations LLP Clients</h1> */}
+                        <h1>Our Trusted Partners</h1>
+                    </div>
+                    <div className="LeaderShipCardContainer">
+                        <Row>
+                            {LogosData.map((item, index) => (
+                                <Col lg={4} md={6} key={index} data-aos="fade-up"
+                                    data-aos-delay={`${index * 100}`}>
+                                    <Link to={item.link} target="_blank">
+                                        <div className="CerticationCardGreyBox">
+                                            <img src={item.img} alt="" />
+                                        </div>
+                                    </Link>
+                                </Col>
+                            ))}
+
+                            {/* <Col lg={8}>
                             <div className="LeaderShipCardContainerCard">
                                 <div className="LeaderShipImageCardContainer">
 
@@ -195,51 +256,10 @@ const Client = () => {
                                 </div>
                             </div>
                         </Col> */}
-                    </Row>
-                </div>
-            </section>
-            <div className="headingHeaderContainer">
-                    <h1 style={{ textAlign: "center",fontSize:"30px",backgroundColor:"#bc252b0a" }}>Where To Find Us?</h1>
-                </div>
-                <br /><br />
-                {/* <div id="ClientSliderContainer"> */}
-                <Swiper
-                    slidesPerView={5}
-                    spaceBetween={30}
-                    freeMode={true}
-                    loop={true}
-                    autoplay={{
-                        delay: 2000,
-                        disableOnInteraction: false,
-                    }}
-                    speed={1000}
-                    // pagination={{
-                    //     clickable: true,
-                    // }}
-                    modules={[Autoplay, FreeMode]}
-                    className="mySwiper"
-                    breakpoints={{
-                        320: { // Mobile breakpoint (320px and up)
-                            slidesPerView: 2, // Display 2 slides on mobile
-                        },
-                        768: { // Tablet breakpoint (768px and up)
-                            slidesPerView: 3, // Display 3 slides on tablet
-                        },
-                        1024: { // Desktop breakpoint (1024px and up)
-                            slidesPerView: 5, // Display 5 slides on desktop
-                        },
-                    }}
-                >
-                    {Clients.map((item, index) => (
-                        <SwiperSlide key={index} >
-                            <Link to={item.link} target="_blank">
-                                <div className="GrayCardContainer">
-                                    <img src={item.img} alt="" />
-                                </div>
-                            </Link>
-                        </SwiperSlide>
-                    ))}
-                </Swiper>
+                        </Row>
+                    </div>
+                </section>
+
                 <br /><br />
                 {/* <div className="LeftSideContentContainer">
                     <h2 className="PrimaryHeading-black"><svg width="100%" class="svg rotating-image" height="100%" viewBox="0 0 20 23" fill="red" xmlns="http://www.w3.org/2000/svg">

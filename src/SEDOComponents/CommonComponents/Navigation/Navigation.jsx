@@ -68,34 +68,52 @@ const Navigation = () => {
                             </Link>
                         </div>
                     </div>
+                    <div style={{display:"flex",gap:"30px"}} className="PcManuOnly">
+                        {NavigationLinks.map((item, index) => (
+                            <div key={index} style={{ marginBottom: "1rem" }} id="NavigationLink">
+                                <Link
+                                    to={item.path}
+                                    style={{
+                                        color: linkColor, // Apply determined color
+                                        textDecoration: "none",
+                                    }}
+                                    onClick={() => setMobileMenuOpen(false)} // Close drawer on link click
+                                >
+                                    {item.link}
+                                </Link>
+                            </div>
+                        ))}
+                    </div>
                     <div className="MenuToggle" onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}>
                         {isMobileMenuOpen ? <AiOutlineClose /> : <AiOutlineMenu />}
                     </div>
                 </div>
 
                 {/* Ant Design Drawer */}
-                <Drawer
-                    title="SEEDO"
-                    placement="right"
-                    closable={true}
-                    onClose={() => setMobileMenuOpen(false)}
-                    open={isMobileMenuOpen}
-                >
-                    {NavigationLinks.map((item, index) => (
-                        <div key={index} style={{ marginBottom: "1rem" }} id="NavigationLink">
-                            <Link
-                                to={item.path}
-                                style={{
-                                    color: linkColor, // Apply determined color
-                                    textDecoration: "none",
-                                }}
-                                onClick={() => setMobileMenuOpen(false)} // Close drawer on link click
-                            >
-                                {item.link}
-                            </Link>
-                        </div>
-                    ))}
-                </Drawer>
+                <div className="OnMoblilemenu">
+                    <Drawer
+                        title="SEEDO"
+                        placement="right"
+                        closable={true}
+                        onClose={() => setMobileMenuOpen(false)}
+                        open={isMobileMenuOpen}
+                    >
+                        {NavigationLinks.map((item, index) => (
+                            <div key={index} style={{ marginBottom: "1rem" }} id="NavigationLink">
+                                <Link
+                                    to={item.path}
+                                    style={{
+                                        color: linkColor, // Apply determined color
+                                        textDecoration: "none",
+                                    }}
+                                    onClick={() => setMobileMenuOpen(false)} // Close drawer on link click
+                                >
+                                    {item.link}
+                                </Link>
+                            </div>
+                        ))}
+                    </Drawer>
+                </div>
             </section>
         </>
     );

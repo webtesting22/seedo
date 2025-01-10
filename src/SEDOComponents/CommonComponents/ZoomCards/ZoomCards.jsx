@@ -25,7 +25,7 @@ import { Row, Col } from "antd";
 // import required modules
 import { Autoplay, Pagination, FreeMode } from 'swiper/modules';
 import AboutUsSection from "./AboutUsSection.png"
-import Zepto from "./Zepto.png"
+import Zepto from "./zepto-logo-vector_logoshape.png"
 import Whiskey from "./Whiskey.svg"
 
 const ZoomCards = () => {
@@ -65,35 +65,43 @@ const ZoomCards = () => {
     const Clients = [
         {
             link: "https://www.amazon.in/",
-            img: amazon
+            img: amazon,
+            color:""
         },
         {
             link: "https://www.flipkart.com/",
-            img: flifkart
+            img: flifkart,
+             color:""
         },
         {
             link: "https://reliancesmartbazaar.com/",
-            img: smartBazaar
+            img: smartBazaar,
+             color:"DC3739"
         },
         {
             link: "https://snooplay.in/",
-            img: Snooplay
+            img: Snooplay,
+             color:"D32A2A"
         },
         {
             link: "https://www.swiggy.com/",
-            img: swiggy
+            img: swiggy,
+             color:"F15F34"
         },
         {
             link: "https://whole9yards.in/",
-            img: whole9years
+            img: whole9years,
+             color:""
         },
         {
             link: "https://www.zeptonow.com/",
-            img: Zepto
+            img: Zepto,
+             color:""
         },
         {
-            link:"https://www.thewhiskyexchange.com/",
-            img:Whiskey
+            link: "https://www.thewhiskyexchange.com/",
+            img: Whiskey,
+             color:"000000"
         }
 
     ];
@@ -120,7 +128,7 @@ const ZoomCards = () => {
             </div>
             <div className="AboutSeedoContent">
                 <div>
-                    <p>Welcome to Seedo Toys</p>
+                    {/* <p>Welcome to Seedo Toys</p> */}
                     <h1>Where Imagination Comes to Life!</h1>
                 </div>
                 <div>
@@ -162,43 +170,45 @@ const ZoomCards = () => {
                     <h1 style={{ textAlign: "center" }}>Where To Find Us?</h1>
                 </div>
                 {/* <div id="ClientSliderContainer"> */}
-                <Swiper
-                    slidesPerView={5}
-                    spaceBetween={30}
-                    freeMode={true}
-                    loop={true}
-                    autoplay={{
-                        delay: 2000,
-                        disableOnInteraction: false,
-                    }}
-                    speed={1000}
-                    // pagination={{
-                    //     clickable: true,
-                    // }}
-                    modules={[Autoplay, FreeMode]}
-                    className="mySwiper"
-                    breakpoints={{
-                        320: { // Mobile breakpoint (320px and up)
-                            slidesPerView: 2, // Display 2 slides on mobile
-                        },
-                        768: { // Tablet breakpoint (768px and up)
-                            slidesPerView: 3, // Display 3 slides on tablet
-                        },
-                        1024: { // Desktop breakpoint (1024px and up)
-                            slidesPerView: 5, // Display 5 slides on desktop
-                        },
-                    }}
-                >
-                    {Clients.map((item, index) => (
-                        <SwiperSlide key={index} >
-                            <Link to={item.link} target="_blank">
-                                <div className="GrayCardContainer">
-                                    <img src={item.img} alt="" />
-                                </div>
-                            </Link>
-                        </SwiperSlide>
-                    ))}
-                </Swiper>
+                <div id="ColorCorrectionsContainer">
+                    <Swiper
+                        slidesPerView={5}
+                        spaceBetween={30}
+                        freeMode={true}
+                        loop={true}
+                        // autoplay={{
+                        //     delay: 2000,
+                        //     disableOnInteraction: false,
+                        // }}
+                        speed={1000}
+                        // pagination={{
+                        //     clickable: true,
+                        // }}
+                        modules={[Autoplay, FreeMode]}
+                        className="mySwiper"
+                        breakpoints={{
+                            320: { // Mobile breakpoint (320px and up)
+                                slidesPerView: 2, // Display 2 slides on mobile
+                            },
+                            768: { // Tablet breakpoint (768px and up)
+                                slidesPerView: 3, // Display 3 slides on tablet
+                            },
+                            1024: { // Desktop breakpoint (1024px and up)
+                                slidesPerView: 5, // Display 5 slides on desktop
+                            },
+                        }}
+                    >
+                        {Clients.map((item, index) => (
+                            <SwiperSlide key={index} >
+                                <Link to={item.link} target="_blank">
+                                    <div className="GrayCardContainer">
+                                        <img src={item.img} alt="" />
+                                    </div>
+                                </Link>
+                            </SwiperSlide>
+                        ))}
+                    </Swiper>
+                </div>
                 {/* <Swiper
     slidesPerView={5} // Adjust based on screen size or requirement
     spaceBetween={30}
