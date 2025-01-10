@@ -32,7 +32,9 @@ const OurServices = () => {
     }, []);
     return (
         <>
-            <Navigation />
+           <div className="AboutUs">
+           <Navigation />
+           </div>
             {/* <div className="TopVideoContainer" style={{ paddingTop: "5rem" }}>
                 <img src={TopBanner} alt="" />
               
@@ -95,7 +97,7 @@ const OurServices = () => {
                                         printing, and other finishing techniques.
                                         Our state-of-the-art facility is capable of
                                         spraying 2,00,000 toys per month,
-                                        delivering stunning finishes Such as
+                                        delivering stunning finishes such as
                                         high-gloss, anti-scratch, metallic, and
                                         pearl effects. All chemicals, coatings, and
                                         pigments used meet child safety
@@ -119,7 +121,7 @@ const OurServices = () => {
                                         strides by designing and producing its
                                         own PCBs, manufactured with the latest
                                         pick-and-place technology. We produce
-                                        150,000 to 200,000 PCBs monthly in
+                                        1,50,000 to 2,00,000 PCBs monthly in
                                         our fully automated facility. Our PCB
                                         materials meet global safety standards,
                                         offering surge, voltage, and heat

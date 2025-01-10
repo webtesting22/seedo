@@ -22,7 +22,7 @@ const Footer = () => {
                         <Col lg={8}>
                             <div className="ContactContainerandSocial">
                                 <div>
-                                    {/* <p>Contact us</p> */}
+                                    <p><b>Contact us:</b> 987644483</p>
                                     <p><b>Email:</b>  <Link to="mailto:info@seedotoys.com" target="_blank" style={{ color: "white" }}>info@seedotoys.com</Link></p>
                                     <p><b>Privacy Policy</b></p>
                                     <p><b>Terms and Condition</b></p>

@@ -11,13 +11,14 @@ const CertificationAndClient = () => {
     }, []);
     return (
         <>
-            <div id="AboutUs">
+            <div className="AboutUs">
                 <Navigation />
             </div>
             <section id="CertificationAndClient">
                
                 <SeedoCertification />
-                <Client />
+                <br /><br />
+                {/* <Client /> */}
             </section>
         </>
     )

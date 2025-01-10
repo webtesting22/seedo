@@ -13,6 +13,7 @@ import SingleProductPage from "../CommonComponents/SingleProductPage/SingleProdu
 import SubCategories from "../CommonComponents/SubCategories/SubCategories";
 import OurServices from "../Components/OurServices/OurServices";
 import SubcategoriesProducts from "../Components/ProductShow/SingleproductPage";
+import Client from "../Components/Clients/Clients";
 const SEDORoutes = () => {
     return (
         <>
@@ -30,6 +31,7 @@ const SEDORoutes = () => {
                 <Route path="/subcategories/:categoryName/:subcategoryName" element={<SubcategoriesProducts />} />
                 <Route path="/subcategoriesproducts/:categoryName" element={<SubcategoriesProducts />} />
                 <Route path="/ourservices" element={<OurServices />} />
+                <Route path="/client" element={<Client />} />
             </Routes>
             <Footer />
         </>

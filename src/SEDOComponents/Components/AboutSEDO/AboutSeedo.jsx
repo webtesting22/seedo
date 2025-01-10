@@ -152,7 +152,7 @@ const AboutSeedo = () => {
     }, []);
     return (
         <>
-            <div id="AboutUs">
+            <div className="AboutUs">
                 <Navigation />
             </div>
             <section id="AboutSEDOSection">
@@ -239,7 +239,10 @@ const AboutSeedo = () => {
                     <div className="paddingContainer">
                         <h1>About us</h1>
                         <br />
-                        <p>Seedo has recently expanded its capabilities by introducing pad painting and spray painting in early 2024, along with in-house PCB manufacturing to reduce reliance on imports from China. This strategic move has led to Seedo receiving "Make in India" certification, allowing them to begin global exports by January 2025.
+                        <p>Seedo has recently expanded its capabilities by introducing pad painting and spray painting in early 2024, along with in-house PCB manufacturing to reduce reliance on imports from China. This strategic move has led to <b>Seedo receiving "Make in India" certification</b>, allowing them to begin global exports by January 2025.</p>
+                        {/* <p>Seedo has recently expanded its capabilities by introducing pad painting and spray painting in early 2024, along with in-house PCB manufacturing to reduce reliance on imports from China. This strategic move has led to Seedo receiving "Make in India" certification, allowing them to begin global exports by January 2025.
+                        </p> */}
+                        <p>The company focuses on scalability, quality control, and volume handling, with plans to launch easy early-learning toys and STEM toys in early 2025. Currently, <b>Seedo operates over 3,000 stores</b> across various formats, including General Trade and Modern Trade. Following the successful establishment of their product line, they aim to <b>launch premium B2C stores post-2026</b> and have a national sales team covering General Trade throughout India.
                         </p>
                     </div>
                 </div>
@@ -272,19 +275,29 @@ const AboutSeedo = () => {
                 <div>
                     <Row>
 
-                        <Col lg={12} md={24} style={{ width: "100%" }}>
+                        <Col lg={12}>
+                            {VissionMissionData.map((item, index) => (
+                                <div className="VisionMissionDescriptionContainer" key={index}>
+                                    <h4>{item.title}</h4>
+                                    <p>{item.description}</p>
+                                    
+                                </div>
+
+                            ))}
+                        </Col>
+                        {/* <Col lg={12} md={24} style={{ width: "100%" }}>
                             <Swiper
                                 spaceBetween={30}
                                 centeredSlides={true}
-                                autoplay={{
-                                    delay: 2000,
-                                    disableOnInteraction: false,
-                                }}
+                                // autoplay={{
+                                //     delay: 2000,
+                                //     disableOnInteraction: false,
+                                // }}
                                 speed={600}
                                 loop={true}
-                                pagination={{
-                                    clickable: true,
-                                }}
+                                // pagination={{
+                                //     clickable: true,
+                                // }}
                                 modules={[Autoplay, Pagination]}
                                 className="mySwiper"
                                 style={{ height: "100%" }}
@@ -302,12 +315,12 @@ const AboutSeedo = () => {
                                 
                             </Swiper>
                         
-                        </Col>
+                        </Col> */}
 
 
                         <Col lg={12} md={24}>
-                        <br />
-                        <br />
+                            <br />
+                            <br />
                             <div className="VisionMissionImageContainer">
                                 <img src="https://images.unsplash.com/photo-1681351623149-91d23d44909b?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
                             </div>
@@ -345,7 +358,8 @@ const AboutSeedo = () => {
             </section> */}
             <section className="OURLEADERSHIPContainer">
                 <div className="LeaderShipHeaderContainer">
-                    <h1>Sanson Promotion Innovations LLP Clients</h1>
+                    {/* <h1>Sanson Promotion Innovations LLP Clients</h1> */}
+                    <h1>Our Trusted Partners</h1>
                 </div>
                 <div className="LeaderShipCardContainer">
                     <Row>

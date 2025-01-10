@@ -103,7 +103,7 @@ const ImagesGallery = () => {
                                 <Link to="/ourservices">
                                     <div className="GreyBox">
                                         <img src={oem} alt="" />
-                                        <h4>Original Equipment Manufacturer (OEM)</h4>
+                                        <h4>Original Equipment <br /> Manufacturer (OEM)</h4>
                                         <p>Our expertise lies in producing high-quality products tailored to our client's...</p>
                                         {/* <p className="HidePara"></p> */}
                                         <button><FaArrowRightLong /></button>
@@ -115,7 +115,7 @@ const ImagesGallery = () => {
                                 <Link to="/ourservices">
                                     <div className="GreyBox">
                                         <img src={odm} alt="" />
-                                        <h4>Original Design Manufacturer (ODM)</h4>
+                                        <h4>Original Design <br /> Manufacturer (ODM)</h4>
                                         <p >We focus on innovative design manufaturing, creating unique and effective products...</p>
                                         <button><FaArrowRightLong /></button>
                                         {/* <p>We specialize in producing high-quality products tailored to our client's specifications, ensuring exceptional quality and performance while fostering
@@ -128,7 +128,7 @@ const ImagesGallery = () => {
                                 <Link to="/ourservices">
                                     <div className="GreyBox">
                                         <img src={white} alt="" />
-                                        <h4 >White Label</h4>
+                                        <h4 >White Labelling <br /> Solutions</h4>
                                         <p>Our white-label solutions allow you to brand our high-quality products...</p>
                                         <button><FaArrowRightLong /></button>
                                         {/* <p>We offer white-label solutions, allowing you to brand our high-quality products as your own. This enables you to expand your product range while maintaining your unique brand identity.
@@ -190,7 +190,7 @@ const ImagesGallery = () => {
                                                 className="BestSellerImage"
                                             />
                                         </div>
-                                        <div style={{ width: "100%",height:"60px" }}>
+                                        <div style={{ width: "100%", height: "60px" }}>
                                             {/* <hr /> */}
                                             <h3 className="BestSellerTitle">{item.name}</h3>
                                         </div>

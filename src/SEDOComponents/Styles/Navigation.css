@@ -16,7 +16,16 @@
   position: sticky;
   z-index: 10000000;
 }
+.logo-container {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
 
+.logo-container.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
 .NavigationLogo.visible {
   opacity: 1;
   transform: translateY(0);

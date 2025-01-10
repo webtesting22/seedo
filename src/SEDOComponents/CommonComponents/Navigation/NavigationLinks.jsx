@@ -18,10 +18,10 @@ const NavigationLinks = [
         link: "Our Services",
         path: "/ourservices",
     },
-    // {
-    //     link: "Contact",
-    //     path: "/contact",
-    // },
+    {
+        link: "Clients",
+        path: "/client",
+    },
 
 ]
 export default NavigationLinks

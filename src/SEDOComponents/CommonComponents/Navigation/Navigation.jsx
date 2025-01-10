@@ -9,6 +9,23 @@ import { Drawer } from "antd"; // Import the Drawer component from Ant Design
 const Navigation = () => {
     const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
     const [isLogoVisible, setLogoVisible] = useState(false); // Track visibility of Navigation Logo
+    const [isVisible, setIsVisible] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 400) {
+                setIsVisible(true);
+            } else {
+                setIsVisible(false);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
 
     const { pathname } = useLocation(); // Get the current path
     const linkColor = pathname === "/" ? "black" : "black"; // Determine color based on the current page
@@ -46,7 +63,7 @@ const Navigation = () => {
                 <div className="ContainerNavigation">
                     <div>
                         <div className={`NavigationLogo ${pathname === "/"}`}>
-                            <Link to="/">
+                            <Link to="/" className={`logo-container ${isVisible ? "visible" : ""}`}>
                                 <img src={SEEDoLogo} alt="Logo" />
                             </Link>
                         </div>
