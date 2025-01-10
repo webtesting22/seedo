@@ -103,11 +103,13 @@ const ZoomCards = () => {
                     </div>
                 </div>
             </div> */}
-             <div style={{ display: "flex", justifyContent: "center" }}>
+            <div style={{ display: "flex", justifyContent: "center" }}>
                 <div className="SANSONGraphicContainer">
                     <div>
-                        <h1 style={{ fontSize: "30px", color: "white", margin: "0px" }}>Sanson Promotion Innovations LLP</h1>
-                        <p> Sanson Promotion Innovations LLP is a prominent leader in consumer and trade promotions, trusted by major FMCG brands such as Unilever, Glaxo, Perfetti, Mondelez, and Britannia. As the parent company of Seedo Toys, Sanson excels in collaborating with esteemed licensors like Disney, Marvel, Mattel, Pokémon, and Doraemon. With comprehensive expertise in conceptualization, product engineering, mass manufacturing, quality assurance, and logistics, Sanson consistently surpasses client expectations. This commitment to delivering high-quality products and innovative campaigns not only fosters brand loyalty but also drives significant business growth.</p>
+                        <h1 style={{ fontSize: "30px", color: "white", margin: "0px" }} data-aos="fade-up"
+                            data-aos-duration="1000">Sanson Promotion Innovations LLP</h1>
+                        <p data-aos="fade-up"
+                            data-aos-duration="1500"> Sanson Promotion Innovations LLP is a prominent leader in consumer and trade promotions, trusted by major FMCG brands such as Unilever, Glaxo, Perfetti, Mondelez, and Britannia. As the parent company of Seedo Toys, Sanson excels in collaborating with esteemed licensors like Disney, Marvel, Mattel, Pokémon, and Doraemon. With comprehensive expertise in conceptualization, product engineering, mass manufacturing, quality assurance, and logistics, Sanson consistently surpasses client expectations. This commitment to delivering high-quality products and innovative campaigns not only fosters brand loyalty but also drives significant business growth.</p>
                     </div>
                 </div>
             </div>
@@ -124,15 +126,18 @@ const ZoomCards = () => {
                             height: '100%',
                             objectFit: 'cover',
                         }} />
-                       <h2 style={{marginBottom:"0px",fontSize:"30px",textAlign:"center"}}>Trusted Presence Across India</h2>
-                                    <p style={{color:"#BC252B"}}>Proudly <b>available in 3000+ stores nationwide</b>, including General Trade and Modern Trade, we bring quality and innovation closer to you every day!
-                                    </p>
-                        <p><b>At Seedo Toys,</b> we believe in sparking <b>creativity and joy</b> with every toy we make. Our collection of high-quality, safe, and affordable toys is crafted to inspire children’s imaginations while giving parents complete peace of mind.
+                        <h2 style={{ marginBottom: "0px", fontSize: "30px", textAlign: "center" }} data-aos="fade-up"
+                            data-aos-duration="1000">Trusted Presence Across India</h2>
+                        <p style={{ color: "#BC252B" }} data-aos="fade-up"
+                            data-aos-duration="1500">Proudly <b>available in 3000+ stores nationwide</b>, including General Trade and Modern Trade, we bring quality and innovation closer to you every day!
+                        </p>
+                        <p data-aos="fade-up"
+                            data-aos-duration="1500"><b>At Seedo Toys,</b> we believe in sparking <b>creativity and joy</b> with every toy we make. Our collection of high-quality, safe, and affordable toys is crafted to inspire children’s imaginations while giving parents complete peace of mind.
                         </p>
                     </div>
                 </div>
             </div>
-           
+
             <section id="ZoomCardsContainer">
 
                 {/* <Row>
@@ -152,44 +157,44 @@ const ZoomCards = () => {
                     <h1 style={{ textAlign: "center" }}>Where To Find Us?</h1>
                 </div>
                 {/* <div id="ClientSliderContainer"> */}
-                    <Swiper
-                        slidesPerView={5}
-                        spaceBetween={30}
-                        freeMode={true}
-                        loop={true}
-                        autoplay={{
-                            delay: 2000,
-                            disableOnInteraction: false,
-                        }}
-                        speed={1000}
-                        // pagination={{
-                        //     clickable: true,
-                        // }}
-                        modules={[Autoplay, FreeMode]}
-                        className="mySwiper"
-                        breakpoints={{
-                            320: { // Mobile breakpoint (320px and up)
-                                slidesPerView: 2, // Display 2 slides on mobile
-                            },
-                            768: { // Tablet breakpoint (768px and up)
-                                slidesPerView: 3, // Display 3 slides on tablet
-                            },
-                            1024: { // Desktop breakpoint (1024px and up)
-                                slidesPerView: 5, // Display 5 slides on desktop
-                            },
-                        }}
-                    >
-                        {Clients.map((item, index) => (
-                            <SwiperSlide key={index}>
-                                <Link to={item.link} target="_blank">
-                                    <div className="GrayCardContainer">
-                                        <img src={item.img} alt="" />
-                                    </div>
-                                </Link>
-                            </SwiperSlide>
-                        ))}
-                    </Swiper>
-                    {/* <Swiper
+                <Swiper
+                    slidesPerView={5}
+                    spaceBetween={30}
+                    freeMode={true}
+                    loop={true}
+                    autoplay={{
+                        delay: 2000,
+                        disableOnInteraction: false,
+                    }}
+                    speed={1000}
+                    // pagination={{
+                    //     clickable: true,
+                    // }}
+                    modules={[Autoplay, FreeMode]}
+                    className="mySwiper"
+                    breakpoints={{
+                        320: { // Mobile breakpoint (320px and up)
+                            slidesPerView: 2, // Display 2 slides on mobile
+                        },
+                        768: { // Tablet breakpoint (768px and up)
+                            slidesPerView: 3, // Display 3 slides on tablet
+                        },
+                        1024: { // Desktop breakpoint (1024px and up)
+                            slidesPerView: 5, // Display 5 slides on desktop
+                        },
+                    }}
+                >
+                    {Clients.map((item, index) => (
+                        <SwiperSlide key={index} >
+                            <Link to={item.link} target="_blank">
+                                <div className="GrayCardContainer">
+                                    <img src={item.img} alt="" />
+                                </div>
+                            </Link>
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
+                {/* <Swiper
     slidesPerView={5} // Adjust based on screen size or requirement
     spaceBetween={30}
     loop={true} // Enable infinite scroll

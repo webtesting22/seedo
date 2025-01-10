@@ -237,12 +237,15 @@ const AboutSeedo = () => {
                 </div> */}
                 <div className="AboutContentContainer">
                     <div className="paddingContainer">
-                        <h1>About us</h1>
+                        <h1 data-aos="fade-up"
+     data-aos-duration="1000">About us</h1>
                         <br />
-                        <p>Seedo has recently expanded its capabilities by introducing pad painting and spray painting in early 2024, along with in-house PCB manufacturing to reduce reliance on imports from China. This strategic move has led to <b>Seedo receiving "Make in India" certification</b>, allowing them to begin global exports by January 2025.</p>
+                        <p data-aos="fade-up"
+     data-aos-duration="1500">Seedo has recently expanded its capabilities by introducing pad painting and spray painting in early 2024, along with in-house PCB manufacturing to reduce reliance on imports from China. This strategic move has led to <b>Seedo receiving "Make in India" certification</b>, allowing them to begin global exports by January 2025.</p>
                         {/* <p>Seedo has recently expanded its capabilities by introducing pad painting and spray painting in early 2024, along with in-house PCB manufacturing to reduce reliance on imports from China. This strategic move has led to Seedo receiving "Make in India" certification, allowing them to begin global exports by January 2025.
                         </p> */}
-                        <p>The company focuses on scalability, quality control, and volume handling, with plans to launch easy early-learning toys and STEM toys in early 2025. Currently, <b>Seedo operates over 3,000 stores</b> across various formats, including General Trade and Modern Trade. Following the successful establishment of their product line, they aim to <b>launch premium B2C stores post-2026</b> and have a national sales team covering General Trade throughout India.
+                        <p data-aos="fade-up"
+     data-aos-duration="1600">The company focuses on scalability, quality control, and volume handling, with plans to launch easy early-learning toys and STEM toys in early 2025. Currently, <b>Seedo operates over 3,000 stores</b> across various formats, including General Trade and Modern Trade. Following the successful establishment of their product line, they aim to <b>launch premium B2C stores post-2026</b> and have a national sales team covering General Trade throughout India.
                         </p>
                     </div>
                 </div>
@@ -277,7 +280,8 @@ const AboutSeedo = () => {
 
                         <Col lg={12}>
                             {VissionMissionData.map((item, index) => (
-                                <div className="VisionMissionDescriptionContainer" key={index}>
+                                <div className="VisionMissionDescriptionContainer" key={index}  data-aos="fade-up"
+                                data-aos-delay={`${index * 100}`}>
                                     <h4>{item.title}</h4>
                                     <p>{item.description}</p>
                                     
@@ -364,7 +368,8 @@ const AboutSeedo = () => {
                 <div className="LeaderShipCardContainer">
                     <Row>
                         {LogosData.map((item, index) => (
-                            <Col lg={4} md={6}>
+                            <Col lg={4} md={6} key={index}  data-aos="fade-up"
+                            data-aos-delay={`${index * 100}`}>
                                 <Link to={item.link} target="_blank">
                                     <div className="CerticationCardGreyBox">
                                         <img src={item.img} alt="" />

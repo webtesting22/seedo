@@ -106,7 +106,8 @@ const Client = () => {
                 <div className="LeaderShipCardContainer">
                     <Row>
                         {LogosData.map((item, index) => (
-                            <Col lg={4} md={6}>
+                            <Col lg={4} md={6} key={index}  data-aos="fade-up"
+                            data-aos-delay={`${index * 100}`}>
                                 <Link to={item.link} target="_blank">
                                     <div className="CerticationCardGreyBox">
                                         <img src={item.img} alt="" />

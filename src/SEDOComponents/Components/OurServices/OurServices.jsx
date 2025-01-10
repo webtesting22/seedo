@@ -59,12 +59,14 @@ const OurServices = () => {
 
                     <div className="AdjustWidthSection">
                         <div>
-                            <h1>In house spraying</h1>
+                            <h1 data-aos="fade-up"
+     data-aos-duration="1000">In house spraying</h1>
                         </div>
                         <div>
                             <Row>
                                 <Col lg={12}>
-                                    <div className="PendingGrayBox">
+                                    <div className="PendingGrayBox" data-aos="fade-up"
+     data-aos-duration="1300">
                                         <div style={{ display: "flex", height: "100%" }} className="ImageAdjust">
                                             <Row style={{ width: "100%" }}>
                                                 <Col lg={8}>
@@ -91,7 +93,8 @@ const OurServices = () => {
                                 <br />
                                 <Col lg={12}>
 
-                                    <p>At Seedo Toys, we take pride in our
+                                    <p data-aos="fade-up"
+     data-aos-duration="1400">At Seedo Toys, we take pride in our
                                         in-house spraying capabilities, including
                                         pad printing, spray printing, tampo
                                         printing, and other finishing techniques.
@@ -112,12 +115,14 @@ const OurServices = () => {
                     </div>
                     <div className="AdjustWidthSection">
                         <div>
-                            <h1>Self-Reliant PCBs Manufacturing</h1>
+                            <h1 data-aos="fade-up"
+     data-aos-duration="1000">Self-Reliant PCBs Manufacturing</h1>
                         </div>
                         <div>
                             <Row>
                                 <Col lg={12}>
-                                    <p>Seedo Toys has made significant
+                                    <p data-aos="fade-up"
+     data-aos-duration="1300">Seedo Toys has made significant
                                         strides by designing and producing its
                                         own PCBs, manufactured with the latest
                                         pick-and-place technology. We produce
@@ -131,7 +136,8 @@ const OurServices = () => {
                                         safety and reliability for our products.</p>
                                 </Col>
                                 <Col lg={12}><div className="PendingGrayBox">
-                                    <div style={{ display: "flex", height: "100%" }} className="ImageAdjust">
+                                    <div style={{ display: "flex", height: "100%" }} className="ImageAdjust" data-aos="fade-up"
+     data-aos-duration="1400">
                                         <Row style={{ width: "100%" }}>
                                             <Col lg={8}>
                                                 <div>
@@ -165,7 +171,8 @@ const OurServices = () => {
 
                     {servicesData.map((item, index) => (
                         <Row>
-                            <Col lg={12} md={24} style={{ width: "100%" }} key={index}>
+                            <Col lg={12} md={24} style={{ width: "100%" }} key={index}  data-aos="fade-up"
+            data-aos-delay={`${index * 100}`}>
                                 <div>
                                     <h2>{item.title}</h2>
                                     <p>{item.description}</p>

@@ -120,8 +120,10 @@ const HomePage = () => {
                     </div>
                     <div className="HomePageContentContainer">
                         <div style={{ width: "100%", display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column", gap: "20px" }}>
-                            <img src={SEEDOLogo} alt="" style={{ width: "200px", borderRadius: "16px" }} />
-                            <h1>BREAK THE LIMIT</h1>
+                            <img src={SEEDOLogo} alt="" style={{ width: "200px", borderRadius: "16px" }} data-aos="fade-up"
+                                data-aos-duration="2000" />
+                            <h1 data-aos="fade-up"
+                                data-aos-duration="3000">BREAK THE LIMIT</h1>
                             {/* <h1>Beyond Limits, Beyond Ordinary.</h1> */}
                             {/* <div className="HomeheadingContainer">
                                 <h1>We Create For You!</h1>

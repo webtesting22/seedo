@@ -155,6 +155,8 @@ const SeedoCertification = () => {
                                 lg={index < 2 ? 12 : 8} // lg={12} for the first two items, lg={8} for the rest
                                 md={12} // md={12} for all items
                                 key={index}
+                                data-aos="fade-up"
+                                data-aos-delay={`${index * 100}`}
                             >
                                 <Link to={item.link} target="_blank">
                                     <div className="CerticationCardGreyBox">

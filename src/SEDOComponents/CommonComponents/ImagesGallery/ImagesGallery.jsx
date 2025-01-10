@@ -101,7 +101,8 @@ const ImagesGallery = () => {
                             </Col>
                             <Col lg={8} md={12} style={{ width: "100%" }}>
                                 <Link to="/ourservices">
-                                    <div className="GreyBox">
+                                    <div className="GreyBox" data-aos="fade-up"
+     data-aos-duration="1000">
                                         <img src={oem} alt="" />
                                         <h4>Original Equipment <br /> Manufacturer (OEM)</h4>
                                         <p>Our expertise lies in producing high-quality products tailored to our client's...</p>
@@ -113,7 +114,8 @@ const ImagesGallery = () => {
                             </Col>
                             <Col lg={8} md={12} style={{ width: "100%" }}>
                                 <Link to="/ourservices">
-                                    <div className="GreyBox">
+                                    <div className="GreyBox" data-aos="fade-up"
+     data-aos-duration="1200">
                                         <img src={odm} alt="" />
                                         <h4>Original Design <br /> Manufacturer (ODM)</h4>
                                         <p >We focus on innovative design manufaturing, creating unique and effective products...</p>
@@ -126,7 +128,8 @@ const ImagesGallery = () => {
                             </Col>
                             <Col lg={8} md={12} style={{ width: "100%" }}>
                                 <Link to="/ourservices">
-                                    <div className="GreyBox">
+                                    <div className="GreyBox" data-aos="fade-up"
+     data-aos-duration="1500">
                                         <img src={white} alt="" />
                                         <h4 >White Labelling <br /> Solutions</h4>
                                         <p>Our white-label solutions allow you to brand our high-quality products...</p>
