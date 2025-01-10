@@ -7,15 +7,23 @@
   top: 0px;
 }
 
-#NavigationLink a{
-  font-size: 18px;
+#NavigationLink a {
+  font-size: 20px;
+  transition: .5s;
 }
+
+#NavigationLink a:hover {
+  padding-left: 10px;
+  transition: .5s;
+}
+
 .NavigationLogo img {
   width: 100px;
   border-radius: 10px;
   position: sticky;
   z-index: 10000000;
 }
+
 .logo-container {
   opacity: 0;
   transform: translateY(-20px);
@@ -26,6 +34,7 @@
   opacity: 1;
   transform: translateY(0);
 }
+
 .NavigationLogo.visible {
   opacity: 1;
   transform: translateY(0);

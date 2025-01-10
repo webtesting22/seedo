@@ -207,12 +207,12 @@
 
 .CerticationHeadline div p {
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
     position: absolute;
     /* bottom: -60px; */
     background-color: white;
     margin: 0px 40px;
-    color: #BC252B;
+    color: black;
 }
 
 .LeaderShipCardContainer .ant-row .ant-col {

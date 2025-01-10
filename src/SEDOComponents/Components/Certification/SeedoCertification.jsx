@@ -168,11 +168,11 @@ const SeedoCertification = () => {
                         ))}
                     </Row>
 
-                    {/* <div className="CerticationHeadline">
+                    <div className="CerticationHeadline">
                         <div>
                             <p>Passed testing awaiting certificate</p>
                         </div>
-                    </div> */}
+                    </div>
                 </div>
             </section >
         </>

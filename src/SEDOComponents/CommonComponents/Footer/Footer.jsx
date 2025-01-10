@@ -36,7 +36,7 @@ const Footer = () => {
                         </Col>
                         <Col lg={8}>
                             <div className="LinksContainer">
-                                <p><b>Social Links</b></p>
+                                <p><b>Navigate Links</b></p>
                                 <ul>
                                     {NavigationLinks.map((item, index) => (
                                         <Link to={item.path} key={index}>
