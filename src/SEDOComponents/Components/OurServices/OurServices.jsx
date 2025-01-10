@@ -32,9 +32,9 @@ const OurServices = () => {
     }, []);
     return (
         <>
-           <div className="AboutUs">
-           <Navigation />
-           </div>
+            <div className="AboutUs">
+                <Navigation />
+            </div>
             {/* <div className="TopVideoContainer" style={{ paddingTop: "5rem" }}>
                 <img src={TopBanner} alt="" />
               
@@ -60,13 +60,13 @@ const OurServices = () => {
                     <div className="AdjustWidthSection">
                         <div>
                             <h1 data-aos="fade-up"
-     data-aos-duration="1000">In house spraying</h1>
+                                data-aos-duration="1000">In house spraying</h1>
                         </div>
                         <div>
                             <Row>
                                 <Col lg={12}>
                                     <div className="PendingGrayBox" data-aos="fade-up"
-     data-aos-duration="1300">
+                                        data-aos-duration="1300">
                                         <div style={{ display: "flex", height: "100%" }} className="ImageAdjust">
                                             <Row style={{ width: "100%" }}>
                                                 <Col lg={8}>
@@ -94,7 +94,7 @@ const OurServices = () => {
                                 <Col lg={12}>
 
                                     <p data-aos="fade-up"
-     data-aos-duration="1400">At Seedo Toys, we take pride in our
+                                        data-aos-duration="1400">At Seedo Toys, we take pride in our
                                         in-house spraying capabilities, including
                                         pad printing, spray printing, tampo
                                         printing, and other finishing techniques.
@@ -116,13 +116,13 @@ const OurServices = () => {
                     <div className="AdjustWidthSection">
                         <div>
                             <h1 data-aos="fade-up"
-     data-aos-duration="1000">Self-Reliant PCBs Manufacturing</h1>
+                                data-aos-duration="1000">Self-Reliant PCBs Manufacturing</h1>
                         </div>
                         <div>
                             <Row>
                                 <Col lg={12}>
                                     <p data-aos="fade-up"
-     data-aos-duration="1300">Seedo Toys has made significant
+                                        data-aos-duration="1300">Seedo Toys has made significant
                                         strides by designing and producing its
                                         own PCBs, manufactured with the latest
                                         pick-and-place technology. We produce
@@ -137,7 +137,7 @@ const OurServices = () => {
                                 </Col>
                                 <Col lg={12}><div className="PendingGrayBox">
                                     <div style={{ display: "flex", height: "100%" }} className="ImageAdjust" data-aos="fade-up"
-     data-aos-duration="1400">
+                                        data-aos-duration="1400">
                                         <Row style={{ width: "100%" }}>
                                             <Col lg={8}>
                                                 <div>
@@ -168,28 +168,32 @@ const OurServices = () => {
                     </div>
                 </div>
                 <div className="RowColumnsAdjustContainer">
+                    <Row>
+                        {servicesData.map((item, index) => (
 
-                    {servicesData.map((item, index) => (
-                        <Row>
-                            <Col lg={12} md={24} style={{ width: "100%" }} key={index}  data-aos="fade-up"
-            data-aos-delay={`${index * 100}`}>
+                            <Col lg={8} md={12} style={{ width: "100%" }} key={index} data-aos="fade-up"
+                                data-aos-delay={`${index * 100}`}>
                                 <div>
-                                    <h2>{item.title}</h2>
-                                    <p>{item.description}</p>
-                                    <br />
-                                    {/* <div style={{ display: "flex", justifyContent: "end", padding: "0px" }}>
+                                    <div className="BlankGrayBoxContainer">
+                                        <img src={item.img} alt="" />
+                                    </div>
+                                    <div>
+                                        <h2>{item.title}</h2>
+                                        <p>{item.description}</p>
+                                        <br />
+                                        {/* <div style={{ display: "flex", justifyContent: "end", padding: "0px" }}>
                                         <button className="KnowMorebtn">Read More</button>
                                     </div> */}
+                                    </div>
                                 </div>
-                            </Col>
-                            <Col lg={12} md={24}>
-                                <div className="BlankGrayBoxContainer">
-                                    <img src={item.img} alt="" />
-                                </div>
-                            </Col>
-                        </Row>
-                    ))}
 
+                            </Col>
+                            // <Col lg={12} md={24}>
+
+                            // </Col>
+
+                        ))}
+                    </Row>
                 </div>
             </section>
         </>
