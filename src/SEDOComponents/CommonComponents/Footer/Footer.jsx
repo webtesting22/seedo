@@ -19,7 +19,7 @@ const Footer = () => {
             <section id="Footer">
                 <div className="FooterAdjustContainer">
                     <Row>
-                        <Col lg={8}>
+                        <Col lg={8} md={12} style={{ width: "100%" }}>
                             <div className="ContactContainerandSocial">
                                 <div>
                                     <p><b>Contact us:</b> 987644483</p>
@@ -27,14 +27,10 @@ const Footer = () => {
                                     <p><b>Privacy Policy</b></p>
                                     <p><b>Terms and Condition</b></p>
                                 </div>
-                                <div>
-                                    {/* <p><LiaFacebookSquare /></p> */}
-                                    <Link to="https://www.instagram.com/seedotoys/" target="_blank"><p><CiInstagram style={{ color: "white" }} /></p></Link>
-                                    {/* <p><FaXTwitter /></p> */}
-                                </div>
+
                             </div>
                         </Col>
-                        <Col lg={8}>
+                        <Col lg={8} md={12} style={{ width: "100%" }}>
                             <div className="LinksContainer">
                                 <p><b>Navigate Links</b></p>
                                 <ul>
@@ -46,20 +42,33 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </Col>
-                        <Col lg={8}>
+                        <Col lg={8} md={12} style={{ width: "100%" }}>
                             <div className="FooterAdressContainer">
                                 <div>
-                                    <p><b>Address</b></p>
-                                    <p>Plot No. 23, Sector-57, Phase-IV & <br /> Plot No. 139, Sector-56, Phase-V, <br /> HSIIDC Industrial Area/Estate, Kundli, Sonipat, Haryana-131028</p>
-                                    {/* <p>Plot No. 23, Sector-57, Phase-IV, HSIIDC Industrial Area, Kundli, Sonipat, Haryana-131028</p> */}
+                                    {/* <p><b>Address</b></p> */}
+                                    {/* <p>Plot No. 23, Sector-57, Phase-IV & <br /> Plot No. 139, Sector-56, Phase-V, <br /> HSIIDC Industrial Area/Estate, Kundli, Sonipat, Haryana-131028</p> */}
+                                    <p><b>Unit 1</b></p>
+                                    <p>Plot No. 23, Sector-57, Phase-IV, HSIIDC Industrial Area, Kundli, Sonipat, Haryana-131028</p>
                                 </div>
-                                {/* <div>
-                                    <p>Address </p>
+                                <div>
+                                    <p><b>Unit 2</b> </p>
                                     <p>Plot No 139, Sector-56, Phase-V, HSIIDC Industrial Area, Kundli, Sonipat, Haryana-131028</p>
-                                </div> */}
+                                </div>
                             </div>
                         </Col>
                     </Row>
+                    <hr style={{opacity:"0.4",border:"0.5px solid white"}}/>
+                    <div className="CopywriteText">
+                        <div style={{display:"flex",alignItems:"center"}}>
+                            <p><b>Join Us</b> &nbsp;&nbsp;</p>
+                            {/* <p><LiaFacebookSquare /></p> */}
+                            <div>
+                                <Link to="https://www.instagram.com/seedotoys/" target="_blank"><p style={{display:"flex",alignItems:"center"}}><CiInstagram style={{ color: "white",fontSize:"25px" }} /></p></Link>
+                            </div>
+                            {/* <p><FaXTwitter /></p> */}
+                        </div>
+                        <p>@2024 <Link to="https://www.outleadsolutions.com/" target="_blank">OutLead solutions.</Link> All rights reserved.</p>
+                    </div>
                 </div>
                 {/* <h1>GET IN TOUCH</h1> */}
                 {/* <div>
