@@ -88,7 +88,7 @@ const Products = () => {
     };
 
     useEffect(() => {
-        AOS.init(); // Initialize AOS
+        // AOS.init(); // Initialize AOS
         window.scrollTo(0, 0);
     }, []);
     const staticProductCategories = ["Category1", "Category2", "Category3"]; // Define static categories

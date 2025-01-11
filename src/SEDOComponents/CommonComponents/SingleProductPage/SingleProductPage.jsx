@@ -127,7 +127,7 @@ const SingleProductPage = () => {
                 <div className="SingleProductContainer">
                     <div className="ProductCard">
                         <Row>
-                           
+
                             <Col lg={12}>
                                 <div className="ProductImageContainer">
                                     {mainImage ? (
@@ -139,7 +139,7 @@ const SingleProductPage = () => {
                             </Col>
                             <Col lg={12}>
                                 <div className="ProductTitle">
-                                    <h2 style={{margin:"0px"}}>{product.name}</h2>
+                                    <h2 style={{ margin: "0px" }}>{product.name}</h2>
                                     <p><b>Item code: </b>{product.ProductCode}</p>
                                     <br />
                                     <br />

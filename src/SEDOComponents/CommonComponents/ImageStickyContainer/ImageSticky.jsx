@@ -1,9 +1,12 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./ImageStickyContainer.css"
+import { useParams } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { Row, Col } from "antd";
 const ImageSticky = () => {
+    
+    const { categoryName, productId } = useParams();
     // const containerRef = useRef(null);
 
     // useEffect(() => {

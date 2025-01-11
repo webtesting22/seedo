@@ -20,7 +20,8 @@ const BestSellerProducts = {
                 ProductImage: [
                     RC001
                 ],
-                ProductStyleCode: "118RC001"
+                ProductStyleCode: "118RC001",
+                link: "singleproduct/Remote%20Controlled%20Car/11"
             },
             {
                 id: 2,
@@ -29,7 +30,8 @@ const BestSellerProducts = {
                 ProductImage: [
                     SC001_124
                 ],
-                ProductStyleCode: "124SC001"
+                ProductStyleCode: "124SC001",
+                link: "singleproduct/Remote%20Controlled%20Car/15"
             },
             {
                 id: 3,
@@ -39,16 +41,18 @@ const BestSellerProducts = {
                     LRC00D
                 ],
                 ProductStyleCode: "124LRC00D",
+                link: "singleproduct/Remote%20Controlled%20Car/9"
 
             },
             {
-                id:4,
+                id: 4,
                 name: "SEEDO Road Sniper 02 Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     LRC00E
                 ],
-                ProductStyleCode: "124LRC00E"
+                ProductStyleCode: "124LRC00E",
+                link: "singleproduct/Remote%20Controlled%20Car/10"
             },
             {
                 id: 5,
@@ -57,7 +61,8 @@ const BestSellerProducts = {
                 ProductImage: [
                     RC00127MHz
                 ],
-                ProductStyleCode: "116RC001/27MHz"
+                ProductStyleCode: "116RC001/27MHz",
+                link: "singleproduct/Remote%20Controlled%20Car/23"
             },
             {
                 id: 6,
@@ -66,7 +71,8 @@ const BestSellerProducts = {
                 ProductImage: [
                     RC00124GHz
                 ],
-                ProductStyleCode: "116RC001/2.4GHz"
+                ProductStyleCode: "116RC001/2.4GHz",
+                link: "singleproduct/Remote%20Controlled%20Car/24"
             },
             {
                 id: 7,
@@ -75,7 +81,8 @@ const BestSellerProducts = {
                 ProductImage: [
                     MT003, MT003_2
                 ],
-                ProductStyleCode: "118MT003"
+                ProductStyleCode: "118MT003",
+                link: "singleproduct/Remote%20Controlled%20Car/20"
             },
             {
                 id: 8,
@@ -85,6 +92,7 @@ const BestSellerProducts = {
                 ],
                 ProductBatteryType: "Non-Electric",
                 ProductCode: "SMR-FWPB-P3",
+                link: "singleproduct/Metal%20x%20Racer/32"
             },
             {
                 id: 9,
@@ -92,7 +100,8 @@ const BestSellerProducts = {
                 ProductImage: [
                     PNGSSPO9, PNGSSPO9_2, PNGSSPO9_3
                 ],
-                ProductCode: "PNG-SS-PO9"
+                ProductCode: "PNG-SS-PO9",
+                link: "singleproduct/Friction%20&%20Pull%20back%20+%20Press%20&%20Go/3"
             },
         ]
     }
