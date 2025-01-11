@@ -159,6 +159,8 @@
     font-size: 30px;
     text-align: center;
     margin: 0px;
+    width: 100%;
+    background-color: #bc252b0a;
 }
 
 .WhyUsContainer p {
