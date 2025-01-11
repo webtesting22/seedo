@@ -167,7 +167,7 @@ const ZoomCards = () => {
                     </Col>
                 </Row> */}
                 <div className="headingHeaderContainer">
-                    <h1 style={{ textAlign: "center" }}>Where To Find Us?</h1>
+                    <h1 style={{ textAlign: "center" }}></h1>
                 </div>
                 {/* <div id="ClientSliderContainer"> */}
                 <div id="ColorCorrectionsContainer">
