@@ -107,26 +107,38 @@ const Products = () => {
                 </div>
                 <div className="CatalogueCardsContainer">
                     <Row>
-                        {Object.keys(SeedoProductData).map((categoryName, index) => {
-                            const categoryData = SeedoProductData[categoryName];
-                            const hasSubcategories = categoryData.subcategories;
+                    {Object.keys(SeedoProductData).map((categoryName, index) => {
+    const categoryData = SeedoProductData[categoryName];
+    const products = categoryData.products || [];
+    const hasSubcategories = categoryData.subcategories;
 
-                            return (
-                                <Col key={index} lg={8} md={12} style={{ width: "100%" }}>
-                                    {/* If subcategories exist, redirect to subcategories page; otherwise, to products page */}
-                                    <Link to={hasSubcategories ? `/subcategories/${categoryName}` : `/subcategoriesproducts/${categoryName}`}>
-                                        <div className="CatalogueCardContainer">
-                                            <div className="CatalogueImageContainer">
-                                                <img src="path/to/friction.jpg" alt={categoryName} />
-                                            </div>
-                                            <div className="productTitleContainer">
-                                                <h1>{categoryName}</h1>
-                                            </div>
-                                        </div>
-                                    </Link>
-                                </Col>
-                            );
-                        })}
+    return (
+        <Col key={index} lg={8} md={12} style={{ width: "100%" }}>
+            {/* If subcategories exist, redirect to subcategories page; otherwise, to products page */}
+            <Link to={hasSubcategories ? `/subcategories/${categoryName}` : `/subcategoriesproducts/${categoryName}`}>
+                <div className="CatalogueCardContainer">
+                    <div className="CatalogueImageContainer">
+                        {products.length > 0 ? (
+                            <img 
+                                src={products[0].ProductImage?.[0] || "path/to/placeholder_image.jpg"} 
+                                alt={products[0].name} 
+                            />
+                        ) : (
+                            <img 
+                                src="path/to/placeholder_image.jpg" 
+                                alt="Placeholder" 
+                            />
+                        )}
+                    </div>
+                    <div className="productTitleContainer">
+                        <h1>{categoryName}</h1>
+                    </div>
+                </div>
+            </Link>
+        </Col>
+    );
+})}
+
                         {/* <Col lg={12} md={24} style={{ width: "100%" }}>
 
                             <div className="CatalogueCardContainer">
