@@ -52,6 +52,7 @@
 .CopywriteText {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .CopywriteText div:last-child p{
     font-size: 20px;
