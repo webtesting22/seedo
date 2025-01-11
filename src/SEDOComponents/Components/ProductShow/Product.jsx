@@ -107,37 +107,54 @@ const Products = () => {
                 </div>
                 <div className="CatalogueCardsContainer">
                     <Row>
-                    {Object.keys(SeedoProductData).map((categoryName, index) => {
-    const categoryData = SeedoProductData[categoryName];
-    const products = categoryData.products || [];
-    const hasSubcategories = categoryData.subcategories;
+                        {Object.keys(SeedoProductData).map((categoryName, index) => {
+                            const categoryData = SeedoProductData[categoryName];
+                            const products = categoryData.products || [];
+                            const hasSubcategories = categoryData.subcategories;
 
-    return (
-        <Col key={index} lg={8} md={12} style={{ width: "100%" }}>
-            {/* If subcategories exist, redirect to subcategories page; otherwise, to products page */}
-            <Link to={hasSubcategories ? `/subcategories/${categoryName}` : `/subcategoriesproducts/${categoryName}`}>
-                <div className="CatalogueCardContainer">
-                    <div className="CatalogueImageContainer">
-                        {products.length > 0 ? (
-                            <img 
-                                src={products[0].ProductImage?.[0] || "path/to/placeholder_image.jpg"} 
-                                alt={products[0].name} 
-                            />
-                        ) : (
-                            <img 
-                                src="path/to/placeholder_image.jpg" 
-                                alt="Placeholder" 
-                            />
-                        )}
-                    </div>
-                    <div className="productTitleContainer">
-                        <h1>{categoryName}</h1>
-                    </div>
-                </div>
-            </Link>
-        </Col>
-    );
-})}
+                            // Default to a placeholder image for the second image from subcategories
+                            let subcategorySecondImage = "path/to/placeholder_image.jpg"; // Default placeholder for second image
+
+                            // For "Die cast cars" category, show the first product's first image from subcategories
+                            if (categoryName === "Die cast cars" && hasSubcategories) {
+                                const firstSubcategoryKey = Object.keys(categoryData.subcategories)[0];
+                                const firstSubcategory = categoryData.subcategories[firstSubcategoryKey];
+
+                                // Ensure the first subcategory has products and an image to display
+                                if (firstSubcategory?.[0]?.ProductImage?.[0]) {
+                                    subcategorySecondImage = firstSubcategory[0].ProductImage[0]; // First image from the first product in subcategory
+                                }
+                            }
+
+                            return (
+                                <Col key={index} lg={8} md={12} style={{ width: "100%" }}>
+                                    {/* If subcategories exist, redirect to subcategories page; otherwise, to products page */}
+                                    <Link to={hasSubcategories ? `/subcategories/${categoryName}` : `/subcategoriesproducts/${categoryName}`}>
+                                        <div className="CatalogueCardContainer">
+                                            <div className="CatalogueImageContainer">
+                                                {/* Check if there are products in the category */}
+                                                {products.length > 0 ? (
+                                                    <img
+                                                        src={products[0].ProductImage?.[0] || "path/to/placeholder_image.jpg"}
+                                                        alt={products[0].name || "Placeholder"}
+                                                    />
+                                                ) : (
+                                                    // If no products, fallback to the subcategory first product's first image
+                                                    <img
+                                                        src={subcategorySecondImage}
+                                                        alt={`${categoryName} First Product`}
+                                                    />
+                                                )}
+                                            </div>
+                                            <div className="productTitleContainer">
+                                                <h1>{categoryName}</h1>
+                                            </div>
+                                        </div>
+                                    </Link>
+                                </Col>
+                            );
+                        })}
+
 
                         {/* <Col lg={12} md={24} style={{ width: "100%" }}>
 
