@@ -64,6 +64,12 @@
   color: #A5252B;
 }
 @media (max-width: 769px) {
+  .RowAdjustContainer .ant-col{
+    width: 50% !important;
+  }
+  .RowAdjustContainer .ant-col .CerticationCardGreyBox{
+    min-height: auto;
+  }
   #ClientSection {
     padding-top: 2rem;
     padding: 0rem 1rem;

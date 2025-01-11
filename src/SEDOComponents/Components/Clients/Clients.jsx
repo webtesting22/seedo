@@ -173,7 +173,7 @@ const Client = () => {
                     <h1 style={{ textAlign: "center", fontSize: "30px", backgroundColor: "#bc252b0a" }}>Online Seedo</h1>
                 </div>
                 <br /><br />
-                <Row>
+                <Row className="RowAdjustContainer">
                     {/* <div id="ClientSliderContainer"> */}
                     {Clients.map((item, index) => (
                         <Col lg={4} md={6} key={index} data-aos="fade-up"
@@ -191,7 +191,7 @@ const Client = () => {
                     <h1 style={{ textAlign: "center", fontSize: "30px", backgroundColor: "#bc252b0a" }}>Offline Seedo</h1>
                 </div>
                 <br /><br />
-                <Row>
+                <Row className="RowAdjustContainer">
                     {/* <div id="ClientSliderContainer"> */}
                     {OfllineClients.map((item, index) => (
                         <Col lg={4} md={6} key={index} data-aos="fade-up"
