@@ -297,7 +297,22 @@ opacity: 1;
 }
 
 @media (max-width:769px) {
-
+    .BackShapeAjust{
+        width: 200px;
+        position: absolute;
+        z-index: 4;
+        margin-top: -8px;
+        opacity: 1;
+        }
+        
+    .BestSellerImage {
+        width: 300px;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+        position: sticky;
+        z-index: 5;
+    }
+    
     .OurBestsellers .ant-row .ant-col:nth-child(1)>div {
         padding-right: 0px;
     }

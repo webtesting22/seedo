@@ -117,7 +117,7 @@ const ImagesGallery = () => {
                             className="mySwiper"
                             breakpoints={{
                                 320: { // Mobile breakpoint (320px and up)
-                                    slidesPerView: 2, // Display 2 slides on mobile
+                                    slidesPerView: 1, // Display 2 slides on mobile
                                 },
                                 768: { // Tablet breakpoint (768px and up)
                                     slidesPerView: 3, // Display 3 slides on tablet
