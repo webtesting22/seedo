@@ -40,7 +40,7 @@ const OurServices = () => {
               
             </div> */}
             <section className="OurServicesContainer">
-
+            <h1>Our Services</h1>
                 {/* <div className="OurServicesParagraph">
                     <Row>
                         <Col lg={24}>
