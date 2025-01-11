@@ -122,7 +122,7 @@ const HomePage = () => {
                     </div>
                     <div className="HomePageContentContainer">
                         <div style={{ width: "100%", display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column", gap: "20px" }}>
-                            <img src={SEEDOLogo} alt="" style={{ width: "200px", borderRadius: "16px" }} data-aos="fade-up"
+                            <img src={SEEDOLogo} alt="" style={{ width: "300px", borderRadius: "16px" }} data-aos="fade-up"
                                 data-aos-duration="2000" />
                             <h1 data-aos="fade-up"
                                 data-aos-duration="3000">BREAK THE LIMIT</h1>

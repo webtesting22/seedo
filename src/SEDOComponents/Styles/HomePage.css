@@ -145,13 +145,13 @@
 }
 
 .HomePageContentContainer h1 {
-  font-size: 40px;
+  font-size: 20px;
   color: transparent;
   -webkit-text-stroke: 1px white;
   /* Combined shorthand for stroke color and width */
   font-weight: 600;
   margin: 0;
-  line-height: 100px;
+  line-height: 60px;
   /* padding-bottom: 80px; */
   text-align: center;
   /* position: absolute; */
@@ -270,7 +270,7 @@
 
 
   .HomePageContentContainer h1 {
-    font-size: 40px;
+    font-size: 20px;
     color: #BC252B;
     font-weight: 600;
     margin: 0px;
