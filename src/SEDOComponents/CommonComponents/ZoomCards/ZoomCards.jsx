@@ -141,7 +141,7 @@ const ZoomCards = () => {
                         }} />
                         <h2 style={{ marginBottom: "0px", fontSize: "30px", textAlign: "center" }} data-aos="fade-up"
                             data-aos-duration="1000">Trusted Presence Across India</h2>
-                        <p style={{ color: "#BC252B" }} data-aos="fade-up"
+                        <p data-aos="fade-up"
                             data-aos-duration="1500">Proudly <b>available in 3000+ stores nationwide</b>, including General Trade and Modern Trade, we bring quality and innovation closer to you every day!
                         </p>
                         <p data-aos="fade-up"
