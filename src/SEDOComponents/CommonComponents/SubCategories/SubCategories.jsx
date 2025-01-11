@@ -20,12 +20,14 @@ const SubCategories = () => {
     }, []);
     return (
         <>
+            <div className="AboutUs">
             <Navigation />
+            </div>
             <section className="SubCategoryContainer">
                 <div className="SubcategoryHeader">
                     <h1>SubCategories Page</h1>
                 </div>
-                <div className="CatalogueCardsContainer">
+                <div className="CatalogueCardsContainer" >
                     <Row>
                         {hasSubcategories ? (
                             Object.keys(categoryData.subcategories).map((subcategoryName, index) => (

@@ -96,7 +96,7 @@ const Products = () => {
 
     return (
         <>
-            <div id="AboutUs">
+            <div className="AboutUs">
                 <Navigation />
             </div>
 

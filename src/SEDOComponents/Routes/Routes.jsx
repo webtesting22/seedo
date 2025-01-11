@@ -26,7 +26,8 @@ const SEDORoutes = () => {
                 <Route path="/aboutSeedo" element={<AboutSeedo />} />
                 <Route path="/certification" element={<CertificationAndClient />} />
                 <Route path="/contact" element={<Contact />} />
-                <Route path="/product-name" element={<SingleProductPage />} />
+                <Route path="/singleproduct/:categoryName/:productId" element={<SingleProductPage />} />
+
                 <Route path="/subcategories/:categoryName" element={<SubCategories />} />
                 <Route path="/subcategories/:categoryName/:subcategoryName" element={<SubcategoriesProducts />} />
                 <Route path="/subcategoriesproducts/:categoryName" element={<SubcategoriesProducts />} />
