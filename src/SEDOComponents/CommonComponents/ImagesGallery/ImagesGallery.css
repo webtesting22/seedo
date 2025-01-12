@@ -273,7 +273,11 @@
     font-size: 18px;
     text-align: center;
     font-family: "Lato", serif;
+    color: black;
     /* margin-top: 0px; */
+}
+.BestSellerCardsContainer h3 a{
+    text-decoration: none;
 }
 
 .OurBestsellers .ant-row .ant-col:nth-child(1)>div {

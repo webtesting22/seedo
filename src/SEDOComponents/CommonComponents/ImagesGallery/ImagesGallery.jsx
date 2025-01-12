@@ -129,7 +129,7 @@ const ImagesGallery = () => {
                         >
                             {BestSellerProducts.BestSeller.products.map((item, index) => (
                                 <SwiperSlide key={item.id}>
-                                    <Link to={item.link}>
+                                    <Link to={item.link} style={{textDecoration:"none"}}>
                                         <div className="BestSellerCardsContainer">
                                             <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
                                                 <img src={ProductsBackShape} alt="" className="BackShapeAjust" />
