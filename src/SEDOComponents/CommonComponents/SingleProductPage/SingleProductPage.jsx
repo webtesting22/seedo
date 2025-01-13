@@ -11,12 +11,13 @@ const SingleProductPage = () => {
 
     // Fetch the category data
     const categoryData = SeedoProductData[categoryName];
-    const products = categoryData?.products || []; 
+    const mainCategoryProducts = categoryData?.products || [];
+    const subcategories = categoryData?.subcategories || {};
 
-    // Search for the specific product
+    // Find the product
     const product =
-        products.find((p) => String(p.id) === productId) ||
-        Object.values(categoryData?.subcategories || {})
+        mainCategoryProducts.find((p) => String(p.id) === productId) ||
+        Object.values(subcategories)
             .flat()
             .find((p) => String(p.id) === productId);
 
@@ -33,6 +34,16 @@ const SingleProductPage = () => {
     if (!product) {
         return <div>Product not found!</div>;
     }
+
+    // Determine if the product is from a subcategory
+    const productSubcategory = Object.keys(subcategories).find((subcategory) =>
+        subcategories[subcategory].some((p) => String(p.id) === productId)
+    );
+
+    // Get products from the same subcategory (if applicable)
+    const similarProducts = productSubcategory
+        ? subcategories[productSubcategory] // Get products from the subcategory
+        : mainCategoryProducts; // Get all products from the main category
 
     return (
         <>
@@ -72,15 +83,16 @@ const SingleProductPage = () => {
                     </div>
                 </div>
 
-               
-
-                {/* Display only products of the current category */}
+                {/* Similar products section */}
                 <div className="SIMILARPRODUCTSContainer">
                     <div className="HeaderContainer">
-                        <h1>Products in {categoryName}</h1>
+                        <h1>
+                            Products in {categoryName}
+                            {productSubcategory ? ` (${productSubcategory})` : ""}
+                        </h1>
                     </div>
                     <Row gutter={[16, 16]}>
-                        {products.map((prod) => (
+                        {similarProducts.map((prod) => (
                             <Col key={prod.id} lg={6} md={12} sm={24}>
                                 <div className="SimilarProductCard">
                                     <Link
@@ -103,7 +115,7 @@ const SingleProductPage = () => {
                         ))}
                     </Row>
                 </div>
-                <br />
+                <br /><br />
                 <div className="BuyNowContainer">
                     <div>
                         <h1>Buy now!</h1>
