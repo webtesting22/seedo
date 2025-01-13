@@ -17,7 +17,8 @@
     font-size: 40px;
     border-bottom: 1px dashed black;
     border-top: 1px dashed black;
-    padding: 10px 0px;
+    padding: 10px 5px;
+    background-color: #bc252b0a;
 }
 
 @media (max-width:900px){
