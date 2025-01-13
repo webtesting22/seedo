@@ -78,7 +78,7 @@ const Footer = () => {
                     {/* <hr style={{opacity:"0.4",border:"0.5px solid white"}}/> */}
                     <div className="CopywriteText">
 
-                        <p style={{ margin: "0px" }}>@2024 <Link to="https://www.outleadsolutions.com/" target="_blank">OutLead solutions.</Link> All rights reserved.</p>
+                        <p style={{ margin: "0px" }}>@2024 <Link to="https://www.outleadsolutions.com/" target="_blank">OutLead Solutions.</Link> All rights reserved.</p>
                     </div>
                 </div>
                 {/* <h1>GET IN TOUCH</h1> */}

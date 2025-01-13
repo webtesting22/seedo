@@ -1,5 +1,5 @@
 #Footer {
-    padding-top: 4rem !important;
+    padding-top: 1.5rem !important;
     padding: 0rem 4rem;
     background: #253874;
     /* margin-top: 3rem !important; */
@@ -30,6 +30,7 @@
 }
 .FooterAdjustContainer .ant-row .ant-col{
     border-bottom: 0.5px solid rgba(255, 255, 255, 0.669);
+    padding-bottom: 20px;
 }
 
 #Footer .LinksContainer ul {
@@ -62,12 +63,12 @@
     align-items: center;
     padding: 10px 0px;
 }
-.CopywriteText div:last-child p{
-    font-size: 20px;
+.CopywriteText p{
+    font-size: 16px;
     color: white;
 }
 .CopywriteText p a{
-    font-size: 20px;
+    font-size: 16px;
     color: white;
     text-decoration: none;
 }
