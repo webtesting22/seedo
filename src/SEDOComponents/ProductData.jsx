@@ -197,6 +197,20 @@ const SeedoProductData = {
                     W001, W001_2
                 ],
                 ProductStyleCode: "1182W001",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
+                            <p><b>Scale</b> 1:18</p>
+                            <p><b>USB</b> No</p>
+                            <p><b>Box size</b> 48 pcs./box</p>
+                            <p><b>Frequency</b> 27MHz</p>
+                            <p><b>Colours</b> </p>
+                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>Battery</b> Non rechargeable</p>
+                        </div>
+                    </div>
+                </>
 
             },
             {
@@ -207,6 +221,21 @@ const SeedoProductData = {
                     W002
                 ],
                 ProductStyleCode: "1182W002",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> Virgin grade, High
+                                strength ABS Material</p>
+                            <p><b>Scale</b> 1:18</p>
+                            <p><b>USB</b> No</p>
+                            <p><b>Box size</b> 48 pcs./box</p>
+                            <p><b>Frequency</b> 27MHz</p>
+                            <p><b>Colours</b> </p>
+                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>Battery</b> Non rechargeable</p>
+                        </div>
+                    </div>
+                </>
 
             },
             {
@@ -217,6 +246,21 @@ const SeedoProductData = {
                     W003
                 ],
                 ProductStyleCode: "1182W003",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> Virgin grade, High 
+                            strength ABS Material</p>
+                            <p><b>Scale</b> 1:18</p>
+                            <p><b>USB</b> No</p>
+                            <p><b>Box size</b> 48 pcs./box</p>
+                            <p><b>Frequency</b> 27MHz</p>
+                            <p><b>Colours</b> </p>
+                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>Battery</b> Non rechargeable</p>
+                        </div>
+                    </div>
+                </>
 
             },
             {
@@ -227,6 +271,22 @@ const SeedoProductData = {
                     LRC00B
                 ],
                 ProductStyleCode: "124LRC00A",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> Virgin grade, High 
+                            strength ABS Material</p>
+                            <p><b>Scale</b> 1:24</p>
+                            <p><b>Charging</b> Yes (C Type)</p>
+                            <p><b>Box size</b> 48 pcs./box</p>
+                            <p><b>Frequency</b> 27MHz</p>
+                            <p><b>Colours</b> </p>
+                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>Battery Cell type</b> 3.7V Li-ion 
+                            Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </>
 
             },
             {

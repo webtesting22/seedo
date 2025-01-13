@@ -76,6 +76,9 @@ const SingleProductPage = () => {
                                         <p>
                                             <b>Specification:</b>
                                         </p>
+                                        <div className="productSpecificatinContainer">
+                                            {product.Productdescription}
+                                        </div>
                                     </div>
                                 </div>
                             </Col>
