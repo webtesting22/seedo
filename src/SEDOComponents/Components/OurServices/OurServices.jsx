@@ -14,16 +14,16 @@ const OurServices = () => {
     const servicesData = [
         {
             title: "Original Equipment Manufacturer (OEM)",
-            description: "Our expertise lies in producing high-quality products tailored to our client's specifications, ensuring exceptional quality and performance while fostering strong partnerships for mutual growth and success."
+            description: "We specialize in Original Design Manufacturing, creating innovative products tailored to the clients' specifications. Our focus is on quality, customization, and delivering exceptional value to our partners."
         },
         {
             title: "Original Design Manufacturer (ODM)",
             img: ODMBanner,
-            description: "We focus on innovative design manufaturing, creating unique and effective products."
+            description: "We specialize in producing high-quality products tailored to our clients' specifications, ensuring exceptional quality and performance while fostering strong partnerships for mutual growth & success."
         },
         {
             title: "White Labelling",
-            description: "Our white-label solutions allow you to brand our high-quality products as your own. This enables you to expand your product range while maintaining your unique brand identity."
+            description: "We offer white-label solutions, allowing you to brand our high-quality products as your own, This enables you to expand your product range while maintaining your unique brand identity."
         }
     ]
     useEffect(() => {

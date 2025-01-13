@@ -130,6 +130,24 @@ const Client = () => {
 
     const Clients = [
         {
+            img: image1
+        },
+        {
+            img: image2,
+        },
+        {
+            img: image3
+        },
+        {
+            img: image4
+        },
+        {
+            img: image5
+        },
+        {
+            img: image6
+        },
+        {
             link: "https://www.amazon.in/",
             img: amazon
         },
@@ -157,10 +175,10 @@ const Client = () => {
             link: "https://www.zeptonow.com/",
             img: Zepto
         },
-        {
-            link: "https://www.thewhiskyexchange.com/",
-            img: Whiskey
-        }
+        // {
+        //     link: "https://www.thewhiskyexchange.com/",
+        //     img: Whiskey
+        // }
 
     ];
     return (
@@ -170,7 +188,7 @@ const Client = () => {
             </div>
             <section id="ClientSection">
                 <div className="headingHeaderContainer">
-                    <h1 style={{ textAlign: "center", fontSize: "30px", backgroundColor: "#bc252b0a" }}>Online Seedo</h1>
+                    <h1 style={{ textAlign: "center", fontSize: "30px", backgroundColor: "#bc252b0a",marginTop:"80px" }}>Our Clients</h1>
                 </div>
                 <br /><br />
                 <Row className="RowAdjustContainer">
@@ -186,24 +204,24 @@ const Client = () => {
                         </Col>
                     ))}
                 </Row>
-                <br /><br />
+                {/* <br /><br />
                 <div className="headingHeaderContainer">
                     <h1 style={{ textAlign: "center", fontSize: "30px", backgroundColor: "#bc252b0a" }}>Offline Seedo</h1>
                 </div>
-                <br /><br />
-                <Row className="RowAdjustContainer">
-                    {/* <div id="ClientSliderContainer"> */}
+                <br /><br /> */}
+                {/* <Row className="RowAdjustContainer">
+                    <div id="ClientSliderContainer">
                     {OfllineClients.map((item, index) => (
                         <Col lg={4} md={6} key={index} data-aos="fade-up"
                             data-aos-delay={`${index * 100}`}>
-                            {/* <Link to={item.link} target="_blank"> */}
+                            <Link to={item.link} target="_blank">
                                 <div className="CerticationCardGreyBox">
                                     <img src={item.img} alt="" />
                                 </div>
-                            {/* </Link> */}
+                            </Link>
                         </Col>
                     ))}
-                </Row>
+                </Row> */}
 
                 <section className="OURLEADERSHIPContainer">
                     <div className="LeaderShipHeaderContainer">

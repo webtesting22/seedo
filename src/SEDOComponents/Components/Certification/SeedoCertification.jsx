@@ -17,7 +17,7 @@ const SeedoCertification = () => {
     const CertificationLogoData = [
         {
             img: MakeInIndia,
-            title: " Make in India",
+            title: " Make In India",
             link: "https://www.makeinindia.com/"
         },
         {
@@ -146,7 +146,7 @@ const SeedoCertification = () => {
 
             <section className="Certificates">
                 <div className="CertificatesHeadingContainer">
-                    <h1>Certificates</h1>
+                    <h1>Certifications</h1>
                 </div>
                 <div>
                     <Row>
@@ -170,7 +170,7 @@ const SeedoCertification = () => {
 
                     <div className="CerticationHeadline">
                         <div>
-                            <p>Passed testing awaiting certificate</p>
+                            <p>Passed testing awaiting certifications</p>
                         </div>
                     </div>
                 </div>
