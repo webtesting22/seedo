@@ -13,6 +13,10 @@ import { LiaFacebookSquare } from "react-icons/lia";
 import { CiInstagram } from "react-icons/ci";
 import { FaXTwitter } from "react-icons/fa6";
 import NavigationLinks from "../Navigation/NavigationLinks";
+import { FaRegEnvelope } from "react-icons/fa";
+import { MdOutlinePhone } from "react-icons/md";
+
+
 const Footer = () => {
     return (
         <>
@@ -22,17 +26,27 @@ const Footer = () => {
                         <Col lg={8} md={12} style={{ width: "100%" }}>
                             <div className="ContactContainerandSocial">
                                 <div>
-                                    <p><b>Contact us:</b> 987644483</p>
-                                    <p><b>Email:</b>  <Link to="mailto:info@seedotoys.com" target="_blank" style={{ color: "white" }}>info@seedotoys.com</Link></p>
+                                    <p><b>Contact</b> </p>
+                                    <div style={{ display: "flex", flexDirection: "Column", gap: "10px" }}>
+                                        <Link to="mailto:info@seedotoys.com" target="_blank" style={{ color: "white", fontSize: "16px", display: "flex", alignItems: "center" }}> <FaRegEnvelope /> &nbsp;&nbsp;info@seedotoys.com</Link>
+                                        <Link style={{ fontSize: "16px", color: "white", display: "flex", alignItems: "center" }}><MdOutlinePhone />&nbsp;&nbsp;9876543210</Link>
+                                    </div>
                                     {/* <p><b>Privacy Policy</b></p>
                                     <p><b>Terms and Condition</b></p> */}
                                 </div>
-
+                                <div style={{ display: "flex", flexDirection: "column",gap:"0px" }}>
+                                    <p><b>Follow Us</b> &nbsp;&nbsp;</p>
+                                    {/* <p><LiaFacebookSquare /></p> */}
+                                    <div>
+                                        <Link to="https://www.instagram.com/seedotoys/" target="_blank"><p style={{margin:"0px"}}><CiInstagram style={{ color: "white", fontSize: "25px" }} /></p></Link>
+                                    </div>
+                                    {/* <p><FaXTwitter /></p> */}
+                                </div>
                             </div>
                         </Col>
                         <Col lg={8} md={12} style={{ width: "100%" }}>
                             <div className="LinksContainer">
-                                <p><b>Navigations</b></p>
+                                <p><b>Explore</b></p>
                                 <ul>
                                     {NavigationLinks.map((item, index) => (
                                         <Link to={item.path} key={index}>
@@ -43,6 +57,7 @@ const Footer = () => {
                             </div>
                         </Col>
                         <Col lg={8} md={12} style={{ width: "100%" }}>
+                        <p><b>Address</b></p>
                             <div className="FooterAdressContainer">
                                 <div>
                                     <p><b>Office:</b> B5/70, 1st Floor, Rama Road Industrial Area New Delhi, India 110015</p>
@@ -62,15 +77,8 @@ const Footer = () => {
                     </Row>
                     {/* <hr style={{opacity:"0.4",border:"0.5px solid white"}}/> */}
                     <div className="CopywriteText">
-                        <div style={{display:"flex",alignItems:"center"}}>
-                            <p><b>Join Us</b> &nbsp;&nbsp;</p>
-                            {/* <p><LiaFacebookSquare /></p> */}
-                            <div>
-                                <Link to="https://www.instagram.com/seedotoys/" target="_blank"><p style={{display:"flex",alignItems:"center"}}><CiInstagram style={{ color: "white",fontSize:"25px" }} /></p></Link>
-                            </div>
-                            {/* <p><FaXTwitter /></p> */}
-                        </div>
-                        <p style={{margin:"0px"}}>@2024 <Link to="https://www.outleadsolutions.com/" target="_blank">OutLead solutions.</Link> All rights reserved.</p>
+
+                        <p style={{ margin: "0px" }}>@2024 <Link to="https://www.outleadsolutions.com/" target="_blank">OutLead solutions.</Link> All rights reserved.</p>
                     </div>
                 </div>
                 {/* <h1>GET IN TOUCH</h1> */}

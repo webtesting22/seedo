@@ -10,17 +10,19 @@
 
 #Footer .LinksContainer ul li {
     list-style: none;
-    padding: 7px 0px;
-    font-size: 18px;
+    padding: 5px 0px;
+    font-size: 16px;
     color: white;
     transition: .5s;
     width: 100%;
+    font-weight: 400;
 }
 
 #Footer .LinksContainer ul li:hover {
     list-style: none;
-    padding: 7px 0px;
-    font-size: 18px;
+    padding: 5px 0px;
+    font-weight: 400;
+    font-size: 16px;
     color: white;
     transform: translateX(10px);
     transition: .5s;
@@ -48,11 +50,17 @@
     flex-direction: column;
     justify-content: space-between;
 }
+.FooterAdressContainer p{
+    margin: 10px;
+    margin-left: 0px;
+    font-size: 16px;
+}
 
 .CopywriteText {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    padding: 10px 0px;
 }
 .CopywriteText div:last-child p{
     font-size: 20px;
