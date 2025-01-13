@@ -864,6 +864,17 @@ const SeedoProductData = {
                 ],
                 ProductBatteryType: "Non-Electric",
                 ProductCode: "SMR-FWPB-P3",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> Metal Die Cast</p>
+                            <p><b>Scale</b> 1:64</p>
+                            <p><b>Box size</b> 32 pcs in a box</p>
+                            <p><b>Content</b> 3 Cars</p>
+                            <p><b>HSN Code</b> 95030030</p>
+                        </div>
+                    </div>
+                </>
             },
             {
                 id: 33,
@@ -873,6 +884,17 @@ const SeedoProductData = {
                 ],
                 ProductBatteryType: "Non-Electric",
                 ProductCode: "SMR-FWPB-P5",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> Metal Die Cast</p>
+                            <p><b>Scale</b> 1:64</p>
+                            <p><b>Box size</b> 20 pcs in a box</p>
+                            <p><b>Content</b> 5 Cars</p>
+                            <p><b>HSN Code</b> 95030030</p>
+                        </div>
+                    </div>
+                </>
             },
             {
                 id: 34,
@@ -882,6 +904,17 @@ const SeedoProductData = {
                 ],
                 ProductBatteryType: "Non-Electric",
                 ProductCode: "SMR-FWPB-P10",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> Metal Die Cast</p>
+                            <p><b>Scale</b> 1:64</p>
+                            <p><b>Box size</b> 10 pcs in a box</p>
+                            <p><b>Content</b> 10 Cars</p>
+                            <p><b>HSN Code</b> 95030030</p>
+                        </div>
+                    </div>
+                </>
             }
         ]
     },
@@ -895,7 +928,18 @@ const SeedoProductData = {
                     ProductImage: [
                         SMRCSA016
                     ],
-                    ProductStyleCode: "SMR-CS-A01/6"
+                    ProductStyleCode: "SMR-CS-A01/6",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 36,
@@ -904,7 +948,18 @@ const SeedoProductData = {
                     ProductImage: [
                         SMRCSA026
                     ],
-                    ProductStyleCode: "SMR-CS-A02/6"
+                    ProductStyleCode: "SMR-CS-A02/6",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 37,
@@ -913,7 +968,18 @@ const SeedoProductData = {
                     ProductImage: [
                         SMRCSA036
                     ],
-                    ProductStyleCode: "SMR-CS-A03/6"
+                    ProductStyleCode: "SMR-CS-A03/6",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 38,
@@ -922,7 +988,18 @@ const SeedoProductData = {
                     ProductImage: [
                         SMRCSA046
                     ],
-                    ProductStyleCode: "SMR-CS-A04/6"
+                    ProductStyleCode: "SMR-CS-A04/6",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 39,
@@ -931,7 +1008,18 @@ const SeedoProductData = {
                     ProductImage: [
                         SMRCSA056
                     ],
-                    ProductStyleCode: "SMR-CS-A05/6"
+                    ProductStyleCode: "SMR-CS-A05/6",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 40,
@@ -940,7 +1028,18 @@ const SeedoProductData = {
                     ProductImage: [
                         SMRCSA066
                     ],
-                    ProductStyleCode: "SMR-CS-A06/6"
+                    ProductStyleCode: "SMR-CS-A06/6",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
 
             ],
@@ -951,42 +1050,108 @@ const SeedoProductData = {
                     name: "SMR Pull Back Series-A01/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRPBSA016],
-                    ProductStyleCode: "SMR-PBS-A01/6"
+                    ProductStyleCode: "SMR-PBS-A01/6",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 42,
                     name: "SMR Pull Back Series-A02/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRPBSA026],
-                    ProductStyleCode: "SMR-PBS-A02/6"
+                    ProductStyleCode: "SMR-PBS-A02/6",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 43,
                     name: "SMR Pull Back Series-A03/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRPBSA036],
-                    ProductStyleCode: "SMR-PBS-A03/6"
+                    ProductStyleCode: "SMR-PBS-A03/6",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 44,
                     name: "SMR Pull Back Series-A04/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRPBSA046],
-                    ProductStyleCode: "SMR-PBS-A04/6"
+                    ProductStyleCode: "SMR-PBS-A04/6",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 45,
                     name: "SMR Pull Back Series-A05/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRPBSA056],
-                    ProductStyleCode: "SMR-PBS-A05/6"
+                    ProductStyleCode: "SMR-PBS-A05/6",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 46,
                     name: "SMR Pull Back Series-A06/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRPBSA066],
-                    ProductStyleCode: "SMR-PBS-A06/6"
+                    ProductStyleCode: "SMR-PBS-A06/6",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 }
 
 
@@ -997,28 +1162,72 @@ const SeedoProductData = {
                     name: "SMR Cruiser Series-CS01/4",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWCS014],
-                    ProductStyleCode: "SMR-FW-CS01/4"
+                    ProductStyleCode: "SMR-FW-CS01/4",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 48,
                     name: "SMR Cruiser Series-CS02/4",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWCS024],
-                    ProductStyleCode: "SMR-FW-CS02/4"
+                    ProductStyleCode: "SMR-FW-CS02/4",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 49,
                     name: "SMR Cruiser Series-CS03/4",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWCS034],
-                    ProductStyleCode: "SMR-FW-CS03/4"
+                    ProductStyleCode: "SMR-FW-CS03/4",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 50,
                     name: "SMR Cruiser Series-CS04/4",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWCS044],
-                    ProductStyleCode: "SMR-FW-CS04/4"
+                    ProductStyleCode: "SMR-FW-CS04/4",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 }
             ],
             "Drift Series": [
@@ -1027,42 +1236,108 @@ const SeedoProductData = {
                     name: "SMR Drift Series-DS01/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWDS016],
-                    ProductStyleCode: "SMR-FW-DS01/6"
+                    ProductStyleCode: "SMR-FW-DS01/6",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 52,
                     name: "SMR Drift Series-DS02/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWDS026],
-                    ProductStyleCode: "SMR-FW-DS02/6"
+                    ProductStyleCode: "SMR-FW-DS02/6",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 53,
                     name: "SMR Drift Series-DS03/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWDS036],
-                    ProductStyleCode: "SMR-FW-DS03/6"
+                    ProductStyleCode: "SMR-FW-DS03/6",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 54,
                     name: "SMR Drift Series-DS04/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWDS046],
-                    ProductStyleCode: "SMR-FW-DS04/6"
+                    ProductStyleCode: "SMR-FW-DS04/6",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 55,
                     name: "SMR Drift Series-DS05/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWDS056],
-                    ProductStyleCode: "SMR-FW-DS05/6"
+                    ProductStyleCode: "SMR-FW-DS05/6",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 56,
                     name: "SMR Drift Series-DS06/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWDS066],
-                    ProductStyleCode: "SMR-FW-DS06/6"
+                    ProductStyleCode: "SMR-FW-DS06/6",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 }
             ],
             "Racing Series": [
@@ -1071,42 +1346,108 @@ const SeedoProductData = {
                     name: "SMR Racing Series-RS01/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWRS016],
-                    ProductStyleCode: "SMR-FW-RS01/6"
+                    ProductStyleCode: "SMR-FW-RS01/6",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 58,
                     name: "SMR Racing Series-RS02/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWRS026],
-                    ProductStyleCode: "SMR-FW-RS02/6"
+                    ProductStyleCode: "SMR-FW-RS02/6",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 59,
                     name: "SMR Racing Series-RS03/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWRS036],
-                    ProductStyleCode: "SMR-FW-RS03/6"
+                    ProductStyleCode: "SMR-FW-RS03/6",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 60,
                     name: "SMR Racing Series-RS04/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWRS046],
-                    ProductStyleCode: "SMR-FW-RS04/6"
+                    ProductStyleCode: "SMR-FW-RS04/6",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 61,
                     name: "SMR Racing Series-RS05/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWRS056],
-                    ProductStyleCode: "SMR-FW-RS05/6"
+                    ProductStyleCode: "SMR-FW-RS05/6",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 62,
                     name: "SMR Racing Series-RS06/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWRS066],
-                    ProductStyleCode: "SMR-FW-RS06/6"
+                    ProductStyleCode: "SMR-FW-RS06/6",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 }
             ],
             "Jet Series": [
@@ -1261,56 +1602,144 @@ const SeedoProductData = {
                     name: "SMR Fire Birds Series-FBS01/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWFBS018],
-                    ProductStyleCode: "SMR-FW-FBS01/8"
+                    ProductStyleCode: "SMR-FW-FBS01/8",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 72,
                     name: "SMR Fire Birds Series-FBS02/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWFBS028],
-                    ProductStyleCode: "SMR-FW-FBS02/8"
+                    ProductStyleCode: "SMR-FW-FBS02/8",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 73,
                     name: "SMR Fire Birds Series-FBS03/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWFBS038],
-                    ProductStyleCode: "SMR-FW-FBS03/8"
+                    ProductStyleCode: "SMR-FW-FBS03/8",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 74,
                     name: "SMR Fire Birds Series-FBS04/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWFBS048],
-                    ProductStyleCode: "SMR-FW-FBS04/8"
+                    ProductStyleCode: "SMR-FW-FBS04/8",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 75,
                     name: "SMR Fire Birds Series-FBS05/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWFBS058],
-                    ProductStyleCode: "SMR-FW-FBS05/8"
+                    ProductStyleCode: "SMR-FW-FBS05/8",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 76,
                     name: "SMR Fire Birds Series-FBS06/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWFBS068],
-                    ProductStyleCode: "SMR-FW-FBS06/8"
+                    ProductStyleCode: "SMR-FW-FBS06/8",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 77,
                     name: "SMR Fire Birds Series-FBS07/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWFBS078],
-                    ProductStyleCode: "SMR-FW-FBS07/8"
+                    ProductStyleCode: "SMR-FW-FBS07/8",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 78,
                     name: "SMR Fire Birds Series-FBS08/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWFBS088],
-                    ProductStyleCode: "SMR-FW-FBS08/8"
+                    ProductStyleCode: "SMR-FW-FBS08/8",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 }
             ]
         }
