@@ -45,14 +45,17 @@ const Footer = () => {
                         <Col lg={8} md={12} style={{ width: "100%" }}>
                             <div className="FooterAdressContainer">
                                 <div>
-                                    {/* <p><b>Address</b></p> */}
-                                    {/* <p>Plot No. 23, Sector-57, Phase-IV & <br /> Plot No. 139, Sector-56, Phase-V, <br /> HSIIDC Industrial Area/Estate, Kundli, Sonipat, Haryana-131028</p> */}
-                                    <p><b>Unit 1</b></p>
-                                    <p>Plot No. 23, Sector-57, Phase-IV, HSIIDC Industrial Area, Kundli, Sonipat, Haryana-131028</p>
+                                    <p><b>Office:</b> B5/70, 1st Floor, Rama Road Industrial Area New Delhi, India 110015</p>
                                 </div>
                                 <div>
-                                    <p><b>Unit 2</b> </p>
-                                    <p>Plot No 139, Sector-56, Phase-V, HSIIDC Industrial Area, Kundli, Sonipat, Haryana-131028</p>
+                                    {/* <p><b>Address</b></p> */}
+                                    {/* <p>Plot No. 23, Sector-57, Phase-IV & <br /> Plot No. 139, Sector-56, Phase-V, <br /> HSIIDC Industrial Area/Estate, Kundli, Sonipat, Haryana-131028</p> */}
+                                    <p><b>Unit 1:</b> Plot No. 23, Sector-57, Phase-IV, HSIIDC Industrial Area, Kundli, Sonipat, Haryana-131028</p>
+                                    {/* <p></p> */}
+                                </div>
+                                <div>
+                                    <p><b>Unit 2:</b> Plot No 139, Sector-56, Phase-V, HSIIDC Industrial Area, Kundli, Sonipat, Haryana-131028</p>
+                                    {/* <p></p> */}
                                 </div>
                             </div>
                         </Col>

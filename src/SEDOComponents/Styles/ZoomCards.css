@@ -249,6 +249,7 @@ padding-bottom: 0px !important;
 #SeedoPersonal p {
     width: 80%;
 }
+
 @media (max-width:769px) {
     #SeedoPersonal p {
         width: 100%;

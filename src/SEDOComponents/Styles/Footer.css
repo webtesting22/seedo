@@ -3,7 +3,7 @@
     padding: 0rem 4rem;
     background: #253874;
     /* margin-top: 3rem !important; */
-    padding-bottom: 1rem;
+    /* padding-bottom: 1rem; */
     color: white;
     /* min-height: 400px; */
 }
@@ -66,14 +66,24 @@
 
 
 @media (max-width:769px) {
-
+.FooterAdressContainer div:first-child{
+    width: 100%;
+}
+.FooterAdressContainer div:first-child p{
+    margin-bottom: 0px;
+}
+.FooterAdressContainer div{
+    width: 45%;
+}
 .CopywriteText {
     display: flex;
+
     justify-content: space-between;
     flex-direction: column;
 }
 .FooterAdressContainer {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     flex-direction: row;
     justify-content: space-between;

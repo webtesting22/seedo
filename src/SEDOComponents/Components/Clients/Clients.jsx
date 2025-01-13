@@ -31,6 +31,7 @@ import image3 from "./619a4143-2b0f-40a7-b92f-4bf48d5bed8e-removebg-preview 1.sv
 import image4 from "./Ralleyz_Logo-02.svg"
 import image5 from "./Toys__R__Us_logo.svg.svg"
 import image6 from "./VMM-1 1.svg"
+import Wishkey from "./Wishkey.png"
 import { Link } from "react-router-dom";
 import Navigation from "../../CommonComponents/Navigation/Navigation";
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -175,10 +176,10 @@ const Client = () => {
             link: "https://www.zeptonow.com/",
             img: Zepto
         },
-        // {
-        //     link: "https://www.thewhiskyexchange.com/",
-        //     img: Whiskey
-        // }
+        {
+            link: "",
+            img: Wishkey
+        }
 
     ];
     return (

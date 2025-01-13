@@ -17,6 +17,7 @@ import Snooplay from "./Snooplay.svg"
 import swiggy from "./swiggy.svg"
 import whole9years from "./whole9years.svg"
 import zapto from "./zapto.svg"
+import Wishkey from "../../Components/Clients/Wishkey.png"
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -98,11 +99,11 @@ const ZoomCards = () => {
             img: Zepto,
              color:""
         },
-        // {
-        //     link: "https://www.thewhiskyexchange.com/",
-        //     img: Whiskey,
-        //      color:"000000"
-        // }
+        {
+            link: "",
+            img: Wishkey,
+             color:"000000"
+        }
 
     ];
 
