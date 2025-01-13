@@ -72,6 +72,38 @@ const SingleProductPage = () => {
                     </div>
                 </div>
 
+               
+
+                {/* Display only products of the current category */}
+                <div className="SIMILARPRODUCTSContainer">
+                    <div className="HeaderContainer">
+                        <h1>Products in {categoryName}</h1>
+                    </div>
+                    <Row gutter={[16, 16]}>
+                        {products.map((prod) => (
+                            <Col key={prod.id} lg={6} md={12} sm={24}>
+                                <div className="SimilarProductCard">
+                                    <Link
+                                        to={`/singleproduct/${categoryName}/${prod.id}`}
+                                        className="ProductLink"
+                                    >
+                                        <div className="ImageContainer">
+                                            <img
+                                                src={
+                                                    prod.ProductImage?.[0] ||
+                                                    "path/to/placeholder.jpg"
+                                                }
+                                                alt={prod.name}
+                                            />
+                                        </div>
+                                        <h3 style={{ color: "black" }}>{prod.name}</h3>
+                                    </Link>
+                                </div>
+                            </Col>
+                        ))}
+                    </Row>
+                </div>
+                <br />
                 <div className="BuyNowContainer">
                     <div>
                         <h1>Buy now!</h1>
@@ -105,37 +137,6 @@ const SingleProductPage = () => {
                         </Row>
                     </div>
                 </div>
-
-                {/* Display only products of the current category */}
-                <div className="SIMILARPRODUCTSContainer">
-                    <div className="HeaderContainer">
-                        <h1>Products in {categoryName}</h1>
-                    </div>
-                    <Row gutter={[16, 16]}>
-                        {products.map((prod) => (
-                            <Col key={prod.id} lg={6} md={12} sm={24}>
-                                <div className="SimilarProductCard">
-                                    <Link
-                                        to={`/singleproduct/${categoryName}/${prod.id}`}
-                                        className="ProductLink"
-                                    >
-                                        <div className="ImageContainer">
-                                            <img
-                                                src={
-                                                    prod.ProductImage?.[0] ||
-                                                    "path/to/placeholder.jpg"
-                                                }
-                                                alt={prod.name}
-                                            />
-                                        </div>
-                                        <h3 style={{ color: "black" }}>{prod.name}</h3>
-                                    </Link>
-                                </div>
-                            </Col>
-                        ))}
-                    </Row>
-                </div>
-                <br />
             </section>
         </>
     );
