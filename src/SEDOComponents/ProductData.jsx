@@ -249,8 +249,8 @@ const SeedoProductData = {
                 Productdescription: <>
                     <div>
                         <div>
-                            <p><b>Material type</b> Virgin grade, High 
-                            strength ABS Material</p>
+                            <p><b>Material type</b> Virgin grade, High
+                                strength ABS Material</p>
                             <p><b>Scale</b> 1:18</p>
                             <p><b>USB</b> No</p>
                             <p><b>Box size</b> 48 pcs./box</p>
@@ -274,16 +274,16 @@ const SeedoProductData = {
                 Productdescription: <>
                     <div>
                         <div>
-                            <p><b>Material type</b> Virgin grade, High 
-                            strength ABS Material</p>
+                            <p><b>Material type</b> Virgin grade, High
+                                strength ABS Material</p>
                             <p><b>Scale</b> 1:24</p>
                             <p><b>Charging</b> Yes (C Type)</p>
                             <p><b>Box size</b> 48 pcs./box</p>
                             <p><b>Frequency</b> 27MHz</p>
                             <p><b>Colours</b> </p>
                             <p><b>HSN Code</b> 95030030</p>
-                            <p><b>Battery Cell type</b> 3.7V Li-ion 
-                            Rechargeable Battery</p>
+                            <p><b>Battery Cell type</b> 3.7V Li-ion
+                                Rechargeable Battery</p>
                         </div>
                     </div>
                 </>
@@ -300,16 +300,16 @@ const SeedoProductData = {
                 Productdescription: <>
                     <div>
                         <div>
-                            <p><b>Material type</b> Virgin grade, High 
-                            strength ABS Material</p>
+                            <p><b>Material type</b> Virgin grade, High
+                                strength ABS Material</p>
                             <p><b>Scale</b> 1:24</p>
                             <p><b>USB</b> Yes</p>
                             <p><b>Box size</b> 48 pcs./box</p>
                             <p><b>Frequency</b> 27MHz</p>
                             <p><b>Colours</b> </p>
                             <p><b>HSN Code</b> 95030030</p>
-                            <p><b>Battery Cell type</b> 3.7V Li-on 
-                            Rechargeable Battery</p>
+                            <p><b>Battery Cell type</b> 3.7V Li-on
+                                Rechargeable Battery</p>
                         </div>
                     </div>
                 </>
@@ -326,8 +326,8 @@ const SeedoProductData = {
                 Productdescription: <>
                     <div>
                         <div>
-                            <p><b>Material type</b> Virgin grade, High 
-                            strength ABS Material</p>
+                            <p><b>Material type</b> Virgin grade, High
+                                strength ABS Material</p>
                             <p><b>Scale</b> 1:24</p>
                             <p><b>USB</b> Yes (C Type)</p>
                             <p><b>Box size</b> 48 pcs./box</p>
@@ -335,7 +335,7 @@ const SeedoProductData = {
                             <p><b>Colours</b> </p>
                             <p><b>HSN Code</b> 95030030</p>
                             <p><b>Battery Cell type</b> 3.7V Li-ion
-                            Rechargeable Battery</p>
+                                Rechargeable Battery</p>
                         </div>
                     </div>
                 </>
@@ -352,8 +352,8 @@ const SeedoProductData = {
                 Productdescription: <>
                     <div>
                         <div>
-                            <p><b>Material type</b> Virgin grade, High 
-                            strength ABS Material</p>
+                            <p><b>Material type</b> Virgin grade, High
+                                strength ABS Material</p>
                             <p><b>Scale</b> 1:24</p>
                             <p><b>USB</b> Yes (C Type)</p>
                             <p><b>Box size</b> 48 pcs./box</p>
@@ -361,7 +361,7 @@ const SeedoProductData = {
                             <p><b>Colours</b> </p>
                             <p><b>HSN Code</b> 95030030</p>
                             <p><b>Battery Cell type</b> 3.7V Li-ion
-                            Rechargeable Battery</p>
+                                Rechargeable Battery</p>
                         </div>
                     </div>
                 </>
@@ -374,7 +374,23 @@ const SeedoProductData = {
                 ProductImage: [
                     LRC00E
                 ],
-                ProductStyleCode: "124LRC00E"
+                ProductStyleCode: "124LRC00E",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> Virgin grade, High
+                                strength ABS Material</p>
+                            <p><b>Scale</b> 1:24</p>
+                            <p><b>USB</b> Yes</p>
+                            <p><b>Box size</b> 48 pcs./box</p>
+                            <p><b>Frequency</b> 27MHz</p>
+                            <p><b>Colours</b> </p>
+                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>Battery Cell type</b> 3.7V Li-ion
+                                Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </>
             },
             {
                 id: 11,
@@ -383,7 +399,23 @@ const SeedoProductData = {
                 ProductImage: [
                     RC001
                 ],
-                ProductStyleCode: "118RC001"
+                ProductStyleCode: "118RC001",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> Virgin grade, High
+                                strength ABS Material</p>
+                            <p><b>Scale</b> 1:18</p>
+                            <p><b>USB</b> Yes</p>
+                            <p><b>Box size</b> 48 pcs./box</p>
+                            <p><b>Frequency</b> 27MHz</p>
+                            <p><b>Colours</b> </p>
+                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>Battery Cell type</b> 3.7V Li-ion
+                                Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </>
             },
             {
                 id: 12,
@@ -396,12 +428,28 @@ const SeedoProductData = {
             },
             {
                 id: 13,
-                name: "SEEDO Famous 4W",
+                name: "SEEDO Famous Car 4W",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     RC003_118
                 ],
-                ProductStyleCode: "118RC003"
+                ProductStyleCode: "118RC003",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> Virgin grade, High
+                                strength ABS Material</p>
+                            <p><b>Scale</b> 1:18</p>
+                            <p><b>USB</b> Yes (C Type)</p>
+                            <p><b>Box size</b> 48 pcs./box</p>
+                            <p><b>Frequency</b> 27MHz</p>
+                            <p><b>Colours</b> </p>
+                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>Battery Cell type</b> 3.7V Li-ion
+                                Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </>
             },
             {
                 id: 14,
@@ -410,7 +458,23 @@ const SeedoProductData = {
                 ProductImage: [
                     PRC001
                 ],
-                ProductStyleCode: "124PRC001"
+                ProductStyleCode: "124PRC001",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> Virgin grade, High
+                                strength ABS Material</p>
+                            <p><b>Scale</b> 1:24</p>
+                            <p><b>USB</b> No</p>
+                            <p><b>Box size</b> 48 pcs./box</p>
+                            <p><b>Frequency</b> 27MHz</p>
+                            <p><b>Colours</b> </p>
+                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>Battery Cell type</b> 3.7V Li-ion
+                                Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </>
             },
             {
                 id: 15,
@@ -419,7 +483,23 @@ const SeedoProductData = {
                 ProductImage: [
                     SC001_124
                 ],
-                ProductStyleCode: "124SC001"
+                ProductStyleCode: "124SC001",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> Virgin grade, High
+                                strength ABS Material</p>
+                            <p><b>Scale</b> 1:24</p>
+                            <p><b>USB</b> Yes</p>
+                            <p><b>Box size</b> 48 pcs./box</p>
+                            <p><b>Frequency</b> 27MHz</p>
+                            <p><b>Colours</b> </p>
+                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>Battery Cell type</b> 3.7V Li-ion
+                                Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </>
             },
             {
                 id: 16,
@@ -428,7 +508,23 @@ const SeedoProductData = {
                 ProductImage: [
                     SC001_118
                 ],
-                ProductStyleCode: "118SC001"
+                ProductStyleCode: "118SC001",
+                Productdescription: <>
+                <div>
+                    <div>
+                        <p><b>Material type</b> Virgin grade, High 
+                        strength ABS Material</p>
+                        <p><b>Scale</b> 1:18</p>
+                        <p><b>USB</b> Yes</p>
+                        <p><b>Box size</b> 12 pcs./box</p>
+                        <p><b>Frequency</b> 27MHz</p>
+                        <p><b>Colours</b> </p>
+                        <p><b>HSN Code</b> 95030030</p>
+                        <p><b>Battery Cell type</b> 3.7V Li-ion 
+                        Rechargeable Battery</p>
+                    </div>
+                </div>
+            </>
             },
             {
                 id: 17,
