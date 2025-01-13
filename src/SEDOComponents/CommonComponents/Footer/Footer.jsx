@@ -23,8 +23,15 @@ const Footer = () => {
             <section id="Footer">
                 <div className="FooterAdjustContainer">
                     <Row>
-                        <Col lg={8} md={12} style={{ width: "100%" }}>
+                        <Col lg={6} style={{width:"100%"}}>
+                            <div>
+                                <img src={SEEDOLogo} alt="" style={{ width: "125px",borderRadius:"10px" ,marginTop:"25px"}} />
+                                <h1>Break The Limit</h1>
+                            </div>
+                        </Col>
+                        <Col lg={6} md={12} style={{ width: "100%" }}>
                             <div className="ContactContainerandSocial">
+
                                 <div>
                                     <p><b>Contact</b> </p>
                                     <div style={{ display: "flex", flexDirection: "Column", gap: "10px" }}>
@@ -34,17 +41,17 @@ const Footer = () => {
                                     {/* <p><b>Privacy Policy</b></p>
                                     <p><b>Terms and Condition</b></p> */}
                                 </div>
-                                <div style={{ display: "flex", flexDirection: "column",gap:"0px" }}>
+                                <div style={{ display: "flex", flexDirection: "column", gap: "0px" }}>
                                     <p><b>Follow Us</b> &nbsp;&nbsp;</p>
                                     {/* <p><LiaFacebookSquare /></p> */}
                                     <div>
-                                        <Link to="https://www.instagram.com/seedotoys/" target="_blank"><p style={{margin:"0px"}}><CiInstagram style={{ color: "white", fontSize: "25px" }} /></p></Link>
+                                        <Link to="https://www.instagram.com/seedotoys/" target="_blank"><p style={{ margin: "0px" }}><CiInstagram style={{ color: "white", fontSize: "25px" }} /></p></Link>
                                     </div>
                                     {/* <p><FaXTwitter /></p> */}
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={8} md={12} style={{ width: "100%" }}>
+                        <Col lg={6} md={12} style={{ width: "100%" }}>
                             <div className="LinksContainer">
                                 <p><b>Explore</b></p>
                                 <ul>
@@ -56,8 +63,8 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </Col>
-                        <Col lg={8} md={12} style={{ width: "100%" }}>
-                        <p><b>Address</b></p>
+                        <Col lg={6} md={12} style={{ width: "100%" }}>
+                            <p><b>Address</b></p>
                             <div className="FooterAdressContainer">
                                 <div>
                                     <p><b>Office:</b> B5/70, 1st Floor, Rama Road Industrial Area New Delhi, India 110015</p>
