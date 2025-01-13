@@ -25,7 +25,7 @@ const SubCategories = () => {
             </div>
             <section className="SubCategoryContainer">
                 <div className="SubcategoryHeader" style={{paddingTop:"0px"}}>
-                    <h1>SubCategories Page</h1>
+                    <h1>{categoryName} SubCategories</h1>
                 </div>
                 <div className="CatalogueCardsContainer" >
                     <Row>

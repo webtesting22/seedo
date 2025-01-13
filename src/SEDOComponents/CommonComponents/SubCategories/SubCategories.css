@@ -3,7 +3,7 @@
 }
 
 .SubcategoryHeader {
-    min-height: 400px;
+    min-height: 200px;
     width: 100%;
     background-color: #f4f4f470;
     /* padding: 0px 40px; */
@@ -15,12 +15,14 @@
 .SubcategoryHeader h1{
     margin: 0px;
     font-size: 40px;
-
+    border-bottom: 1px dashed black;
+    border-top: 1px dashed black;
+    padding: 10px 0px;
 }
 
 @media (max-width:900px){
     .SubcategoryHeader {
-        min-height: 400px;
+        min-height: 300px;
         width: 100%;
         background-color: #f4f4f470;
         padding:0rem 0rem;
