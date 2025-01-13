@@ -102,36 +102,36 @@
 }
 
 .BuyNowContainer {
-    margin-top: 5rem;
-    padding: 0rem 4rem;
+    /* margin-top: 5rem; */
+    padding: 0px 40px;
 }
 
 .BuyNowContainer h1 {
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 20px;
     background-color: #bc252b0a;
     padding: 10px 10px;
 }
 
-.OptionsContainer .ant-row .ant-col:first-child .HeaderHeadingContainer {
+/* .OptionsContainer .ant-row .ant-col:first-child .HeaderHeadingContainer {
     background-color: #868686;
-}
+} */
 
-.OptionsContainer .ant-row .ant-col .HeaderHeadingContainer {
+/* .OptionsContainer .ant-row .ant-col .HeaderHeadingContainer {
     background-color: #B2AAAA;
     padding: 20px 30px;
-}
+} */
 
 .HeaderHeadingContainer h1 {
-    font-size: 28px;
+    font-size: 20px;
     text-align: center;
     margin-top: 0px;
 }
 
-.logosContainer {
+/* .logosContainer {
     background-color: #D9D9D9;
     padding-bottom: 20px;
-}
+} */
 
 .logosContainer ul {
     padding: 0px;
@@ -154,17 +154,17 @@
 }
 
 .SIMILARPRODUCTSContainer {
-    /* padding: 0px 40px; */
+    padding: 0px 40px;
     margin-top: 5rem;
 }
 
-.SIMILARPRODUCTSContainer .HeaderContainer,
+/* .SIMILARPRODUCTSContainer .HeaderContainer,
 .ReviewContainer .HeaderContainer {
     padding: 0rem 4rem;
-}
+} */
 
 .SIMILARPRODUCTSContainer h1 {
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 20px;
     background-color: #bc252b0a;
     padding: 10px 10px;
@@ -274,11 +274,30 @@
 }
 
 .ProductTitle h2 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 500;
 }
 
-
+.SimilarProductCard{
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px dashed #bc252a72;
+}
+.SimilarProductCard img{
+    width: 200px;
+}
+.ImageContainer{
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
 @media (max-width:900px) {
     .MassageContainer {
         width: 100%;
@@ -303,7 +322,7 @@
     }
 
     .BuyNowContainer h1 {
-        font-size: 40px;
+        font-size: 30px;
         margin-bottom: 20px;
 
     }
@@ -324,7 +343,7 @@
     }
 
     .SIMILARPRODUCTSContainer h1 {
-        font-size: 40px;
+        font-size: 30px;
         margin-bottom: 20px;
         background-color: #bc252b0a;
         padding: 10px 10px;

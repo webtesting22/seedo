@@ -1,10 +1,11 @@
-
 import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
-import Navigation from "../../CommonComponents/Navigation/Navigation";// Adjust if you have a Navigation component
+import Navigation from "../../CommonComponents/Navigation/Navigation"; // Adjust if you have a Navigation component
 import { Row, Col } from "antd";
 import SeedoProductData from "../../ProductData";
 import { Link } from "react-router-dom";
+import Ourproducts from "./Ourproducts.png";
+
 const SubcategoriesProducts = () => {
     const { categoryName, subcategoryName } = useParams();
     const categoryData = SeedoProductData[categoryName];
@@ -25,18 +26,19 @@ const SubcategoriesProducts = () => {
     return (
         <>
             <div className="AboutUs">
-            <Navigation />
+                <Navigation />
             </div>
             <section className="SubCategoryProductsContainer">
                 <div className="SubcategoryHeader">
-                    <h1>{subcategoryName} Products</h1>
+                    {/* Show subcategory name if available; otherwise, show main category name */}
+                    <h1>{subcategoryName || categoryName} Products</h1>
                 </div>
                 <div className="CatalogueCardsContainer">
                     <Row>
                         {products &&
                             products.map((product, index) => (
                                 <Col key={index} lg={8} md={12} style={{ width: "100%" }}>
-                                  <Link to={`/singleproduct/${categoryName}/${product.id}`}>
+                                    <Link to={`/singleproduct/${categoryName}/${product.id}`}>
                                         <div className="CatalogueCardContainer">
                                             <div className="CatalogueImageContainer">
                                                 {/* Check if ProductImage exists and is not empty */}
@@ -50,7 +52,6 @@ const SubcategoriesProducts = () => {
                                                     // If no images, display a default image
                                                     <img src="path/to/default-image.jpg" alt="Default Image" />
                                                 )}
-
                                             </div>
                                             <div className="productTitleContainer">
                                                 <h1>{product.name}</h1>
@@ -60,13 +61,12 @@ const SubcategoriesProducts = () => {
                                         </div>
                                     </Link>
                                 </Col>
-                            ))
-                        }
-
+                            ))}
                     </Row>
                 </div>
             </section>
         </>
-    )
-}
-export default SubcategoriesProducts
+    );
+};
+
+export default SubcategoriesProducts;
