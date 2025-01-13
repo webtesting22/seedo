@@ -255,6 +255,10 @@
 
     .SIMILARPRODUCTSContainer .HeaderContainer,
     .ReviewContainer .HeaderContainer {
+        padding: 0rem 0rem;
+    }
+
+    .SIMILARPRODUCTSContainer {
         padding: 0rem 10rem;
     }
 
@@ -278,7 +282,7 @@
     font-weight: 500;
 }
 
-.SimilarProductCard{
+.SimilarProductCard {
     height: 300px;
     width: 100%;
     overflow: hidden;
@@ -289,22 +293,27 @@
     border-radius: 20px;
     border: 1px dashed #bc252a72;
 }
-.SimilarProductCard img{
+
+.SimilarProductCard img {
     width: 200px;
 }
-.ImageContainer{
+
+.ImageContainer {
     height: 250px;
     overflow: hidden;
     display: flex;
     align-items: center;
 }
-.productSpecificatinContainer p{
+
+.productSpecificatinContainer p {
     margin-bottom: 0px;
     margin-top: 0px;
 }
-.productSpecificatinContainer p b::after{
+
+.productSpecificatinContainer p b::after {
     content: ":";
 }
+
 @media (max-width:900px) {
     .MassageContainer {
         width: 100%;

@@ -106,7 +106,7 @@ import W002 from "/Images/ProductsImages/RC Car/1182W002.png"
 import W003 from "/Images/ProductsImages/RC Car/1182W003.png"
 import STDR001 from "/Images/ProductsImages/RC Car/STDR001.png"
 const SeedoProductData = {
-    "Friction & Pull back + Press & Go": {
+    "Friction, Pull Back and Press & Go": {
         products: [
             {
                 id: 1,
@@ -187,7 +187,7 @@ const SeedoProductData = {
         //     ]
         // }
     },
-    "Remote Controlled Car": {
+    "Remote Controlled Cars": {
         products: [
             {
                 id: 3,
@@ -854,7 +854,7 @@ const SeedoProductData = {
     },
 
 
-    "Metal x Racer": {
+    "Metal X Racer": {
         products: [
             {
                 id: 32,
@@ -918,7 +918,7 @@ const SeedoProductData = {
             }
         ]
     },
-    "Die cast cars": {
+    "Die Cast Cars": {
         subcategories: {
             "Construction Series": [
                 {

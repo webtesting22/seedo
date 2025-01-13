@@ -98,11 +98,11 @@ const ZoomCards = () => {
             img: Zepto,
              color:""
         },
-        {
-            link: "https://www.thewhiskyexchange.com/",
-            img: Whiskey,
-             color:"000000"
-        }
+        // {
+        //     link: "https://www.thewhiskyexchange.com/",
+        //     img: Whiskey,
+        //      color:"000000"
+        // }
 
     ];
 
@@ -117,19 +117,30 @@ const ZoomCards = () => {
                 </div>
             </div> */}
             <div style={{ display: "flex", justifyContent: "center" }}>
+                <div className="SANSONGraphicContainer" id="SeedoPersonal">
+                    <div>
+                        <h1 style={{ fontSize: "30px", color: "white", margin: "0px" }} data-aos="fade-up"
+                            data-aos-duration="1000">SEEDO</h1>
+                       <p data-aos="fade-up"
+                            data-aos-duration="1500"><b>At Seedo,</b> we believe in sparking <b>creativity and joy</b> with every toy we make. <br />Our collection of high-quality, safe, and affordable toys is crafted to inspire children’s imaginations while giving parents complete peace of mind.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div style={{ display: "flex", justifyContent: "center" }}>
                 <div className="SANSONGraphicContainer">
                     <div>
                         <h1 style={{ fontSize: "30px", color: "white", margin: "0px" }} data-aos="fade-up"
                             data-aos-duration="1000">Sanson Promotion Innovations LLP</h1>
                         <p data-aos="fade-up"
-                            data-aos-duration="1500"> Sanson Promotion Innovations LLP is a prominent leader in consumer and trade promotions, trusted by major FMCG brands such as Unilever, Glaxo, Perfetti, Mondelez, and Britannia. As the parent company of Seedo Toys, Sanson excels in collaborating with esteemed licensors like Disney, Marvel, Mattel, Pokémon, and Doraemon. With comprehensive expertise in conceptualization, product engineering, mass manufacturing, quality assurance, and logistics, Sanson consistently surpasses client expectations. This commitment to delivering high-quality products and innovative campaigns not only fosters brand loyalty but also drives significant business growth.</p>
+                            data-aos-duration="1500"> Sanson Promotion Innovations LLP is a prominent leader in consumer and trade promotions, trusted by major FMCG brands such as Unilever, Glaxo, Perfetti, Mondelez, and Britannia. As the parent company of Seedo, Sanson excels in collaborating with esteemed licensors like Disney, Marvel, Mattel, Pokémon, and Doraemon. With comprehensive expertise in conceptualization, product engineering, mass manufacturing, quality assurance, and logistics, Sanson consistently surpasses client expectations. <br /> This commitment to delivering high-quality products and innovative campaigns is reflected in Seedo's values as well.</p>
                     </div>
                 </div>
             </div>
             <div className="AboutSeedoContent">
                 <div>
                     {/* <p>Welcome to Seedo Toys</p> */}
-                    <h1>Where Imagination Comes to Life!</h1>
+                    <h1>SEEDO- Where Imagination Comes to Life!</h1>
                 </div>
                 <div>
                     <div>
@@ -139,14 +150,14 @@ const ZoomCards = () => {
                             height: '100%',
                             objectFit: 'cover',
                         }} />
-                        <h2 style={{ marginBottom: "0px", fontSize: "30px", textAlign: "center" }} data-aos="fade-up"
+                        <h2 style={{ marginBottom: "0px", fontSize: "30px", textAlign: "center",width:"100%",background:"#bc252b0a" }} data-aos="fade-up"
                             data-aos-duration="1000">Trusted Presence Across India</h2>
                       
-                        <p data-aos="fade-up"
+                        {/* <p data-aos="fade-up"
                             data-aos-duration="1500"><b>At Seedo Toys,</b> we believe in sparking <b>creativity and joy</b> with every toy we make. Our collection of high-quality, safe, and affordable toys is crafted to inspire children’s imaginations while giving parents complete peace of mind.
-                        </p>
+                        </p> */}
                         <p data-aos="fade-up"
-                            data-aos-duration="1500">Proudly <b>available in 3000+ stores nationwide</b>, including General Trade and Modern Trade, we bring quality and innovation closer to you every day! <b>Explore our presence across these platforms:</b>
+                            data-aos-duration="1500">Proudly <b>available in 3000+ stores nationwide</b>, including General Trade and Modern Trade, we bring quality and innovation closer to you every day! <br />Additionaly, explore our presence across these<b> digital platforms:</b>
                         </p>
                     </div>
                 </div>

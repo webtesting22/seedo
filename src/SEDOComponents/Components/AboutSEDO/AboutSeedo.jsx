@@ -144,7 +144,7 @@ const AboutSeedo = () => {
         },
         {
             title: "Vision",
-            description: "To become a leading toy manufacturer globally, Seedo Toys aims to be recognized for excellence in product quality and innovation while integrating advanced technology into its offerings."
+            description: "To become a leading toy manufacturer globally, Seedo toys aims to be recognized for excellence in product quality and innovation while integrating advanced technology into its offerings."
         },
         {
             title: "Purpose",
@@ -246,11 +246,11 @@ const AboutSeedo = () => {
                             data-aos-duration="1000">About us</h1>
                         <br />
                         <p data-aos="fade-up"
-                            data-aos-duration="1500">Driven by innovation and strong technical control
+                            data-aos-duration="1500">Driven by innovation and strong technical control,
                             we at Seedo have developed a range of
                             high-quality toys, ensuring they are safe,
                             affordable, and meet the highest standards. Seedo
-                            Toys sparks children’s imaginations while offering
+                            toys sparks children’s imaginations while offering
                             parents confidence in our craftsmanship.
                             We are committed to becoming India's leading toy
                             manufacturers and aim for tenfold growth within
@@ -433,7 +433,7 @@ const AboutSeedo = () => {
                 <div className="AdjustWidthSection">
                     <div>
                         <h1 data-aos="fade-up"
-                            data-aos-duration="1000">In House Spraying</h1>
+                            data-aos-duration="1000">In-House Spraying</h1>
                     </div>
                     <div>
                         <Row>
@@ -467,7 +467,7 @@ const AboutSeedo = () => {
                             <Col lg={12}>
 
                                 <p data-aos="fade-up"
-                                    data-aos-duration="1400">At Seedo Toys, we take pride in our
+                                    data-aos-duration="1400">At Seedo toys, we take pride in our
                                     in-house spraying capabilities, including
                                     pad printing, spray printing, tampo
                                     printing, and other finishing techniques.
@@ -495,7 +495,7 @@ const AboutSeedo = () => {
                         <Row>
                             <Col lg={12}>
                                 <p data-aos="fade-up"
-                                    data-aos-duration="1300">Seedo Toys has made significant
+                                    data-aos-duration="1300">Seedo toys has made significant
                                     strides by designing and producing its
                                     own PCBs, manufactured with the latest
                                     pick-and-place technology. We produce

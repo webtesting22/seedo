@@ -116,7 +116,7 @@ const Products = () => {
                             let subcategorySecondImage = "path/to/placeholder_image.jpg"; // Default placeholder for second image
 
                             // For "Die cast cars" category, show the first product's first image from subcategories
-                            if (categoryName === "Die cast cars" && hasSubcategories) {
+                            if (categoryName === "Die Cast Cars" && hasSubcategories) {
                                 const firstSubcategoryKey = Object.keys(categoryData.subcategories)[0];
                                 const firstSubcategory = categoryData.subcategories[firstSubcategoryKey];
 

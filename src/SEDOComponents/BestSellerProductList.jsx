@@ -96,7 +96,7 @@ const BestSellerProducts = {
             },
             {
                 id: 9,
-                name: "Space series",
+                name: "Space Series",
                 ProductImage: [
                     PNGSSPO9, PNGSSPO9_2, PNGSSPO9_3
                 ],

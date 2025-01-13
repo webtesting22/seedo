@@ -31,7 +31,7 @@ const SubcategoriesProducts = () => {
             <section className="SubCategoryProductsContainer">
                 <div className="SubcategoryHeader">
                     {/* Show subcategory name if available; otherwise, show main category name */}
-                    <h1>{subcategoryName || categoryName} Products</h1>
+                    <h1>{subcategoryName || categoryName}</h1>
                 </div>
                 <div className="CatalogueCardsContainer">
                     <Row>
