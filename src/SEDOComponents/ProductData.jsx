@@ -510,21 +510,21 @@ const SeedoProductData = {
                 ],
                 ProductStyleCode: "118SC001",
                 Productdescription: <>
-                <div>
                     <div>
-                        <p><b>Material type</b> Virgin grade, High 
-                        strength ABS Material</p>
-                        <p><b>Scale</b> 1:18</p>
-                        <p><b>USB</b> Yes</p>
-                        <p><b>Box size</b> 12 pcs./box</p>
-                        <p><b>Frequency</b> 27MHz</p>
-                        <p><b>Colours</b> </p>
-                        <p><b>HSN Code</b> 95030030</p>
-                        <p><b>Battery Cell type</b> 3.7V Li-ion 
-                        Rechargeable Battery</p>
+                        <div>
+                            <p><b>Material type</b> Virgin grade, High
+                                strength ABS Material</p>
+                            <p><b>Scale</b> 1:18</p>
+                            <p><b>USB</b> Yes</p>
+                            <p><b>Box size</b> 12 pcs./box</p>
+                            <p><b>Frequency</b> 27MHz</p>
+                            <p><b>Colours</b> </p>
+                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>Battery Cell type</b> 3.7V Li-ion
+                                Rechargeable Battery</p>
+                        </div>
                     </div>
-                </div>
-            </>
+                </>
             },
             {
                 id: 17,
@@ -533,7 +533,23 @@ const SeedoProductData = {
                 ProductImage: [
                     RC001_124
                 ],
-                ProductStyleCode: "124RC001"
+                ProductStyleCode: "124RC001",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> Virgin grade, High
+                                strength ABS Material</p>
+                            <p><b>Scale</b> 1:24</p>
+                            <p><b>USB</b> Yes (C Type)</p>
+                            <p><b>Box size</b> 36 pcs./box</p>
+                            <p><b>Frequency</b> 27MHz</p>
+                            <p><b>Colours</b> </p>
+                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>Battery Cell type</b> 3.7V Li-ion
+                                Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </>
             },
             {
                 id: 18,
@@ -551,7 +567,23 @@ const SeedoProductData = {
                 ProductImage: [
                     MT002, MT002_2
                 ],
-                ProductStyleCode: "118MT002"
+                ProductStyleCode: "118MT002",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> VVirgin grade, High
+                                strength ABS Material</p>
+                            <p><b>Scale</b> 1:18</p>
+                            <p><b>USB</b> Yes (C Type)</p>
+                            <p><b>Box size</b> 48 pcs./box</p>
+                            <p><b>Frequency</b> 2.4 GHz</p>
+                            <p><b>Colours</b> </p>
+                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>Battery Cell type</b> 3.7V Li-ion
+                                Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </>
             },
             {
                 id: 20,
@@ -560,7 +592,22 @@ const SeedoProductData = {
                 ProductImage: [
                     MT003, MT003_2
                 ],
-                ProductStyleCode: "118MT003"
+                ProductStyleCode: "118MT003",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> PVC</p>
+                            <p><b>Scale</b> 1:18</p>
+                            <p><b>USB</b> Yes</p>
+                            <p><b>Box size</b> 24 pcs./box</p>
+                            <p><b>Frequency</b> 2.4GHz</p>
+                            <p><b>Colours</b> </p>
+                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>Battery Cell type</b> 3.7V Li-ion
+                                Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </>
             },
             {
                 id: 21,
@@ -569,7 +616,22 @@ const SeedoProductData = {
                 ProductImage: [
                     MT003G
                 ],
-                ProductStyleCode: "118MT003G"
+                ProductStyleCode: "118MT003G",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> PVC</p>
+                            <p><b>Scale</b> 1:18</p>
+                            <p><b>USB</b> Yes</p>
+                            <p><b>Box size</b> 24 pcs./box</p>
+                            <p><b>Frequency</b> 2.4GHz</p>
+                            <p><b>Colours</b> </p>
+                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>Battery Cell type</b> 3.7V Li-ion
+                                Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </>
             },
             {
                 id: 22,
@@ -578,7 +640,22 @@ const SeedoProductData = {
                 ProductImage: [
                     MT003S
                 ],
-                ProductStyleCode: "118MT003S"
+                ProductStyleCode: "118MT003S",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> PVC</p>
+                            <p><b>Scale</b> 1:18</p>
+                            <p><b>USB</b> Yes</p>
+                            <p><b>Box size</b> 24 pcs./box</p>
+                            <p><b>Frequency</b> 2.4GHz</p>
+                            <p><b>Colours</b> </p>
+                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>Battery Cell type</b> 3.7V Li-ion
+                                Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </>
             },
             {
                 id: 23,
@@ -587,7 +664,23 @@ const SeedoProductData = {
                 ProductImage: [
                     RC00127MHz
                 ],
-                ProductStyleCode: "116RC001/27MHz"
+                ProductStyleCode: "116RC001/27MHz",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> Virgin grade, High
+                                strength ABS Material</p>
+                            <p><b>Scale</b> 1:16</p>
+                            <p><b>USB</b> Yes</p>
+                            <p><b>Box size</b> 18 pcs./box</p>
+                            <p><b>Frequency</b> 2.4GHz</p>
+                            <p><b>Colours</b> </p>
+                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>Battery Cell type</b> 3.7V Li-ion
+                                Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </>
             },
             {
                 id: 24,
@@ -605,7 +698,23 @@ const SeedoProductData = {
                 ProductImage: [
                     RC00227MHz
                 ],
-                ProductStyleCode: "116RC002/27MHz"
+                ProductStyleCode: "116RC002/27MHz",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> Virgin grade, High
+                                strength ABS Material</p>
+                            <p><b>Scale</b> 1:16</p>
+                            <p><b>USB</b> Yes</p>
+                            <p><b>Box size</b> 48 pcs./box</p>
+                            <p><b>Frequency</b> 27 MHz</p>
+                            <p><b>Colours</b> </p>
+                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>Battery Cell type</b> 3.7V Li-ion
+                                Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </>
             },
             {
                 id: 26,
@@ -623,7 +732,23 @@ const SeedoProductData = {
                 ProductImage: [
                     RC003, RC003_2
                 ],
-                ProductStyleCode: "116RC003"
+                ProductStyleCode: "116RC003",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> Virgin grade, High
+                                strength ABS Material</p>
+                            <p><b>Scale</b> 1:24</p>
+                            <p><b>USB</b> Yes</p>
+                            <p><b>Box size</b> 12 pcs./box</p>
+                            <p><b>Frequency</b> 2.4GHz</p>
+                            <p><b>Colours</b> </p>
+                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>Battery Cell type</b> 3.7V Li-ion
+                                Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </>
             },
             {
                 id: 28,
@@ -632,7 +757,23 @@ const SeedoProductData = {
                 ProductImage: [
                     SC001
                 ],
-                ProductStyleCode: "116SC001"
+                ProductStyleCode: "116SC001",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> Virgin grade, High
+                                strength ABS Material</p>
+                            <p><b>Scale</b> 1:16</p>
+                            <p><b>USB</b> Yes</p>
+                            <p><b>Box size</b> 12 pcs./box</p>
+                            <p><b>Frequency</b> 2.4GHz</p>
+                            <p><b>Colours</b> </p>
+                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>Battery Cell type</b> 3.7V Li-ion
+                                Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </>
             },
             {
                 id: 29,
@@ -641,7 +782,23 @@ const SeedoProductData = {
                 ProductImage: [
                     SC003
                 ],
-                ProductStyleCode: "116SC003"
+                ProductStyleCode: "116SC003",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> Virgin grade, High
+                                strength ABS Material</p>
+                            <p><b>Scale</b> 1:16</p>
+                            <p><b>USB</b> Yes</p>
+                            <p><b>Box size</b> 12 pcs./box</p>
+                            <p><b>Frequency</b> 2.4GHz</p>
+                            <p><b>Colours</b> </p>
+                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>Battery Cell type</b> 3.7V Li-ion
+                                Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </>
             },
             {
                 id: 30,
@@ -650,7 +807,23 @@ const SeedoProductData = {
                 ProductImage: [
                     SC002
                 ],
-                ProductStyleCode: "116SC002"
+                ProductStyleCode: "116SC002",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> Virgin grade, High
+                                strength ABS Material</p>
+                            <p><b>Scale</b> 1:16</p>
+                            <p><b>USB</b> Yes</p>
+                            <p><b>Box size</b> 12 pcs./box</p>
+                            <p><b>Frequency</b> 2.4GHz</p>
+                            <p><b>Colours</b> </p>
+                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>Battery Cell type</b> 3.7V Li-ion
+                                Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </>
             },
             {
                 id: 31,
@@ -659,7 +832,22 @@ const SeedoProductData = {
                 ProductImage: [
                     STDR001
                 ],
-                ProductStyleCode: "STDR001"
+                ProductStyleCode: "STDR001",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> Virgin grade, High
+                                strength ABS Material</p>
+                            <p><b>USB</b> Yes</p>
+                            <p><b>Box size</b> 24 pcs./box</p>
+                            <p><b>Frequency</b> 2.4GHz</p>
+                            <p><b>Colours</b> </p>
+                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>Battery Cell type</b> 3.7V Li-ion
+                                Rechargeable Battery</p>
+                        </div>
+                    </div>
+                </>
             }
 
         ]
@@ -927,56 +1115,144 @@ const SeedoProductData = {
                     name: "SMR Jet Series-JS01/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWJS018],
-                    ProductStyleCode: "SMR-FW-JS01/8"
+                    ProductStyleCode: "SMR-FW-JS01/8",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 64,
                     name: "SMR Jet Series-JS02/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWJS028],
-                    ProductStyleCode: "SMR-FW-JS02/8"
+                    ProductStyleCode: "SMR-FW-JS02/8",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 65,
                     name: "SMR Jet Series-JS03/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWJS038],
-                    ProductStyleCode: "SMR-FW-JS03/8"
+                    ProductStyleCode: "SMR-FW-JS03/8",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 66,
                     name: "SMR Jet Series-JS04/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWJS048],
-                    ProductStyleCode: "SMR-FW-JS04/8"
+                    ProductStyleCode: "SMR-FW-JS04/8",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 67,
                     name: "SMR Jet Series-JS05/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWJS058],
-                    ProductStyleCode: "SMR-FW-JS05/8"
+                    ProductStyleCode: "SMR-FW-JS05/8",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 68,
                     name: "SMR Jet Series-JS06/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWJS068],
-                    ProductStyleCode: "SMR-FW-JS06/8"
+                    ProductStyleCode: "SMR-FW-JS06/8",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 69,
                     name: "SMR Jet Series-JS07/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWJS078],
-                    ProductStyleCode: "SMR-FW-JS07/8"
+                    ProductStyleCode: "SMR-FW-JS07/8",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 70,
                     name: "SMR Jet Series-JS08/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWJS088],
-                    ProductStyleCode: "SMR-FW-JS08/8"
+                    ProductStyleCode: "SMR-FW-JS08/8",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
                 }
             ],
             "Fire Birds Series": [
