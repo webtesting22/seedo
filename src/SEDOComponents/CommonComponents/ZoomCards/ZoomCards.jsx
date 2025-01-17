@@ -141,7 +141,7 @@ const ZoomCards = () => {
             <div className="AboutSeedoContent">
                 <div>
                     {/* <p>Welcome to Seedo Toys</p> */}
-                    <h1>SEEDO- Where Imagination Comes to Life!</h1>
+                    <h1>SEEDO- Where Imagination Comes To Life!</h1>
                 </div>
                 <div>
                     <div>

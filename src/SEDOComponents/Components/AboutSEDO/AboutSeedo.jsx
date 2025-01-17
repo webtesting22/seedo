@@ -50,7 +50,7 @@ const AboutSeedo = () => {
         },
         {
             title: "Productivity",
-            content: "With a fully automated plant, Seedo Toys achieves an annual production capacity of nearly 5 million battery-operated toys, employing the latest automation technologies to ensure efficient, high-quality manufacturing with precision and consistency."
+            content: "With a fully automated plant, Seedo achieves an annual production capacity of nearly 5 million battery-operated toys, employing the latest automation technologies to ensure efficient, high-quality manufacturing with precision and consistency."
         },
         {
             title: "Experience",
@@ -58,7 +58,7 @@ const AboutSeedo = () => {
         },
         {
             title: "Quality and Affordability",
-            content: "Seedo Toys proves that high-quality products can also be affordable. By offering superior craftsmanship at budget-friendly prices, we challenge the norm and provide customers with excellent value, ensuring they get the best of both worlds—quality and affordability."
+            content: "Seedo proves that high-quality products can also be affordable. By offering superior craftsmanship at budget-friendly prices, we challenge the norm and provide customers with excellent value, ensuring they get the best of both worlds—quality and affordability."
         },
 
         {
@@ -144,7 +144,7 @@ const AboutSeedo = () => {
         },
         {
             title: "Vision",
-            description: "To become a leading toy manufacturer globally, Seedo toys aims to be recognized for excellence in product quality and innovation while integrating advanced technology into its offerings."
+            description: "To become a leading toy manufacturer globally, Seedo aims to be recognized for excellence in product quality and innovation while integrating advanced technology into its offerings."
         },
         {
             title: "Purpose",
@@ -467,7 +467,7 @@ const AboutSeedo = () => {
                             <Col lg={12}>
 
                                 <p data-aos="fade-up"
-                                    data-aos-duration="1400">At Seedo toys, we take pride in our
+                                    data-aos-duration="1400">At Seedo, we take pride in our
                                     in-house spraying capabilities, including
                                     pad printing, spray printing, tampo
                                     printing, and other finishing techniques.
@@ -495,7 +495,7 @@ const AboutSeedo = () => {
                         <Row>
                             <Col lg={12}>
                                 <p data-aos="fade-up"
-                                    data-aos-duration="1300">Seedo toys has made significant
+                                    data-aos-duration="1300">Seedo has made significant
                                     strides by designing and producing its
                                     own PCBs, manufactured with the latest
                                     pick-and-place technology. We produce

@@ -71,6 +71,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+.ImageAdjust .ant-row .ant-col .ant-image img{
+    border-radius: 20px;
 }
 
 .ImageAdjust .ant-row .ant-col:first-child {

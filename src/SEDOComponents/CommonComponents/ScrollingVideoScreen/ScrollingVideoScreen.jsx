@@ -29,7 +29,7 @@ const ScrollingVideoScreen = () => {
                                     <hr />
                                 </div>
                                 <p>
-                                    Driven by creativity, we developed a range of high-quality toys over six months, ensuring they are safe, affordable, and meet the highest standards. Seedo Toys sparks children’s imaginations while offering parents confidence in our craftsmanship. We're excited to share our collection and bring joy to kids everywhere.</p>
+                                    Driven by creativity, we developed a range of high-quality toys over six months, ensuring they are safe, affordable, and meet the highest standards. Seedo sparks children’s imaginations while offering parents confidence in our craftsmanship. We're excited to share our collection and bring joy to kids everywhere.</p>
                                 <div style={{ display: "flex", justifyContent: "start", width: "100%" }}>
                                     <Link to="/aboutSeedo"><button><FaArrowRightLong /></button></Link>
                                 </div>

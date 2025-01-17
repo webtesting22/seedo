@@ -15,7 +15,7 @@ const BestSellerProducts = {
         products: [
             {
                 id: 1,
-                name: "SEEDO Blaze Runner Car",
+                name: " Blaze Runner Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     RC001
@@ -25,7 +25,7 @@ const BestSellerProducts = {
             },
             {
                 id: 2,
-                name: "SEEDO Stunt Car",
+                name: " Stunt Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     SC001_124
@@ -35,7 +35,7 @@ const BestSellerProducts = {
             },
             {
                 id: 3,
-                name: "SEEDO Road Sniper 01 Car",
+                name: " Road Sniper 01 Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     LRC00D
@@ -46,7 +46,7 @@ const BestSellerProducts = {
             },
             {
                 id: 4,
-                name: "SEEDO Road Sniper 02 Car",
+                name: " Road Sniper 02 Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     LRC00E
@@ -56,7 +56,7 @@ const BestSellerProducts = {
             },
             {
                 id: 5,
-                name: "SEEDO Luxurious Sports Car 27 MHz",
+                name: " Luxurious Sports Car 27 MHz",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     RC00127MHz
@@ -66,7 +66,7 @@ const BestSellerProducts = {
             },
             {
                 id: 6,
-                name: "SEEDO Luxurious Sports Car 2.4GHz",
+                name: " Luxurious Sports Car 2.4GHz",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     RC00124GHz
@@ -76,7 +76,7 @@ const BestSellerProducts = {
             },
             {
                 id: 7,
-                name: "SEEDO Dino/Shark/PVC Rock Crawler",
+                name: " Dino/Shark/PVC Rock Crawler",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     MT003, MT003_2
@@ -86,7 +86,7 @@ const BestSellerProducts = {
             },
             {
                 id: 8,
-                name: "SEEDO Metal Racers Pack of 3",
+                name: " Metal Racers Pack of 3",
                 ProductImage: [
                     SMRFWPBP3
                 ],

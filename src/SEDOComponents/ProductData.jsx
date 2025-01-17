@@ -191,7 +191,7 @@ const SeedoProductData = {
         products: [
             {
                 id: 3,
-                name: "SEEDO Light Blaster Car",
+                name: " Light Blaster Car",
                 ProductBatteryType: "Non - Rechargable",
                 ProductImage: [
                     W001, W001_2
@@ -215,7 +215,7 @@ const SeedoProductData = {
             },
             {
                 id: 4,
-                name: "SEEDO Famous Car",
+                name: " Famous Car",
                 ProductBatteryType: "Non - Rechargable",
                 ProductImage: [
                     W002
@@ -240,7 +240,7 @@ const SeedoProductData = {
             },
             {
                 id: 5,
-                name: "SEEDO Formula Car",
+                name: " Formula Car",
                 ProductBatteryType: "Non - Rechargable",
                 ProductImage: [
                     W003
@@ -265,7 +265,7 @@ const SeedoProductData = {
             },
             {
                 id: 6,
-                name: "SEEDO Racer Car",
+                name: " Racer Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     LRC00B
@@ -291,7 +291,7 @@ const SeedoProductData = {
             },
             {
                 id: 7,
-                name: "SEEDO Little Roaster Car",
+                name: " Little Roaster Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     LRC00A
@@ -317,7 +317,7 @@ const SeedoProductData = {
             },
             {
                 id: 8,
-                name: "SEEDO Spectre Car",
+                name: " Spectre Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     LRC00C
@@ -343,7 +343,7 @@ const SeedoProductData = {
             },
             {
                 id: 9,
-                name: "SEEDO Road Sniper 01 Car",
+                name: " Road Sniper 01 Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     LRC00D
@@ -369,7 +369,7 @@ const SeedoProductData = {
             },
             {
                 id: 10,
-                name: "SEEDO Road Sniper 02 Car",
+                name: " Road Sniper 02 Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     LRC00E
@@ -394,7 +394,7 @@ const SeedoProductData = {
             },
             {
                 id: 11,
-                name: "SEEDO Blaze Runner Car",
+                name: " Blaze Runner Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     RC001
@@ -419,7 +419,7 @@ const SeedoProductData = {
             },
             {
                 id: 12,
-                name: "SEEDO Blaster 023 Car",
+                name: " Blaster 023 Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     BC023
@@ -428,7 +428,7 @@ const SeedoProductData = {
             },
             {
                 id: 13,
-                name: "SEEDO Famous Car 4W",
+                name: " Famous Car 4W",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     RC003_118
@@ -453,7 +453,7 @@ const SeedoProductData = {
             },
             {
                 id: 14,
-                name: "SEEDO Police Car",
+                name: " Police Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     PRC001
@@ -478,7 +478,7 @@ const SeedoProductData = {
             },
             {
                 id: 15,
-                name: "SEEDO Stunt Car",
+                name: " Stunt Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     SC001_124
@@ -503,7 +503,7 @@ const SeedoProductData = {
             },
             {
                 id: 16,
-                name: "SEEDO Big Stunt Car",
+                name: " Big Stunt Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     SC001_118
@@ -528,7 +528,7 @@ const SeedoProductData = {
             },
             {
                 id: 17,
-                name: "SEEDO Dazzling Car",
+                name: " Dazzling Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     RC001_124
@@ -553,7 +553,7 @@ const SeedoProductData = {
             },
             {
                 id: 18,
-                name: "SEEDO Monster Acrobatics Truck",
+                name: " Monster Acrobatics Truck",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     MT001
@@ -562,7 +562,7 @@ const SeedoProductData = {
             },
             {
                 id: 19,
-                name: "SEEDO Rock Crawler",
+                name: " Rock Crawler",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     MT002, MT002_2
@@ -587,7 +587,7 @@ const SeedoProductData = {
             },
             {
                 id: 20,
-                name: "SEEDO Dino/Shark/PVC Rock Crawler",
+                name: " Dino/Shark/PVC Rock Crawler",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     MT003, MT003_2
@@ -611,7 +611,7 @@ const SeedoProductData = {
             },
             {
                 id: 21,
-                name: "SEEDO Gun Rock Crawler",
+                name: " Gun Rock Crawler",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     MT003G
@@ -635,7 +635,7 @@ const SeedoProductData = {
             },
             {
                 id: 22,
-                name: "SEEDO Smoke Rock Crawler",
+                name: " Smoke Rock Crawler",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     MT003S
@@ -659,7 +659,7 @@ const SeedoProductData = {
             },
             {
                 id: 23,
-                name: "SEEDO Luxurious Sports Car 27 MHz",
+                name: " Luxurious Sports Car 27 MHz",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     RC00127MHz
@@ -684,7 +684,7 @@ const SeedoProductData = {
             },
             {
                 id: 24,
-                name: "SEEDO Luxurious Sports Car 2.4GHz",
+                name: " Luxurious Sports Car 2.4GHz",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     RC00124GHz
@@ -693,7 +693,7 @@ const SeedoProductData = {
             },
             {
                 id: 25,
-                name: "SEEDO Hyper Beast Car 27 MHz",
+                name: " Hyper Beast Car 27 MHz",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     RC00227MHz
@@ -718,7 +718,7 @@ const SeedoProductData = {
             },
             {
                 id: 26,
-                name: "SEEDO Hyper Beast Car 2.4GHz",
+                name: " Hyper Beast Car 2.4GHz",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     RC00224GHz
@@ -727,7 +727,7 @@ const SeedoProductData = {
             },
             {
                 id: 27,
-                name: "SEEDO Thunder Bird Car",
+                name: " Thunder Bird Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     RC003, RC003_2
@@ -752,7 +752,7 @@ const SeedoProductData = {
             },
             {
                 id: 28,
-                name: "SEEDO Twisting Stunt Car",
+                name: " Twisting Stunt Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     SC001
@@ -777,7 +777,7 @@ const SeedoProductData = {
             },
             {
                 id: 29,
-                name: "SEEDO Twisting Drift Car",
+                name: " Twisting Drift Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     SC003
@@ -802,7 +802,7 @@ const SeedoProductData = {
             },
             {
                 id: 30,
-                name: "SEEDO Super Sonic Stunt Car",
+                name: " Super Sonic Stunt Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     SC002
@@ -827,7 +827,7 @@ const SeedoProductData = {
             },
             {
                 id: 31,
-                name: "SEEDO 750 Drone",
+                name: " 750 Drone",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     STDR001
@@ -858,7 +858,7 @@ const SeedoProductData = {
         products: [
             {
                 id: 32,
-                name: "SEEDO Metal Racers Pack of 3",
+                name: " Metal Racers Pack of 3",
                 ProductImage: [
                     SMRFWPBP3
                 ],
@@ -878,7 +878,7 @@ const SeedoProductData = {
             },
             {
                 id: 33,
-                name: "SEEDO Metal Racers Pack of 5",
+                name: " Metal Racers Pack of 5",
                 ProductImage: [
                     SMRFWPBP5
                 ],
@@ -898,7 +898,7 @@ const SeedoProductData = {
             },
             {
                 id: 34,
-                name: "SEEDO Metal Racers Pack of 10",
+                name: " Metal Racers Pack of 10",
                 ProductImage: [
                     SMRFWPBP10
                 ],

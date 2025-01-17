@@ -53,7 +53,7 @@ const MissionVision = () => {
                             <div className="RightSideVisionContainer">
                                 <div>
                                     <h2>Our Vision</h2>
-                                    <p>To become a leading toy manufacturer globally, Seedo Toys aims to be recognized for excellence in product quality and innovation while integrating advance technology into its offerings.</p>
+                                    <p>To become a leading toy manufacturer globally, Seedo aims to be recognized for excellence in product quality and innovation while integrating advance technology into its offerings.</p>
                                 </div>
                             </div>
                         </Col>
