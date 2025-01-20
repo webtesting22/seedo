@@ -67,7 +67,7 @@ const SingleProductPage = () => {
                             <Col lg={18}>
                                 <Row>
 
-                                    <Col lg={6}>
+                                    <Col lg={6} className="OnPCOnly">
                                         <div>
                                             {otherImages.length > 0 ? (
                                                 otherImages.map((img, index) => (
@@ -91,6 +91,24 @@ const SingleProductPage = () => {
                                                 <Image src={mainImage} alt={product.name} />
                                             ) : (
                                                 <p>No image available</p>
+                                            )}
+                                        </div>
+                                    </Col>
+                                    <Col lg={6} className="OnMobileOnly">
+                                        <div>
+                                            {otherImages.length > 0 ? (
+                                                otherImages.map((img, index) => (
+                                                    <div
+                                                        key={index}
+                                                        className="OtherImageThumbnail"
+                                                        onClick={() => handleImageClick(img)}
+                                                        style={{ cursor: "pointer" }}
+                                                    >
+                                                        <img src={img} alt={`Other image ${index + 1}`} />
+                                                    </div>
+                                                ))
+                                            ) : (
+                                                <p>Other images coming soon!</p>
                                             )}
                                         </div>
                                     </Col>
