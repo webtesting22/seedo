@@ -103,7 +103,7 @@ const Products = () => {
             <section id="ProductContainer">
                 <div className="ProductHeaderContainer">
                     <img src={ProductPageBanner} alt="" />
-                    <h1>We Create For You!</h1>
+                    {/* <h1>We Create For You!</h1> */}
                 </div>
                 <div className="CatalogueCardsContainer">
                     <Row>
