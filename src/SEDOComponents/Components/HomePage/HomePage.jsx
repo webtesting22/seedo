@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "../../Styles/HomePage.css";
 import { Row, Col } from "antd";
-import SEEDOLogo from "/SEEDOLogo.png";
+import SEEDOLogo from "./NewSeedoLogo.png";
 import SanSon from "./SanSon.png"
 import gen8 from "./ gen8.jpg"
 import HomePageCarousal from "./HomePageCarousal.jpeg"

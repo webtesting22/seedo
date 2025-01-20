@@ -269,7 +269,7 @@
 }
 
 .ProductCard {
-    background: #f4f4f470;
+    background: #ffffff;
     padding: 80px 20px !important;
 }
 
@@ -313,7 +313,21 @@
 .productSpecificatinContainer p b::after {
     content: ":";
 }
+.SingleProductPageContainer{
+    background-color: #f4f4f470;
+}
 
+.OtherImageThumbnail img{
+    width: 150px;
+    height: 100%;
+    object-fit: cover;
+}
+.OtherImageThumbnail .img{
+    height: 170px;
+}
+.ProductImageContainer .ant-image-img{
+    height: 500px;
+}
 @media (max-width:900px) {
     .MassageContainer {
         width: 100%;
@@ -447,9 +461,9 @@
     /* background-color: red; */
 }
 
-.SingleProductContainer .ProductImageContainer img {
-    width: 500px;
-}
+/* .SingleProductContainer .ProductImageContainer img {
+ height: 100%;
+} */
 
 @media (max-width:900px) {
     .SingleProductContainer .ProductImageContainer img {

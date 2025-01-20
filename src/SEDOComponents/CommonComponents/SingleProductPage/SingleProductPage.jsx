@@ -8,6 +8,7 @@ import SeedoProductData from "../../ProductData";
 const SingleProductPage = () => {
     const { categoryName, productId } = useParams();
     const [mainImage, setMainImage] = useState(null);
+    const [otherImages, setOtherImages] = useState([]);
 
     // Fetch the category data
     const categoryData = SeedoProductData[categoryName];
@@ -24,6 +25,7 @@ const SingleProductPage = () => {
     useEffect(() => {
         if (product?.ProductImage && product.ProductImage.length > 0) {
             setMainImage(product.ProductImage[0]);
+            setOtherImages(product.ProductImage.slice(1));
         }
     }, [product]);
 
@@ -34,6 +36,13 @@ const SingleProductPage = () => {
     if (!product) {
         return <div>Product not found!</div>;
     }
+
+    // Handle clicking on an "other image"
+    const handleImageClick = (clickedImage) => {
+        const updatedOtherImages = [mainImage, ...otherImages.filter((img) => img !== clickedImage)];
+        setMainImage(clickedImage);
+        setOtherImages(updatedOtherImages);
+    };
 
     // Determine if the product is from a subcategory
     const productSubcategory = Object.keys(subcategories).find((subcategory) =>
@@ -55,16 +64,40 @@ const SingleProductPage = () => {
                 <div className="SingleProductContainer">
                     <div className="ProductCard">
                         <Row>
-                            <Col lg={12}>
-                                <div className="ProductImageContainer">
-                                    {mainImage ? (
-                                        <Image src={mainImage} alt={product.name} />
-                                    ) : (
-                                        <p>No image available</p>
-                                    )}
-                                </div>
+                            <Col lg={18}>
+                                <Row>
+
+                                    <Col lg={6}>
+                                        <div>
+                                            {otherImages.length > 0 ? (
+                                                otherImages.map((img, index) => (
+                                                    <div
+                                                        key={index}
+                                                        className="OtherImageThumbnail"
+                                                        onClick={() => handleImageClick(img)}
+                                                        style={{ cursor: "pointer" }}
+                                                    >
+                                                        <img src={img} alt={`Other image ${index + 1}`} />
+                                                    </div>
+                                                ))
+                                            ) : (
+                                                <p>Other images coming soon!</p>
+                                            )}
+                                        </div>
+                                    </Col>
+                                    <Col lg={18}>
+                                        <div className="ProductImageContainer">
+                                            {mainImage ? (
+                                                <Image src={mainImage} alt={product.name} />
+                                            ) : (
+                                                <p>No image available</p>
+                                            )}
+                                        </div>
+                                    </Col>
+
+                                </Row>
                             </Col>
-                            <Col lg={12}>
+                            <Col lg={6}>
                                 <div className="ProductTitle">
                                     <h2 style={{ margin: "0px" }}>{product.name}</h2>
                                     <p>

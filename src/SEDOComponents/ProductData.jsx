@@ -1743,6 +1743,97 @@ const SeedoProductData = {
                 }
             ]
         }
+    },
+    "Early Learning Toys": {
+        products: [
+            {
+                id: 79,
+                name: "CRAWLER",
+                ProductBatteryType: "-",
+                ProductImage: [SMRFWFBS088],
+                ProductStyleCode: "-",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> Virgin garde,High
+                                strength ABS Material</p>
+                            <p><b>HSN Code</b> 95030030</p>
+                            <ul>
+                                <li>1. Interactive Fun</li>
+                                <li>2. Shape Sorting</li>
+                                <li>3. Motor Skills</li>
+                                <li>4. Safety Features</li>
+                                <li>5. Durable Design</li>
+                            </ul>
+                        </div>
+                    </div>
+                </>
+            },
+            {
+                id: 80,
+                name: "Pick and Pop",
+                ProductBatteryType: "-",
+                ProductImage: [SLTPP001],
+                ProductStyleCode: "SLT-PP-001",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> ABS</p>
+
+                            <p><b>Box Dementions</b> 34x24x15cm</p>
+                            <p><b>HSN Code</b> 95030030</p>
+                            <ul>
+                                <li>1. Fine Motor</li>
+                                <li>2. Touch Sences</li>
+                                <li>3. Music</li>
+                                <li>4. Limb Training</li>
+                                <li>5. Auditory Training</li>
+                                <li>5. Visual Training</li>
+                            </ul>
+                        </div>
+                    </div>
+                </>
+            },
+            {
+                id: 81,
+                name: "TECHNO-TUTOR",
+                ProductBatteryType: "-",
+                ProductImage: [SLTTT001],
+                ProductStyleCode: "SLT-PP-001",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> Virgin garde,High
+                                strength ABS Material</p>
+
+                            <p><b>Box Dementions</b> 19x24x5cm</p>
+                            <p><b>HSN Code</b> 95030030</p>
+                            <ul>
+                                <li> Say the letter</li>
+                                <li>Write the letter</li>
+                                <li>Press the correct letter</li>
+                                <li>Where is the letter</li>
+                                <li>Say the words</li>
+                                <li>Spelling test</li>
+                                <li>Press the correct word</li>
+                                <li>Find the word</li>
+                                <li>Say the number</li>
+                                <li>Write the number</li>
+                                <li>Press the correct number</li>
+                                <li>Find the number</li>
+                                <li>Play melody</li>
+                                <li>Play notes</li>
+                                <li>Listen and find note</li>
+                                <li>Catch me</li>
+                                <li>Find the match pair</li>
+                                <li>Star shooting</li>
+                                <li>Draw a picture</li>
+                            </ul>
+                        </div>
+                    </div>
+                </>
+            }
+        ]
     }
 }
 export default SeedoProductData
