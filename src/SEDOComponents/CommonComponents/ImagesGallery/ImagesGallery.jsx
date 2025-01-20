@@ -161,7 +161,7 @@ const ImagesGallery = () => {
                                     <h1>Our Offerings</h1>
                                 </div>
                             </Col>
-                            <Col lg={8} md={12} style={{ width: "100%" }}>
+                            <Col lg={6} md={8} style={{ width: "100%" }}>
                                 <Link to="/ourservices">
                                     <div className="GreyBox" data-aos="fade-up"
                                         data-aos-duration="1000">
@@ -174,7 +174,7 @@ const ImagesGallery = () => {
                                     </div>
                                 </Link>
                             </Col>
-                            <Col lg={8} md={12} style={{ width: "100%" }}>
+                            <Col lg={6} md={8} style={{ width: "100%" }}>
                                 <Link to="/ourservices">
                                     <div className="GreyBox" data-aos="fade-up"
                                         data-aos-duration="1200">
@@ -188,13 +188,26 @@ const ImagesGallery = () => {
                                     </div>
                                 </Link>
                             </Col>
-                            <Col lg={8} md={12} style={{ width: "100%" }}>
+                            <Col lg={6} md={8} style={{ width: "100%" }}>
                                 <Link to="/ourservices">
                                     <div className="GreyBox" data-aos="fade-up"
                                         data-aos-duration="1500">
                                         <img src={white} alt="" />
                                         <h4 >White Labelling <br /> Solutions</h4>
                                         <p>Our white-label solutions allow you to brand our high-quality products...</p>
+                                        <button><FaArrowRightLong style={{color:"white"}}/></button>
+                                        {/* <p>We offer white-label solutions, allowing you to brand our high-quality products as your own. This enables you to expand your product range while maintaining your unique brand identity.
+                                    </p> */}
+                                    </div>
+                                </Link>
+                            </Col>
+                            <Col lg={6} md={8} style={{ width: "100%" }}>
+                                <Link to="/ourservices">
+                                    <div className="GreyBox" data-aos="fade-up"
+                                        data-aos-duration="1500">
+                                        <img src={white} alt="" />
+                                        <h4 >Seedo <br /> Brand Distribution</h4>
+                                        <p>-</p>
                                         <button><FaArrowRightLong style={{color:"white"}}/></button>
                                         {/* <p>We offer white-label solutions, allowing you to brand our high-quality products as your own. This enables you to expand your product range while maintaining your unique brand identity.
                                     </p> */}

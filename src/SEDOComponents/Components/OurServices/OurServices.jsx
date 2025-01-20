@@ -13,6 +13,10 @@ import ODMBanner from "./ODMBanner.svg"
 const OurServices = () => {
     const servicesData = [
         {
+            title: "Seedo Brand Distribution",
+            description: "-"
+        },
+        {
             title: "Original Equipment Manufacturer (OEM)",
             description: "We specialize in Original Design Manufacturing, creating innovative products tailored to the clients' specifications. Our focus is on quality, customization, and delivering exceptional value to our partners."
         },
@@ -24,7 +28,8 @@ const OurServices = () => {
         {
             title: "White Labelling",
             description: "We offer white-label solutions, allowing you to brand our high-quality products as your own, This enables you to expand your product range while maintaining your unique brand identity."
-        }
+        },
+       
     ]
     useEffect(() => {
         // Scroll to the top of the page when the component is mounted
@@ -40,7 +45,7 @@ const OurServices = () => {
               
             </div> */}
             <section className="OurServicesContainer">
-            <h1>Our Services</h1>
+            <h1>Our Offerings</h1>
                 {/* <div className="OurServicesParagraph">
                     <Row>
                         <Col lg={24}>
@@ -60,7 +65,7 @@ const OurServices = () => {
                     <Row>
                         {servicesData.map((item, index) => (
 
-                            <Col lg={8} md={12} style={{ width: "100%" }} key={index} data-aos="fade-up"
+                            <Col lg={12} md={12} style={{ width: "100%" }} key={index} data-aos="fade-up"
                                 data-aos-delay={`${index * 100}`}>
                                 <div>
                                     <div className="BlankGrayBoxContainer">

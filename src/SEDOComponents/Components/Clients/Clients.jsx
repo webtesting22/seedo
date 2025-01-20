@@ -33,6 +33,12 @@ import image5 from "./Toys__R__Us_logo.svg.svg"
 import image6 from "./VMM-1 1.svg"
 import Wishkey from "./Wishkey.png"
 import { Link } from "react-router-dom";
+import Dmart from "./Dmart.png"
+import MUMUSO from "./MUMUSO.png"
+import MRDIY from "./MRDIY.png"
+import Blinkit from "./Blinkit.png"
+import Hamleys from "./Hamleys_logo 1.png"
+import lulu from "./lulu.png"
 import Navigation from "../../CommonComponents/Navigation/Navigation";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -63,38 +69,8 @@ const Client = () => {
     ]
     const LogosData = [
 
-        {
-            img: Amway,
-            link: "https://www.amway.com"
-        },
-        {
-            img: himalaya,
-            link: "https://www.himalayawellness.com"
-        },
-        {
-            img: Haldiram,
-            link: "https://www.haldirams.com"
-        },
-        {
-            img: Perfetti,
-            link: "https://www.perfettivanmelle.com"
-        },
-        {
-            img: unilever,
-            link: "https://www.unilever.com"
-        },
-        {
-            img: Pepsi,
-            link: "https://www.pepsi.com"
-        },
-        {
-            img: GSK,
-            link: "https://www.gsk.com"
-        },
-        {
-            img: Britannia,
-            link: "https://www.britannia.co.in"
-        },
+        
+       
         {
             img: CartoonNetwork,
             link: "https://www.cartoonnetwork.co.uk/"
@@ -126,25 +102,68 @@ const Client = () => {
         {
             img: doraemon,
             link: "https://dora-world.com/"
-        }
+        },
+        {
+            img: GSK,
+            link: "https://www.gsk.com"
+        },
+        {
+            img: Britannia,
+            link: "https://www.britannia.co.in"
+        },
+        {
+            img: Amway,
+            link: "https://www.amway.com"
+        },
+        {
+            img: himalaya,
+            link: "https://www.himalayawellness.com"
+        },
+        {
+            img: Haldiram,
+            link: "https://www.haldirams.com"
+        },
+        {
+            img: Perfetti,
+            link: "https://www.perfettivanmelle.com"
+        },
+        {
+            img: unilever,
+            link: "https://www.unilever.com"
+        },
+        {
+            img: Pepsi,
+            link: "https://www.pepsi.com"
+        },
     ]
 
     const Clients = [
+
         {
             img: image1
         },
         {
-            img: image2,
+            img: Hamleys
         },
         {
-            img: image3
+            img: Blinkit
         },
+        {
+            img: MRDIY
+        },
+       
+      
         {
             img: image4
         },
         {
+            link: "https://www.zeptonow.com/",
+            img: Zepto
+        },
+        {
             img: image5
         },
+        
         {
             img: image6
         },
@@ -160,26 +179,42 @@ const Client = () => {
             link: "https://reliancesmartbazaar.com/",
             img: smartBazaar
         },
-        {
-            link: "https://snooplay.in/",
-            img: Snooplay
-        },
+        
         {
             link: "https://www.swiggy.com/",
             img: swiggy
         },
+        // {
+        //     link: "https://whole9yards.in/",
+        //     img: whole9years
+        // },
+
+       
+        
         {
-            link: "https://whole9yards.in/",
-            img: whole9years
+            img: Dmart
         },
         {
-            link: "https://www.zeptonow.com/",
-            img: Zepto
+            img: lulu
         },
+        {
+            img: MUMUSO
+        },
+       
         {
             link: "",
             img: Wishkey
-        }
+        },
+        {
+            img: image3
+        },
+        {
+            img: image2,
+        },
+        {
+            link: "https://snooplay.in/",
+            img: Snooplay
+        },
 
     ];
     return (
@@ -189,7 +224,7 @@ const Client = () => {
             </div>
             <section id="ClientSection">
                 <div className="headingHeaderContainer">
-                    <h1 style={{ textAlign: "center", fontSize: "30px", backgroundColor: "#bc252b0a",marginTop:"80px" }}>Our Clients</h1>
+                    <h1 style={{ textAlign: "center", fontSize: "30px", backgroundColor: "#bc252b0a", marginTop: "80px" }}>Our Consumer Promotion Partners</h1>
                 </div>
                 <br /><br />
                 <Row className="RowAdjustContainer">

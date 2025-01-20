@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import Navigation from "../Navigation/Navigation";
 import "./SingleProductPage.css";
-import { Row, Col, Image } from "antd";
+import { Row, Col, Image, Breadcrumb } from "antd";
 import SeedoProductData from "../../ProductData";
 
 const SingleProductPage = () => {
@@ -62,12 +62,33 @@ const SingleProductPage = () => {
 
             <section className="SingleProductPageContainer">
                 <div className="SingleProductContainer">
+                    {/* Breadcrumb Trail */}
+                    <Breadcrumb style={{ margin: "16px 0" }}>
+                        <Breadcrumb.Item>
+                            <Link to="/">Home</Link>
+                        </Breadcrumb.Item>
+                        <Breadcrumb.Item>
+                            <Link to="/products">Products</Link>
+                        </Breadcrumb.Item>
+                        <Breadcrumb.Item>
+                            <Link to={`/subcategoriesproducts/${categoryName}`}>{categoryName}</Link>
+                        </Breadcrumb.Item>
+                        {productSubcategory && (
+                            <Breadcrumb.Item>
+                                <Link to={`/subcategories/${categoryName}/${productSubcategory}`}>
+                                    {productSubcategory}
+                                </Link>
+                            </Breadcrumb.Item>
+                        )}
+                        <Breadcrumb.Item>{product.name}</Breadcrumb.Item>
+                    </Breadcrumb>
+
                     <div className="ProductCard">
                         <Row>
                             <Col lg={16}>
                                 <Row>
 
-                                    <Col lg={6} className="OnPCOnly">
+                                    <Col lg={4} className="OnPCOnly">
                                         <div>
                                             {otherImages.length > 0 ? (
                                                 otherImages.map((img, index) => (
@@ -85,10 +106,10 @@ const SingleProductPage = () => {
                                             )}
                                         </div>
                                     </Col>
-                                    <Col lg={18}>
+                                    <Col lg={20}>
                                         <div className="ProductImageContainer">
                                             {mainImage ? (
-                                                <Image src={mainImage} alt={product.name} />
+                                                <img src={mainImage} alt={product.name} />
                                             ) : (
                                                 <p>No image available</p>
                                             )}
@@ -147,7 +168,7 @@ const SingleProductPage = () => {
                     </div>
                     <Row gutter={[16, 16]}>
                         {similarProducts.map((prod) => (
-                            <Col key={prod.id} lg={6} md={12} sm={24} style={{width:"100%"}}>
+                            <Col key={prod.id} lg={6} md={12} sm={24} style={{ width: "100%" }}>
                                 <div className="SimilarProductCard">
                                     <Link
                                         to={`/singleproduct/${categoryName}/${prod.id}`}
@@ -162,7 +183,7 @@ const SingleProductPage = () => {
                                                 alt={prod.name}
                                             />
                                         </div>
-                                        <h3 style={{ color: "black",textAlign:"center" }}>{prod.name}</h3>
+                                        <h3 style={{ color: "black", textAlign: "center" }}>{prod.name}</h3>
                                     </Link>
                                 </div>
                             </Col>

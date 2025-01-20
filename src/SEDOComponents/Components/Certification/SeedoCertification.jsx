@@ -12,7 +12,11 @@ import logo8 from "/Images/Logos/ROHS.png"
 import { Link } from "react-router-dom";
 import MakeInIndia from "/Images/Logos/MakeInIndia.jpg"
 import { FaArrowRight } from "react-icons/fa";
-import ASTM from "./ASTM_logo.svg.png"
+// import ASTM from "./ASTM_logo.svg.png"
+import sedex from "./sedex.png"
+import ISO from "./ISO.png"
+import GCE from "./GCE.png"
+import ASTM from "./ASTM.png"
 const SeedoCertification = () => {
     const CertificationLogoData = [
         {
@@ -20,10 +24,10 @@ const SeedoCertification = () => {
             title: " Make In India",
             link: "https://www.makeinindia.com/"
         },
+        
         {
-            img: logo7,
-            title: "Ministry of Micro, Small and Medium Enterprises",
-            link: "https://www.msme.gov.in"
+            img:ISO,
+            title:"International Organization for Standardization"
         },
         {
             img: logo3,
@@ -31,10 +35,18 @@ const SeedoCertification = () => {
             link: "https://www.who.int/teams/health-product-policy-and-standards/standards-and-specifications/norms-and-standards/gmp"
         },
         {
-            img: logo2,
-            title: "Government E-Marketplace",
-            // link: "https://green-em.com/"
-            link: "https://gem.gov.in/",
+            img:sedex,
+            title:"Supplier Ethical Data Exchange"
+        },
+        {
+            img: ASTM,
+            title: "ASTM International",
+            link: "https://www.astm.org/"
+        },
+        {
+            img: logo8,
+            title: "Restriction of Hazardous Substances",
+            link: "https://www.rohsguide.com"
         },
         {
             img: logo1,
@@ -42,6 +54,24 @@ const SeedoCertification = () => {
             link: "https://ec.europa.eu/growth/single-market/ce-marking/"
 
         },
+        {
+            img:GCE,
+            title:"Gas Control Equipment"
+        },
+        
+        // {
+        //     img:logo2
+        // },
+       
+        
+       
+        // {
+        //     img: logo2,
+        //     title: "Government E-Marketplace",
+        //     // link: "https://green-em.com/"
+        //     link: "https://gem.gov.in/",
+        // },
+      
 
 
         {
@@ -49,11 +79,7 @@ const SeedoCertification = () => {
             title: "Gulf Conformity Mark",
             link: "https://www.gso.org.sa/en/conformity/gcc-conformity-mark/"
         },
-        {
-            img: ASTM,
-            title: "ASTM International",
-            link: "https://www.astm.org/"
-        },
+    
         // {
         //     img: logo5,
         //     title: "International Organization for Standardization",
@@ -67,10 +93,12 @@ const SeedoCertification = () => {
         // },
 
         {
-            img: logo8,
-            title: "Restriction of Hazardous Substances",
-            link: "https://www.rohsguide.com"
+            img: logo7,
+            title: "Ministry of Micro, Small and Medium Enterprises",
+            link: "https://www.msme.gov.in"
         },
+       
+       
     ]
     return (
         <>
@@ -152,7 +180,7 @@ const SeedoCertification = () => {
                     <Row>
                         {CertificationLogoData.map((item, index) => (
                             <Col
-                                lg={index < 2 ? 12 : 8} // lg={12} for the first two items, lg={8} for the rest
+                                lg={index < 1 ? 24 : 8} // lg={12} for the first two items, lg={8} for the rest
                                 md={12} // md={12} for all items
                                 key={index}
                                 data-aos="fade-up"
@@ -168,11 +196,11 @@ const SeedoCertification = () => {
                         ))}
                     </Row>
 
-                    <div className="CerticationHeadline">
+                    {/* <div className="CerticationHeadline">
                         <div>
                             <p>Passed testing awaiting certifications</p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </section >
         </>

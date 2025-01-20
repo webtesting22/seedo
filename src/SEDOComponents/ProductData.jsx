@@ -105,88 +105,8 @@ import W001_2 from "/Images/ProductsImages/RC Car/1182W001 (2).png"
 import W002 from "/Images/ProductsImages/RC Car/1182W002.png"
 import W003 from "/Images/ProductsImages/RC Car/1182W003.png"
 import STDR001 from "/Images/ProductsImages/RC Car/STDR001.png"
+import CRAWLER from "/Images/Products/ProductImages/CRAWLER.png"
 const SeedoProductData = {
-    "Friction, Pull Back and Press & Go": {
-        products: [
-            {
-                id: 1,
-                name: "Light & Gear - Dino and Snail",
-                ProductImage: [
-                    FLGDSPO12,
-                    FLGDSPO12_2,
-                ],
-                ProductCode: "FLG-DS-PO12"
-            },
-            {
-                id: 2,
-                name: "Space Rocket",
-                ProductImage: [
-                    PNGSRPO12,
-                ],
-                ProductCode: "PNG-SR-PO12"
-
-            },
-            {
-                id: 3,
-                name: "Space series",
-                ProductImage: [
-                    PNGSSPO9, PNGSSPO9_2, PNGSSPO9_3
-                ],
-                ProductCode: "PNG-SS-PO9"
-            },
-            {
-                id: 4,
-                name: "Press N Go - Battle Ship and Snail",
-                ProductImage: [
-                    PNGBSS, PNGBSS_2
-                ],
-                ProductCode: "PNG-BS&S"
-            },
-            {
-                id: 5,
-                name: "Press N Go - Construction Toys",
-                ProductImage: [
-                    PNGBC, PNGBC_2, PNGBC_3
-                ],
-                ProductCode: "PNG-BC"
-            },
-            {
-                id: 6,
-                name: "Press N Go Boat Toys",
-                ProductImage: [
-                    PNGToys, PNGToys_2
-                ],
-                ProductCode: "PNG-Toys"
-            },
-            {
-                id: 7,
-                name: "Monster Tumble",
-                ProductImage: [
-                    MTToys, MTToys_2
-                ],
-                ProductCode: "MT-Toys"
-            },
-            {
-                id: 7,
-                name: "Mini Construction",
-                ProductImage: [
-                    PNGMC, PNGMC_2, PNGMC_3, PNGMC_4, PNGMC_5, PNGMC_6
-                ],
-                ProductCode: "PNG-MC"
-            },
-
-
-        ]
-        // subcategories: {
-        //     "subcategory1": [
-        //         { id: 1, name: "Product 1", price: 100, description: "Description for Product 1" },
-        //         { id: 2, name: "Product 2", price: 200, description: "Description for Product 2" }
-        //     ],
-        //     "subcategory2": [
-        //         { id: 3, name: "Product 3", price: 150, description: "Description for Product 3" }
-        //     ]
-        // }
-    },
     "Remote Controlled Cars": {
         products: [
             {
@@ -850,72 +770,6 @@ const SeedoProductData = {
                 </>
             }
 
-        ]
-    },
-
-
-    "Metal X Racer": {
-        products: [
-            {
-                id: 32,
-                name: " Metal Racers Pack of 3",
-                ProductImage: [
-                    SMRFWPBP3
-                ],
-                ProductBatteryType: "Non-Electric",
-                ProductCode: "SMR-FWPB-P3",
-                Productdescription: <>
-                    <div>
-                        <div>
-                            <p><b>Material type</b> Metal Die Cast</p>
-                            <p><b>Scale</b> 1:64</p>
-                            <p><b>Box size</b> 32 pcs in a box</p>
-                            <p><b>Content</b> 3 Cars</p>
-                            <p><b>HSN Code</b> 95030030</p>
-                        </div>
-                    </div>
-                </>
-            },
-            {
-                id: 33,
-                name: " Metal Racers Pack of 5",
-                ProductImage: [
-                    SMRFWPBP5
-                ],
-                ProductBatteryType: "Non-Electric",
-                ProductCode: "SMR-FWPB-P5",
-                Productdescription: <>
-                    <div>
-                        <div>
-                            <p><b>Material type</b> Metal Die Cast</p>
-                            <p><b>Scale</b> 1:64</p>
-                            <p><b>Box size</b> 20 pcs in a box</p>
-                            <p><b>Content</b> 5 Cars</p>
-                            <p><b>HSN Code</b> 95030030</p>
-                        </div>
-                    </div>
-                </>
-            },
-            {
-                id: 34,
-                name: " Metal Racers Pack of 10",
-                ProductImage: [
-                    SMRFWPBP10
-                ],
-                ProductBatteryType: "Non-Electric",
-                ProductCode: "SMR-FWPB-P10",
-                Productdescription: <>
-                    <div>
-                        <div>
-                            <p><b>Material type</b> Metal Die Cast</p>
-                            <p><b>Scale</b> 1:64</p>
-                            <p><b>Box size</b> 10 pcs in a box</p>
-                            <p><b>Content</b> 10 Cars</p>
-                            <p><b>HSN Code</b> 95030030</p>
-                        </div>
-                    </div>
-                </>
-            }
         ]
     },
     "Die Cast Cars": {
@@ -1741,16 +1595,167 @@ const SeedoProductData = {
                         </div>
                     </>
                 }
-            ]
-        }
+            ],
+            "Metal X Racer": [
+
+                {
+                    id: 32,
+                    name: " Metal Racers Pack of 3",
+                    ProductImage: [
+                        SMRFWPBP3
+                    ],
+                    ProductBatteryType: "Non-Electric",
+                    ProductCode: "SMR-FWPB-P3",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> 32 pcs in a box</p>
+                                <p><b>Content</b> 3 Cars</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
+                },
+                {
+                    id: 33,
+                    name: " Metal Racers Pack of 5",
+                    ProductImage: [
+                        SMRFWPBP5
+                    ],
+                    ProductBatteryType: "Non-Electric",
+                    ProductCode: "SMR-FWPB-P5",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> 20 pcs in a box</p>
+                                <p><b>Content</b> 5 Cars</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
+                },
+                {
+                    id: 34,
+                    name: " Metal Racers Pack of 10",
+                    ProductImage: [
+                        SMRFWPBP10
+                    ],
+                    ProductBatteryType: "Non-Electric",
+                    ProductCode: "SMR-FWPB-P10",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> 10 pcs in a box</p>
+                                <p><b>Content</b> 10 Cars</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
+                }
+            ],
+
+        },
+        // ]
+        // }
     },
+    "Friction, Pull Back, Press & Go Toys": {
+        products: [
+            {
+                id: 1,
+                name: "Light & Gear - Dino and Snail",
+                ProductImage: [
+                    FLGDSPO12,
+                    FLGDSPO12_2,
+                ],
+                ProductCode: "FLG-DS-PO12"
+            },
+            {
+                id: 2,
+                name: "Space Rocket",
+                ProductImage: [
+                    PNGSRPO12,
+                ],
+                ProductCode: "PNG-SR-PO12"
+
+            },
+            {
+                id: 3,
+                name: "Space series",
+                ProductImage: [
+                    PNGSSPO9, PNGSSPO9_2, PNGSSPO9_3
+                ],
+                ProductCode: "PNG-SS-PO9"
+            },
+            {
+                id: 4,
+                name: "Press N Go - Battle Ship and Snail",
+                ProductImage: [
+                    PNGBSS, PNGBSS_2
+                ],
+                ProductCode: "PNG-BS&S"
+            },
+            {
+                id: 5,
+                name: "Press N Go - Construction Toys",
+                ProductImage: [
+                    PNGBC, PNGBC_2, PNGBC_3
+                ],
+                ProductCode: "PNG-BC"
+            },
+            {
+                id: 6,
+                name: "Press N Go Boat Toys",
+                ProductImage: [
+                    PNGToys, PNGToys_2
+                ],
+                ProductCode: "PNG-Toys"
+            },
+            {
+                id: 7,
+                name: "Monster Tumble",
+                ProductImage: [
+                    MTToys, MTToys_2
+                ],
+                ProductCode: "MT-Toys"
+            },
+            {
+                id: 7,
+                name: "Mini Construction",
+                ProductImage: [
+                    PNGMC, PNGMC_2, PNGMC_3, PNGMC_4, PNGMC_5, PNGMC_6
+                ],
+                ProductCode: "PNG-MC"
+            },
+
+
+        ]
+        // subcategories: {
+        //     "subcategory1": [
+        //         { id: 1, name: "Product 1", price: 100, description: "Description for Product 1" },
+        //         { id: 2, name: "Product 2", price: 200, description: "Description for Product 2" }
+        //     ],
+        //     "subcategory2": [
+        //         { id: 3, name: "Product 3", price: 150, description: "Description for Product 3" }
+        //     ]
+        // }
+    },
+
+
+
+
     "Early Learning Toys": {
         products: [
             {
                 id: 79,
                 name: "CRAWLER",
                 ProductBatteryType: "-",
-                ProductImage: [SMRFWFBS088],
+                ProductImage: [CRAWLER],
                 ProductStyleCode: "-",
                 Productdescription: <>
                     <div>
@@ -1832,8 +1837,74 @@ const SeedoProductData = {
                         </div>
                     </div>
                 </>
+            },
+            {
+                id: 82,
+                name: "CUBE",
+                ProductBatteryType: "-",
+                ProductImage: [Cube],
+                ProductStyleCode: "-",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> Virgin garde,High
+                                strength ABS Material</p>
+
+                            {/* <p><b>Box Dementions</b> 19x24x5cm</p> */}
+                            <p><b>HSN Code</b> 95030030</p>
+                            <ul>
+                                <li> Interactive Learning</li>
+                                <li>Musical Features</li>
+                                <li>Rotary Dial Phone</li>
+                                <li>Light-Up Buttons</li>
+                                <li>Cognitive Development</li>
+                                <li>Durable Design</li>
+                            </ul>
+                        </div>
+                    </div>
+                </>
+            },
+            {
+                id: 83,
+                name: "BRAINY BEAR",
+                ProductBatteryType: "-",
+                ProductImage: [SLTBB001],
+                ProductStyleCode: "-",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> Virgin garde,High
+                                strength ABS Material</p>
+
+                            {/* <p><b>Box Dementions</b> 19x24x5cm</p> */}
+                            <p><b>HSN Code</b> 95030030</p>
+                            <ul>
+                                <li> Left Ear</li>
+                                <li>Right Ear</li>
+                                <li> Left Eye brow</li>
+                                <li> Right Eye brow</li>
+                                <li> Left Eye</li>
+                                <li>Right Eye</li>
+                                <li>Nose</li>
+                                <li>Left Cheek</li>
+                                <li>Voice Recording</li>
+                                <li>Musical Ryhmes</li>
+                                <li>Tail</li>
+                                <li>Left Arm</li>
+                                <li>Bely</li>
+                                <li>Left Leg</li>
+                                <li>Right Leg</li>
+                                <li>Left Foot</li>
+                                <li>Right Foot</li>
+                            </ul>
+                        </div>
+                    </div>
+                </>
             }
         ]
+    },
+    "STEM Toys": {
+
     }
 }
 export default SeedoProductData

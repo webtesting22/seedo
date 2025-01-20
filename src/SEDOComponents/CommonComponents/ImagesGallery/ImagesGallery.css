@@ -91,10 +91,10 @@
 } */
 
 .CardsContainer .GreyBox {
-    /* height: 300px; */
+    height: 350px;
     /* width: 100%; */
     /* background-color: #BC252B; */
-    margin: 20px;
+    margin: 5px;
     border-radius: 23px;
     border: 1px dashed #bc252a7e;
     padding: 20px;
@@ -106,7 +106,8 @@
     flex-direction: column;
     overflow: hidden;
 }
-.CardsContainer .GreyBox img{
+
+.CardsContainer .GreyBox img {
     width: 40px;
     height: 40px;
     background-color: #bc252a;
@@ -118,7 +119,7 @@
     transition: .5s;
 }
 
-.CardsContainer .GreyBox:hover img{
+.CardsContainer .GreyBox:hover img {
     width: 40px;
     height: 40px;
     background-color: #bc252a;
@@ -209,6 +210,7 @@
     position: relative;
     background-color: #bc252b0a;
 }
+
 /* .OurBestsellers h1::before{
     height: 1px ;
     width: 200px;
@@ -222,7 +224,8 @@
 .OurBestsellers {
     padding: 80px 40px;
 }
-.BestSellerCardsContainer hr{
+
+.BestSellerCardsContainer hr {
     width: 100%;
     /* position: absolute; */
     /* left: 0px;
@@ -255,6 +258,7 @@
     transition: .5s;
     /* background-color: rgb(235, 235, 235); */
 }
+
 .BestSellerCardsContainer:hover {
     /* border: 1px dashed #BC252B; */
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
@@ -276,7 +280,8 @@
     color: black;
     /* margin-top: 0px; */
 }
-.BestSellerCardsContainer h3 a{
+
+.BestSellerCardsContainer h3 a {
     text-decoration: none;
 }
 
@@ -292,23 +297,23 @@
     z-index: 5;
 }
 
-.BackShapeAjust{
-width: 150px;
-position: absolute;
-z-index: 4;
-margin-top: -8px;
-opacity: 1;
+.BackShapeAjust {
+    width: 150px;
+    position: absolute;
+    z-index: 4;
+    margin-top: -8px;
+    opacity: 1;
 }
 
 @media (max-width:769px) {
-    .BackShapeAjust{
+    .BackShapeAjust {
         width: 200px;
         position: absolute;
         z-index: 4;
         margin-top: -8px;
         opacity: 1;
-        }
-        
+    }
+
     .BestSellerImage {
         width: 300px;
         aspect-ratio: 3/2;
@@ -316,7 +321,7 @@ opacity: 1;
         position: sticky;
         z-index: 5;
     }
-    
+
     .OurBestsellers .ant-row .ant-col:nth-child(1)>div {
         padding-right: 0px;
     }

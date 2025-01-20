@@ -269,8 +269,8 @@
 }
 
 .ProductCard {
-    background: #ffffff;
-    padding: 80px 20px !important;
+    background: #f4f4f470;
+    padding: 80px 10px !important;
 }
 
 .ProductMainImageContainer img {
@@ -319,20 +319,22 @@
 }
 
 .SingleProductPageContainer {
-    background-color: #f4f4f470;
+    background-color: #f4f4f4;
 }
 
 .OtherImageThumbnail {
     cursor: pointer;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #f4f4f470;
+    /* border: 1px solid #ff000070; */
     padding: 10px;
-    margin: 10px 0px;
+  margin-bottom: 10px;
+    background-color: white;
+    border-radius: 20px;
 }
 
 .OtherImageThumbnail img {
@@ -341,13 +343,15 @@
     object-fit: cover;
 }
 
-.ProductImageContainer .ant-image {
+.ProductImageContainer img {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
+    border-radius: 20px;
 }
 
-.ProductImageContainer .ant-image-img {
+.ProductImageContainer img {
     height: 80%;
     width: 80%;
     aspect-ratio: 3/2;
@@ -358,9 +362,11 @@
     display: none;
 }
 
-.OnPCOnly {
-    display: block;
-}
+/* .OnPCOnly {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+} */
 
 @media (max-width:900px) {
     .ProductTitle {
@@ -507,12 +513,14 @@
 }
 
 .SingleProductContainer .ProductImageContainer {
-    height: 400px;
+    /* height: 400px; */
     width: 100%;
     overflow: hidden;
     display: flex;
     align-items: center;
+    background-color: white;
     justify-content: center;
+    border-radius: 20px;
     /* background-color: red; */
 }
 

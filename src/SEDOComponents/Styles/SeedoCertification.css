@@ -119,6 +119,11 @@
     margin-bottom: 20px;
     background-color: #bc252b0a;
 }
+.Certificates .CerticationCardGreyBox{
+    min-height: 200px;
+    display: flex !important;
+    align-items: center !important;
+}
 
 .CerticationCardGreyBox {
     /* min-height: 200px; */

@@ -349,11 +349,15 @@
 .CatalogueCardContainer {
   background-color: white;
   /* min-height: 400px; */
-  margin: 20px 10px;
+  height: 100%;
+  /* margin: 20px 10px; */
   border-radius: 20px;
   border: 2px dashed #bc252a72;
 }
 
+.CatalogueCardsContainer .ant-row .ant-col{
+  padding: 20px 10px;
+}
 .CatalogueCardsContainer {
   padding: 80px 40px;
   /* margin-top: 5rem; */
