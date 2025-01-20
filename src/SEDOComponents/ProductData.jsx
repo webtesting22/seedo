@@ -772,7 +772,7 @@ const SeedoProductData = {
 
         ]
     },
-    "Die Cast Cars": {
+    "Metal Die Cast Cars": {
         subcategories: {
             "Construction Series": [
                 {
