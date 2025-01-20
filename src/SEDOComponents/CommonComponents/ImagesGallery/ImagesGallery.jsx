@@ -158,7 +158,7 @@ const ImagesGallery = () => {
                         <Row style={{ width: "100%" }}>
                             <Col lg={24} style={{ width: "100%" }}>
                                 <div className="headingHeaderContainer">
-                                    <h1>Our Services</h1>
+                                    <h1>Our Offerings</h1>
                                 </div>
                             </Col>
                             <Col lg={8} md={12} style={{ width: "100%" }}>
