@@ -123,7 +123,7 @@ const SingleProductPage = () => {
                 <div className="SIMILARPRODUCTSContainer">
                     <div className="HeaderContainer">
                         <h1>
-                            Products in {categoryName}
+                            Related Products of {categoryName}
                             {productSubcategory ? ` (${productSubcategory})` : ""}
                         </h1>
                     </div>
