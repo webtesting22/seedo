@@ -129,7 +129,7 @@ const SingleProductPage = () => {
                     </div>
                     <Row gutter={[16, 16]}>
                         {similarProducts.map((prod) => (
-                            <Col key={prod.id} lg={6} md={12} sm={24}>
+                            <Col key={prod.id} lg={6} md={12} sm={24} style={{width:"100%"}}>
                                 <div className="SimilarProductCard">
                                     <Link
                                         to={`/singleproduct/${categoryName}/${prod.id}`}
@@ -144,7 +144,7 @@ const SingleProductPage = () => {
                                                 alt={prod.name}
                                             />
                                         </div>
-                                        <h3 style={{ color: "black" }}>{prod.name}</h3>
+                                        <h3 style={{ color: "black",textAlign:"center" }}>{prod.name}</h3>
                                     </Link>
                                 </div>
                             </Col>
