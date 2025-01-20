@@ -472,7 +472,7 @@ const AboutSeedo = () => {
                                     pad printing, spray printing, tampo
                                     printing, and other finishing techniques.
                                     Our state-of-the-art facility is capable of
-                                    spraying 2,00,000 toys per month,
+                                    spraying 3,00,000 toys per month,
                                     delivering stunning finishes such as
                                     high-gloss, anti-scratch, metallic, and
                                     pearl effects. All chemicals, coatings, and
