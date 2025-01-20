@@ -312,6 +312,7 @@ const Client = () => {
                         </Col> */}
                         </Row>
                     </div>
+                    <p> *These are the consumer promotion brands and business partners we have worked and developed promotions for.*</p>
                 </section>
 
                 <br /><br />

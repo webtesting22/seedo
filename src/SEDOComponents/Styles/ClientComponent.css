@@ -63,6 +63,11 @@
   font-weight: 500;
   color: #A5252B;
 }
+.OURLEADERSHIPContainer p{
+  text-align: center;
+  margin-top: 60px;
+  /* font-weight: 700; */
+}
 @media (max-width: 769px) {
   .RowAdjustContainer .ant-col{
     width: 50% !important;
