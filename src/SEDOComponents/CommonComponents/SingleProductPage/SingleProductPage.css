@@ -277,6 +277,10 @@
     width: 200px;
 }
 
+.ProductTitle {
+    padding-left: 30px;
+}
+
 .ProductTitle h2 {
     font-size: 30px;
     font-weight: 500;
@@ -359,6 +363,10 @@
 }
 
 @media (max-width:900px) {
+    .ProductTitle {
+        padding-left: 10px;
+    }
+
     .OnPCOnly {
         display: none;
     }
@@ -416,7 +424,7 @@
 
     .SIMILARPRODUCTSContainer .HeaderContainer,
     .ReviewContainer .HeaderContainer {
-        padding: 0rem 1rem;
+        padding: 0rem 0rem;
     }
 
     .SIMILARPRODUCTSContainer h1 {
