@@ -86,7 +86,7 @@ const SingleProductPage = () => {
                     <div className="ProductCard">
                         <Row>
                             <Col lg={16} style={{width:"100%"}}>
-                                <Row>
+                                <Row style={{height:"100%"}}>
 
                                     <Col lg={4} className="OnPCOnly" style={{width:"100%"}}>
                                         <div>
