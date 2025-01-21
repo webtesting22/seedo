@@ -108,675 +108,697 @@ import STDR001 from "/Images/ProductsImages/RC Car/STDR001.png"
 import CRAWLER from "/Images/Products/ProductImages/CRAWLER.png"
 const SeedoProductData = {
     "Remote Controlled Cars": {
-        products: [
-            {
-                id: 3,
-                name: " Light Blaster Car",
-                ProductBatteryType: "Non - Rechargable",
-                ProductImage: [
-                    W001, W001_2
-                ],
-                ProductStyleCode: "1182W001",
-                Productdescription: <>
-                    <div>
+        subcategories: {
+            "1:18": [
+                {
+                    id: 1,
+                    name: " Light Blaster Car",
+                    ProductBatteryType: "Non - Rechargable",
+                    ProductImage: [
+                        W001, W001_2
+                    ],
+                    ProductStyleCode: "1182W001",
+                    Productdescription: <>
                         <div>
-                            <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
-                            <p><b>Scale</b> 1:18</p>
-                            <p><b>USB</b> No</p>
-                            <p><b>Box size</b> 48 pcs./box</p>
-                            <p><b>Frequency</b> 27MHz</p>
-                            <p><b>Colours</b> </p>
-                            <p><b>HSN Code</b> 95030030</p>
-                            <p><b>Battery</b> Non rechargeable</p>
+                            <div>
+                                <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
+                                <p><b>Scale</b> 1:18</p>
+                                <p><b>USB</b> No</p>
+                                <p><b>Box size</b> 48 pcs./box</p>
+                                <p><b>Frequency</b> 27MHz</p>
+                                <p><b>Colours</b> </p>
+                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Battery</b> Non rechargeable</p>
+                            </div>
                         </div>
-                    </div>
-                </>
+                    </>
+                },
+                {
+                    id: 2,
+                    name: " Famous Car",
+                    ProductBatteryType: "Non - Rechargable",
+                    ProductImage: [
+                        W002
+                    ],
+                    ProductStyleCode: "1182W002",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Virgin grade, High
+                                    strength ABS Material</p>
+                                <p><b>Scale</b> 1:18</p>
+                                <p><b>USB</b> No</p>
+                                <p><b>Box size</b> 48 pcs./box</p>
+                                <p><b>Frequency</b> 27MHz</p>
+                                <p><b>Colours</b> </p>
+                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Battery</b> Non rechargeable</p>
+                            </div>
+                        </div>
+                    </>
 
-            },
-            {
-                id: 4,
-                name: " Famous Car",
-                ProductBatteryType: "Non - Rechargable",
-                ProductImage: [
-                    W002
-                ],
-                ProductStyleCode: "1182W002",
-                Productdescription: <>
-                    <div>
+                },
+                {
+                    id: 3,
+                    name: " Formula Car",
+                    ProductBatteryType: "Non - Rechargable",
+                    ProductImage: [
+                        W003
+                    ],
+                    ProductStyleCode: "1182W003",
+                    Productdescription: <>
                         <div>
-                            <p><b>Material type</b> Virgin grade, High
-                                strength ABS Material</p>
-                            <p><b>Scale</b> 1:18</p>
-                            <p><b>USB</b> No</p>
-                            <p><b>Box size</b> 48 pcs./box</p>
-                            <p><b>Frequency</b> 27MHz</p>
-                            <p><b>Colours</b> </p>
-                            <p><b>HSN Code</b> 95030030</p>
-                            <p><b>Battery</b> Non rechargeable</p>
+                            <div>
+                                <p><b>Material type</b> Virgin grade, High
+                                    strength ABS Material</p>
+                                <p><b>Scale</b> 1:18</p>
+                                <p><b>USB</b> No</p>
+                                <p><b>Box size</b> 48 pcs./box</p>
+                                <p><b>Frequency</b> 27MHz</p>
+                                <p><b>Colours</b> </p>
+                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Battery</b> Non rechargeable</p>
+                            </div>
                         </div>
-                    </div>
-                </>
+                    </>
 
-            },
-            {
-                id: 5,
-                name: " Formula Car",
-                ProductBatteryType: "Non - Rechargable",
-                ProductImage: [
-                    W003
-                ],
-                ProductStyleCode: "1182W003",
-                Productdescription: <>
-                    <div>
+                },
+                {
+                    id: 4,
+                    name: " Blaze Runner Car",
+                    ProductBatteryType: "Rechargable",
+                    ProductImage: [
+                        RC001
+                    ],
+                    ProductStyleCode: "118RC001",
+                    Productdescription: <>
                         <div>
-                            <p><b>Material type</b> Virgin grade, High
-                                strength ABS Material</p>
-                            <p><b>Scale</b> 1:18</p>
-                            <p><b>USB</b> No</p>
-                            <p><b>Box size</b> 48 pcs./box</p>
-                            <p><b>Frequency</b> 27MHz</p>
-                            <p><b>Colours</b> </p>
-                            <p><b>HSN Code</b> 95030030</p>
-                            <p><b>Battery</b> Non rechargeable</p>
+                            <div>
+                                <p><b>Material type</b> Virgin grade, High
+                                    strength ABS Material</p>
+                                <p><b>Scale</b> 1:18</p>
+                                <p><b>USB</b> Yes</p>
+                                <p><b>Box size</b> 48 pcs./box</p>
+                                <p><b>Frequency</b> 27MHz</p>
+                                <p><b>Colours</b> </p>
+                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion
+                                    Rechargeable Battery</p>
+                            </div>
                         </div>
-                    </div>
-                </>
+                    </>
+                },
+                {
+                    id: 5,
+                    name: " Blaster 023 Car",
+                    ProductBatteryType: "Rechargable",
+                    ProductImage: [
+                        BC023
+                    ],
+                    ProductStyleCode: "118BC023"
+                },
+                {
+                    id: 6,
+                    name: " Famous Car 4W",
+                    ProductBatteryType: "Rechargable",
+                    ProductImage: [
+                        RC003_118
+                    ],
+                    ProductStyleCode: "118RC003",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Virgin grade, High
+                                    strength ABS Material</p>
+                                <p><b>Scale</b> 1:18</p>
+                                <p><b>USB</b> Yes (C Type)</p>
+                                <p><b>Box size</b> 48 pcs./box</p>
+                                <p><b>Frequency</b> 27MHz</p>
+                                <p><b>Colours</b> </p>
+                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion
+                                    Rechargeable Battery</p>
+                            </div>
+                        </div>
+                    </>
+                },
+            ],
+            "1:24": [
+                {
+                    id: 7,
+                    name: " Racer Car",
+                    ProductBatteryType: "Rechargable",
+                    ProductImage: [
+                        LRC00B
+                    ],
+                    ProductStyleCode: "124LRC00A",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Virgin grade, High
+                                    strength ABS Material</p>
+                                <p><b>Scale</b> 1:24</p>
+                                <p><b>Charging</b> Yes (C Type)</p>
+                                <p><b>Box size</b> 48 pcs./box</p>
+                                <p><b>Frequency</b> 27MHz</p>
+                                <p><b>Colours</b> </p>
+                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion
+                                    Rechargeable Battery</p>
+                            </div>
+                        </div>
+                    </>
 
-            },
-            {
-                id: 6,
-                name: " Racer Car",
-                ProductBatteryType: "Rechargable",
-                ProductImage: [
-                    LRC00B
-                ],
-                ProductStyleCode: "124LRC00A",
-                Productdescription: <>
-                    <div>
+                },
+                {
+                    id: 8,
+                    name: " Little Roaster Car",
+                    ProductBatteryType: "Rechargable",
+                    ProductImage: [
+                        LRC00A
+                    ],
+                    ProductStyleCode: "124LRC00B",
+                    Productdescription: <>
                         <div>
-                            <p><b>Material type</b> Virgin grade, High
-                                strength ABS Material</p>
-                            <p><b>Scale</b> 1:24</p>
-                            <p><b>Charging</b> Yes (C Type)</p>
-                            <p><b>Box size</b> 48 pcs./box</p>
-                            <p><b>Frequency</b> 27MHz</p>
-                            <p><b>Colours</b> </p>
-                            <p><b>HSN Code</b> 95030030</p>
-                            <p><b>Battery Cell type</b> 3.7V Li-ion
-                                Rechargeable Battery</p>
+                            <div>
+                                <p><b>Material type</b> Virgin grade, High
+                                    strength ABS Material</p>
+                                <p><b>Scale</b> 1:24</p>
+                                <p><b>USB</b> Yes</p>
+                                <p><b>Box size</b> 48 pcs./box</p>
+                                <p><b>Frequency</b> 27MHz</p>
+                                <p><b>Colours</b> </p>
+                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-on
+                                    Rechargeable Battery</p>
+                            </div>
                         </div>
-                    </div>
-                </>
+                    </>
 
-            },
-            {
-                id: 7,
-                name: " Little Roaster Car",
-                ProductBatteryType: "Rechargable",
-                ProductImage: [
-                    LRC00A
-                ],
-                ProductStyleCode: "124LRC00B",
-                Productdescription: <>
-                    <div>
+                },
+                {
+                    id: 9,
+                    name: " Spectre Car",
+                    ProductBatteryType: "Rechargable",
+                    ProductImage: [
+                        LRC00C
+                    ],
+                    ProductStyleCode: "124LRC00C",
+                    Productdescription: <>
                         <div>
-                            <p><b>Material type</b> Virgin grade, High
-                                strength ABS Material</p>
-                            <p><b>Scale</b> 1:24</p>
-                            <p><b>USB</b> Yes</p>
-                            <p><b>Box size</b> 48 pcs./box</p>
-                            <p><b>Frequency</b> 27MHz</p>
-                            <p><b>Colours</b> </p>
-                            <p><b>HSN Code</b> 95030030</p>
-                            <p><b>Battery Cell type</b> 3.7V Li-on
-                                Rechargeable Battery</p>
+                            <div>
+                                <p><b>Material type</b> Virgin grade, High
+                                    strength ABS Material</p>
+                                <p><b>Scale</b> 1:24</p>
+                                <p><b>USB</b> Yes (C Type)</p>
+                                <p><b>Box size</b> 48 pcs./box</p>
+                                <p><b>Frequency</b> 27MHz</p>
+                                <p><b>Colours</b> </p>
+                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion
+                                    Rechargeable Battery</p>
+                            </div>
                         </div>
-                    </div>
-                </>
+                    </>
 
-            },
-            {
-                id: 8,
-                name: " Spectre Car",
-                ProductBatteryType: "Rechargable",
-                ProductImage: [
-                    LRC00C
-                ],
-                ProductStyleCode: "124LRC00C",
-                Productdescription: <>
-                    <div>
+                },
+                {
+                    id: 10,
+                    name: " Road Sniper 01 Car",
+                    ProductBatteryType: "Rechargable",
+                    ProductImage: [
+                        LRC00D
+                    ],
+                    ProductStyleCode: "124LRC00D",
+                    Productdescription: <>
                         <div>
-                            <p><b>Material type</b> Virgin grade, High
-                                strength ABS Material</p>
-                            <p><b>Scale</b> 1:24</p>
-                            <p><b>USB</b> Yes (C Type)</p>
-                            <p><b>Box size</b> 48 pcs./box</p>
-                            <p><b>Frequency</b> 27MHz</p>
-                            <p><b>Colours</b> </p>
-                            <p><b>HSN Code</b> 95030030</p>
-                            <p><b>Battery Cell type</b> 3.7V Li-ion
-                                Rechargeable Battery</p>
+                            <div>
+                                <p><b>Material type</b> Virgin grade, High
+                                    strength ABS Material</p>
+                                <p><b>Scale</b> 1:24</p>
+                                <p><b>USB</b> Yes (C Type)</p>
+                                <p><b>Box size</b> 48 pcs./box</p>
+                                <p><b>Frequency</b> 27MHz</p>
+                                <p><b>Colours</b> </p>
+                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion
+                                    Rechargeable Battery</p>
+                            </div>
                         </div>
-                    </div>
-                </>
+                    </>
 
-            },
-            {
-                id: 9,
-                name: " Road Sniper 01 Car",
-                ProductBatteryType: "Rechargable",
-                ProductImage: [
-                    LRC00D
-                ],
-                ProductStyleCode: "124LRC00D",
-                Productdescription: <>
-                    <div>
+                },
+                {
+                    id: 11,
+                    name: " Road Sniper 02 Car",
+                    ProductBatteryType: "Rechargable",
+                    ProductImage: [
+                        LRC00E
+                    ],
+                    ProductStyleCode: "124LRC00E",
+                    Productdescription: <>
                         <div>
-                            <p><b>Material type</b> Virgin grade, High
-                                strength ABS Material</p>
-                            <p><b>Scale</b> 1:24</p>
-                            <p><b>USB</b> Yes (C Type)</p>
-                            <p><b>Box size</b> 48 pcs./box</p>
-                            <p><b>Frequency</b> 27MHz</p>
-                            <p><b>Colours</b> </p>
-                            <p><b>HSN Code</b> 95030030</p>
-                            <p><b>Battery Cell type</b> 3.7V Li-ion
-                                Rechargeable Battery</p>
+                            <div>
+                                <p><b>Material type</b> Virgin grade, High
+                                    strength ABS Material</p>
+                                <p><b>Scale</b> 1:24</p>
+                                <p><b>USB</b> Yes</p>
+                                <p><b>Box size</b> 48 pcs./box</p>
+                                <p><b>Frequency</b> 27MHz</p>
+                                <p><b>Colours</b> </p>
+                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion
+                                    Rechargeable Battery</p>
+                            </div>
                         </div>
-                    </div>
-                </>
+                    </>
+                },
+                {
+                    id: 12,
+                    name: " Police Car",
+                    ProductBatteryType: "Rechargable",
+                    ProductImage: [
+                        PRC001
+                    ],
+                    ProductStyleCode: "124PRC001",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Virgin grade, High
+                                    strength ABS Material</p>
+                                <p><b>Scale</b> 1:24</p>
+                                <p><b>USB</b> No</p>
+                                <p><b>Box size</b> 48 pcs./box</p>
+                                <p><b>Frequency</b> 27MHz</p>
+                                <p><b>Colours</b> </p>
+                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion
+                                    Rechargeable Battery</p>
+                            </div>
+                        </div>
+                    </>
+                },
+                {
+                    id: 13,
+                    name: " Dazzling Car",
+                    ProductBatteryType: "Rechargable",
+                    ProductImage: [
+                        RC001_124
+                    ],
+                    ProductStyleCode: "124RC001",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Virgin grade, High
+                                    strength ABS Material</p>
+                                <p><b>Scale</b> 1:24</p>
+                                <p><b>USB</b> Yes (C Type)</p>
+                                <p><b>Box size</b> 36 pcs./box</p>
+                                <p><b>Frequency</b> 27MHz</p>
+                                <p><b>Colours</b> </p>
+                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion
+                                    Rechargeable Battery</p>
+                            </div>
+                        </div>
+                    </>
+                },
+            ],
+            "Stunt Car": [
+                {
+                    id: 14,
+                    name: " Stunt Car",
+                    ProductBatteryType: "Rechargable",
+                    ProductImage: [
+                        SC001_124
+                    ],
+                    ProductStyleCode: "124SC001",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Virgin grade, High
+                                    strength ABS Material</p>
+                                <p><b>Scale</b> 1:24</p>
+                                <p><b>USB</b> Yes</p>
+                                <p><b>Box size</b> 48 pcs./box</p>
+                                <p><b>Frequency</b> 27MHz</p>
+                                <p><b>Colours</b> </p>
+                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion
+                                    Rechargeable Battery</p>
+                            </div>
+                        </div>
+                    </>
+                },
+                {
+                    id: 15,
+                    name: " Big Stunt Car",
+                    ProductBatteryType: "Rechargable",
+                    ProductImage: [
+                        SC001_118
+                    ],
+                    ProductStyleCode: "118SC001",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Virgin grade, High
+                                    strength ABS Material</p>
+                                <p><b>Scale</b> 1:18</p>
+                                <p><b>USB</b> Yes</p>
+                                <p><b>Box size</b> 12 pcs./box</p>
+                                <p><b>Frequency</b> 27MHz</p>
+                                <p><b>Colours</b> </p>
+                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion
+                                    Rechargeable Battery</p>
+                            </div>
+                        </div>
+                    </>
+                },
+                {
+                    id: 16,
 
-            },
-            {
-                id: 10,
-                name: " Road Sniper 02 Car",
-                ProductBatteryType: "Rechargable",
-                ProductImage: [
-                    LRC00E
-                ],
-                ProductStyleCode: "124LRC00E",
-                Productdescription: <>
-                    <div>
+                    name: " Twisting Stunt Car",
+                    ProductBatteryType: "Rechargable",
+                    ProductImage: [
+                        SC001
+                    ],
+                    ProductStyleCode: "116SC001",
+                    Productdescription: <>
                         <div>
-                            <p><b>Material type</b> Virgin grade, High
-                                strength ABS Material</p>
-                            <p><b>Scale</b> 1:24</p>
-                            <p><b>USB</b> Yes</p>
-                            <p><b>Box size</b> 48 pcs./box</p>
-                            <p><b>Frequency</b> 27MHz</p>
-                            <p><b>Colours</b> </p>
-                            <p><b>HSN Code</b> 95030030</p>
-                            <p><b>Battery Cell type</b> 3.7V Li-ion
-                                Rechargeable Battery</p>
+                            <div>
+                                <p><b>Material type</b> Virgin grade, High
+                                    strength ABS Material</p>
+                                <p><b>Scale</b> 1:16</p>
+                                <p><b>USB</b> Yes</p>
+                                <p><b>Box size</b> 12 pcs./box</p>
+                                <p><b>Frequency</b> 2.4GHz</p>
+                                <p><b>Colours</b> </p>
+                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion
+                                    Rechargeable Battery</p>
+                            </div>
                         </div>
-                    </div>
-                </>
-            },
-            {
-                id: 11,
-                name: " Blaze Runner Car",
-                ProductBatteryType: "Rechargable",
-                ProductImage: [
-                    RC001
-                ],
-                ProductStyleCode: "118RC001",
-                Productdescription: <>
-                    <div>
+                    </>
+                },
+                {
+                    id: 17,
+                    name: " Twisting Drift Car",
+                    ProductBatteryType: "Rechargable",
+                    ProductImage: [
+                        SC003
+                    ],
+                    ProductStyleCode: "116SC003",
+                    Productdescription: <>
                         <div>
-                            <p><b>Material type</b> Virgin grade, High
-                                strength ABS Material</p>
-                            <p><b>Scale</b> 1:18</p>
-                            <p><b>USB</b> Yes</p>
-                            <p><b>Box size</b> 48 pcs./box</p>
-                            <p><b>Frequency</b> 27MHz</p>
-                            <p><b>Colours</b> </p>
-                            <p><b>HSN Code</b> 95030030</p>
-                            <p><b>Battery Cell type</b> 3.7V Li-ion
-                                Rechargeable Battery</p>
+                            <div>
+                                <p><b>Material type</b> Virgin grade, High
+                                    strength ABS Material</p>
+                                <p><b>Scale</b> 1:16</p>
+                                <p><b>USB</b> Yes</p>
+                                <p><b>Box size</b> 12 pcs./box</p>
+                                <p><b>Frequency</b> 2.4GHz</p>
+                                <p><b>Colours</b> </p>
+                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion
+                                    Rechargeable Battery</p>
+                            </div>
                         </div>
-                    </div>
-                </>
-            },
-            {
-                id: 12,
-                name: " Blaster 023 Car",
-                ProductBatteryType: "Rechargable",
-                ProductImage: [
-                    BC023
-                ],
-                ProductStyleCode: "118BC023"
-            },
-            {
-                id: 13,
-                name: " Famous Car 4W",
-                ProductBatteryType: "Rechargable",
-                ProductImage: [
-                    RC003_118
-                ],
-                ProductStyleCode: "118RC003",
-                Productdescription: <>
-                    <div>
+                    </>
+                },
+                {
+                    id: 18,
+                    name: " Super Sonic Stunt Car",
+                    ProductBatteryType: "Rechargable",
+                    ProductImage: [
+                        SC002
+                    ],
+                    ProductStyleCode: "116SC002",
+                    Productdescription: <>
                         <div>
-                            <p><b>Material type</b> Virgin grade, High
-                                strength ABS Material</p>
-                            <p><b>Scale</b> 1:18</p>
-                            <p><b>USB</b> Yes (C Type)</p>
-                            <p><b>Box size</b> 48 pcs./box</p>
-                            <p><b>Frequency</b> 27MHz</p>
-                            <p><b>Colours</b> </p>
-                            <p><b>HSN Code</b> 95030030</p>
-                            <p><b>Battery Cell type</b> 3.7V Li-ion
-                                Rechargeable Battery</p>
+                            <div>
+                                <p><b>Material type</b> Virgin grade, High
+                                    strength ABS Material</p>
+                                <p><b>Scale</b> 1:16</p>
+                                <p><b>USB</b> Yes</p>
+                                <p><b>Box size</b> 12 pcs./box</p>
+                                <p><b>Frequency</b> 2.4GHz</p>
+                                <p><b>Colours</b> </p>
+                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion
+                                    Rechargeable Battery</p>
+                            </div>
                         </div>
-                    </div>
-                </>
-            },
-            {
-                id: 14,
-                name: " Police Car",
-                ProductBatteryType: "Rechargable",
-                ProductImage: [
-                    PRC001
-                ],
-                ProductStyleCode: "124PRC001",
-                Productdescription: <>
-                    <div>
+                    </>
+                },
+            ],
+            "Rock Crawler": [
+                {
+                    id: 19,
+                    name: " Monster Acrobatics Truck",
+                    ProductBatteryType: "Rechargable",
+                    ProductImage: [
+                        MT001
+                    ],
+                    ProductStyleCode: "118MT001"
+                },
+                {
+                    id: 20,
+                    name: " Rock Crawler",
+                    ProductBatteryType: "Rechargable",
+                    ProductImage: [
+                        MT002, MT002_2
+                    ],
+                    ProductStyleCode: "118MT002",
+                    Productdescription: <>
                         <div>
-                            <p><b>Material type</b> Virgin grade, High
-                                strength ABS Material</p>
-                            <p><b>Scale</b> 1:24</p>
-                            <p><b>USB</b> No</p>
-                            <p><b>Box size</b> 48 pcs./box</p>
-                            <p><b>Frequency</b> 27MHz</p>
-                            <p><b>Colours</b> </p>
-                            <p><b>HSN Code</b> 95030030</p>
-                            <p><b>Battery Cell type</b> 3.7V Li-ion
-                                Rechargeable Battery</p>
+                            <div>
+                                <p><b>Material type</b> VVirgin grade, High
+                                    strength ABS Material</p>
+                                <p><b>Scale</b> 1:18</p>
+                                <p><b>USB</b> Yes (C Type)</p>
+                                <p><b>Box size</b> 48 pcs./box</p>
+                                <p><b>Frequency</b> 2.4 GHz</p>
+                                <p><b>Colours</b> </p>
+                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion
+                                    Rechargeable Battery</p>
+                            </div>
                         </div>
-                    </div>
-                </>
-            },
-            {
-                id: 15,
-                name: " Stunt Car",
-                ProductBatteryType: "Rechargable",
-                ProductImage: [
-                    SC001_124
-                ],
-                ProductStyleCode: "124SC001",
-                Productdescription: <>
-                    <div>
+                    </>
+                },
+                {
+                    id: 21,
+                    name: " Dino/Shark/PVC Rock Crawler",
+                    ProductBatteryType: "Rechargable",
+                    ProductImage: [
+                        MT003, MT003_2
+                    ],
+                    ProductStyleCode: "118MT003",
+                    Productdescription: <>
                         <div>
-                            <p><b>Material type</b> Virgin grade, High
-                                strength ABS Material</p>
-                            <p><b>Scale</b> 1:24</p>
-                            <p><b>USB</b> Yes</p>
-                            <p><b>Box size</b> 48 pcs./box</p>
-                            <p><b>Frequency</b> 27MHz</p>
-                            <p><b>Colours</b> </p>
-                            <p><b>HSN Code</b> 95030030</p>
-                            <p><b>Battery Cell type</b> 3.7V Li-ion
-                                Rechargeable Battery</p>
+                            <div>
+                                <p><b>Material type</b> PVC</p>
+                                <p><b>Scale</b> 1:18</p>
+                                <p><b>USB</b> Yes</p>
+                                <p><b>Box size</b> 24 pcs./box</p>
+                                <p><b>Frequency</b> 2.4GHz</p>
+                                <p><b>Colours</b> </p>
+                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion
+                                    Rechargeable Battery</p>
+                            </div>
                         </div>
-                    </div>
-                </>
-            },
-            {
-                id: 16,
-                name: " Big Stunt Car",
-                ProductBatteryType: "Rechargable",
-                ProductImage: [
-                    SC001_118
-                ],
-                ProductStyleCode: "118SC001",
-                Productdescription: <>
-                    <div>
+                    </>
+                },
+                {
+                    id: 22,
+                    name: " Gun Rock Crawler",
+                    ProductBatteryType: "Rechargable",
+                    ProductImage: [
+                        MT003G
+                    ],
+                    ProductStyleCode: "118MT003G",
+                    Productdescription: <>
                         <div>
-                            <p><b>Material type</b> Virgin grade, High
-                                strength ABS Material</p>
-                            <p><b>Scale</b> 1:18</p>
-                            <p><b>USB</b> Yes</p>
-                            <p><b>Box size</b> 12 pcs./box</p>
-                            <p><b>Frequency</b> 27MHz</p>
-                            <p><b>Colours</b> </p>
-                            <p><b>HSN Code</b> 95030030</p>
-                            <p><b>Battery Cell type</b> 3.7V Li-ion
-                                Rechargeable Battery</p>
+                            <div>
+                                <p><b>Material type</b> PVC</p>
+                                <p><b>Scale</b> 1:18</p>
+                                <p><b>USB</b> Yes</p>
+                                <p><b>Box size</b> 24 pcs./box</p>
+                                <p><b>Frequency</b> 2.4GHz</p>
+                                <p><b>Colours</b> </p>
+                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion
+                                    Rechargeable Battery</p>
+                            </div>
                         </div>
-                    </div>
-                </>
-            },
-            {
-                id: 17,
-                name: " Dazzling Car",
-                ProductBatteryType: "Rechargable",
-                ProductImage: [
-                    RC001_124
-                ],
-                ProductStyleCode: "124RC001",
-                Productdescription: <>
-                    <div>
+                    </>
+                },
+                {
+                    id: 23,
+                    name: " Smoke Rock Crawler",
+                    ProductBatteryType: "Rechargable",
+                    ProductImage: [
+                        MT003S
+                    ],
+                    ProductStyleCode: "118MT003S",
+                    Productdescription: <>
                         <div>
-                            <p><b>Material type</b> Virgin grade, High
-                                strength ABS Material</p>
-                            <p><b>Scale</b> 1:24</p>
-                            <p><b>USB</b> Yes (C Type)</p>
-                            <p><b>Box size</b> 36 pcs./box</p>
-                            <p><b>Frequency</b> 27MHz</p>
-                            <p><b>Colours</b> </p>
-                            <p><b>HSN Code</b> 95030030</p>
-                            <p><b>Battery Cell type</b> 3.7V Li-ion
-                                Rechargeable Battery</p>
+                            <div>
+                                <p><b>Material type</b> PVC</p>
+                                <p><b>Scale</b> 1:18</p>
+                                <p><b>USB</b> Yes</p>
+                                <p><b>Box size</b> 24 pcs./box</p>
+                                <p><b>Frequency</b> 2.4GHz</p>
+                                <p><b>Colours</b> </p>
+                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion
+                                    Rechargeable Battery</p>
+                            </div>
                         </div>
-                    </div>
-                </>
-            },
-            {
-                id: 18,
-                name: " Monster Acrobatics Truck",
-                ProductBatteryType: "Rechargable",
-                ProductImage: [
-                    MT001
-                ],
-                ProductStyleCode: "118MT001"
-            },
-            {
-                id: 19,
-                name: " Rock Crawler",
-                ProductBatteryType: "Rechargable",
-                ProductImage: [
-                    MT002, MT002_2
-                ],
-                ProductStyleCode: "118MT002",
-                Productdescription: <>
-                    <div>
+                    </>
+                },
+            ],
+            "1:16": [
+                {
+                    id: 24,
+                    name: " Luxurious Sports Car 27 MHz",
+                    ProductBatteryType: "Rechargable",
+                    ProductImage: [
+                        RC00127MHz
+                    ],
+                    ProductStyleCode: "116RC001/27MHz",
+                    Productdescription: <>
                         <div>
-                            <p><b>Material type</b> VVirgin grade, High
-                                strength ABS Material</p>
-                            <p><b>Scale</b> 1:18</p>
-                            <p><b>USB</b> Yes (C Type)</p>
-                            <p><b>Box size</b> 48 pcs./box</p>
-                            <p><b>Frequency</b> 2.4 GHz</p>
-                            <p><b>Colours</b> </p>
-                            <p><b>HSN Code</b> 95030030</p>
-                            <p><b>Battery Cell type</b> 3.7V Li-ion
-                                Rechargeable Battery</p>
+                            <div>
+                                <p><b>Material type</b> Virgin grade, High
+                                    strength ABS Material</p>
+                                <p><b>Scale</b> 1:16</p>
+                                <p><b>USB</b> Yes</p>
+                                <p><b>Box size</b> 18 pcs./box</p>
+                                <p><b>Frequency</b> 2.4GHz</p>
+                                <p><b>Colours</b> </p>
+                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion
+                                    Rechargeable Battery</p>
+                            </div>
                         </div>
-                    </div>
-                </>
-            },
-            {
-                id: 20,
-                name: " Dino/Shark/PVC Rock Crawler",
-                ProductBatteryType: "Rechargable",
-                ProductImage: [
-                    MT003, MT003_2
-                ],
-                ProductStyleCode: "118MT003",
-                Productdescription: <>
-                    <div>
+                    </>
+                },
+                {
+                    id: 25,
+                    name: " Luxurious Sports Car 2.4GHz",
+                    ProductBatteryType: "Rechargable",
+                    ProductImage: [
+                        RC00124GHz
+                    ],
+                    ProductStyleCode: "116RC001/2.4GHz"
+                },
+                {
+                    id: 26,
+                    name: " Hyper Beast Car 27 MHz",
+                    ProductBatteryType: "Rechargable",
+                    ProductImage: [
+                        RC00227MHz
+                    ],
+                    ProductStyleCode: "116RC002/27MHz",
+                    Productdescription: <>
                         <div>
-                            <p><b>Material type</b> PVC</p>
-                            <p><b>Scale</b> 1:18</p>
-                            <p><b>USB</b> Yes</p>
-                            <p><b>Box size</b> 24 pcs./box</p>
-                            <p><b>Frequency</b> 2.4GHz</p>
-                            <p><b>Colours</b> </p>
-                            <p><b>HSN Code</b> 95030030</p>
-                            <p><b>Battery Cell type</b> 3.7V Li-ion
-                                Rechargeable Battery</p>
+                            <div>
+                                <p><b>Material type</b> Virgin grade, High
+                                    strength ABS Material</p>
+                                <p><b>Scale</b> 1:16</p>
+                                <p><b>USB</b> Yes</p>
+                                <p><b>Box size</b> 48 pcs./box</p>
+                                <p><b>Frequency</b> 27 MHz</p>
+                                <p><b>Colours</b> </p>
+                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion
+                                    Rechargeable Battery</p>
+                            </div>
                         </div>
-                    </div>
-                </>
-            },
-            {
-                id: 21,
-                name: " Gun Rock Crawler",
-                ProductBatteryType: "Rechargable",
-                ProductImage: [
-                    MT003G
-                ],
-                ProductStyleCode: "118MT003G",
-                Productdescription: <>
-                    <div>
+                    </>
+                },
+                {
+                    id: 27,
+                    name: " Hyper Beast Car 2.4GHz",
+                    ProductBatteryType: "Rechargable",
+                    ProductImage: [
+                        RC00224GHz
+                    ],
+                    ProductStyleCode: "116RC002/2.4GHz"
+                },
+                {
+                    id: 28,
+                    name: " Thunder Bird Car",
+                    ProductBatteryType: "Rechargable",
+                    ProductImage: [
+                        RC003, RC003_2
+                    ],
+                    ProductStyleCode: "116RC003",
+                    Productdescription: <>
                         <div>
-                            <p><b>Material type</b> PVC</p>
-                            <p><b>Scale</b> 1:18</p>
-                            <p><b>USB</b> Yes</p>
-                            <p><b>Box size</b> 24 pcs./box</p>
-                            <p><b>Frequency</b> 2.4GHz</p>
-                            <p><b>Colours</b> </p>
-                            <p><b>HSN Code</b> 95030030</p>
-                            <p><b>Battery Cell type</b> 3.7V Li-ion
-                                Rechargeable Battery</p>
+                            <div>
+                                <p><b>Material type</b> Virgin grade, High
+                                    strength ABS Material</p>
+                                <p><b>Scale</b> 1:24</p>
+                                <p><b>USB</b> Yes</p>
+                                <p><b>Box size</b> 12 pcs./box</p>
+                                <p><b>Frequency</b> 2.4GHz</p>
+                                <p><b>Colours</b> </p>
+                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion
+                                    Rechargeable Battery</p>
+                            </div>
                         </div>
-                    </div>
-                </>
-            },
-            {
-                id: 22,
-                name: " Smoke Rock Crawler",
-                ProductBatteryType: "Rechargable",
-                ProductImage: [
-                    MT003S
-                ],
-                ProductStyleCode: "118MT003S",
-                Productdescription: <>
-                    <div>
-                        <div>
-                            <p><b>Material type</b> PVC</p>
-                            <p><b>Scale</b> 1:18</p>
-                            <p><b>USB</b> Yes</p>
-                            <p><b>Box size</b> 24 pcs./box</p>
-                            <p><b>Frequency</b> 2.4GHz</p>
-                            <p><b>Colours</b> </p>
-                            <p><b>HSN Code</b> 95030030</p>
-                            <p><b>Battery Cell type</b> 3.7V Li-ion
-                                Rechargeable Battery</p>
-                        </div>
-                    </div>
-                </>
-            },
-            {
-                id: 23,
-                name: " Luxurious Sports Car 27 MHz",
-                ProductBatteryType: "Rechargable",
-                ProductImage: [
-                    RC00127MHz
-                ],
-                ProductStyleCode: "116RC001/27MHz",
-                Productdescription: <>
-                    <div>
-                        <div>
-                            <p><b>Material type</b> Virgin grade, High
-                                strength ABS Material</p>
-                            <p><b>Scale</b> 1:16</p>
-                            <p><b>USB</b> Yes</p>
-                            <p><b>Box size</b> 18 pcs./box</p>
-                            <p><b>Frequency</b> 2.4GHz</p>
-                            <p><b>Colours</b> </p>
-                            <p><b>HSN Code</b> 95030030</p>
-                            <p><b>Battery Cell type</b> 3.7V Li-ion
-                                Rechargeable Battery</p>
-                        </div>
-                    </div>
-                </>
-            },
-            {
-                id: 24,
-                name: " Luxurious Sports Car 2.4GHz",
-                ProductBatteryType: "Rechargable",
-                ProductImage: [
-                    RC00124GHz
-                ],
-                ProductStyleCode: "116RC001/2.4GHz"
-            },
-            {
-                id: 25,
-                name: " Hyper Beast Car 27 MHz",
-                ProductBatteryType: "Rechargable",
-                ProductImage: [
-                    RC00227MHz
-                ],
-                ProductStyleCode: "116RC002/27MHz",
-                Productdescription: <>
-                    <div>
-                        <div>
-                            <p><b>Material type</b> Virgin grade, High
-                                strength ABS Material</p>
-                            <p><b>Scale</b> 1:16</p>
-                            <p><b>USB</b> Yes</p>
-                            <p><b>Box size</b> 48 pcs./box</p>
-                            <p><b>Frequency</b> 27 MHz</p>
-                            <p><b>Colours</b> </p>
-                            <p><b>HSN Code</b> 95030030</p>
-                            <p><b>Battery Cell type</b> 3.7V Li-ion
-                                Rechargeable Battery</p>
-                        </div>
-                    </div>
-                </>
-            },
-            {
-                id: 26,
-                name: " Hyper Beast Car 2.4GHz",
-                ProductBatteryType: "Rechargable",
-                ProductImage: [
-                    RC00224GHz
-                ],
-                ProductStyleCode: "116RC002/2.4GHz"
-            },
-            {
-                id: 27,
-                name: " Thunder Bird Car",
-                ProductBatteryType: "Rechargable",
-                ProductImage: [
-                    RC003, RC003_2
-                ],
-                ProductStyleCode: "116RC003",
-                Productdescription: <>
-                    <div>
-                        <div>
-                            <p><b>Material type</b> Virgin grade, High
-                                strength ABS Material</p>
-                            <p><b>Scale</b> 1:24</p>
-                            <p><b>USB</b> Yes</p>
-                            <p><b>Box size</b> 12 pcs./box</p>
-                            <p><b>Frequency</b> 2.4GHz</p>
-                            <p><b>Colours</b> </p>
-                            <p><b>HSN Code</b> 95030030</p>
-                            <p><b>Battery Cell type</b> 3.7V Li-ion
-                                Rechargeable Battery</p>
-                        </div>
-                    </div>
-                </>
-            },
-            {
-                id: 28,
-                name: " Twisting Stunt Car",
-                ProductBatteryType: "Rechargable",
-                ProductImage: [
-                    SC001
-                ],
-                ProductStyleCode: "116SC001",
-                Productdescription: <>
-                    <div>
-                        <div>
-                            <p><b>Material type</b> Virgin grade, High
-                                strength ABS Material</p>
-                            <p><b>Scale</b> 1:16</p>
-                            <p><b>USB</b> Yes</p>
-                            <p><b>Box size</b> 12 pcs./box</p>
-                            <p><b>Frequency</b> 2.4GHz</p>
-                            <p><b>Colours</b> </p>
-                            <p><b>HSN Code</b> 95030030</p>
-                            <p><b>Battery Cell type</b> 3.7V Li-ion
-                                Rechargeable Battery</p>
-                        </div>
-                    </div>
-                </>
-            },
-            {
-                id: 29,
-                name: " Twisting Drift Car",
-                ProductBatteryType: "Rechargable",
-                ProductImage: [
-                    SC003
-                ],
-                ProductStyleCode: "116SC003",
-                Productdescription: <>
-                    <div>
-                        <div>
-                            <p><b>Material type</b> Virgin grade, High
-                                strength ABS Material</p>
-                            <p><b>Scale</b> 1:16</p>
-                            <p><b>USB</b> Yes</p>
-                            <p><b>Box size</b> 12 pcs./box</p>
-                            <p><b>Frequency</b> 2.4GHz</p>
-                            <p><b>Colours</b> </p>
-                            <p><b>HSN Code</b> 95030030</p>
-                            <p><b>Battery Cell type</b> 3.7V Li-ion
-                                Rechargeable Battery</p>
-                        </div>
-                    </div>
-                </>
-            },
-            {
-                id: 30,
-                name: " Super Sonic Stunt Car",
-                ProductBatteryType: "Rechargable",
-                ProductImage: [
-                    SC002
-                ],
-                ProductStyleCode: "116SC002",
-                Productdescription: <>
-                    <div>
-                        <div>
-                            <p><b>Material type</b> Virgin grade, High
-                                strength ABS Material</p>
-                            <p><b>Scale</b> 1:16</p>
-                            <p><b>USB</b> Yes</p>
-                            <p><b>Box size</b> 12 pcs./box</p>
-                            <p><b>Frequency</b> 2.4GHz</p>
-                            <p><b>Colours</b> </p>
-                            <p><b>HSN Code</b> 95030030</p>
-                            <p><b>Battery Cell type</b> 3.7V Li-ion
-                                Rechargeable Battery</p>
-                        </div>
-                    </div>
-                </>
-            },
-            {
-                id: 31,
-                name: " 750 Drone",
-                ProductBatteryType: "Rechargable",
-                ProductImage: [
-                    STDR001
-                ],
-                ProductStyleCode: "STDR001",
-                Productdescription: <>
-                    <div>
-                        <div>
-                            <p><b>Material type</b> Virgin grade, High
-                                strength ABS Material</p>
-                            <p><b>USB</b> Yes</p>
-                            <p><b>Box size</b> 24 pcs./box</p>
-                            <p><b>Frequency</b> 2.4GHz</p>
-                            <p><b>Colours</b> </p>
-                            <p><b>HSN Code</b> 95030030</p>
-                            <p><b>Battery Cell type</b> 3.7V Li-ion
-                                Rechargeable Battery</p>
-                        </div>
-                    </div>
-                </>
-            }
+                    </>
+                },
+            ]
+        }
+        // products: [
+        //     
+        //     
+        //    
+        //     
+        //     
+        //    
+        //     
+        //    
+        //   
+        //    
+        //     {
+        //         
+        //         name: " 750 Drone",
+        //         ProductBatteryType: "Rechargable",
+        //         ProductImage: [
+        //             STDR001
+        //         ],
+        //         ProductStyleCode: "STDR001",
+        //         Productdescription: <>
+        //             <div>
+        //                 <div>
+        //                     <p><b>Material type</b> Virgin grade, High
+        //                         strength ABS Material</p>
+        //                     <p><b>USB</b> Yes</p>
+        //                     <p><b>Box size</b> 24 pcs./box</p>
+        //                     <p><b>Frequency</b> 2.4GHz</p>
+        //                     <p><b>Colours</b> </p>
+        //                     <p><b>HSN Code</b> 95030030</p>
+        //                     <p><b>Battery Cell type</b> 3.7V Li-ion
+        //                         Rechargeable Battery</p>
+        //                 </div>
+        //             </div>
+        //         </>
+        //     }
 
-        ]
+        // ]
     },
     "Metal Die Cast Cars": {
         subcategories: {
             "Construction Series": [
                 {
-                    id: 35,
+                    id: 29,
                     name: "SMR Construction Series-A01/6",
                     ProductBatteryType: "-",
                     ProductImage: [
@@ -796,7 +818,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 36,
+                    id: 30,
                     name: "SMR Construction Series-A02/6",
                     ProductBatteryType: "-",
                     ProductImage: [
@@ -816,7 +838,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 37,
+                    id: 31,
                     name: "SMR Construction Series-A03/6",
                     ProductBatteryType: "-",
                     ProductImage: [
@@ -836,7 +858,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 38,
+                    id: 32,
                     name: "SMR Construction Series-A04/6",
                     ProductBatteryType: "-",
                     ProductImage: [
@@ -856,7 +878,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 39,
+                    id: 33,
                     name: "SMR Construction Series-A05/6",
                     ProductBatteryType: "-",
                     ProductImage: [
@@ -876,7 +898,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 40,
+                    id: 34,
                     name: "SMR Construction Series-A06/6",
                     ProductBatteryType: "-",
                     ProductImage: [
@@ -900,7 +922,7 @@ const SeedoProductData = {
             "Pull Back Series": [
 
                 {
-                    id: 41,
+                    id: 35,
                     name: "SMR Pull Back Series-A01/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRPBSA016],
@@ -918,7 +940,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 42,
+                    id: 36,
                     name: "SMR Pull Back Series-A02/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRPBSA026],
@@ -936,7 +958,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 43,
+                    id: 37,
                     name: "SMR Pull Back Series-A03/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRPBSA036],
@@ -954,7 +976,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 44,
+                    id: 38,
                     name: "SMR Pull Back Series-A04/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRPBSA046],
@@ -972,7 +994,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 45,
+                    id: 39,
                     name: "SMR Pull Back Series-A05/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRPBSA056],
@@ -990,7 +1012,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 46,
+                    id: 40,
                     name: "SMR Pull Back Series-A06/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRPBSA066],
@@ -1012,7 +1034,7 @@ const SeedoProductData = {
             ],
             "Cruiser Series": [
                 {
-                    id: 47,
+                    id: 41,
                     name: "SMR Cruiser Series-CS01/4",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWCS014],
@@ -1030,7 +1052,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 48,
+                    id: 42,
                     name: "SMR Cruiser Series-CS02/4",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWCS024],
@@ -1048,7 +1070,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 49,
+                    id: 43,
                     name: "SMR Cruiser Series-CS03/4",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWCS034],
@@ -1066,7 +1088,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 50,
+                    id: 44,
                     name: "SMR Cruiser Series-CS04/4",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWCS044],
@@ -1086,7 +1108,7 @@ const SeedoProductData = {
             ],
             "Drift Series": [
                 {
-                    id: 51,
+                    id: 45,
                     name: "SMR Drift Series-DS01/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWDS016],
@@ -1104,7 +1126,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 52,
+                    id: 46,
                     name: "SMR Drift Series-DS02/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWDS026],
@@ -1122,7 +1144,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 53,
+                    id: 47,
                     name: "SMR Drift Series-DS03/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWDS036],
@@ -1140,7 +1162,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 54,
+                    id: 48,
                     name: "SMR Drift Series-DS04/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWDS046],
@@ -1158,7 +1180,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 55,
+                    id: 49,
                     name: "SMR Drift Series-DS05/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWDS056],
@@ -1176,7 +1198,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 56,
+                    id: 50,
                     name: "SMR Drift Series-DS06/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWDS066],
@@ -1196,7 +1218,7 @@ const SeedoProductData = {
             ],
             "Racing Series": [
                 {
-                    id: 57,
+                    id: 51,
                     name: "SMR Racing Series-RS01/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWRS016],
@@ -1214,7 +1236,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 58,
+                    id: 52,
                     name: "SMR Racing Series-RS02/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWRS026],
@@ -1232,7 +1254,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 59,
+                    id: 53,
                     name: "SMR Racing Series-RS03/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWRS036],
@@ -1250,7 +1272,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 60,
+                    id: 54,
                     name: "SMR Racing Series-RS04/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWRS046],
@@ -1268,7 +1290,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 61,
+                    id: 55,
                     name: "SMR Racing Series-RS05/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWRS056],
@@ -1286,7 +1308,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 62,
+                    id: 56,
                     name: "SMR Racing Series-RS06/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWRS066],
@@ -1306,7 +1328,7 @@ const SeedoProductData = {
             ],
             "Jet Series": [
                 {
-                    id: 63,
+                    id: 57,
                     name: "SMR Jet Series-JS01/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWJS018],
@@ -1324,7 +1346,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 64,
+                    id: 58,
                     name: "SMR Jet Series-JS02/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWJS028],
@@ -1342,7 +1364,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 65,
+                    id: 59,
                     name: "SMR Jet Series-JS03/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWJS038],
@@ -1360,7 +1382,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 66,
+                    id: 60,
                     name: "SMR Jet Series-JS04/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWJS048],
@@ -1378,7 +1400,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 67,
+                    id: 61,
                     name: "SMR Jet Series-JS05/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWJS058],
@@ -1396,7 +1418,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 68,
+                    id: 62,
                     name: "SMR Jet Series-JS06/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWJS068],
@@ -1414,7 +1436,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 69,
+                    id: 63,
                     name: "SMR Jet Series-JS07/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWJS078],
@@ -1432,7 +1454,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 70,
+                    id: 64,
                     name: "SMR Jet Series-JS08/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWJS088],
@@ -1452,7 +1474,7 @@ const SeedoProductData = {
             ],
             "Fire Birds Series": [
                 {
-                    id: 71,
+                    id: 65,
                     name: "SMR Fire Birds Series-FBS01/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWFBS018],
@@ -1470,7 +1492,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 72,
+                    id: 66,
                     name: "SMR Fire Birds Series-FBS02/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWFBS028],
@@ -1488,7 +1510,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 73,
+                    id: 67,
                     name: "SMR Fire Birds Series-FBS03/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWFBS038],
@@ -1506,7 +1528,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 74,
+                    id: 68,
                     name: "SMR Fire Birds Series-FBS04/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWFBS048],
@@ -1524,7 +1546,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 75,
+                    id: 69,
                     name: "SMR Fire Birds Series-FBS05/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWFBS058],
@@ -1542,7 +1564,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 76,
+                    id: 70,
                     name: "SMR Fire Birds Series-FBS06/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWFBS068],
@@ -1560,7 +1582,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 77,
+                    id: 71,
                     name: "SMR Fire Birds Series-FBS07/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWFBS078],
@@ -1578,7 +1600,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 78,
+                    id: 72,
                     name: "SMR Fire Birds Series-FBS08/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWFBS088],
@@ -1599,7 +1621,7 @@ const SeedoProductData = {
             "Metal X Racer": [
 
                 {
-                    id: 32,
+                    id: 73,
                     name: " Metal Racers Pack of 3",
                     ProductImage: [
                         SMRFWPBP3
@@ -1619,7 +1641,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 33,
+                    id: 74,
                     name: " Metal Racers Pack of 5",
                     ProductImage: [
                         SMRFWPBP5
@@ -1639,7 +1661,7 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 34,
+                    id: 75,
                     name: " Metal Racers Pack of 10",
                     ProductImage: [
                         SMRFWPBP10
@@ -1667,7 +1689,7 @@ const SeedoProductData = {
     "Friction, Pull Back, Press & Go Toys": {
         products: [
             {
-                id: 1,
+                id: 76,
                 name: "Light & Gear - Dino and Snail",
                 ProductImage: [
                     FLGDSPO12,
@@ -1676,7 +1698,7 @@ const SeedoProductData = {
                 ProductCode: "FLG-DS-PO12"
             },
             {
-                id: 2,
+                id: 77,
                 name: "Space Rocket",
                 ProductImage: [
                     PNGSRPO12,
@@ -1685,7 +1707,7 @@ const SeedoProductData = {
 
             },
             {
-                id: 3,
+                id: 78,
                 name: "Space series",
                 ProductImage: [
                     PNGSSPO9, PNGSSPO9_2, PNGSSPO9_3
@@ -1693,7 +1715,7 @@ const SeedoProductData = {
                 ProductCode: "PNG-SS-PO9"
             },
             {
-                id: 4,
+                id: 79,
                 name: "Press N Go - Battle Ship and Snail",
                 ProductImage: [
                     PNGBSS, PNGBSS_2
@@ -1701,7 +1723,7 @@ const SeedoProductData = {
                 ProductCode: "PNG-BS&S"
             },
             {
-                id: 5,
+                id: 80,
                 name: "Press N Go - Construction Toys",
                 ProductImage: [
                     PNGBC, PNGBC_2, PNGBC_3
@@ -1709,7 +1731,7 @@ const SeedoProductData = {
                 ProductCode: "PNG-BC"
             },
             {
-                id: 6,
+                id: 81,
                 name: "Press N Go Boat Toys",
                 ProductImage: [
                     PNGToys, PNGToys_2
@@ -1717,7 +1739,7 @@ const SeedoProductData = {
                 ProductCode: "PNG-Toys"
             },
             {
-                id: 7,
+                id: 82,
                 name: "Monster Tumble",
                 ProductImage: [
                     MTToys, MTToys_2
@@ -1725,7 +1747,7 @@ const SeedoProductData = {
                 ProductCode: "MT-Toys"
             },
             {
-                id: 7,
+                id: 83,
                 name: "Mini Construction",
                 ProductImage: [
                     PNGMC, PNGMC_2, PNGMC_3, PNGMC_4, PNGMC_5, PNGMC_6
@@ -1737,11 +1759,11 @@ const SeedoProductData = {
         ]
         // subcategories: {
         //     "subcategory1": [
-        //         { id: 1, name: "Product 1", price: 100, description: "Description for Product 1" },
-        //         { id: 2, name: "Product 2", price: 200, description: "Description for Product 2" }
+        //         { name: "Product 1", price: 100, description: "Description for Product 1" },
+        //         { name: "Product 2", price: 200, description: "Description for Product 2" }
         //     ],
         //     "subcategory2": [
-        //         { id: 3, name: "Product 3", price: 150, description: "Description for Product 3" }
+        //         { name: "Product 3", price: 150, description: "Description for Product 3" }
         //     ]
         // }
     },
@@ -1752,7 +1774,7 @@ const SeedoProductData = {
     "Early Learning Toys": {
         products: [
             {
-                id: 79,
+                id: 84,
                 name: "CRAWLER",
                 ProductBatteryType: "-",
                 ProductImage: [CRAWLER],
@@ -1775,7 +1797,7 @@ const SeedoProductData = {
                 </>
             },
             {
-                id: 80,
+                id: 85,
                 name: "Pick and Pop",
                 ProductBatteryType: "-",
                 ProductImage: [SLTPP001],
@@ -1800,7 +1822,7 @@ const SeedoProductData = {
                 </>
             },
             {
-                id: 81,
+                id: 86,
                 name: "TECHNO-TUTOR",
                 ProductBatteryType: "-",
                 ProductImage: [SLTTT001],
@@ -1839,7 +1861,7 @@ const SeedoProductData = {
                 </>
             },
             {
-                id: 82,
+                id: 87,
                 name: "CUBE",
                 ProductBatteryType: "-",
                 ProductImage: [Cube],
@@ -1865,7 +1887,7 @@ const SeedoProductData = {
                 </>
             },
             {
-                id: 83,
+                id: 88,
                 name: "BRAINY BEAR",
                 ProductBatteryType: "-",
                 ProductImage: [SLTBB001],

@@ -495,18 +495,7 @@ const AboutSeedo = () => {
                         <Row>
                             <Col lg={12}>
                                 <p data-aos="fade-up"
-                                    data-aos-duration="1300">Seedo has made significant
-                                    strides by designing and producing its
-                                    own PCBs, manufactured with the latest
-                                    pick-and-place technology. We produce
-                                    1,50,000 to 2,00,000 PCBs monthly in
-                                    our fully automated facility. Our PCB
-                                    materials meet global safety standards,
-                                    offering surge, voltage, and heat
-                                    protection. They are phthalate-free,
-                                    lead-free, and ROHS-compliant for
-                                    international exports, ensuring both
-                                    safety and reliability for our products.</p>
+                                    data-aos-duration="1300">Seedo, in partnership with its strategic ally, has achieved a significant milestone by designing and producing its own PCBs, leveraging cutting-edge pick-and-place technology. Today, this innovation enables us to manufacture 50% of our requirements in-house. Our PCB materials meet global safety standards, offering surge, voltage, and heat protection. They are phthalate-free, lead-free, and ROHS-compliant for international exports, ensuring both safety and reliability for our products.</p>
                             </Col>
                             <Col lg={12}><div className="PendingGrayBox">
                                 <div style={{ display: "flex", height: "100%" }} className="ImageAdjust" data-aos="fade-up"
