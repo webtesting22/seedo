@@ -138,14 +138,14 @@ const SingleProductPage = () => {
                             </Col>
                             <Col lg={8}>
                                 <div className="ProductTitle">
-                                    <h2 style={{ margin: "0px" }}>{product.name}</h2>
+                                    <h2 style={{ margin: "0px",backgroundColor:"#bc252b0a" }}>{product.name}</h2>
                                     <p>
                                         <b>Item code: </b>
                                         {product.ProductStyleCode}
                                     </p>
                                     <br />
                                     <div className="SpecificationContainer">
-                                        <p>
+                                        <p style={{backgroundColor:"#bc252b0a"}}>
                                             <b>Specification:</b>
                                         </p>
                                         <div className="productSpecificatinContainer">

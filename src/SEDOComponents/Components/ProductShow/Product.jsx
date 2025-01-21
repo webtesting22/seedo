@@ -115,8 +115,11 @@ const Products = () => {
                             // Default to a placeholder image for the second image from subcategories
                             let subcategorySecondImage = "path/to/placeholder_image.jpg"; // Default placeholder for second image
 
-                            // For "Die cast cars" category, show the first product's first image from subcategories
-                            if (categoryName === "Metal Die Cast Cars" && hasSubcategories) {
+                            // List of categories requiring subcategory logic
+                            const categoriesRequiringSubcategoryLogic = ["Metal Die Cast Cars", "Remote Controlled Cars"];
+
+                            // Check if the current category requires subcategory logic
+                            if (categoriesRequiringSubcategoryLogic.includes(categoryName) && hasSubcategories) {
                                 const firstSubcategoryKey = Object.keys(categoryData.subcategories)[0];
                                 const firstSubcategory = categoryData.subcategories[firstSubcategoryKey];
 
@@ -154,6 +157,7 @@ const Products = () => {
                                 </Col>
                             );
                         })}
+
 
 
                         {/* <Col lg={12} md={24} style={{ width: "100%" }}>
