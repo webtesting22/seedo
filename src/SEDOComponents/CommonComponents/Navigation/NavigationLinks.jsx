@@ -19,8 +19,8 @@ const NavigationLinks = [
     },
    
     {
-        link: "Our Services",
-        path: "/ourservices",
+        link: "Our Offerings",
+        path: "/ourofferings",
     },
     {
         link: "Clients",

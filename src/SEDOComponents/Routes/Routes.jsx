@@ -31,7 +31,7 @@ const SEDORoutes = () => {
                 <Route path="/subcategories/:categoryName" element={<SubCategories />} />
                 <Route path="/subcategories/:categoryName/:subcategoryName" element={<SubcategoriesProducts />} />
                 <Route path="/subcategoriesproducts/:categoryName" element={<SubcategoriesProducts />} />
-                <Route path="/ourservices" element={<OurServices />} />
+                <Route path="/ourofferings" element={<OurServices />} />
                 <Route path="/client" element={<Client />} />
             </Routes>
             <Footer />
