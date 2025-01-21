@@ -89,7 +89,7 @@ const SingleProductPage = () => {
                                 <Row style={{height:"100%"}}>
 
                                     <Col lg={4} className="OnPCOnly" style={{width:"100%"}}>
-                                        <div style={{height:"100%",overflow:"auto"}}>
+                                        <div style={{height:"590px",overflow:"auto"}}>
                                             {otherImages.length > 0 ? (
                                                 otherImages.map((img, index) => (
                                                     <div

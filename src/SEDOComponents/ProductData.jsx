@@ -106,6 +106,37 @@ import W002 from "/Images/ProductsImages/RC Car/1182W002.png"
 import W003 from "/Images/ProductsImages/RC Car/1182W003.png"
 import STDR001 from "/Images/ProductsImages/RC Car/STDR001.png"
 import CRAWLER from "/Images/Products/ProductImages/CRAWLER.png"
+import ThunderBird1 from "../assets/MultipleViewImages/ThunderBird1.png"
+import ThunderBird2 from "../assets/MultipleViewImages/ThunderBird2.png"
+import ThunderBird3 from "../assets/MultipleViewImages/ThunderBird3.png"
+import ThunderBird4 from "../assets/MultipleViewImages/ThunderBird4.png"
+import ThunderBird5 from "../assets/MultipleViewImages/ThunderBird5.png"
+import ThunderBird6 from "../assets/MultipleViewImages/ThunderBird6.png"
+import ThunderBird7 from "../assets/MultipleViewImages/ThunderBird7.png"
+import SuperSonic1 from "../assets/MultipleViewImages/SuperSonic1.png"
+import SuperSonic2 from "../assets/MultipleViewImages/SuperSonic2.png"
+import SuperSonic3 from "../assets/MultipleViewImages/SuperSonic3.png"
+import SuperSonic4 from "../assets/MultipleViewImages/SuperSonic4.png"
+import SpectreCar1 from "../assets/MultipleViewImages/SpectreCar1.png"
+import SpectreCar2 from "../assets/MultipleViewImages/SpectreCar2.png"
+import SpectreCar3 from "../assets/MultipleViewImages/SpectreCar3.png"
+import SpectreCar4 from "../assets/MultipleViewImages/SpectreCar4.png"
+import SpectreCar5 from "../assets/MultipleViewImages/SpectreCar5.png"
+import SpectreCar6 from "../assets/MultipleViewImages/SpectreCar6.png"
+import SpectreCar7 from "../assets/MultipleViewImages/SpectreCar7.png"
+import SpectreCar8 from "../assets/MultipleViewImages/SpectreCar8.png"
+import SpectreCar9 from "../assets/MultipleViewImages/SpectreCar9.png"
+import SpectreCar10 from "../assets/MultipleViewImages/SpectreCar10.png"
+import SpectreCar11 from "../assets/MultipleViewImages/SpectreCar11.png"
+import RockCrawler1 from "../assets/MultipleViewImages/RockCrawler1.jpg"
+import RockCrawler2 from "../assets/MultipleViewImages/RockCrawler2.jpg"
+import RockCrawler3 from "../assets/MultipleViewImages/RockCrawler3.jpg"
+import RockCrawler4 from "../assets/MultipleViewImages/RockCrawler4.jpg"
+import RockCrawler5 from "../assets/MultipleViewImages/RockCrawler5.jpg"
+import RockCrawler6 from "../assets/MultipleViewImages/RockCrawler6.jpg"
+import RockCrawler7 from "../assets/MultipleViewImages/RockCrawler7.jpg"
+
+
 const SeedoProductData = {
     "Remote Controlled Cars": {
         subcategories: {
@@ -115,7 +146,7 @@ const SeedoProductData = {
                     name: " Light Blaster Car",
                     ProductBatteryType: "Non - Rechargable",
                     ProductImage: [
-                        W001_2,W001
+                        W001_2, W001
                     ],
                     ProductStyleCode: "1182W001",
                     Productdescription: <>
@@ -301,7 +332,7 @@ const SeedoProductData = {
                     name: " Spectre Car",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        LRC00C
+                        SpectreCar3, SpectreCar2, SpectreCar1, SpectreCar4, SpectreCar5, SpectreCar6, SpectreCar7, SpectreCar8, SpectreCar9, SpectreCar10, SpectreCar11, LRC00C
                     ],
                     ProductStyleCode: "124LRC00C",
                     Productdescription: <>
@@ -475,7 +506,7 @@ const SeedoProductData = {
                         </div>
                     </>
                 },
-                
+
                 {
                     id: 16,
 
@@ -532,7 +563,7 @@ const SeedoProductData = {
                     name: " Super Sonic Stunt Car",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        SC002
+                        SuperSonic1, SuperSonic2, SuperSonic3, SuperSonic4, SC002
                     ],
                     ProductStyleCode: "116SC002",
                     Productdescription: <>
@@ -568,6 +599,8 @@ const SeedoProductData = {
                     name: " Rock Crawler",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
+                        RockCrawler1,
+                         RockCrawler2, RockCrawler3, RockCrawler4, RockCrawler5, RockCrawler6, RockCrawler7, 
                         MT002, MT002_2
                     ],
                     ProductStyleCode: "118MT002",
@@ -735,7 +768,7 @@ const SeedoProductData = {
                     name: " Thunder Bird Car",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        RC003, RC003_2
+                        ThunderBird1, ThunderBird2, ThunderBird3, ThunderBird4, ThunderBird5, ThunderBird6, ThunderBird7, RC003, RC003_2
                     ],
                     ProductStyleCode: "116RC003",
                     Productdescription: <>
