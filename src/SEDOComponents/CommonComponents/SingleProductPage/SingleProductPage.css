@@ -308,12 +308,14 @@
     transform: scale(1.06);
     transition: .5s;
 }
+
 .ImageContainer {
     height: 250px;
     overflow: hidden;
     display: flex;
     align-items: center;
 }
+
 /* .productSpecificatinContainer p b{
 width: 150px !important;
 } */
@@ -385,6 +387,7 @@ width: 150px !important;
 @media (max-width:900px) {
     .ProductTitle {
         padding-left: 10px;
+        padding-top: 60px;
     }
 
     .OnPCOnly {
@@ -552,12 +555,13 @@ width: 150px !important;
     }
 
     .SingleProductContainer {
-        padding: 80px 0px;
+        padding: 80px 10px;
         padding-top: 8rem !important;
     }
 
     .OnMobileOnly>div {
         display: flex;
         flex-wrap: wrap;
+        margin: 10px 0px;
     }
 }

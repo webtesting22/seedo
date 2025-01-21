@@ -85,10 +85,10 @@ const SingleProductPage = () => {
 
                     <div className="ProductCard">
                         <Row>
-                            <Col lg={16}>
+                            <Col lg={16} style={{width:"100%"}}>
                                 <Row>
 
-                                    <Col lg={4} className="OnPCOnly">
+                                    <Col lg={4} className="OnPCOnly" style={{width:"100%"}}>
                                         <div>
                                             {otherImages.length > 0 ? (
                                                 otherImages.map((img, index) => (
@@ -106,7 +106,7 @@ const SingleProductPage = () => {
                                             )}
                                         </div>
                                     </Col>
-                                    <Col lg={20}>
+                                    <Col lg={20} style={{width:"100%"}}>
                                         <div className="ProductImageContainer">
                                             {mainImage ? (
                                                 <img src={mainImage} alt={product.name} />
@@ -115,7 +115,7 @@ const SingleProductPage = () => {
                                             )}
                                         </div>
                                     </Col>
-                                    <Col lg={6} className="OnMobileOnly">
+                                    <Col lg={6} className="OnMobileOnly" style={{width:"100%"}}>
                                         <div>
                                             {otherImages.length > 0 ? (
                                                 otherImages.map((img, index) => (
