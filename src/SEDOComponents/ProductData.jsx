@@ -135,8 +135,24 @@ import RockCrawler4 from "../assets/MultipleViewImages/RockCrawler4.jpg"
 import RockCrawler5 from "../assets/MultipleViewImages/RockCrawler5.jpg"
 import RockCrawler6 from "../assets/MultipleViewImages/RockCrawler6.jpg"
 import RockCrawler7 from "../assets/MultipleViewImages/RockCrawler7.jpg"
-
-
+import RoadSniper1 from "../assets/MultipleViewImages/RoadSniper1.png"
+import RoadSniper2 from "../assets/MultipleViewImages/RoadSniper2.png"
+import RoadSniper3 from "../assets/MultipleViewImages/RoadSniper3.png"
+import RoadSniper4 from "../assets/MultipleViewImages/RoadSniper4.png"
+import RoadSniper5 from "../assets/MultipleViewImages/RoadSniper5.png"
+import RoadSniper6 from "../assets/MultipleViewImages/RoadSniper6.png"
+import RoadSniper7 from "../assets/MultipleViewImages/RoadSniper7.png"
+import RoadSniper8 from "../assets/MultipleViewImages/RoadSniper8.png"
+import RoadSniper01 from "../assets/MultipleViewImages/RoadSniper01.png"
+import RoadSniper02 from "../assets/MultipleViewImages/RoadSniper02.png"
+import RoadSniper03 from "../assets/MultipleViewImages/RoadSniper03.png"
+import RoadSniper04 from "../assets/MultipleViewImages/RoadSniper04.png"
+import RoadSniper05 from "../assets/MultipleViewImages/RoadSniper05.png"
+import RoadSniper06 from "../assets/MultipleViewImages/RoadSniper06.png"
+import RoadSniper07 from "../assets/MultipleViewImages/RoadSniper07.png"
+import RoadSniper08 from "../assets/MultipleViewImages/RoadSniper08.png"
+import RoadSniper09 from "../assets/MultipleViewImages/RoadSniper09.png"
+import RoadSniper010 from "../assets/MultipleViewImages/RoadSniper010.png"
 const SeedoProductData = {
     "Remote Controlled Cars": {
         subcategories: {
@@ -358,7 +374,7 @@ const SeedoProductData = {
                     name: " Road Sniper 01 Car",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        LRC00D
+                        LRC00D, RoadSniper01, RoadSniper02, RoadSniper03, RoadSniper04, RoadSniper05, RoadSniper06, RoadSniper07, RoadSniper08, RoadSniper09, RoadSniper010
                     ],
                     ProductStyleCode: "124LRC00D",
                     Productdescription: <>
@@ -384,7 +400,7 @@ const SeedoProductData = {
                     name: " Road Sniper 02 Car",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        LRC00E
+                        LRC00E, RoadSniper1, RoadSniper2, RoadSniper3, RoadSniper4, RoadSniper5, RoadSniper6, RoadSniper7, RoadSniper8
                     ],
                     ProductStyleCode: "124LRC00E",
                     Productdescription: <>
@@ -600,7 +616,7 @@ const SeedoProductData = {
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         RockCrawler1,
-                         RockCrawler2, RockCrawler3, RockCrawler4, RockCrawler5, RockCrawler6, RockCrawler7, 
+                        RockCrawler2, RockCrawler3, RockCrawler4, RockCrawler5, RockCrawler6, RockCrawler7,
                         MT002, MT002_2
                     ],
                     ProductStyleCode: "118MT002",
