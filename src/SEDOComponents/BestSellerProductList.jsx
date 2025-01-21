@@ -21,7 +21,7 @@ const BestSellerProducts = {
                     RC001
                 ],
                 ProductStyleCode: "118RC001",
-                link: "singleproduct/Remote%20Controlled%20Car/11"
+                link: "singleproduct/Remote%20Controlled%20Cars/4"
             },
             {
                 id: 2,
@@ -31,7 +31,7 @@ const BestSellerProducts = {
                     SC001_124
                 ],
                 ProductStyleCode: "124SC001",
-                link: "singleproduct/Remote%20Controlled%20Car/15"
+                link: "singleproduct/Remote%20Controlled%20Cars/14"
             },
             {
                 id: 3,
@@ -41,7 +41,7 @@ const BestSellerProducts = {
                     LRC00D
                 ],
                 ProductStyleCode: "124LRC00D",
-                link: "singleproduct/Remote%20Controlled%20Car/9"
+                link: "singleproduct/Remote%20Controlled%20Cars/10"
 
             },
             {
@@ -52,18 +52,9 @@ const BestSellerProducts = {
                     LRC00E
                 ],
                 ProductStyleCode: "124LRC00E",
-                link: "singleproduct/Remote%20Controlled%20Car/10"
+                link: "singleproduct/Remote%20Controlled%20Cars/11"
             },
-            {
-                id: 5,
-                name: " Luxurious Sports Car 27 MHz",
-                ProductBatteryType: "Rechargable",
-                ProductImage: [
-                    RC00127MHz
-                ],
-                ProductStyleCode: "116RC001/27MHz",
-                link: "singleproduct/Remote%20Controlled%20Car/23"
-            },
+
             {
                 id: 6,
                 name: " Luxurious Sports Car 2.4GHz",
@@ -72,7 +63,7 @@ const BestSellerProducts = {
                     RC00124GHz
                 ],
                 ProductStyleCode: "116RC001/2.4GHz",
-                link: "singleproduct/Remote%20Controlled%20Car/24"
+                link: "singleproduct/Remote%20Controlled%20Cars/25"
             },
             {
                 id: 7,
@@ -82,7 +73,7 @@ const BestSellerProducts = {
                     MT003, MT003_2
                 ],
                 ProductStyleCode: "118MT003",
-                link: "singleproduct/Remote%20Controlled%20Car/20"
+                link: "singleproduct/Remote%20Controlled%20Cars/21"
             },
             {
                 id: 8,
@@ -92,7 +83,7 @@ const BestSellerProducts = {
                 ],
                 ProductBatteryType: "Non-Electric",
                 ProductCode: "SMR-FWPB-P3",
-                link: "singleproduct/Metal%20x%20Racer/32"
+                link: "singleproduct/Metal%20Die%20Cast%20Cars/73"
             },
             {
                 id: 9,
@@ -101,7 +92,17 @@ const BestSellerProducts = {
                     PNGSSPO9, PNGSSPO9_2, PNGSSPO9_3
                 ],
                 ProductCode: "PNG-SS-PO9",
-                link: "singleproduct/Friction%20&%20Pull%20back%20+%20Press%20&%20Go/3"
+                link: "singleproduct/Friction,%20Pull%20Back,%20Press%20&%20Go%20Toys/78"
+            },
+            {
+                id: 5,
+                name: " Luxurious Sports Car 27 MHz",
+                ProductBatteryType: "Rechargable",
+                ProductImage: [
+                    RC00127MHz
+                ],
+                ProductStyleCode: "116RC001/27MHz",
+                link: "singleproduct/Remote%20Controlled%20Cars/26"
             },
         ]
     }
