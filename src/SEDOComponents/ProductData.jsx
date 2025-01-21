@@ -153,6 +153,27 @@ import RoadSniper07 from "../assets/MultipleViewImages/RoadSniper07.png"
 import RoadSniper08 from "../assets/MultipleViewImages/RoadSniper08.png"
 import RoadSniper09 from "../assets/MultipleViewImages/RoadSniper09.png"
 import RoadSniper010 from "../assets/MultipleViewImages/RoadSniper010.png"
+import RacerCar1 from "../assets/MultipleViewImages/RacerCar1.png"
+import RacerCar2 from "../assets/MultipleViewImages/RacerCar2.png"
+import RacerCar3 from "../assets/MultipleViewImages/RacerCar3.png"
+import RacerCar4 from "../assets/MultipleViewImages/RacerCar4.png"
+import RacerCar5 from "../assets/MultipleViewImages/RacerCar5.png"
+import PoliceCar1 from "../assets/MultipleViewImages/PoliceCar1.png"
+import PoliceCar2 from "../assets/MultipleViewImages/PoliceCar2.png"
+import PoliceCar3 from "../assets/MultipleViewImages/PoliceCar3.png"
+import PoliceCar4 from "../assets/MultipleViewImages/PoliceCar4.png"
+import PoliceCar5 from "../assets/MultipleViewImages/PoliceCar5.png"
+import PoliceCar6 from "../assets/MultipleViewImages/PoliceCar6.png"
+import PoliceCar7 from "../assets/MultipleViewImages/PoliceCar7.png"
+import LuxuriousCar1 from "../assets/MultipleViewImages/LuxuriousCar1.png"
+import LuxuriousCar2 from "../assets/MultipleViewImages/LuxuriousCar2.png"
+import LuxuriousCar3 from "../assets/MultipleViewImages/LuxuriousCar3.png"
+import LuxuriousCar4 from "../assets/MultipleViewImages/LuxuriousCar4.png"
+import LuxuriousCar5 from "../assets/MultipleViewImages/LuxuriousCar5.png"
+import LuxuriousCar6 from "../assets/MultipleViewImages/LuxuriousCar6.png"
+import LuxuriousCar7 from "../assets/MultipleViewImages/LuxuriousCar7.png"
+import LuxuriousCar8 from "../assets/MultipleViewImages/LuxuriousCar8.png"
+
 const SeedoProductData = {
     "Remote Controlled Cars": {
         subcategories: {
@@ -296,7 +317,7 @@ const SeedoProductData = {
                     name: " Racer Car",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        LRC00B
+                        RacerCar1, RacerCar2, RacerCar3, RacerCar4, RacerCar5
                     ],
                     ProductStyleCode: "124LRC00A",
                     Productdescription: <>
@@ -322,7 +343,8 @@ const SeedoProductData = {
                     name: " Little Roaster Car",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        LRC00A
+
+                        LRC00B
                     ],
                     ProductStyleCode: "124LRC00B",
                     Productdescription: <>
@@ -425,7 +447,7 @@ const SeedoProductData = {
                     name: " Police Car",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        PRC001
+                        PoliceCar1, PoliceCar2, PoliceCar3, PoliceCar4, PoliceCar5, PoliceCar6, PoliceCar7
                     ],
                     ProductStyleCode: "124PRC001",
                     Productdescription: <>

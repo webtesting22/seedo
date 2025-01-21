@@ -139,18 +139,18 @@ const ZoomCards = () => {
                 </div>
             </div>
             <div className="AboutSeedoContent">
-                <div>
-                    {/* <p>Welcome to Seedo Toys</p> */}
+                {/* <div>
+                    <p>Welcome to Seedo Toys</p>
                     <h1>SEEDO- Where Imagination Comes To Life!</h1>
-                </div>
+                </div> */}
                 <div>
                     <div>
-                        <img ref={imageRef} src={AboutUsSection} alt="" style={{
+                        {/* <img ref={imageRef} src={AboutUsSection} alt="" style={{
                             width,
                             // transition: 'width 0.2s ease',
                             height: '100%',
                             objectFit: 'cover',
-                        }} />
+                        }} /> */}
                         <h2 style={{ marginBottom: "0px", fontSize: "30px", textAlign: "center",width:"100%",background:"#bc252b0a" }} data-aos="fade-up"
                             data-aos-duration="1000">Trusted Presence Across India</h2>
                       

@@ -69,8 +69,8 @@ const Client = () => {
     ]
     const LogosData = [
 
-        
-       
+
+
         {
             img: CartoonNetwork,
             link: "https://www.cartoonnetwork.co.uk/"
@@ -151,8 +151,8 @@ const Client = () => {
         {
             img: MRDIY
         },
-       
-      
+
+
         {
             img: image4
         },
@@ -163,7 +163,7 @@ const Client = () => {
         {
             img: image5
         },
-        
+
         {
             img: image6
         },
@@ -179,7 +179,7 @@ const Client = () => {
             link: "https://reliancesmartbazaar.com/",
             img: smartBazaar
         },
-        
+
         {
             link: "https://www.swiggy.com/",
             img: swiggy
@@ -189,8 +189,8 @@ const Client = () => {
         //     img: whole9years
         // },
 
-       
-        
+
+
         {
             img: Dmart
         },
@@ -200,7 +200,7 @@ const Client = () => {
         {
             img: MUMUSO
         },
-       
+
         {
             link: "",
             img: Wishkey
@@ -224,7 +224,7 @@ const Client = () => {
             </div>
             <section id="ClientSection">
                 <div className="headingHeaderContainer">
-                    <h1 style={{ textAlign: "center", fontSize: "30px", backgroundColor: "#bc252b0a", marginTop: "80px" }}>Our Consumer Promotion Partners</h1>
+                    <h1 style={{ textAlign: "center", fontSize: "30px", backgroundColor: "#bc252b0a", marginTop: "80px" }}>Our Clients</h1>
                 </div>
                 <br /><br />
                 <Row className="RowAdjustContainer">
