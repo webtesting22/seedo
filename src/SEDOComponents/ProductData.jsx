@@ -115,7 +115,7 @@ const SeedoProductData = {
                     name: " Light Blaster Car",
                     ProductBatteryType: "Non - Rechargable",
                     ProductImage: [
-                        W001, W001_2
+                        W001_2,W001
                     ],
                     ProductStyleCode: "1182W001",
                     Productdescription: <>
@@ -426,31 +426,6 @@ const SeedoProductData = {
             ],
             "Stunt Car": [
                 {
-                    id: 14,
-                    name: " Stunt Car",
-                    ProductBatteryType: "Rechargable",
-                    ProductImage: [
-                        SC001_124
-                    ],
-                    ProductStyleCode: "124SC001",
-                    Productdescription: <>
-                        <div>
-                            <div>
-                                <p><b>Material type</b> Virgin grade, High
-                                    strength ABS Material</p>
-                                <p><b>Scale</b> 1:24</p>
-                                <p><b>USB</b> Yes</p>
-                                <p><b>Box size</b> 48 pcs./box</p>
-                                <p><b>Frequency</b> 27MHz</p>
-                                <p><b>Colours</b> </p>
-                                <p><b>HSN Code</b> 95030030</p>
-                                <p><b>Battery Cell type</b> 3.7V Li-ion
-                                    Rechargeable Battery</p>
-                            </div>
-                        </div>
-                    </>
-                },
-                {
                     id: 15,
                     name: " Big Stunt Car",
                     ProductBatteryType: "Rechargable",
@@ -475,6 +450,32 @@ const SeedoProductData = {
                         </div>
                     </>
                 },
+                {
+                    id: 14,
+                    name: " Stunt Car",
+                    ProductBatteryType: "Rechargable",
+                    ProductImage: [
+                        SC001_124
+                    ],
+                    ProductStyleCode: "124SC001",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Virgin grade, High
+                                    strength ABS Material</p>
+                                <p><b>Scale</b> 1:24</p>
+                                <p><b>USB</b> Yes</p>
+                                <p><b>Box size</b> 48 pcs./box</p>
+                                <p><b>Frequency</b> 27MHz</p>
+                                <p><b>Colours</b> </p>
+                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion
+                                    Rechargeable Battery</p>
+                            </div>
+                        </div>
+                    </>
+                },
+                
                 {
                     id: 16,
 
