@@ -76,15 +76,16 @@ import RC00124GHz from "/Images/ProductsImages/RC Car/116RC001-2.4GHz.png"
 import RC00127MHz from "/Images/ProductsImages/RC Car/116RC001-27MHz.png"
 import RC00224GHz from "/Images/ProductsImages/RC Car/116RC002-2.4GHz.png"
 import RC00227MHz from "/Images/ProductsImages/RC Car/116RC002-27MHz.png"
+
 import RC003 from "/Images/ProductsImages/RC Car/116RC003(black).png"
-import RC003_2 from "/Images/ProductsImages/RC Car/116RC003 (2).png"
+import RC003_2 from "/Images/ProductsImages/RC Car/116RC003.png"
 import SC001 from "/Images/ProductsImages/RC Car/116SC001.png"
 import SC002 from "/Images/ProductsImages/RC Car/116SC002.png"
 import SC003 from "/Images/ProductsImages/RC Car/116SC003.png"
 import BC023 from "/Images/ProductsImages/RC Car/118BC023.png"
 import MT001 from "/Images/ProductsImages/RC Car/118MT001.png"
 import MT002 from "/Images/ProductsImages/RC Car/118MT002.png"
-import MT002_2 from "/Images/ProductsImages/RC Car/118MT002 (2).png"
+import MT002_2 from "/Images/ProductsImages/RC Car/118MT002(yellow).png"
 import MT003 from "/Images/ProductsImages/RC Car/118MT003.png"
 import MT003_2 from "/Images/ProductsImages/RC Car/118MT003(2).png"
 import MT003G from "/Images/ProductsImages/RC Car/118MT003G.png"
@@ -96,12 +97,12 @@ import LRC00A from "/Images/ProductsImages/RC Car/124LRC00A.png"
 import LRC00B from "/Images/ProductsImages/RC Car/124LRC00B.png"
 import LRC00C from "/Images/ProductsImages/RC Car/124LRC00C.png"
 import LRC00D from "/Images/ProductsImages/RC Car/124LRC00D.png"
-import LRC00E from "/Images/ProductsImages/RC Car/124LRC00E.png"
+import LRC00E from "/Images/ProductsImages/RC Car/124LRC00E(orange).png"
 import PRC001 from "/Images/ProductsImages/RC Car/124PRC001.png"
 import RC001_124 from "/Images/ProductsImages/RC Car/124RC001.png"
 import SC001_124 from "/Images/ProductsImages/RC Car/124SC001.png"
-import W001 from "/Images/ProductsImages/RC Car/1182W001.png"
-import W001_2 from "/Images/ProductsImages/RC Car/1182W001 (2).png"
+import W001 from "/Images/ProductsImages/RC Car/1182W001(red).png"
+import W001_2 from "/Images/ProductsImages/RC Car/1182W001(yellow).png"
 import W002 from "/Images/ProductsImages/RC Car/1182W002.png"
 import W003 from "/Images/ProductsImages/RC Car/1182W003.png"
 import STDR001 from "/Images/ProductsImages/RC Car/STDR001.png"
@@ -113,59 +114,59 @@ import ThunderBird4 from "../assets/MultipleViewImages/ThunderBird4.png"
 import ThunderBird5 from "../assets/MultipleViewImages/ThunderBird5.png"
 import ThunderBird6 from "../assets/MultipleViewImages/ThunderBird6(yellow).png"
 import ThunderBird7 from "../assets/MultipleViewImages/ThunderBird7.png"
-import SuperSonic1 from "../assets/MultipleViewImages/SuperSonic1.png"
+import SuperSonic1 from "../assets/MultipleViewImages/SuperSonic1(red).png"
 import SuperSonic2 from "../assets/MultipleViewImages/SuperSonic2.png"
 import SuperSonic3 from "../assets/MultipleViewImages/SuperSonic3.png"
-import SuperSonic4 from "../assets/MultipleViewImages/SuperSonic4.png"
+import SuperSonic4 from "../assets/MultipleViewImages/SuperSonic4(black).png"
 import SpectreCar1 from "../assets/MultipleViewImages/SpectreCar1.png"
-import SpectreCar2 from "../assets/MultipleViewImages/SpectreCar2.png"
+import SpectreCar2 from "../assets/MultipleViewImages/SpectreCar2(blue).png"
 import SpectreCar3 from "../assets/MultipleViewImages/SpectreCar3.png"
-import SpectreCar4 from "../assets/MultipleViewImages/SpectreCar4.png"
+import SpectreCar4 from "../assets/MultipleViewImages/SpectreCar4(orange).png"
 import SpectreCar5 from "../assets/MultipleViewImages/SpectreCar5.png"
 import SpectreCar6 from "../assets/MultipleViewImages/SpectreCar6.png"
 import SpectreCar7 from "../assets/MultipleViewImages/SpectreCar7.png"
 import SpectreCar8 from "../assets/MultipleViewImages/SpectreCar8.png"
-import SpectreCar9 from "../assets/MultipleViewImages/SpectreCar9.png"
+import SpectreCar9 from "../assets/MultipleViewImages/SpectreCar9(yellow).png"
 import SpectreCar10 from "../assets/MultipleViewImages/SpectreCar10.png"
-import SpectreCar11 from "../assets/MultipleViewImages/SpectreCar11.png"
-import RockCrawler1 from "../assets/MultipleViewImages/RockCrawler1.jpg"
-import RockCrawler2 from "../assets/MultipleViewImages/RockCrawler2.jpg"
+import SpectreCar11 from "../assets/MultipleViewImages/SpectreCar11(red).png"
+import RockCrawler1 from "../assets/MultipleViewImages/RockCrawler1(pink).jpg"
+import RockCrawler2 from "../assets/MultipleViewImages/RockCrawler2(blue).jpg"
 import RockCrawler3 from "../assets/MultipleViewImages/RockCrawler3.jpg"
 import RockCrawler4 from "../assets/MultipleViewImages/RockCrawler4.jpg"
-import RockCrawler5 from "../assets/MultipleViewImages/RockCrawler5.jpg"
+import RockCrawler5 from "../assets/MultipleViewImages/RockCrawler5(green).jpg"
 import RockCrawler6 from "../assets/MultipleViewImages/RockCrawler6.jpg"
-import RockCrawler7 from "../assets/MultipleViewImages/RockCrawler7.jpg"
+import RockCrawler7 from "../assets/MultipleViewImages/RockCrawler7(red).jpg"
 import RoadSniper1 from "../assets/MultipleViewImages/RoadSniper1.png"
-import RoadSniper2 from "../assets/MultipleViewImages/RoadSniper2.png"
+import RoadSniper2 from "../assets/MultipleViewImages/RoadSniper2(red).png"
 import RoadSniper3 from "../assets/MultipleViewImages/RoadSniper3.png"
 import RoadSniper4 from "../assets/MultipleViewImages/RoadSniper4.png"
-import RoadSniper5 from "../assets/MultipleViewImages/RoadSniper5.png"
-import RoadSniper6 from "../assets/MultipleViewImages/RoadSniper6.png"
-import RoadSniper7 from "../assets/MultipleViewImages/RoadSniper7.png"
+import RoadSniper5 from "../assets/MultipleViewImages/RoadSniper5(yellow).png"
+import RoadSniper6 from "../assets/MultipleViewImages/RoadSniper6(gray).png"
+import RoadSniper7 from "../assets/MultipleViewImages/RoadSniper7(blue).png"
 import RoadSniper8 from "../assets/MultipleViewImages/RoadSniper8.png"
 import RoadSniper01 from "../assets/MultipleViewImages/RoadSniper01.png"
 import RoadSniper02 from "../assets/MultipleViewImages/RoadSniper02.png"
 import RoadSniper03 from "../assets/MultipleViewImages/RoadSniper03.png"
 import RoadSniper04 from "../assets/MultipleViewImages/RoadSniper04.png"
-import RoadSniper05 from "../assets/MultipleViewImages/RoadSniper05.png"
+import RoadSniper05 from "../assets/MultipleViewImages/RoadSniper05(black).png"
 import RoadSniper06 from "../assets/MultipleViewImages/RoadSniper06.png"
-import RoadSniper07 from "../assets/MultipleViewImages/RoadSniper07.png"
-import RoadSniper08 from "../assets/MultipleViewImages/RoadSniper08.png"
+import RoadSniper07 from "../assets/MultipleViewImages/RoadSniper07(red).png"
+import RoadSniper08 from "../assets/MultipleViewImages/RoadSniper08(blue).png"
 import RoadSniper09 from "../assets/MultipleViewImages/RoadSniper09.png"
 import RoadSniper010 from "../assets/MultipleViewImages/RoadSniper010.png"
-import RacerCar1 from "../assets/MultipleViewImages/RacerCar1.png"
+import RacerCar1 from "../assets/MultipleViewImages/RacerCar1(blue).png"
 import RacerCar2 from "../assets/MultipleViewImages/RacerCar2.png"
 import RacerCar3 from "../assets/MultipleViewImages/RacerCar3.png"
 import RacerCar4 from "../assets/MultipleViewImages/RacerCar4.png"
 import RacerCar5 from "../assets/MultipleViewImages/RacerCar5.png"
 import PoliceCar1 from "../assets/MultipleViewImages/PoliceCar1.png"
 import PoliceCar2 from "../assets/MultipleViewImages/PoliceCar2.png"
-import PoliceCar3 from "../assets/MultipleViewImages/PoliceCar3.png"
+import PoliceCar3 from "../assets/MultipleViewImages/PoliceCar3(black).png"
 import PoliceCar4 from "../assets/MultipleViewImages/PoliceCar4.png"
 import PoliceCar5 from "../assets/MultipleViewImages/PoliceCar5.png"
 import PoliceCar6 from "../assets/MultipleViewImages/PoliceCar6.png"
 import PoliceCar7 from "../assets/MultipleViewImages/PoliceCar7.png"
-import LuxuriousCar1 from "../assets/MultipleViewImages/LuxuriousCar1.png"
+import LuxuriousCar1 from "../assets/MultipleViewImages/LuxuriousCar1(orange).png"
 import LuxuriousCar2 from "../assets/MultipleViewImages/LuxuriousCar2.png"
 import LuxuriousCar3 from "../assets/MultipleViewImages/LuxuriousCar3.png"
 import LuxuriousCar4 from "../assets/MultipleViewImages/LuxuriousCar4.png"
@@ -173,10 +174,34 @@ import LuxuriousCar5 from "../assets/MultipleViewImages/LuxuriousCar5.png"
 import LuxuriousCar6 from "../assets/MultipleViewImages/LuxuriousCar6.png"
 import LuxuriousCar7 from "../assets/MultipleViewImages/LuxuriousCar7.png"
 import LuxuriousCar8 from "../assets/MultipleViewImages/LuxuriousCar8.png"
+import LightBlaster1 from "../assets/MultipleViewImages/LightBlaster1.png"
+import LightBlaster2 from "../assets/MultipleViewImages/LightBlaster2.png"
+import LightBlaster3 from "../assets/MultipleViewImages/LightBlaster3.png"
+import LightBlaster4 from "../assets/MultipleViewImages/LightBlaster4.png"
+import LightBlaster5 from "../assets/MultipleViewImages/LightBlaster5.png"
+import LightBlaster6 from "../assets/MultipleViewImages/LightBlaster6.png"
+import LightBlaster7 from "../assets/MultipleViewImages/LightBlaster7.png"
+import LightBlaster8 from "../assets/MultipleViewImages/LightBlaster8.png"
+import Laptop1 from "../assets/MultipleViewImages/Laptop1(blue).png"
+import Laptop2 from "../assets/MultipleViewImages/Laptop2(pink).png"
+import Laptop3 from "../assets/MultipleViewImages/Laptop3(black).png"
+import Laptop4 from "../assets/MultipleViewImages/Laptop4.png"
+import Laptop5 from "../assets/MultipleViewImages/Laptop5.png"
+import Laptop6 from "../assets/MultipleViewImages/Laptop6.png"
+import Laptop7 from "../assets/MultipleViewImages/Laptop7.png"
+import HyperBeast1 from "../assets/MultipleViewImages/HyperBeast1(blue).png"
+import HyperBeast2 from "../assets/MultipleViewImages/HyperBeast2.png"
+import HyperBeast3 from "../assets/MultipleViewImages/HyperBeast3(red).png"
+import HyperBeast4 from "../assets/MultipleViewImages/HyperBeast4.png"
+import HyperBeast5 from "../assets/MultipleViewImages/HyperBeast5(gray).png"
+import HyperBeast6 from "../assets/MultipleViewImages/HyperBeast6.png"
+import HyperBeast7 from "../assets/MultipleViewImages/HyperBeast7(yellow).png"
+import HyperBeast8 from "../assets/MultipleViewImages/HyperBeast8.png"
+import HyperBeast9 from "../assets/MultipleViewImages/HyperBeast9.png"
 
 const SeedoProductData = {
     "Remote Controlled Cars": {
-        CategoriryImage:"/src/SEDOComponents/Components/AboutSEDO/SectionCurveImage.png",
+        CategoriryImage: "/src/SEDOComponents/Components/AboutSEDO/SectionCurveImage.png",
         subcategories: {
             "1:18": [
                 {
@@ -184,7 +209,7 @@ const SeedoProductData = {
                     name: " Light Blaster Car",
                     ProductBatteryType: "Non - Rechargable",
                     ProductImage: [
-                        W001_2, W001
+                        W001_2, W001, LightBlaster1, LightBlaster2, LightBlaster3, LightBlaster4, LightBlaster5, LightBlaster6,LightBlaster7,LightBlaster8
                     ],
                     ProductStyleCode: "1182W001",
                     Productdescription: <>
@@ -739,7 +764,7 @@ const SeedoProductData = {
                     name: " Luxurious Sports Car 27 MHz",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        RC00127MHz
+                        RC00127MHz, LuxuriousCar1, LuxuriousCar2, LuxuriousCar3, LuxuriousCar4, LuxuriousCar5, LuxuriousCar6, LuxuriousCar7, LuxuriousCar8
                     ],
                     ProductStyleCode: "116RC001/27MHz",
                     Productdescription: <>
@@ -773,7 +798,7 @@ const SeedoProductData = {
                     name: " Hyper Beast Car 27 MHz",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        RC00227MHz
+                        RC00227MHz,HyperBeast1,HyperBeast2,HyperBeast3,HyperBeast4,HyperBeast5,HyperBeast6,HyperBeast7,HyperBeast8,HyperBeast9
                     ],
                     ProductStyleCode: "116RC002/27MHz",
                     Productdescription: <>
@@ -868,7 +893,7 @@ const SeedoProductData = {
         // ]
     },
     "Metal Die Cast Cars": {
-        CategoriryImage:"/Images/DieCast.png",
+        CategoriryImage: "/Images/DieCast.png",
         subcategories: {
 
             "Pull Back Series": [
@@ -1762,7 +1787,7 @@ const SeedoProductData = {
         // }
     },
     "Friction, Pull Back, Press & Go Toys": {
-        CategoriryImage:"/Images/Friction.png",
+        CategoriryImage: "/Images/Friction.png",
         products: [
             {
                 id: 76,
@@ -1901,7 +1926,7 @@ const SeedoProductData = {
                 id: 86,
                 name: "TECHNO-TUTOR",
                 ProductBatteryType: "-",
-                ProductImage: [SLTTT001],
+                ProductImage: [SLTTT001,Laptop1,Laptop2,Laptop3,Laptop4,Laptop5,Laptop6,Laptop7],
                 ProductStyleCode: "SLT-PP-001",
                 Productdescription: <>
                     <div>

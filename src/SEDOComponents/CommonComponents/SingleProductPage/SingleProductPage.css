@@ -407,9 +407,9 @@ width: 150px !important;
     background-color: black;
     border-radius: 50%;
 }
-.ColorsContainer div .ColorSwatch:first-child{
+/* .ColorsContainer div .ColorSwatch:first-child{
     display: none;
-}
+} */
 
 @media (max-width:900px) {
     .ProductTitle {
