@@ -20,7 +20,7 @@ const OurServices = () => {
         {
             title: "Seedo Brand Distribution",
             image:BrandDiscribution,
-            description: "Seedo proudly designs, manufactures, and markets toys under its own distinguished brand with its presence across India, delivering innovative and high-quality products that inspire creativity and joy across the country."
+            description: "Seedo proudly designs, manufactures, and markets toys under its own distinguished brand with its presence across India, delivering innovative and high-quality products that inspire creativity and joy."
         },
         {
             title: "Original Equipment Manufacturer (OEM)",
@@ -35,7 +35,7 @@ const OurServices = () => {
         {
             title: "White Labelling",
             image:WhiteLebelling,
-            description: "We offer white-label solutions, allowing you to brand our high-quality products as your own, This enables you to expand your product range while maintaining your unique brand identity."
+            description: "We offer white-label solutions, allowing you to brand our high-quality products as your own, this enables you to expand your product range while maintaining your unique brand identity."
         },
 
     ]

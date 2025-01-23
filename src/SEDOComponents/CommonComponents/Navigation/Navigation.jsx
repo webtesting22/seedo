@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import NavigationLinks from "./NavigationLinks";
 import "../../Styles/Navigation.css";
-import SEEDoLogo from "/SEEDOLogo.png";
+import SEEDoLogo from "./NewSeedoLogo.png";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { Link, useLocation } from "react-router-dom";
 import { Drawer } from "antd"; // Import the Drawer component from Ant Design

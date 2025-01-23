@@ -48,7 +48,7 @@ const ImageSticky = () => {
                 <div className="stickyContainer">
 
                     <p data-aos="fade-up"
-                        data-aos-duration="1500">We are committed to excellence and safety in everything we do. Every product undergoes rigorous quality checks to ensure it meets the highest safety standards, making them 100% kid safe and crafted with precision.
+                        data-aos-duration="1500">We are committed to excellence and safety in everything we do. Every product undergoes rigorous quality checks to ensure it meets the highest safety standards, making it 100% safe for kids and crafted with precision.
                         <br /> Our goal? To become India’s leading brand, setting new benchmarks for quality and creativity.
                     </p>
                 </div>
