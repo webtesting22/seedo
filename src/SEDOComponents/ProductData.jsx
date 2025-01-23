@@ -198,7 +198,8 @@ import HyperBeast6 from "../assets/MultipleViewImages/HyperBeast6.png"
 import HyperBeast7 from "../assets/MultipleViewImages/HyperBeast7(yellow).png"
 import HyperBeast8 from "../assets/MultipleViewImages/HyperBeast8.png"
 import HyperBeast9 from "../assets/MultipleViewImages/HyperBeast9.png"
-
+import GunRockCrawler2 from "../assets/MultipleViewImages/GunRockCrawler2.jpg"
+import GunRockCrawler from "../assets/MultipleViewImages/GunRockCrawler(red).jpg"
 const SeedoProductData = {
     "Remote Controlled Cars": {
         CategoriryImage: "/src/SEDOComponents/Components/AboutSEDO/SectionCurveImage.png",
@@ -714,7 +715,7 @@ const SeedoProductData = {
                     name: " Gun Rock Crawler",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        MT003G
+                        MT003G,GunRockCrawler,GunRockCrawler2
                     ],
                     ProductStyleCode: "118MT003G",
                     Productdescription: <>
