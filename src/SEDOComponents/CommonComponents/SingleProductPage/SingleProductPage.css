@@ -301,7 +301,7 @@
     justify-content: center;
     flex-direction: column;
     border-radius: 20px;
-    border: 1px dashed #bc252a72;
+    /* border: 1px dashed #bc252a72; */
     background-color: white;
 }
 

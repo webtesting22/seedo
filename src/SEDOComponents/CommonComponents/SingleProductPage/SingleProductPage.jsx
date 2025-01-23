@@ -185,27 +185,41 @@ const SingleProductPage = () => {
                         </h1>
                     </div>
                     <Row gutter={[16, 16]}>
-                        {similarProducts.map((prod) => (
-                            <Col key={prod.id} lg={6} md={12} sm={24} style={{ width: "100%" }}>
-                                <div className="SimilarProductCard">
-                                    <Link
-                                        to={`/singleproduct/${categoryName}/${prod.id}`}
-                                        className="ProductLink"
-                                    >
-                                        <div className="ImageContainer">
-                                            <img
-                                                src={
-                                                    prod.ProductImage?.[0] ||
-                                                    "path/to/placeholder.jpg"
-                                                }
-                                                alt={prod.name}
-                                            />
-                                        </div>
-                                        <h3 style={{ color: "black", textAlign: "center" }}>{prod.name}</h3>
-                                    </Link>
-                                </div>
-                            </Col>
-                        ))}
+                    {similarProducts.map((prod, index) => {
+
+
+const colors = [
+  "rgba(9, 177, 171, 0.25)",
+  "rgba(241, 142, 170, 0.23)",
+  "rgba(173, 133, 179, 0.22)",
+  "rgba(80, 173, 105, 0.24)",
+  "rgba(9, 177, 171, 0.25)"
+];
+
+// Get the background color using the current index
+const backgroundColor = colors[index % colors.length];
+
+return (
+  <Col key={prod.id} lg={6} md={12} sm={24} style={{ width: "100%" }}>
+    <div className="SimilarProductCard" style={{ backgroundColor }}>
+      <Link
+        to={`/singleproduct/${categoryName}/${prod.id}`}
+        className="ProductLink"
+      >
+        <div className="ImageContainer">
+          <img
+            src={
+              prod.ProductImage?.[0] || "path/to/placeholder.jpg"
+            }
+            alt={prod.name}
+          />
+        </div>
+        <h3 style={{ color: "black", textAlign: "center" }}>{prod.name}</h3>
+      </Link>
+    </div>
+  </Col>
+);
+})}
                     </Row>
                 </div>
                 <br /><br />
