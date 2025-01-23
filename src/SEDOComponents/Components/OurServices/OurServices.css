@@ -1,6 +1,15 @@
 .OurServicesContainer {
+    margin-top: 5rem;
+}
+
+.RowColumnsAdjustContainer {
     padding-top: 5rem !important;
     padding: 0px 40px;
+}
+
+.OurServicesContainer .SectionHeadingContainer {
+    padding: 7rem 0rem;
+    background-color: rgb(149, 179, 224);
 }
 
 .OurServicesContainer div h1 {
@@ -11,7 +20,8 @@
     background-color: #bc252b0a;
     width: 100%;
 }
-.OurServicesContainer h1{
+
+.OurServicesContainer h1 {
     margin-top: 80px;
     font-size: 30px;
     text-align: center;
@@ -35,6 +45,18 @@
 .AdjustWidthSection {
     width: 100%;
     padding: 80px 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.AdjustWidthSection .BackSVG {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.AdjustWidthSection .BackSVG svg path {
+    fill: #faf2e8;
 }
 
 .AdjustWidthSection button {
@@ -71,12 +93,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 20px;
+    border-radius: 10px;
     overflow: hidden;
-    
+
 }
-.ImageAdjust .ant-row .ant-col .ant-image img{
-    border-radius: 20px;
+
+.ImageAdjust .ant-row .ant-col .ant-image img {
+    border-radius: 10px;
 }
 
 .ImageAdjust .ant-row .ant-col:first-child {
@@ -117,11 +140,13 @@
     /* height: 100%; */
     height: 250px;
     overflow: hidden;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .BlankGrayBoxContainer img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .RowColumnsAdjustContainer .ant-row .ant-col div h2 {
@@ -130,7 +155,7 @@
 }
 
 .RowColumnsAdjustContainer .ant-row .ant-col>div {
-    padding: 10px;
+    padding: 40px;
 }
 
 /* .RowColumnsAdjustContainer .ant-row .ant-col:first-child div {
@@ -139,9 +164,6 @@
 
 } */
 
-.RowColumnsAdjustContainer .ant-row {
-    margin: 40px 0px;
-}
 
 /* .RowColumnsAdjustContainer button{
     background-color: #D9D9D9;
@@ -172,11 +194,12 @@
     width: 100%;
     height: 100%;
 } */
-.AdjustWidthSection h1{
+.AdjustWidthSection h1 {
     font-size: 25px;
-    background-color: #bc252b0a;
+    /* background-color: #bc252b0a; */
     padding: 5px 10px;
 }
+
 @media (min-width:1500px) and (max-width:3000px) {
 
     .OurServicesContainer {
@@ -186,6 +209,11 @@
 }
 
 @media (max-width:769px) {
+    .RowColumnsAdjustContainer {
+        padding-top: 5rem !important;
+        padding: 0px 10px;
+    }
+
     .AjustCenterContainer {
         display: flex;
         justify-content: center;
@@ -193,6 +221,7 @@
         align-items: center;
         padding: 0px 10px;
     }
+
     .BlankGrayBoxContainer {
         background-color: #D9D9D9;
         width: 100%;
@@ -201,7 +230,7 @@
         overflow: hidden;
         border-radius: 20px;
     }
-    
+
     .RowColumnsAdjustContainer .ant-row .ant-col>div {
         padding: 0px;
     }
@@ -220,10 +249,14 @@
         padding-bottom: 0px !important;
     }
 
-    .RowColumnsAdjustContainer .ant-row .ant-col:first-child div {
-        padding: 80px 0px;
-        padding-right: 0px !important;
+  
 
+    .OURLEADERSHIPContainer .ant-row .ant-col {
+        width: 50%;
+    }
+
+    .OURLEADERSHIPContainer .ant-row .ant-col .CerticationCardGreyBox {
+        min-height: 120px;
     }
 
     .AdjustWidthSection .ant-row .ant-col:last-child {
@@ -245,8 +278,9 @@
     }
 
     .OurServicesContainer {
-        padding-top: 5rem !important;
-        padding: 0px 10px;
+        margin-top: 4rem !important;
+        /* padding-top: 5rem !important; */
+        padding: 0px 0px;
     }
 
     .OurServicesParagraph p {
@@ -261,8 +295,10 @@
     }
 
     .RowColumnsAdjustContainer .ant-row .ant-col:first-child div {
-        padding: 20px 0px;
+        /* padding: 0px 0px; */
         padding-right: 0px !important;
+        /* min-height: 120px; */
 
     }
+  
 }

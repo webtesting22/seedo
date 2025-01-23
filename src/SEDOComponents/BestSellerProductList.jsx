@@ -21,7 +21,8 @@ const BestSellerProducts = {
                     RC001
                 ],
                 ProductStyleCode: "118RC001",
-                link: "singleproduct/Remote%20Controlled%20Cars/4"
+                link: "singleproduct/Remote%20Controlled%20Cars/4",
+                colorCode:"#45b3df42"
             },
             {
                 id: 2,
@@ -31,7 +32,8 @@ const BestSellerProducts = {
                     SC001_124
                 ],
                 ProductStyleCode: "124SC001",
-                link: "singleproduct/Remote%20Controlled%20Cars/14"
+                link: "singleproduct/Remote%20Controlled%20Cars/14",
+                colorCode:"#09b1ab40"
             },
             {
                 id: 3,
@@ -41,7 +43,8 @@ const BestSellerProducts = {
                     LRC00D
                 ],
                 ProductStyleCode: "124LRC00D",
-                link: "singleproduct/Remote%20Controlled%20Cars/10"
+                link: "singleproduct/Remote%20Controlled%20Cars/10",
+                colorCode:"#f18eaa3b"
 
             },
             {
@@ -52,7 +55,8 @@ const BestSellerProducts = {
                     LRC00E
                 ],
                 ProductStyleCode: "124LRC00E",
-                link: "singleproduct/Remote%20Controlled%20Cars/11"
+                link: "singleproduct/Remote%20Controlled%20Cars/11",
+                       colorCode:"#ad85b338"
             },
 
             {
@@ -63,7 +67,10 @@ const BestSellerProducts = {
                     RC00124GHz
                 ],
                 ProductStyleCode: "116RC001/2.4GHz",
-                link: "singleproduct/Remote%20Controlled%20Cars/25"
+                link: "singleproduct/Remote%20Controlled%20Cars/25",
+                  colorCode:"#50ad693d"
+                
+                
             },
             {
                 id: 7,
@@ -73,7 +80,8 @@ const BestSellerProducts = {
                     MT003, MT003_2
                 ],
                 ProductStyleCode: "118MT003",
-                link: "singleproduct/Remote%20Controlled%20Cars/21"
+                link: "singleproduct/Remote%20Controlled%20Cars/21",
+                 colorCode:"#f18eaa3b"
             },
             {
                 id: 8,
@@ -83,7 +91,8 @@ const BestSellerProducts = {
                 ],
                 ProductBatteryType: "Non-Electric",
                 ProductCode: "SMR-FWPB-P3",
-                link: "singleproduct/Metal%20Die%20Cast%20Cars/73"
+                link: "singleproduct/Metal%20Die%20Cast%20Cars/73",
+                  colorCode:"#09b1ab40"
             },
             {
                 id: 9,
@@ -92,7 +101,8 @@ const BestSellerProducts = {
                     PNGSSPO9, PNGSSPO9_2, PNGSSPO9_3
                 ],
                 ProductCode: "PNG-SS-PO9",
-                link: "singleproduct/Friction,%20Pull%20Back,%20Press%20&%20Go%20Toys/78"
+                link: "singleproduct/Friction,%20Pull%20Back,%20Press%20&%20Go%20Toys/78",
+                colorCode:"rgba(173, 133, 179, 0.22)"
             },
             {
                 id: 5,
@@ -102,7 +112,8 @@ const BestSellerProducts = {
                     RC00127MHz
                 ],
                 ProductStyleCode: "116RC001/27MHz",
-                link: "singleproduct/Remote%20Controlled%20Cars/26"
+                link: "singleproduct/Remote%20Controlled%20Cars/26",
+                colorCode:"#50ad693d"
             },
         ]
     }

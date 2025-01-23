@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link, useParams, useLocation } from "react-router-dom";
 import Navigation from "../Navigation/Navigation";
 import "./SingleProductPage.css";
 import { Row, Col, Image, Breadcrumb } from "antd";
@@ -9,6 +9,11 @@ const SingleProductPage = () => {
     const { categoryName, productId } = useParams();
     const [mainImage, setMainImage] = useState(null);
     const [otherImages, setOtherImages] = useState([]);
+    const [colorMap, setColorMap] = useState({});
+    const location = useLocation();
+
+    // Retrieve the backgroundColor from state or use a fallback
+    const backgroundColor = location.state?.backgroundColor || "defaultColor";
 
     // Fetch the category data
     const categoryData = SeedoProductData[categoryName];
@@ -27,6 +32,18 @@ const SingleProductPage = () => {
             setMainImage(product.ProductImage[0]);
             setOtherImages(product.ProductImage.slice(1));
         }
+
+        // Generate a color map based on image names
+        if (product?.ProductImage) {
+            const map = {};
+            product.ProductImage.forEach((img) => {
+                const match = img.match(/\((.*?)\)/); // Extract color name from parentheses
+                if (match && match[1]) {
+                    map[match[1].toLowerCase()] = img; // Use color as key
+                }
+            });
+            setColorMap(map);
+        }
     }, [product]);
 
     useEffect(() => {
@@ -37,11 +54,9 @@ const SingleProductPage = () => {
         return <div>Product not found!</div>;
     }
 
-    // Handle clicking on an "other image"
+    // Handle clicking on an "other image" or color
     const handleImageClick = (clickedImage) => {
-        const updatedOtherImages = [mainImage, ...otherImages.filter((img) => img !== clickedImage)];
         setMainImage(clickedImage);
-        setOtherImages(updatedOtherImages);
     };
 
     // Determine if the product is from a subcategory
@@ -75,7 +90,7 @@ const SingleProductPage = () => {
                         </Breadcrumb.Item>
                         {productSubcategory && (
                             <Breadcrumb.Item>
-                                <Link to={`/subcategories/${categoryName}/${productSubcategory}`}>
+                                <Link to={`/subcategoriesproducts/${categoryName}/${productSubcategory}`}>
                                     {productSubcategory}
                                 </Link>
                             </Breadcrumb.Item>
@@ -85,11 +100,10 @@ const SingleProductPage = () => {
 
                     <div className="ProductCard">
                         <Row>
-                            <Col lg={16} style={{width:"100%"}}>
-                                <Row style={{height:"100%"}}>
-
-                                    <Col lg={4} className="OnPCOnly" style={{width:"100%"}}>
-                                        <div style={{height:"590px",overflow:"auto"}}>
+                            <Col lg={16} style={{ width: "100%" }}>
+                                <Row style={{ height: "100%" }}>
+                                    <Col lg={4} className="OnPCOnly" style={{ width: "100%" }}>
+                                        <div style={{ height: "590px", overflow: "auto" }}>
                                             {otherImages.length > 0 ? (
                                                 otherImages.map((img, index) => (
                                                     <div
@@ -106,8 +120,11 @@ const SingleProductPage = () => {
                                             )}
                                         </div>
                                     </Col>
-                                    <Col lg={20} style={{width:"100%"}}>
-                                        <div className="ProductImageContainer">
+                                    <Col lg={20} style={{ width: "100%" }}>
+                                        <div
+                                            style={{ backgroundColor }}
+                                            className="ProductImageContainer"
+                                        >
                                             {mainImage ? (
                                                 <img src={mainImage} alt={product.name} />
                                             ) : (
@@ -115,39 +132,40 @@ const SingleProductPage = () => {
                                             )}
                                         </div>
                                     </Col>
-                                    <Col lg={6} className="OnMobileOnly" style={{width:"100%"}}>
-                                        <div>
-                                            {otherImages.length > 0 ? (
-                                                otherImages.map((img, index) => (
-                                                    <div
-                                                        key={index}
-                                                        className="OtherImageThumbnail"
-                                                        onClick={() => handleImageClick(img)}
-                                                        style={{ cursor: "pointer" }}
-                                                    >
-                                                        <img src={img} alt={`Other image ${index + 1}`} />
-                                                    </div>
-                                                ))
-                                            ) : (
-                                                <p>Other images coming soon!</p>
-                                            )}
-                                        </div>
-                                    </Col>
-
                                 </Row>
                             </Col>
                             <Col lg={8}>
                                 <div className="ProductTitle">
-                                    <h2 style={{ margin: "0px",backgroundColor:"#bc252b0a" }}>{product.name}</h2>
-                                    <p>
-                                        <b>Item code: </b>
-                                        {product.ProductStyleCode}
-                                    </p>
-                                    <br />
-                                    <div className="SpecificationContainer">
-                                        <p style={{backgroundColor:"#bc252b0a"}}>
-                                            <b>Specification:</b>
+                                    <div className="ProductTitleContainer">
+                                        <h2>{product.name}</h2>
+                                        <p>
+                                            <b>Item code: </b>
+                                            ({product.ProductStyleCode})
                                         </p>
+                                    </div>
+                                    <hr />
+                                    <div className="SpecificationContainer">
+                                        <div className="ColorsContainer">
+                                            <p><b>Colors</b></p>
+                                            <div style={{ display: "flex", gap: "10px" }}>
+                                                {Object.keys(colorMap).map((color, index) => (
+                                                    <div
+                                                        key={index}
+                                                        className="ColorSwatch"
+                                                        style={{
+                                                            backgroundColor: color,
+                                                            width: "20px",
+                                                            height: "20px",
+                                                            borderRadius: "50%",
+                                                            cursor: "pointer",
+                                                            border: colorMap[color] === mainImage ? "1px solid black" : "none",
+                                                        }}
+                                                        onClick={() => handleImageClick(colorMap[color])}
+                                                    ></div>
+                                                ))}
+                                            </div>
+                                        </div>
+                                        <hr />
                                         <div className="productSpecificatinContainer">
                                             {product.Productdescription}
                                         </div>
@@ -160,9 +178,9 @@ const SingleProductPage = () => {
 
                 {/* Similar products section */}
                 <div className="SIMILARPRODUCTSContainer">
-                    <div className="HeaderContainer">
-                        <h1>
-                            Related Products of {categoryName}
+                    <div className="SectionHeadingContainer">
+                        <h1 className="titleFont">
+                            Similar Products of {categoryName}
                             {productSubcategory ? ` (${productSubcategory})` : ""}
                         </h1>
                     </div>

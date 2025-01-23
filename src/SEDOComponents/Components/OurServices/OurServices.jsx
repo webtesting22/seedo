@@ -10,26 +10,34 @@ import About7 from "./About7 1.svg"
 import About10 from "./About10 1.svg"
 import TopBanner from "./TopBanner.svg"
 import ODMBanner from "./ODMBanner.svg"
+import WhiteLebelling from "./WhiteLebelling.jpg"
+import ODMNew from "./ODMNew.jpg"
+import BrandDiscribution from "./BrandDiscribution.jpg"
+import odm from "./odm.jpg"
+import OEM from "./OEM.jpg"
 const OurServices = () => {
     const servicesData = [
         {
             title: "Seedo Brand Distribution",
-            description: "-"
+            image:BrandDiscribution,
+            description: "Seedo proudly designs, manufactures, and markets toys under its own distinguished brand with its presence across India, delivering innovative and high-quality products that inspire creativity and joy across the country."
         },
         {
             title: "Original Equipment Manufacturer (OEM)",
+            image:OEM,
             description: "We specialize in Original Design Manufacturing, creating innovative products tailored to the clients' specifications. Our focus is on quality, customization, and delivering exceptional value to our partners."
         },
         {
             title: "Original Design Manufacturer (ODM)",
-            img: ODMBanner,
+            image: ODMNew,
             description: "We specialize in producing high-quality products tailored to our clients' specifications, ensuring exceptional quality and performance while fostering strong partnerships for mutual growth & success."
         },
         {
             title: "White Labelling",
+            image:WhiteLebelling,
             description: "We offer white-label solutions, allowing you to brand our high-quality products as your own, This enables you to expand your product range while maintaining your unique brand identity."
         },
-       
+
     ]
     useEffect(() => {
         // Scroll to the top of the page when the component is mounted
@@ -45,7 +53,10 @@ const OurServices = () => {
               
             </div> */}
             <section className="OurServicesContainer">
-            <h1>Our Offerings</h1>
+                <div className="SectionHeadingContainer">
+                    <h2 className="titleFont" data-aos="fade-up"
+                        data-aos-duration="1000"> Our Offerings</h2>
+                </div>
                 {/* <div className="OurServicesParagraph">
                     <Row>
                         <Col lg={24}>
@@ -60,7 +71,7 @@ const OurServices = () => {
                         </Col>
                     </Row>
                 </div> */}
-                
+
                 <div className="RowColumnsAdjustContainer">
                     <Row>
                         {servicesData.map((item, index) => (
@@ -69,7 +80,7 @@ const OurServices = () => {
                                 data-aos-delay={`${index * 100}`}>
                                 <div>
                                     <div className="BlankGrayBoxContainer">
-                                        <img src={item.img} alt="" />
+                                        <img src={item.image} alt="" />
                                     </div>
                                     <div>
                                         <h2>{item.title}</h2>

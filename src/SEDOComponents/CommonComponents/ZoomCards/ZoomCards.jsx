@@ -28,11 +28,32 @@ import { Autoplay, Pagination, FreeMode } from 'swiper/modules';
 import AboutUsSection from "./AboutUsSection.png"
 import Zepto from "./zepto-logo-vector_logoshape.png"
 import Whiskey from "./Whiskey.svg"
-
+import RightSideCar from "./RightSideCar.png"
+import LeftSideCar from "./LeftSideCar.png"
 const ZoomCards = () => {
     const imageRef = useRef(null);
     const [width, setWidth] = useState('40%');
+    const rightImageRef = useRef(null);
+    const leftImageRef = useRef(null);
+    const [scrollPosition, setScrollPosition] = useState(0);
 
+    // Handle scroll event
+    useEffect(() => {
+        const handleScroll = () => {
+            const scrollY = window.scrollY; // Get current scroll position
+            setScrollPosition(scrollY); // Update state with scroll position
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+            window.removeEventListener("scroll", handleScroll); // Cleanup on component unmount
+        };
+    }, []);
+
+    // Calculate translateY dynamically based on scroll position
+    const calculateTranslateY = (baseOffset, multiplier) => {
+        return `${baseOffset + scrollPosition * multiplier}px`;
+    };
     useEffect(() => {
         const handleScroll = () => {
             if (imageRef.current) {
@@ -67,42 +88,42 @@ const ZoomCards = () => {
         {
             link: "https://www.amazon.in/",
             img: amazon,
-            color:""
+            color: ""
         },
         {
             link: "https://www.flipkart.com/",
             img: flifkart,
-             color:""
+            color: ""
         },
         {
             link: "https://reliancesmartbazaar.com/",
             img: smartBazaar,
-             color:"DC3739"
+            color: "DC3739"
         },
         {
             link: "https://snooplay.in/",
             img: Snooplay,
-             color:"D32A2A"
+            color: "D32A2A"
         },
         {
             link: "https://www.swiggy.com/",
             img: swiggy,
-             color:"F15F34"
+            color: "F15F34"
         },
         {
             link: "https://whole9yards.in/",
             img: whole9years,
-             color:""
+            color: ""
         },
         {
             link: "https://www.zeptonow.com/",
             img: Zepto,
-             color:""
+            color: ""
         },
         {
             link: "",
             img: Wishkey,
-             color:"000000"
+            color: "000000"
         }
 
     ];
@@ -118,11 +139,33 @@ const ZoomCards = () => {
                 </div>
             </div> */}
             <div style={{ display: "flex", justifyContent: "center" }}>
-                <div className="SANSONGraphicContainer" id="SeedoPersonal">
+                <div id="SeedoPersonal">
+                    <div className="ImagesContainer">
+                        <img
+                            ref={rightImageRef}
+                            className="parallax-image"
+                            style={{
+                                transform: `translateY(${calculateTranslateY(-200, 0.2)})`, // Right image moves downward
+                                transition: "transform 0.1s linear",
+                            }}
+                            src={RightSideCar}
+                            alt="Right Side Car"
+                        />
+                        <img
+                            ref={leftImageRef}
+                            className="parallax-image"
+                            style={{
+                                transform: `translateY(${calculateTranslateY(200, -0.2)})`, // Left image moves upward
+                                transition: "transform 0.1s linear",
+                            }}
+                            src={LeftSideCar}
+                            alt="Left Side Car"
+                        />
+                    </div>
                     <div>
-                        <h1 style={{ fontSize: "30px", color: "white", margin: "0px" }} data-aos="fade-up"
-                            data-aos-duration="1000">SEEDO</h1>
-                       <p data-aos="fade-up"
+                        {/* <h1 style={{ fontSize: "30px", margin: "0px" }} data-aos="fade-up"
+                            data-aos-duration="1000">SEEDO</h1> */}
+                        <p data-aos="fade-up"
                             data-aos-duration="1500"><b>At Seedo,</b> we believe in sparking <b>creativity and joy</b> with every toy we make. <br />Our collection of high-quality, safe, and affordable toys is crafted to inspire children’s imaginations while giving parents complete peace of mind.
                         </p>
                     </div>
@@ -151,9 +194,11 @@ const ZoomCards = () => {
                             height: '100%',
                             objectFit: 'cover',
                         }} /> */}
-                        <h2 style={{ marginBottom: "0px", fontSize: "30px", textAlign: "center",width:"100%",background:"#bc252b0a" }} data-aos="fade-up"
-                            data-aos-duration="1000">Trusted Presence Across India</h2>
-                      
+                        <div className="SectionHeadingContainer" style={{ paddingBottom: "0px" }}>
+                            <h2 className="titleFont" data-aos="fade-up"
+                                data-aos-duration="1000">Trusted Presence Across India</h2>
+
+                        </div>
                         {/* <p data-aos="fade-up"
                             data-aos-duration="1500"><b>At Seedo Toys,</b> we believe in sparking <b>creativity and joy</b> with every toy we make. Our collection of high-quality, safe, and affordable toys is crafted to inspire children’s imaginations while giving parents complete peace of mind.
                         </p> */}
@@ -193,7 +238,7 @@ const ZoomCards = () => {
                             delay: 2000,
                             disableOnInteraction: false,
                         }}
-                        speed={1000}
+                        speed={800}
                         // pagination={{
                         //     clickable: true,
                         // }}

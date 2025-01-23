@@ -23,10 +23,10 @@ const Footer = () => {
             <section id="Footer">
                 <div className="FooterAdjustContainer">
                     <Row>
-                        <Col lg={6} style={{width:"100%"}}>
+                        <Col lg={6} style={{ width: "100%" }}>
                             <div>
-                                <img src={SEEDOLogo} alt="" style={{ width: "125px",borderRadius:"10px" ,marginTop:"25px"}} />
-                                <h1 style={{fontSize:"18px",fontWeight:"500"}}>Break the Limit</h1>
+                                <img src={SEEDOLogo} alt="" style={{ width: "125px", borderRadius: "10px", marginTop: "25px" }} />
+                                <h1 style={{ fontSize: "18px", fontWeight: "500" }}>Break the Limit</h1>
                             </div>
                         </Col>
                         <Col lg={6} md={12} style={{ width: "100%" }}>

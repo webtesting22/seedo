@@ -8,114 +8,101 @@ import { Drawer } from "antd"; // Import the Drawer component from Ant Design
 
 const Navigation = () => {
     const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
-    const [isLogoVisible, setLogoVisible] = useState(false); // Track visibility of Navigation Logo
-    const [isVisible, setIsVisible] = useState(false);
+    const [isScrolled, setIsScrolled] = useState(false); // Track if navigation bar is scrolled
+    const [scrollHeight, setScrollHeight] = useState(0); // Track the height of IncreaseBack
 
+    const { pathname } = useLocation(); // Get the current path
+
+    // Handle scroll position
     useEffect(() => {
         const handleScroll = () => {
-            if (window.scrollY > 400) {
-                setIsVisible(true);
-            } else {
-                setIsVisible(false);
-            }
+            const scrollTop = window.scrollY;
+            setIsScrolled(scrollTop > 300);
+
+            // Dynamically calculate height for IncreaseBack
+            const maxScroll = 300; // Adjust the range as per your preference
+            const maxHeight = 80; // Maximum height of IncreaseBack
+            const calculatedHeight = Math.min((scrollTop / maxScroll) * maxHeight, maxHeight);
+            setScrollHeight(calculatedHeight);
         };
 
         window.addEventListener("scroll", handleScroll);
-
         return () => {
             window.removeEventListener("scroll", handleScroll);
         };
     }, []);
 
-    const { pathname } = useLocation(); // Get the current path
-    const linkColor = pathname === "/" ? "black" : "black"; // Determine color based on the current page
-
-    useEffect(() => {
-        if (pathname === "/") {
-            // Logo visibility animation for the homepage
-            const scrollingLogoContainer = document.querySelector(".ScrollingLogoContainer");
-
-            const observer = new IntersectionObserver(
-                ([entry]) => {
-                    setLogoVisible(entry.isIntersecting);
-                },
-                { threshold: 0.6 } // Trigger when 60% of the element is visible
-            );
-
-            if (scrollingLogoContainer) {
-                observer.observe(scrollingLogoContainer);
-            }
-
-            return () => {
-                if (scrollingLogoContainer) {
-                    observer.unobserve(scrollingLogoContainer);
-                }
-            };
-        } else {
-            // Ensure logo is always visible on other pages
-            setLogoVisible(true);
-        }
-    }, [pathname]);
+    // Determine link color based on page and scroll position
+    const linkColor = pathname === "/" && !isScrolled ? "white" : "black";
 
     return (
-        <>
-            <section id="NavigationContainer">
-                <div className="ContainerNavigation">
-                    <div>
-                        <div className={`NavigationLogo ${pathname === "/"}`}>
-                            <Link to="/" className={`logo-container ${isVisible ? "visible" : ""}`}>
-                                <img src={SEEDoLogo} alt="Logo" />
+        <section id="NavigationContainer">
+            <div
+                className="IncreaseBack"
+                style={{
+                    height: `${scrollHeight}px`, 
+                    width: "100%",
+                    backgroundColor: "white", 
+                    transition: "height 0.3s ease",
+                }}
+            ></div>
+            <div
+                className={`ContainerNavigation ${isScrolled ? "scrolled" : ""}`}
+            >
+                <div>
+                    <div className={`NavigationLogo ${pathname === "/"}`}>
+                        <Link to="/" className="logo-container">
+                            <img src={SEEDoLogo} alt="Logo" />
+                        </Link>
+                    </div>
+                </div>
+                <div style={{ display: "flex", gap: "30px" }} className="PcManuOnly">
+                    {NavigationLinks.map((item, index) => (
+                        <div key={index} style={{ marginBottom: "1rem" }} id="NavigationLink">
+                            <Link
+                                to={item.path}
+                                style={{
+                                    color: linkColor, // Apply determined color
+                                    textDecoration: "none",
+                                }}
+                                onClick={() => setMobileMenuOpen(false)} // Close drawer on link click
+                            >
+                                {item.link}
                             </Link>
                         </div>
-                    </div>
-                    <div style={{display:"flex",gap:"30px"}} className="PcManuOnly">
-                        {NavigationLinks.map((item, index) => (
-                            <div key={index} style={{ marginBottom: "1rem" }} id="NavigationLink">
-                                <Link
-                                    to={item.path}
-                                    style={{
-                                        color: linkColor, // Apply determined color
-                                        textDecoration: "none",
-                                    }}
-                                    onClick={() => setMobileMenuOpen(false)} // Close drawer on link click
-                                >
-                                    {item.link}
-                                </Link>
-                            </div>
-                        ))}
-                    </div>
-                    <div className="MenuToggle" onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}>
-                        {isMobileMenuOpen ? <AiOutlineClose /> : <AiOutlineMenu />}
-                    </div>
+                    ))}
                 </div>
+                <div className="MenuToggle" onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}>
+                    {isMobileMenuOpen ? <AiOutlineClose /> : <AiOutlineMenu />}
+                </div>
+            </div>
 
-                {/* Ant Design Drawer */}
-                <div className="OnMoblilemenu">
-                    <Drawer
-                        title="SEEDO"
-                        placement="right"
-                        closable={true}
-                        onClose={() => setMobileMenuOpen(false)}
-                        open={isMobileMenuOpen}
-                    >
-                        {NavigationLinks.map((item, index) => (
-                            <div key={index} style={{ marginBottom: "1rem" }} id="NavigationLink">
-                                <Link
-                                    to={item.path}
-                                    style={{
-                                        color: linkColor, // Apply determined color
-                                        textDecoration: "none",
-                                    }}
-                                    onClick={() => setMobileMenuOpen(false)} // Close drawer on link click
-                                >
-                                    {item.link}
-                                </Link>
-                            </div>
-                        ))}
-                    </Drawer>
-                </div>
-            </section>
-        </>
+            {/* Ant Design Drawer */}
+            <div className="OnMoblilemenu">
+                <Drawer
+                    title="SEEDO"
+                    placement="right"
+                    closable={true}
+                    onClose={() => setMobileMenuOpen(false)}
+                    open={isMobileMenuOpen}
+                >
+                    {NavigationLinks.map((item, index) => (
+                        <div key={index} style={{ marginBottom: "1rem" }} id="NavigationLink">
+                            <Link
+                                to={item.path}
+                                style={{
+                                    color: linkColor, // Apply determined color
+                                    textDecoration: "none",
+                                }}
+                                onClick={() => setMobileMenuOpen(false)} // Close drawer on link click
+                            >
+                                {item.link}
+                            </Link>
+                        </div>
+                    ))}
+                </Drawer>
+            </div>
+        </section>
     );
 };
 

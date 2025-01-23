@@ -1,6 +1,11 @@
 #ProductContainer {
   background-color: #ffffff;
-  padding-top: 4rem;
+  padding-top: 5rem;
+}
+
+#ProductContainer .SectionHeadingContainer {
+  padding: 7rem 0rem !important;
+  background-color: rgb(149, 179, 224);
 }
 
 .BannerContainer img {
@@ -345,56 +350,144 @@
   color: white;
   margin-bottom: 0px;
 }
-
+#ProductContainer .CatalogueCardContainer {
+  min-height: 350px;
+}
 .CatalogueCardContainer {
   background-color: white;
-  /* min-height: 400px; */
+  min-height: 350px;
   height: 100%;
   /* margin: 20px 10px; */
-  border-radius: 20px;
-  border: 2px dashed #bc252a72;
+  padding: 15px;
+  border-radius: 10px;
+  position: relative;
+  /* border: 2px dashed #bc252a72; */
 }
 
-.CatalogueCardsContainer .ant-row .ant-col{
+.CatalogueCardsContainer .ant-row .ant-col {
   padding: 20px 10px;
 }
+
 .CatalogueCardsContainer {
   padding: 80px 40px;
+  padding-top: 5rem !important;
   /* margin-top: 5rem; */
 }
 
 .CatalogueImageContainer {
-  height: 300px;
+  height: 100%;
   width: 100%;
   /* background-color: #D9D9D9; */
-  border-radius: 19px;
-  padding: 10px;
+  border-radius: 10px;
+  /* padding: 10px; */
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+#ProductContainer .CatalogueImageContainer img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 .CatalogueImageContainer img {
-  width: 250px;
+  width: 350px;
+  height: 350px;
+
+  /* width: 280px; */
   /* height: 100%; */
-  /* object-fit: cover; */
+  object-fit: contain;
 }
 
 .productTitleContainer {
-  padding: 7px 40px;
+  /* position: sticky; */
+  color: white;
+  /* bottom: 0px; */
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  /* bottom: 0px; */
+  left: 0px;
+  top: 0px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  /* padding: 7px 40px; */
 }
 
 .productTitleContainer p {
   color: black;
 }
 
-.productTitleContainer h1 {
-  color: black;
-  font-size: 20px;
+#ProductContainer .productTitleContainer h1 {
+  color: #ffffff;
+  font-size: 18px;
   text-align: center;
 }
 
+.productTitleContainer h1 {
+  color: #2f2b2b;
+  font-size: 18px;
+  text-align: center;
+}
+
+.CategoryCountContainer p {
+  font-family: "Lato", serif;
+}
+
+.CategoryCountContainer p span {
+  color: black;
+  font-weight: bold;
+}
+
+.SectionInfoContainer {
+  /* width: 100%; */
+  background-color: transparent;
+  border: 1px solid #e0e0e0;
+  border-radius: 30px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 29px;
+}
+
+.SubCategoryProductsContainer .SectionHeadingContainer {
+  padding: 7rem 0rem;
+  background-color: rgb(149, 179, 224);
+}
+
+.SubCategoryProductsContainer {
+  padding-top: 5rem;
+}
+
+.CatalogueCardContainer .CatalogueImageContainer {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+}
+
+.CatalogueImageContainer img.product-image-hover {
+  position: absolute;
+  /* top: 0; */
+  /* left: 0; */
+  opacity: 0;
+  /* Make the hover image invisible by default */
+}
+
+.CatalogueImageContainer:hover img.product-image-hover {
+  opacity: 1;
+  /* Show the hover image when the container is hovered */
+}
+
+.CatalogueImageContainer:hover img.product-image {
+  opacity: 0;
+  /* Hide the first image on hover */
+}
 
 @media (min-width:1500px) and (max-width:3000px) {
   .CatalogueCardsContainer {

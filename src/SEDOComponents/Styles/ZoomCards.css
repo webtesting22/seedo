@@ -171,24 +171,28 @@ ul[class] {
 }
 
 #ZoomCardsContainer .GrayCardContainer {
-    height: 140px;
+    /* height: 140px; */
     width: 100%;
     /* background-color: #D9D9D9; */
     border-radius: 26px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     overflow: hidden;
     
 }
 
 .GrayCardContainer img {
-    width: 150px;
+    width: 180px;
     aspect-ratio: 3/2;
     object-fit: contain;
 }
 
+
+#SeedoPersonal div{
+    padding: 80px;
+}
 /* #ClientSliderContainer .swiper-wrapper {
     display: flex;
     justify-content: center;
@@ -243,14 +247,44 @@ ul[class] {
     width: 70%;
     padding: 40px 0px;
 }
-#SeedoPersonal div{
+/* #SeedoPersonal div{
 padding-bottom: 0px !important;
+} */
+
+#SeedoPersonal{
+    position: relative;
+    overflow: hidden;
+}
+#SeedoPersonal .ImagesContainer{
+    width: 100%;
+    position: absolute;
+    /* height: 100%; */
+    display: flex
+;
+    justify-content: space-between;
+    padding: 0px !important;
+    bottom: 0px;
+    top: 0px;
+}
+
+#SeedoPersonal .ImagesContainer img{
+    /* width: 7%; */
+    height: 70%;
+    opacity: 0.1;
+}
+#SeedoPersonal div{
+    display: flex;
+    justify-content: center;
 }
 #SeedoPersonal p {
     width: 80%;
+    text-align: center;
 }
 
 @media (max-width:769px) {
+    #SeedoPersonal div{
+        padding: 50px 10px;
+    }
     #SeedoPersonal p {
         width: 100%;
     }
@@ -266,7 +300,7 @@ padding-bottom: 0px !important;
         color: black;
     }
 .AboutSeedoContent {
-    padding: 80px 10px;
+    padding: 50px 10px;
 }
 
     #ZoomCardsContainer .headingHeaderContainer h1 {

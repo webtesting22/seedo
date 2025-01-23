@@ -326,3 +326,19 @@ p {
     flex-direction: column-reverse;
   }
 }
+.SectionHeadingContainer {
+  padding-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+}
+.SectionHeadingContainer h1{
+  font-size: 34px;
+  /* margin-top: 10px !important; */
+}
+.SectionHeadingContainer span{
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0px;
+}
+

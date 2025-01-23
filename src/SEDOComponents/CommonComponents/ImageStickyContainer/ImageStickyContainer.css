@@ -12,7 +12,9 @@
 }
 
 .WhyUsContainer {
-    padding: 80px 40px;
+    padding: 60px 40px;
+    position: relative;
+    overflow: hidden;
 }
 
 .stickyContainer {
@@ -24,36 +26,43 @@
     flex-direction: column;
     align-items: center;
 }
-.AnimatedImageContainer .ant-row .ant-col{
+
+.AnimatedImageContainer .ant-row .ant-col {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.AnimatedImageContainer .ant-row .ant-col:nth-child(2) img{
+.AnimatedImageContainer .ant-row .ant-col:nth-child(2) img {
     margin-top: 100px;
     opacity: 0 !important;
 }
+
 .AnimatedImageContainer .ant-row .ant-col img {
     width: 70%;
     border-radius: 20px;
 }
 
 .AnimatedImageContainer img {
-    opacity: 0.4; /* Start completely transparent */
-    transition: opacity 0.3s ease; /* Smooth fade transition */
-    will-change: opacity; /* Optimize for better performance */
-  }
-  
-  .AnimatedImageContainer {
+    opacity: 0.4;
+    /* Start completely transparent */
+    transition: opacity 0.3s ease;
+    /* Smooth fade transition */
+    will-change: opacity;
+    /* Optimize for better performance */
+}
+
+.AnimatedImageContainer {
     position: relative;
-    overflow: hidden; /* Prevent scrollbars from appearing */
-  }
-  
-  .AnimatedImageContainer img.fade-image {
-    transform: translateY(10px); /* Optional slight movement for extra smoothness */
-  }
-  
+    overflow: hidden;
+    /* Prevent scrollbars from appearing */
+}
+
+.AnimatedImageContainer img.fade-image {
+    transform: translateY(10px);
+    /* Optional slight movement for extra smoothness */
+}
+
 .BlackOverlayContainer {
     position: absolute;
     left: 0px;
@@ -153,24 +162,24 @@
     padding: 0rem 4rem;
 }
 
-
-
-.WhyUsContainer h2 {
-    font-size: 30px;
-    text-align: center;
-    margin: 0px;
-    width: 100%;
-    background-color: #bc252b0a;
-}
-
 .WhyUsContainer p {
     text-align: center;
     color: rgb(0, 0, 0);
     width: 70%;
-    font-size: 20px;
+    font-size: 18px;
     /* font-size: 50px; */
 }
+.WhyUsContainer .BackSVG{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    opacity: 0.5;
 
+}
+.WhyUsContainer .BackSVG svg path{
+    fill: #fcf9f4;
+}
 #ImageStickyContainer .WhyUsContainer {
     /* min-height: 300px; */
     width: 100%;
@@ -184,8 +193,9 @@
 
 @media (max-width:900px) {
     .WhyUsContainer {
-        padding: 80px 10px;
+        padding: 50px 10px;
     }
+
     .WhyUsContainer p {
         text-align: center;
         color: rgb(0, 0, 0);
@@ -193,10 +203,7 @@
         /* font-size: 50px; */
     }
 
-    .WhyUsContainer h2 {
-        font-size: 30px;
-        text-align: center;
-    }
+
 
     #ImageStickyContainer h1 {
         font-size: 50px;

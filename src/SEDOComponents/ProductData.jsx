@@ -76,7 +76,7 @@ import RC00124GHz from "/Images/ProductsImages/RC Car/116RC001-2.4GHz.png"
 import RC00127MHz from "/Images/ProductsImages/RC Car/116RC001-27MHz.png"
 import RC00224GHz from "/Images/ProductsImages/RC Car/116RC002-2.4GHz.png"
 import RC00227MHz from "/Images/ProductsImages/RC Car/116RC002-27MHz.png"
-import RC003 from "/Images/ProductsImages/RC Car/116RC003.png"
+import RC003 from "/Images/ProductsImages/RC Car/116RC003(black).png"
 import RC003_2 from "/Images/ProductsImages/RC Car/116RC003 (2).png"
 import SC001 from "/Images/ProductsImages/RC Car/116SC001.png"
 import SC002 from "/Images/ProductsImages/RC Car/116SC002.png"
@@ -107,11 +107,11 @@ import W003 from "/Images/ProductsImages/RC Car/1182W003.png"
 import STDR001 from "/Images/ProductsImages/RC Car/STDR001.png"
 import CRAWLER from "/Images/Products/ProductImages/CRAWLER.png"
 import ThunderBird1 from "../assets/MultipleViewImages/ThunderBird1.png"
-import ThunderBird2 from "../assets/MultipleViewImages/ThunderBird2.png"
+import ThunderBird2 from "../assets/MultipleViewImages/ThunderBird2(orange).png"
 import ThunderBird3 from "../assets/MultipleViewImages/ThunderBird3.png"
 import ThunderBird4 from "../assets/MultipleViewImages/ThunderBird4.png"
 import ThunderBird5 from "../assets/MultipleViewImages/ThunderBird5.png"
-import ThunderBird6 from "../assets/MultipleViewImages/ThunderBird6.png"
+import ThunderBird6 from "../assets/MultipleViewImages/ThunderBird6(yellow).png"
 import ThunderBird7 from "../assets/MultipleViewImages/ThunderBird7.png"
 import SuperSonic1 from "../assets/MultipleViewImages/SuperSonic1.png"
 import SuperSonic2 from "../assets/MultipleViewImages/SuperSonic2.png"
@@ -176,6 +176,7 @@ import LuxuriousCar8 from "../assets/MultipleViewImages/LuxuriousCar8.png"
 
 const SeedoProductData = {
     "Remote Controlled Cars": {
+        CategoriryImage:"/src/SEDOComponents/Components/AboutSEDO/SectionCurveImage.png",
         subcategories: {
             "1:18": [
                 {
@@ -867,7 +868,122 @@ const SeedoProductData = {
         // ]
     },
     "Metal Die Cast Cars": {
+        CategoriryImage:"/Images/DieCast.png",
         subcategories: {
+
+            "Pull Back Series": [
+
+                {
+                    id: 35,
+                    name: "SMR Pull Back Series-A01/6",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRPBSA016],
+                    ProductStyleCode: "SMR-PBS-A01/6",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
+                },
+                {
+                    id: 36,
+                    name: "SMR Pull Back Series-A02/6",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRPBSA026],
+                    ProductStyleCode: "SMR-PBS-A02/6",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
+                },
+                {
+                    id: 37,
+                    name: "SMR Pull Back Series-A03/6",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRPBSA036],
+                    ProductStyleCode: "SMR-PBS-A03/6",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
+                },
+                {
+                    id: 38,
+                    name: "SMR Pull Back Series-A04/6",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRPBSA046],
+                    ProductStyleCode: "SMR-PBS-A04/6",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
+                },
+                {
+                    id: 39,
+                    name: "SMR Pull Back Series-A05/6",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRPBSA056],
+                    ProductStyleCode: "SMR-PBS-A05/6",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
+                },
+                {
+                    id: 40,
+                    name: "SMR Pull Back Series-A06/6",
+                    ProductBatteryType: "-",
+                    ProductImage: [SMRPBSA066],
+                    ProductStyleCode: "SMR-PBS-A06/6",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Metal Die Cast</p>
+                                <p><b>Scale</b> 1:64</p>
+                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                            </div>
+                        </div>
+                    </>
+                }
+
+
+            ],
             "Construction Series": [
                 {
                     id: 29,
@@ -989,119 +1105,6 @@ const SeedoProductData = {
                         </div>
                     </>
                 },
-
-            ],
-            "Pull Back Series": [
-
-                {
-                    id: 35,
-                    name: "SMR Pull Back Series-A01/6",
-                    ProductBatteryType: "-",
-                    ProductImage: [SMRPBSA016],
-                    ProductStyleCode: "SMR-PBS-A01/6",
-                    Productdescription: <>
-                        <div>
-                            <div>
-                                <p><b>Material type</b> Metal Die Cast</p>
-                                <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
-                            </div>
-                        </div>
-                    </>
-                },
-                {
-                    id: 36,
-                    name: "SMR Pull Back Series-A02/6",
-                    ProductBatteryType: "-",
-                    ProductImage: [SMRPBSA026],
-                    ProductStyleCode: "SMR-PBS-A02/6",
-                    Productdescription: <>
-                        <div>
-                            <div>
-                                <p><b>Material type</b> Metal Die Cast</p>
-                                <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
-                            </div>
-                        </div>
-                    </>
-                },
-                {
-                    id: 37,
-                    name: "SMR Pull Back Series-A03/6",
-                    ProductBatteryType: "-",
-                    ProductImage: [SMRPBSA036],
-                    ProductStyleCode: "SMR-PBS-A03/6",
-                    Productdescription: <>
-                        <div>
-                            <div>
-                                <p><b>Material type</b> Metal Die Cast</p>
-                                <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
-                            </div>
-                        </div>
-                    </>
-                },
-                {
-                    id: 38,
-                    name: "SMR Pull Back Series-A04/6",
-                    ProductBatteryType: "-",
-                    ProductImage: [SMRPBSA046],
-                    ProductStyleCode: "SMR-PBS-A04/6",
-                    Productdescription: <>
-                        <div>
-                            <div>
-                                <p><b>Material type</b> Metal Die Cast</p>
-                                <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
-                            </div>
-                        </div>
-                    </>
-                },
-                {
-                    id: 39,
-                    name: "SMR Pull Back Series-A05/6",
-                    ProductBatteryType: "-",
-                    ProductImage: [SMRPBSA056],
-                    ProductStyleCode: "SMR-PBS-A05/6",
-                    Productdescription: <>
-                        <div>
-                            <div>
-                                <p><b>Material type</b> Metal Die Cast</p>
-                                <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
-                            </div>
-                        </div>
-                    </>
-                },
-                {
-                    id: 40,
-                    name: "SMR Pull Back Series-A06/6",
-                    ProductBatteryType: "-",
-                    ProductImage: [SMRPBSA066],
-                    ProductStyleCode: "SMR-PBS-A06/6",
-                    Productdescription: <>
-                        <div>
-                            <div>
-                                <p><b>Material type</b> Metal Die Cast</p>
-                                <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
-                            </div>
-                        </div>
-                    </>
-                }
-
 
             ],
             "Cruiser Series": [
@@ -1759,6 +1762,7 @@ const SeedoProductData = {
         // }
     },
     "Friction, Pull Back, Press & Go Toys": {
+        CategoriryImage:"/Images/Friction.png",
         products: [
             {
                 id: 76,

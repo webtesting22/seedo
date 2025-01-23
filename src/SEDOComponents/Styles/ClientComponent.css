@@ -1,8 +1,10 @@
 #ClientSection {
-  padding-top: 5rem !important;
-  padding: 0rem 4rem;
+  margin-top: 5rem;
 }
-
+#ClientSection>.SectionHeadingContainer{
+  padding: 7rem 0rem;
+  background-color: rgb(149, 179, 224);
+}
 .LogosContainer {
   width: 100%;
   
@@ -77,7 +79,8 @@
   }
   #ClientSection {
     padding-top: 2rem;
-    padding: 0rem 1rem;
+    padding: 0rem 0rem;
+    margin-top: 4rem !important;
   }
   .SectionEdit{
     padding: 0;

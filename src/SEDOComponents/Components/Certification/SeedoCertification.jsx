@@ -17,6 +17,9 @@ import sedex from "./sedex.png"
 import ISO from "./ISO.png"
 import GCE from "./GCE.png"
 import ASTM from "./ASTM.png"
+import ISO1 from "./9002015.jpeg"
+import ISO2 from "./140012015.jpeg"
+import ISO3 from "./450012018.jpeg"
 const SeedoCertification = () => {
     const CertificationLogoData = [
         {
@@ -24,20 +27,29 @@ const SeedoCertification = () => {
             title: " Make In India",
             link: "https://www.makeinindia.com/"
         },
-        
-        {
-            img:ISO,
-            title:"International Organization for Standardization"
-        },
         {
             img: logo3,
             title: "Good Manufacturing Practices",
             link: "https://www.who.int/teams/health-product-policy-and-standards/standards-and-specifications/norms-and-standards/gmp"
         },
         {
-            img:sedex,
-            title:"Supplier Ethical Data Exchange"
+            img: sedex,
+            title: "Supplier Ethical Data Exchange"
         },
+
+        {
+            img: ISO1,
+            title: "International Organization for Standardization (9001 : 2015)"
+        },
+        {
+            img: ISO2,
+              title: "International Organization for Standardization (14001 : 2015)"
+        },
+        {
+            img: ISO3,
+              title: "International Organization for Standardization (45001 : 2018)"
+        },
+       
         {
             img: ASTM,
             title: "ASTM International",
@@ -55,23 +67,23 @@ const SeedoCertification = () => {
 
         },
         {
-            img:GCE,
-            title:"Gas Control Equipment"
+            img: GCE,
+            title: "Gas Control Equipment"
         },
-        
+
         // {
         //     img:logo2
         // },
-       
-        
-       
+
+
+
         // {
         //     img: logo2,
         //     title: "Government E-Marketplace",
         //     // link: "https://green-em.com/"
         //     link: "https://gem.gov.in/",
         // },
-      
+
 
 
         {
@@ -79,7 +91,7 @@ const SeedoCertification = () => {
             title: "Gulf Conformity Mark",
             link: "https://www.gso.org.sa/en/conformity/gcc-conformity-mark/"
         },
-    
+
         // {
         //     img: logo5,
         //     title: "International Organization for Standardization",
@@ -97,8 +109,8 @@ const SeedoCertification = () => {
             title: "Ministry of Micro, Small and Medium Enterprises",
             link: "https://www.msme.gov.in"
         },
-       
-       
+
+
     ]
     return (
         <>
@@ -171,16 +183,16 @@ const SeedoCertification = () => {
                     </Row>
                 </div> */}
             </section>
-
+            <div className="SectionHeadingContainer">
+                <h2 className="titleFont">Certifications</h2>
+            </div>
             <section className="Certificates">
-                <div className="CertificatesHeadingContainer">
-                    <h1>Certifications</h1>
-                </div>
+
                 <div>
                     <Row>
                         {CertificationLogoData.map((item, index) => (
                             <Col
-                                lg={index < 1 ? 24 : 8} // lg={12} for the first two items, lg={8} for the rest
+                                lg={index < 0 ? 24 : 8} // lg={12} for the first two items, lg={8} for the rest
                                 md={12} // md={12} for all items
                                 key={index}
                                 data-aos="fade-up"

@@ -17,6 +17,7 @@ import RemoteCar from "./RemoteCar.svg"
 import DieCast from "./DieCast.svg"
 import EarlyLearning from "./EarlyLearning.svg"
 import ProductContext from "./Context/ProductContext";
+import space from "./space.png"
 const { Search } = Input;
 
 const Products = () => {
@@ -93,7 +94,6 @@ const Products = () => {
     }, []);
     const staticProductCategories = ["Category1", "Category2", "Category3"]; // Define static categories
 
-
     return (
         <>
             <div className="AboutUs">
@@ -101,11 +101,32 @@ const Products = () => {
             </div>
 
             <section id="ProductContainer">
-                <div className="ProductHeaderContainer">
+                {/* <div className="ProductHeaderContainer">
                     <img src={ProductPageBanner} alt="" />
-                    {/* <h1>We Create For You!</h1> */}
+                    <h1>We Create For You!</h1>
+                </div> */}
+                <div className="SectionHeadingContainer" style={{ paddingBottom: "0px" }}>
+                    {/* <img src={space} alt="" /> */}
+                    <h2 className="titleFont" data-aos="fade-up"
+                        data-aos-duration="1000">Heading Container</h2>
+                    {/* <div className="BackSVG">
+                    <svg width="1895" height="997" viewBox="0 0 1895 997" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M489 15.2177C394.5 -2.98877 212 -4.08235 0 74.7177V996.5H1895V18.2177C1888.83 23.8843 1864.8 39.2177 1818 55.2177C1739.67 78.551 1575.33 94.0308 1397 48.5C1373.5 42.5 1279.3 16.1177 1240.5 9.71766C1187.5 0.217663 1045.7 -14.9823 822.5 36.2177C745.5 53.8807 663.4 48.8177 489 15.2177Z" fill="#A0DEF7" />
+                    </svg>
+                </div> */}
                 </div>
                 <div className="CatalogueCardsContainer">
+                    <div className="SectionInfoContainer">
+                        <div className="CategoryCountContainer" style={{ width: "100%" }}>
+                            <p> <span>{Object.keys(SeedoProductData).length}</span> Available Selections</p>
+                        </div>
+                        <div style={{ width: "100%" }}>
+                            <p style={{ textAlign: "center" }}>  hello</p>
+                        </div>
+                        <div style={{ width: "100%" }} className="SortFilterContainer">
+                            <p style={{ textAlign: "end" }}> hello</p>
+                        </div>
+                    </div>
                     <Row>
                         {Object.keys(SeedoProductData).map((categoryName, index) => {
                             const categoryData = SeedoProductData[categoryName];
@@ -129,14 +150,26 @@ const Products = () => {
                                 }
                             }
 
+                            const colors = [
+                                "rgba(9, 177, 171, 0.25)",
+                                "rgba(241, 142, 170, 0.23)",
+                                "rgba(173, 133, 179, 0.22)",
+                                "rgba(80, 173, 105, 0.24)",
+                                "rgba(9, 177, 171, 0.25)"
+                            ];
+
+                            // Get the background color for the current index
+                            const backgroundColor = colors[index % colors.length];
+
+
                             return (
                                 <Col key={index} lg={8} md={12} style={{ width: "100%" }}>
                                     {/* If subcategories exist, redirect to subcategories page; otherwise, to products page */}
                                     <Link to={hasSubcategories ? `/subcategories/${categoryName}` : `/subcategoriesproducts/${categoryName}`}>
-                                        <div className="CatalogueCardContainer">
+                                        <div className="CatalogueCardContainer" style={{ backgroundColor }} >
                                             <div className="CatalogueImageContainer">
                                                 {/* Check if there are products in the category */}
-                                                {products.length > 0 ? (
+                                                {/* {products.length > 0 ? (
                                                     <img
                                                         src={products[0].ProductImage?.[0] || "path/to/placeholder_image.jpg"}
                                                         alt={products[0].name || "Placeholder"}
@@ -147,7 +180,11 @@ const Products = () => {
                                                         src={subcategorySecondImage}
                                                         alt={`${categoryName} First Product`}
                                                     />
-                                                )}
+                                                )} */}
+                                                <img
+                    src={categoryData?.CategoriryImage || "path/to/placeholder_image.jpg"} // Use the category image
+                    alt={`${categoryName} Category Image`} // Alt text for the image
+                />
                                             </div>
                                             <div className="productTitleContainer">
                                                 <h1>{categoryName}</h1>

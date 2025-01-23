@@ -36,6 +36,8 @@ import About3 from "./About3.svg"
 import About5 from "./About5 1.svg"
 import About7 from "./About7 1.svg"
 import About10 from "./About10 1.svg"
+import TopAboutUsWavesImage from "./TopAboutUsWavesImage.webp"
+import SectionCurveImage from "./SectionCurveImage.png"
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -155,6 +157,8 @@ const AboutSeedo = () => {
         // Scroll to the top of the page when the component is mounted
         window.scrollTo(0, 0);
     }, []);
+
+    
     return (
         <>
             <div className="AboutUs">
@@ -241,10 +245,12 @@ const AboutSeedo = () => {
                     <img src={BackBannerAbout} alt="" />
                 </div> */}
                 <div className="AboutContentContainer">
+                    {/* <img src={TopAboutUsWavesImage} alt="" /> */}
                     <div className="paddingContainer">
-                        <h1 data-aos="fade-up"
-                            data-aos-duration="1000">About us</h1>
-                        <br />
+                        
+                        <div className="SectionHeadingContainer" style={{ paddingBottom: "0px" }}>
+                            <h2 className="titleFont">About Us</h2>
+                        </div>
                         <p data-aos="fade-up"
                             data-aos-duration="1500">Driven by innovation and strong technical control,
                             we at Seedo have developed a range of
@@ -289,6 +295,14 @@ const AboutSeedo = () => {
                 </div>
             </section>
             <section className="MissionContainer">
+                <div className="SectionHeadingContainer">
+                    <h2 className="titleFont" style={{ position: "sticky", zIndex: "5" }}>Our Core Values and Objectives</h2>
+                </div>
+                <div className="BackSVG">
+                    <svg width="1895" height="997" viewBox="0 0 1895 997" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M489 15.2177C394.5 -2.98877 212 -4.08235 0 74.7177V996.5H1895V18.2177C1888.83 23.8843 1864.8 39.2177 1818 55.2177C1739.67 78.551 1575.33 94.0308 1397 48.5C1373.5 42.5 1279.3 16.1177 1240.5 9.71766C1187.5 0.217663 1045.7 -14.9823 822.5 36.2177C745.5 53.8807 663.4 48.8177 489 15.2177Z" fill="#A0DEF7" />
+                    </svg>
+                </div>
                 <div>
                     <Row>
 
@@ -339,7 +353,7 @@ const AboutSeedo = () => {
                         <Col lg={12} md={24}>
 
                             <div className="VisionMissionImageContainer">
-                                <img src="https://images.unsplash.com/photo-1681351623149-91d23d44909b?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+                                <img src={SectionCurveImage} alt="" />
                             </div>
                         </Col>
                     </Row>
@@ -431,9 +445,8 @@ const AboutSeedo = () => {
             <div className="AjustCenterContainer">
 
                 <div className="AdjustWidthSection">
-                    <div>
-                        <h1 data-aos="fade-up"
-                            data-aos-duration="1000">In-House Spraying</h1>
+                    <div className="SectionHeadingContainer">
+                        <h2 className="titleFont" style={{ textAlign: "start" }}>In-House Spraying</h2>
                     </div>
                     <div>
                         <Row>
@@ -487,9 +500,13 @@ const AboutSeedo = () => {
                     </div>
                 </div>
                 <div className="AdjustWidthSection">
-                    <div>
-                        <h1 data-aos="fade-up"
-                            data-aos-duration="1000">Self-Reliant PCBs Manufacturing</h1>
+                <div className="BackSVG">
+                    <svg width="1895" height="997" viewBox="0 0 1895 997" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M489 15.2177C394.5 -2.98877 212 -4.08235 0 74.7177V996.5H1895V18.2177C1888.83 23.8843 1864.8 39.2177 1818 55.2177C1739.67 78.551 1575.33 94.0308 1397 48.5C1373.5 42.5 1279.3 16.1177 1240.5 9.71766C1187.5 0.217663 1045.7 -14.9823 822.5 36.2177C745.5 53.8807 663.4 48.8177 489 15.2177Z" fill="#A0DEF7" />
+                    </svg>
+                </div>
+                    <div className="SectionHeadingContainer">
+                        <h2 className="titleFont" style={{ textAlign: "start" }}>Self-Reliant PCBs Manufacturing</h2>
                     </div>
                     <div>
                         <Row>

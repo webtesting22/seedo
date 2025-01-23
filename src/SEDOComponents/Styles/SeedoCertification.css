@@ -44,7 +44,7 @@
     }
 
     #SeedoCertificationContainer {
-        padding-top: 2rem;
+        padding-top: 4rem !important;
         padding: 0rem 0rem;
     }
 
@@ -113,12 +113,12 @@
     margin-top: 80px;
 }
 
-.CertificatesHeadingContainer h1 {
+/* .CertificatesHeadingContainer h1 {
     font-size: 30px;
     text-align: center;
     margin-bottom: 20px;
     background-color: #bc252b0a;
-}
+} */
 .Certificates .CerticationCardGreyBox{
     min-height: 200px;
     display: flex !important;
@@ -161,13 +161,14 @@
 
 
 .CerticationCardGreyBox img {
-    width: 150px;
+    width: 190px;
     height: 100%;
     aspect-ratio: 3/2;
     object-fit: contain;
 }
 
 .Certificates {
+    padding-top: 5rem !important;
     padding: 0px 40px;
 }
 
@@ -185,7 +186,7 @@
 .CerticationCardGreyBox h2 {
     font-size: 20px;
     text-align: center;
-    color: #BC252B;
+    color: #2f2b2b;
     /* font-weight: 400; */
 }
 
@@ -222,6 +223,11 @@
 
 .LeaderShipCardContainer .ant-row .ant-col {
     width: 100%;
+}
+
+#CertificationAndClient .SectionHeadingContainer{
+    padding: 7rem 0rem;
+    background-color: rgb(149, 179, 224);
 }
 
 @media (max-width:769px) {
@@ -300,11 +306,11 @@
         padding: 0rem 1rem;
     }
 
-    .CertificatesHeadingContainer h1 {
+    /* .CertificatesHeadingContainer h1 {
         font-size: 30px;
         text-align: center;
         margin-bottom: 20px;
-    }
+    } */
 
     .CertificationContainer {
         min-height: 400px;

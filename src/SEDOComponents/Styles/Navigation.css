@@ -3,23 +3,63 @@
   position: fixed;
   z-index: 55;
   width: 100%;
-  background-color: #EFEEEE;
+  background-color: transparent;
   top: 0px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 
 #NavigationLink {
   margin-bottom: 0px !important;
+  position: relative;
+  transition: .5s;
+  padding: 0px 5px;
+  display: flex;
+  justify-content: center;
 }
+#NavigationLink:hover{
+  transform: translatey(-3px);
+  transition: .5s;
+}
+#NavigationLink::before {
+  content: "";
+  height: 5px;
+  background-color: transparent;
+  border: 0.5px solid transparent;
+  display: inline-block;
+  opacity: 1;
+  width: 0%;
+  position: absolute;
+  bottom: 0px;
+  transition: .5s;
+  border-radius: 10px;
+}
+
+#NavigationLink:hover::before {
+  content: "";
+  height: 5px;
+  background-color: #f8c6d466;
+  border: 0.5px solid #f8c6d466;
+  display: inline-block;
+  opacity: 1;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  transition: .5s;
+  border-radius: 10px;
+}
+
 
 #NavigationLink a {
   font-size: 18px;
   transition: .5s;
   font-weight: 500;
+  position: sticky;
 }
 
 #NavigationLink a:hover {
   padding-top: -10px;
   font-weight: 600;
+
 }
 
 
@@ -61,7 +101,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 3rem;
+  padding: 1rem 3rem;
   /* backdrop-filter: blur(10px); */
 }
 
@@ -116,12 +156,18 @@
 .OnMoblilemenu {
   display: none !important;
 }
+.IncreaseBack{
+  position: absolute;
+  top: 0px;
+}
 
 @media (max-width: 769px) {
 
-#NavigationLink {
-  margin-bottom:20px !important;
-}
+  #NavigationLink {
+    margin-bottom: 20px !important;
+    display: block !important;
+  }
+
   .PcManuOnly {
     display: none !important;
   }
@@ -129,6 +175,7 @@
   #NavigationLink a {
     font-size: 20px;
     transition: .5s;
+    color: black !important;
   }
 
   #NavigationLink a:hover {

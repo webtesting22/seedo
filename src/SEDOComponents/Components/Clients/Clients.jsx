@@ -40,33 +40,30 @@ import Blinkit from "./Blinkit.png"
 import Hamleys from "./Hamleys_logo 1.png"
 import lulu from "./lulu.png"
 import Navigation from "../../CommonComponents/Navigation/Navigation";
-import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-// import required modules
-import { Autoplay, Pagination, FreeMode } from 'swiper/modules';
 const Client = () => {
-    const OfllineClients = [
-        {
-            img: image1
-        },
-        {
-            img: image2,
-        },
-        {
-            img: image3
-        },
-        {
-            img: image4
-        },
-        {
-            img: image5
-        },
-        {
-            img: image6
-        }
-    ]
+    // const OfllineClients = [
+    //     {
+    //         img: image1
+    //     },
+    //     {
+    //         img: image2,
+    //     },
+    //     {
+    //         img: image3
+    //     },
+    //     {
+    //         img: image4
+    //     },
+    //     {
+    //         img: image5
+    //     },
+    //     {
+    //         img: image6
+    //     }
+    // ]
     const LogosData = [
 
 
@@ -140,16 +137,20 @@ const Client = () => {
     const Clients = [
 
         {
-            img: image1
+            img: image1,
+            link: "https://www.miniso.com/"
         },
         {
-            img: Hamleys
+            img: Hamleys,
+            link: "https://www.hamleys.in/"
         },
         {
-            img: Blinkit
+            img: Blinkit,
+            link: "https://blinkit.com/"
         },
         {
-            img: MRDIY
+            img: MRDIY,
+            link: "https://www.mrdiy.co.in/"
         },
 
 
@@ -161,11 +162,13 @@ const Client = () => {
             img: Zepto
         },
         {
-            img: image5
+            img: image5,
+            link: "https://www.toysrus.in/"
         },
 
         {
-            img: image6
+            img: image6,
+            link: "https://www.vishalmegamart.com/"
         },
         {
             link: "https://www.amazon.in/",
@@ -192,13 +195,16 @@ const Client = () => {
 
 
         {
-            img: Dmart
+            img: Dmart,
+            link: "https://www.dmart.in/"
         },
         {
-            img: lulu
+            img: lulu,
+            link: "https://gcc.luluhypermarket.com/"
         },
         {
-            img: MUMUSO
+            img: MUMUSO,
+            link: "https://www.mumuso.com/"
         },
 
         {
@@ -206,10 +212,12 @@ const Client = () => {
             img: Wishkey
         },
         {
-            img: image3
+            img: image3,
+            link: "https://wembleytoys.com/"
         },
         {
             img: image2,
+            link:"https://www.24seventalent.com/"
         },
         {
             link: "https://snooplay.in/",
@@ -223,29 +231,30 @@ const Client = () => {
                 <Navigation />
             </div>
             <section id="ClientSection">
-                <div className="headingHeaderContainer">
-                    <h1 style={{ textAlign: "center", fontSize: "30px", backgroundColor: "#bc252b0a", marginTop: "80px" }}>Our Clients</h1>
+                <div className="SectionHeadingContainer">
+                    <h2 className="titleFont" data-aos="fade-up"
+                        data-aos-duration="1000">Our Clients</h2>
                 </div>
-                <br /><br />
-                <Row className="RowAdjustContainer">
-                    {/* <div id="ClientSliderContainer"> */}
-                    {Clients.map((item, index) => (
-                        <Col lg={4} md={6} key={index} data-aos="fade-up"
-                            data-aos-delay={`${index * 100}`}>
-                            <Link to={item.link} target="_blank">
-                                <div className="CerticationCardGreyBox">
-                                    <img src={item.img} alt="" />
-                                </div>
-                            </Link>
-                        </Col>
-                    ))}
-                </Row>
-                {/* <br /><br />
+                <div className="RowColumnsAdjustContainer">
+                    <Row className="RowAdjustContainer">
+                        {/* <div id="ClientSliderContainer"> */}
+                        {Clients.map((item, index) => (
+                            <Col lg={4} md={6} key={index} data-aos="fade-up"
+                                data-aos-delay={`${index * 100}`}>
+                                <Link to={item.link} target="_blank">
+                                    <div className="CerticationCardGreyBox">
+                                        <img src={item.img} alt="" />
+                                    </div>
+                                </Link>
+                            </Col>
+                        ))}
+                    </Row>
+                    {/* <br /><br />
                 <div className="headingHeaderContainer">
                     <h1 style={{ textAlign: "center", fontSize: "30px", backgroundColor: "#bc252b0a" }}>Offline Seedo</h1>
                 </div>
                 <br /><br /> */}
-                {/* <Row className="RowAdjustContainer">
+                    {/* <Row className="RowAdjustContainer">
                     <div id="ClientSliderContainer">
                     {OfllineClients.map((item, index) => (
                         <Col lg={4} md={6} key={index} data-aos="fade-up"
@@ -259,12 +268,11 @@ const Client = () => {
                     ))}
                 </Row> */}
 
-                <section className="OURLEADERSHIPContainer">
-                    <div className="LeaderShipHeaderContainer">
-                        {/* <h1>Sanson Promotion Innovations LLP Clients</h1> */}
-                        <h1>Our Trusted Partners</h1>
-                    </div>
-                    <div className="LeaderShipCardContainer">
+                    <section className="OURLEADERSHIPContainer">
+                        <div className="SectionHeadingContainer">
+                            <h2 className="titleFont">Our Trusted Partners</h2>
+                        </div>
+
                         <Row>
                             {LogosData.map((item, index) => (
                                 <Col lg={4} md={6} key={index} data-aos="fade-up"
@@ -311,12 +319,11 @@ const Client = () => {
                             </div>
                         </Col> */}
                         </Row>
-                    </div>
-                    <p> *These are the consumer promotion brands and business partners we have worked and developed promotions for.*</p>
-                </section>
+                        <p> *These are the consumer promotion brands and business partners we have worked and developed promotions for.*</p>
+                    </section>
 
-                <br /><br />
-                {/* <div className="LeftSideContentContainer">
+                    <br /><br />
+                    {/* <div className="LeftSideContentContainer">
                     <h2 className="PrimaryHeading-black"><svg width="100%" class="svg rotating-image" height="100%" viewBox="0 0 20 23" fill="red" xmlns="http://www.w3.org/2000/svg">
                         <path d="M8.01745 19.7867C8.01745 21.7867 9.29195 23.001 10 23.001C10.7081 23.001 11.9826 21.7867 11.9826 19.7867C11.9826 19.5724 10.2124 14.2867 10.1416 11.7867C12.195 13.0724 15.9477 17.2867 16.1601 17.3581C17.8594 18.3581 19.4879 17.8581 19.9128 17.2867C20.196 16.6438 19.842 14.9295 18.0718 13.9295C17.8594 13.7867 12.549 12.7153 10.2832 11.501C12.549 10.2867 17.8594 9.21526 18.0718 9.0724C19.842 8.0724 20.196 6.35812 19.9128 5.78669C19.4879 5.14383 17.8594 4.64383 16.1601 5.64383C15.9477 5.78669 12.195 9.92955 10.1416 11.2867C10.2124 8.71526 11.9826 3.57241 11.9826 3.21526C11.9826 1.21526 10.7081 0.000976562 10 0.000976562C9.29195 0.000976562 8.01745 1.21526 8.01745 3.21526C8.01745 3.50097 9.71678 8.71526 9.85839 11.2867C7.73423 9.92955 4.12315 5.78669 3.83993 5.64383C2.1406 4.64383 0.512072 5.14383 0.0872398 5.78669C-0.195982 6.35812 0.158045 8.0724 1.92818 9.0724C2.2114 9.21526 7.451 10.2867 9.64597 11.501C7.451 12.7153 2.2114 13.7867 1.92818 13.9295C0.158045 14.9295 -0.195982 16.6438 0.0872398 17.2867C0.512072 17.8581 2.1406 18.3581 3.83993 17.3581C4.05234 17.2153 7.73423 13.0724 9.85839 11.7867C9.71678 14.2867 8.01745 19.5724 8.01745 19.7867Z" fill="currentColor"></path>
                     </svg> Trusted Partner</h2>
@@ -346,7 +353,7 @@ const Client = () => {
                     </Col>
                 </Row>
                 <br /><br /> */}
-                {/* <Row className="row-reverse">
+                    {/* <Row className="row-reverse">
 
                     <Col lg={10}>
                         <div className="LogosContainer">
@@ -377,6 +384,7 @@ const Client = () => {
                         </div>
                     </Col>
                 </Row> */}
+                </div>
             </section>
         </>
     )
