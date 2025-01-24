@@ -1874,7 +1874,7 @@ const SeedoProductData = {
 
 
     "Early Learning Toys": {
-        CategoriryImage: "/Images/EarlyLearning.png",
+        CategoriryImage: "/Images/EarlyLearn.png",
         products: [
             {
                 id: 84,
