@@ -204,6 +204,22 @@ import BrainyBear1 from "../assets/MultipleViewImages/BrainyBear1(brown).png"
 import BrainyBear2 from "../assets/MultipleViewImages/BrainyBear2(White).png"
 import BrainyBear3 from "../assets/MultipleViewImages/BrainyBear3.png"
 import BrainyBear4 from "../assets/MultipleViewImages/BrainyBear4(beige).png"
+import BigStunt1 from "../assets/MultipleViewImages/BigStunt1(blue).jpg"
+import BigStunt2 from "../assets/MultipleViewImages/BigStunt2(orange).jpg"
+import BigStunt3 from "../assets/MultipleViewImages/BigStunt3.jpg"
+import BigStunt4 from "../assets/MultipleViewImages/BigStunt4.jpg"
+import BigStunt5 from "../assets/MultipleViewImages/BigStunt5.jpg"
+import BlazeRunner1 from "../assets/MultipleViewImages/BlazeRunner1(blue).png"
+import BlazeRunner2 from "../assets/MultipleViewImages/BlazeRunner2(red).png"
+import BlazeRunner3 from "../assets/MultipleViewImages/BlazeRunner3.png"
+import BlazeRunner4 from "../assets/MultipleViewImages/BlazeRunner4(orange).png"
+import BlazeRunner5 from "../assets/MultipleViewImages/BlazeRunner5(green).png"
+import BlazeRunner6 from "../assets/MultipleViewImages/BlazeRunner6.png"
+import BlazeRunner7 from "../assets/MultipleViewImages/BlazeRunner7.png"
+import BlazeRunner8 from "../assets/MultipleViewImages/BlazeRunner8.png"
+import BlazeRunner9 from "../assets/MultipleViewImages/BlazeRunner9.png"
+import BlazeRunner10 from "../assets/MultipleViewImages/BlazeRunner10.png"
+import BlazeRunner11 from "../assets/MultipleViewImages/BlazeRunner11.png"
 const SeedoProductData = {
     "Remote Controlled Cars": {
         CategoriryImage: "Images/RCCar.png",
@@ -287,7 +303,7 @@ const SeedoProductData = {
                     name: " Blaze Runner Car",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        RC001
+                        RC001, BlazeRunner1, BlazeRunner2, BlazeRunner3, BlazeRunner4, BlazeRunner5, BlazeRunner6, BlazeRunner7, BlazeRunner8, BlazeRunner9, BlazeRunner10, BlazeRunner11
                     ],
                     ProductStyleCode: "118RC001",
                     Productdescription: <>
@@ -527,10 +543,10 @@ const SeedoProductData = {
             "Stunt Car": [
                 {
                     id: 15,
-                    name: " Big Stunt Car",
+                    name: "Big Stunt Car",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        SC001_118
+                        SC001_118, BigStunt1, BigStunt2, BigStunt3, BigStunt4, BigStunt5
                     ],
                     ProductStyleCode: "118SC001",
                     Productdescription: <>
@@ -1997,7 +2013,7 @@ const SeedoProductData = {
                 id: 88,
                 name: "BRAINY BEAR",
                 ProductBatteryType: "-",
-                ProductImage: [SLTBB001,BrainyBear1,BrainyBear2,BrainyBear3,BrainyBear4],
+                ProductImage: [SLTBB001, BrainyBear1, BrainyBear2, BrainyBear3, BrainyBear4],
                 ProductStyleCode: "-",
                 Productdescription: <>
                     <div>
