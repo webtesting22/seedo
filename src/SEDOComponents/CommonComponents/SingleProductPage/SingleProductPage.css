@@ -389,9 +389,9 @@ width: 150px !important;
     object-fit: contain;
 }
 
-.OnMobileOnly {
+/* .OnMobileOnly {
     display: none;
-}
+} */
 
 /* .OnPCOnly {
     display: flex;
@@ -415,7 +415,20 @@ width: 150px !important;
 /* .ColorsContainer div .ColorSwatch:first-child{
     display: none;
 } */
+.OnPCOnly {
+    display: block;
+    position: relative;
+}
+.OnPCOnly .swiper{
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    bottom: 0px;
+}
 
+.OnMobileOnly {
+    display: none;
+}
 @media (max-width:900px) {
     .ProductTitle {
         padding-left: 10px;

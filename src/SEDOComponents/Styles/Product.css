@@ -350,9 +350,11 @@
   color: white;
   margin-bottom: 0px;
 }
+
 #ProductContainer .CatalogueCardContainer {
   min-height: 350px;
 }
+
 .CatalogueCardContainer {
   background-color: white;
   min-height: 350px;
@@ -395,7 +397,6 @@
 .CatalogueImageContainer img {
   width: 350px;
   height: 350px;
-
   /* width: 280px; */
   /* height: 100%; */
   object-fit: contain;
@@ -471,23 +472,39 @@
   right: 0px;
 }
 
-.CatalogueImageContainer img.product-image-hover {
+.product-image,
+.product-image-hover {
   position: absolute;
-  /* top: 0; */
-  /* left: 0; */
-  opacity: 0;
-  /* Make the hover image invisible by default */
+  /* top: 0;
+  left: 0; */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Ensures the image scales properly */
+  transition: opacity 0.5s ease-in-out;
+  /* Smooth transition effect */
 }
 
-.CatalogueImageContainer:hover img.product-image-hover {
+.product-image {
   opacity: 1;
-  /* Show the hover image when the container is hovered */
+  /* First image is visible by default */
 }
 
-.CatalogueImageContainer:hover img.product-image {
+.product-image-hover {
+  opacity: 0;
+  /* Second image is hidden by default */
+}
+
+.CatalogueCardContainer:hover .product-image {
   opacity: 0;
   /* Hide the first image on hover */
 }
+
+.CatalogueCardContainer:hover .product-image-hover {
+  opacity: 1;
+  /* Hide the first image on hover */
+}
+
 
 @media (min-width:1500px) and (max-width:3000px) {
   .CatalogueCardsContainer {

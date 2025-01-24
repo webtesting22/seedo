@@ -4,6 +4,15 @@ import Navigation from "../Navigation/Navigation";
 import "./SingleProductPage.css";
 import { Row, Col, Image, Breadcrumb } from "antd";
 import SeedoProductData from "../../ProductData";
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/free-mode';
+import 'swiper/css/pagination';
+
+// import required modules
+import { Autoplay, FreeMode, Pagination } from 'swiper/modules';
 
 const SingleProductPage = () => {
     const { categoryName, productId } = useParams();
@@ -103,22 +112,44 @@ const SingleProductPage = () => {
                             <Col lg={16} style={{ width: "100%" }}>
                                 <Row style={{ height: "100%" }}>
                                     <Col lg={4} className="OnPCOnly" style={{ width: "100%" }}>
-                                        <div style={{ height: "590px", overflow: "auto" }}>
-                                            {otherImages.length > 0 ? (
-                                                otherImages.map((img, index) => (
-                                                    <div
-                                                        key={index}
-                                                        className="OtherImageThumbnail"
-                                                        onClick={() => handleImageClick(img)}
-                                                        style={{ cursor: "pointer" }}
-                                                    >
-                                                        <img src={img} alt={`Other image ${index + 1}`} />
-                                                    </div>
-                                                ))
-                                            ) : (
-                                                <p>Other images coming soon!</p>
-                                            )}
-                                        </div>
+                                        <Swiper
+                                            slidesPerView={5}
+                                            spaceBetween={30}
+                                            freeMode={true}
+                                            direction={'vertical'}
+                                            autoplay={{
+                                                delay: 2000,
+                                                disableOnInteraction: true,
+                                            }}
+                                            loop={true}
+                                            // pagination={{
+                                            //     clickable: true,
+                                            // }}
+                                            modules={[Autoplay, FreeMode, Pagination]}
+                                            className="mySwiper"
+                                        >
+
+                                            <div style={{ height: "590px", overflow: "auto" }}>
+                                                {otherImages.length > 0 ? (
+                                                    otherImages.map((img, index) => (
+                                                        <SwiperSlide>
+                                                            <div
+                                                                key={index}
+                                                                className="OtherImageThumbnail"
+                                                                onClick={() => handleImageClick(img)}
+                                                                style={{ cursor: "pointer" }}
+                                                            >
+                                                                <img src={img} alt={`Other image ${index + 1}`} />
+                                                            </div>
+                                                        </SwiperSlide>
+                                                    ))
+                                                ) : (
+                                                    <p>Other images coming soon!</p>
+                                                )}
+                                            </div>
+
+
+                                        </Swiper>
                                     </Col>
                                     <Col lg={20} style={{ width: "100%" }}>
                                         <div
@@ -131,6 +162,49 @@ const SingleProductPage = () => {
                                                 <p>No image available</p>
                                             )}
                                         </div>
+                                    </Col>
+                                    <Col lg={4} className="OnMobileOnly" style={{ width: "100%" }}>
+                                        <Swiper
+                                            slidesPerView={3}
+                                            spaceBetween={30}
+                                            freeMode={true}
+                                            loop={true}
+                                            // direction={'vertical'}
+                                            autoplay={{
+                                                delay: 2000,
+                                                disableOnInteraction: true,
+                                            }}
+                                            // pagination={{
+                                            //     clickable: true,
+                                            // }}
+                                            modules={[Autoplay, FreeMode, Pagination]}
+                                            className="mySwiper"
+                                        >
+
+                                            <div style={{ height: "590px", overflow: "auto" }}>
+                                                {otherImages.length > 0 ? (
+                                                    otherImages.map((img, index) => (
+                                                        <SwiperSlide>
+                                                            <div
+                                                                key={index}
+                                                                className="OtherImageThumbnail"
+                                                                onClick={() => handleImageClick(img)}
+                                                                style={{ cursor: "pointer" }}
+                                                            >
+                                                                <img src={img} alt={`Other image ${index + 1}`} />
+                                                            </div>
+                                                        </SwiperSlide>
+                                                    ))
+                                                ) : (
+                                                    <p>Other images coming soon!</p>
+                                                )}
+                                            </div>
+
+
+                                        </Swiper>
+                                        {/* <div>
+                                       
+                                        </div> */}
                                     </Col>
                                 </Row>
                             </Col>
@@ -172,6 +246,7 @@ const SingleProductPage = () => {
                                     </div>
                                 </div>
                             </Col>
+
                         </Row>
                     </div>
                 </div>
@@ -185,45 +260,46 @@ const SingleProductPage = () => {
                         </h1>
                     </div>
                     <Row gutter={[16, 16]}>
-                    {similarProducts.map((prod, index) => {
+                        {similarProducts.map((prod, index) => {
 
 
-const colors = [
-  "rgba(9, 177, 171, 0.25)",
-  "rgba(241, 142, 170, 0.23)",
-  "rgba(173, 133, 179, 0.22)",
-  "rgba(80, 173, 105, 0.24)",
-  "rgba(9, 177, 171, 0.25)"
-];
+                            const colors = [
+                                "rgba(9, 177, 171, 0.25)",
+                                "rgba(241, 142, 170, 0.23)",
+                                "rgba(173, 133, 179, 0.22)",
+                                "rgba(80, 173, 105, 0.24)",
+                                "rgba(9, 177, 171, 0.25)"
+                            ];
 
-// Get the background color using the current index
-const backgroundColor = colors[index % colors.length];
+                            // Get the background color using the current index
+                            const backgroundColor = colors[index % colors.length];
 
-return (
-  <Col key={prod.id} lg={6} md={12} sm={24} style={{ width: "100%" }}>
-    <div className="SimilarProductCard" style={{ backgroundColor }}>
-      <Link
-        to={`/singleproduct/${categoryName}/${prod.id}`}
-        className="ProductLink"
-      >
-        <div className="ImageContainer">
-          <img
-            src={
-              prod.ProductImage?.[0] || "path/to/placeholder.jpg"
-            }
-            alt={prod.name}
-          />
-        </div>
-        <h3 style={{ color: "black", textAlign: "center" }}>{prod.name}</h3>
-      </Link>
-    </div>
-  </Col>
-);
-})}
+                            return (
+                                <Col key={prod.id} lg={6} md={12} sm={24} style={{ width: "100%" }}>
+                                    <div className="SimilarProductCard" style={{ backgroundColor }}>
+                                        <Link
+                                            to={`/singleproduct/${categoryName}/${prod.id}`}
+                                            className="ProductLink"
+                                        >
+                                            <div className="ImageContainer">
+                                                <img
+                                                    src={
+                                                        prod.ProductImage?.[0] || "path/to/placeholder.jpg"
+                                                    }
+                                                    alt={prod.name}
+                                                />
+
+                                            </div>
+                                            <h3 style={{ color: "black", textAlign: "center" }}>{prod.name}</h3>
+                                        </Link>
+                                    </div>
+                                </Col>
+                            );
+                        })}
                     </Row>
                 </div>
                 <br /><br />
-                <div className="BuyNowContainer">
+                {/* <div className="BuyNowContainer">
                     <div>
                         <h1>Buy now!</h1>
                     </div>
@@ -255,7 +331,7 @@ return (
                             </Col>
                         </Row>
                     </div>
-                </div>
+                </div> */}
             </section>
         </>
     );

@@ -7,7 +7,7 @@ body {
   transition: .5s;
   scroll-behavior: smooth;
   font-family: "Raleway", serif;
-  
+
 }
 
 /* h2{
@@ -22,12 +22,12 @@ body {
   transition: .5s;
 }
 
-.swiper-pagination-bullet-active{
+.swiper-pagination-bullet-active {
   background-color: #bc252a !important;
-  
+
 }
 
-.titleFont{
+.titleFont {
   font-size: 34px;
   position: relative;
   padding: 10px 20px;
@@ -35,15 +35,15 @@ body {
   margin: 0px;
   position: sticky;
 }
-.titleFont::before{
+
+.titleFont::before {
   content: "";
   left: 0px;
   height: 15px;
   width: 100%;
   background-color: #f8c6d466;
   border-radius: 20px;
-  display: inline-flex
-;
+  display: inline-flex;
   position: absolute;
   z-index: -1;
   bottom: 11px;

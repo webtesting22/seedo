@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import Navigation from "../../CommonComponents/Navigation/Navigation"; // Adjust if you have a Navigation component
-import { Row, Col,Breadcrumb } from "antd";
+import { Row, Col, Breadcrumb } from "antd";
 import SeedoProductData from "../../ProductData";
 import { Link } from "react-router-dom";
 import Ourproducts from "./Ourproducts.png";
@@ -35,7 +35,7 @@ const SubcategoriesProducts = () => {
                 <Navigation />
             </div>
             <section className="SubCategoryProductsContainer">
-                
+
                 {/* <div className="SubcategoryHeader">
                     Show subcategory name if available; otherwise, show main category name
                     <h1>{subcategoryName || categoryName}</h1>
@@ -45,28 +45,28 @@ const SubcategoriesProducts = () => {
                         data-aos-duration="1000">{subcategoryName || categoryName}</h2>
                 </div>
                 <div className="CatalogueCardsContainer">
-                <div style={{ margin: "16px 0", padding: "0 24px" }}>
-                <Breadcrumb>
-                    <Breadcrumb.Item>
-                        <Link to="/">Home</Link>
-                    </Breadcrumb.Item>
-                    <Breadcrumb.Item>
-                        <Link to="/products">Products</Link>
-                    </Breadcrumb.Item>
-                    <Breadcrumb.Item>
-                        <Link to={`/subcategories/${categoryName}`}>
-                            {categoryName}
-                        </Link>
-                    </Breadcrumb.Item>
-                    {subcategoryName && (
-                        <Breadcrumb.Item>
-                            <Link to={`/subcategoriesproducts/${categoryName}/${subcategoryName}`}>
-                                {subcategoryName}
-                            </Link>
-                        </Breadcrumb.Item>
-                    )}
-                </Breadcrumb>
-            </div>
+                    <div style={{ margin: "16px 0", padding: "0 24px" }}>
+                        <Breadcrumb>
+                            <Breadcrumb.Item>
+                                <Link to="/">Home</Link>
+                            </Breadcrumb.Item>
+                            <Breadcrumb.Item>
+                                <Link to="/products">Products</Link>
+                            </Breadcrumb.Item>
+                            <Breadcrumb.Item>
+                                <Link to={`/subcategories/${categoryName}`}>
+                                    {categoryName}
+                                </Link>
+                            </Breadcrumb.Item>
+                            {subcategoryName && (
+                                <Breadcrumb.Item>
+                                    <Link to={`/subcategoriesproducts/${categoryName}/${subcategoryName}`}>
+                                        {subcategoryName}
+                                    </Link>
+                                </Breadcrumb.Item>
+                            )}
+                        </Breadcrumb>
+                    </div>
                     <Row>
                         {products &&
                             products.map((product, index) => {
@@ -80,7 +80,7 @@ const SubcategoriesProducts = () => {
                                             state: { backgroundColor },   // Pass the background color
                                         }}>
                                             <div className="CatalogueCardContainer" style={{ backgroundColor }}>
-                                                <div className="CatalogueImageContainer">
+                                                <div className="CatalogueImageContainer" id="CatalogueImageContainer">
                                                     {/* Check if ProductImage exists and has more than 1 image */}
                                                     {product.ProductImage && product.ProductImage.length > 1 ? (
                                                         <>
@@ -98,8 +98,11 @@ const SubcategoriesProducts = () => {
                                                             />
                                                         </>
                                                     ) : product.ProductImage && product.ProductImage.length > 0 ? (
-                                                        // If only one image exists, show the first image
-                                                        <img src={product.ProductImage[0]} alt={`${product.ProductTitle}-0`} />
+                                                        <>
+                                                            {/* // If only one image exists, show the first image */}
+                                                            <img src={product.ProductImage[0]} className="product-image" alt={`${product.ProductTitle}-0`} />
+                                                            <img src={product.ProductImage[0]} className="product-image-hover" alt={`${product.ProductTitle}-0`} />
+                                                        </>
                                                     ) : (
                                                         // If no images, show a default image
                                                         <img src="path/to/default-image.jpg" alt="Default Image" />
