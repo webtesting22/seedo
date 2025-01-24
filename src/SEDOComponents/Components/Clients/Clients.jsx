@@ -66,8 +66,6 @@ const Client = () => {
     // ]
     const LogosData = [
 
-
-
         {
             img: CartoonNetwork,
             link: "https://www.cartoonnetwork.co.uk/"
@@ -133,6 +131,7 @@ const Client = () => {
             link: "https://www.pepsi.com"
         },
     ]
+
 
     const Clients = [
 
@@ -217,7 +216,7 @@ const Client = () => {
         },
         {
             img: image2,
-            link:"https://www.24seventalent.com/"
+            link: "https://www.24seventalent.com/"
         },
         {
             link: "https://snooplay.in/",

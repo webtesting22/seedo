@@ -18,6 +18,8 @@ import swiggy from "./swiggy.svg"
 import whole9years from "./whole9years.svg"
 import zapto from "./zapto.svg"
 import Wishkey from "../../Components/Clients/Wishkey.png"
+import image5 from "./Toys__R__Us_logo.svg.svg"
+import image6 from "./VMM-1 1.svg"
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -30,6 +32,13 @@ import Zepto from "./zepto-logo-vector_logoshape.png"
 import Whiskey from "./Whiskey.svg"
 import RightSideCar from "./RightSideCar.png"
 import LeftSideCar from "./LeftSideCar.png"
+import Dmart from "./Dmart.png"
+import MUMUSO from "./MUMUSO.png"
+import lulu from "./lulu.png"
+import image3 from "./619a4143-2b0f-40a7-b92f-4bf48d5bed8e-removebg-preview 1.svg"
+import image1 from "./8d3a0f196563391.Y3JvcCwxODA3LDE0MTQsOTMsMA.svg"
+import image2 from "./24Seven_logo.svg"
+// import Dmart from "./Dmart.jpg"
 const ZoomCards = () => {
     const imageRef = useRef(null);
     const [width, setWidth] = useState('40%');
@@ -88,12 +97,12 @@ const ZoomCards = () => {
         {
             link: "https://www.amazon.in/",
             img: amazon,
-            color: ""
+
         },
         {
             link: "https://www.flipkart.com/",
             img: flifkart,
-            color: ""
+
         },
         {
             link: "https://reliancesmartbazaar.com/",
@@ -113,18 +122,47 @@ const ZoomCards = () => {
         {
             link: "https://whole9yards.in/",
             img: whole9years,
-            color: ""
+
         },
         {
             link: "https://www.zeptonow.com/",
             img: Zepto,
-            color: ""
+
+        },
+        {
+            img: image5,
+            link: "https://www.toysrus.in/"
+        },
+
+        {
+            img: image6,
+            link: "https://www.vishalmegamart.com/"
+        },
+        {
+            img: Dmart,
+            link: "https://www.dmart.in/"
+        },
+        {
+            img: lulu,
+            link: "https://gcc.luluhypermarket.com/"
+        },
+        {
+            img: MUMUSO,
+            link: "https://www.mumuso.com/"
         },
         {
             link: "",
             img: Wishkey,
             color: "000000"
-        }
+        },
+        {
+            img: image3,
+            link: "https://wembleytoys.com/"
+        },
+        {
+            img: image2,
+            link: "https://www.24seventalent.com/"
+        },
 
     ];
 

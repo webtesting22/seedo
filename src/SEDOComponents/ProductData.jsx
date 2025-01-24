@@ -76,7 +76,6 @@ import RC00124GHz from "/Images/ProductsImages/RC Car/116RC001-2.4GHz.png"
 import RC00127MHz from "/Images/ProductsImages/RC Car/116RC001-27MHz.png"
 import RC00224GHz from "/Images/ProductsImages/RC Car/116RC002-2.4GHz.png"
 import RC00227MHz from "/Images/ProductsImages/RC Car/116RC002-27MHz.png"
-
 import RC003 from "/Images/ProductsImages/RC Car/116RC003(black).png"
 import RC003_2 from "/Images/ProductsImages/RC Car/116RC003.png"
 import SC001 from "/Images/ProductsImages/RC Car/116SC001.png"
@@ -105,7 +104,7 @@ import W001 from "/Images/ProductsImages/RC Car/1182W001(red).png"
 import W001_2 from "/Images/ProductsImages/RC Car/1182W001(yellow).png"
 import W002 from "/Images/ProductsImages/RC Car/1182W002.png"
 import W003 from "/Images/ProductsImages/RC Car/1182W003.png"
-import STDR001 from "/Images/ProductsImages/RC Car/STDR001.png"
+// import STDR001 from "/Images/ProductsImages/RC Car/STDR001.png"
 import CRAWLER from "/Images/Products/ProductImages/CRAWLER.png"
 import ThunderBird1 from "../assets/MultipleViewImages/ThunderBird1.png"
 import ThunderBird2 from "../assets/MultipleViewImages/ThunderBird2(orange).png"
@@ -220,6 +219,18 @@ import BlazeRunner8 from "../assets/MultipleViewImages/BlazeRunner8.png"
 import BlazeRunner9 from "../assets/MultipleViewImages/BlazeRunner9.png"
 import BlazeRunner10 from "../assets/MultipleViewImages/BlazeRunner10.png"
 import BlazeRunner11 from "../assets/MultipleViewImages/BlazeRunner11.png"
+import DazzalingCar1 from "../assets/MultipleViewImages/DazzalingCar1(blue).png"
+import DazzalingCar2 from "../assets/MultipleViewImages/DazzalingCar2.png"
+import DazzalingCar3 from "../assets/MultipleViewImages/DazzalingCar3.png"
+import DazzalingCar4 from "../assets/MultipleViewImages/DazzalingCar4.png"
+import DazzalingCar5 from "../assets/MultipleViewImages/DazzalingCar5.png"
+import DazzalingCar6 from "../assets/MultipleViewImages/DazzalingCar6.png"
+import DazzalingCar7 from "../assets/MultipleViewImages/DazzalingCar7.png"
+import DazzalingCar8 from "../assets/MultipleViewImages/DazzalingCar8.png"
+import DazzalingCar9 from "../assets/MultipleViewImages/DazzalingCar9(green).png"
+import DazzalingCar10 from "../assets/MultipleViewImages/DazzalingCar10(red).png"
+import DazzalingCar11 from "../assets/MultipleViewImages/DazzalingCar11.png"
+import DazzalingCar12 from "../assets/MultipleViewImages/DazzalingCar12.png"
 const SeedoProductData = {
     "Remote Controlled Cars": {
         CategoriryImage: "Images/RCCar.png",
@@ -519,7 +530,7 @@ const SeedoProductData = {
                     name: " Dazzling Car",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        RC001_124
+                        RC001_124, DazzalingCar1, DazzalingCar2, DazzalingCar3, DazzalingCar4, DazzalingCar5, DazzalingCar6, DazzalingCar7, DazzalingCar8, DazzalingCar9, DazzalingCar10, DazzalingCar11, DazzalingCar12
                     ],
                     ProductStyleCode: "124RC001",
                     Productdescription: <>

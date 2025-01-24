@@ -116,17 +116,17 @@ const Products = () => {
                 </div> */}
                 </div>
                 <div className="CatalogueCardsContainer">
-                    <div className="SectionInfoContainer">
+                    {/* <div className="SectionInfoContainer">
                         <div className="CategoryCountContainer" style={{ width: "100%" }}>
                             <p> <span>{Object.keys(SeedoProductData).length}</span> Available Selections</p>
                         </div>
                         <div style={{ width: "100%" }}>
-                            <p style={{ textAlign: "center" }}>  hello</p>
+                            <p style={{ textAlign: "center" }}>grid horizontal grid Vertical</p>
                         </div>
                         <div style={{ width: "100%" }} className="SortFilterContainer">
                             <p style={{ textAlign: "end" }}> hello</p>
                         </div>
-                    </div>
+                    </div> */}
                     <Row>
                         {Object.keys(SeedoProductData).map((categoryName, index) => {
                             const categoryData = SeedoProductData[categoryName];
