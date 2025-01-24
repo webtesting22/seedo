@@ -864,7 +864,7 @@ const SeedoProductData = {
                     name: " Thunder Bird Car",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        ThunderBird1, ThunderBird2, ThunderBird3, ThunderBird4, ThunderBird5, ThunderBird6, ThunderBird7, RC003, RC003_2
+                        ThunderBird1, ThunderBird2, ThunderBird3, ThunderBird4, ThunderBird5, ThunderBird6, ThunderBird7, RC003_2
                     ],
                     ProductStyleCode: "116RC003",
                     Productdescription: <>

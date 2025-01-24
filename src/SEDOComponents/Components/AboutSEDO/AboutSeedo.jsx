@@ -256,7 +256,7 @@ const AboutSeedo = () => {
                             we at Seedo have developed a range of
                             high-quality toys, ensuring they are safe,
                             affordable, and meet the highest standards. Seedo
-                            toys sparks children’s imaginations while offering
+                            toys sparks children’s imagination while offering
                             parents confidence in our craftsmanship.
                             We are committed to becoming India's leading toy
                             manufacturers and aim for tenfold growth within
@@ -512,7 +512,7 @@ const AboutSeedo = () => {
                         <Row>
                             <Col lg={12}>
                                 <p data-aos="fade-up"
-                                    data-aos-duration="1300">Seedo, in partnership with its strategic ally, has achieved a significant milestone by designing and producing its own PCBs, leveraging cutting-edge pick-and-place technology. Today, this innovation enables us to manufacture 50% of our PCBs materials meet global safety standards, offering surge, voltage, and heat protection. They are phthalate-free, lead-free, and ROHS-compliant for international exports, ensuring both safety and reliability for our products.</p>
+                                    data-aos-duration="1300">Seedo, in partnership with its strategic ally, has achieved a significant milestone by designing and producing its own PCBs, leveraging cutting-edge pick-and-place technology. Today, this innovation enables us to manufacture 50% of our PCBs in-house. Our PCB materials meet global safety standards, offering surge, voltage, and heat protection. They are phthalate-free, lead-free, and ROHS-compliant for international exports, ensuring both safety and reliability for our products.</p>
                             </Col>
                             <Col lg={12}><div className="PendingGrayBox">
                                 <div style={{ display: "flex", height: "100%" }} className="ImageAdjust" data-aos="fade-up"
