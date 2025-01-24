@@ -200,6 +200,10 @@ import HyperBeast8 from "../assets/MultipleViewImages/HyperBeast8.png"
 import HyperBeast9 from "../assets/MultipleViewImages/HyperBeast9.png"
 import GunRockCrawler2 from "../assets/MultipleViewImages/GunRockCrawler2.jpg"
 import GunRockCrawler from "../assets/MultipleViewImages/GunRockCrawler(red).jpg"
+import BrainyBear1 from "../assets/MultipleViewImages/BrainyBear1(brown).png"
+import BrainyBear2 from "../assets/MultipleViewImages/BrainyBear2(White).png"
+import BrainyBear3 from "../assets/MultipleViewImages/BrainyBear3.png"
+import BrainyBear4 from "../assets/MultipleViewImages/BrainyBear4(beige).png"
 const SeedoProductData = {
     "Remote Controlled Cars": {
         CategoriryImage: "Images/RCCar.png",
@@ -1993,7 +1997,7 @@ const SeedoProductData = {
                 id: 88,
                 name: "BRAINY BEAR",
                 ProductBatteryType: "-",
-                ProductImage: [SLTBB001],
+                ProductImage: [SLTBB001,BrainyBear1,BrainyBear2,BrainyBear3,BrainyBear4],
                 ProductStyleCode: "-",
                 Productdescription: <>
                     <div>
