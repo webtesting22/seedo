@@ -182,9 +182,9 @@ const Products = () => {
                                                     />
                                                 )} */}
                                                 <img
-                    src={categoryData?.CategoriryImage || "path/to/placeholder_image.jpg"} // Use the category image
-                    alt={`${categoryName} Category Image`} // Alt text for the image
-                />
+                                                    src={categoryData?.CategoriryImage || "path/to/placeholder_image.jpg"} // Use the category image
+                                                    alt={`${categoryName} Category Image`} // Alt text for the image
+                                                />
                                             </div>
                                             <div className="productTitleContainer">
                                                 <h1>{categoryName}</h1>

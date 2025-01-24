@@ -202,7 +202,7 @@ import GunRockCrawler2 from "../assets/MultipleViewImages/GunRockCrawler2.jpg"
 import GunRockCrawler from "../assets/MultipleViewImages/GunRockCrawler(red).jpg"
 const SeedoProductData = {
     "Remote Controlled Cars": {
-        CategoriryImage: "/src/SEDOComponents/Components/AboutSEDO/SectionCurveImage.png",
+        CategoriryImage: "Images/RCCar.png",
         subcategories: {
             "1:18": [
                 {
@@ -210,7 +210,7 @@ const SeedoProductData = {
                     name: " Light Blaster Car",
                     ProductBatteryType: "Non - Rechargable",
                     ProductImage: [
-                        W001_2, W001, LightBlaster1, LightBlaster2, LightBlaster3, LightBlaster4, LightBlaster5, LightBlaster6,LightBlaster7,LightBlaster8
+                        W001_2, W001, LightBlaster1, LightBlaster2, LightBlaster3, LightBlaster4, LightBlaster5, LightBlaster6, LightBlaster7, LightBlaster8
                     ],
                     ProductStyleCode: "1182W001",
                     Productdescription: <>
@@ -715,7 +715,7 @@ const SeedoProductData = {
                     name: " Gun Rock Crawler",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        MT003G,GunRockCrawler,GunRockCrawler2
+                        MT003G, GunRockCrawler, GunRockCrawler2
                     ],
                     ProductStyleCode: "118MT003G",
                     Productdescription: <>
@@ -799,7 +799,7 @@ const SeedoProductData = {
                     name: " Hyper Beast Car 27 MHz",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        RC00227MHz,HyperBeast1,HyperBeast2,HyperBeast3,HyperBeast4,HyperBeast5,HyperBeast6,HyperBeast7,HyperBeast8,HyperBeast9
+                        RC00227MHz, HyperBeast1, HyperBeast2, HyperBeast3, HyperBeast4, HyperBeast5, HyperBeast6, HyperBeast7, HyperBeast8, HyperBeast9
                     ],
                     ProductStyleCode: "116RC002/27MHz",
                     Productdescription: <>
@@ -1874,7 +1874,7 @@ const SeedoProductData = {
 
 
     "Early Learning Toys": {
-        CategoriryImage:"/Images/EarlyLearning.png",
+        CategoriryImage: "/Images/EarlyLearning.png",
         products: [
             {
                 id: 84,
@@ -1928,7 +1928,7 @@ const SeedoProductData = {
                 id: 86,
                 name: "TECHNO-TUTOR",
                 ProductBatteryType: "-",
-                ProductImage: [SLTTT001,Laptop1,Laptop2,Laptop3,Laptop4,Laptop5,Laptop6,Laptop7],
+                ProductImage: [SLTTT001, Laptop1, Laptop2, Laptop3, Laptop4, Laptop5, Laptop6, Laptop7],
                 ProductStyleCode: "SLT-PP-001",
                 Productdescription: <>
                     <div>
@@ -2029,7 +2029,7 @@ const SeedoProductData = {
         ]
     },
     "STEM Toys": {
-        CategoriryImage:"/Images/LaunchSoon.png"
+        CategoriryImage: "/Images/LaunchSoon.png"
     }
 }
 export default SeedoProductData
