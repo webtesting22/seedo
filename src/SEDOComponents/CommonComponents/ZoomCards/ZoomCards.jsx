@@ -1,14 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import "../../Styles/ZoomCards.css"
-import Teddy from "/Images/Products/Teddy.png"
-import JetSeries from "/Images/Products/JetSeries.png"
-import Racingseries from "/Images/Products/Racingseries.png"
-import DriftSeries from "/Images/Products/DriftSeries.png"
-import Construction from "/Images/Products/Construction.png"
-import NewLaunches from "/Images/Products/NewLaunches.png"
-import ZoomBackImage from "/Images/Banners/ZoomBackImage.jpg"
 import { Link } from "react-router-dom";
-import { FaArrowRightLong } from "react-icons/fa6";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import amazon from "./amazon.svg"
 import flifkart from "./flifkart.svg"
@@ -24,21 +16,16 @@ import image6 from "./VMM-1 1.svg"
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import { Row, Col } from "antd";
 // import required modules
 import { Autoplay, Pagination, FreeMode } from 'swiper/modules';
-import AboutUsSection from "./AboutUsSection.png"
 import Zepto from "./zepto-logo-vector_logoshape.png"
-import Whiskey from "./Whiskey.svg"
 import RightSideCar from "./RightSideCar.png"
 import LeftSideCar from "./LeftSideCar.png"
 import Dmart from "./Dmart.png"
 import MUMUSO from "./MUMUSO.png"
 import lulu from "./lulu.png"
 import image3 from "./619a4143-2b0f-40a7-b92f-4bf48d5bed8e-removebg-preview 1.svg"
-import image1 from "./8d3a0f196563391.Y3JvcCwxODA3LDE0MTQsOTMsMA.svg"
 import image2 from "./24Seven_logo.svg"
-// import Dmart from "./Dmart.jpg"
 const ZoomCards = () => {
     const imageRef = useRef(null);
     const [width, setWidth] = useState('40%');
