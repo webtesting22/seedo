@@ -1,5 +1,5 @@
 import RC001 from "/Images/ProductsImages/RC Car/118RC001.png"
-import SC001_124 from "/Images/ProductsImages/RC Car/124SC001.png"
+import SC001_124 from "/Images/ProductsImages/RC Car/124SC001(red).png"
 import LRC00D from "/Images/ProductsImages/RC Car/124LRC00D.png"
 import LRC00E from "/Images/ProductsImages/RC Car/124LRC00E(orange).png"
 import RC00127MHz from "/Images/ProductsImages/RC Car/116RC001-27MHz.png"

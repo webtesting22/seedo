@@ -6,7 +6,7 @@ import { CiFilter } from "react-icons/ci";
 import { useMediaQuery } from "react-responsive";
 import "../../Styles/Product.css";
 import Navigation from "../../CommonComponents/Navigation/Navigation";
-import SEEDOData from "../../ProductUpdatedData";
+// import SEEDOData from "../../ProductUpdatedData";
 import gene7 from "/Images/gene7.jpg";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa";
@@ -62,18 +62,18 @@ const Products = () => {
     }, []);
     const handleSearch = (value) => setSearchQuery(value);
 
-    const filteredProducts = SEEDOData.filter(item => {
-        const matchesCategory = selectedCategories.length
-            ? selectedCategories.includes(item.ProductCategories)
-            : true;
+    // const filteredProducts = SEEDOData.filter(item => {
+    //     const matchesCategory = selectedCategories.length
+    //         ? selectedCategories.includes(item.ProductCategories)
+    //         : true;
 
-        const matchesSearchQuery = searchQuery
-            ? item.ProductTitle.toLowerCase().includes(searchQuery.toLowerCase()) ||
-            item.ProductCategories.toLowerCase().includes(searchQuery.toLowerCase())
-            : true;
+    //     const matchesSearchQuery = searchQuery
+    //         ? item.ProductTitle.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    //         item.ProductCategories.toLowerCase().includes(searchQuery.toLowerCase())
+    //         : true;
 
-        return matchesCategory && matchesSearchQuery;
-    });
+    //     return matchesCategory && matchesSearchQuery;
+    // });
 
     const showDrawer = () => setDrawerOpen(true);
     const closeDrawer = () => setDrawerOpen(false);
