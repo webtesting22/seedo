@@ -231,6 +231,16 @@ import DazzalingCar9 from "../assets/MultipleViewImages/DazzalingCar9(green).png
 import DazzalingCar10 from "../assets/MultipleViewImages/DazzalingCar10(red).png"
 import DazzalingCar11 from "../assets/MultipleViewImages/DazzalingCar11.png"
 import DazzalingCar12 from "../assets/MultipleViewImages/DazzalingCar12.png"
+import Drone1 from "../assets/MultipleViewImages/Drone1(green).png"
+import Drone2 from "../assets/MultipleViewImages/Drone2.png"
+import Drone3 from "../assets/MultipleViewImages/Drone3(white).png"
+import Drone4 from "../assets/MultipleViewImages/Drone4.png"
+import Drone5 from "../assets/MultipleViewImages/Drone5.png"
+import Drone6 from "../assets/MultipleViewImages/Drone6.png"
+import Drone7 from "../assets/MultipleViewImages/Drone7(yellow).png"
+import Drone8 from "../assets/MultipleViewImages/Drone8.png"
+import Drone9 from "../assets/MultipleViewImages/Drone9.png"
+import Drone10 from "../assets/MultipleViewImages/Drone10.png"
 const SeedoProductData = {
     "Remote Controlled Cars": {
         CategoriryImage: "Images/RCCar.png",
@@ -884,43 +894,35 @@ const SeedoProductData = {
                         </div>
                     </>
                 },
+                {
+                    id:89,
+                    name: " 750 Drone",
+                    ProductBatteryType: "Rechargable",
+                    ProductImage: [
+                        Drone1,Drone2,Drone3,Drone4,Drone5,Drone6,Drone7,Drone8,Drone9,Drone10
+                    ],
+                    ProductStyleCode: "STDR001",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Virgin grade, High
+                                    strength ABS Material</p>
+                                <p><b>USB</b> Yes</p>
+                                <p><b>Box size</b> 24 pcs./box</p>
+                                <p><b>Frequency</b> 2.4GHz</p>
+                                <p><b>Colours</b> </p>
+                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion
+                                    Rechargeable Battery</p>
+                            </div>
+                        </div>
+                    </>
+                }
             ]
-        }
+        },
         // products: [
-        //     
-        //     
-        //    
-        //     
-        //     
-        //    
-        //     
-        //    
-        //   
-        //    
-        //     {
-        //         
-        //         name: " 750 Drone",
-        //         ProductBatteryType: "Rechargable",
-        //         ProductImage: [
-        //             STDR001
-        //         ],
-        //         ProductStyleCode: "STDR001",
-        //         Productdescription: <>
-        //             <div>
-        //                 <div>
-        //                     <p><b>Material type</b> Virgin grade, High
-        //                         strength ABS Material</p>
-        //                     <p><b>USB</b> Yes</p>
-        //                     <p><b>Box size</b> 24 pcs./box</p>
-        //                     <p><b>Frequency</b> 2.4GHz</p>
-        //                     <p><b>Colours</b> </p>
-        //                     <p><b>HSN Code</b> 95030030</p>
-        //                     <p><b>Battery Cell type</b> 3.7V Li-ion
-        //                         Rechargeable Battery</p>
-        //                 </div>
-        //             </div>
-        //         </>
-        //     }
+
+            
 
         // ]
     },
