@@ -293,7 +293,7 @@ const SeedoProductData = {
                     name: " Light Blaster Car",
                     ProductBatteryType: "Non - Rechargable",
                     ProductImage: [
-                        W001_2, W001, LightBlaster1, LightBlaster2, LightBlaster3, LightBlaster4, LightBlaster5, LightBlaster6, LightBlaster7, LightBlaster8
+                         W001, LightBlaster1, LightBlaster2, LightBlaster3, LightBlaster4, LightBlaster5, LightBlaster6, 
                     ],
                     ProductStyleCode: "1182W001",
                     Productdescription: <>
@@ -391,7 +391,7 @@ const SeedoProductData = {
                     name: " Blaster 023 Car",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        BC023
+                        W001_2,LightBlaster7, LightBlaster8
                     ],
                     ProductStyleCode: "118BC023"
                 },
