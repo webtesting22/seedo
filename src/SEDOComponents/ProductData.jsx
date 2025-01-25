@@ -1649,7 +1649,7 @@ const SeedoProductData = {
                 },
 
             ],
-            
+
             "Drift Series": [
                 {
                     id: 45,
@@ -1760,7 +1760,7 @@ const SeedoProductData = {
                     </>
                 }
             ],
-            
+
 
 
             "Metal X Racer": [
@@ -1900,9 +1900,340 @@ const SeedoProductData = {
                 ],
                 ProductCode: "PNG-MC"
             },
+            // {
+            //     id: 90,
+            //     name: "DANCING CRAB TOY",
+            //     ProductBatteryType: "-",
+            //     ProductImage: [],
+            //     ProductStyleCode: "-",
+            //     Productdescription: <>
+            //         <div>
+            //             <div>
+            //                 <p><b>Material type</b> ABS</p>
 
+            //                 <p><b>Dimension</b> 23x12cm</p>
+            //                 <p><b>Inner Packaging</b> 1 pcs</p>
+            //                 <p><b>Master packaging</b> 64 pcs</p>
+            //                 <p><b>HSN Code</b> 95030030</p>
+            //             </div>
+            //         </div>
+            //     </>
+            // },
+            // {
+            //     id: 91,
+            //     name: "ANIMAL FACE CAR",
+            //     ProductBatteryType: "-",
+            //     ProductImage: [],
+            //     ProductStyleCode: "-",
+            //     Productdescription: <>
+            //         <div>
+            //             <div>
+            //                 <p><b>Material type</b> Plastic</p>
+
+            //                 <p><b>Dimension</b> 10.1x9.1x6.9cm</p>
+            //                 <p><b>Inner Packaging</b> 5 pcs</p>
+            //                 <p><b>Master packaging</b> 80 pcs./box</p>
+            //                 <p><b>HSN Code</b> 95030030</p>
+            //             </div>
+            //         </div>
+            //     </>
+            // },
+            // {
+            //     id: 92,
+            //     name: "TUMBLING ROBOT",
+            //     ProductBatteryType: "-",
+            //     ProductImage: [],
+            //     ProductStyleCode: "-",
+            //     Productdescription: <>
+            //         <div>
+            //             <div>
+            //                 <p><b>Material type</b> ABS</p>
+
+            //                 <p><b>Dimension</b> 23x12cm</p>
+            //                 <p><b>Inner Packaging</b> 1 pcs</p>
+            //                 <p><b>Master packaging</b> 64 pcs./box</p>
+            //                 <p><b>HSN Code</b> 95030030</p>
+            //             </div>
+            //         </div>
+            //     </>
+            // },
+            // {
+            //     id: 93,
+            //     name: "PULL BACK EMERGENCY VEHICLES",
+            //     ProductBatteryType: "-",
+            //     ProductImage: [],
+            //     ProductStyleCode: "-",
+            //     Productdescription: <>
+            //         <div>
+            //             <div>
+            //                 <p><b>Material type</b> Plastic</p>
+            //                 <p><b>Inner Packaging</b> 12 pcs</p>
+            //                 <p><b>Master packaging</b> 192 pcs</p>
+            //                 <p><b>HSN Code</b> 95030030</p>
+            //             </div>
+            //         </div>
+            //     </>
+            // },
+            // {
+            //     id: 94,
+            //     name: "WATER FROG TOY",
+            //     ProductBatteryType: "-",
+            //     ProductImage: [],
+            //     ProductStyleCode: "-",
+            //     Productdescription: <>
+            //         <div>
+            //             <div>
+            //                 <p><b>Material type</b> ABS</p>
+            //                 <p><b>Dimension</b> 7x12 cm</p>
+            //                 <p><b>Inner Packaging</b> 12 pcs</p>
+            //                 <p><b>Master packaging</b> 192 pcs</p>
+            //                 <p><b>HSN Code</b> 95030030</p>
+            //             </div>
+            //         </div>
+            //     </>
+            // },
+            // {
+            //     id: 95,
+            //     name: "WHISTLE DINO PRESS GO",
+            //     ProductBatteryType: "-",
+            //     ProductImage: [],
+            //     ProductStyleCode: "-",
+            //     Productdescription: <>
+            //         <div>
+            //             <div>
+            //                 <p><b>Material type</b> ABS</p>
+            //                 <p><b>Dimension</b> 9.2x11x11.5cm</p>
+            //                 <p><b>Inner Packaging</b> 12 pcs</p>
+            //                 <p><b>Master packaging</b> 192 pcs</p>
+            //                 <p><b>HSN Code</b> 95030030</p>
+            //             </div>
+            //         </div>
+            //     </>
+            // },
+            // {
+            //     id: 96,
+            //     name: "SMALL TRACTOR WITH MONSTER WHEELS",
+            //     ProductBatteryType: "-",
+            //     ProductImage: [],
+            //     ProductStyleCode: "-",
+            //     Productdescription: <>
+            //         <div>
+            //             <div>
+            //                 <p><b>Material type</b> ABS</p>
+            //                 <p><b>Dimension</b> 7x12 cm</p>
+            //                 <p><b>Inner Packaging</b> 12 pcs</p>
+            //                 <p><b>Master packaging</b> 192 pcs</p>
+            //                 <p><b>HSN Code</b> 95030030</p>
+            //             </div>
+            //         </div>
+            //     </>
+            // },
+            // {
+            //     id: 97,
+            //     name: "BIG CARRIER TRUCKS WITH SMALL CARS",
+            //     ProductBatteryType: "-",
+            //     ProductImage: [],
+            //     ProductStyleCode: "-",
+            //     Productdescription: <>
+            //         <div>
+            //             <div>
+            //                 <p><b>Material type</b> ABS</p>
+            //                 <p><b>Dimension</b> 13.2x3.7x5.3cm</p>
+            //                 <p><b>Inner Packaging</b> 1 pcs</p>
+            //                 <p><b>Master packaging</b> 24 pcs</p>
+            //                 <p><b>HSN Code</b> 95030030</p>
+            //             </div>
+            //         </div>
+            //     </>
+            // },
+            // {
+            //     id: 98,
+            //     name: "BIG CARRIER TRUCKS WITH SMALL CARS",
+            //     ProductBatteryType: "-",
+            //     ProductImage: [],
+            //     ProductStyleCode: "-",
+            //     Productdescription: <>
+            //         <div>
+            //             <div>
+            //                 <p><b>Material type</b> ABS</p>
+            //                 <p><b>Dimension</b> 13.2x3.7x5.3cm</p>
+            //                 <p><b>Inner Packaging</b> 1 pcs</p>
+            //                 <p><b>Master packaging</b> 24 pcs</p>
+            //                 <p><b>HSN Code</b> 95030030</p>
+            //             </div>
+            //         </div>
+            //     </>
+            // },
+            // {
+            //     id: 99,
+            //     name: "MUSICAL GUITAR",
+            //     ProductBatteryType: "-",
+            //     ProductImage: [],
+            //     ProductStyleCode: "-",
+            //     Productdescription: <>
+            //         <div>
+            //             <div>
+            //                 <p><b>Material type</b> ABS</p>
+            //                 <p><b>Dimension</b> 41x19.4cm</p>
+            //                 <p><b>Inner Packaging</b> 1 pcs</p>
+            //                 <p><b>Master packaging</b> 32 pcs</p>
+            //                 <p><b>HSN Code</b> 95030030</p>
+            //             </div>
+            //         </div>
+            //     </>
+            // },
+            // {
+            //     id: 100,
+            //     name: "MUSICAL DINO",
+            //     ProductBatteryType: "-",
+            //     ProductImage: [],
+            //     ProductStyleCode: "-",
+            //     Productdescription: <>
+            //         <div>
+            //             <div>
+            //                 <p><b>Material type</b> ABS</p>
+            //                 <p><b>Dimension</b> 7.5X9.8X8.2cm</p>
+            //                 <p><b>Inner Packaging</b> 5 pcs</p>
+            //                 <p><b>Master packaging</b> 80 pcs./box</p>
+            //                 <p><b>HSN Code</b> 95030030</p>
+            //             </div>
+            //         </div>
+            //     </>
+            // },
+            // {
+            //     id: 101,
+            //     name: "DANCING OCTOPUS TOY",
+            //     ProductBatteryType: "-",
+            //     ProductImage: [],
+            //     ProductStyleCode: "-",
+            //     Productdescription: <>
+            //         <div>
+            //             <div>
+            //                 <p><b>Material type</b> ABS</p>
+            //                 <p><b>Dimension</b> 11x25x13cm</p>
+            //                 <p><b>Inner Packaging</b> 12 pcs</p>
+            //                 <p><b>Master packaging</b> 64 pcs</p>
+            //                 <p><b>HSN Code</b> 95030030</p>
+            //             </div>
+            //         </div>
+            //     </>
+            // },
+            // {
+            //     id: 102,
+            //     name: "BIG MONSTER WHEEL FARMER TRACTOR",
+            //     ProductBatteryType: "-",
+            //     ProductImage: [],
+            //     ProductStyleCode: "-",
+            //     Productdescription: <>
+            //         <div>
+            //             <div>
+            //                 <p><b>Material type</b> ABS</p>
+            //                 <p><b>Dimension</b> 29.5x19.5x19.5cm</p>
+            //                 <p><b>Inner Packaging</b> 1 pcs</p>
+            //                 <p><b>Master packaging</b> 32 pcs./box</p>
+            //                 <p><b>HSN Code</b> 95030030</p>
+            //             </div>
+            //         </div>
+            //     </>
+            // },
+            // {
+            //     id: 103,
+            //     name: "DOUBLE INERTIA INSECT BEETLE",
+            //     ProductBatteryType: "-",
+            //     ProductImage: [],
+            //     ProductStyleCode: "-",
+            //     Productdescription: <>
+            //         <div>
+            //             <div>
+            //                 <p><b>Material type</b> ABS</p>
+            //                 <p><b>Dimension</b> 23x12cm</p>
+            //                 <p><b>Inner Packaging</b> 12 pcs</p>
+            //                 <p><b>Master packaging</b> 192 pcs</p>
+            //                 <p><b>HSN Code</b> 95030030</p>
+            //             </div>
+            //         </div>
+            //     </>
+            // },
+            // {
+            //     id: 104,
+            //     name: "MUSICAL RESCUE HELICOPTER",
+            //     ProductBatteryType: "-",
+            //     ProductImage: [],
+            //     ProductStyleCode: "-",
+            //     Productdescription: <>
+            //         <div>
+            //             <div>
+            //                 <p><b>Material type</b> ABS</p>
+            //                 <p><b>Dimension</b> 14X37X14.5 cm</p>
+            //                 <p><b>Inner Packaging</b> 1 pcs</p>
+            //                 <p><b>Master packaging</b> 32 pcs./box</p>
+            //                 <p><b>HSN Code</b> 95030030</p>
+            //             </div>
+            //         </div>
+            //     </>
+            // },
+            // {
+            //     id: 105,
+            //     name: "COOL RUN DINOSAUR",
+            //     ProductBatteryType: "-",
+            //     ProductImage: [],
+            //     ProductStyleCode: "-",
+            //     Productdescription: <>
+            //         <div>
+            //             <div>
+            //                 <p><b>Material type</b> ABS</p>
+            //                 <p><b>Dimension</b> 23x12cm</p>
+            //                 <p><b>Inner Packaging</b> 8 pcs</p>
+            //                 <p><b>Master packaging</b> 128 pcs</p>
+            //                 <p><b>HSN Code</b> 95030030</p>
+            //             </div>
+            //         </div>
+            //     </>
+            // },
+            // {
+            //     id: 106,
+            //     name: "COOL RUN DINOSAUR",
+            //     ProductBatteryType: "-",
+            //     ProductImage: [],
+            //     ProductStyleCode: "-",
+            //     Productdescription: <>
+            //         <div>
+            //             <div>
+            //                 <p><b>Material type</b> ABS</p>
+            //                 <p><b>Scale</b> 22.5cm</p>
+            //                 <p><b>Box Size</b> 64 pcs</p>
+            //                 <p><b>Inner Packaging</b> 1 pcs</p>
+            //                 <p><b>Master packaging</b> 64 pcs</p>
+            //                 <p><b>HSN Code</b> 95030030</p>
+            //                 <p><b>Battery</b> 3.7V Li-ion Rechargeable Battery</p>
+            //             </div>
+            //         </div>
+            //     </>
+            // },
+            // {
+            //     id: 107,
+            //     name: "WATER TURTLE TOY",
+            //     ProductBatteryType: "-",
+            //     ProductImage: [],
+            //     ProductStyleCode: "-",
+            //     Productdescription: <>
+            //         <div>
+            //             <div>
+            //                 <p><b>Material type</b> ABS</p>
+            //                 <p><b>Dimension</b> 8X9X5.5cm</p>
+            //                 <p><b>Inner Packaging</b> 12 pcs</p>
+            //                 <p><b>Master packaging</b> 192 pcs</p>
+            //                 <p><b>HSN Code</b> 95030030</p>
+            //             </div>
+            //         </div>
+            //     </>
+            // }
 
         ]
+
+        // products: [
+        //    
+        // ]
         // subcategories: {
         //     "subcategory1": [
         //         { name: "Product 1", price: 100, description: "Description for Product 1" },
@@ -2074,336 +2405,7 @@ const SeedoProductData = {
     },
     "STEM Toys": {
         CategoriryImage: "/Images/LaunchSoon.png",
-        // products: [
-        //     {
-        //         id: 90,
-        //         name: "DANCING CRAB TOY",
-        //         ProductBatteryType: "-",
-        //         ProductImage: [],
-        //         ProductStyleCode: "-",
-        //         Productdescription: <>
-        //             <div>
-        //                 <div>
-        //                     <p><b>Material type</b> ABS</p>
 
-        //                     <p><b>Dimension</b> 23x12cm</p>
-        //                     <p><b>Inner Packaging</b> 1 pcs</p>
-        //                     <p><b>Master packaging</b> 64 pcs</p>
-        //                     <p><b>HSN Code</b> 95030030</p>
-        //                 </div>
-        //             </div>
-        //         </>
-        //     },
-        //     {
-        //         id: 91,
-        //         name: "ANIMAL FACE CAR",
-        //         ProductBatteryType: "-",
-        //         ProductImage: [],
-        //         ProductStyleCode: "-",
-        //         Productdescription: <>
-        //             <div>
-        //                 <div>
-        //                     <p><b>Material type</b> Plastic</p>
-
-        //                     <p><b>Dimension</b> 10.1x9.1x6.9cm</p>
-        //                     <p><b>Inner Packaging</b> 5 pcs</p>
-        //                     <p><b>Master packaging</b> 80 pcs./box</p>
-        //                     <p><b>HSN Code</b> 95030030</p>
-        //                 </div>
-        //             </div>
-        //         </>
-        //     },
-        //     {
-        //         id: 92,
-        //         name: "TUMBLING ROBOT",
-        //         ProductBatteryType: "-",
-        //         ProductImage: [],
-        //         ProductStyleCode: "-",
-        //         Productdescription: <>
-        //             <div>
-        //                 <div>
-        //                     <p><b>Material type</b> ABS</p>
-
-        //                     <p><b>Dimension</b> 23x12cm</p>
-        //                     <p><b>Inner Packaging</b> 1 pcs</p>
-        //                     <p><b>Master packaging</b> 64 pcs./box</p>
-        //                     <p><b>HSN Code</b> 95030030</p>
-        //                 </div>
-        //             </div>
-        //         </>
-        //     },
-        //     {
-        //         id: 93,
-        //         name: "PULL BACK EMERGENCY VEHICLES",
-        //         ProductBatteryType: "-",
-        //         ProductImage: [],
-        //         ProductStyleCode: "-",
-        //         Productdescription: <>
-        //             <div>
-        //                 <div>
-        //                     <p><b>Material type</b> Plastic</p>
-        //                     <p><b>Inner Packaging</b> 12 pcs</p>
-        //                     <p><b>Master packaging</b> 192 pcs</p>
-        //                     <p><b>HSN Code</b> 95030030</p>
-        //                 </div>
-        //             </div>
-        //         </>
-        //     },
-        //     {
-        //         id: 94,
-        //         name: "WATER FROG TOY",
-        //         ProductBatteryType: "-",
-        //         ProductImage: [],
-        //         ProductStyleCode: "-",
-        //         Productdescription: <>
-        //             <div>
-        //                 <div>
-        //                     <p><b>Material type</b> ABS</p>
-        //                     <p><b>Dimension</b> 7x12 cm</p>
-        //                     <p><b>Inner Packaging</b> 12 pcs</p>
-        //                     <p><b>Master packaging</b> 192 pcs</p>
-        //                     <p><b>HSN Code</b> 95030030</p>
-        //                 </div>
-        //             </div>
-        //         </>
-        //     },
-        //     {
-        //         id: 95,
-        //         name: "WHISTLE DINO PRESS GO",
-        //         ProductBatteryType: "-",
-        //         ProductImage: [],
-        //         ProductStyleCode: "-",
-        //         Productdescription: <>
-        //             <div>
-        //                 <div>
-        //                     <p><b>Material type</b> ABS</p>
-        //                     <p><b>Dimension</b> 9.2x11x11.5cm</p>
-        //                     <p><b>Inner Packaging</b> 12 pcs</p>
-        //                     <p><b>Master packaging</b> 192 pcs</p>
-        //                     <p><b>HSN Code</b> 95030030</p>
-        //                 </div>
-        //             </div>
-        //         </>
-        //     },
-        //     {
-        //         id: 96,
-        //         name: "SMALL TRACTOR WITH MONSTER WHEELS",
-        //         ProductBatteryType: "-",
-        //         ProductImage: [],
-        //         ProductStyleCode: "-",
-        //         Productdescription: <>
-        //             <div>
-        //                 <div>
-        //                     <p><b>Material type</b> ABS</p>
-        //                     <p><b>Dimension</b> 7x12 cm</p>
-        //                     <p><b>Inner Packaging</b> 12 pcs</p>
-        //                     <p><b>Master packaging</b> 192 pcs</p>
-        //                     <p><b>HSN Code</b> 95030030</p>
-        //                 </div>
-        //             </div>
-        //         </>
-        //     },
-        //     {
-        //         id: 97,
-        //         name: "BIG CARRIER TRUCKS WITH SMALL CARS",
-        //         ProductBatteryType: "-",
-        //         ProductImage: [],
-        //         ProductStyleCode: "-",
-        //         Productdescription: <>
-        //             <div>
-        //                 <div>
-        //                     <p><b>Material type</b> ABS</p>
-        //                     <p><b>Dimension</b> 13.2x3.7x5.3cm</p>
-        //                     <p><b>Inner Packaging</b> 1 pcs</p>
-        //                     <p><b>Master packaging</b> 24 pcs</p>
-        //                     <p><b>HSN Code</b> 95030030</p>
-        //                 </div>
-        //             </div>
-        //         </>
-        //     },
-        //     {
-        //         id: 98,
-        //         name: "BIG CARRIER TRUCKS WITH SMALL CARS",
-        //         ProductBatteryType: "-",
-        //         ProductImage: [],
-        //         ProductStyleCode: "-",
-        //         Productdescription: <>
-        //             <div>
-        //                 <div>
-        //                     <p><b>Material type</b> ABS</p>
-        //                     <p><b>Dimension</b> 13.2x3.7x5.3cm</p>
-        //                     <p><b>Inner Packaging</b> 1 pcs</p>
-        //                     <p><b>Master packaging</b> 24 pcs</p>
-        //                     <p><b>HSN Code</b> 95030030</p>
-        //                 </div>
-        //             </div>
-        //         </>
-        //     },
-        //     {
-        //         id: 99,
-        //         name: "MUSICAL GUITAR",
-        //         ProductBatteryType: "-",
-        //         ProductImage: [],
-        //         ProductStyleCode: "-",
-        //         Productdescription: <>
-        //             <div>
-        //                 <div>
-        //                     <p><b>Material type</b> ABS</p>
-        //                     <p><b>Dimension</b> 41x19.4cm</p>
-        //                     <p><b>Inner Packaging</b> 1 pcs</p>
-        //                     <p><b>Master packaging</b> 32 pcs</p>
-        //                     <p><b>HSN Code</b> 95030030</p>
-        //                 </div>
-        //             </div>
-        //         </>
-        //     },
-        //     {
-        //         id: 100,
-        //         name: "MUSICAL DINO",
-        //         ProductBatteryType: "-",
-        //         ProductImage: [],
-        //         ProductStyleCode: "-",
-        //         Productdescription: <>
-        //             <div>
-        //                 <div>
-        //                     <p><b>Material type</b> ABS</p>
-        //                     <p><b>Dimension</b> 7.5X9.8X8.2cm</p>
-        //                     <p><b>Inner Packaging</b> 5 pcs</p>
-        //                     <p><b>Master packaging</b> 80 pcs./box</p>
-        //                     <p><b>HSN Code</b> 95030030</p>
-        //                 </div>
-        //             </div>
-        //         </>
-        //     },
-        //     {
-        //         id: 101,
-        //         name: "DANCING OCTOPUS TOY",
-        //         ProductBatteryType: "-",
-        //         ProductImage: [],
-        //         ProductStyleCode: "-",
-        //         Productdescription: <>
-        //             <div>
-        //                 <div>
-        //                     <p><b>Material type</b> ABS</p>
-        //                     <p><b>Dimension</b> 11x25x13cm</p>
-        //                     <p><b>Inner Packaging</b> 12 pcs</p>
-        //                     <p><b>Master packaging</b> 64 pcs</p>
-        //                     <p><b>HSN Code</b> 95030030</p>
-        //                 </div>
-        //             </div>
-        //         </>
-        //     },
-        //     {
-        //         id: 102,
-        //         name: "BIG MONSTER WHEEL FARMER TRACTOR",
-        //         ProductBatteryType: "-",
-        //         ProductImage: [],
-        //         ProductStyleCode: "-",
-        //         Productdescription: <>
-        //             <div>
-        //                 <div>
-        //                     <p><b>Material type</b> ABS</p>
-        //                     <p><b>Dimension</b> 29.5x19.5x19.5cm</p>
-        //                     <p><b>Inner Packaging</b> 1 pcs</p>
-        //                     <p><b>Master packaging</b> 32 pcs./box</p>
-        //                     <p><b>HSN Code</b> 95030030</p>
-        //                 </div>
-        //             </div>
-        //         </>
-        //     },
-        //     {
-        //         id: 103,
-        //         name: "DOUBLE INERTIA INSECT BEETLE",
-        //         ProductBatteryType: "-",
-        //         ProductImage: [],
-        //         ProductStyleCode: "-",
-        //         Productdescription: <>
-        //             <div>
-        //                 <div>
-        //                     <p><b>Material type</b> ABS</p>
-        //                     <p><b>Dimension</b> 23x12cm</p>
-        //                     <p><b>Inner Packaging</b> 12 pcs</p>
-        //                     <p><b>Master packaging</b> 192 pcs</p>
-        //                     <p><b>HSN Code</b> 95030030</p>
-        //                 </div>
-        //             </div>
-        //         </>
-        //     },
-        //     {
-        //         id: 104,
-        //         name: "MUSICAL RESCUE HELICOPTER",
-        //         ProductBatteryType: "-",
-        //         ProductImage: [],
-        //         ProductStyleCode: "-",
-        //         Productdescription: <>
-        //             <div>
-        //                 <div>
-        //                     <p><b>Material type</b> ABS</p>
-        //                     <p><b>Dimension</b> 14X37X14.5 cm</p>
-        //                     <p><b>Inner Packaging</b> 1 pcs</p>
-        //                     <p><b>Master packaging</b> 32 pcs./box</p>
-        //                     <p><b>HSN Code</b> 95030030</p>
-        //                 </div>
-        //             </div>
-        //         </>
-        //     },
-        //     {
-        //         id: 105,
-        //         name: "COOL RUN DINOSAUR",
-        //         ProductBatteryType: "-",
-        //         ProductImage: [],
-        //         ProductStyleCode: "-",
-        //         Productdescription: <>
-        //             <div>
-        //                 <div>
-        //                     <p><b>Material type</b> ABS</p>
-        //                     <p><b>Dimension</b> 23x12cm</p>
-        //                     <p><b>Inner Packaging</b> 8 pcs</p>
-        //                     <p><b>Master packaging</b> 128 pcs</p>
-        //                     <p><b>HSN Code</b> 95030030</p>
-        //                 </div>
-        //             </div>
-        //         </>
-        //     },
-        //     {
-        //         id: 106,
-        //         name: "COOL RUN DINOSAUR",
-        //         ProductBatteryType: "-",
-        //         ProductImage: [],
-        //         ProductStyleCode: "-",
-        //         Productdescription: <>
-        //             <div>
-        //                 <div>
-        //                     <p><b>Material type</b> ABS</p>
-        //                     <p><b>Scale</b> 22.5cm</p>
-        //                     <p><b>Box Size</b> 64 pcs</p>
-        //                     <p><b>Inner Packaging</b> 1 pcs</p>
-        //                     <p><b>Master packaging</b> 64 pcs</p>
-        //                     <p><b>HSN Code</b> 95030030</p>
-        //                     <p><b>Battery</b> 3.7V Li-ion Rechargeable Battery</p>
-        //                 </div>
-        //             </div>
-        //         </>
-        //     },
-        //     {
-        //         id: 107,
-        //         name: "WATER TURTLE TOY",
-        //         ProductBatteryType: "-",
-        //         ProductImage: [],
-        //         ProductStyleCode: "-",
-        //         Productdescription: <>
-        //             <div>
-        //                 <div>
-        //                     <p><b>Material type</b> ABS</p>
-        //                     <p><b>Dimension</b> 8X9X5.5cm</p>
-        //                     <p><b>Inner Packaging</b> 12 pcs</p>
-        //                     <p><b>Master packaging</b> 192 pcs</p>
-        //                     <p><b>HSN Code</b> 95030030</p>
-        //                 </div>
-        //             </div>
-        //         </>
-        //     }
-        // ]
 
     }
 }

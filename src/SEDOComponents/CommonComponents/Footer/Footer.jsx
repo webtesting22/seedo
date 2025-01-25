@@ -36,7 +36,7 @@ const Footer = () => {
                                     <p><b>Contact</b> </p>
                                     <div style={{ display: "flex", flexDirection: "Column", gap: "10px" }}>
                                         <Link to="mailto:info@seedotoys.com" target="_blank" style={{ color: "white", fontSize: "16px", display: "flex", alignItems: "center" }}> <FaRegEnvelope /> &nbsp;&nbsp;info@seedotoys.com</Link>
-                                        <Link style={{ fontSize: "16px", color: "white", display: "flex", alignItems: "center" }}><MdOutlinePhone />&nbsp;&nbsp;9876543210</Link>
+                                        <Link style={{ fontSize: "16px", color: "white", display: "flex", alignItems: "center" }}><MdOutlinePhone />&nbsp;&nbsp;</Link>
                                     </div>
                                     {/* <p><b>Privacy Policy</b></p>
                                     <p><b>Terms and Condition</b></p> */}

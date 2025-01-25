@@ -369,7 +369,7 @@
 .CatalogueCardContainer {
   background-color: white;
   min-height: 350px;
-  height: 100%;
+  /* height: 100%; */
   /* margin: 20px 10px; */
   padding: 15px;
   border-radius: 10px;
@@ -379,6 +379,7 @@
 
 .CatalogueCardsContainer .ant-row .ant-col {
   padding: 20px 10px;
+  padding-bottom: 0px !important;
 }
 
 .CatalogueCardsContainer {
@@ -550,16 +551,20 @@
 
   .CatalogueCardsContainer {
     padding: 0rem 1rem;
-    margin-top: 5rem;
+    margin-top: 0rem;
   }
 
   .CatalogueCardContainer {
     background-color: white;
-    border: 2px dashed #bc252a72;
+    /* border: 2px dashed #bc252a72; */
     /* min-height: 400px; */
     margin: 20px 00px;
+    margin-bottom: 0px !important;
     border-radius: 20px;
     /* border: 2px solid #000; */
+  }
+  .CatalogueCardsContainer .ant-row .ant-col{
+    padding: 10px 0px !important;
   }
 
 

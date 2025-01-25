@@ -181,7 +181,7 @@ const SingleProductPage = () => {
                                             className="mySwiper"
                                         >
 
-                                            <div style={{ height: "590px", overflow: "auto" }}>
+                                            <div >
                                                 {otherImages.length > 0 ? (
                                                     otherImages.map((img, index) => (
                                                         <SwiperSlide>
