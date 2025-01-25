@@ -10,6 +10,12 @@ import BackImageNew from "./BackImageNew.png"
 import BackImage2 from "./BackImage2.png"
 import BackImage3 from "./BackImage3.png"
 import BackImageBack from "./BackImageBack.png"
+import landingPageVideo1 from "./Video/landingpageVideo.mp4"
+import landingPageVideo2 from "./Video/landingpageVideo2.mp4"
+import landingPageVideo3 from "./Video/landingpageVideo3.mp4"
+// import landingPageVideo2 from "/Images/Video/landingPageVideo2.mp4"
+// import landingPageVideo3 from "/Images/Video/landingPageVideo3.mp4"
+
 const HomePage = () => {
     const imageRef = useRef(null);
     const sectionRef = useRef(null);  // Ref for the section to apply shadow effect
@@ -17,6 +23,7 @@ const HomePage = () => {
     const overlayRef = useRef(null);
     const [animationTriggered, setAnimationTriggered] = useState(false);
     const images = [
+        // landingPageVideo1, landingPageVideo2, landingPageVideo3,
         // "https://images.unsplash.com/photo-1490902931801-d6f80ca94fe4?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         // gen8,
         BackImageNew,
@@ -126,7 +133,7 @@ const HomePage = () => {
 
                     </div>
                     <div className="HomePageContentContainer">
-                        <div style={{ width: "100%", display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column", gap: "0px"}}>
+                        <div style={{ width: "100%", display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column", gap: "0px" }}>
                             {/* <img src={SEEDOLogo} alt="" style={{ width: "300px", borderRadius: "16px" }} data-aos="fade-up"
                                 data-aos-duration="1500" />
                             <h1 data-aos="fade-up"
