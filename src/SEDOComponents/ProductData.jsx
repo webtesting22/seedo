@@ -450,7 +450,7 @@ const SeedoProductData = {
                 },
                 {
                     id: 8,
-                    name: " Little Roaster Car",
+                    name: " Little Roaster",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
 
@@ -503,7 +503,7 @@ const SeedoProductData = {
                 },
                 {
                     id: 10,
-                    name: " Road Sniper 01 Car",
+                    name: " Road Sniper 01",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         LRC00D, RoadSniper01, RoadSniper02, RoadSniper03, RoadSniper04, RoadSniper05, RoadSniper06, RoadSniper07, RoadSniper08, RoadSniper09, RoadSniper010
@@ -529,10 +529,35 @@ const SeedoProductData = {
                 },
                 {
                     id: 11,
-                    name: " Road Sniper 02 Car",
+                    name: " Road Sniper 02",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         LRC00E, RoadSniper1, RoadSniper2, RoadSniper3, RoadSniper4, RoadSniper5, RoadSniper6, RoadSniper7, RoadSniper8
+                    ],
+                    ProductStyleCode: "124LRC00E",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Virgin grade, High
+                                    strength ABS Material</p>
+                                <p><b>Scale</b> 1:24</p>
+                                <p><b>USB</b> Yes</p>
+                                <p><b>Box size</b> 48 pcs./box</p>
+                                <p><b>Frequency</b> 27MHz</p>
+                                <p><b>Colours</b> </p>
+                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion
+                                    Rechargeable Battery</p>
+                            </div>
+                        </div>
+                    </>
+                },
+                {
+                    id: 116,
+                    name: " Road Sniper 03",
+                    ProductBatteryType: "Rechargable",
+                    ProductImage: [
+                       RoadSniper6
                     ],
                     ProductStyleCode: "124LRC00E",
                     Productdescription: <>
