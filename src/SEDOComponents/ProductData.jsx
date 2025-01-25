@@ -2319,7 +2319,7 @@ const SeedoProductData = {
                 </>
             },
             {
-                id: 113,
+                id: 117,
                 name: "ULTRA LED FLYING DISC",
                 ProductBatteryType: "-",
                 ProductImage: [ULTRALEDFLYINGDISC],
