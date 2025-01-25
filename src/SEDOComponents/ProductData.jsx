@@ -280,6 +280,9 @@ import DOUBLEINERTIAINSECTBEETLE from "../assets/MultipleViewImages/DOUBLEINERTI
 import COOLRUNDINOSAUR from "../assets/MultipleViewImages/COOLRUNDINOSAUR.png"
 import ULTRALEDFLYINGDISC from "../assets/MultipleViewImages/ULTRA LEDFLYINGDISC.png"
 import MONSTERTUMBLE from "../assets/MultipleViewImages/MONSTERTUMBLE.png"
+import MUSICALSAXOPHONETOY from "../assets/MultipleViewImages/MUSICALSAXOPHONETOY.png"
+import WaterTurtleToy from "../assets/MultipleViewImages/WaterTurtleToy.png"
+import MUSICALTRUMPETTOY from "../assets/MultipleViewImages/MUSICALTRUMPETTOY.png"
 const SeedoProductData = {
     "Remote Controlled Cars": {
         CategoriryImage: "Images/RCCar.png",
@@ -2332,7 +2335,43 @@ const SeedoProductData = {
                 id: 107,
                 name: "Water Turtle Toy",
                 ProductBatteryType: "-",
-                ProductImage: [],
+                ProductImage: [WaterTurtleToy],
+                ProductStyleCode: "-",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> ABS</p>
+                            <p><b>Dimension</b> 8X9X5.5cm</p>
+                            <p><b>Inner Packaging</b> 12 pcs</p>
+                            <p><b>Master packaging</b> 192 pcs</p>
+                            <p><b>HSN Code</b> 95030030</p>
+                        </div>
+                    </div>
+                </>
+            },
+            {
+                id: 115,
+                name: "MUSICAL SAXOPHONE TOY",
+                ProductBatteryType: "-",
+                ProductImage: [MUSICALSAXOPHONETOY],
+                ProductStyleCode: "-",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> ABS</p>
+                            <p><b>Dimension</b> 8X9X5.5cm</p>
+                            <p><b>Inner Packaging</b> 12 pcs</p>
+                            <p><b>Master packaging</b> 192 pcs</p>
+                            <p><b>HSN Code</b> 95030030</p>
+                        </div>
+                    </div>
+                </>
+            },
+            {
+                id: 116,
+                name: "MUSICAL SAXOPHONE TOY",
+                ProductBatteryType: "-",
+                ProductImage: [MUSICALTRUMPETTOY],
                 ProductStyleCode: "-",
                 Productdescription: <>
                     <div>
@@ -2346,6 +2385,7 @@ const SeedoProductData = {
                     </div>
                 </>
             }
+       
 
         ]
 
