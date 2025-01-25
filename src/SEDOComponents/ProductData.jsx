@@ -283,6 +283,7 @@ import MONSTERTUMBLE from "../assets/MultipleViewImages/MONSTERTUMBLE.png"
 import MUSICALSAXOPHONETOY from "../assets/MultipleViewImages/MUSICALSAXOPHONETOY.png"
 import WaterTurtleToy from "../assets/MultipleViewImages/WaterTurtleToy.png"
 import MUSICALTRUMPETTOY from "../assets/MultipleViewImages/MUSICALTRUMPETTOY.png"
+import SMALLACTIONSTUNTCAR from "../assets/MultipleViewImages/SMALLACTIONSTUNTCAR.png"
 const SeedoProductData = {
     "Remote Controlled Cars": {
         CategoriryImage: "Images/RCCar.png",
@@ -290,7 +291,7 @@ const SeedoProductData = {
             "1:18": [
                 {
                     id: 1,
-                    name: " Light Blaster Car",
+                    name: "LIGHT BLASTER 2 WAY",
                     ProductBatteryType: "Non - Rechargable",
                     ProductImage: [
                          W001, LightBlaster1, LightBlaster2, LightBlaster3, LightBlaster4, LightBlaster5, LightBlaster6, 
@@ -302,7 +303,7 @@ const SeedoProductData = {
                                 <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:18</p>
                                 <p><b>USB</b> No</p>
-                                <p><b>Box size</b> 48 pcs./box</p>
+                                <p><b>Box Quantity</b> 48 pcs./box</p>
                                 <p><b>Frequency</b> 27MHz</p>
                                 <p><b>Colours</b> </p>
                                 <p><b>HSN Code</b> 95030030</p>
@@ -2409,8 +2410,25 @@ const SeedoProductData = {
                         </div>
                     </div>
                 </>
-            }
+            },
        
+            {
+                id: 119,
+                name:"SMALL ACTION STUNT CAR",
+                ProductImage: [SMALLACTIONSTUNTCAR],
+                ProductStyleCode: "-",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> ABS</p>
+                            <p><b>Dimension</b> 8X9X5.5cm</p>
+                            <p><b>Inner Packaging</b> 12 pcs</p>
+                            <p><b>Master packaging</b> 192 pcs</p>
+                            <p><b>HSN Code</b> 95030030</p>
+                        </div>
+                    </div>
+                </>
+            }
 
         ]
 
