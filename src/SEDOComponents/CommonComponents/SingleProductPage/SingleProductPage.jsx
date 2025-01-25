@@ -119,7 +119,7 @@ const SingleProductPage = () => {
                                             direction={'vertical'}
                                             autoplay={{
                                                 delay: 2000,
-                                                disableOnInteraction: true,
+                                                disableOnInteraction: false,
                                             }}
                                             loop={true}
                                             // pagination={{
@@ -299,39 +299,7 @@ const SingleProductPage = () => {
                     </Row>
                 </div>
                 <br /><br />
-                {/* <div className="BuyNowContainer">
-                    <div>
-                        <h1>Buy now!</h1>
-                    </div>
-                    <div className="OptionsContainer">
-                        <Row>
-                            <Col lg={12} md={24}>
-                                <div className="logosContainer">
-                                    <div className="HeaderHeadingContainer">
-                                        <h1>Online Seedo</h1>
-                                    </div>
-                                    <ul>
-                                        <li>BRAND LOGO</li>
-                                        <li>BRAND LOGO</li>
-                                        <li>BRAND LOGO</li>
-                                    </ul>
-                                </div>
-                            </Col>
-                            <Col lg={12} md={24}>
-                                <div className="logosContainer">
-                                    <div className="HeaderHeadingContainer">
-                                        <h1>Offline Seedo</h1>
-                                    </div>
-                                    <ul>
-                                        <li>BRAND LOGO</li>
-                                        <li>BRAND LOGO</li>
-                                        <li>BRAND LOGO</li>
-                                    </ul>
-                                </div>
-                            </Col>
-                        </Row>
-                    </div>
-                </div> */}
+                
             </section>
         </>
     );

@@ -748,15 +748,15 @@ const SeedoProductData = {
                         </div>
                     </>
                 },
-                {
-                    id: 20,
-                    name: " Monster Acrobatics Truck",
-                    ProductBatteryType: "Rechargable",
-                    ProductImage: [
-                        MT001
-                    ],
-                    ProductStyleCode: "118MT001"
-                },
+                // {
+                //     id: 20,
+                //     name: " Monster Acrobatics Truck",
+                //     ProductBatteryType: "Rechargable",
+                //     ProductImage: [
+                //         MT001
+                //     ],
+                //     ProductStyleCode: "118MT001"
+                // },
 
                 {
                     id: 22,
