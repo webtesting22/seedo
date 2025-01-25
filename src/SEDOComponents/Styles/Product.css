@@ -257,6 +257,10 @@
 }
 
 @media (max-width: 769px) {
+  #ProductContainer {
+    background-color: #ffffff;
+    padding-top: 4rem;
+  }
   .SearchAndAddons {
     width: 100%;
     display: flex;
