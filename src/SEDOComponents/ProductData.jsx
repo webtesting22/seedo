@@ -294,7 +294,7 @@ const SeedoProductData = {
                     name: "LIGHT BLASTER 2 WAY",
                     ProductBatteryType: "Non - Rechargable",
                     ProductImage: [
-                         W001, LightBlaster1, LightBlaster2, LightBlaster3, LightBlaster4, LightBlaster5, LightBlaster6, 
+                        W001, LightBlaster1, LightBlaster2, LightBlaster3, LightBlaster4, LightBlaster5, LightBlaster6,
                     ],
                     ProductStyleCode: "1182W001",
                     Productdescription: <>
@@ -314,7 +314,7 @@ const SeedoProductData = {
                 },
                 {
                     id: 2,
-                    name: " Famous Car",
+                    name: "FAMOUS CAR 2 WAY",
                     ProductBatteryType: "Non - Rechargable",
                     ProductImage: [
                         W002
@@ -339,7 +339,7 @@ const SeedoProductData = {
                 },
                 {
                     id: 3,
-                    name: " Formula Car",
+                    name: "Formula Car",
                     ProductBatteryType: "Non - Rechargable",
                     ProductImage: [
                         W003
@@ -364,10 +364,35 @@ const SeedoProductData = {
                 },
                 {
                     id: 4,
-                    name: " Blaze Runner Car",
+                    name: "Blaze Runner Car",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         RC001, BlazeRunner1, BlazeRunner2, BlazeRunner3, BlazeRunner4, BlazeRunner5, BlazeRunner6, BlazeRunner7, BlazeRunner8, BlazeRunner9, BlazeRunner10, BlazeRunner11
+                    ],
+                    ProductStyleCode: "118RC001",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Virgin grade, High
+                                    strength ABS Material</p>
+                                <p><b>Scale</b> 1:18</p>
+                                <p><b>USB</b> Yes</p>
+                                <p><b>Box size</b> 48 pcs./box</p>
+                                <p><b>Frequency</b> 27MHz</p>
+                                <p><b>Colours</b> </p>
+                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion
+                                    Rechargeable Battery</p>
+                            </div>
+                        </div>
+                    </>
+                },
+                {
+                    id: 120,
+                    name: "FAMOUS CAR 4 WAY",
+                    ProductBatteryType: "Rechargable",
+                    ProductImage: [
+                        W002
                     ],
                     ProductStyleCode: "118RC001",
                     Productdescription: <>
@@ -392,7 +417,7 @@ const SeedoProductData = {
                     name: " Blaster 023 Car",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        W001_2,LightBlaster7, LightBlaster8
+                        W001_2, LightBlaster7, LightBlaster8
                     ],
                     ProductStyleCode: "118BC023"
                 },
@@ -558,7 +583,7 @@ const SeedoProductData = {
                     name: " Road Sniper 03",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                       RoadSniper6
+                        RoadSniper6
                     ],
                     ProductStyleCode: "124LRC00E",
                     Productdescription: <>
@@ -2411,10 +2436,10 @@ const SeedoProductData = {
                     </div>
                 </>
             },
-       
+
             {
                 id: 119,
-                name:"SMALL ACTION STUNT CAR",
+                name: "SMALL ACTION STUNT CAR",
                 ProductImage: [SMALLACTIONSTUNTCAR],
                 ProductStyleCode: "-",
                 Productdescription: <>
