@@ -323,11 +323,10 @@ const SeedoProductData = {
                     Productdescription: <>
                         <div>
                             <div>
-                                <p><b>Material type</b> Virgin grade, High
-                                    strength ABS Material</p>
+                                <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:18</p>
                                 <p><b>USB</b> No</p>
-                                <p><b>Box size</b> 48 pcs./box</p>
+                                <p><b>Box Quantity</b> 48 pcs./box</p>
                                 <p><b>Frequency</b> 27MHz</p>
                                 <p><b>Colours</b> </p>
                                 <p><b>HSN Code</b> 95030030</p>
@@ -339,7 +338,7 @@ const SeedoProductData = {
                 },
                 {
                     id: 3,
-                    name: "Formula Car",
+                    name: "FORMULA CAR 2 WAY",
                     ProductBatteryType: "Non - Rechargable",
                     ProductImage: [
                         W003
@@ -348,11 +347,10 @@ const SeedoProductData = {
                     Productdescription: <>
                         <div>
                             <div>
-                                <p><b>Material type</b> Virgin grade, High
-                                    strength ABS Material</p>
+                                <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:18</p>
                                 <p><b>USB</b> No</p>
-                                <p><b>Box size</b> 48 pcs./box</p>
+                                <p><b>Box Quantity</b> 48 pcs./box</p>
                                 <p><b>Frequency</b> 27MHz</p>
                                 <p><b>Colours</b> </p>
                                 <p><b>HSN Code</b> 95030030</p>
@@ -364,7 +362,7 @@ const SeedoProductData = {
                 },
                 {
                     id: 4,
-                    name: "Blaze Runner Car",
+                    name: "Blazer Runner",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         RC001, BlazeRunner1, BlazeRunner2, BlazeRunner3, BlazeRunner4, BlazeRunner5, BlazeRunner6, BlazeRunner7, BlazeRunner8, BlazeRunner9, BlazeRunner10, BlazeRunner11
@@ -373,11 +371,10 @@ const SeedoProductData = {
                     Productdescription: <>
                         <div>
                             <div>
-                                <p><b>Material type</b> Virgin grade, High
-                                    strength ABS Material</p>
+                                <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:18</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box size</b> 48 pcs./box</p>
+                                <p><b>Box Quantity</b> 48 pcs./box</p>
                                 <p><b>Frequency</b> 27MHz</p>
                                 <p><b>Colours</b> </p>
                                 <p><b>HSN Code</b> 95030030</p>
@@ -394,7 +391,7 @@ const SeedoProductData = {
                     ProductImage: [
                         W002
                     ],
-                    ProductStyleCode: "118RC001",
+                    ProductStyleCode: "118RC003",
                     Productdescription: <>
                         <div>
                             <div>
@@ -402,9 +399,8 @@ const SeedoProductData = {
                                     strength ABS Material</p>
                                 <p><b>Scale</b> 1:18</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box size</b> 48 pcs./box</p>
+                                <p><b>Box Quantity</b> 48 pcs./box</p>
                                 <p><b>Frequency</b> 27MHz</p>
-                                <p><b>Colours</b> </p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion
                                     Rechargeable Battery</p>
@@ -414,43 +410,56 @@ const SeedoProductData = {
                 },
                 {
                     id: 5,
-                    name: " Blaster 023 Car",
+                    name: "BLASTER 023 4 WAY",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         W001_2, LightBlaster7, LightBlaster8
                     ],
-                    ProductStyleCode: "118BC023"
-                },
-                {
-                    id: 6,
-                    name: " Famous Car 4W",
-                    ProductBatteryType: "Rechargable",
-                    ProductImage: [
-                        RC003_118
-                    ],
-                    ProductStyleCode: "118RC003",
+                    ProductStyleCode: "118BC023",
                     Productdescription: <>
                         <div>
                             <div>
-                                <p><b>Material type</b> Virgin grade, High
-                                    strength ABS Material</p>
+                                <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:18</p>
-                                <p><b>USB</b> Yes (C Type)</p>
-                                <p><b>Box size</b> 48 pcs./box</p>
+                                <p><b>USB</b> Yes</p>
+                                <p><b>Box Quantity</b> 48 pcs./box</p>
                                 <p><b>Frequency</b> 27MHz</p>
-                                <p><b>Colours</b> </p>
                                 <p><b>HSN Code</b> 95030030</p>
-                                <p><b>Battery Cell type</b> 3.7V Li-ion
-                                    Rechargeable Battery</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
                             </div>
                         </div>
                     </>
                 },
+                // {
+                //     id: 6,
+                //     name: "Famous Car 4W",
+                //     ProductBatteryType: "Rechargable",
+                //     ProductImage: [
+                //         RC003_118
+                //     ],
+                //     ProductStyleCode: "118RC003",
+                //     Productdescription: <>
+                //         <div>
+                //             <div>
+                //                 <p><b>Material type</b> Virgin grade, High
+                //                     strength ABS Material</p>
+                //                 <p><b>Scale</b> 1:18</p>
+                //                 <p><b>USB</b> Yes (C Type)</p>
+                //                 <p><b>Box Quantity</b> 48 pcs./box</p>
+                //                 <p><b>Frequency</b> 27MHz</p>
+                //                 <p><b>Colours</b> </p>
+                //                 <p><b>HSN Code</b> 95030030</p>
+                //                 <p><b>Battery Cell type</b> 3.7V Li-ion
+                //                     Rechargeable Battery</p>
+                //             </div>
+                //         </div>
+                //     </>
+                // },
             ],
             "1:24": [
                 {
                     id: 7,
-                    name: " Racer Car",
+                    name: "RACER CAR 4 WAY",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         RacerCar1, RacerCar2, RacerCar3, RacerCar4, RacerCar5
@@ -462,13 +471,12 @@ const SeedoProductData = {
                                 <p><b>Material type</b> Virgin grade, High
                                     strength ABS Material</p>
                                 <p><b>Scale</b> 1:24</p>
-                                <p><b>Charging</b> Yes (C Type)</p>
-                                <p><b>Box size</b> 48 pcs./box</p>
+                                <p><b>USB</b> Yes</p>
+                                <p><b>Box Quantity</b> 48 pcs./box</p>
                                 <p><b>Frequency</b> 27MHz</p>
                                 <p><b>Colours</b> </p>
                                 <p><b>HSN Code</b> 95030030</p>
-                                <p><b>Battery Cell type</b> 3.7V Li-ion
-                                    Rechargeable Battery</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
                             </div>
                         </div>
                     </>
@@ -476,26 +484,22 @@ const SeedoProductData = {
                 },
                 {
                     id: 8,
-                    name: " Little Roaster",
+                    name: "Little Roaster",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-
                         LRC00B
                     ],
-                    ProductStyleCode: "124LRC00B",
+                    ProductStyleCode: "124LRCOOB",
                     Productdescription: <>
                         <div>
                             <div>
-                                <p><b>Material type</b> Virgin grade, High
-                                    strength ABS Material</p>
+                                <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:24</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box size</b> 48 pcs./box</p>
+                                <p><b>Box Quantity</b> 48 pcs./box</p>
                                 <p><b>Frequency</b> 27MHz</p>
-                                <p><b>Colours</b> </p>
                                 <p><b>HSN Code</b> 95030030</p>
-                                <p><b>Battery Cell type</b> 3.7V Li-on
-                                    Rechargeable Battery</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
                             </div>
                         </div>
                     </>
@@ -503,7 +507,7 @@ const SeedoProductData = {
                 },
                 {
                     id: 9,
-                    name: " Spectre Car",
+                    name: "Spectre Car",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         SpectreCar3, SpectreCar2, SpectreCar1, SpectreCar4, SpectreCar5, SpectreCar6, SpectreCar7, SpectreCar8, SpectreCar9, SpectreCar10, SpectreCar11, LRC00C
@@ -512,16 +516,13 @@ const SeedoProductData = {
                     Productdescription: <>
                         <div>
                             <div>
-                                <p><b>Material type</b> Virgin grade, High
-                                    strength ABS Material</p>
+                                <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:24</p>
-                                <p><b>USB</b> Yes (C Type)</p>
-                                <p><b>Box size</b> 48 pcs./box</p>
+                                <p><b>USB</b> Yes</p>
+                                <p><b>Box Quantity</b> 48 pcs./box</p>
                                 <p><b>Frequency</b> 27MHz</p>
-                                <p><b>Colours</b> </p>
                                 <p><b>HSN Code</b> 95030030</p>
-                                <p><b>Battery Cell type</b> 3.7V Li-ion
-                                    Rechargeable Battery</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
                             </div>
                         </div>
                     </>
@@ -534,20 +535,17 @@ const SeedoProductData = {
                     ProductImage: [
                         LRC00D, RoadSniper01, RoadSniper02, RoadSniper03, RoadSniper04, RoadSniper05, RoadSniper06, RoadSniper07, RoadSniper08, RoadSniper09, RoadSniper010
                     ],
-                    ProductStyleCode: "124LRC00D",
+                    ProductStyleCode: "124LRCOOD",
                     Productdescription: <>
                         <div>
                             <div>
-                                <p><b>Material type</b> Virgin grade, High
-                                    strength ABS Material</p>
+                                <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:24</p>
-                                <p><b>USB</b> Yes (C Type)</p>
-                                <p><b>Box size</b> 48 pcs./box</p>
+                                <p><b>USB</b> Yes</p>
+                                <p><b>Box Quantity</b> 48 pcs./box</p>
                                 <p><b>Frequency</b> 27MHz</p>
-                                <p><b>Colours</b> </p>
                                 <p><b>HSN Code</b> 95030030</p>
-                                <p><b>Battery Cell type</b> 3.7V Li-ion
-                                    Rechargeable Battery</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
                             </div>
                         </div>
                     </>
@@ -555,7 +553,7 @@ const SeedoProductData = {
                 },
                 {
                     id: 11,
-                    name: " Road Sniper 02",
+                    name: "ROAD SNIPER 02",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         LRC00E, RoadSniper1, RoadSniper2, RoadSniper3, RoadSniper4, RoadSniper5, RoadSniper6, RoadSniper7, RoadSniper8
@@ -570,7 +568,6 @@ const SeedoProductData = {
                                 <p><b>USB</b> Yes</p>
                                 <p><b>Box size</b> 48 pcs./box</p>
                                 <p><b>Frequency</b> 27MHz</p>
-                                <p><b>Colours</b> </p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion
                                     Rechargeable Battery</p>
@@ -580,22 +577,20 @@ const SeedoProductData = {
                 },
                 {
                     id: 116,
-                    name: " Road Sniper 03",
+                    name: "Road Sniper 03",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         RoadSniper6
                     ],
-                    ProductStyleCode: "124LRC00E",
+                    ProductStyleCode: "124LR00F",
                     Productdescription: <>
                         <div>
                             <div>
-                                <p><b>Material type</b> Virgin grade, High
-                                    strength ABS Material</p>
+                                <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:24</p>
                                 <p><b>USB</b> Yes</p>
                                 <p><b>Box size</b> 48 pcs./box</p>
                                 <p><b>Frequency</b> 27MHz</p>
-                                <p><b>Colours</b> </p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion
                                     Rechargeable Battery</p>
@@ -605,22 +600,20 @@ const SeedoProductData = {
                 },
                 {
                     id: 12,
-                    name: " Police Car",
+                    name: "Police Car",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         PoliceCar1, PoliceCar2, PoliceCar3, PoliceCar4, PoliceCar5, PoliceCar6, PoliceCar7
                     ],
-                    ProductStyleCode: "124PRC001",
+                    ProductStyleCode: "118RC001",
                     Productdescription: <>
                         <div>
                             <div>
-                                <p><b>Material type</b> Virgin grade, High
-                                    strength ABS Material</p>
+                                <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:24</p>
                                 <p><b>USB</b> No</p>
-                                <p><b>Box size</b> 48 pcs./box</p>
+                                <p><b>Box Quantity</b> 48 pcs./box</p>
                                 <p><b>Frequency</b> 27MHz</p>
-                                <p><b>Colours</b> </p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion
                                     Rechargeable Battery</p>
@@ -630,7 +623,7 @@ const SeedoProductData = {
                 },
                 {
                     id: 13,
-                    name: " Dazzling Car",
+                    name: "Dazzling",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         RC001_124, DazzalingCar1, DazzalingCar2, DazzalingCar3, DazzalingCar4, DazzalingCar5, DazzalingCar6, DazzalingCar7, DazzalingCar8, DazzalingCar9, DazzalingCar10, DazzalingCar11, DazzalingCar12
@@ -639,16 +632,13 @@ const SeedoProductData = {
                     Productdescription: <>
                         <div>
                             <div>
-                                <p><b>Material type</b> Virgin grade, High
-                                    strength ABS Material</p>
+                                <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:24</p>
-                                <p><b>USB</b> Yes (C Type)</p>
-                                <p><b>Box size</b> 36 pcs./box</p>
+                                <p><b>USB</b> Yes</p>
+                                <p><b>Box Quantity</b> 36 pcs./box</p>
                                 <p><b>Frequency</b> 27MHz</p>
-                                <p><b>Colours</b> </p>
                                 <p><b>HSN Code</b> 95030030</p>
-                                <p><b>Battery Cell type</b> 3.7V Li-ion
-                                    Rechargeable Battery</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
                             </div>
                         </div>
                     </>
@@ -657,7 +647,7 @@ const SeedoProductData = {
             "Stunt Car": [
                 {
                     id: 15,
-                    name: "Big Stunt Car",
+                    name: "Big Stunt",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         SC001_118, BigStunt1, BigStunt2, BigStunt3, BigStunt4, BigStunt5
@@ -666,23 +656,20 @@ const SeedoProductData = {
                     Productdescription: <>
                         <div>
                             <div>
-                                <p><b>Material type</b> Virgin grade, High
-                                    strength ABS Material</p>
+                                <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:18</p>
                                 <p><b>USB</b> Yes</p>
                                 <p><b>Box size</b> 12 pcs./box</p>
                                 <p><b>Frequency</b> 27MHz</p>
-                                <p><b>Colours</b> </p>
                                 <p><b>HSN Code</b> 95030030</p>
-                                <p><b>Battery Cell type</b> 3.7V Li-ion
-                                    Rechargeable Battery</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
                             </div>
                         </div>
                     </>
                 },
                 {
                     id: 14,
-                    name: " Stunt Car",
+                    name: "Stunt Car",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         SC001_124
@@ -691,16 +678,13 @@ const SeedoProductData = {
                     Productdescription: <>
                         <div>
                             <div>
-                                <p><b>Material type</b> Virgin grade, High
-                                    strength ABS Material</p>
-                                <p><b>Scale</b> 1:24</p>
+                                <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
+                                <p><b>Scale</b> 1:18</p>
                                 <p><b>USB</b> Yes</p>
                                 <p><b>Box size</b> 48 pcs./box</p>
                                 <p><b>Frequency</b> 27MHz</p>
-                                <p><b>Colours</b> </p>
                                 <p><b>HSN Code</b> 95030030</p>
-                                <p><b>Battery Cell type</b> 3.7V Li-ion
-                                    Rechargeable Battery</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
                             </div>
                         </div>
                     </>
@@ -709,7 +693,7 @@ const SeedoProductData = {
                 {
                     id: 16,
 
-                    name: " Twisting Stunt Car",
+                    name: "Twisting Stunt",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         SC001
@@ -718,23 +702,20 @@ const SeedoProductData = {
                     Productdescription: <>
                         <div>
                             <div>
-                                <p><b>Material type</b> Virgin grade, High
-                                    strength ABS Material</p>
+                                <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:16</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box size</b> 12 pcs./box</p>
+                                <p><b>Box Quantity</b> 12 pcs./box</p>
                                 <p><b>Frequency</b> 2.4GHz</p>
-                                <p><b>Colours</b> </p>
                                 <p><b>HSN Code</b> 95030030</p>
-                                <p><b>Battery Cell type</b> 3.7V Li-ion
-                                    Rechargeable Battery</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
                             </div>
                         </div>
                     </>
                 },
                 {
                     id: 17,
-                    name: " Twisting Drift Car",
+                    name: "Twisting Drift",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         SC003
@@ -743,23 +724,20 @@ const SeedoProductData = {
                     Productdescription: <>
                         <div>
                             <div>
-                                <p><b>Material type</b> Virgin grade, High
-                                    strength ABS Material</p>
+                                <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:16</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box size</b> 12 pcs./box</p>
+                                <p><b>Box Quantity</b> 12 pcs./box</p>
                                 <p><b>Frequency</b> 2.4GHz</p>
-                                <p><b>Colours</b> </p>
                                 <p><b>HSN Code</b> 95030030</p>
-                                <p><b>Battery Cell type</b> 3.7V Li-ion
-                                    Rechargeable Battery</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
                             </div>
                         </div>
                     </>
                 },
                 {
                     id: 18,
-                    name: " Super Sonic Stunt Car",
+                    name: "Super Sonic Stunt Car",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         SuperSonic1, SuperSonic2, SuperSonic3, SuperSonic4, SC002
@@ -768,16 +746,13 @@ const SeedoProductData = {
                     Productdescription: <>
                         <div>
                             <div>
-                                <p><b>Material type</b> Virgin grade, High
-                                    strength ABS Material</p>
+                                <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:16</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box size</b> 12 pcs./box</p>
+                                <p><b>Box Quantity</b> 12 pcs./box</p>
                                 <p><b>Frequency</b> 2.4GHz</p>
-                                <p><b>Colours</b> </p>
                                 <p><b>HSN Code</b> 95030030</p>
-                                <p><b>Battery Cell type</b> 3.7V Li-ion
-                                    Rechargeable Battery</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
                             </div>
                         </div>
                     </>
@@ -786,7 +761,7 @@ const SeedoProductData = {
             "Rock Crawler": [
                 {
                     id: 21,
-                    name: " Dino/Shark/PVC Rock Crawler",
+                    name: "Dino/Shark/PVC Rock Crawler",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         MT003, DinoShellCrawler1, DinoShellCrawler2, DinoShellCrawler3, DinoShellCrawler4, DinoShellCrawler5, DinoShellCrawler6
@@ -798,7 +773,7 @@ const SeedoProductData = {
                                 <p><b>Material type</b> PVC</p>
                                 <p><b>Scale</b> 1:18</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box size</b> 24 pcs./box</p>
+                                <p><b>Box Quantity</b> 24 pcs./box</p>
                                 <p><b>Frequency</b> 2.4GHz</p>
                                 <p><b>Colours</b> </p>
                                 <p><b>HSN Code</b> 95030030</p>
@@ -822,9 +797,8 @@ const SeedoProductData = {
                                 <p><b>Material type</b> PVC</p>
                                 <p><b>Scale</b> 1:18</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box size</b> 24 pcs./box</p>
+                                <p><b>Box Quantity</b> 24 pcs./box</p>
                                 <p><b>Frequency</b> 2.4GHz</p>
-                                <p><b>Colours</b> </p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion
                                     Rechargeable Battery</p>
@@ -834,7 +808,7 @@ const SeedoProductData = {
                 },
                 {
                     id: 19,
-                    name: " Rock Crawler",
+                    name: "Rock Crawler",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         RockCrawler1,
@@ -845,13 +819,11 @@ const SeedoProductData = {
                     Productdescription: <>
                         <div>
                             <div>
-                                <p><b>Material type</b> VVirgin grade, High
-                                    strength ABS Material</p>
+                                <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:18</p>
-                                <p><b>USB</b> Yes (C Type)</p>
+                                <p><b>USB</b> Yes</p>
                                 <p><b>Box size</b> 48 pcs./box</p>
                                 <p><b>Frequency</b> 2.4 GHz</p>
-                                <p><b>Colours</b> </p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion
                                     Rechargeable Battery</p>
@@ -883,9 +855,8 @@ const SeedoProductData = {
                                 <p><b>Material type</b> PVC</p>
                                 <p><b>Scale</b> 1:18</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box size</b> 24 pcs./box</p>
+                                <p><b>Box Quantity</b> 24 pcs./box</p>
                                 <p><b>Frequency</b> 2.4GHz</p>
-                                <p><b>Colours</b> </p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion
                                     Rechargeable Battery</p>
@@ -907,12 +878,10 @@ const SeedoProductData = {
                                 <p><b>Material type</b> PVC</p>
                                 <p><b>Scale</b> 1:18</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box size</b> 24 pcs./box</p>
+                                <p><b>Box Quantity</b> 24 pcs./box</p>
                                 <p><b>Frequency</b> 2.4GHz</p>
-                                <p><b>Colours</b> </p>
                                 <p><b>HSN Code</b> 95030030</p>
-                                <p><b>Battery Cell type</b> 3.7V Li-ion
-                                    Rechargeable Battery</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
                             </div>
                         </div>
                     </>
@@ -924,7 +893,7 @@ const SeedoProductData = {
                     ProductImage: [
                         Monstertruck5, Monstertruck2, Monstertruck1, , Monstertruck3, Monstertruck4, Monstertruck6, Monstertruck7, Monstertruck8, Monstertruck9, Monstertruck10, Monstertruck11, MONSTERACROBATICTRUCK
                     ],
-                    ProductStyleCode: "118MT003S",
+                    ProductStyleCode: "118MT001",
                     Productdescription: <>
                         <div>
                             <div>
@@ -933,7 +902,6 @@ const SeedoProductData = {
                                 <p><b>USB</b> Yes</p>
                                 <p><b>Box Quantity</b> 24 pcs./box</p>
                                 <p><b>Frequency</b> 2.4GHz</p>
-                                <p><b>Colours</b> </p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
                             </div>
@@ -944,22 +912,20 @@ const SeedoProductData = {
             "1:16": [
                 {
                     id: 24,
-                    name: " Luxurious Sports Car 27 MHz",
+                    name: "Luxurious Sports Car",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         RC00127MHz, LuxuriousCar1, LuxuriousCar2, LuxuriousCar3, LuxuriousCar4, LuxuriousCar5, LuxuriousCar6, LuxuriousCar7, LuxuriousCar8
                     ],
-                    ProductStyleCode: "116RC001/27MHz",
+                    ProductStyleCode: "116RC001",
                     Productdescription: <>
                         <div>
                             <div>
-                                <p><b>Material type</b> Virgin grade, High
-                                    strength ABS Material</p>
+                                <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:16</p>
                                 <p><b>USB</b> Yes</p>
                                 <p><b>Box size</b> 18 pcs./box</p>
                                 <p><b>Frequency</b> 2.4GHz</p>
-                                <p><b>Colours</b> </p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion
                                     Rechargeable Battery</p>
@@ -978,22 +944,20 @@ const SeedoProductData = {
                 },
                 {
                     id: 26,
-                    name: " Hyper Beast Car 27 MHz",
+                    name: "Hyper Beast Car 27 MHz",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         RC00227MHz, HyperBeast1, HyperBeast2, HyperBeast3, HyperBeast4, HyperBeast5, HyperBeast6, HyperBeast7, HyperBeast8, HyperBeast9
                     ],
-                    ProductStyleCode: "116RC002/27MHz",
+                    ProductStyleCode: "116RC002",
                     Productdescription: <>
                         <div>
                             <div>
-                                <p><b>Material type</b> Virgin grade, High
-                                    strength ABS Material</p>
+                                <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:16</p>
                                 <p><b>USB</b> Yes</p>
                                 <p><b>Box size</b> 48 pcs./box</p>
                                 <p><b>Frequency</b> 27 MHz</p>
-                                <p><b>Colours</b> </p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion
                                     Rechargeable Battery</p>
@@ -1003,7 +967,7 @@ const SeedoProductData = {
                 },
                 {
                     id: 27,
-                    name: " Hyper Beast Car 2.4GHz",
+                    name: "Hyper Beast Car 2.4GHz",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         RC00224GHz
@@ -1012,7 +976,7 @@ const SeedoProductData = {
                 },
                 {
                     id: 28,
-                    name: " Thunder Bird Car",
+                    name: "ThunderBird",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         ThunderBird1, ThunderBird2, ThunderBird3, ThunderBird4, ThunderBird5, ThunderBird6, ThunderBird7, RC003_2
@@ -1021,13 +985,11 @@ const SeedoProductData = {
                     Productdescription: <>
                         <div>
                             <div>
-                                <p><b>Material type</b> Virgin grade, High
-                                    strength ABS Material</p>
+                                <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:24</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box size</b> 12 pcs./box</p>
+                                <p><b>Box Quantity</b> 12 pcs./box</p>
                                 <p><b>Frequency</b> 2.4GHz</p>
-                                <p><b>Colours</b> </p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion
                                     Rechargeable Battery</p>
@@ -1037,7 +999,7 @@ const SeedoProductData = {
                 },
                 {
                     id: 89,
-                    name: " 750 Drone",
+                    name: "750 Drone",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         Drone1, Drone2, Drone3, Drone4, Drone5, Drone6, Drone7, Drone8, Drone9, Drone10
@@ -1046,26 +1008,19 @@ const SeedoProductData = {
                     Productdescription: <>
                         <div>
                             <div>
-                                <p><b>Material type</b> Virgin grade, High
-                                    strength ABS Material</p>
+                                <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
+                                <p><b>Scale</b> 17x17x4cm</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box size</b> 24 pcs./box</p>
+                                <p><b>Box Quantity</b> 24 pcs./box</p>
                                 <p><b>Frequency</b> 2.4GHz</p>
-                                <p><b>Colours</b> </p>
                                 <p><b>HSN Code</b> 95030030</p>
-                                <p><b>Battery Cell type</b> 3.7V Li-ion
-                                    Rechargeable Battery</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
                             </div>
                         </div>
                     </>
                 }
             ]
         },
-        // products: [
-
-
-
-        // ]
     },
     "Metal Die Cast Cars": {
         CategoriryImage: "/Images/DieCast.png",
@@ -1081,10 +1036,10 @@ const SeedoProductData = {
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
-                                <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Shape</b> 1:64</p>
+                                <p><b>Box Quantity</b> Pack of 1/3/5/10</p>
                                 <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
@@ -1099,10 +1054,10 @@ const SeedoProductData = {
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
-                                <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Shape</b> 1:64</p>
+                                <p><b>Box Quantity</b> Pack of 1/3/5/10</p>
                                 <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
@@ -1117,10 +1072,10 @@ const SeedoProductData = {
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
-                                <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Shape</b> 1:64</p>
+                                <p><b>Box Quantity</b> Pack of 1/3/5/10</p>
                                 <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
@@ -1135,10 +1090,10 @@ const SeedoProductData = {
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
-                                <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Shape</b> 1:64</p>
+                                <p><b>Box Quantity</b> Pack of 1/3/5/10</p>
                                 <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
@@ -1153,10 +1108,10 @@ const SeedoProductData = {
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
-                                <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Shape</b> 1:64</p>
+                                <p><b>Box Quantity</b> Pack of 1/3/5/10</p>
                                 <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
@@ -1171,10 +1126,10 @@ const SeedoProductData = {
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
-                                <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Shape</b> 1:64</p>
+                                <p><b>Box Quantity</b> Pack of 1/3/5/10</p>
                                 <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
@@ -1189,10 +1144,10 @@ const SeedoProductData = {
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
-                                <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Shape</b> 1:64</p>
+                                <p><b>Box Quantity</b> Pack of 1/3/5/10</p>
                                 <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
@@ -1207,10 +1162,10 @@ const SeedoProductData = {
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
-                                <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
+                                <p><b>Shape</b> 1:64</p>
+                                <p><b>Box Quantity</b> Pack of 1/3/5/10</p>
                                 <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
@@ -1219,7 +1174,7 @@ const SeedoProductData = {
             "Fire Birds Series": [
                 {
                     id: 65,
-                    name: "SMR Fire Birds Series-FBS01/8",
+                    name: "SMR Fire Birds-FBS01/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWFBS018],
                     ProductStyleCode: "SMR-FW-FBS01/8",
@@ -1228,16 +1183,16 @@ const SeedoProductData = {
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Box size</b> 24 pcs./box</p>
+                                <p><b>Packaging</b> 2.4GHz</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
                 },
                 {
                     id: 66,
-                    name: "SMR Fire Birds Series-FBS02/8",
+                    name: "SMR Fire Birds-FBS02/8 ",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWFBS028],
                     ProductStyleCode: "SMR-FW-FBS02/8",
@@ -1246,16 +1201,16 @@ const SeedoProductData = {
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Box size</b> 24 pcs./box</p>
+                                <p><b>Packaging</b> 2.4GHz</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
                 },
                 {
                     id: 67,
-                    name: "SMR Fire Birds Series-FBS03/8",
+                    name: "SMR Fire Birds-FBS03/8 ",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWFBS038],
                     ProductStyleCode: "SMR-FW-FBS03/8",
@@ -1264,16 +1219,16 @@ const SeedoProductData = {
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Box size</b> 24 pcs./box</p>
+                                <p><b>Packaging</b> 2.4GHz</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
                 },
                 {
                     id: 68,
-                    name: "SMR Fire Birds Series-FBS04/8",
+                    name: "SMR Fire Birds-FBS04/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWFBS048],
                     ProductStyleCode: "SMR-FW-FBS04/8",
@@ -1282,16 +1237,16 @@ const SeedoProductData = {
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Box size</b> 24 pcs./box</p>
+                                <p><b>Packaging</b> 2.4GHz</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
                 },
                 {
                     id: 69,
-                    name: "SMR Fire Birds Series-FBS05/8",
+                    name: "SMR Fire Birds-FBS05/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWFBS058],
                     ProductStyleCode: "SMR-FW-FBS05/8",
@@ -1300,16 +1255,16 @@ const SeedoProductData = {
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Box size</b> 24 pcs./box</p>
+                                <p><b>Packaging</b> 2.4GHz</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
                 },
                 {
                     id: 70,
-                    name: "SMR Fire Birds Series-FBS06/8",
+                    name: "SMR Fire Birds-FBS06/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWFBS068],
                     ProductStyleCode: "SMR-FW-FBS06/8",
@@ -1318,16 +1273,16 @@ const SeedoProductData = {
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Box size</b> 24 pcs./box</p>
+                                <p><b>Packaging</b> 2.4GHz</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
                 },
                 {
                     id: 71,
-                    name: "SMR Fire Birds Series-FBS07/8",
+                    name: "SMR Fire Birds-FBS07/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWFBS078],
                     ProductStyleCode: "SMR-FW-FBS07/8",
@@ -1336,16 +1291,16 @@ const SeedoProductData = {
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Box size</b> 24 pcs./box</p>
+                                <p><b>Packaging</b> 2.4GHz</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
                 },
                 {
                     id: 72,
-                    name: "SMR Fire Birds Series-FBS08/8",
+                    name: "SMR Fire Birds-FBS08/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWFBS088],
                     ProductStyleCode: "SMR-FW-FBS08/8",
@@ -1354,9 +1309,9 @@ const SeedoProductData = {
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Box size</b> 24 pcs./box</p>
+                                <p><b>Packaging</b> 2.4GHz</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
@@ -1377,7 +1332,7 @@ const SeedoProductData = {
                                 <p><b>Scale</b> 1:64</p>
                                 <p><b>Box size</b> Pack of 1/3/5/10</p>
                                 <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
@@ -1395,7 +1350,7 @@ const SeedoProductData = {
                                 <p><b>Scale</b> 1:64</p>
                                 <p><b>Box size</b> Pack of 1/3/5/10</p>
                                 <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
@@ -1413,7 +1368,7 @@ const SeedoProductData = {
                                 <p><b>Scale</b> 1:64</p>
                                 <p><b>Box size</b> Pack of 1/3/5/10</p>
                                 <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
@@ -1431,7 +1386,7 @@ const SeedoProductData = {
                                 <p><b>Scale</b> 1:64</p>
                                 <p><b>Box size</b> Pack of 1/3/5/10</p>
                                 <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
@@ -1449,7 +1404,7 @@ const SeedoProductData = {
                                 <p><b>Scale</b> 1:64</p>
                                 <p><b>Box size</b> Pack of 1/3/5/10</p>
                                 <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
@@ -1467,7 +1422,7 @@ const SeedoProductData = {
                                 <p><b>Scale</b> 1:64</p>
                                 <p><b>Box size</b> Pack of 1/3/5/10</p>
                                 <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
