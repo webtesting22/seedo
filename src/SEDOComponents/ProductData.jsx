@@ -702,7 +702,7 @@ const SeedoProductData = {
                     name: " Dino/Shark/PVC Rock Crawler",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        MT003, MT003_2,DinoShellCrawler1,DinoShellCrawler2,DinoShellCrawler3,DinoShellCrawler4,DinoShellCrawler5,DinoShellCrawler6
+                        MT003, MT003_2, DinoShellCrawler1, DinoShellCrawler2, DinoShellCrawler3, DinoShellCrawler4, DinoShellCrawler5, DinoShellCrawler6
                     ],
                     ProductStyleCode: "118MT003",
                     Productdescription: <>
