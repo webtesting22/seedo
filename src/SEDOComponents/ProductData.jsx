@@ -241,6 +241,12 @@ import Drone7 from "../assets/MultipleViewImages/Drone7(yellow).png"
 import Drone8 from "../assets/MultipleViewImages/Drone8.png"
 import Drone9 from "../assets/MultipleViewImages/Drone9.png"
 import Drone10 from "../assets/MultipleViewImages/Drone10.png"
+import DinoShellCrawler1 from "../assets/MultipleViewImages/DinoShellCrawler1.jpg"
+import DinoShellCrawler2 from "../assets/MultipleViewImages/DinoShellCrawler2.jpg"
+import DinoShellCrawler3 from "../assets/MultipleViewImages/DinoShellCrawler3.jpg"
+import DinoShellCrawler4 from "../assets/MultipleViewImages/DinoShellCrawler4.jpg"
+import DinoShellCrawler5 from "../assets/MultipleViewImages/DinoShellCrawler5.jpg"
+import DinoShellCrawler6 from "../assets/MultipleViewImages/DinoShellCrawler6.jpg"
 const SeedoProductData = {
     "Remote Controlled Cars": {
         CategoriryImage: "Images/RCCar.png",
@@ -692,16 +698,31 @@ const SeedoProductData = {
             ],
             "Rock Crawler": [
                 {
-                    id: 19,
-                    name: " Monster Acrobatics Truck",
+                    id: 21,
+                    name: " Dino/Shark/PVC Rock Crawler",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        MT001
+                        MT003, MT003_2,DinoShellCrawler1,DinoShellCrawler2,DinoShellCrawler3,DinoShellCrawler4,DinoShellCrawler5,DinoShellCrawler6
                     ],
-                    ProductStyleCode: "118MT001"
+                    ProductStyleCode: "118MT003",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> PVC</p>
+                                <p><b>Scale</b> 1:18</p>
+                                <p><b>USB</b> Yes</p>
+                                <p><b>Box size</b> 24 pcs./box</p>
+                                <p><b>Frequency</b> 2.4GHz</p>
+                                <p><b>Colours</b> </p>
+                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion
+                                    Rechargeable Battery</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
-                    id: 20,
+                    id: 19,
                     name: " Rock Crawler",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
@@ -728,29 +749,15 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id: 21,
-                    name: " Dino/Shark/PVC Rock Crawler",
+                    id: 20,
+                    name: " Monster Acrobatics Truck",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        MT003, MT003_2
+                        MT001
                     ],
-                    ProductStyleCode: "118MT003",
-                    Productdescription: <>
-                        <div>
-                            <div>
-                                <p><b>Material type</b> PVC</p>
-                                <p><b>Scale</b> 1:18</p>
-                                <p><b>USB</b> Yes</p>
-                                <p><b>Box size</b> 24 pcs./box</p>
-                                <p><b>Frequency</b> 2.4GHz</p>
-                                <p><b>Colours</b> </p>
-                                <p><b>HSN Code</b> 95030030</p>
-                                <p><b>Battery Cell type</b> 3.7V Li-ion
-                                    Rechargeable Battery</p>
-                            </div>
-                        </div>
-                    </>
+                    ProductStyleCode: "118MT001"
                 },
+
                 {
                     id: 22,
                     name: " Gun Rock Crawler",
@@ -895,11 +902,11 @@ const SeedoProductData = {
                     </>
                 },
                 {
-                    id:89,
+                    id: 89,
                     name: " 750 Drone",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        Drone1,Drone2,Drone3,Drone4,Drone5,Drone6,Drone7,Drone8,Drone9,Drone10
+                        Drone1, Drone2, Drone3, Drone4, Drone5, Drone6, Drone7, Drone8, Drone9, Drone10
                     ],
                     ProductStyleCode: "STDR001",
                     Productdescription: <>
@@ -922,7 +929,7 @@ const SeedoProductData = {
         },
         // products: [
 
-            
+
 
         // ]
     },
