@@ -425,6 +425,26 @@
     transition: .5s;
 }
 
+.BestSellerCardsContainer .DefaultImage{
+    opacity: 1;
+    transition: .5s;
+}
+.BestSellerCardsContainer:hover .DefaultImage{
+    opacity: 0;
+    transition: .5s;
+}
+.BestSellerCardsContainer .hoverableImageImage{
+    opacity: 0;
+    position: absolute;
+transition: .5s;
+}
+
+.BestSellerCardsContainer:hover .hoverableImageImage{
+    opacity: 1;
+    position: absolute;
+    transition: .5s;
+}
+
 @media (max-width:769px) {
     .BackShapeAjust {
         width: 200px;

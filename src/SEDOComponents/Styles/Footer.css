@@ -75,6 +75,13 @@
 
 
 @media (max-width:769px) {
+    #Footer .LinksContainer ul {
+        padding: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
 .FooterAdressContainer div:first-child{
     width: 100%;
 }

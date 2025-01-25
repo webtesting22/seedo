@@ -10,6 +10,14 @@ import SMRFWPBP3 from "/Images/ProductsImages/Metal x Racer/FireBirdsSeries/SMR-
 import PNGSSPO9 from "/Images/ProductsImages/Friction and pull back products/PNG-SS-PO9.png"
 import PNGSSPO9_2 from "/Images/ProductsImages/Friction and pull back products/PNG-SS-PO9(2).png"
 import PNGSSPO9_3 from "/Images/ProductsImages/Friction and pull back products/PNG-SS-PO9(3).png"
+import RoadSniper1 from "../assets/MultipleViewImages/RoadSniper1.png"
+import RoadSniper2 from "../assets/MultipleViewImages/RoadSniper2(red).png"
+import RoadSniper01 from "../assets/MultipleViewImages/RoadSniper01.png"
+import RoadSniper02 from "../assets/MultipleViewImages/RoadSniper02.png"
+import BlazeRunner1 from "../assets/MultipleViewImages/BlazeRunner1(blue).png"
+import BlazeRunner2 from "../assets/MultipleViewImages/BlazeRunner2(red).png"
+import LuxuriousCar1 from "../assets/MultipleViewImages/LuxuriousCar1(orange).png"
+import LuxuriousCar2 from "../assets/MultipleViewImages/LuxuriousCar2.png"
 const BestSellerProducts = {
     "BestSeller": {
         products: [
@@ -18,7 +26,7 @@ const BestSellerProducts = {
                 name: " Blaze Runner Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
-                    RC001
+                    RC001,BlazeRunner1,BlazeRunner2
                 ],
                 ProductStyleCode: "118RC001",
                 link: "singleproduct/Remote%20Controlled%20Cars/4",
@@ -40,7 +48,7 @@ const BestSellerProducts = {
                 name: " Road Sniper 01 Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
-                    LRC00D
+                    LRC00D,RoadSniper01,RoadSniper02
                 ],
                 ProductStyleCode: "124LRC00D",
                 link: "singleproduct/Remote%20Controlled%20Cars/10",
@@ -52,7 +60,7 @@ const BestSellerProducts = {
                 name: " Road Sniper 02 Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
-                    LRC00E
+                    LRC00E,RoadSniper1, RoadSniper2,
                 ],
                 ProductStyleCode: "124LRC00E",
                 link: "singleproduct/Remote%20Controlled%20Cars/11",
@@ -109,7 +117,7 @@ const BestSellerProducts = {
                 name: " Luxurious Sports Car 27 MHz",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
-                    RC00127MHz
+                    RC00127MHz,LuxuriousCar1,LuxuriousCar2
                 ],
                 ProductStyleCode: "116RC001/27MHz",
                 link: "singleproduct/Remote%20Controlled%20Cars/26",

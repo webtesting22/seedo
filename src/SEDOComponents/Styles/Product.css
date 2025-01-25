@@ -6,6 +6,17 @@
 #ProductContainer .SectionHeadingContainer {
   padding: 7rem 0rem !important;
   background-color: rgb(149, 179, 224);
+  position: relative;
+  overflow: hidden;
+}
+
+#ProductContainer .SectionHeadingContainer img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .BannerContainer img {

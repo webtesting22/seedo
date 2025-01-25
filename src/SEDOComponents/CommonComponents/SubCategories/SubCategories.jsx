@@ -59,7 +59,7 @@ const SubCategories = () => {
                                 {hasSubcategories ? "Available Selections" : "Available Selections"}
                             </p>
                         </div>
-                        <div style={{ width: "100%", display: "flex", justifyContent: "center" }}>
+                        <div style={{ width: "100%", display: "flex", justifyContent: "end" }}>
                             <Button
                                 type={columnSpan === 8 ? "primary" : "default"}
                                 onClick={() => handleColumnSpanChange(8)}
@@ -81,9 +81,9 @@ const SubCategories = () => {
                     Vertical (1 Column)
                 </Button> */}
                         </div>
-                        <div style={{ width: "100%" }} className="SortFilterContainer">
+                        {/* <div style={{ width: "100%" }} className="SortFilterContainer">
                             <p style={{ textAlign: "end" }}> hello</p>
-                        </div>
+                        </div> */}
                     </div>
                     <Row>
                         {hasSubcategories ? (

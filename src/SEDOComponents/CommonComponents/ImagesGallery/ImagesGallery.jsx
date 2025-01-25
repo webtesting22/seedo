@@ -107,42 +107,55 @@ const ImagesGallery = () => {
                             freeMode={true}
                             loop={true}
                             navigation={true}
-                            // autoplay={{
-                            //     delay: 2000,
-                            //     disableOnInteraction: false,
-                            // }}
                             speed={700}
-                            // pagination={{
-                            //     clickable: true,
-                            // }}
-                            modules={[Autoplay, FreeMode,Navigation, Pagination]}
+                            modules={[Autoplay, FreeMode, Navigation, Pagination]}
                             className="mySwiper"
                             breakpoints={{
-                                320: { // Mobile breakpoint (320px and up)
-                                    slidesPerView: 1, // Display 2 slides on mobile
+                                320: {
+                                    slidesPerView: 1,
                                 },
-                                768: { // Tablet breakpoint (768px and up)
-                                    slidesPerView: 3, // Display 3 slides on tablet
+                                768: {
+                                    slidesPerView: 2,
                                 },
-                                1024: { // Desktop breakpoint (1024px and up)
-                                    slidesPerView: 3, // Display 5 slides on desktop
+                                1024: {
+                                    slidesPerView: 3,
                                 },
                             }}
                         >
                             {BestSellerProducts.BestSeller.products.map((item, index) => (
                                 <SwiperSlide key={item.id}>
                                     <Link to={item.link} style={{ textDecoration: "none", width: "100%" }}>
-                                        <div className="BestSellerCardsContainer" >
-                                            <div style={{ display: "flex", justifyContent: "center", alignItems: "center", backgroundColor: `${item.colorCode}`, borderRadius: "10px", minHeight: "400px", width: "100%",overflow:"hidden" }}>
-                                                <img src={ProductsBackShape} alt="" className="BackShapeAjust" />
+                                        <div className="BestSellerCardsContainer">
+                                            <div
+                                                style={{
+                                                    display: "flex",
+                                                    justifyContent: "center",
+                                                    alignItems: "center",
+                                                    backgroundColor: `${item.colorCode}`,
+                                                    borderRadius: "10px",
+                                                    minHeight: "400px",
+                                                    width: "100%",
+                                                    overflow: "hidden",
+                                                }}
+                                            >
+                                                {/* Default image */}
                                                 <img
-                                                    src={item.ProductImage[0]} // Use the first image in the ProductImage array
-                                                    alt={item.name} // Set alt text to the product name
-                                                    className="BestSellerImage"
+                                                    src={item.ProductImage[0]}
+                                                    alt={item.name}
+                                                    className={`BestSellerImage ${item.ProductImage[1] ? "DefaultImage" : "" // Add class only if hover image exists
+                                                        }`}
                                                 />
+
+                                                {/* Hover image (only if available) */}
+                                                {item.ProductImage[1] && (
+                                                    <img
+                                                        src={item.ProductImage[1]}
+                                                        alt={item.name}
+                                                        className="BestSellerImage hoverableImageImage"
+                                                    />
+                                                )}
                                             </div>
                                             <div style={{ width: "100%", height: "60px" }}>
-                                                {/* <hr /> */}
                                                 <h3 className="BestSellerTitle">{item.name}</h3>
                                             </div>
                                         </div>
@@ -150,6 +163,7 @@ const ImagesGallery = () => {
                                 </SwiperSlide>
                             ))}
                         </Swiper>
+
                     </div>
                 </div>
             </section>
@@ -165,9 +179,9 @@ const ImagesGallery = () => {
                     <div className="CardsContainer" style={{ width: "100%" }}>
                         <Row style={{ width: "100%" }}>
                             <Col lg={24} style={{ width: "100%" }}>
-                                   <div className="SectionHeadingContainer">
-                                   <h1 className="titleFont">Our Offerings</h1>
-                                   </div>
+                                <div className="SectionHeadingContainer">
+                                    <h1 className="titleFont">Our Offerings</h1>
+                                </div>
                             </Col>
                             <Col lg={6} md={8} style={{ width: "100%" }}>
                                 <Link to="/ourOfferings">
@@ -178,7 +192,7 @@ const ImagesGallery = () => {
                                         <p>Our expertise lies in producing high-quality products tailored to our client's...</p>
                                         {/* <p className="HidePara"></p> */}
                                         <button><div>
-                                        <FaArrowRightLong style={{ color: "black" }} /></div></button>
+                                            <FaArrowRightLong style={{ color: "black" }} /></div></button>
                                         {/* <p>We specialize in Original Design manufacturing, creating innovative products tailored to clients' specifications. Our focus is on quality, customization, and delivering exceptional value to our partners.</p> */}
                                     </div>
                                 </Link>
@@ -191,7 +205,7 @@ const ImagesGallery = () => {
                                         <h4>Original Design <br /> Manufacturer (ODM)</h4>
                                         <p >We focus on innovative design manufaturing, creating unique and effective products...</p>
                                         <button><div>
-                                        <FaArrowRightLong style={{ color: "black" }} /></div></button>
+                                            <FaArrowRightLong style={{ color: "black" }} /></div></button>
                                         {/* <p>We specialize in producing high-quality products tailored to our client's specifications, ensuring exceptional quality and performance while fostering
                                         strong partnerships for mutual growth success.
                                     </p> */}
@@ -206,7 +220,7 @@ const ImagesGallery = () => {
                                         <h4 >White Labelling <br /> Solutions</h4>
                                         <p>Our white-label solutions allow you to brand our high-quality products...</p>
                                         <button><div>
-                                        <FaArrowRightLong style={{ color: "black" }} /></div></button>
+                                            <FaArrowRightLong style={{ color: "black" }} /></div></button>
                                         {/* <p>We offer white-label solutions, allowing you to brand our high-quality products as your own. This enables you to expand your product range while maintaining your unique brand identity.
                                     </p> */}
                                     </div>
@@ -221,8 +235,8 @@ const ImagesGallery = () => {
                                         <p>Seedo proudly designs, manufactures, and markets toys under its own...
                                         </p>
                                         <button><div>
-                                        <FaArrowRightLong style={{ color: "black" }} /></div></button>
-                                       
+                                            <FaArrowRightLong style={{ color: "black" }} /></div></button>
+
                                     </div>
                                 </Link>
                             </Col>

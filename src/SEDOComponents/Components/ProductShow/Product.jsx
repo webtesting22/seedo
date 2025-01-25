@@ -17,7 +17,7 @@ import RemoteCar from "./RemoteCar.svg"
 import DieCast from "./DieCast.svg"
 import EarlyLearning from "./EarlyLearning.svg"
 import ProductContext from "./Context/ProductContext";
-import space from "./space.png"
+import TopBack from "/Images/Banners/ProductPageBanner.jpg"
 const { Search } = Input;
 
 const Products = () => {
@@ -106,7 +106,7 @@ const Products = () => {
                     <h1>We Create For You!</h1>
                 </div> */}
                 <div className="SectionHeadingContainer" style={{ paddingBottom: "0px" }}>
-                    {/* <img src={space} alt="" /> */}
+                    {/* <img src={TopBack} alt="" /> */}
                     <h2 className="titleFont" data-aos="fade-up"
                         data-aos-duration="1000">Heading Container</h2>
                     {/* <div className="BackSVG">
