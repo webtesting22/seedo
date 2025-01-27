@@ -1,18 +1,29 @@
 #Footer {
     padding-top: 1.5rem !important;
     padding: 0rem 4rem;
-    background: #253874;
-    /* margin-top: 3rem !important; */
-    /* padding-bottom: 1rem; */
-    color: white;
-    /* min-height: 400px; */
+    background: rgb(160, 222, 247);
+    position: relative;
+    overflow: hidden;
+}
+
+#Footer a {
+    color: black;
+    font-size: 16px;
+}
+
+#Footer .BackSVG {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+    width: 100%;
 }
 
 #Footer .LinksContainer ul li {
     list-style: none;
     padding: 5px 0px;
     font-size: 16px;
-    color: white;
+    color: rgb(0, 0, 0);
     transition: .5s;
     width: 100%;
     font-weight: 400;
@@ -23,13 +34,14 @@
     padding: 5px 0px;
     font-weight: 400;
     font-size: 16px;
-    color: white;
+    color: rgb(0, 0, 0);
     transform: translateX(10px);
     transition: .5s;
     /* border-bottom: 1px solid white; */
 }
-.FooterAdjustContainer .ant-row .ant-col{
-    border-bottom: 0.5px solid rgba(255, 255, 255, 0.669);
+
+.FooterAdjustContainer .ant-row .ant-col {
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.669);
     padding-bottom: 20px;
 }
 
@@ -51,7 +63,8 @@
     flex-direction: column;
     justify-content: space-between;
 }
-.FooterAdressContainer p{
+
+.FooterAdressContainer p {
     margin: 10px;
     margin-left: 0px;
     font-size: 16px;
@@ -62,14 +75,26 @@
     justify-content: center;
     align-items: center;
     padding: 10px 0px;
+    position: relative;
 }
-.CopywriteText p{
-    font-size: 16px;
-    color: white;
+.CopywriteText img{
+    width: 100px;
+    position: absolute;
+    left: 0px;
+    top: -40px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
 }
-.CopywriteText p a{
+
+.CopywriteText p {
     font-size: 16px;
-    color: white;
+    color: rgb(0, 0, 0);
+}
+
+.CopywriteText p a {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
@@ -81,36 +106,41 @@
         flex-wrap: wrap;
         gap: 20px;
     }
-    
-.FooterAdressContainer div:first-child{
-    width: 100%;
-}
-.FooterAdressContainer div:first-child p{
-    margin-bottom: 0px;
-}
-.FooterAdressContainer div{
-    width: 45%;
-}
-.CopywriteText {
-    display: flex;
 
-    justify-content: space-between;
-    flex-direction: column;
-}
-.FooterAdressContainer {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    flex-direction: row;
-    justify-content: space-between;
-}
+    .FooterAdressContainer div:first-child {
+        width: 100%;
+    }
+
+    .FooterAdressContainer div:first-child p {
+        margin-bottom: 0px;
+    }
+
+    .FooterAdressContainer div {
+        width: 45%;
+    }
+
+    .CopywriteText {
+        display: flex;
+
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .FooterAdressContainer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
     #Footer {
         padding-top: 2rem !important;
         padding: 20px 10px;
-        background: #253874;
+        /* background: #253874; */
         margin-top: 3rem !important;
         padding-bottom: 1rem;
-        color: white;
+        color: black;
         /* min-height: 400px; */
     }
 }

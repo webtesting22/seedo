@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "../../Styles/Footer.css"
 import { Row, Col } from "antd";
 import SEEDOLogo from "/SEEDOLogo.png"
@@ -15,12 +15,42 @@ import { FaXTwitter } from "react-icons/fa6";
 import NavigationLinks from "../Navigation/NavigationLinks";
 import { FaRegEnvelope } from "react-icons/fa";
 import { MdOutlinePhone } from "react-icons/md";
-
+import CarDoodle from "./Car doodle.svg"
 
 const Footer = () => {
+    const [isVisible, setIsVisible] = useState(false);
+    const imageRef = useRef(null);
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    setIsVisible(true); // Start animation when image is visible
+                }
+            },
+            {
+                threshold: 0.5, // Trigger when 50% of the image is in view
+            }
+        );
+
+        if (imageRef.current) {
+            observer.observe(imageRef.current);
+        }
+
+        return () => {
+            if (imageRef.current) {
+                observer.unobserve(imageRef.current);
+            }
+        };
+    }, []);
     return (
         <>
             <section id="Footer">
+                <div className="BackSVG">
+                    <svg width="1895" height="997" viewBox="0 0 1895 997" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M489 15.2177C394.5 -2.98877 212 -4.08235 0 74.7177V996.5H1895V18.2177C1888.83 23.8843 1864.8 39.2177 1818 55.2177C1739.67 78.551 1575.33 94.0308 1397 48.5C1373.5 42.5 1279.3 16.1177 1240.5 9.71766C1187.5 0.217663 1045.7 -14.9823 822.5 36.2177C745.5 53.8807 663.4 48.8177 489 15.2177Z" fill="#A0DEF7" />
+                    </svg>
+                </div>
                 <div className="FooterAdjustContainer">
                     <Row>
                         <Col lg={6} style={{ width: "100%" }}>
@@ -35,8 +65,8 @@ const Footer = () => {
                                 <div>
                                     <p><b>Contact</b> </p>
                                     <div style={{ display: "flex", flexDirection: "Column", gap: "10px" }}>
-                                        <Link to="mailto:info@seedotoys.com" target="_blank" style={{ color: "white", fontSize: "16px", display: "flex", alignItems: "center" }}> <FaRegEnvelope /> &nbsp;&nbsp;info@seedotoys.com</Link>
-                                        <Link style={{ fontSize: "16px", color: "white", display: "flex", alignItems: "center" }}><MdOutlinePhone />&nbsp;&nbsp;</Link>
+                                        <Link to="mailto:info@seedotoys.com" target="_blank" > <FaRegEnvelope /> &nbsp;&nbsp;info@seedotoys.com</Link>
+                                        <Link><MdOutlinePhone />&nbsp;&nbsp;</Link>
                                     </div>
                                     {/* <p><b>Privacy Policy</b></p>
                                     <p><b>Terms and Condition</b></p> */}
@@ -45,7 +75,7 @@ const Footer = () => {
                                     <p><b>Follow Us</b> &nbsp;&nbsp;</p>
                                     {/* <p><LiaFacebookSquare /></p> */}
                                     <div>
-                                        <Link to="https://www.instagram.com/seedotoys/" target="_blank"><p style={{ margin: "0px" }}><CiInstagram style={{ color: "white", fontSize: "25px" }} /></p></Link>
+                                        <Link to="https://www.instagram.com/seedotoys/" target="_blank"><p style={{ margin: "0px" }}><CiInstagram /></p></Link>
                                     </div>
                                     {/* <p><FaXTwitter /></p> */}
                                 </div>
@@ -80,11 +110,26 @@ const Footer = () => {
                                     {/* <p></p> */}
                                 </div>
                             </div>
+                            <br />
+                            <br />
                         </Col>
-                    </Row>
-                    {/* <hr style={{opacity:"0.4",border:"0.5px solid white"}}/> */}
-                    <div className="CopywriteText">
 
+                    </Row>
+
+                    {/* <hr style={{opacity:"0.4",border:"0.5px solid white"}}/> */}
+                    <div className="CopywriteText" ref={imageRef}>
+                        <img
+                            src={CarDoodle} // Replace with your image path
+                            alt="Sliding"
+                            style={{
+                                width: "100px",
+                                position: "absolute",
+                                left: isVisible ? "1450px" : "0px", // Move from 0px to 200px
+                                top: "-40px",
+                                transition: "left 4s ease-in-out",
+                                transform: "scaleX(-1)",
+                            }}
+                        />
                         <p style={{ margin: "0px" }}>@2025 <Link to="https://www.outleadsolutions.com/" target="_blank">OutLead Solutions.</Link> All rights reserved.</p>
                     </div>
                 </div>
