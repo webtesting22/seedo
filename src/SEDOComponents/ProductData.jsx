@@ -935,12 +935,26 @@ const SeedoProductData = {
                 },
                 {
                     id: 25,
-                    name: " Luxurious Sports Car 2.4GHz",
+                    name: "Luxurious Sports Car",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         RC00124GHz
                     ],
-                    ProductStyleCode: "116RC001/2.4GHz"
+                    ProductStyleCode: "116RC001",
+                    Productdescription: <>
+
+                        <div>
+                            <div>
+                                <p>Material type<b> Virgin grade, High strength ABS Material</b></p>
+                                <p><b>Scale </b>1:16</p>
+                                <p><b>USB</b> Yes</p>
+                                <p><b>Box Quantity</b> 18 pcs./box</p>
+                                <p><b>Frequency</b> 2.4GHz</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Battery</b> 3.7V Li-ion Rechargeable Battery</p>
+                            </div>
+                        </div>
+                    </>
                 },
                 {
                     id: 26,
@@ -1517,7 +1531,7 @@ const SeedoProductData = {
                                 <p><b>Scale</b> 1:64</p>
                                 <p><b>Box size</b> Pack of 1/3/5/10</p>
                                 <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
@@ -1535,7 +1549,7 @@ const SeedoProductData = {
                                 <p><b>Scale</b> 1:64</p>
                                 <p><b>Box size</b> Pack of 1/3/5/10</p>
                                 <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
@@ -1553,7 +1567,7 @@ const SeedoProductData = {
                                 <p><b>Scale</b> 1:64</p>
                                 <p><b>Box size</b> Pack of 1/3/5/10</p>
                                 <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
@@ -1571,7 +1585,7 @@ const SeedoProductData = {
                                 <p><b>Scale</b> 1:64</p>
                                 <p><b>Box size</b> Pack of 1/3/5/10</p>
                                 <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
@@ -1589,7 +1603,7 @@ const SeedoProductData = {
                                 <p><b>Scale</b> 1:64</p>
                                 <p><b>Box size</b> Pack of 1/3/5/10</p>
                                 <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
@@ -1607,7 +1621,7 @@ const SeedoProductData = {
                                 <p><b>Scale</b> 1:64</p>
                                 <p><b>Box size</b> Pack of 1/3/5/10</p>
                                 <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
@@ -1631,7 +1645,7 @@ const SeedoProductData = {
                                 <p><b>Scale</b> 1:64</p>
                                 <p><b>Box size</b> Pack of 1/3/5/10</p>
                                 <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
@@ -1651,7 +1665,7 @@ const SeedoProductData = {
                                 <p><b>Scale</b> 1:64</p>
                                 <p><b>Box size</b> Pack of 1/3/5/10</p>
                                 <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
@@ -1671,7 +1685,7 @@ const SeedoProductData = {
                                 <p><b>Scale</b> 1:64</p>
                                 <p><b>Box size</b> Pack of 1/3/5/10</p>
                                 <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
@@ -1691,7 +1705,7 @@ const SeedoProductData = {
                                 <p><b>Scale</b> 1:64</p>
                                 <p><b>Box size</b> Pack of 1/3/5/10</p>
                                 <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
@@ -1711,7 +1725,7 @@ const SeedoProductData = {
                                 <p><b>Scale</b> 1:64</p>
                                 <p><b>Box size</b> Pack of 1/3/5/10</p>
                                 <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
@@ -1731,7 +1745,7 @@ const SeedoProductData = {
                                 <p><b>Scale</b> 1:64</p>
                                 <p><b>Box size</b> Pack of 1/3/5/10</p>
                                 <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
@@ -1753,7 +1767,7 @@ const SeedoProductData = {
                                 <p><b>Scale</b> 1:64</p>
                                 <p><b>Box size</b> Pack of 1/3/5/10</p>
                                 <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
@@ -1771,7 +1785,7 @@ const SeedoProductData = {
                                 <p><b>Scale</b> 1:64</p>
                                 <p><b>Box size</b> Pack of 1/3/5/10</p>
                                 <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
@@ -1789,7 +1803,7 @@ const SeedoProductData = {
                                 <p><b>Scale</b> 1:64</p>
                                 <p><b>Box size</b> Pack of 1/3/5/10</p>
                                 <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
@@ -1807,7 +1821,7 @@ const SeedoProductData = {
                                 <p><b>Scale</b> 1:64</p>
                                 <p><b>Box size</b> Pack of 1/3/5/10</p>
                                 <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
@@ -1825,7 +1839,7 @@ const SeedoProductData = {
                                 <p><b>Scale</b> 1:64</p>
                                 <p><b>Box size</b> Pack of 1/3/5/10</p>
                                 <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
@@ -1843,7 +1857,7 @@ const SeedoProductData = {
                                 <p><b>Scale</b> 1:64</p>
                                 <p><b>Box size</b> Pack of 1/3/5/10</p>
                                 <p><b>Packaging</b> 72 pcs./box</p>
-                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
                     </>
@@ -1856,7 +1870,7 @@ const SeedoProductData = {
 
                 {
                     id: 73,
-                    name: " Metal Racers Pack of 3",
+                    name: "METAL RACER PACK OF 3",
                     ProductImage: [
                         SMRFWPBP3
                     ],
@@ -1867,8 +1881,8 @@ const SeedoProductData = {
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> 32 pcs in a box</p>
-                                <p><b>Content</b> 3 Cars</p>
+                                <p><b>Box Quantity</b> Pack of 3</p>
+                                <p><b>Packaging</b> 32 pcs./box</p>
                                 <p><b>HSN Code</b> 95030030</p>
                             </div>
                         </div>
@@ -1876,7 +1890,7 @@ const SeedoProductData = {
                 },
                 {
                     id: 74,
-                    name: " Metal Racers Pack of 5",
+                    name: "METAL RACER PACK OF 5",
                     ProductImage: [
                         SMRFWPBP5
                     ],
@@ -1887,8 +1901,8 @@ const SeedoProductData = {
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> 20 pcs in a box</p>
-                                <p><b>Content</b> 5 Cars</p>
+                                <p><b>Box Quantity</b> Pack of 5</p>
+                                <p><b>Packaging</b> 20 pcs./box</p>
                                 <p><b>HSN Code</b> 95030030</p>
                             </div>
                         </div>
@@ -1896,7 +1910,7 @@ const SeedoProductData = {
                 },
                 {
                     id: 75,
-                    name: " Metal Racers Pack of 10",
+                    name: "METAL RACER PACK OF 10",
                     ProductImage: [
                         SMRFWPBP10
                     ],
@@ -1907,7 +1921,7 @@ const SeedoProductData = {
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> 10 pcs in a box</p>
+                                <p><b>Box Quantity</b> 10 pcs in a box</p>
                                 <p><b>Content</b> 10 Cars</p>
                                 <p><b>HSN Code</b> 95030030</p>
                             </div>
@@ -1930,7 +1944,7 @@ const SeedoProductData = {
                     FLGDSPO12,
                     FLGDSPO12_2,
                 ],
-                ProductCode: "FLG-DS-PO12"
+                ProductStyleCode: "FLG-DS-PO12"
             },
             {
                 id: 77,
@@ -1938,7 +1952,7 @@ const SeedoProductData = {
                 ProductImage: [
                     PNGSRPO12,
                 ],
-                ProductCode: "PNG-SR-PO12"
+                ProductStyleCode: "PNG-SR-PO12"
 
             },
             {
@@ -1947,7 +1961,7 @@ const SeedoProductData = {
                 ProductImage: [
                     MONSTERTUMBLE,
                 ],
-                ProductCode: "PNG-SR-PO12"
+                ProductStyleCode: "PNG-SR-PO12"
             },
             {
                 id: 110,
@@ -1955,23 +1969,49 @@ const SeedoProductData = {
                 ProductImage: [
                     DINOPULLBACK1,
                 ],
-                ProductCode: "DPB-PO8"
+                ProductStyleCode: "DPB-PO8",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> ABS, PVC</p>
+                            <p><b>Scale </b> 1:64</p>
+                            <p><b>HSN Code</b> 95030030</p>
+                        </div>
+                    </div>
+                </>
             },
             {
                 id: 78,
-                name: "Space series",
+                name: "SPACE SERIES PRESS N GO",
                 ProductImage: [
                     PNGSSPO9, PNGSSPO9_2, PNGSSPO9_3
                 ],
-                ProductCode: "PNG-SS-PO9"
+                ProductStyleCode: "PNG-SS-PO9",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> ABS, PVC</p>
+                            <p><b>HSN Code</b> 95030030</p>
+                        </div>
+                    </div>
+                </>
+
             },
             {
                 id: 79,
-                name: "Press N Go - Battle Ship and Snail",
+                name: "PRESS N GO SHIP",
                 ProductImage: [
                     PNGBSS, PNGBSS_2
                 ],
-                ProductCode: "PNG-BS&S"
+                ProductStyleCode: "PNG-BS&S",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> ABS Material</p>
+                            <p>HSN Code<b></b> 95030030</p>
+                        </div>
+                    </div>
+                </>
             },
             {
                 id: 111,
@@ -1979,15 +2019,33 @@ const SeedoProductData = {
                 ProductImage: [
                     PULLBACKTWISTINGSTUNT1,
                 ],
-                ProductCode: "PBTS-PO8"
+                ProductStyleCode: "PBTS-PO8",
+                Productdescription: <>
+                <div>
+                    <div>
+                        <p><b>Material type</b> ABS Material</p>
+                        <p><b>Scale</b> 1:64</p>
+                        <p>HSN Code<b></b> 95030030</p>
+                    </div>
+                </div>
+            </>
             },
             {
                 id: 80,
-                name: "Press N Go - Construction Toys",
+                name: "PRESS N GO- CONSTRUCTION TOYS",
                 ProductImage: [
                     PNGBC, PNGBC_2, PNGBC_3
                 ],
-                ProductCode: "PNG-BC"
+                ProductStyleCode: "PNG-BC",
+                Productdescription: <>
+                <div>
+                    <div>
+                        <p><b>Material type</b> ABS Material</p>
+                        <p><b>Scale</b> 1:64</p>
+                        <p>HSN Code<b></b> 95030030</p>
+                    </div>
+                </div>
+            </>
             },
             {
                 id: 81,
@@ -1995,15 +2053,26 @@ const SeedoProductData = {
                 ProductImage: [
                     PNGToys, PNGToys_2
                 ],
-                ProductCode: "PNG-Toys"
+                ProductStyleCode: "PNG-Toys"
             },
             {
                 id: 82,
-                name: "Monster Tumble",
+                name: "MINI MONSTER TRUCK",
                 ProductImage: [
                     MTToys, MTToys_2
                 ],
-                ProductCode: "MT-Toys"
+                ProductStyleCode: "-",
+                Productdescription:<>
+                <div>
+                    <div>
+                        <p><b>Material type</b> Plastic</p>
+                        <p><b>Dimension</b> 8x8.7x7.3cm</p>
+                        <p><b>Inner Packaging</b> 12 pcs</p>
+                        <p><b>Master packaging</b> 192 pcs</p>
+                        <p><b>HSN Code</b> 95030030</p>
+                    </div>
+                </div>
+                </>
             },
             {
                 id: 112,
@@ -2011,7 +2080,17 @@ const SeedoProductData = {
                 ProductImage: [
                     PRESSNGOJCBTOYS1
                 ],
-                ProductCode: "-"
+                ProductStyleCode: "-",
+                Productdescription:<>
+                <div>
+                    <div>
+                        <p><b>Material type</b> Premium Plastic</p>
+                        <p><b>Inner Packaging</b> 5 pcs</p>
+                        <p><b>Master packaging</b> 80 pcs./box</p>
+                        <p><b>HSN Code</b> 95030030</p>
+                    </div>
+                </div>
+                </>
             },
             {
                 id: 113,
@@ -2019,15 +2098,38 @@ const SeedoProductData = {
                 ProductImage: [
                     FRICTIONDRIFTCAR1
                 ],
-                ProductCode: "-"
+                ProductStyleCode: "-",
+                Productdescription:<>
+                <div>
+                    <div>
+                        <p><b>Material type</b> Plastic</p>
+                        <p><b>Dimension</b> 53x33.5x8 cm</p>
+                        <p><b>Box Size</b> 6 PDQ in a box</p>
+                        <p><b>Packaging</b> 8 pcs in a PDQ</p>
+                        <p><b>HSN Code</b> 95030030</p>
+                    </div>
+                </div>
+                </>
             },
             {
                 id: 83,
-                name: "Mini Construction",
+                name: "FRICTION TRUCKS TOYS",
                 ProductImage: [
                     PNGMC, PNGMC_2, PNGMC_3, PNGMC_4, PNGMC_5, PNGMC_6
                 ],
-                ProductCode: "PNG-MC"
+                ProductStyleCode: "PNG-MC",
+                Productdescription:<>
+                <div>
+                    <div>
+                        <p><b>Material type</b> ABS</p>
+                        <p><b>Dimension</b> 9.2x11x11.5cm</p>
+                        <p><b>Inner Packaging</b> 12 pcs</p>
+                        <p><b>Master packaging</b> 192 pcs</p>
+                        <p><b>HSN Code</b> 95030030</p>
+                    </div>
+                </div>
+                </>
+               
             },
             {
                 id: 90,
