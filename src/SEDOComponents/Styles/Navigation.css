@@ -136,6 +136,8 @@
 .MenuToggle svg {
   font-size: 30px;
   cursor: pointer;
+  background-color: white;
+  padding: 4px;
 }
 
 .SidePanel {
