@@ -291,7 +291,7 @@ const SeedoProductData = {
             "1:18": [
                 {
                     id: 1,
-                    name: "LIGHT BLASTER 2 WAY",
+                    name: "Light Blaster 2 Way",
                     ProductBatteryType: "Non - Rechargable",
                     ProductImage: [
                         W001, LightBlaster1, LightBlaster2, LightBlaster3, LightBlaster4, LightBlaster5, LightBlaster6,
@@ -314,7 +314,7 @@ const SeedoProductData = {
                 },
                 {
                     id: 2,
-                    name: "FAMOUS CAR 2 WAY",
+                    name: "Famous Car 2 Way",
                     ProductBatteryType: "Non - Rechargable",
                     ProductImage: [
                         W002
@@ -338,7 +338,7 @@ const SeedoProductData = {
                 },
                 {
                     id: 3,
-                    name: "FORMULA CAR 2 WAY",
+                    name: "Formula Car 2 Way",
                     ProductBatteryType: "Non - Rechargable",
                     ProductImage: [
                         W003
@@ -386,7 +386,7 @@ const SeedoProductData = {
                 },
                 {
                     id: 120,
-                    name: "FAMOUS CAR 4 WAY",
+                    name: "Famous Car 4 Way",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         W002
@@ -410,7 +410,7 @@ const SeedoProductData = {
                 },
                 {
                     id: 5,
-                    name: "BLASTER 023 4 WAY",
+                    name: "Blaster 023 4 Way",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         W001_2, LightBlaster7, LightBlaster8
@@ -459,7 +459,7 @@ const SeedoProductData = {
             "1:24": [
                 {
                     id: 7,
-                    name: "RACER CAR 4 WAY",
+                    name: "Racer Car 4 Way",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         RacerCar1, RacerCar2, RacerCar3, RacerCar4, RacerCar5
@@ -530,7 +530,7 @@ const SeedoProductData = {
                 },
                 {
                     id: 10,
-                    name: " Road Sniper 01",
+                    name: "Road Sniper 01",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         LRC00D, RoadSniper01, RoadSniper02, RoadSniper03, RoadSniper04, RoadSniper05, RoadSniper06, RoadSniper07, RoadSniper08, RoadSniper09, RoadSniper010
@@ -553,7 +553,7 @@ const SeedoProductData = {
                 },
                 {
                     id: 11,
-                    name: "ROAD SNIPER 02",
+                    name: "Road Sniper 02",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         LRC00E, RoadSniper1, RoadSniper2, RoadSniper3, RoadSniper4, RoadSniper5, RoadSniper6, RoadSniper7, RoadSniper8
@@ -1870,7 +1870,7 @@ const SeedoProductData = {
 
                 {
                     id: 73,
-                    name: "METAL RACER PACK OF 3",
+                    name: "Metal Racer Pack of 3",
                     ProductImage: [
                         SMRFWPBP3
                     ],
@@ -1890,7 +1890,7 @@ const SeedoProductData = {
                 },
                 {
                     id: 74,
-                    name: "METAL RACER PACK OF 5",
+                    name: "Metal Racer Pack of 5",
                     ProductImage: [
                         SMRFWPBP5
                     ],
@@ -1910,7 +1910,7 @@ const SeedoProductData = {
                 },
                 {
                     id: 75,
-                    name: "METAL RACER PACK OF 10",
+                    name: "Metal Racer Pack of 10",
                     ProductImage: [
                         SMRFWPBP10
                     ],
@@ -1957,7 +1957,7 @@ const SeedoProductData = {
             },
             {
                 id: 114,
-                name: "MONSTER TUMBLE",
+                name: "Monster Tumble",
                 ProductImage: [
                     MONSTERTUMBLE,
                 ],
@@ -1982,7 +1982,7 @@ const SeedoProductData = {
             },
             {
                 id: 78,
-                name: "SPACE SERIES PRESS N GO",
+                name: "Space Series Press N Go",
                 ProductImage: [
                     PNGSSPO9, PNGSSPO9_2, PNGSSPO9_3
                 ],
@@ -1999,7 +1999,7 @@ const SeedoProductData = {
             },
             {
                 id: 79,
-                name: "PRESS N GO SHIP",
+                name: "Press N Go Ship",
                 ProductImage: [
                     PNGBSS, PNGBSS_2
                 ],
@@ -2015,37 +2015,37 @@ const SeedoProductData = {
             },
             {
                 id: 111,
-                name: "PULL BACK TWISTING STUNT",
+                name: "Pull Back Twisting Stunt",
                 ProductImage: [
                     PULLBACKTWISTINGSTUNT1,
                 ],
                 ProductStyleCode: "PBTS-PO8",
                 Productdescription: <>
-                <div>
                     <div>
-                        <p><b>Material type</b> ABS Material</p>
-                        <p><b>Scale</b> 1:64</p>
-                        <p>HSN Code<b></b> 95030030</p>
+                        <div>
+                            <p><b>Material type</b> ABS Material</p>
+                            <p><b>Scale</b> 1:64</p>
+                            <p>HSN Code<b></b> 95030030</p>
+                        </div>
                     </div>
-                </div>
-            </>
+                </>
             },
             {
                 id: 80,
-                name: "PRESS N GO- CONSTRUCTION TOYS",
+                name: "Press N Go - Construction Toys",
                 ProductImage: [
                     PNGBC, PNGBC_2, PNGBC_3
                 ],
                 ProductStyleCode: "PNG-BC",
                 Productdescription: <>
-                <div>
                     <div>
-                        <p><b>Material type</b> ABS Material</p>
-                        <p><b>Scale</b> 1:64</p>
-                        <p>HSN Code<b></b> 95030030</p>
+                        <div>
+                            <p><b>Material type</b> ABS Material</p>
+                            <p><b>Scale</b> 1:64</p>
+                            <p>HSN Code<b></b> 95030030</p>
+                        </div>
                     </div>
-                </div>
-            </>
+                </>
             },
             {
                 id: 81,
@@ -2057,79 +2057,79 @@ const SeedoProductData = {
             },
             {
                 id: 82,
-                name: "MINI MONSTER TRUCK",
+                name: "Mini Monster Truck",
                 ProductImage: [
                     MTToys, MTToys_2
                 ],
                 ProductStyleCode: "-",
-                Productdescription:<>
-                <div>
+                Productdescription: <>
                     <div>
-                        <p><b>Material type</b> Plastic</p>
-                        <p><b>Dimension</b> 8x8.7x7.3cm</p>
-                        <p><b>Inner Packaging</b> 12 pcs</p>
-                        <p><b>Master packaging</b> 192 pcs</p>
-                        <p><b>HSN Code</b> 95030030</p>
+                        <div>
+                            <p><b>Material type</b> Plastic</p>
+                            <p><b>Dimension</b> 8x8.7x7.3cm</p>
+                            <p><b>Inner Packaging</b> 12 pcs</p>
+                            <p><b>Master packaging</b> 192 pcs</p>
+                            <p><b>HSN Code</b> 95030030</p>
+                        </div>
                     </div>
-                </div>
                 </>
             },
             {
                 id: 112,
-                name: "PRESS N GO JCB TOYS",
+                name: "Press N Go JCB Toys",
                 ProductImage: [
                     PRESSNGOJCBTOYS1
                 ],
                 ProductStyleCode: "-",
-                Productdescription:<>
-                <div>
+                Productdescription: <>
                     <div>
-                        <p><b>Material type</b> Premium Plastic</p>
-                        <p><b>Inner Packaging</b> 5 pcs</p>
-                        <p><b>Master packaging</b> 80 pcs./box</p>
-                        <p><b>HSN Code</b> 95030030</p>
+                        <div>
+                            <p><b>Material type</b> Premium Plastic</p>
+                            <p><b>Inner Packaging</b> 5 pcs</p>
+                            <p><b>Master packaging</b> 80 pcs./box</p>
+                            <p><b>HSN Code</b> 95030030</p>
+                        </div>
                     </div>
-                </div>
                 </>
             },
             {
                 id: 113,
-                name: "FRICTION DRIFT CAR",
+                name: "Friction Drift Car",
                 ProductImage: [
                     FRICTIONDRIFTCAR1
                 ],
                 ProductStyleCode: "-",
-                Productdescription:<>
-                <div>
+                Productdescription: <>
                     <div>
-                        <p><b>Material type</b> Plastic</p>
-                        <p><b>Dimension</b> 53x33.5x8 cm</p>
-                        <p><b>Box Size</b> 6 PDQ in a box</p>
-                        <p><b>Packaging</b> 8 pcs in a PDQ</p>
-                        <p><b>HSN Code</b> 95030030</p>
+                        <div>
+                            <p><b>Material type</b> Plastic</p>
+                            <p><b>Dimension</b> 53x33.5x8 cm</p>
+                            <p><b>Box Size</b> 6 PDQ in a box</p>
+                            <p><b>Packaging</b> 8 pcs in a PDQ</p>
+                            <p><b>HSN Code</b> 95030030</p>
+                        </div>
                     </div>
-                </div>
                 </>
             },
             {
                 id: 83,
-                name: "FRICTION TRUCKS TOYS",
+                name: "Friction Trucks Toys",
                 ProductImage: [
                     PNGMC, PNGMC_2, PNGMC_3, PNGMC_4, PNGMC_5, PNGMC_6
                 ],
                 ProductStyleCode: "PNG-MC",
-                Productdescription:<>
-                <div>
+                Productdescription: <>
                     <div>
-                        <p><b>Material type</b> ABS</p>
-                        <p><b>Dimension</b> 9.2x11x11.5cm</p>
-                        <p><b>Inner Packaging</b> 12 pcs</p>
-                        <p><b>Master packaging</b> 192 pcs</p>
-                        <p><b>HSN Code</b> 95030030</p>
+                        <div>
+                            <p><b>Material type</b> ABS</p>
+                            <p><b>Dimension</b> 9.2x11x11.5cm</p>
+                            <p><b>Inner Packaging</b> 12 pcs</p>
+                            <p><b>Master packaging</b> 192 pcs</p>
+                            <p><b>HSN Code</b> 95030030</p>
+                        </div>
                     </div>
-                </div>
                 </>
-               
+
             },
             {
                 id: 90,
@@ -2403,7 +2403,7 @@ const SeedoProductData = {
             },
             {
                 id: 117,
-                name: "ULTRA LED FLYING DISC",
+                name: "Ultra LED Flying Disc",
                 ProductBatteryType: "-",
                 ProductImage: [ULTRALEDFLYINGDISC],
                 ProductStyleCode: "-",
@@ -2459,7 +2459,7 @@ const SeedoProductData = {
             },
             {
                 id: 115,
-                name: "MUSICAL SAXOPHONE TOY",
+                name: "Musical Saxophone Toy",
                 ProductBatteryType: "-",
                 ProductImage: [MUSICALSAXOPHONETOY],
                 ProductStyleCode: "-",
@@ -2477,7 +2477,7 @@ const SeedoProductData = {
             },
             {
                 id: 116,
-                name: "MUSICAL SAXOPHONE TOY",
+                name: "Musical Trumpet Toy",
                 ProductBatteryType: "-",
                 ProductImage: [MUSICALTRUMPETTOY],
                 ProductStyleCode: "-",
@@ -2496,7 +2496,7 @@ const SeedoProductData = {
 
             {
                 id: 119,
-                name: "SMALL ACTION STUNT CAR",
+                name: "Small Action Stunt Car",
                 ProductImage: [SMALLACTIONSTUNTCAR],
                 ProductStyleCode: "-",
                 Productdescription: <>
@@ -2536,7 +2536,7 @@ const SeedoProductData = {
         products: [
             {
                 id: 84,
-                name: "CRAWLER",
+                name: "Crawler",
                 ProductBatteryType: "-",
                 ProductImage: [CRAWLER],
                 ProductStyleCode: "-",
@@ -2584,15 +2584,14 @@ const SeedoProductData = {
             },
             {
                 id: 86,
-                name: "TECHNO-TUTOR",
+                name: "Techno-Tutor",
                 ProductBatteryType: "-",
                 ProductImage: [SLTTT001, Laptop1, Laptop2, Laptop3, Laptop4, Laptop5, Laptop6, Laptop7],
-                ProductStyleCode: "SLT-PP-001",
+                ProductStyleCode: "-",
                 Productdescription: <>
                     <div>
                         <div>
-                            <p><b>Material type</b> Virgin garde,High
-                                strength ABS Material</p>
+                            <p><b>Material type</b> ABS Material</p>
 
                             <p><b>Box Dementions</b> 19x24x5cm</p>
                             <p><b>HSN Code</b> 95030030</p>
@@ -2623,15 +2622,14 @@ const SeedoProductData = {
             },
             {
                 id: 87,
-                name: "CUBE",
+                name: "Cube",
                 ProductBatteryType: "-",
                 ProductImage: [Cube],
                 ProductStyleCode: "-",
                 Productdescription: <>
                     <div>
                         <div>
-                            <p><b>Material type</b> Virgin garde,High
-                                strength ABS Material</p>
+                            <p><b>Material type</b> ABS Material</p>
 
                             {/* <p><b>Box Dementions</b> 19x24x5cm</p> */}
                             <p><b>HSN Code</b> 95030030</p>
@@ -2649,17 +2647,18 @@ const SeedoProductData = {
             },
             {
                 id: 88,
-                name: "BRAINY BEAR",
+                name: "Brainy Bear",
                 ProductBatteryType: "-",
                 ProductImage: [SLTBB001, BrainyBear1, BrainyBear2, BrainyBear3, BrainyBear4],
-                ProductStyleCode: "-",
+                ProductStyleCode: "SLT-BB-001",
                 Productdescription: <>
                     <div>
                         <div>
                             <p><b>Material type</b> Virgin garde,High
                                 strength ABS Material</p>
-
-                            {/* <p><b>Box Dementions</b> 19x24x5cm</p> */}
+                            <p><b>Scale</b> 1:64</p>
+                            <p><b>Box Packaging</b> 30 pcs per
+                                box</p>
                             <p><b>HSN Code</b> 95030030</p>
                             <ul>
                                 <li> Left Ear</li>

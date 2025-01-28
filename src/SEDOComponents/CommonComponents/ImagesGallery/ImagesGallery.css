@@ -337,10 +337,10 @@
 }
 
 .BestSellerImage {
-    width: 350px;
-    height: 350px;
+    width: 90%;
+    /* height: 350px; */
     /* object-fit: cover; */
-    /* aspect-ratio: 3/2; */
+    aspect-ratio: 3/2;
     object-fit: contain;
     position: sticky;
     z-index: 5;
@@ -455,7 +455,7 @@ transition: .5s;
     }
 
     .BestSellerImage {
-        width: 300px;
+        width: 90%;
         aspect-ratio: 3/2;
         object-fit: contain;
         position: sticky;
