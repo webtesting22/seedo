@@ -110,8 +110,8 @@ const Footer = () => {
                                     {/* <p></p> */}
                                 </div>
                             </div>
-                            <br />
-                            <br />
+                            {/* <br />
+                            <br /> */}
                         </Col>
 
                     </Row>
