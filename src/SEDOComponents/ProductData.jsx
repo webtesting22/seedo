@@ -1974,8 +1974,8 @@ const SeedoProductData = {
                     <div>
                         <div>
                             <p><b>Material type</b> ABS, PVC</p>
-                            <p><b>Scale </b> 1:64</p>
-                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>Dimension </b>14.5x10.7x18.5 cm</p>
+                            <p><b>HSN Code</b> 95030090</p>
                         </div>
                     </div>
                 </>
@@ -2024,8 +2024,8 @@ const SeedoProductData = {
                     <div>
                         <div>
                             <p><b>Material type</b> ABS Material</p>
-                            <p><b>Scale</b> 1:64</p>
-                            <p>HSN Code<b></b> 95030030</p>
+                            <p><b>Dimension</b> 15x10.5x6.5cm</p>
+                            <p>HSN Code<b></b> 95030090</p>
                         </div>
                     </div>
                 </>
@@ -2041,8 +2041,8 @@ const SeedoProductData = {
                     <div>
                         <div>
                             <p><b>Material type</b> ABS Material</p>
-                            <p><b>Scale</b> 1:64</p>
-                            <p>HSN Code<b></b> 95030030</p>
+                            {/* <p><b>Scale</b> 1:64</p> */}
+                            <p>HSN Code<b></b> 95030090</p>
                         </div>
                     </div>
                 </>
@@ -2061,7 +2061,7 @@ const SeedoProductData = {
                 ProductImage: [
                     MTToys, MTToys_2
                 ],
-                ProductStyleCode: "-",
+                ProductStyleCode: "MT-Toys",
                 Productdescription: <>
                     <div>
                         <div>
@@ -2069,7 +2069,7 @@ const SeedoProductData = {
                             <p><b>Dimension</b> 8x8.7x7.3cm</p>
                             <p><b>Inner Packaging</b> 12 pcs</p>
                             <p><b>Master packaging</b> 192 pcs</p>
-                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>HSN Code</b> 95030090</p>
                         </div>
                     </div>
                 </>
@@ -2087,7 +2087,7 @@ const SeedoProductData = {
                             <p><b>Material type</b> Premium Plastic</p>
                             <p><b>Inner Packaging</b> 5 pcs</p>
                             <p><b>Master packaging</b> 80 pcs./box</p>
-                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>HSN Code</b> 95030090</p>
                         </div>
                     </div>
                 </>
@@ -2106,14 +2106,14 @@ const SeedoProductData = {
                             <p><b>Dimension</b> 53x33.5x8 cm</p>
                             <p><b>Box Size</b> 6 PDQ in a box</p>
                             <p><b>Packaging</b> 8 pcs in a PDQ</p>
-                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>HSN Code</b> 95030090</p>
                         </div>
                     </div>
                 </>
             },
             {
                 id: 83,
-                name: "Friction Trucks Toys",
+                name: "Mini Construction",
                 ProductImage: [
                     PNGMC, PNGMC_2, PNGMC_3, PNGMC_4, PNGMC_5, PNGMC_6
                 ],
@@ -2125,7 +2125,7 @@ const SeedoProductData = {
                             <p><b>Dimension</b> 9.2x11x11.5cm</p>
                             <p><b>Inner Packaging</b> 12 pcs</p>
                             <p><b>Master packaging</b> 192 pcs</p>
-                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>HSN Code</b> 95030090</p>
                         </div>
                     </div>
                 </>
@@ -2144,7 +2144,7 @@ const SeedoProductData = {
                             <p><b>Dimension</b> 23x12cm</p>
                             <p><b>Inner Packaging</b> 1 pcs</p>
                             <p><b>Master packaging</b> 64 pcs</p>
-                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>HSN Code</b> 95030090</p>
                         </div>
                     </div>
                 </>
@@ -2159,10 +2159,10 @@ const SeedoProductData = {
                     <div>
                         <div>
                             <p><b>Material type</b> Plastic</p>
-                            <p><b>Dimension</b> 10.1x9.1x6.9cm</p>
-                            <p><b>Inner Packaging</b> 5 pcs</p>
-                            <p><b>Master packaging</b> 80 pcs./box</p>
-                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>Dimension</b> 6.9x9.1x10.1cm</p>
+                            <p><b>Inner Packaging</b> 12 pcs</p>
+                            <p><b>Master packaging</b> 192 pcs./box</p>
+                            <p><b>HSN Code</b> 95030090</p>
                         </div>
                     </div>
                 </>
@@ -2177,10 +2177,10 @@ const SeedoProductData = {
                     <div>
                         <div>
                             <p><b>Material type</b> ABS</p>
-                            <p><b>Dimension</b> 23x12cm</p>
+                            <p><b>Dimension</b> 14.5x10x10.5cm</p>
                             <p><b>Inner Packaging</b> 1 pcs</p>
                             <p><b>Master packaging</b> 64 pcs./box</p>
-                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>HSN Code</b> 95030090</p>
                         </div>
                     </div>
                 </>
@@ -2197,7 +2197,7 @@ const SeedoProductData = {
                             <p><b>Material type</b> Plastic</p>
                             <p><b>Inner Packaging</b> 12 pcs</p>
                             <p><b>Master packaging</b> 192 pcs</p>
-                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>HSN Code</b> 95030090</p>
                         </div>
                     </div>
                 </>
@@ -2215,7 +2215,7 @@ const SeedoProductData = {
                             <p><b>Dimension</b> 7x12 cm</p>
                             <p><b>Inner Packaging</b> 12 pcs</p>
                             <p><b>Master packaging</b> 192 pcs</p>
-                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>HSN Code</b> 95030090</p>
                         </div>
                     </div>
                 </>
@@ -2233,14 +2233,14 @@ const SeedoProductData = {
                             <p><b>Dimension</b> 9.2x11x11.5cm</p>
                             <p><b>Inner Packaging</b> 12 pcs</p>
                             <p><b>Master packaging</b> 192 pcs</p>
-                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>HSN Code</b> 95030090</p>
                         </div>
                     </div>
                 </>
             },
             {
                 id: 96,
-                name: "Small Tractor With Monster Wheels",
+                name: "SMALL FARMER TRACTOR",
                 ProductBatteryType: "-",
                 ProductImage: [SMALLTRACTORMONSTERWHEELS],
                 ProductStyleCode: "-",
@@ -2248,10 +2248,10 @@ const SeedoProductData = {
                     <div>
                         <div>
                             <p><b>Material type</b> ABS</p>
-                            <p><b>Dimension</b> 7x12 cm</p>
-                            <p><b>Inner Packaging</b> 12 pcs</p>
-                            <p><b>Master packaging</b> 192 pcs</p>
-                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>Dimension</b> 22.5x15x18.5</p>
+                            <p><b>Inner Packaging</b> 1 pcs</p>
+                            <p><b>Master packaging</b> 32 pcs</p>
+                            <p><b>HSN Code</b> 95030090</p>
                         </div>
                     </div>
                 </>
@@ -2269,7 +2269,7 @@ const SeedoProductData = {
                             <p><b>Dimension</b> 13.2x3.7x5.3cm</p>
                             <p><b>Inner Packaging</b> 1 pcs</p>
                             <p><b>Master packaging</b> 24 pcs</p>
-                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>HSN Code</b> 95030090</p>
                         </div>
                     </div>
                 </>
@@ -2306,7 +2306,7 @@ const SeedoProductData = {
                             <p><b>Dimension</b> 7.5X9.8X8.2cm</p>
                             <p><b>Inner Packaging</b> 5 pcs</p>
                             <p><b>Master packaging</b> 80 pcs./box</p>
-                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>HSN Code</b> 95030090</p>
                         </div>
                     </div>
                 </>
@@ -2324,7 +2324,7 @@ const SeedoProductData = {
                             <p><b>Dimension</b> 11x25x13cm</p>
                             <p><b>Inner Packaging</b> 12 pcs</p>
                             <p><b>Master packaging</b> 64 pcs</p>
-                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>HSN Code</b> 95030090</p>
                         </div>
                     </div>
                 </>
@@ -2342,7 +2342,7 @@ const SeedoProductData = {
                             <p><b>Dimension</b> 29.5x19.5x19.5cm</p>
                             <p><b>Inner Packaging</b> 1 pcs</p>
                             <p><b>Master packaging</b> 32 pcs./box</p>
-                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>HSN Code</b> 95030090</p>
                         </div>
                     </div>
                 </>
@@ -2357,10 +2357,9 @@ const SeedoProductData = {
                     <div>
                         <div>
                             <p><b>Material type</b> ABS</p>
-                            <p><b>Dimension</b> 23x12cm</p>
                             <p><b>Inner Packaging</b> 12 pcs</p>
                             <p><b>Master packaging</b> 192 pcs</p>
-                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>HSN Code</b> 95030090</p>
                         </div>
                     </div>
                 </>
@@ -2378,7 +2377,7 @@ const SeedoProductData = {
                             <p><b>Dimension</b> 14X37X14.5 cm</p>
                             <p><b>Inner Packaging</b> 1 pcs</p>
                             <p><b>Master packaging</b> 32 pcs./box</p>
-                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>HSN Code</b> 95030090</p>
                         </div>
                     </div>
                 </>
@@ -2396,7 +2395,7 @@ const SeedoProductData = {
                             <p><b>Dimension</b> 23x12cm</p>
                             <p><b>Inner Packaging</b> 8 pcs</p>
                             <p><b>Master packaging</b> 128 pcs</p>
-                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>HSN Code</b> 95030090</p>
                         </div>
                     </div>
                 </>
@@ -2411,34 +2410,17 @@ const SeedoProductData = {
                     <div>
                         <div>
                             <p><b>Material type</b> ABS</p>
-                            <p><b>Dimension</b> 23x12cm</p>
-                            <p><b>Inner Packaging</b> 8 pcs</p>
-                            <p><b>Master packaging</b> 128 pcs</p>
-                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>Dimension</b> 22.5cm</p>
+                            <p><b>Inner Packaging</b> 1 pcs</p>
+                            <p><b>Master packaging</b> 64 pcs</p>
+                            <p><b>HSN Code</b> 95030090</p>
+                            <p><b>Battery</b> 200MAH High Power Li-Battery</p>
+                            <p><b>USB</b> Yes</p>
                         </div>
                     </div>
                 </>
             },
-            // {
-            //     id: 106,
-            //     name: "COOL RUN DINOSAUR",
-            //     ProductBatteryType: "-",
-            //     ProductImage: [],
-            //     ProductStyleCode: "-",
-            //     Productdescription: <>
-            //         <div>
-            //             <div>
-            //                 <p><b>Material type</b> ABS</p>
-            //                 <p><b>Scale</b> 22.5cm</p>
-            //                 <p><b>Box Size</b> 64 pcs</p>
-            //                 <p><b>Inner Packaging</b> 1 pcs</p>
-            //                 <p><b>Master packaging</b> 64 pcs</p>
-            //                 <p><b>HSN Code</b> 95030030</p>
-            //                 <p><b>Battery</b> 3.7V Li-ion Rechargeable Battery</p>
-            //             </div>
-            //         </div>
-            //     </>
-            // },
+            
             {
                 id: 107,
                 name: "Water Turtle Toy",

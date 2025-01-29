@@ -88,34 +88,34 @@ const SingleProductPage = () => {
                 <div className="SingleProductContainer">
                     {/* Breadcrumb Trail */}
                     <Breadcrumb style={{ margin: "16px 0" }}>
-    <Breadcrumb.Item>
-        <Link to="/">Home</Link>
-    </Breadcrumb.Item>
-    <Breadcrumb.Item>
-        <Link to="/products">Products</Link>
-    </Breadcrumb.Item>
-    {categoryData?.subcategories ? (
-        <Breadcrumb.Item>
-            <Link to={`/subcategories/${categoryName}`}>
-                {categoryName}
-            </Link>
-        </Breadcrumb.Item>
-    ) : (
-        <Breadcrumb.Item>
-            <Link to={`/subcategoriesproducts/${categoryName}`}>
-                {categoryName}
-            </Link>
-        </Breadcrumb.Item>
-    )}
-    {productSubcategory && (
-        <Breadcrumb.Item>
-            <Link to={`/subcategories/${categoryName}/${productSubcategory}`}>
-                {productSubcategory}
-            </Link>
-        </Breadcrumb.Item>
-    )}
-    <Breadcrumb.Item>{product.name}</Breadcrumb.Item>
-</Breadcrumb>
+                        <Breadcrumb.Item>
+                            <Link to="/">Home</Link>
+                        </Breadcrumb.Item>
+                        <Breadcrumb.Item>
+                            <Link to="/products">Products</Link>
+                        </Breadcrumb.Item>
+                        {categoryData?.subcategories ? (
+                            <Breadcrumb.Item>
+                                <Link to={`/subcategories/${categoryName}`}>
+                                    {categoryName}
+                                </Link>
+                            </Breadcrumb.Item>
+                        ) : (
+                            <Breadcrumb.Item>
+                                <Link to={`/subcategoriesproducts/${categoryName}`}>
+                                    {categoryName}
+                                </Link>
+                            </Breadcrumb.Item>
+                        )}
+                        {productSubcategory && (
+                            <Breadcrumb.Item>
+                                <Link to={`/subcategories/${categoryName}/${productSubcategory}`}>
+                                    {productSubcategory}
+                                </Link>
+                            </Breadcrumb.Item>
+                        )}
+                        <Breadcrumb.Item>{product.name}</Breadcrumb.Item>
+                    </Breadcrumb>
 
 
                     <div className="ProductCard">
