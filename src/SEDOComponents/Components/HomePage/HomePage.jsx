@@ -36,6 +36,7 @@ const HomePage = () => {
                         src={mediaItem.src}
                         className={`carousel-video ${fadeIn ? "fade-in" : "fade-out"}`}
                         autoPlay
+                        playsInline 
                         muted
                         loop={false} // We don't loop the video, instead we handle it manually
                     />
