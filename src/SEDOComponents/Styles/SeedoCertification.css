@@ -161,7 +161,7 @@
 
 
 .CerticationCardGreyBox img {
-    width: 190px;
+    width: 100%;
     height: 100%;
     aspect-ratio: 3/2;
     object-fit: contain;

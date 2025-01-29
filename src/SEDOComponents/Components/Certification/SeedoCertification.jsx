@@ -34,22 +34,26 @@ const SeedoCertification = () => {
         },
         {
             img: sedex,
-            title: "Supplier Ethical Data Exchange"
+            title: "Supplier Ethical Data Exchange",
+            link:"https://www.sedex.com/"
         },
 
         {
             img: ISO1,
-            title: "International Organization for Standardization (9001 : 2015)"
+            title: "International Organization for Standardization (9001 : 2015)",
+            link: "https://www.iso.org/home.html"
         },
         {
             img: ISO2,
-              title: "International Organization for Standardization (14001 : 2015)"
+            title: "International Organization for Standardization (14001 : 2015)",
+            link: "https://www.iso.org/home.html"
         },
         {
             img: ISO3,
-              title: "International Organization for Standardization (45001 : 2018)"
+            title: "International Organization for Standardization (45001 : 2018)",
+            link: "https://www.iso.org/home.html"
         },
-       
+
         {
             img: ASTM,
             title: "ASTM International",
@@ -68,7 +72,8 @@ const SeedoCertification = () => {
         },
         {
             img: GCE,
-            title: "Gas Control Equipment"
+            title: "Gas Control Equipment",
+            link: "https://www.gcegroup.com/en/"
         },
 
         // {
