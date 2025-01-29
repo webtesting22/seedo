@@ -270,7 +270,7 @@ padding-bottom: 0px !important;
 #SeedoPersonal .ImagesContainer img{
     /* width: 7%; */
     height: 70%;
-    opacity: 0.1;
+    opacity: 0.3;
 }
 #SeedoPersonal div{
     display: flex;
