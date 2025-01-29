@@ -199,8 +199,8 @@ const ZoomCards = () => {
             <div style={{ display: "flex", justifyContent: "center" }}>
                 <div className="SANSONGraphicContainer">
                     <div>
-                        <h1 style={{ fontSize: "30px", color: "white", margin: "0px" }} data-aos="fade-up"
-                            data-aos-duration="1000">Sanson Promotion Innovations LLP</h1>
+                        <h1 style={{ fontSize: "30px", color: "black", margin: "0px" }} data-aos="fade-up"
+                            data-aos-duration="1000" >Sanson Promotion Innovations LLP</h1>
                         <p data-aos="fade-up"
                             data-aos-duration="1500"> Sanson Promotion Innovations LLP is a prominent leader in consumer and trade promotions, trusted by major FMCG brands such as Unilever, Glaxo, Perfetti, Mondelez, and Britannia. As the parent company of Seedo, Sanson excels in collaborating with esteemed licensors like Disney, Marvel, Mattel, Pokémon, and Doraemon. With comprehensive expertise in conceptualization, product engineering, mass manufacturing, quality assurance, and logistics, Sanson consistently surpasses client expectations. <br /> This commitment to delivering high-quality products and innovative campaigns is reflected in Seedo's values as well.</p>
                     </div>

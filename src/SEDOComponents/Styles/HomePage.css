@@ -189,7 +189,7 @@
 }
 
 .SANSONGraphicContainer div {
-  background-color: #253874;
+  background-color: rgb(252, 249, 244);
   /* height: 500px; */
   /* width: 1; */
   /* border-radius: 20px; */
@@ -205,7 +205,7 @@
 
 .SANSONGraphicContainer div p {
   text-align: center;
-  color: white;
+  color: black;
 }
 
 .BoxRowContainer {
@@ -248,7 +248,7 @@
 }
   .SANSONGraphicContainer div p {
     text-align: start;
-    color: white;
+    color: black;
   }
   .SANSONGraphicContainer {
     min-height: 100%;
@@ -274,8 +274,8 @@
   }
 
   .SANSONGraphicContainer div {
-    background-color: #253874;
-    /* height: 400px; */
+    background-color: rgb(252, 249, 244);
+    /* height: 400px; *
     /* width: 1; */
     border-radius: 20px;
     margin: 10px;
