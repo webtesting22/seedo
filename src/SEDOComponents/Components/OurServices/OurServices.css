@@ -209,6 +209,10 @@
 }
 
 @media (max-width:769px) {
+    .ContactContainerandSocial{
+        display: flex;
+        gap: 20px;
+    }
     .RowColumnsAdjustContainer {
         padding-top: 5rem !important;
         padding: 0px 10px;
