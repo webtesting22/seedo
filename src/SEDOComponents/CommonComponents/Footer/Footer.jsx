@@ -63,7 +63,7 @@ const Footer = () => {
                             <div className="ContactContainerandSocial">
 
                                 <div>
-                                    <p><b>Contact</b> </p>
+                                    <p><b>Contact Us</b> </p>
                                     <div style={{ display: "flex", flexDirection: "Column", gap: "10px" }}>
                                         <Link to="mailto:info@seedotoys.com" target="_blank" > <FaRegEnvelope /> &nbsp;&nbsp;info@seedotoys.com</Link>
                                         <Link><MdOutlinePhone />&nbsp;&nbsp;</Link>

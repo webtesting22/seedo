@@ -16,6 +16,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import odm from "./odm.png"
 import oem from "./oem.png"
 import white from "./white label.png"
+import SeedbrandIcon from "./SeedbrandIcon.png"
+
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/free-mode';
@@ -230,7 +232,7 @@ const ImagesGallery = () => {
                                 <Link to="/ourOfferings">
                                     <div className="GreyBox" data-aos="fade-up"
                                         data-aos-duration="1500">
-                                        <img src={white} alt="" />
+                                        <img src={SeedbrandIcon} alt="" />
                                         <h4 >Seedo <br /> Brand Distribution</h4>
                                         <p>Seedo proudly designs, manufactures, and markets toys under its own...
                                         </p>

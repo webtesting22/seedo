@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
 import "../../Styles/HomePage.css";
-import landingPageVideo1 from "./Video/landingpageVideo.mp4";
+import landingPageVideo1 from "./Video/die cast .mp4";
 
 const HomePage = () => {
     const [fadeIn, setFadeIn] = useState(true); // State to control fade-in effect
