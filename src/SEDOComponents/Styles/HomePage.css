@@ -157,9 +157,10 @@
   /* position: absolute; */
   background: #bc252b47;
   padding: 0px 20px;
-    border-radius: 20px;
+  border-radius: 20px;
 }
-.HomePageContentContainer div{
+
+.HomePageContentContainer div {
   margin-top: -230px;
 }
 
@@ -190,7 +191,7 @@
 
 .SANSONGraphicContainer div {
   background-color: transparent;
-  
+
   /* border: 3px solid rgb(112 138 176); */
   /* height: 500px; */
   /* width: 1; */
@@ -225,11 +226,16 @@
 }
 
 @keyframes zoomEffect {
-  0%, 100% {
-    transform: scale(1); /* Normal size */
+
+  0%,
+  100% {
+    transform: scale(1);
+    /* Normal size */
   }
+
   50% {
-    transform: scale(1.06); /* Slightly zoomed in */
+    transform: scale(1.06);
+    /* Slightly zoomed in */
   }
 }
 
@@ -240,18 +246,21 @@
   height: 100vh;
   background-color: black;
 }
+
 @media (max-width: 900px) {
 
-.carousel-container {
-  position: relative;
-  width: 100%;
-  height: 50vh;
-  background-color: black;
-}
+  .carousel-container {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+  }
+
   .SANSONGraphicContainer div p {
     text-align: start;
     color: black;
   }
+
   .SANSONGraphicContainer {
     min-height: 100%;
     width: 100%;
@@ -272,7 +281,6 @@
     /* width: 100%; */
     border-radius: 36px;
     display: none;
-    /* hide Element */
   }
 
   .SANSONGraphicContainer div {
@@ -388,13 +396,16 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: opacity 0.5s ease-in-out; /* Apply smooth opacity transition */
+  transition: opacity 0.5s ease-in-out;
+  /* Apply smooth opacity transition */
 }
 
 .carousel-video.fade-in {
-  opacity: 1; /* Fully visible */
+  opacity: 1;
+  /* Fully visible */
 }
 
 .carousel-video.fade-out {
-  opacity: 0; /* Fully hidden */
+  opacity: 0;
+  /* Fully hidden */
 }
