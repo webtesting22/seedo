@@ -189,7 +189,8 @@
 }
 
 .SANSONGraphicContainer div {
-  background-color: rgb(252, 249, 244);
+  background-color: rgb(149, 179, 224);
+  border: 3px solid rgb(112 138 176);
   /* height: 500px; */
   /* width: 1; */
   /* border-radius: 20px; */
