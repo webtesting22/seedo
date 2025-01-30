@@ -59,7 +59,7 @@ const Footer = () => {
                                 <h1 style={{ fontSize: "18px", fontWeight: "500" }}>Break the Limit</h1>
                             </div>
                         </Col>
-                        <Col lg={6} md={12} style={{ width: "100%" }}>
+                        <Col lg={5} md={12} style={{ width: "100%" }}>
                             <div className="ContactContainerandSocial">
 
                                 <div>
@@ -81,7 +81,7 @@ const Footer = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={6} md={12} style={{ width: "100%" }}>
+                        <Col lg={4} md={12} style={{ width: "100%" }}>
                             <div className="LinksContainer">
                                 <p><b>Explore</b></p>
                                 <ul>
@@ -93,7 +93,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </Col>
-                        <Col lg={6} md={12} style={{ width: "100%" }}>
+                        <Col lg={9} md={12} style={{ width: "100%" }}>
                             <p><b>Address</b></p>
                             <div className="FooterAdressContainer">
                                 <div>
