@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import { Row, Col } from "antd";
 import "../../Styles/ClientComponent.css"
 import Amway from "/Images/Logos/Clientlogos/Amway.png"
@@ -224,6 +224,10 @@ const Client = () => {
         },
 
     ];
+    useEffect(() => {
+        // Scroll to the top of the page when the component is mounted
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <>
             <div className="AboutUs">
@@ -231,8 +235,7 @@ const Client = () => {
             </div>
             <section id="ClientSection">
                 <div className="SectionHeadingContainer">
-                    <h2 className="titleFont" data-aos="fade-up"
-                        data-aos-duration="1000">Our Clients</h2>
+                    <img src="/Images/NewBanners/3.jpg" alt="" />
                 </div>
                 <div className="RowColumnsAdjustContainer">
                     <Row className="RowAdjustContainer">

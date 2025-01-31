@@ -226,10 +226,13 @@
 }
 
 #CertificationAndClient .SectionHeadingContainer{
-    padding: 7rem 0rem;
+    padding: 0rem 0rem;
     background-color: rgb(149, 179, 224);
 }
 
+#CertificationAndClient .SectionHeadingContainer img{
+    width: 100%;
+}
 @media (max-width:769px) {
 
 .CerticationHeadline div {

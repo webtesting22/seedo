@@ -2,8 +2,11 @@
   margin-top: 5rem;
 }
 #ClientSection>.SectionHeadingContainer{
-  padding: 7rem 0rem;
+  padding: 0rem 0rem;
   background-color: rgb(149, 179, 224);
+}
+#ClientSection>.SectionHeadingContainer img{
+  width: 100%;
 }
 .LogosContainer {
   width: 100%;

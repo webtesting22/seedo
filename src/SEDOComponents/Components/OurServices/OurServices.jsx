@@ -19,12 +19,12 @@ const OurServices = () => {
     const servicesData = [
         {
             title: "Seedo Brand Distribution",
-            image:BrandDiscribution,
+            image: BrandDiscribution,
             description: "Seedo proudly designs, manufactures, and markets toys under its own distinguished brand with its presence across India, delivering innovative and high-quality products that inspire creativity and joy."
         },
         {
             title: "Original Equipment Manufacturer (OEM)",
-            image:OEM,
+            image: OEM,
             description: "We specialize in Original Design Manufacturing, creating innovative products tailored to the clients' specifications. Our focus is on quality, customization, and delivering exceptional value to our partners."
         },
         {
@@ -34,7 +34,7 @@ const OurServices = () => {
         },
         {
             title: "White Labelling",
-            image:WhiteLebelling,
+            image: WhiteLebelling,
             description: "We offer white-label solutions, allowing you to brand our high-quality products as your own, this enables you to expand your product range while maintaining your unique brand identity."
         },
 
@@ -54,8 +54,7 @@ const OurServices = () => {
             </div> */}
             <section className="OurServicesContainer">
                 <div className="SectionHeadingContainer">
-                    <h2 className="titleFont" data-aos="fade-up"
-                        data-aos-duration="1000"> Our Offerings</h2>
+                    <img src="/Images/NewBanners/2.jpg" alt="" />
                 </div>
                 {/* <div className="OurServicesParagraph">
                     <Row>

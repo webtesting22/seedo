@@ -8,10 +8,13 @@
 }
 
 .OurServicesContainer .SectionHeadingContainer {
-    padding: 7rem 0rem;
+    padding: 0rem 0rem;
     background-color: rgb(149, 179, 224);
 }
 
+.OurServicesContainer .SectionHeadingContainer  img{
+    width: 100%;
+}
 .OurServicesContainer div h1 {
     font-size: 30px;
     margin-top: 0px;

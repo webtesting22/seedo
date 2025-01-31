@@ -165,6 +165,9 @@ const AboutSeedo = () => {
                 <Navigation />
             </div>
             <section id="AboutSEDOSection">
+                <div className="SectionHeadingContainer">
+                    <img src="/Images/NewBanners/5.jpg" alt="" style={{width:"100%"}}/>
+                </div>
                 {/* <div>
                     <div className="BannerContainer">
                        
