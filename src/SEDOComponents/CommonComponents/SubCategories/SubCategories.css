@@ -22,10 +22,10 @@
     background-color: #bc252b0a;
 }
 
-.SubCategoryContainer .SectionHeadingContainer {
+/* .SubCategoryContainer .SectionHeadingContainer {
     padding: 7rem 0rem !important;
     background-color: rgb(149, 179, 224);
-}
+} */
 
 @media (max-width:900px) {
     .SubcategoryHeader {
@@ -42,4 +42,8 @@
         font-size: 50px;
 
     }
+    .SubCategoryContainer {
+        padding-top: 4rem;
+    }
+    
 }

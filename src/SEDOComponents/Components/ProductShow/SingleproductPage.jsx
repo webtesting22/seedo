@@ -41,8 +41,14 @@ const SubcategoriesProducts = () => {
                     <h1>{subcategoryName || categoryName}</h1>
                 </div> */}
                 <div className="SectionHeadingContainer">
-                    <h2 className="titleFont" data-aos="fade-up"
-                        data-aos-duration="1000">{subcategoryName || categoryName}</h2>
+                    <img
+                        src={categoryData.subcategoryImage}
+                        alt={categoryName}
+                        style={{ maxWidth: "100%", height: "auto" }}
+                    />
+                    <img src={categoryData.MobilesubcategoryImage}
+                        alt={categoryName}
+                        style={{ maxWidth: "100%", height: "auto" }} />
                 </div>
                 <div className="CatalogueCardsContainer">
                     <div style={{ margin: "16px 0", padding: "0 24px" }}>

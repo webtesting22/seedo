@@ -190,6 +190,7 @@ const SeedoCertification = () => {
             </section>
             <div className="SectionHeadingContainer">
                <img src="/Images/NewBanners/4.jpg" alt="" />
+               <img src="/Images/NewBanners/MobileBanners/4.jpg" alt="" />
             </div>
             <section className="Certificates">
 

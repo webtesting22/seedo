@@ -107,6 +107,7 @@ const Products = () => {
                 </div> */}
                 <div className="SectionHeadingContainer" style={{ paddingBottom: "0px" }}>
                     <img src="/Images/NewBanners/1.jpg" alt="" />
+                    <img src="/Images/NewBanners/MobileBanners/1.jpg" alt="" />
                     {/* <h2 className="titleFont" data-aos="fade-up"
                         data-aos-duration="1000">Explore Our Exclusive Toys</h2> */}
                     {/* <div className="BackSVG">

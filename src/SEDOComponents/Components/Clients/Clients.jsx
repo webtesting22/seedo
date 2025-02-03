@@ -236,6 +236,7 @@ const Client = () => {
             <section id="ClientSection">
                 <div className="SectionHeadingContainer">
                     <img src="/Images/NewBanners/3.jpg" alt="" />
+                    <img src="/Images/NewBanners/MobileBanners/3.jpg" alt="" />
                 </div>
                 <div className="RowColumnsAdjustContainer">
                     <Row className="RowAdjustContainer">

@@ -55,6 +55,7 @@ const OurServices = () => {
             <section className="OurServicesContainer">
                 <div className="SectionHeadingContainer">
                     <img src="/Images/NewBanners/2.jpg" alt="" />
+                    <img src="/Images/NewBanners/MobileBanners/2.jpg" alt="" />
                 </div>
                 {/* <div className="OurServicesParagraph">
                     <Row>

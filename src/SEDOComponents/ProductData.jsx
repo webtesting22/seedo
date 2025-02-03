@@ -135,7 +135,7 @@ import RockCrawler4 from "../assets/MultipleViewImages/RockCrawler4.jpg"
 import RockCrawler5 from "../assets/MultipleViewImages/RockCrawler5(green).jpg"
 import RockCrawler6 from "../assets/MultipleViewImages/RockCrawler6.jpg"
 import RockCrawler7 from "../assets/MultipleViewImages/RockCrawler7(red).jpg"
-import RoadSniper1 from "../assets/MultipleViewImages/RoadSniper1.png"
+// import RoadSniper1 from "../assets/MultipleViewImages/RoadSniper1.png"
 import RoadSniper2 from "../assets/MultipleViewImages/RoadSniper2(red).png"
 import RoadSniper3 from "../assets/MultipleViewImages/RoadSniper3.png"
 import RoadSniper4 from "../assets/MultipleViewImages/RoadSniper4.png"
@@ -143,7 +143,7 @@ import RoadSniper5 from "../assets/MultipleViewImages/RoadSniper5(yellow).png"
 import RoadSniper6 from "../assets/MultipleViewImages/RoadSniper6(gray).png"
 import RoadSniper7 from "../assets/MultipleViewImages/RoadSniper7(blue).png"
 import RoadSniper8 from "../assets/MultipleViewImages/RoadSniper8.png"
-import RoadSniper01 from "../assets/MultipleViewImages/RoadSniper01.png"
+// import RoadSniper01 from "../assets/MultipleViewImages/RoadSniper01.png"
 import RoadSniper02 from "../assets/MultipleViewImages/RoadSniper02.png"
 import RoadSniper03 from "../assets/MultipleViewImages/RoadSniper03.png"
 import RoadSniper04 from "../assets/MultipleViewImages/RoadSniper04.png"
@@ -256,7 +256,7 @@ import TUMBLINGROBOT from "../assets/MultipleViewImages/TUMBLINGROBOT.png"
 import WATERFROGTOY from "../assets/MultipleViewImages/WATERFROGTOY.png"
 import WHISTLEDINOPRESSGO from "../assets/MultipleViewImages/WHISTLEDINOPRESSGO.png"
 import MUSICALRESCUEHELICOPTER from "../assets/MultipleViewImages/MUSICALRESCUEHELICOPTER.png"
-import MONSTERACROBATICTRUCK from "../assets/MultipleViewImages/MONSTERACROBATICTRUCK.png"
+// import MONSTERACROBATICTRUCK from "../assets/MultipleViewImages/MONSTERACROBATICTRUCK.png"
 import Monstertruck1 from "../assets/MultipleViewImages/Monstertruck1(blue).png"
 import Monstertruck5 from "../assets/MultipleViewImages/Monstertruck1.png"
 import Monstertruck2 from "../assets/MultipleViewImages/Monstertruck2.png"
@@ -287,6 +287,8 @@ import SMALLACTIONSTUNTCAR from "../assets/MultipleViewImages/SMALLACTIONSTUNTCA
 const SeedoProductData = {
     "Remote Controlled Cars": {
         CategoriryImage: "Images/RCCar.png",
+        subcategoryImage: "/Images/NewBanners/6.jpg",
+        MobilesubcategoryImage: "/Images/NewBanners/MobileBanners/6.jpg",
         subcategories: {
             "1:18": [
                 {
@@ -533,7 +535,7 @@ const SeedoProductData = {
                     name: "Road Sniper 01",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        LRC00D, RoadSniper01, RoadSniper02, RoadSniper03, RoadSniper04, RoadSniper05, RoadSniper06, RoadSniper07, RoadSniper08, RoadSniper09, RoadSniper010
+                        LRC00D, RoadSniper02, RoadSniper03, RoadSniper04, RoadSniper05, RoadSniper06, RoadSniper07, RoadSniper08, RoadSniper09, RoadSniper010
                     ],
                     ProductStyleCode: "124LRCOOD",
                     Productdescription: <>
@@ -556,7 +558,7 @@ const SeedoProductData = {
                     name: "Road Sniper 02",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        LRC00E, RoadSniper1, RoadSniper2, RoadSniper3, RoadSniper4, RoadSniper5, RoadSniper6, RoadSniper7, RoadSniper8
+                        LRC00E, RoadSniper2, RoadSniper3, RoadSniper4, RoadSniper5, RoadSniper6, RoadSniper7, RoadSniper8
                     ],
                     ProductStyleCode: "124LRC00E",
                     Productdescription: <>
@@ -891,7 +893,7 @@ const SeedoProductData = {
                     name: "Monster Acrobatic Truck",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        Monstertruck5, Monstertruck2, Monstertruck1, , Monstertruck3, Monstertruck4, Monstertruck6, Monstertruck7, Monstertruck8, Monstertruck9, Monstertruck10, Monstertruck11, MONSTERACROBATICTRUCK
+                        Monstertruck5, Monstertruck2, Monstertruck1, , Monstertruck3, Monstertruck4, Monstertruck6, Monstertruck7, Monstertruck8, Monstertruck9, Monstertruck10, Monstertruck11
                     ],
                     ProductStyleCode: "118MT001",
                     Productdescription: <>
@@ -1038,6 +1040,8 @@ const SeedoProductData = {
     },
     "Metal Die Cast Cars": {
         CategoriryImage: "/Images/DieCast.png",
+        subcategoryImage: "/Images/NewBanners/8.jpg",
+        MobilesubcategoryImage: "/Images/NewBanners/MobileBanners/8.jpg",
         subcategories: {
             "Jet Series": [
                 {
@@ -1936,6 +1940,8 @@ const SeedoProductData = {
     },
     "Friction, Pull Back, Press & Go Toys": {
         CategoriryImage: "/Images/Friction.png",
+        subcategoryImage: "/Images/NewBanners/7.jpg",
+        MobilesubcategoryImage: "/Images/NewBanners/MobileBanners/7.jpg",
         products: [
             {
                 id: 76,
@@ -2420,7 +2426,7 @@ const SeedoProductData = {
                     </div>
                 </>
             },
-            
+
             {
                 id: 107,
                 name: "Water Turtle Toy",
@@ -2510,11 +2516,10 @@ const SeedoProductData = {
         // }
     },
 
-
-
-
     "Early Learning Toys": {
         CategoriryImage: "/Images/EarlyLearn.png",
+        subcategoryImage: "/Images/NewBanners/9.jpg",
+        MobilesubcategoryImage: "/Images/NewBanners/MobileBanners/9.jpg",
         products: [
             {
                 id: 84,

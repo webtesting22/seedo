@@ -42,9 +42,8 @@ const SubCategories = () => {
             </div>
             <section className="SubCategoryContainer">
                 <div className="SectionHeadingContainer" style={{ paddingBottom: "0px" }}>
-                    <h2 className="titleFont" data-aos="fade-up"
-                        data-aos-duration="1000">{categoryName}</h2>
-
+                    <img src={categoryData.subcategoryImage} alt={categoryName} style={{ maxWidth: "100%", height: "auto" }} />
+                    <img src={categoryData.MobilesubcategoryImage} alt={categoryName} style={{ maxWidth: "100%", height: "auto" }} />
                 </div>
                 <div className="CatalogueCardsContainer" >
                     <div className="SectionInfoContainer">

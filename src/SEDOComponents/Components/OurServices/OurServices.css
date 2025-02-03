@@ -12,9 +12,10 @@
     background-color: rgb(149, 179, 224);
 }
 
-.OurServicesContainer .SectionHeadingContainer  img{
+.OurServicesContainer .SectionHeadingContainer img {
     width: 100%;
 }
+
 .OurServicesContainer div h1 {
     font-size: 30px;
     margin-top: 0px;
@@ -203,19 +204,20 @@
     padding: 5px 10px;
 }
 
-@media (min-width:1500px) and (max-width:3000px) {
+/* @media (min-width:1500px) and (max-width:3000px) {
 
     .OurServicesContainer {
         padding-top: 5rem !important;
         padding: 0px 150px;
     }
-}
+} */
 
 @media (max-width:769px) {
-    .ContactContainerandSocial{
+    .ContactContainerandSocial {
         display: flex;
         gap: 20px;
     }
+
     .RowColumnsAdjustContainer {
         padding-top: 5rem !important;
         padding: 0px 10px;
@@ -256,7 +258,7 @@
         padding-bottom: 0px !important;
     }
 
-  
+
 
     .OURLEADERSHIPContainer .ant-row .ant-col {
         width: 50%;
@@ -307,5 +309,5 @@
         /* min-height: 120px; */
 
     }
-  
+
 }
