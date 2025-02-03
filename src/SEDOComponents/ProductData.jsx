@@ -648,28 +648,6 @@ const SeedoProductData = {
             ],
             "Stunt Car": [
                 {
-                    id: 15,
-                    name: "Big Stunt",
-                    ProductBatteryType: "Rechargable",
-                    ProductImage: [
-                        SC001_118, BigStunt1, BigStunt2, BigStunt3, BigStunt4, BigStunt5
-                    ],
-                    ProductStyleCode: "118SC001",
-                    Productdescription: <>
-                        <div>
-                            <div>
-                                <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
-                                <p><b>Scale</b> 1:18</p>
-                                <p><b>USB</b> Yes</p>
-                                <p><b>Box size</b> 12 pcs./box</p>
-                                <p><b>Frequency</b> 27MHz</p>
-                                <p><b>HSN Code</b> 95030030</p>
-                                <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
-                            </div>
-                        </div>
-                    </>
-                },
-                {
                     id: 14,
                     name: "Stunt Car",
                     ProductBatteryType: "Rechargable",
@@ -691,6 +669,29 @@ const SeedoProductData = {
                         </div>
                     </>
                 },
+                {
+                    id: 15,
+                    name: "Big Stunt",
+                    ProductBatteryType: "Rechargable",
+                    ProductImage: [
+                        SC001_118, BigStunt1, BigStunt2, BigStunt3, BigStunt4, BigStunt5
+                    ],
+                    ProductStyleCode: "118SC001",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
+                                <p><b>Scale</b> 1:18</p>
+                                <p><b>USB</b> Yes</p>
+                                <p><b>Box size</b> 12 pcs./box</p>
+                                <p><b>Frequency</b> 27MHz</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
+                            </div>
+                        </div>
+                    </>
+                },
+
 
                 {
                     id: 16,
@@ -1954,11 +1955,23 @@ const SeedoProductData = {
             },
             {
                 id: 77,
-                name: "Space Rocket",
+                name: "Press N Go Space Rocket",
                 ProductImage: [
                     PNGSRPO12,
                 ],
-                ProductStyleCode: "PNG-SR-PO12"
+                ProductStyleCode: "PNG-SR-PO12",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> ABS Material</p>
+                            <p><b>Dimension</b> 11.7x10x9 cm</p>
+                            <p><b>Box Quantity</b> 60 pcs./5PDQ</p>
+                            <p><b>Packaging</b> 12 pcs in a PDQ</p>
+                            <p><b>HSN Code</b> 95030090</p>
+                        </div>
+                    </div>
+                </>
+
 
             },
             {
@@ -2031,6 +2044,7 @@ const SeedoProductData = {
                         <div>
                             <p><b>Material type</b> ABS Material</p>
                             <p><b>Dimension</b> 15x10.5x6.5cm</p>
+                            <p><b>Box Quantity</b> 48 pcs./6PDQ</p>
                             <p>HSN Code<b></b> 95030090</p>
                         </div>
                     </div>
@@ -2059,7 +2073,18 @@ const SeedoProductData = {
                 ProductImage: [
                     PNGToys, PNGToys_2
                 ],
-                ProductStyleCode: "PNG-Toys"
+                ProductStyleCode: "PNG-Toys",
+                Productdescription: <>
+                    <div>
+                        <div>
+                            <p><b>Material type</b> ABS</p>
+                            <p><b>Dimension</b> 7.7x11.3x9.9cm</p>
+                            <p><b>Inner Packaging</b> 8 pcs</p>
+                            <p><b>Master packaging</b> 128 pcs./box</p>
+                            <p><b>HSN Code</b> 95030090</p>
+                        </div>
+                    </div>
+                </>
             },
             {
                 id: 82,
@@ -2150,7 +2175,7 @@ const SeedoProductData = {
                             <p><b>Dimension</b> 23x12cm</p>
                             <p><b>Inner Packaging</b> 1 pcs</p>
                             <p><b>Master packaging</b> 64 pcs</p>
-                            <p><b>HSN Code</b> 95030090</p>
+                            <p><b>HSN Code</b> 95030030</p>
                         </div>
                     </div>
                 </>
@@ -2398,7 +2423,7 @@ const SeedoProductData = {
                     <div>
                         <div>
                             <p><b>Material type</b> ABS</p>
-                            <p><b>Dimension</b> 23x12cm</p>
+                            <p><b>Dimension</b> LBH</p>
                             <p><b>Inner Packaging</b> 8 pcs</p>
                             <p><b>Master packaging</b> 128 pcs</p>
                             <p><b>HSN Code</b> 95030090</p>
@@ -2419,7 +2444,7 @@ const SeedoProductData = {
                             <p><b>Dimension</b> 22.5cm</p>
                             <p><b>Inner Packaging</b> 1 pcs</p>
                             <p><b>Master packaging</b> 64 pcs</p>
-                            <p><b>HSN Code</b> 95030090</p>
+                            <p><b>HSN Code</b> 95030030</p>
                             <p><b>Battery</b> 200MAH High Power Li-Battery</p>
                             <p><b>USB</b> Yes</p>
                         </div>
@@ -2440,7 +2465,7 @@ const SeedoProductData = {
                             <p><b>Dimension</b> 8X9X5.5cm</p>
                             <p><b>Inner Packaging</b> 12 pcs</p>
                             <p><b>Master packaging</b> 192 pcs</p>
-                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>HSN Code</b> 95030090</p>
                         </div>
                     </div>
                 </>
@@ -2455,9 +2480,8 @@ const SeedoProductData = {
                     <div>
                         <div>
                             <p><b>Material type</b> ABS</p>
-                            <p><b>Dimension</b> 8X9X5.5cm</p>
-                            <p><b>Inner Packaging</b> 12 pcs</p>
-                            <p><b>Master packaging</b> 192 pcs</p>
+                            <p><b>Inner Packaging</b> 1 pcs</p>
+                            <p><b>Master packaging</b> 32 pcs./box</p>
                             <p><b>HSN Code</b> 95030030</p>
                         </div>
                     </div>
@@ -2473,9 +2497,8 @@ const SeedoProductData = {
                     <div>
                         <div>
                             <p><b>Material type</b> ABS</p>
-                            <p><b>Dimension</b> 8X9X5.5cm</p>
-                            <p><b>Inner Packaging</b> 12 pcs</p>
-                            <p><b>Master packaging</b> 192 pcs</p>
+                            <p><b>Inner Packaging</b> 1 pcs</p>
+                            <p><b>Master packaging</b> 32 pcs./box</p>
                             <p><b>HSN Code</b> 95030030</p>
                         </div>
                     </div>
@@ -2491,10 +2514,11 @@ const SeedoProductData = {
                     <div>
                         <div>
                             <p><b>Material type</b> ABS</p>
-                            <p><b>Dimension</b> 8X9X5.5cm</p>
-                            <p><b>Inner Packaging</b> 12 pcs</p>
-                            <p><b>Master packaging</b> 192 pcs</p>
-                            <p><b>HSN Code</b> 95030030</p>
+                            <p><b>Dimension</b> 7.7x7x4 cm</p>
+                            <p><b>Box Quantity</b></p>
+                            <p><b>Packaging</b> 12 pcs in a
+                                PDQ</p>
+                            <p><b>HSN Code</b> 95030090</p>
                         </div>
                     </div>
                 </>
@@ -2523,15 +2547,14 @@ const SeedoProductData = {
         products: [
             {
                 id: 84,
-                name: "Crawler",
+                name: "WALKER",
                 ProductBatteryType: "-",
                 ProductImage: [CRAWLER],
                 ProductStyleCode: "-",
                 Productdescription: <>
                     <div>
                         <div>
-                            <p><b>Material type</b> Virgin garde,High
-                                strength ABS Material</p>
+                            <p><b>Material type</b> ABS Material</p>
                             <p><b>HSN Code</b> 95030030</p>
                             <ul>
                                 <li>1. Interactive Fun</li>
@@ -2553,9 +2576,9 @@ const SeedoProductData = {
                 Productdescription: <>
                     <div>
                         <div>
-                            <p><b>Material type</b> ABS</p>
+                            <p><b>Material type</b> ABS Material</p>
 
-                            <p><b>Box Dementions</b> 34x24x15cm</p>
+                            <p><b>Box Dementions</b> 43x24x22cm</p>
                             <p><b>HSN Code</b> 95030030</p>
                             <ul>
                                 <li>1. Fine Motor</li>
@@ -2571,16 +2594,18 @@ const SeedoProductData = {
             },
             {
                 id: 86,
-                name: "Techno-Tutor",
+                name: "Techno Tutor",
                 ProductBatteryType: "-",
                 ProductImage: [SLTTT001, Laptop1, Laptop2, Laptop3, Laptop4, Laptop5, Laptop6, Laptop7],
-                ProductStyleCode: "-",
+                ProductStyleCode: "SLT-TT-001",
                 Productdescription: <>
                     <div>
                         <div>
                             <p><b>Material type</b> ABS Material</p>
 
                             <p><b>Box Dementions</b> 19x24x5cm</p>
+                            <p><b>Box Quantity</b> 22 pcs.</p>
+                            <p><b>Packaging</b> 1 Unit</p>
                             <p><b>HSN Code</b> 95030030</p>
                             <ul>
                                 <li> Say the letter</li>
@@ -2609,7 +2634,7 @@ const SeedoProductData = {
             },
             {
                 id: 87,
-                name: "Cube",
+                name: "Activity Cube",
                 ProductBatteryType: "-",
                 ProductImage: [Cube],
                 ProductStyleCode: "-",
