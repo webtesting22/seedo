@@ -284,6 +284,7 @@ import MUSICALSAXOPHONETOY from "../assets/MultipleViewImages/MUSICALSAXOPHONETO
 import WaterTurtleToy from "../assets/MultipleViewImages/WaterTurtleToy.png"
 import MUSICALTRUMPETTOY from "../assets/MultipleViewImages/MUSICALTRUMPETTOY.png"
 import SMALLACTIONSTUNTCAR from "../assets/MultipleViewImages/SMALLACTIONSTUNTCAR.png"
+import Blaster1 from "../assets/MultipleViewImages/Blaster(black).png"
 const SeedoProductData = {
     "Remote Controlled Cars": {
         CategoriryImage: "Images/RCCar.png",
@@ -412,7 +413,7 @@ const SeedoProductData = {
                 },
                 {
                     id: 5,
-                    name: "Blaster 023 4 Way",
+                    name: "Light Blaster 4 Way",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         W001_2, LightBlaster7, LightBlaster8
@@ -432,6 +433,29 @@ const SeedoProductData = {
                         </div>
                     </>
                 },
+                {
+                    id: 121,
+                    name: "Blaster 023 4 Way",
+                    ProductBatteryType: "Rechargable",
+                    ProductImage: [
+                        Blaster1
+                    ],
+                    ProductStyleCode: "118RC023",
+                    Productdescription: <>
+                        <div>
+                            <div>
+                                <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
+                                <p><b>Scale</b> 1:18</p>
+                                <p><b>USB</b> Yes</p>
+                                <p><b>Box Quantity</b> 48 pcs./box</p>
+                                <p><b>Frequency</b> 27MHz</p>
+                                <p><b>HSN Code</b> 95030030</p>
+                                <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
+                            </div>
+                        </div>
+                    </>
+                },
+
                 // {
                 //     id: 6,
                 //     name: "Famous Car 4W",
