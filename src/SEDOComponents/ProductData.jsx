@@ -285,6 +285,7 @@ import WaterTurtleToy from "../assets/MultipleViewImages/WaterTurtleToy.png"
 import MUSICALTRUMPETTOY from "../assets/MultipleViewImages/MUSICALTRUMPETTOY.png"
 import SMALLACTIONSTUNTCAR from "../assets/MultipleViewImages/SMALLACTIONSTUNTCAR.png"
 import Blaster1 from "../assets/MultipleViewImages/Blaster(black).png"
+import SmokeCrawler from "../assets/MultipleViewImages/SmokeCrawler.png"
 const SeedoProductData = {
     "Remote Controlled Cars": {
         CategoriryImage: "Images/RCCar.png",
@@ -896,7 +897,7 @@ const SeedoProductData = {
                     name: "Smoke Rock Crawler",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        MT003S
+                        SmokeCrawler
                     ],
                     ProductStyleCode: "118MT003S",
                     Productdescription: <>
