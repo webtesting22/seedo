@@ -26,6 +26,7 @@ import MUMUSO from "./MUMUSO.png"
 import lulu from "./lulu.png"
 import image3 from "./619a4143-2b0f-40a7-b92f-4bf48d5bed8e-removebg-preview 1.svg"
 import image2 from "./24Seven_logo.svg"
+import HamleysLogo from "./Hamleys_logo 1.png"
 const ZoomCards = () => {
     const imageRef = useRef(null);
     const [width, setWidth] = useState('40%');
@@ -143,6 +144,11 @@ const ZoomCards = () => {
             color: "000000"
         },
         {
+            link: "https://www.hamleys.in/",
+            img: HamleysLogo,
+
+        },
+        {
             img: image3,
             link: "https://wembleytoys.com/"
         },
@@ -196,18 +202,18 @@ const ZoomCards = () => {
                     </div>
                 </div>
             </div>
-            <div style={{ display: "flex", justifyContent: "center",position:"relative", }} id="ParentBox">
-            <div className="BackSVG">
-                        <svg width="1895" height="997" viewBox="0 0 1895 997" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M489 15.2177C394.5 -2.98877 212 -4.08235 0 74.7177V996.5H1895V18.2177C1888.83 23.8843 1864.8 39.2177 1818 55.2177C1739.67 78.551 1575.33 94.0308 1397 48.5C1373.5 42.5 1279.3 16.1177 1240.5 9.71766C1187.5 0.217663 1045.7 -14.9823 822.5 36.2177C745.5 53.8807 663.4 48.8177 489 15.2177Z" fill="#A0DEF7" />
-                        </svg>
-                    </div>
-                <div className="SANSONGraphicContainer" style={{position:"sticky"}}>
+            <div style={{ display: "flex", justifyContent: "center", position: "relative", }} id="ParentBox">
+                <div className="BackSVG">
+                    <svg width="1895" height="997" viewBox="0 0 1895 997" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M489 15.2177C394.5 -2.98877 212 -4.08235 0 74.7177V996.5H1895V18.2177C1888.83 23.8843 1864.8 39.2177 1818 55.2177C1739.67 78.551 1575.33 94.0308 1397 48.5C1373.5 42.5 1279.3 16.1177 1240.5 9.71766C1187.5 0.217663 1045.7 -14.9823 822.5 36.2177C745.5 53.8807 663.4 48.8177 489 15.2177Z" fill="#A0DEF7" />
+                    </svg>
+                </div>
+                <div className="SANSONGraphicContainer" style={{ position: "sticky" }}>
                     <div>
                         <h1 style={{ fontSize: "30px", color: "black", margin: "0px" }} data-aos="fade-up"
                             data-aos-duration="1000" >Sanson Promotion Innovations LLP</h1>
                         <p data-aos="fade-up"
-                            data-aos-duration="1500"> <b style={{backgroundColor:"#f8c6d466"}}>Sanson Promotion Innovations LLP</b> is a prominent leader in consumer and trade promotions, trusted by major FMCG brands such as Unilever, Glaxo, Perfetti, Mondelez, and Britannia. As the parent company of Seedo, Sanson excels in collaborating with esteemed licensors like Disney, Marvel, Mattel, Pokémon, and Doraemon. With comprehensive expertise in conceptualization, product engineering, mass manufacturing, quality assurance, and logistics, Sanson consistently surpasses client expectations. <br /> This commitment to delivering high-quality products and innovative campaigns is reflected in Seedo's values as well.</p>
+                            data-aos-duration="1500"> <b style={{ backgroundColor: "#f8c6d466" }}>Sanson Promotion Innovations LLP</b> is a prominent leader in consumer and trade promotions, trusted by major FMCG brands such as Unilever, Glaxo, Perfetti, Mondelez, and Britannia. As the parent company of Seedo, Sanson excels in collaborating with esteemed licensors like Disney, Marvel, Mattel, Pokémon, and Doraemon. With comprehensive expertise in conceptualization, product engineering, mass manufacturing, quality assurance, and logistics, Sanson consistently surpasses client expectations. <br /> This commitment to delivering high-quality products and innovative campaigns is reflected in Seedo's values as well.</p>
                     </div>
                 </div>
             </div>
