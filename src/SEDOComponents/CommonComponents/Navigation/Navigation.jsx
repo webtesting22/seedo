@@ -40,9 +40,9 @@ const Navigation = () => {
             <div
                 className="IncreaseBack"
                 style={{
-                    height: `${scrollHeight}px`, 
+                    height: `${scrollHeight}px`,
                     width: "100%",
-                    backgroundColor: "white", 
+                    backgroundColor: "white",
                     transition: "height 0.3s ease",
                 }}
             ></div>
@@ -80,7 +80,7 @@ const Navigation = () => {
             {/* Ant Design Drawer */}
             <div className="OnMoblilemenu">
                 <Drawer
-                    title="SEEDO"
+                    title={<img src={SEEDoLogo} alt="SEEDO Logo" style={{ height: "40px" }} />}
                     placement="right"
                     closable={true}
                     onClose={() => setMobileMenuOpen(false)}
@@ -101,6 +101,7 @@ const Navigation = () => {
                         </div>
                     ))}
                 </Drawer>
+
             </div>
         </section>
     );

@@ -286,13 +286,13 @@ p {
   text-decoration: none;
 }
 
-.ant-drawer-header {
+/* .ant-drawer-header {
   background-color: #a12024 !important;
   color: white;
-}
+} */
 
 .ant-drawer-header svg {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 /* Define the keyframe animation for rotating clockwise */

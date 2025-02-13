@@ -72,7 +72,7 @@ import SLTBB001 from "/Images/ProductsImages/EasyLearningToys/SLT-BB-001.png"
 import SLTPP001 from "/Images/ProductsImages/EasyLearningToys/SLT-PP-001.png"
 import SLTTT001 from "/Images/ProductsImages/EasyLearningToys/SLT-TT-001.png"
 import Walker from "/Images/ProductsImages/EasyLearningToys/Walker.png"
-import RC00124GHz from "/Images/ProductsImages/RC Car/116RC001-2.4GHz.png"
+import RC00124GHz from "/Images/ProductsImages/RC Car/116RC001-2.4GHz(blue).png"
 import RC00127MHz from "/Images/ProductsImages/RC Car/116RC001-27MHz.png"
 import RC00224GHz from "/Images/ProductsImages/RC Car/116RC002-2.4GHz.png"
 import RC00227MHz from "/Images/ProductsImages/RC Car/116RC002-27MHz.png"
@@ -943,7 +943,7 @@ const SeedoProductData = {
                     name: "Luxurious Sports Car",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        RC00127MHz, LuxuriousCar1, LuxuriousCar2, LuxuriousCar3, LuxuriousCar4, LuxuriousCar5, LuxuriousCar6, LuxuriousCar7, LuxuriousCar8
+                        RC00127MHz, RC00124GHz, LuxuriousCar1, LuxuriousCar2, LuxuriousCar3, LuxuriousCar4, LuxuriousCar5, LuxuriousCar6, LuxuriousCar7, LuxuriousCar8
                     ],
                     ProductStyleCode: "116RC001",
                     Productdescription: <>
@@ -961,29 +961,29 @@ const SeedoProductData = {
                         </div>
                     </>
                 },
-                {
-                    id: 25,
-                    name: "Luxurious Sports Car",
-                    ProductBatteryType: "Rechargable",
-                    ProductImage: [
-                        RC00124GHz
-                    ],
-                    ProductStyleCode: "116RC001",
-                    Productdescription: <>
+                // {
+                //     id: 25,
+                //     name: "Luxurious Sports Car",
+                //     ProductBatteryType: "Rechargable",
+                //     ProductImage: [
+                       
+                //     ],
+                //     ProductStyleCode: "116RC001",
+                //     Productdescription: <>
 
-                        <div>
-                            <div>
-                                <p>Material type<b> Virgin grade, High strength ABS Material</b></p>
-                                <p><b>Scale </b>1:16</p>
-                                <p><b>USB</b> Yes</p>
-                                <p><b>Box Quantity</b> 18 pcs./box</p>
-                                <p><b>Frequency</b> 2.4GHz</p>
-                                <p><b>HSN Code</b> 95030030</p>
-                                <p><b>Battery</b> 3.7V Li-ion Rechargeable Battery</p>
-                            </div>
-                        </div>
-                    </>
-                },
+                //         <div>
+                //             <div>
+                //                 <p>Material type<b> Virgin grade, High strength ABS Material</b></p>
+                //                 <p><b>Scale </b>1:16</p>
+                //                 <p><b>USB</b> Yes</p>
+                //                 <p><b>Box Quantity</b> 18 pcs./box</p>
+                //                 <p><b>Frequency</b> 2.4GHz</p>
+                //                 <p><b>HSN Code</b> 95030030</p>
+                //                 <p><b>Battery</b> 3.7V Li-ion Rechargeable Battery</p>
+                //             </div>
+                //         </div>
+                //     </>
+                // },
                 {
                     id: 26,
                     name: "Hyper Beast Car 27 MHz",
