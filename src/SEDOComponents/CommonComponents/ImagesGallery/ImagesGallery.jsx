@@ -108,6 +108,10 @@ const ImagesGallery = () => {
                             spaceBetween={30}
                             freeMode={true}
                             loop={true}
+                            autoplay={{
+                                delay: 2000,
+                                disableOnInteraction: false,
+                              }}
                             navigation={true}
                             speed={700}
                             modules={[Autoplay, FreeMode, Navigation, Pagination]}
