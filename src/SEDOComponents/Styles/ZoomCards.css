@@ -295,6 +295,11 @@ padding-bottom: 0px !important;
     fill: rgba(149, 179, 224, 0.634);
 }
 @media (max-width:769px) {
+    #SeedoPersonal .ImagesContainer img{
+        /* width: 7%; */
+        height: 30%;
+        opacity: 0.3;
+    }
     #ParentBox .BackSVG{
         position: absolute;
         top: 0px;
