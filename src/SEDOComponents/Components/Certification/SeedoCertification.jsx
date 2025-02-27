@@ -29,10 +29,11 @@ const SeedoCertification = () => {
             link: "https://www.makeinindia.com/"
         },
         {
-            img: logo3,
-            title: "Good Manufacturing Practices",
-            link: "https://www.who.int/teams/health-product-policy-and-standards/standards-and-specifications/norms-and-standards/gmp"
+            img: ASTM,
+            title: "ASTM International",
+            link: "https://www.astm.org/"
         },
+       
         {
             img: sedex,
             title: "Supplier Ethical Data Exchange",
@@ -54,12 +55,8 @@ const SeedoCertification = () => {
             title: "International Organization for Standardization (45001 : 2018)",
             link: "https://www.iso.org/home.html"
         },
-
-        {
-            img: ASTM,
-            title: "ASTM International",
-            link: "https://www.astm.org/"
-        },
+        
+       
         {
             img: logo8,
             title: "Restriction of Hazardous Substances",
@@ -115,7 +112,11 @@ const SeedoCertification = () => {
             title: "Ministry of Micro, Small and Medium Enterprises",
             link: "https://www.msme.gov.in"
         },
-
+        {
+            img: logo3,
+            title: "Good Manufacturing Practices",
+            link: "https://www.who.int/teams/health-product-policy-and-standards/standards-and-specifications/norms-and-standards/gmp"
+        },
     ]
     return (
         <>
