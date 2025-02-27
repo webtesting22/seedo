@@ -197,7 +197,9 @@ const ZoomCards = () => {
                         {/* <h1 style={{ fontSize: "30px", margin: "0px" }} data-aos="fade-up"
                             data-aos-duration="1000">SEEDO</h1> */}
                         <p data-aos="fade-up"
-                            data-aos-duration="1500"><b>At Seedo,</b> we believe in sparking <b>creativity and joy</b> with every toy we make. <br />Our collection of high-quality, safe, and affordable toys is crafted to inspire children’s imaginations while giving parents complete peace of mind.
+                            data-aos-duration="1500">
+                                <b>At Seedo</b>, from the house of <b>Sanson Promotion Pvt Ltd</b>- a product innovation company with 2 decades of consumer promotion for kids. Driven by innovation and strong technical control, we at Seedo have developed a range of high-quality toys, ensuring they are safe, affordable, and meet the highest standards in child safety. Seedo toys sparks children’s imagination while offering parents confidence in our craftsmanship. We are committed to becoming India's leading toy manufacturers and grown multi fold horizontally and vertically over the years. We are excited to share our collection and bring joy to kids everywhere!
+                                {/* <b>At Seedo,</b> we believe in sparking <b>creativity and joy</b> with every toy we make. <br />Our collection of high-quality, safe, and affordable toys is crafted to inspire children’s imaginations while giving parents complete peace of mind. */}
                         </p>
                     </div>
                 </div>

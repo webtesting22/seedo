@@ -20,6 +20,7 @@ import ASTM from "./ASTM.png"
 import ISO1 from "./9002015.jpeg"
 import ISO2 from "./140012015.jpeg"
 import ISO3 from "./450012018.jpeg"
+import gmpcertified from "./gmpcertified.jpg"
 const SeedoCertification = () => {
     const CertificationLogoData = [
         {
@@ -114,7 +115,6 @@ const SeedoCertification = () => {
             title: "Ministry of Micro, Small and Medium Enterprises",
             link: "https://www.msme.gov.in"
         },
-
 
     ]
     return (
