@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import { Row, Col } from "antd";
 import "../../Styles/ClientComponent.css"
 import Amway from "/Images/Logos/Clientlogos/Amway.png"
@@ -17,28 +17,11 @@ import ChhotaBheem from "/Images/Logos/Clientlogos/ChhotaBheem.png"
 import ToyStory3 from "/Images/Logos/Clientlogos/ToyStory3.png"
 import Barbie from "/Images/Logos/Clientlogos/Barbie.png"
 import doraemon from "/Images/Logos/Clientlogos/doraemon.png"
-import amazon from "../../CommonComponents/ZoomCards/amazon.svg"
-import flifkart from "../../CommonComponents/ZoomCards/flifkart.svg"
-import smartBazaar from "../../CommonComponents/ZoomCards/smartBazaar.svg"
-import Snooplay from "../../CommonComponents/ZoomCards/Snooplay.svg"
-import swiggy from "../../CommonComponents/ZoomCards/swiggy.svg"
-import whole9years from "../../CommonComponents/ZoomCards/whole9years.svg"
-import Zepto from "../../CommonComponents/ZoomCards/Zepto.png"
-import Whiskey from "../../CommonComponents/ZoomCards/Whiskey.svg"
 import image1 from "./8d3a0f196563391.Y3JvcCwxODA3LDE0MTQsOTMsMA.svg"
-import image2 from "./24Seven_logo.svg"
-import image3 from "./619a4143-2b0f-40a7-b92f-4bf48d5bed8e-removebg-preview 1.svg"
 import image4 from "./Ralleyz_Logo-02.svg"
-import image5 from "./Toys__R__Us_logo.svg.svg"
-import image6 from "./VMM-1 1.svg"
-import Wishkey from "./Wishkey.png"
 import { Link } from "react-router-dom";
-import Dmart from "./Dmart.png"
-import MUMUSO from "./MUMUSO.png"
 import MRDIY from "./MRDIY.png"
 import Blinkit from "./Blinkit.png"
-import Hamleys from "./Hamleys_logo 1.png"
-import lulu from "./lulu.png"
 import Navigation from "../../CommonComponents/Navigation/Navigation";
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -140,7 +123,7 @@ const Client = () => {
             link: "https://www.miniso.com/"
         },
         {
-            img: Hamleys,
+            img: "/Images/ProductClientLogos/Hamleys.png",
             link: "https://www.hamleys.in/"
         },
         {
@@ -158,69 +141,62 @@ const Client = () => {
         },
         {
             link: "https://www.zeptonow.com/",
-            img: Zepto
+            img: "/Images/ProductClientLogos/Zepto.png"
         },
         {
-            img: image5,
+            img: "/Images/ProductClientLogos/ToysRus.png",
             link: "https://www.toysrus.in/"
         },
 
         {
-            img: image6,
+            img: "/Images/ProductClientLogos/VishalMegamart.png",
             link: "https://www.vishalmegamart.com/"
         },
         {
             link: "https://www.amazon.in/",
-            img: amazon
+            img: "/Images/ProductClientLogos/Amazon.png"
         },
         {
             link: "https://www.flipkart.com/",
-            img: flifkart
+            img: "/Images/ProductClientLogos/Flipkart.png"
         },
         {
             link: "https://reliancesmartbazaar.com/",
-            img: smartBazaar
+            img: "/Images/ProductClientLogos/SmartSuperstore.png"
         },
 
         {
             link: "https://www.swiggy.com/",
-            img: swiggy
+            img: "/Images/ProductClientLogos/Instamart.png"
         },
-        // {
-        //     link: "https://whole9yards.in/",
-        //     img: whole9years
-        // },
-
-
-
         {
-            img: Dmart,
+            img: "/Images/ProductClientLogos/Dmart.png",
             link: "https://www.dmart.in/"
         },
         {
-            img: lulu,
+            img: "/Images/ProductClientLogos/LuLu.png",
             link: "https://gcc.luluhypermarket.com/"
         },
         {
-            img: MUMUSO,
+            img: "/Images/ProductClientLogos/MuMuso.png",
             link: "https://www.mumuso.com/"
         },
 
         {
             link: "",
-            img: Wishkey
+            img: "/Images/ProductClientLogos/Wishkey.png"
         },
         {
-            img: image3,
+            img: "/Images/ProductClientLogos/Wembley.png",
             link: "https://wembleytoys.com/"
         },
         {
-            img: image2,
+            img: "/Images/ProductClientLogos/24Seven.png",
             link: "https://www.24seventalent.com/"
         },
         {
             link: "https://snooplay.in/",
-            img: Snooplay
+            img: "/Images/ProductClientLogos/Snooplay.png"
         },
 
     ];

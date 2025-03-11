@@ -1,7 +1,7 @@
 #NavigationContainer {
   /* padding: 2rem; */
   position: fixed;
-  z-index: 55;
+  z-index: 5555555;
   width: 100%;
   background-color: transparent;
   top: 0px;
@@ -16,10 +16,12 @@
   display: flex;
   justify-content: center;
 }
-#NavigationLink:hover{
+
+#NavigationLink:hover {
   transform: translatey(-3px);
   transition: .5s;
 }
+
 #NavigationLink::before {
   content: "";
   height: 5px;
@@ -158,7 +160,8 @@
 .OnMoblilemenu {
   display: none !important;
 }
-.IncreaseBack{
+
+.IncreaseBack {
   position: absolute;
   top: 0px;
 }

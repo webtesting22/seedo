@@ -108,10 +108,10 @@ const ImagesGallery = () => {
                             spaceBetween={30}
                             freeMode={true}
                             loop={true}
-                            autoplay={{
-                                delay: 2000,
-                                disableOnInteraction: false,
-                              }}
+                            // autoplay={{
+                            //     delay: 2000,
+                            //     disableOnInteraction: false,
+                            // }}
                             navigation={true}
                             speed={700}
                             modules={[Autoplay, FreeMode, Navigation, Pagination]}
@@ -193,12 +193,12 @@ const ImagesGallery = () => {
                                 <Link to="/ourOfferings">
                                     <div className="GreyBox" data-aos="fade-up"
                                         data-aos-duration="1000">
-                                        <img src={oem} alt="" />
+                                        <img src="/Images/OurOfferingIcons/OEM.png" alt="" />
                                         <h4>Original Equipment <br /> Manufacturer (OEM)</h4>
                                         <p>Our expertise lies in producing high-quality products tailored to our client's...</p>
                                         {/* <p className="HidePara"></p> */}
-                                        <button><div>
-                                            <FaArrowRightLong style={{ color: "black" }} /></div></button>
+                                        {/* <button><div>
+                                            <FaArrowRightLong style={{ color: "black" }} /></div></button> */}
                                         {/* <p>We specialize in Original Design manufacturing, creating innovative products tailored to clients' specifications. Our focus is on quality, customization, and delivering exceptional value to our partners.</p> */}
                                     </div>
                                 </Link>
@@ -207,11 +207,11 @@ const ImagesGallery = () => {
                                 <Link to="/ourOfferings">
                                     <div className="GreyBox" data-aos="fade-up"
                                         data-aos-duration="1200">
-                                        <img src={odm} alt="" />
+                                        <img src="/Images/OurOfferingIcons/ODM.png" alt="" />
                                         <h4>Original Design <br /> Manufacturer (ODM)</h4>
                                         <p >We focus on innovative design manufaturing, creating unique and effective products...</p>
-                                        <button><div>
-                                            <FaArrowRightLong style={{ color: "black" }} /></div></button>
+                                        {/* <button><div>
+                                            <FaArrowRightLong style={{ color: "black" }} /></div></button> */}
                                         {/* <p>We specialize in producing high-quality products tailored to our client's specifications, ensuring exceptional quality and performance while fostering
                                         strong partnerships for mutual growth success.
                                     </p> */}
@@ -222,11 +222,11 @@ const ImagesGallery = () => {
                                 <Link to="/ourOfferings">
                                     <div className="GreyBox" data-aos="fade-up"
                                         data-aos-duration="1500">
-                                        <img src={white} alt="" />
+                                        <img src="/Images/OurOfferingIcons/WHITELABELING.png" alt="" />
                                         <h4 >White Labelling <br /> Solutions</h4>
                                         <p>Our white-label solutions allow you to brand our high-quality products...</p>
-                                        <button><div>
-                                            <FaArrowRightLong style={{ color: "black" }} /></div></button>
+                                        {/* <button><div>
+                                            <FaArrowRightLong style={{ color: "black" }} /></div></button> */}
                                         {/* <p>We offer white-label solutions, allowing you to brand our high-quality products as your own. This enables you to expand your product range while maintaining your unique brand identity.
                                     </p> */}
                                     </div>
@@ -236,12 +236,12 @@ const ImagesGallery = () => {
                                 <Link to="/ourOfferings">
                                     <div className="GreyBox" data-aos="fade-up"
                                         data-aos-duration="1500">
-                                        <img src={SeedbrandIcon} alt="" />
+                                        <img src="/Images/OurOfferingIcons/BRANDDISTRUBUTION.png" alt="" />
                                         <h4 >Seedo <br /> Brand Distribution</h4>
                                         <p>Seedo proudly designs, manufactures, and markets toys under its own...
                                         </p>
-                                        <button><div>
-                                            <FaArrowRightLong style={{ color: "black" }} /></div></button>
+                                        {/* <button><div>
+                                            <FaArrowRightLong style={{ color: "black" }} /></div></button> */}
 
                                     </div>
                                 </Link>

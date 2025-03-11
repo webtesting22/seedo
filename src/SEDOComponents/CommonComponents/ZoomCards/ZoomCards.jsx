@@ -2,31 +2,14 @@ import React, { useState, useRef, useEffect } from "react";
 import "../../Styles/ZoomCards.css"
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import amazon from "./amazon.svg"
-import flifkart from "./flifkart.svg"
-import smartBazaar from "./smartBazaar.svg"
-import Snooplay from "./Snooplay.svg"
-import swiggy from "./swiggy.svg"
-import whole9years from "./whole9years.svg"
-import zapto from "./zapto.svg"
-import Wishkey from "../../Components/Clients/Wishkey.png"
-import image5 from "./Toys__R__Us_logo.svg.svg"
-import image6 from "./VMM-1 1.svg"
-// Import Swiper styles
+
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 // import required modules
-import { Autoplay, Pagination, FreeMode } from 'swiper/modules';
-import Zepto from "./zepto-logo-vector_logoshape.png"
+import { Autoplay, Pagination, FreeMode, Navigation } from 'swiper/modules';
 import RightSideCar from "./RightSideCar.png"
 import LeftSideCar from "./LeftSideCar.png"
-import Dmart from "./Dmart.png"
-import MUMUSO from "./MUMUSO.png"
-import lulu from "./lulu.png"
-import image3 from "./619a4143-2b0f-40a7-b92f-4bf48d5bed8e-removebg-preview 1.svg"
-import image2 from "./24Seven_logo.svg"
-import HamleysLogo from "./Hamleys_logo 1.png"
 const ZoomCards = () => {
     const imageRef = useRef(null);
     const [width, setWidth] = useState('40%');
@@ -84,81 +67,102 @@ const ZoomCards = () => {
     const Clients = [
         {
             link: "https://www.amazon.in/",
-            img: amazon,
+            img: "/Images/ProductClientLogos/Amazon.png",
 
         },
         {
             link: "https://www.flipkart.com/",
-            img: flifkart,
+            img: "/Images/ProductClientLogos/Flipkart.png",
 
         },
         {
             link: "https://reliancesmartbazaar.com/",
-            img: smartBazaar,
-            color: "DC3739"
+            img: "/Images/ProductClientLogos/SmartSuperstore.png",
         },
         {
             link: "https://snooplay.in/",
-            img: Snooplay,
-            color: "D32A2A"
+            img: "/Images/ProductClientLogos/Snooplay.png",
+
         },
         {
             link: "https://www.swiggy.com/",
-            img: swiggy,
-            color: "F15F34"
+            img: "/Images/ProductClientLogos/Instamart.png",
+
         },
         {
             link: "https://whole9yards.in/",
-            img: whole9years,
+            img: "/Images/ProductClientLogos/Whole9Yards.png",
 
         },
         {
             link: "https://www.zeptonow.com/",
-            img: Zepto,
+            img: "/Images/ProductClientLogos/Zepto.png",
 
         },
         {
-            img: image5,
+            img: "/Images/ProductClientLogos/ToysRus.png",
             link: "https://www.toysrus.in/"
         },
 
         {
-            img: image6,
+            img: "/Images/ProductClientLogos/VishalMegamart.png",
             link: "https://www.vishalmegamart.com/"
         },
         {
-            img: Dmart,
+            img: "/Images/ProductClientLogos/Dmart.png",
             link: "https://www.dmart.in/"
         },
         {
-            img: lulu,
+            img: "/Images/ProductClientLogos/LuLu.png",
             link: "https://gcc.luluhypermarket.com/"
         },
         {
-            img: MUMUSO,
+            img: "/Images/ProductClientLogos/MuMuso.png",
             link: "https://www.mumuso.com/"
         },
         {
             link: "",
-            img: Wishkey,
+            img: "/Images/ProductClientLogos/Wishkey.png",
             color: "000000"
         },
         {
             link: "https://www.hamleys.in/",
-            img: HamleysLogo,
+            img: "/Images/ProductClientLogos/Hamleys.png",
 
         },
         {
-            img: image3,
+            img: "/Images/ProductClientLogos/Wembley.png",
             link: "https://wembleytoys.com/"
         },
         {
-            img: image2,
+            img: "/Images/ProductClientLogos/24Seven.png",
             link: "https://www.24seventalent.com/"
         },
 
     ];
 
+
+    const CarousalImages = [
+        {
+            img: "/Images/SeedoCarousal1.jpg"
+        },
+        {
+            img: "/Images/SeedoCarousal2.jpg"
+        },
+        {
+            img: "/Images/SeedoCarousal3.jpg"
+        },
+        {
+            img: "/Images/SeedoCarousal1.jpg"
+        },
+        {
+            img: "/Images/SeedoCarousal2.jpg"
+        },
+        {
+            img: "/Images/SeedoCarousal3.jpg"
+        },
+
+    ]
     return (
         <>
             {/* <div style={{ display: "flex", justifyContent: "center" }}>
@@ -171,67 +175,69 @@ const ZoomCards = () => {
             </div> */}
             <div style={{ display: "flex", justifyContent: "center" }}>
                 <div id="SeedoPersonal">
-                    <div className="ImagesContainer">
-                        <img
-                            ref={rightImageRef}
-                            className="parallax-image"
-                            style={{
-                                transform: `translateY(${calculateTranslateY(-200, 0.2)})`, // Right image moves downward
-                                transition: "transform 0.1s linear",
-                            }}
-                            src={RightSideCar}
-                            alt="Right Side Car"
-                        />
-                        <img
-                            ref={leftImageRef}
-                            className="parallax-image"
-                            style={{
-                                transform: `translateY(${calculateTranslateY(200, -0.2)})`, // Left image moves upward
-                                transition: "transform 0.1s linear",
-                            }}
-                            src={LeftSideCar}
-                            alt="Left Side Car"
-                        />
+                    <div className="SkyAbsoluteImage">
+                        <img src="/Images/ZoomCardsImages/cloud.png" alt="" />
                     </div>
-                    <div>
+                    <div className="AboutHomePageSwiperContainer">
+                        <div>
+                            <Swiper
+                                slidesPerView={2}
+                                spaceBetween={10}
+                                centeredSlides={true}
+                                loop={true}
+                                // autoplay={{
+                                //     delay: 2500,
+                                //     disableOnInteraction: false,
+                                // }}
+                                // pagination={{
+                                //     clickable: true,
+                                // }}
+                                // navigation={true}
+                                modules={[Autoplay, Pagination, Navigation, FreeMode]}
+                                className="mySwiper"
+                            >
+                                {CarousalImages.map((item, index) => (
+                                    <SwiperSlide key={index}>
+                                        <div className="AboutHomeCarousal">
+                                            <div>
+                                                <img src={item.img} alt="" />
+                                            </div>
+                                        </div>
+                                    </SwiperSlide>
+                                ))}
+                            </Swiper>
+                        </div>
+                    </div>
+
+                    <div className="SeedoDetails">
                         {/* <h1 style={{ fontSize: "30px", margin: "0px" }} data-aos="fade-up"
                             data-aos-duration="1000">SEEDO</h1> */}
                         <p data-aos="fade-up"
                             data-aos-duration="1500">
-                                <b>At Seedo</b>, from the house of <b>Sanson Promotion Pvt Ltd</b>- a product innovation company with 2 decades of consumer promotion for kids. Driven by innovation and strong technical control, we at Seedo have developed a range of high-quality toys, ensuring they are safe, affordable, and meet the highest standards in child safety. Seedo toys sparks children’s imagination while offering parents confidence in our craftsmanship. We are committed to becoming India's leading toy manufacturers and grown multi fold horizontally and vertically over the years. We are excited to share our collection and bring joy to kids everywhere!
-                                {/* <b>At Seedo,</b> we believe in sparking <b>creativity and joy</b> with every toy we make. <br />Our collection of high-quality, safe, and affordable toys is crafted to inspire children’s imaginations while giving parents complete peace of mind. */}
+                            <b>At Seedo</b>, from the house of <b>Sanson Promotion Pvt Ltd</b>- a product innovation company with 2 decades of consumer promotion for kids. Driven by innovation and strong technical control, we at Seedo have developed a range of high-quality toys, ensuring they are safe, affordable, and meet the highest standards in child safety. Seedo toys sparks children’s imagination while offering parents confidence in our craftsmanship. We are committed to becoming India's leading toy manufacturers and grown multi fold horizontally and vertically over the years. We are excited to share our collection and bring joy to kids everywhere!
+                            {/* <b>At Seedo,</b> we believe in sparking <b>creativity and joy</b> with every toy we make. <br />Our collection of high-quality, safe, and affordable toys is crafted to inspire children’s imaginations while giving parents complete peace of mind. */}
                         </p>
                     </div>
                 </div>
             </div>
             <div style={{ display: "flex", justifyContent: "center", position: "relative", }} id="ParentBox">
                 <div className="BackSVG">
-                    <svg width="1895" height="997" viewBox="0 0 1895 997" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M489 15.2177C394.5 -2.98877 212 -4.08235 0 74.7177V996.5H1895V18.2177C1888.83 23.8843 1864.8 39.2177 1818 55.2177C1739.67 78.551 1575.33 94.0308 1397 48.5C1373.5 42.5 1279.3 16.1177 1240.5 9.71766C1187.5 0.217663 1045.7 -14.9823 822.5 36.2177C745.5 53.8807 663.4 48.8177 489 15.2177Z" fill="#A0DEF7" />
-                    </svg>
+                    <img src="/Images/ZoomCardsImages/SansonImage.png" alt="" />
                 </div>
                 <div className="SANSONGraphicContainer" style={{ position: "sticky" }}>
                     <div>
-                        <h1 style={{ fontSize: "30px", color: "black", margin: "0px" }} data-aos="fade-up"
+                        <h1 style={{ fontSize: "30px", margin: "0px" }} data-aos="fade-up"
                             data-aos-duration="1000" >Sanson Promotion Innovations LLP</h1>
                         <p data-aos="fade-up"
-                            data-aos-duration="1500"> <b style={{ backgroundColor: "#f8c6d466" }}>Sanson Promotion Innovations LLP</b> is a prominent leader in consumer and trade promotions, trusted by major FMCG brands such as Unilever, Glaxo, Perfetti, Mondelez, and Britannia. As the parent company of Seedo, Sanson excels in collaborating with esteemed licensors like Disney, Marvel, Mattel, Pokémon, and Doraemon. With comprehensive expertise in conceptualization, product engineering, mass manufacturing, quality assurance, and logistics, Sanson consistently surpasses client expectations. <br /> This commitment to delivering high-quality products and innovative campaigns is reflected in Seedo's values as well.</p>
+                            data-aos-duration="1500"> <b>Sanson Promotion Innovations LLP</b> is a prominent leader in consumer and trade promotions, trusted by major FMCG brands such as Unilever, Glaxo, Perfetti, Mondelez, and Britannia. As the parent company of Seedo, Sanson excels in collaborating with esteemed licensors like Disney, Marvel, Mattel, Pokémon, and Doraemon. With comprehensive expertise in conceptualization, product engineering, mass manufacturing, quality assurance, and logistics, Sanson consistently surpasses client expectations. <br /> This commitment to delivering high-quality products and innovative campaigns is reflected in Seedo's values as well.</p>
                     </div>
                 </div>
             </div>
             <div className="AboutSeedoContent">
-                {/* <div>
-                    <p>Welcome to Seedo Toys</p>
-                    <h1>SEEDO- Where Imagination Comes To Life!</h1>
-                </div> */}
+
                 <div>
                     <div>
-                        {/* <img ref={imageRef} src={AboutUsSection} alt="" style={{
-                            width,
-                            // transition: 'width 0.2s ease',
-                            height: '100%',
-                            objectFit: 'cover',
-                        }} /> */}
+
                         <div className="SectionHeadingContainer" style={{ paddingBottom: "0px" }}>
                             <h2 className="titleFont" data-aos="fade-up"
                                 data-aos-duration="1000">Trusted Presence Across India</h2>

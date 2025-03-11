@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { Link, useParams, useLocation } from "react-router-dom";
 import Navigation from "../Navigation/Navigation";
 import "./SingleProductPage.css";
@@ -6,13 +6,17 @@ import { Row, Col, Image, Breadcrumb } from "antd";
 import SeedoProductData from "../../ProductData";
 import { Swiper, SwiperSlide } from 'swiper/react';
 
+
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
-
+import 'swiper/css/navigation';
 // import required modules
 import { Autoplay, FreeMode, Pagination } from 'swiper/modules';
+import { IoArrowDownOutline } from "react-icons/io5";
+import { IoMdArrowUp } from "react-icons/io";
+import { MdKeyboardArrowUp, MdKeyboardArrowDown } from "react-icons/md";
 
 const SingleProductPage = () => {
     const { categoryName, productId } = useParams();
@@ -20,7 +24,7 @@ const SingleProductPage = () => {
     const [otherImages, setOtherImages] = useState([]);
     const [colorMap, setColorMap] = useState({});
     const location = useLocation();
-
+    const swiperRef = useRef(null);
     // Retrieve the backgroundColor from state or use a fallback
     const backgroundColor = location.state?.backgroundColor || "defaultColor";
 
@@ -77,6 +81,13 @@ const SingleProductPage = () => {
     const similarProducts = productSubcategory
         ? subcategories[productSubcategory] // Get products from the subcategory
         : mainCategoryProducts; // Get all products from the main category
+    const handleNext = () => {
+        if (swiperRef.current) swiperRef.current.slideNext();
+    };
+
+    const handlePrev = () => {
+        if (swiperRef.current) swiperRef.current.slidePrev();
+    };
 
     return (
         <>
@@ -84,84 +95,55 @@ const SingleProductPage = () => {
                 <Navigation />
             </div>
 
-            <section className="SingleProductPageContainer">
+            <section className="SingleProductPageContainer" style={{ overflow: "hidden" }}>
                 <div className="SingleProductContainer">
                     {/* Breadcrumb Trail */}
-                    <Breadcrumb style={{ margin: "16px 0" }}>
-                        <Breadcrumb.Item>
-                            <Link to="/">Home</Link>
-                        </Breadcrumb.Item>
-                        <Breadcrumb.Item>
-                            <Link to="/products">Products</Link>
-                        </Breadcrumb.Item>
-                        {categoryData?.subcategories ? (
-                            <Breadcrumb.Item>
-                                <Link to={`/subcategories/${categoryName}`}>
-                                    {categoryName}
-                                </Link>
-                            </Breadcrumb.Item>
-                        ) : (
-                            <Breadcrumb.Item>
-                                <Link to={`/subcategoriesproducts/${categoryName}`}>
-                                    {categoryName}
-                                </Link>
-                            </Breadcrumb.Item>
-                        )}
-                        {productSubcategory && (
-                            <Breadcrumb.Item>
-                                <Link to={`/subcategories/${categoryName}/${productSubcategory}`}>
-                                    {productSubcategory}
-                                </Link>
-                            </Breadcrumb.Item>
-                        )}
-                        <Breadcrumb.Item>{product.name}</Breadcrumb.Item>
-                    </Breadcrumb>
+
 
 
                     <div className="ProductCard">
+                        <Breadcrumb style={{ margin: "16px 0" }}>
+                            <Breadcrumb.Item>
+                                <Link to="/">Home</Link>
+                            </Breadcrumb.Item>
+                            <Breadcrumb.Item>
+                                <Link to="/products">Products</Link>
+                            </Breadcrumb.Item>
+                            {categoryData?.subcategories ? (
+                                <Breadcrumb.Item>
+                                    <Link to={`/subcategories/${categoryName}`}>
+                                        {categoryName}
+                                    </Link>
+                                </Breadcrumb.Item>
+                            ) : (
+                                <Breadcrumb.Item>
+                                    <Link to={`/subcategoriesproducts/${categoryName}`}>
+                                        {categoryName}
+                                    </Link>
+                                </Breadcrumb.Item>
+                            )}
+                            {productSubcategory && (
+                                <Breadcrumb.Item>
+                                    <Link to={`/subcategories/${categoryName}/${productSubcategory}`}>
+                                        {productSubcategory}
+                                    </Link>
+                                </Breadcrumb.Item>
+                            )}
+                            <Breadcrumb.Item>{product.name}</Breadcrumb.Item>
+                        </Breadcrumb>
+                        <div>
+                            <div className="ProductTitleContainer">
+                                <h2>{product.name}</h2>
+                                <p>
+                                    <b>Item code: </b>
+                                    {product.ProductStyleCode}
+                                </p>
+                            </div>
+                        </div>
                         <Row>
-                            <Col lg={16} style={{ width: "100%" }}>
+                            <Col lg={24} style={{ width: "100%" }}>
                                 <Row style={{ height: "100%" }}>
-                                    <Col lg={4} className="OnPCOnly" style={{ width: "100%" }}>
-                                        <Swiper
-                                            slidesPerView={5}
-                                            spaceBetween={30}
-                                            freeMode={true}
-                                            direction={'vertical'}
-                                            autoplay={{
-                                                delay: 2000,
-                                                disableOnInteraction: false,
-                                            }}
-                                            loop={true}
-                                            // pagination={{
-                                            //     clickable: true,
-                                            // }}
-                                            modules={[Autoplay, FreeMode, Pagination]}
-                                            className="mySwiper"
-                                        >
 
-                                            <div style={{ height: "590px", overflow: "auto" }}>
-                                                {otherImages.length > 0 ? (
-                                                    otherImages.map((img, index) => (
-                                                        <SwiperSlide>
-                                                            <div
-                                                                key={index}
-                                                                className="OtherImageThumbnail"
-                                                                onClick={() => handleImageClick(img)}
-                                                                style={{ cursor: "pointer" }}
-                                                            >
-                                                                <img src={img} alt={`Other image ${index + 1}`} />
-                                                            </div>
-                                                        </SwiperSlide>
-                                                    ))
-                                                ) : (
-                                                    <p>Other images coming soon!</p>
-                                                )}
-                                            </div>
-
-
-                                        </Swiper>
-                                    </Col>
                                     <Col lg={20} style={{ width: "100%" }}>
                                         <div
                                             style={{ backgroundColor }}
@@ -174,10 +156,56 @@ const SingleProductPage = () => {
                                             )}
                                         </div>
                                     </Col>
-                                    <Col lg={4} className="OnMobileOnly" style={{ width: "100%" }}>
+
+                                    <Col lg={4} className="OnPCOnly" style={{ width: "100%" }} >
+                                        <button className="swiper-button prev" onClick={handlePrev}>
+                                            <MdKeyboardArrowUp />
+                                        </button>
+                                        <div >
+                                            <Swiper
+
+                                                slidesPerView={4}
+                                                spaceBetween={15}
+                                                freeMode={true}
+                                                direction={'vertical'}
+                                                autoplay={{
+                                                    delay: 2000,
+                                                    disableOnInteraction: false,
+                                                }}
+                                                loop={true}
+                                                modules={[Autoplay, FreeMode, Pagination]}
+                                                className="mySwiper"
+                                                onSwiper={(swiper) => (swiperRef.current = swiper)}
+                                            >
+
+                                                <div style={{ height: "590px", overflow: "auto" }}>
+                                                    {otherImages.length > 0 ? (
+                                                        otherImages.map((img, index) => (
+                                                            <SwiperSlide>
+                                                                <div
+                                                                    key={index}
+                                                                    className="OtherImageThumbnail"
+                                                                    onClick={() => handleImageClick(img)}
+                                                                    style={{ cursor: "pointer" }}
+                                                                >
+                                                                    <img src={img} alt={`Other image ${index + 1}`} />
+                                                                </div>
+                                                            </SwiperSlide>
+                                                        ))
+                                                    ) : (
+                                                        <p>Other images coming soon!</p>
+                                                    )}
+                                                </div>
+                                            </Swiper>
+                                        </div>
+                                        <button className="swiper-button next" onClick={handleNext}>
+                                            <MdKeyboardArrowDown />
+                                        </button>
+                                    </Col>
+                                    <Col lg={4} className="OnMobileOnly" style={{ width: "100%" }} >
                                         <Swiper
                                             slidesPerView={3}
-                                            spaceBetween={30}
+                                            spaceBetween={10}
                                             freeMode={true}
                                             loop={true}
                                             // direction={'vertical'}
@@ -188,6 +216,7 @@ const SingleProductPage = () => {
                                             // pagination={{
                                             //     clickable: true,
                                             // }}
+                                            // navigation={true}
                                             modules={[Autoplay, FreeMode, Pagination]}
                                             className="mySwiper"
                                         >
@@ -213,25 +242,21 @@ const SingleProductPage = () => {
 
 
                                         </Swiper>
-                                        {/* <div>
-                                       
-                                        </div> */}
                                     </Col>
                                 </Row>
                             </Col>
-                            <Col lg={8}>
+
+
+                        </Row>
+                        <Row>
+                            <Col lg={12}>
                                 <div className="ProductTitle">
-                                    <div className="ProductTitleContainer">
-                                        <h2>{product.name}</h2>
-                                        <p>
-                                            <b>Item code: </b>
-                                            ({product.ProductStyleCode})
-                                        </p>
-                                    </div>
-                                    <hr />
+
                                     <div className="SpecificationContainer">
                                         <div className="ColorsContainer">
-                                            <p><b>Colors</b></p>
+
+
+                                            <p style={{ fontSize: "22px", marginBottom: "10px" }}><b>Colours</b></p>
                                             <div style={{ display: "flex", gap: "10px" }}>
                                                 {Object.keys(colorMap).map((color, index) => (
                                                     <div
@@ -239,25 +264,53 @@ const SingleProductPage = () => {
                                                         className="ColorSwatch"
                                                         style={{
                                                             backgroundColor: color,
-                                                            width: "20px",
-                                                            height: "20px",
+                                                            width: "30px",
+                                                            height: "30px",
                                                             borderRadius: "50%",
                                                             cursor: "pointer",
-                                                            border: colorMap[color] === mainImage ? "1px solid black" : "1px solid #00000054",
+                                                            border: colorMap[color] === mainImage ? "1px solid #00000061" : "1px solid #00000054",
                                                         }}
                                                         onClick={() => handleImageClick(colorMap[color])}
                                                     ></div>
                                                 ))}
                                             </div>
                                         </div>
-                                        <hr />
+                                        <br />
+                                        {/* <hr /> */}
                                         <div className="productSpecificatinContainer">
-                                            {product.Productdescription}
+                                            <p style={{ fontSize: "22px" }}><b>Specification</b></p>
+
+                                            <div className="ProductFeaturesList">
+                                                {product.Productdescription}
+                                            </div>
+                                        </div>
+                                        <br />
+                                        <div className="MRPButtonsContainer">
+                                            <div>
+                                                <button style={{ fontSize: "18px" }}>
+                                                    <b>MRP</b> <br />
+                                                    <span>{product.Price}</span>
+                                                </button>
+                                                {product.Quantity && (
+                                                    <button style={{ fontSize: "18px" }}>
+                                                        <b>Box Quantity</b>
+                                                       <br />
+                                                        <span style={{ display: "flex", flexDirection: "column" }}>{product.Quantity}</span>
+                                                    </button>
+                                                )}
+
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </Col>
-
+                            <Col lg={12}>
+                                <div>
+                                    <div className="DiscriptionGraphicsImage">
+                                        <img src="/Images/SingleProductPageGraphic.png" alt="" />
+                                    </div>
+                                </div>
+                            </Col>
                         </Row>
                     </div>
                 </div>
@@ -266,8 +319,9 @@ const SingleProductPage = () => {
                 <div className="SIMILARPRODUCTSContainer">
                     <div className="SectionHeadingContainer">
                         <h1 className="titleFont">
-                            Similar Products of {categoryName}
-                            {productSubcategory ? ` (${productSubcategory})` : ""}
+                            Similar Products
+                            {/* of {categoryName}
+                            {productSubcategory ? ` (${productSubcategory})` : ""} */}
                         </h1>
                     </div>
                     <Row gutter={[16, 16]}>

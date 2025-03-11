@@ -298,18 +298,19 @@ const SeedoProductData = {
                     name: "Light Blaster 2 Way",
                     ProductBatteryType: "Non - Rechargable",
                     ProductImage: [
-                        W001, LightBlaster1, LightBlaster2, LightBlaster3, LightBlaster4, LightBlaster5, LightBlaster6,
+                        LightBlaster1, LightBlaster2, LightBlaster3, LightBlaster4, LightBlaster5, LightBlaster6,
                     ],
+                    Price: "Rs.399",
                     ProductStyleCode: "1182W001",
+                    Quantity: "48 pcs./box",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:18</p>
                                 <p><b>USB</b> No</p>
-                                <p><b>Box Quantity</b> 48 pcs./box</p>
                                 <p><b>Frequency</b> 27MHz</p>
-                                <p><b>Colours</b> </p>
+
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery</b> Non rechargeable</p>
                             </div>
@@ -323,6 +324,8 @@ const SeedoProductData = {
                     ProductImage: [
                         W002
                     ],
+                    Quantity: "48 pcs./box",
+                    Price: "Rs.399",
                     ProductStyleCode: "1182W002",
                     Productdescription: <>
                         <div>
@@ -330,9 +333,8 @@ const SeedoProductData = {
                                 <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:18</p>
                                 <p><b>USB</b> No</p>
-                                <p><b>Box Quantity</b> 48 pcs./box</p>
                                 <p><b>Frequency</b> 27MHz</p>
-                                <p><b>Colours</b> </p>
+
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery</b> Non rechargeable</p>
                             </div>
@@ -347,6 +349,8 @@ const SeedoProductData = {
                     ProductImage: [
                         W003
                     ],
+                    Price: "Rs.399",
+                    Quantity: "48 pcs./box",
                     ProductStyleCode: "1182W003",
                     Productdescription: <>
                         <div>
@@ -354,9 +358,8 @@ const SeedoProductData = {
                                 <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:18</p>
                                 <p><b>USB</b> No</p>
-                                <p><b>Box Quantity</b> 48 pcs./box</p>
                                 <p><b>Frequency</b> 27MHz</p>
-                                <p><b>Colours</b> </p>
+
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery</b> Non rechargeable</p>
                             </div>
@@ -371,6 +374,8 @@ const SeedoProductData = {
                     ProductImage: [
                         RC001, BlazeRunner1, BlazeRunner2, BlazeRunner3, BlazeRunner4, BlazeRunner5, BlazeRunner6, BlazeRunner7, BlazeRunner8, BlazeRunner9, BlazeRunner10, BlazeRunner11
                     ],
+                    Price: "Rs.899",
+                    Quantity: "48 pcs./box",
                     ProductStyleCode: "118RC001",
                     Productdescription: <>
                         <div>
@@ -378,9 +383,8 @@ const SeedoProductData = {
                                 <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:18</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box Quantity</b> 48 pcs./box</p>
                                 <p><b>Frequency</b> 27MHz</p>
-                                <p><b>Colours</b> </p>
+
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion
                                     Rechargeable Battery</p>
@@ -395,6 +399,8 @@ const SeedoProductData = {
                     ProductImage: [
                         W002
                     ],
+                    Price: "Rs.899",
+                    Quantity: "48 pcs./box",
                     ProductStyleCode: "118RC003",
                     Productdescription: <>
                         <div>
@@ -403,7 +409,6 @@ const SeedoProductData = {
                                     strength ABS Material</p>
                                 <p><b>Scale</b> 1:18</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box Quantity</b> 48 pcs./box</p>
                                 <p><b>Frequency</b> 27MHz</p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion
@@ -419,6 +424,7 @@ const SeedoProductData = {
                     ProductImage: [
                         W001_2, LightBlaster7, LightBlaster8
                     ],
+                    Price: "Rs.899",
                     ProductStyleCode: "118BC023",
                     Productdescription: <>
                         <div>
@@ -426,7 +432,6 @@ const SeedoProductData = {
                                 <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:18</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box Quantity</b> 48 pcs./box</p>
                                 <p><b>Frequency</b> 27MHz</p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
@@ -441,6 +446,8 @@ const SeedoProductData = {
                     ProductImage: [
                         Blaster1
                     ],
+                    Price: "Rs.899",
+                    Quantity: "48 pcs./box",
                     ProductStyleCode: "118RC023",
                     Productdescription: <>
                         <div>
@@ -448,7 +455,6 @@ const SeedoProductData = {
                                 <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:18</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box Quantity</b> 48 pcs./box</p>
                                 <p><b>Frequency</b> 27MHz</p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
@@ -474,7 +480,7 @@ const SeedoProductData = {
                 //                 <p><b>USB</b> Yes (C Type)</p>
                 //                 <p><b>Box Quantity</b> 48 pcs./box</p>
                 //                 <p><b>Frequency</b> 27MHz</p>
-                //                 <p><b>Colours</b> </p>
+                //                 
                 //                 <p><b>HSN Code</b> 95030030</p>
                 //                 <p><b>Battery Cell type</b> 3.7V Li-ion
                 //                     Rechargeable Battery</p>
@@ -491,6 +497,8 @@ const SeedoProductData = {
                     ProductImage: [
                         RacerCar1, RacerCar2, RacerCar3, RacerCar4, RacerCar5
                     ],
+                    Price: "Rs.899",
+                    Quantity: "48 pcs./box",
                     ProductStyleCode: "124LRC00A",
                     Productdescription: <>
                         <div>
@@ -499,9 +507,8 @@ const SeedoProductData = {
                                     strength ABS Material</p>
                                 <p><b>Scale</b> 1:24</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box Quantity</b> 48 pcs./box</p>
                                 <p><b>Frequency</b> 27MHz</p>
-                                <p><b>Colours</b> </p>
+
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
                             </div>
@@ -516,6 +523,8 @@ const SeedoProductData = {
                     ProductImage: [
                         LRC00B
                     ],
+                    Price: "Rs.899",
+                    Quantity: "48 pcs./box",
                     ProductStyleCode: "124LRCOOB",
                     Productdescription: <>
                         <div>
@@ -523,14 +532,12 @@ const SeedoProductData = {
                                 <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:24</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box Quantity</b> 48 pcs./box</p>
                                 <p><b>Frequency</b> 27MHz</p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
                             </div>
                         </div>
                     </>
-
                 },
                 {
                     id: 9,
@@ -539,6 +546,8 @@ const SeedoProductData = {
                     ProductImage: [
                         SpectreCar3, SpectreCar2, SpectreCar1, SpectreCar4, SpectreCar5, SpectreCar6, SpectreCar7, SpectreCar8, SpectreCar9, SpectreCar10, SpectreCar11, LRC00C
                     ],
+                    Price: "Rs.899",
+                    Quantity: "48 pcs./box",
                     ProductStyleCode: "124LRC00C",
                     Productdescription: <>
                         <div>
@@ -546,14 +555,12 @@ const SeedoProductData = {
                                 <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:24</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box Quantity</b> 48 pcs./box</p>
                                 <p><b>Frequency</b> 27MHz</p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
                             </div>
                         </div>
                     </>
-
                 },
                 {
                     id: 10,
@@ -562,6 +569,8 @@ const SeedoProductData = {
                     ProductImage: [
                         LRC00D, RoadSniper02, RoadSniper03, RoadSniper04, RoadSniper05, RoadSniper06, RoadSniper07, RoadSniper08, RoadSniper09, RoadSniper010
                     ],
+                    Price: "Rs.899",
+                    Quantity: "48 pcs./box",
                     ProductStyleCode: "124LRCOOD",
                     Productdescription: <>
                         <div>
@@ -569,7 +578,6 @@ const SeedoProductData = {
                                 <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:24</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box Quantity</b> 48 pcs./box</p>
                                 <p><b>Frequency</b> 27MHz</p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
@@ -585,6 +593,8 @@ const SeedoProductData = {
                     ProductImage: [
                         LRC00E, RoadSniper2, RoadSniper3, RoadSniper4, RoadSniper5, RoadSniper6, RoadSniper7, RoadSniper8
                     ],
+                    Price: "Rs.899",
+                    Quantity: "48 pcs./box",
                     ProductStyleCode: "124LRC00E",
                     Productdescription: <>
                         <div>
@@ -593,7 +603,6 @@ const SeedoProductData = {
                                     strength ABS Material</p>
                                 <p><b>Scale</b> 1:24</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box size</b> 48 pcs./box</p>
                                 <p><b>Frequency</b> 27MHz</p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion
@@ -609,6 +618,8 @@ const SeedoProductData = {
                     ProductImage: [
                         RoadSniper6
                     ],
+                    Price: "Rs.899",
+                    Quantity: "48 pcs./box",
                     ProductStyleCode: "124LR00F",
                     Productdescription: <>
                         <div>
@@ -616,7 +627,6 @@ const SeedoProductData = {
                                 <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:24</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box size</b> 48 pcs./box</p>
                                 <p><b>Frequency</b> 27MHz</p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion
@@ -632,6 +642,8 @@ const SeedoProductData = {
                     ProductImage: [
                         PoliceCar1, PoliceCar2, PoliceCar3, PoliceCar4, PoliceCar5, PoliceCar6, PoliceCar7
                     ],
+                    Price: "Rs.899",
+                    Quantity: "48 pcs./box",
                     ProductStyleCode: "118RC001",
                     Productdescription: <>
                         <div>
@@ -639,7 +651,6 @@ const SeedoProductData = {
                                 <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:24</p>
                                 <p><b>USB</b> No</p>
-                                <p><b>Box Quantity</b> 48 pcs./box</p>
                                 <p><b>Frequency</b> 27MHz</p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion
@@ -655,6 +666,8 @@ const SeedoProductData = {
                     ProductImage: [
                         RC001_124, DazzalingCar1, DazzalingCar2, DazzalingCar3, DazzalingCar4, DazzalingCar5, DazzalingCar6, DazzalingCar7, DazzalingCar8, DazzalingCar9, DazzalingCar10, DazzalingCar11, DazzalingCar12
                     ],
+                    Price: "Rs.:1099",
+                    Quantity: "36 pcs./box",
                     ProductStyleCode: "124RC001",
                     Productdescription: <>
                         <div>
@@ -662,7 +675,6 @@ const SeedoProductData = {
                                 <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:24</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box Quantity</b> 36 pcs./box</p>
                                 <p><b>Frequency</b> 27MHz</p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
@@ -679,6 +691,8 @@ const SeedoProductData = {
                     ProductImage: [
                         SC001_124
                     ],
+                    Price: "Rs.749",
+                    Quantity: "48 pcs./box",
                     ProductStyleCode: "124SC001",
                     Productdescription: <>
                         <div>
@@ -686,7 +700,6 @@ const SeedoProductData = {
                                 <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:18</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box size</b> 48 pcs./box</p>
                                 <p><b>Frequency</b> 27MHz</p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
@@ -701,6 +714,8 @@ const SeedoProductData = {
                     ProductImage: [
                         SC001_118, BigStunt1, BigStunt2, BigStunt3, BigStunt4, BigStunt5
                     ],
+                    Price: "Rs.1099",
+                    Quantity: "12 pcs./box",
                     ProductStyleCode: "118SC001",
                     Productdescription: <>
                         <div>
@@ -708,7 +723,6 @@ const SeedoProductData = {
                                 <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:18</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box size</b> 12 pcs./box</p>
                                 <p><b>Frequency</b> 27MHz</p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
@@ -720,12 +734,13 @@ const SeedoProductData = {
 
                 {
                     id: 16,
-
                     name: "Twisting Stunt",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         SC001
                     ],
+                    Price: "Rs.2499",
+                    Quantity: "12 pcs./box",
                     ProductStyleCode: "116SC001",
                     Productdescription: <>
                         <div>
@@ -733,7 +748,6 @@ const SeedoProductData = {
                                 <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:16</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box Quantity</b> 12 pcs./box</p>
                                 <p><b>Frequency</b> 2.4GHz</p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
@@ -748,6 +762,8 @@ const SeedoProductData = {
                     ProductImage: [
                         SC003
                     ],
+                    Price: "Rs.2999",
+                    Quantity: "12 pcs./box",
                     ProductStyleCode: "116SC003",
                     Productdescription: <>
                         <div>
@@ -755,7 +771,6 @@ const SeedoProductData = {
                                 <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:16</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box Quantity</b> 12 pcs./box</p>
                                 <p><b>Frequency</b> 2.4GHz</p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
@@ -770,6 +785,8 @@ const SeedoProductData = {
                     ProductImage: [
                         SuperSonic1, SuperSonic2, SuperSonic3, SuperSonic4, SC002
                     ],
+                    Price: "Rs.2499",
+                    Quantity: "12 pcs./box",
                     ProductStyleCode: "116SC002",
                     Productdescription: <>
                         <div>
@@ -777,7 +794,6 @@ const SeedoProductData = {
                                 <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:16</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box Quantity</b> 12 pcs./box</p>
                                 <p><b>Frequency</b> 2.4GHz</p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
@@ -794,6 +810,8 @@ const SeedoProductData = {
                     ProductImage: [
                         MT003, DinoShellCrawler1, DinoShellCrawler2, DinoShellCrawler3, DinoShellCrawler4, DinoShellCrawler5, DinoShellCrawler6
                     ],
+                    Price: "Rs.1599",
+                    Quantity: "24 pcs./box",
                     ProductStyleCode: "118MT003",
                     Productdescription: <>
                         <div>
@@ -801,9 +819,8 @@ const SeedoProductData = {
                                 <p><b>Material type</b> PVC</p>
                                 <p><b>Scale</b> 1:18</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box Quantity</b> 24 pcs./box</p>
                                 <p><b>Frequency</b> 2.4GHz</p>
-                                <p><b>Colours</b> </p>
+
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion
                                     Rechargeable Battery</p>
@@ -818,6 +835,8 @@ const SeedoProductData = {
                     ProductImage: [
                         MT003_2
                     ],
+                    Price: "Rs.1599",
+                    Quantity: "24 pcs./box",
                     ProductStyleCode: "118MT003",
                     Productdescription: <>
                         <div>
@@ -825,7 +844,6 @@ const SeedoProductData = {
                                 <p><b>Material type</b> PVC</p>
                                 <p><b>Scale</b> 1:18</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box Quantity</b> 24 pcs./box</p>
                                 <p><b>Frequency</b> 2.4GHz</p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion
@@ -843,6 +861,8 @@ const SeedoProductData = {
                         RockCrawler2, RockCrawler3, RockCrawler4, RockCrawler5, RockCrawler6, RockCrawler7,
                         MT002,
                     ],
+                    Price: "Rs.1499",
+                    Quantity: "48 pcs./box",
                     ProductStyleCode: "118MT002",
                     Productdescription: <>
                         <div>
@@ -850,7 +870,6 @@ const SeedoProductData = {
                                 <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:18</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box size</b> 48 pcs./box</p>
                                 <p><b>Frequency</b> 2.4 GHz</p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion
@@ -876,6 +895,8 @@ const SeedoProductData = {
                     ProductImage: [
                         MT003G, GunRockCrawler, GunRockCrawler2
                     ],
+                    Price: "Rs.1849",
+                    Quantity: "24 pcs./box",
                     ProductStyleCode: "118MT003G",
                     Productdescription: <>
                         <div>
@@ -883,7 +904,6 @@ const SeedoProductData = {
                                 <p><b>Material type</b> PVC</p>
                                 <p><b>Scale</b> 1:18</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box Quantity</b> 24 pcs./box</p>
                                 <p><b>Frequency</b> 2.4GHz</p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion
@@ -899,6 +919,8 @@ const SeedoProductData = {
                     ProductImage: [
                         SmokeCrawler
                     ],
+                    Price: "Rs.1649",
+                    Quantity: "24 pcs./box",
                     ProductStyleCode: "118MT003S",
                     Productdescription: <>
                         <div>
@@ -906,7 +928,6 @@ const SeedoProductData = {
                                 <p><b>Material type</b> PVC</p>
                                 <p><b>Scale</b> 1:18</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box Quantity</b> 24 pcs./box</p>
                                 <p><b>Frequency</b> 2.4GHz</p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
@@ -921,6 +942,8 @@ const SeedoProductData = {
                     ProductImage: [
                         Monstertruck5, Monstertruck2, Monstertruck1, , Monstertruck3, Monstertruck4, Monstertruck6, Monstertruck7, Monstertruck8, Monstertruck9, Monstertruck10, Monstertruck11
                     ],
+                    Price: "Rs.1599",
+                    Quantity: "24 pcs./box",
                     ProductStyleCode: "118MT001",
                     Productdescription: <>
                         <div>
@@ -928,7 +951,6 @@ const SeedoProductData = {
                                 <p><b>Material type</b> PVC</p>
                                 <p><b>Scale</b> 1:18</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box Quantity</b> 24 pcs./box</p>
                                 <p><b>Frequency</b> 2.4GHz</p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
@@ -945,6 +967,8 @@ const SeedoProductData = {
                     ProductImage: [
                         RC00127MHz, RC00124GHz, LuxuriousCar1, LuxuriousCar2, LuxuriousCar3, LuxuriousCar4, LuxuriousCar5, LuxuriousCar6, LuxuriousCar7, LuxuriousCar8
                     ],
+                    Price: "Rs.1599",
+                    Quantity: "18 pcs./box",
                     ProductStyleCode: "116RC001",
                     Productdescription: <>
                         <div>
@@ -952,7 +976,6 @@ const SeedoProductData = {
                                 <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:16</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box size</b> 18 pcs./box</p>
                                 <p><b>Frequency</b> 2.4GHz</p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion
@@ -966,7 +989,7 @@ const SeedoProductData = {
                 //     name: "Luxurious Sports Car",
                 //     ProductBatteryType: "Rechargable",
                 //     ProductImage: [
-                       
+
                 //     ],
                 //     ProductStyleCode: "116RC001",
                 //     Productdescription: <>
@@ -992,13 +1015,13 @@ const SeedoProductData = {
                         RC00227MHz, HyperBeast1, HyperBeast2, HyperBeast3, HyperBeast4, HyperBeast5, HyperBeast6, HyperBeast7, HyperBeast8, HyperBeast9
                     ],
                     ProductStyleCode: "116RC002",
+                    Quantity: "48 pcs./box",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:16</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box size</b> 48 pcs./box</p>
                                 <p><b>Frequency</b> 27 MHz</p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion
@@ -1014,6 +1037,8 @@ const SeedoProductData = {
                     ProductImage: [
                         RC00224GHz
                     ],
+                    Price: "Rs.1599",
+                    Quantity: "",
                     ProductStyleCode: "116RC002/2.4GHz"
                 },
                 {
@@ -1023,6 +1048,8 @@ const SeedoProductData = {
                     ProductImage: [
                         ThunderBird1, ThunderBird2, ThunderBird3, ThunderBird4, ThunderBird5, ThunderBird6, ThunderBird7, RC003_2
                     ],
+                    Price: "Rs.1799",
+                    Quantity: "12 pcs./box",
                     ProductStyleCode: "116RC003",
                     Productdescription: <>
                         <div>
@@ -1030,7 +1057,6 @@ const SeedoProductData = {
                                 <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 1:24</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box Quantity</b> 12 pcs./box</p>
                                 <p><b>Frequency</b> 2.4GHz</p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion
@@ -1046,6 +1072,8 @@ const SeedoProductData = {
                     ProductImage: [
                         Drone1, Drone2, Drone3, Drone4, Drone5, Drone6, Drone7, Drone8, Drone9, Drone10
                     ],
+                    Price: "Rs.2999",
+                    Quantity: "24 pcs./box",
                     ProductStyleCode: "STDR001",
                     Productdescription: <>
                         <div>
@@ -1053,7 +1081,6 @@ const SeedoProductData = {
                                 <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                                 <p><b>Scale</b> 17x17x4cm</p>
                                 <p><b>USB</b> Yes</p>
-                                <p><b>Box Quantity</b> 24 pcs./box</p>
                                 <p><b>Frequency</b> 2.4GHz</p>
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
@@ -1076,13 +1103,14 @@ const SeedoProductData = {
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWJS018],
                     ProductStyleCode: "SMR-FW-JS01/8",
+                    Price: "Rs.139",
+                    Quantity: "72 pcs./box",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Shape</b> 1:64</p>
-                                <p><b>Box Quantity</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1093,14 +1121,15 @@ const SeedoProductData = {
                     name: "SMR Jet Series-JS02/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWJS028],
+                    Price: "Rs.139",
+                    Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-FW-JS02/8",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Shape</b> 1:64</p>
-                                <p><b>Box Quantity</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1111,14 +1140,15 @@ const SeedoProductData = {
                     name: "SMR Jet Series-JS03/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWJS038],
+                    Price: "Rs.139",
+                    Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-FW-JS03/8",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Shape</b> 1:64</p>
-                                <p><b>Box Quantity</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1129,14 +1159,15 @@ const SeedoProductData = {
                     name: "SMR Jet Series-JS04/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWJS048],
+                    Price: "Rs.139",
+                    Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-FW-JS04/8",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Shape</b> 1:64</p>
-                                <p><b>Box Quantity</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1147,14 +1178,15 @@ const SeedoProductData = {
                     name: "SMR Jet Series-JS05/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWJS058],
+                    Price: "Rs.139",
+                    Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-FW-JS05/8",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Shape</b> 1:64</p>
-                                <p><b>Box Quantity</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1164,6 +1196,8 @@ const SeedoProductData = {
                     id: 62,
                     name: "SMR Jet Series-JS06/8",
                     ProductBatteryType: "-",
+                    Price: "Rs.139",
+                    Quantity: "72 pcs./box",
                     ProductImage: [SMRFWJS068],
                     ProductStyleCode: "SMR-FW-JS06/8",
                     Productdescription: <>
@@ -1171,8 +1205,7 @@ const SeedoProductData = {
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Shape</b> 1:64</p>
-                                <p><b>Box Quantity</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b>Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1183,14 +1216,15 @@ const SeedoProductData = {
                     name: "SMR Jet Series-JS07/8",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWJS078],
+                    Price: "Rs.139",
+                    Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-FW-JS07/8",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Shape</b> 1:64</p>
-                                <p><b>Box Quantity</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1200,6 +1234,8 @@ const SeedoProductData = {
                     id: 64,
                     name: "SMR Jet Series-JS08/8",
                     ProductBatteryType: "-",
+                    Price: "Rs.139",
+                    Quantity: "72 pcs./box",
                     ProductImage: [SMRFWJS088],
                     ProductStyleCode: "SMR-FW-JS08/8",
                     Productdescription: <>
@@ -1207,8 +1243,7 @@ const SeedoProductData = {
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Shape</b> 1:64</p>
-                                <p><b>Box Quantity</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1220,6 +1255,8 @@ const SeedoProductData = {
                     id: 65,
                     name: "SMR Fire Birds-FBS01/8",
                     ProductBatteryType: "-",
+                    Price: "Rs.139",
+                    Quantity: "24 pcs./box",
                     ProductImage: [SMRFWFBS018],
                     ProductStyleCode: "SMR-FW-FBS01/8",
                     Productdescription: <>
@@ -1227,7 +1264,6 @@ const SeedoProductData = {
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> 24 pcs./box</p>
                                 <p><b>Packaging</b> 2.4GHz</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
@@ -1238,6 +1274,8 @@ const SeedoProductData = {
                     id: 66,
                     name: "SMR Fire Birds-FBS02/8 ",
                     ProductBatteryType: "-",
+                    Price: "Rs.139",
+                    Quantity: "24 pcs./box",
                     ProductImage: [SMRFWFBS028],
                     ProductStyleCode: "SMR-FW-FBS02/8",
                     Productdescription: <>
@@ -1245,7 +1283,6 @@ const SeedoProductData = {
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> 24 pcs./box</p>
                                 <p><b>Packaging</b> 2.4GHz</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
@@ -1256,6 +1293,8 @@ const SeedoProductData = {
                     id: 67,
                     name: "SMR Fire Birds-FBS03/8 ",
                     ProductBatteryType: "-",
+                    Price: "Rs.139",
+                    Quantity: "24 pcs./box",
                     ProductImage: [SMRFWFBS038],
                     ProductStyleCode: "SMR-FW-FBS03/8",
                     Productdescription: <>
@@ -1263,7 +1302,6 @@ const SeedoProductData = {
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> 24 pcs./box</p>
                                 <p><b>Packaging</b> 2.4GHz</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
@@ -1274,6 +1312,8 @@ const SeedoProductData = {
                     id: 68,
                     name: "SMR Fire Birds-FBS04/8",
                     ProductBatteryType: "-",
+                    Price: "Rs.139",
+                    Quantity: "24 pcs./box",
                     ProductImage: [SMRFWFBS048],
                     ProductStyleCode: "SMR-FW-FBS04/8",
                     Productdescription: <>
@@ -1281,7 +1321,6 @@ const SeedoProductData = {
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> 24 pcs./box</p>
                                 <p><b>Packaging</b> 2.4GHz</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
@@ -1292,6 +1331,8 @@ const SeedoProductData = {
                     id: 69,
                     name: "SMR Fire Birds-FBS05/8",
                     ProductBatteryType: "-",
+                    Price: "Rs.139",
+                    Quantity: "24 pcs./box",
                     ProductImage: [SMRFWFBS058],
                     ProductStyleCode: "SMR-FW-FBS05/8",
                     Productdescription: <>
@@ -1299,7 +1340,6 @@ const SeedoProductData = {
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> 24 pcs./box</p>
                                 <p><b>Packaging</b> 2.4GHz</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
@@ -1310,6 +1350,8 @@ const SeedoProductData = {
                     id: 70,
                     name: "SMR Fire Birds-FBS06/8",
                     ProductBatteryType: "-",
+                    Price: "Rs.139",
+                    Quantity: "24 pcs./box",
                     ProductImage: [SMRFWFBS068],
                     ProductStyleCode: "SMR-FW-FBS06/8",
                     Productdescription: <>
@@ -1317,7 +1359,6 @@ const SeedoProductData = {
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> 24 pcs./box</p>
                                 <p><b>Packaging</b> 2.4GHz</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
@@ -1328,6 +1369,8 @@ const SeedoProductData = {
                     id: 71,
                     name: "SMR Fire Birds-FBS07/8",
                     ProductBatteryType: "-",
+                    Price: "Rs.139",
+                    Quantity: "24 pcs./box",
                     ProductImage: [SMRFWFBS078],
                     ProductStyleCode: "SMR-FW-FBS07/8",
                     Productdescription: <>
@@ -1335,7 +1378,6 @@ const SeedoProductData = {
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> 24 pcs./box</p>
                                 <p><b>Packaging</b> 2.4GHz</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
@@ -1346,6 +1388,8 @@ const SeedoProductData = {
                     id: 72,
                     name: "SMR Fire Birds-FBS08/8",
                     ProductBatteryType: "-",
+                    Price: "Rs.139",
+                    Quantity: "24 pcs./box",
                     ProductImage: [SMRFWFBS088],
                     ProductStyleCode: "SMR-FW-FBS08/8",
                     Productdescription: <>
@@ -1353,7 +1397,6 @@ const SeedoProductData = {
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> 24 pcs./box</p>
                                 <p><b>Packaging</b> 2.4GHz</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
@@ -1369,13 +1412,14 @@ const SeedoProductData = {
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWRS016],
                     ProductStyleCode: "SMR-FW-RS01/6",
+                    Price: "Rs.139",
+                    Quantity: "72 pcs./box",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1386,14 +1430,15 @@ const SeedoProductData = {
                     name: "SMR Racing Series-RS02/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWRS026],
+                    Price: "Rs.139",
+                    Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-FW-RS02/6",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b>Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1404,14 +1449,15 @@ const SeedoProductData = {
                     name: "SMR Racing Series-RS03/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWRS036],
+                    Price: "Rs.139",
+                    Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-FW-RS03/6",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1422,14 +1468,15 @@ const SeedoProductData = {
                     name: "SMR Racing Series-RS04/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWRS046],
+                    Price: "Rs.139",
+                    Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-FW-RS04/6",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1440,14 +1487,15 @@ const SeedoProductData = {
                     name: "SMR Racing Series-RS05/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWRS056],
+                    Price: "Rs.139",
+                    Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-FW-RS05/6",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1458,14 +1506,15 @@ const SeedoProductData = {
                     name: "SMR Racing Series-RS06/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWRS066],
+                    Price: "Rs.139",
+                    Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-FW-RS06/6",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1478,14 +1527,15 @@ const SeedoProductData = {
                     name: "SMR Cruiser Series-CS01/4",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWCS014],
+                    Price: "Rs.139",
+                    Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-FW-CS01/4",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030030</p>
                             </div>
                         </div>
@@ -1496,14 +1546,15 @@ const SeedoProductData = {
                     name: "SMR Cruiser Series-CS02/4",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWCS024],
+                    Price: "Rs.139",
+                    Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-FW-CS02/4",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030030</p>
                             </div>
                         </div>
@@ -1514,14 +1565,15 @@ const SeedoProductData = {
                     name: "SMR Cruiser Series-CS03/4",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWCS034],
+                    Price: "Rs.139",
+                    Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-FW-CS03/4",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030030</p>
                             </div>
                         </div>
@@ -1532,14 +1584,15 @@ const SeedoProductData = {
                     name: "SMR Cruiser Series-CS04/4",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWCS044],
+                    Price: "Rs.139",
+                    Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-FW-CS04/4",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030030</p>
                             </div>
                         </div>
@@ -1553,14 +1606,15 @@ const SeedoProductData = {
                     name: "SMR Pull Back Series-A01/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRPBSA016],
+                    Price: "Rs.159",
+                    Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-PBS-A01/6",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1571,14 +1625,15 @@ const SeedoProductData = {
                     name: "SMR Pull Back Series-A02/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRPBSA026],
+                    Price: "Rs.159",
+                    Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-PBS-A02/6",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1589,14 +1644,15 @@ const SeedoProductData = {
                     name: "SMR Pull Back Series-A03/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRPBSA036],
+                    Price: "Rs.159",
+                    Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-PBS-A03/6",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1607,14 +1663,15 @@ const SeedoProductData = {
                     name: "SMR Pull Back Series-A04/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRPBSA046],
+                    Price: "Rs.159",
+                    Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-PBS-A04/6",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1625,14 +1682,15 @@ const SeedoProductData = {
                     name: "SMR Pull Back Series-A05/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRPBSA056],
+                    Price: "Rs.159",
+                    Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-PBS-A05/6",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1643,14 +1701,15 @@ const SeedoProductData = {
                     name: "SMR Pull Back Series-A06/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRPBSA066],
+                    Price: "Rs.159",
+                    Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-PBS-A06/6",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1667,14 +1726,15 @@ const SeedoProductData = {
                     ProductImage: [
                         SMRCSA016
                     ],
+                    Price: "Rs.179",
+                    Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-CS-A01/6",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1687,14 +1747,15 @@ const SeedoProductData = {
                     ProductImage: [
                         SMRCSA026
                     ],
+                    Price: "Rs.179",
+                    Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-CS-A02/6",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1707,14 +1768,15 @@ const SeedoProductData = {
                     ProductImage: [
                         SMRCSA036
                     ],
+                    Price: "Rs.179",
+                    Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-CS-A03/6",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1727,14 +1789,15 @@ const SeedoProductData = {
                     ProductImage: [
                         SMRCSA046
                     ],
+                    Price: "Rs.179",
+                    Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-CS-A04/6",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1747,14 +1810,15 @@ const SeedoProductData = {
                     ProductImage: [
                         SMRCSA056
                     ],
+                    Price: "Rs.179",
+                    Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-CS-A05/6",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1767,14 +1831,15 @@ const SeedoProductData = {
                     ProductImage: [
                         SMRCSA066
                     ],
+                    Price: "Rs.179",
+                    Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-CS-A06/6",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1789,14 +1854,15 @@ const SeedoProductData = {
                     name: "SMR Drift Series-DS01/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWDS016],
+                    Price: "Rs.139",
+                    Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-FW-DS01/6",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1807,14 +1873,15 @@ const SeedoProductData = {
                     name: "SMR Drift Series-DS02/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWDS026],
+                    Price: "Rs.139",
+                    Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-FW-DS02/6",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1825,14 +1892,15 @@ const SeedoProductData = {
                     name: "SMR Drift Series-DS03/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWDS036],
+                    Price: "Rs.139",
+                    Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-FW-DS03/6",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1843,14 +1911,15 @@ const SeedoProductData = {
                     name: "SMR Drift Series-DS04/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWDS046],
+                    Price: "Rs.139",
+                    Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-FW-DS04/6",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1861,14 +1930,15 @@ const SeedoProductData = {
                     name: "SMR Drift Series-DS05/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWDS056],
+                    Price: "Rs.139",
+                    Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-FW-DS05/6",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1879,14 +1949,15 @@ const SeedoProductData = {
                     name: "SMR Drift Series-DS06/6",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWDS066],
+                    Price: "Rs.139",
+                    Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-FW-DS06/6",
                     Productdescription: <>
                         <div>
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box size</b> Pack of 1/3/5/10</p>
-                                <p><b>Packaging</b> 72 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 1/3/5/10</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1904,6 +1975,8 @@ const SeedoProductData = {
                     ProductImage: [
                         SMRFWPBP3
                     ],
+                    Price: "Rs.399",
+                    Quantity: "32 pcs./box",
                     ProductBatteryType: "Non-Electric",
                     ProductCode: "SMR-FWPB-P3",
                     Productdescription: <>
@@ -1911,8 +1984,7 @@ const SeedoProductData = {
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box Quantity</b> Pack of 3</p>
-                                <p><b>Packaging</b> 32 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 3</p>
                                 <p><b>HSN Code</b> 95030030</p>
                             </div>
                         </div>
@@ -1924,6 +1996,8 @@ const SeedoProductData = {
                     ProductImage: [
                         SMRFWPBP5
                     ],
+                    Price: "Rs.699",
+                    Quantity: "20 pcs./box",
                     ProductBatteryType: "Non-Electric",
                     ProductCode: "SMR-FWPB-P5",
                     Productdescription: <>
@@ -1931,8 +2005,7 @@ const SeedoProductData = {
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box Quantity</b> Pack of 5</p>
-                                <p><b>Packaging</b> 20 pcs./box</p>
+                                <p><b>Packaging</b> Pack of 5</p>
                                 <p><b>HSN Code</b> 95030030</p>
                             </div>
                         </div>
@@ -1944,6 +2017,8 @@ const SeedoProductData = {
                     ProductImage: [
                         SMRFWPBP10
                     ],
+                    Price: "Rs.:1299",
+                    Quantity: "10 pcs./box",
                     ProductBatteryType: "Non-Electric",
                     ProductCode: "SMR-FWPB-P10",
                     Productdescription: <>
@@ -1951,7 +2026,6 @@ const SeedoProductData = {
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Box Quantity</b> 10 pcs in a box</p>
                                 <p><b>Content</b> 10 Cars</p>
                                 <p><b>HSN Code</b> 95030030</p>
                             </div>
@@ -1976,6 +2050,8 @@ const SeedoProductData = {
                     FLGDSPO12,
                     FLGDSPO12_2,
                 ],
+                Price: "Rs.349",
+                Quantity: "",
                 ProductStyleCode: "FLG-DS-PO12"
             },
             {
@@ -1984,13 +2060,14 @@ const SeedoProductData = {
                 ProductImage: [
                     PNGSRPO12,
                 ],
+                Price: "Rs.299",
+                Quantity: "60 pcs./5PDQ",
                 ProductStyleCode: "PNG-SR-PO12",
                 Productdescription: <>
                     <div>
                         <div>
                             <p><b>Material type</b> ABS Material</p>
                             <p><b>Dimension</b> 11.7x10x9 cm</p>
-                            <p><b>Box Quantity</b> 60 pcs./5PDQ</p>
                             <p><b>Packaging</b> 12 pcs in a PDQ</p>
                             <p><b>HSN Code</b> 95030090</p>
                         </div>
@@ -2005,6 +2082,8 @@ const SeedoProductData = {
                 ProductImage: [
                     MONSTERTUMBLE,
                 ],
+                Price: "Rs.249",
+                Quantity: "",
                 ProductStyleCode: "PNG-SR-PO12"
             },
             {
@@ -2013,6 +2092,8 @@ const SeedoProductData = {
                 ProductImage: [
                     DINOPULLBACK1,
                 ],
+                Price: "Rs. 499",
+                Quantity: "",
                 ProductStyleCode: "DPB-PO8",
                 Productdescription: <>
                     <div>
@@ -2030,6 +2111,8 @@ const SeedoProductData = {
                 ProductImage: [
                     PNGSSPO9, PNGSSPO9_2, PNGSSPO9_3
                 ],
+                Price: "Rs.199",
+                Quantity: "",
                 ProductStyleCode: "PNG-SS-PO9",
                 Productdescription: <>
                     <div>
@@ -2047,6 +2130,7 @@ const SeedoProductData = {
                 ProductImage: [
                     PNGBSS, PNGBSS_2
                 ],
+                Quantity: "",
                 ProductStyleCode: "PNG-BS&S",
                 Productdescription: <>
                     <div>
@@ -2063,13 +2147,14 @@ const SeedoProductData = {
                 ProductImage: [
                     PULLBACKTWISTINGSTUNT1,
                 ],
+                Price: "Rs. 349",
+                Quantity: "48 pcs./6PDQ",
                 ProductStyleCode: "PBTS-PO8",
                 Productdescription: <>
                     <div>
                         <div>
                             <p><b>Material type</b> ABS Material</p>
                             <p><b>Dimension</b> 15x10.5x6.5cm</p>
-                            <p><b>Box Quantity</b> 48 pcs./6PDQ</p>
                             <p>HSN Code<b></b> 95030090</p>
                         </div>
                     </div>
@@ -2081,6 +2166,8 @@ const SeedoProductData = {
                 ProductImage: [
                     PNGBC, PNGBC_2, PNGBC_3
                 ],
+                Price: "Rs.449",
+                Quantity: "",
                 ProductStyleCode: "PNG-BC",
                 Productdescription: <>
                     <div>
@@ -2098,6 +2185,11 @@ const SeedoProductData = {
                 ProductImage: [
                     PNGToys, PNGToys_2
                 ],
+                Price: "Rs.349",
+                Quantity: <>
+                    <span>Inner Packaging: 8 pcs</span>
+                    <span>Master packaging: 128 pcs./box</span>
+                </>,
                 ProductStyleCode: "PNG-Toys",
                 Productdescription: <>
                     <div>
@@ -2118,6 +2210,10 @@ const SeedoProductData = {
                     MTToys, MTToys_2
                 ],
                 ProductStyleCode: "MT-Toys",
+                Quantity: <>
+                    <span>Inner Packaging: 12 pcs</span>
+                    <span>Master packaging: 192 pcs</span>
+                </>,
                 Productdescription: <>
                     <div>
                         <div>
@@ -2136,6 +2232,11 @@ const SeedoProductData = {
                 ProductImage: [
                     PRESSNGOJCBTOYS1
                 ],
+                Price: "Rs. 449",
+                Quantity: <>
+                    <span>Inner Packaging: 5 pcs</span>
+                    <span>Master packaging: 80 pcs./box</span>
+                </>,
                 ProductStyleCode: "-",
                 Productdescription: <>
                     <div>
@@ -2154,13 +2255,14 @@ const SeedoProductData = {
                 ProductImage: [
                     FRICTIONDRIFTCAR1
                 ],
+                Price: "Rs.349",
+                Quantity: "48 pcs./6PDQ",
                 ProductStyleCode: "-",
                 Productdescription: <>
                     <div>
                         <div>
                             <p><b>Material type</b> Plastic</p>
                             <p><b>Dimension</b> 53x33.5x8 cm</p>
-                            <p><b>Box Size</b> 6 PDQ in a box</p>
                             <p><b>Packaging</b> 8 pcs in a PDQ</p>
                             <p><b>HSN Code</b> 95030090</p>
                         </div>
@@ -2173,7 +2275,12 @@ const SeedoProductData = {
                 ProductImage: [
                     PNGMC, PNGMC_2, PNGMC_3, PNGMC_4, PNGMC_5, PNGMC_6
                 ],
+                Price: "Rs. 199",
                 ProductStyleCode: "PNG-MC",
+                Quantity: <>
+                    <span>Inner Packaging: 12 pcs</span>
+                    <span>Master packaging: 192 pcs</span>
+                </>,
                 Productdescription: <>
                     <div>
                         <div>
@@ -2192,6 +2299,11 @@ const SeedoProductData = {
                 name: "Dancing Crab Toy",
                 ProductBatteryType: "-",
                 ProductImage: [DANCINGCRABTOY],
+                Price: "Rs. 1449",
+                Quantity: <>
+                    <span>Inner Packaging: 1 pcs</span>
+                    <span>Master packaging: 64 pcs</span>
+                </>,
                 ProductStyleCode: "-",
                 Productdescription: <>
                     <div>
@@ -2210,6 +2322,11 @@ const SeedoProductData = {
                 name: "Animal Face Car",
                 ProductBatteryType: "-",
                 ProductImage: [ANIMALFACECAR],
+                Price: "Rs.329",
+                Quantity: <>
+                    <span>Inner Packaging: 12 pcs</span>
+                    <span>Master packaging: 192 pcs./box</span>
+                </>,
                 ProductStyleCode: "-",
                 Productdescription: <>
                     <div>
@@ -2228,6 +2345,11 @@ const SeedoProductData = {
                 name: "Tumbling Robot",
                 ProductBatteryType: "-",
                 ProductImage: [TUMBLINGROBOT],
+                Price: "Rs. 899",
+                Quantity: <>
+                    <span>Inner Packaging: 1 pcs</span>
+                    <span>Master packaging: 64 pcs./box</span>
+                </>,
                 ProductStyleCode: "-",
                 Productdescription: <>
                     <div>
@@ -2246,6 +2368,11 @@ const SeedoProductData = {
                 name: "Pull Back Emergency Vehicles",
                 ProductBatteryType: "-",
                 ProductImage: [PULLBACKEMERGENCYVEHICLES],
+                Price: "Rs.249",
+                Quantity: <>
+                    <span>Inner Packaging: 12 pcs</span>
+                    <span>Master packaging: 192 pcs</span>
+                </>,
                 ProductStyleCode: "-",
                 Productdescription: <>
                     <div>
@@ -2263,6 +2390,11 @@ const SeedoProductData = {
                 name: "Water Frog Toy",
                 ProductBatteryType: "-",
                 ProductImage: [WATERFROGTOY],
+                price: "Rs. 199",
+                Quantity: <>
+                    <span>Inner Packaging: 12 pcs</span>
+                    <span>Master packaging: 192 pcs</span>
+                </>,
                 ProductStyleCode: "-",
                 Productdescription: <>
                     <div>
@@ -2281,6 +2413,11 @@ const SeedoProductData = {
                 name: "Whistle Dino Press Go",
                 ProductBatteryType: "-",
                 ProductImage: [WHISTLEDINOPRESSGO],
+                Price: "Rs.390",
+                Quantity: <>
+                    <span>Inner Packaging: 12 pcs</span>
+                    <span>Master packaging: 192 pcs</span>
+                </>,
                 ProductStyleCode: "-",
                 Productdescription: <>
                     <div>
@@ -2300,6 +2437,11 @@ const SeedoProductData = {
                 ProductBatteryType: "-",
                 ProductImage: [SMALLTRACTORMONSTERWHEELS],
                 ProductStyleCode: "-",
+                Price: "Rs. 1499",
+                Quantity: <>
+                    <span>Inner Packaging: 1 pcs</span>
+                    <span>Master packaging: 32 pcs</span>
+                </>,
                 Productdescription: <>
                     <div>
                         <div>
@@ -2318,6 +2460,11 @@ const SeedoProductData = {
                 ProductBatteryType: "-",
                 ProductImage: [BIGCARRIERTRUCKSSMALLCARS],
                 ProductStyleCode: "-",
+                Price: "Rs.1499",
+                Quantity: <>
+                    <span>Inner Packaging: 12 pcs</span>
+                    <span>Master packaging: 24 pcs</span>
+                </>,
                 Productdescription: <>
                     <div>
                         <div>
@@ -2336,6 +2483,11 @@ const SeedoProductData = {
                 name: "Musical Guitar",
                 ProductBatteryType: "-",
                 ProductImage: [MUSICALGUITAR],
+                Price: "Rs. 1499",
+                Quantity: <>
+                    <span>Inner Packaging: 1 pcs</span>
+                    <span>Master packaging: 32 pcs</span>
+                </>,
                 ProductStyleCode: "-",
                 Productdescription: <>
                     <div>
@@ -2354,6 +2506,11 @@ const SeedoProductData = {
                 name: "Musical Dino",
                 ProductBatteryType: "-",
                 ProductImage: [MUSICALDINO],
+                Price: "Rs.449",
+                Quantity: <>
+                    <span>Inner Packaging: 5 pcs</span>
+                    <span>Master packaging: 80 pcs./box</span>
+                </>,
                 ProductStyleCode: "-",
                 Productdescription: <>
                     <div>
@@ -2372,6 +2529,11 @@ const SeedoProductData = {
                 name: "Dancing Octopus Toy",
                 ProductBatteryType: "-",
                 ProductImage: [DANCINGOCTOPUSTOY],
+                Price: "Rs. 1499",
+                Quantity: <>
+                    <span>Inner Packaging: 12 pcs</span>
+                    <span>Master packaging: 64 pcs</span>
+                </>,
                 ProductStyleCode: "-",
                 Productdescription: <>
                     <div>
@@ -2390,6 +2552,11 @@ const SeedoProductData = {
                 name: "Big Monster Wheel Farmer Tractor",
                 ProductBatteryType: "-",
                 ProductImage: [BIGMONSTERWHEELFARMERTRACTOR2],
+                Price: "Rs.1999",
+                Quantity: <>
+                    <span>Inner Packaging: 1 pcs</span>
+                    <span>Master packaging: 32 pcs./box</span>
+                </>,
                 ProductStyleCode: "-",
                 Productdescription: <>
                     <div>
@@ -2408,6 +2575,11 @@ const SeedoProductData = {
                 name: "Double Inertia Insect Beetle",
                 ProductBatteryType: "-",
                 ProductImage: [DOUBLEINERTIAINSECTBEETLE],
+                Price: "Rs. 249",
+                Quantity: <>
+                    <span>Inner Packaging: 12 pcs</span>
+                    <span>Master packaging: 192 pcs</span>
+                </>,
                 ProductStyleCode: "-",
                 Productdescription: <>
                     <div>
@@ -2425,6 +2597,11 @@ const SeedoProductData = {
                 name: "Musical Rescue Helicopter",
                 ProductBatteryType: "-",
                 ProductImage: [MUSICALRESCUEHELICOPTER],
+                Price: "Rs.999",
+                Quantity: <>
+                    <span>Inner Packaging: 1 pcs</span>
+                    <span>Master packaging: 32 pcs./box</span>
+                </>,
                 ProductStyleCode: "-",
                 Productdescription: <>
                     <div>
@@ -2443,6 +2620,11 @@ const SeedoProductData = {
                 name: "Cool Run Dinosaur",
                 ProductBatteryType: "-",
                 ProductImage: [COOLRUNDINOSAUR],
+                Price: "Rs. 399",
+                Quantity: <>
+                    <span>Inner Packaging: 8 pcs</span>
+                    <span>Master packaging: 128 pcs</span>
+                </>,
                 ProductStyleCode: "-",
                 Productdescription: <>
                     <div>
@@ -2461,6 +2643,11 @@ const SeedoProductData = {
                 name: "Ultra LED Flying Disc",
                 ProductBatteryType: "-",
                 ProductImage: [ULTRALEDFLYINGDISC],
+                Price: "Rs.1499",
+                Quantity: <>
+                    <span>Inner Packaging: 1 pcs</span>
+                    <span>Master packaging: 64 pcs</span>
+                </>,
                 ProductStyleCode: "-",
                 Productdescription: <>
                     <div>
@@ -2482,6 +2669,11 @@ const SeedoProductData = {
                 name: "Water Turtle Toy",
                 ProductBatteryType: "-",
                 ProductImage: [WaterTurtleToy],
+                Price: "Rs.199",
+                Quantity: <>
+                    <span>Inner Packaging: 12 pcs</span>
+                    <span>Master packaging: 192 pcs</span>
+                </>,
                 ProductStyleCode: "-",
                 Productdescription: <>
                     <div>
@@ -2500,6 +2692,11 @@ const SeedoProductData = {
                 name: "Musical Saxophone Toy",
                 ProductBatteryType: "-",
                 ProductImage: [MUSICALSAXOPHONETOY],
+                Price: "Rs.1499",
+                Quantity: <>
+                    <span>Inner Packaging: 1 pcs</span>
+                    <span>Master packaging: 32 pcs./box</span>
+                </>,
                 ProductStyleCode: "-",
                 Productdescription: <>
                     <div>
@@ -2517,6 +2714,11 @@ const SeedoProductData = {
                 name: "Musical Trumpet Toy",
                 ProductBatteryType: "-",
                 ProductImage: [MUSICALTRUMPETTOY],
+                Price: "Rs.1499",
+                Quantity: <>
+                    <span>Inner Packaging: 1 pcs</span>
+                    <span>Master packaging: 32 pcs./box</span>
+                </>,
                 ProductStyleCode: "-",
                 Productdescription: <>
                     <div>
@@ -2535,12 +2737,13 @@ const SeedoProductData = {
                 name: "Small Action Stunt Car",
                 ProductImage: [SMALLACTIONSTUNTCAR],
                 ProductStyleCode: "-",
+                Price: "Rs.99",
+                Quantity: "72 pcs./6PDQ",
                 Productdescription: <>
                     <div>
                         <div>
                             <p><b>Material type</b> ABS</p>
                             <p><b>Dimension</b> 7.7x7x4 cm</p>
-                            <p><b>Box Quantity</b></p>
                             <p><b>Packaging</b> 12 pcs in a
                                 PDQ</p>
                             <p><b>HSN Code</b> 95030090</p>
@@ -2575,6 +2778,7 @@ const SeedoProductData = {
                 name: "WALKER",
                 ProductBatteryType: "-",
                 ProductImage: [CRAWLER],
+                Price: "Rs. 3499",
                 ProductStyleCode: "-",
                 Productdescription: <>
                     <div>
@@ -2597,6 +2801,7 @@ const SeedoProductData = {
                 name: "Pick and Pop",
                 ProductBatteryType: "-",
                 ProductImage: [SLTPP001],
+                Price: "Rs.1999",
                 ProductStyleCode: "SLT-PP-001",
                 Productdescription: <>
                     <div>
@@ -2622,6 +2827,8 @@ const SeedoProductData = {
                 name: "Techno Tutor",
                 ProductBatteryType: "-",
                 ProductImage: [SLTTT001, Laptop1, Laptop2, Laptop3, Laptop4, Laptop5, Laptop6, Laptop7],
+                Price: "Rs. 1699",
+                Quantity: "22 pcs.",
                 ProductStyleCode: "SLT-TT-001",
                 Productdescription: <>
                     <div>
@@ -2629,7 +2836,6 @@ const SeedoProductData = {
                             <p><b>Material type</b> ABS Material</p>
 
                             <p><b>Box Dementions</b> 19x24x5cm</p>
-                            <p><b>Box Quantity</b> 22 pcs.</p>
                             <p><b>Packaging</b> 1 Unit</p>
                             <p><b>HSN Code</b> 95030030</p>
                             <ul>
@@ -2662,6 +2868,7 @@ const SeedoProductData = {
                 name: "Activity Cube",
                 ProductBatteryType: "-",
                 ProductImage: [Cube],
+                Price: "Rs. 2499",
                 ProductStyleCode: "-",
                 Productdescription: <>
                     <div>
@@ -2687,6 +2894,8 @@ const SeedoProductData = {
                 name: "Brainy Bear",
                 ProductBatteryType: "-",
                 ProductImage: [SLTBB001, BrainyBear1, BrainyBear2, BrainyBear3, BrainyBear4],
+                Price: "Rs. 699",
+                Quantity: "30 pcs per box",
                 ProductStyleCode: "SLT-BB-001",
                 Productdescription: <>
                     <div>
@@ -2694,8 +2903,6 @@ const SeedoProductData = {
                             <p><b>Material type</b> Virgin garde,High
                                 strength ABS Material</p>
                             <p><b>Scale</b> 1:64</p>
-                            <p><b>Box Packaging</b> 30 pcs per
-                                box</p>
                             <p><b>HSN Code</b> 95030030</p>
                             <ul>
                                 <li> Left Ear</li>

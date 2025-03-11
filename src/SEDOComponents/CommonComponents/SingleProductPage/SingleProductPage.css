@@ -92,10 +92,10 @@
     border-radius: 22px;
 }
 
-.ProductImagesContainer {
+/* .ProductImagesContainer {
     display: flex;
-
-}
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+} */
 
 .SpecificationContainer h2 {
     margin-bottom: 0px;
@@ -241,6 +241,13 @@
     color: #F9D978;
 }
 
+.DiscriptionGraphicsImage img {
+    width: 100%;
+    position: absolute;
+    right: -10rem;
+    height: 100%;
+
+}
 
 @media (min-width:1500px) and (max-width:3000px) {
     .SingelProductPageContainerLayout {
@@ -269,8 +276,9 @@
 }
 
 .ProductCard {
-    background: #f4f4f470;
-    padding: 80px 10px !important;
+    background: #ffffff;
+    padding: 80px 8rem !important;
+    padding-top: 2rem !important;
 }
 
 .ProductMainImageContainer img {
@@ -278,11 +286,21 @@
 }
 
 .ProductTitle {
-    padding-left: 30px;
+    padding-left: 0px;
 }
 
 .ProductTitle .ProductTitleContainer p {
     margin-top: 0px;
+}
+
+.ProductTitleContainer h2 {
+    font-size: 34px;
+    margin-bottom: 0px;
+    font-weight: 800;
+}
+
+.ProductTitleContainer p {
+    margin-top: 5px;
 }
 
 .ProductTitle h2 {
@@ -356,13 +374,11 @@ width: 150px !important;
 
 .OtherImageThumbnail {
     cursor: pointer;
-    height: 100px;
-    /* width: 100px; */
+    height: 100%;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border: 1px solid #ff000070; */
     padding: 3px;
     margin-bottom: 10px;
     background-color: white;
@@ -373,10 +389,17 @@ width: 150px !important;
 .OtherImageThumbnail img {
     width: 100%;
     height: 100%;
+    aspect-ratio: 3 / 2;
     object-fit: contain;
 }
 
+
+
 .ProductImageContainer img {
+    height: 90%;
+    width: 90%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -384,21 +407,20 @@ width: 150px !important;
     border-radius: 20px;
 }
 
-.ProductImageContainer img {
-    height: 100%;
-    width: 100%;
-    aspect-ratio: 3/2;
-    object-fit: contain;
+.OnMobileOnly {
+    margin-left: 20px !important;
+    position: relative;
 }
 
-/* .OnMobileOnly {
-    display: none;
-} */
 
 /* .OnPCOnly {
     display: flex;
     flex-direction: column;
     align-items: end;
+} */
+
+/* .OnPCOnly .swiper-slide {
+    margin-bottom: 10px !important;
 } */
 .ColorsContainer div ul {
     display: flex;
@@ -421,20 +443,113 @@ width: 150px !important;
     display: block;
     position: relative;
 }
-.OnPCOnly .swiper{
+
+.OnPCOnly .prev {
     position: absolute;
-    height: 100%;
+    left: 10px;
+    z-index: 55;
     top: 0px;
+    right: 10px;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+.OnPCOnly .next {
+    position: absolute;
+    left: 10px;
+    z-index: 55;
     bottom: 0px;
+    right: 10px;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+.OnPCOnly .next svg,
+.OnPCOnly .prev svg {
+    background-color: black;
+    padding: 0px 0px;
+    font-size: 15px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: white;
+}
+
+.OnPCOnly .swiper {
+    position: absolute;
+    /* height: 100%; */
+    top: 20px;
+    bottom: 20px;
+    margin-left: 10px;
 }
 
 .OnMobileOnly {
     display: none;
 }
+
+.productSpecificatinContainer .ProductFeaturesList p {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.productSpecificatinContainer .ProductFeaturesList p b {
+    width: 180px;
+}
+
+.productSpecificatinContainer .ProductFeaturesList p::before {
+    content: "";
+    display: inline-flex;
+    background-color: black;
+    height: 5px;
+    width: 5px;
+    margin-right: 6px;
+    border-radius: 50%;
+}
+
+.MRPButtonsContainer {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+}
+.MRPButtonsContainer>div{
+    display: flex;
+    gap: 10px;
+}
+
+.MRPButtonsContainer button {
+    border: none;
+    background-color: #F9D32B;
+    padding: 10px 30px;
+    color: black;
+    border-radius: 6px;
+}
+
 @media (max-width:900px) {
+    .productSpecificatinContainer .ProductFeaturesList p b {
+        width: unset;
+    }
+
+    .OnMobileOnly {
+        margin-left: 0px !important;
+    }
+
     .ProductTitle {
         padding-left: 10px;
-        padding-top: 60px;
+        padding-top: 20px;
     }
 
     .OnPCOnly {
@@ -586,6 +701,7 @@ width: 150px !important;
     background-color: white;
     justify-content: center;
     border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
     /* padding-right: 20px; */
     /* background-color: red; */
 }
@@ -593,10 +709,10 @@ width: 150px !important;
 /* .SingleProductContainer .ProductImageContainer img {
  height: 100%;
 } */
-.OnPCOnly>div {
+/* .OnPCOnly>div {
     margin-right: 10px;
 
-}
+} */
 
 .OnPCOnly>div::-webkit-scrollbar {
     width: 1px;
@@ -635,8 +751,16 @@ width: 150px !important;
         padding: 10px 0px !important;
     }
 
-    .SingleProductContainer .ProductImageContainer img {
+    .ProductImageContainer img {
+        height: 100%;
         width: 100%;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: white; */
+        border-radius: 20px;
     }
 
     .SingleProductContainer {

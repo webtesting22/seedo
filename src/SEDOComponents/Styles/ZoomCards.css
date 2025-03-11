@@ -180,7 +180,7 @@ ul[class] {
     justify-content: center;
     /* border: 1px solid black; */
     overflow: hidden;
-    
+
 }
 
 .GrayCardContainer img {
@@ -190,9 +190,10 @@ ul[class] {
 }
 
 
-#SeedoPersonal div{
+/* #SeedoPersonal div {
     padding: 80px;
-}
+} */
+
 /* #ClientSliderContainer .swiper-wrapper {
     display: flex;
     justify-content: center;
@@ -243,91 +244,236 @@ ul[class] {
     text-align: center;
     color: black;
 }
-.AboutSeedoContent div:last-child div img{
+
+.AboutSeedoContent div:last-child div img {
     width: 70%;
     padding: 40px 0px;
 }
+
 /* #SeedoPersonal div{
 padding-bottom: 0px !important;
 } */
-
-#SeedoPersonal{
-    position: relative;
-    overflow: hidden;
+.AboutHomeCarousal>div {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#SeedoPersonal .ImagesContainer{
+
+#SeedoPersonal {
+    position: relative;
+    width: 100%;
+    padding: 4rem 0rem;
+    /* overflow: hidden; */
+}
+
+#SeedoPersonal .ImagesContainer {
     width: 100%;
     position: absolute;
     /* height: 100%; */
-    display: flex
-;
+    display: flex;
     justify-content: space-between;
     padding: 0px !important;
     bottom: 0px;
     top: 0px;
 }
 
-#SeedoPersonal .ImagesContainer img{
+#SeedoPersonal .ImagesContainer img {
     /* width: 7%; */
     height: 70%;
     opacity: 0.3;
 }
-#SeedoPersonal div{
+
+/* #SeedoPersonal div {
     display: flex;
     justify-content: center;
-}
+} */
+
 #SeedoPersonal p {
     width: 80%;
     text-align: center;
 }
+
 #ParentBox {
-    overflow: hidden;
-}
-#ParentBox .BackSVG{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    z-index: 0;
+    padding: 5rem 0rem;
+    padding-top: 14rem;
+    color: white;
 }
 
-#ParentBox .BackSVG path{
+#ParentBox .BackSVG {
+    position: absolute;
+    top: 0px;
+    margin-top: -8rem;
+    left: 0px;
+    width: 100%;
+    z-index: 56;
+    bottom: 0px;
+}
+#ParentBox .BackSVG img{
+    width: 100%;
+    height: 100%;
+}
+
+/* #ParentBox .BackSVG {
+    position: sticky;
+    z-index: 56;
+} */
+
+#ParentBox .BackSVG path {
     fill: rgba(149, 179, 224, 0.634);
 }
+
+
+/* .AboutHomePageSwiperContainer {
+    height: 500px;
+    overflow: hidden;
+} */
+
+
+.AboutHomePageSwiperContainer .AboutHomeCarousal {
+    height: 100%;
+    width: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.AboutHomePageSwiperContainer .AboutHomeCarousal img {
+    width: 90%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.SkyAbsoluteImage img {
+    width: 100%;
+    position: absolute;
+    margin-top: -15rem;
+    z-index: 55;
+    /* bottom: 0px; */
+}
+
+#AboutUSHome {
+    padding-bottom: 80px;
+}
+
+/* .AboutHomePageSwiperContainer>div{
+    position: absolute;
+    z-index: 5555;
+    width: 100%;
+    padding-top: 4rem;
+} */
+.AboutHomePageSwiperContainer {
+    position: sticky;
+    z-index: 80;
+    display: flex;
+    justify-content: center;
+}
+
+.AboutHomePageSwiperContainer .swiper-slide {
+    height: unset;
+    transition: .5s;
+}
+
+.AboutHomePageSwiperContainer .swiper {
+    overflow: unset;
+    transition: .5s;
+}
+
+.AboutHomePageSwiperContainer .swiper-slide .AboutHomeCarousal>div img {
+    transition: .5s;
+}
+
+.AboutHomePageSwiperContainer .swiper-slide-active .AboutHomeCarousal>div img {
+    transform: scale(1.2);
+    transition: .5s;
+}
+
+.AboutHomePageSwiperContainer>div {
+    width: 60%;
+    overflow: hidden;
+    padding: 50px 0px;
+
+}
+.SANSONGraphicContainer{
+    position: sticky;
+    z-index: 57;
+}
+.SeedoDetails{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    z-index: 56;
+}
 @media (max-width:769px) {
-    #SeedoPersonal .ImagesContainer img{
+  
+    .SkyAbsoluteImage img {
+        width: 100%;
+        position: absolute;
+        margin-top: -7rem;
+        z-index: 55;
+        /* bottom: 0px; */
+    }
+    
+
+#ParentBox {
+    padding: 5rem 0rem;
+    padding-top: 0rem;
+    color: white;
+    padding-bottom: 3rem !important;
+}
+    .AboutHomePageSwiperContainer>div {
+        width: 100%;
+        overflow: hidden;
+        padding: 50px 0px;
+    
+    }
+    #SeedoPersonal .ImagesContainer img {
         /* width: 7%; */
         height: 30%;
         opacity: 0.3;
     }
-    #ParentBox .BackSVG{
+
+    #ParentBox .BackSVG {
         position: absolute;
         top: 0px;
         left: 0px;
         width: 100%;
         z-index: 0;
-        display: none;
+        /* display: none; */
     }
-    #SeedoPersonal div{
+    #ParentBox .BackSVG img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin-top: -5rem;
+    }
+
+    /* #SeedoPersonal div {
         padding: 50px 10px;
-    }
+    } */
+
     #SeedoPersonal p {
         width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
     }
+
     .GrayCardContainer img {
         width: 100%;
         aspect-ratio: 3/2;
         object-fit: contain;
     }
-    
+
     .AboutSeedoContent div:last-child p {
         width: 100%;
         text-align: center;
         color: black;
     }
-.AboutSeedoContent {
-    padding: 50px 10px;
-}
+
+    .AboutSeedoContent {
+        padding: 50px 10px;
+    }
 
     #ZoomCardsContainer .headingHeaderContainer h1 {
         font-size: 30px;
@@ -335,8 +481,8 @@ padding-bottom: 0px !important;
         margin-top: 0px;
     }
 
-   
-/* 
+
+    /* 
     li {
         width: 30%;
     } */
@@ -351,7 +497,7 @@ padding-bottom: 0px !important;
 
     #ZoomCardsContainer {
         padding-top: 0rem !important;
-        padding: 80px 10px ;
+        padding: 80px 10px;
         overflow: hidden;
         padding-bottom: 2rem !important;
         position: relative;
@@ -369,7 +515,5 @@ padding-bottom: 0px !important;
         object-fit: cover;
     }
 
- 
+
 }
-
-

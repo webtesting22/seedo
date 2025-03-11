@@ -23,84 +23,84 @@ const BestSellerProducts = {
         products: [
             {
                 id: 1,
-                name: " Blaze Runner Car",
+                name: "Blaze Runner Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
-                    RC001,BlazeRunner1,BlazeRunner2
+                    RC001, BlazeRunner1, BlazeRunner2
                 ],
                 ProductStyleCode: "118RC001",
                 link: "singleproduct/Remote%20Controlled%20Cars/4",
-                colorCode:"#45b3df42"
+                colorCode: "#A9FE28"
             },
             {
                 id: 2,
-                name: " Stunt Car",
+                name: "Stunt Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     SC001_124
                 ],
                 ProductStyleCode: "124SC001",
                 link: "singleproduct/Remote%20Controlled%20Cars/14",
-                colorCode:"#09b1ab40"
+                colorCode: "#EC5444"
             },
             {
                 id: 3,
-                name: " Road Sniper 01 Car",
+                name: "Road Sniper 01 Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
-                    LRC00D,RoadSniper01,RoadSniper02
+                    LRC00D, RoadSniper01, RoadSniper02
                 ],
                 ProductStyleCode: "124LRC00D",
                 link: "singleproduct/Remote%20Controlled%20Cars/10",
-                colorCode:"#f18eaa3b"
+                colorCode: "#6798E5"
 
             },
             {
                 id: 4,
-                name: " Road Sniper 02 Car",
+                name: "Road Sniper 02 Car",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
-                    LRC00E,RoadSniper1, RoadSniper2,
+                    LRC00E, RoadSniper1, RoadSniper2,
                 ],
                 ProductStyleCode: "124LRC00E",
                 link: "singleproduct/Remote%20Controlled%20Cars/11",
-                       colorCode:"#ad85b338"
+                colorCode: "#F9A760"
             },
 
             {
                 id: 6,
-                name: " Luxurious Sports Car 2.4GHz",
+                name: "Luxurious Sports Car 2.4GHz",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     RC00124GHz
                 ],
                 ProductStyleCode: "116RC001/2.4GHz",
                 link: "singleproduct/Remote%20Controlled%20Cars/25",
-                  colorCode:"#50ad693d"
-                
-                
+                colorCode: "#9A9AB5"
+
+
             },
             {
                 id: 7,
-                name: " Dino/Shark/PVC Rock Crawler",
+                name: "Dino/Shark/PVC Rock Crawler",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
                     MT003, MT003_2
                 ],
                 ProductStyleCode: "118MT003",
                 link: "singleproduct/Remote%20Controlled%20Cars/21",
-                 colorCode:"#f18eaa3b"
+                colorCode: "#6BCE52"
             },
             {
                 id: 8,
-                name: " Metal Racers Pack of 3",
+                name: "Metal Racers Pack of 3",
                 ProductImage: [
                     SMRFWPBP3
                 ],
                 ProductBatteryType: "Non-Electric",
                 ProductCode: "SMR-FWPB-P3",
                 link: "singleproduct/Metal%20Die%20Cast%20Cars/73",
-                  colorCode:"#09b1ab40"
+                colorCode: "#44A5DA"
             },
             {
                 id: 9,
@@ -110,18 +110,18 @@ const BestSellerProducts = {
                 ],
                 ProductCode: "PNG-SS-PO9",
                 link: "singleproduct/Friction,%20Pull%20Back,%20Press%20&%20Go%20Toys/78",
-                colorCode:"rgba(173, 133, 179, 0.22)"
+                colorCode: "#2F66C6"
             },
             {
                 id: 5,
-                name: " Luxurious Sports Car 27 MHz",
+                name: "Luxurious Sports Car 27 MHz",
                 ProductBatteryType: "Rechargable",
                 ProductImage: [
-                    RC00127MHz,LuxuriousCar1,LuxuriousCar2
+                    RC00127MHz, LuxuriousCar1, LuxuriousCar2
                 ],
                 ProductStyleCode: "116RC001/27MHz",
                 link: "singleproduct/Remote%20Controlled%20Cars/26",
-                colorCode:"#50ad693d"
+                colorCode: "#FFA573"
             },
         ]
     }
