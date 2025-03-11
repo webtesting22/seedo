@@ -100,7 +100,7 @@ const ZoomCards = () => {
 
         },
         {
-            img: "/Images/ProductClientLogos/ToysRus.png",
+            img: "/Images/ProductClientLogos/ToysRusNew.png",
             link: "https://www.toysrus.in/"
         },
 
@@ -113,7 +113,7 @@ const ZoomCards = () => {
             link: "https://www.dmart.in/"
         },
         {
-            img: "/Images/ProductClientLogos/LuLu.png",
+            img: "/Images/ProductClientLogos/LuLuNew.png",
             link: "https://gcc.luluhypermarket.com/"
         },
         {
@@ -122,7 +122,7 @@ const ZoomCards = () => {
         },
         {
             link: "",
-            img: "/Images/ProductClientLogos/Wishkey.png",
+            img: "/Images/ProductClientLogos/WishkeyNew.png",
             color: "000000"
         },
         {
@@ -131,7 +131,7 @@ const ZoomCards = () => {
 
         },
         {
-            img: "/Images/ProductClientLogos/Wembley.png",
+            img: "/Images/ProductClientLogos/WembleyNew.png",
             link: "https://wembleytoys.com/"
         },
         {
