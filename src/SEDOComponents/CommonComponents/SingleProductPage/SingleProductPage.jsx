@@ -140,6 +140,7 @@ const SingleProductPage = () => {
                                 </p>
                             </div>
                         </div>
+                        <br />
                         <Row>
                             <Col lg={24} style={{ width: "100%" }}>
                                 <Row style={{ height: "100%" }}>
@@ -287,7 +288,7 @@ const SingleProductPage = () => {
                                         <br />
                                         {/* <hr /> */}
                                         <div className="productSpecificatinContainer">
-                                            <p style={{ fontSize: "22px" }}><b>Specification</b></p>
+                                            <p style={{ fontSize: "22px", marginBottom: "10px" }}><b>Specification</b></p>
 
                                             <div className="ProductFeaturesList">
                                                 {product.Productdescription}
