@@ -312,6 +312,7 @@ padding-bottom: 0px !important;
 #ParentBox .BackSVG img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 /* #ParentBox .BackSVG {
