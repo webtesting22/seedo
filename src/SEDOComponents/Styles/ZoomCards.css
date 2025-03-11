@@ -407,7 +407,10 @@ padding-bottom: 0px !important;
     z-index: 56;
 }
 @media (max-width:769px) {
-  
+    .AboutHomePageSwiperContainer .swiper-slide-active .AboutHomeCarousal>div img {
+        transform: scale(1.0) !important;
+        transition: .5s;
+    }
     .SkyAbsoluteImage img {
         width: 100%;
         position: absolute;
@@ -427,6 +430,7 @@ padding-bottom: 0px !important;
         width: 100%;
         overflow: hidden;
         padding: 50px 0px;
+        padding-bottom: 20px !important;
     
     }
     #SeedoPersonal .ImagesContainer img {
