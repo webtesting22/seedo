@@ -182,9 +182,10 @@ const ZoomCards = () => {
                         <div>
                             <Swiper
                                 slidesPerView={3}
-                                spaceBetween={30}
+                                spaceBetween={10}
                                 centeredSlides={true}
                                 loop={true}
+                                speed={800}
                                 autoplay={{
                                     delay: 2500,
                                     disableOnInteraction: false,
@@ -193,6 +194,11 @@ const ZoomCards = () => {
                                 //     clickable: true,
                                 // }}
                                 // navigation={true}
+                                // breakpoints={{
+                                //     320: { slidesPerView: 1, spaceBetween: 5 },  // Mobile
+                                //     480: { slidesPerView: 2, spaceBetween: 8 },  // Small tablets
+                                //     768: { slidesPerView: 3, spaceBetween: 10 }, // Tablets
+                                // }}
                                 modules={[Autoplay, Pagination, Navigation, FreeMode]}
                                 className="mySwiper"
                             >
