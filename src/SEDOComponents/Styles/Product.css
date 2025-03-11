@@ -523,6 +523,7 @@
   .CatalogueCardsContainer {
     padding: 0rem 10rem;
     margin-top: 5rem;
+    padding-bottom: 80px;
   }
 }
 
