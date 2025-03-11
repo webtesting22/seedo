@@ -173,7 +173,7 @@ import LuxuriousCar5 from "../assets/MultipleViewImages/LuxuriousCar5.png"
 import LuxuriousCar6 from "../assets/MultipleViewImages/LuxuriousCar6.png"
 import LuxuriousCar7 from "../assets/MultipleViewImages/LuxuriousCar7.png"
 import LuxuriousCar8 from "../assets/MultipleViewImages/LuxuriousCar8.png"
-import LightBlaster1 from "../assets/MultipleViewImages/LightBlaster1.png"
+import LightBlaster1 from "../assets/MultipleViewImages/LightBlaster1(red).png"
 import LightBlaster2 from "../assets/MultipleViewImages/LightBlaster2.png"
 import LightBlaster3 from "../assets/MultipleViewImages/LightBlaster3.png"
 import LightBlaster4 from "../assets/MultipleViewImages/LightBlaster4.png"
@@ -181,6 +181,8 @@ import LightBlaster5 from "../assets/MultipleViewImages/LightBlaster5.png"
 import LightBlaster6 from "../assets/MultipleViewImages/LightBlaster6.png"
 import LightBlaster7 from "../assets/MultipleViewImages/LightBlaster7.png"
 import LightBlaster8 from "../assets/MultipleViewImages/LightBlaster8.png"
+import LightBlaster9 from "../assets/MultipleViewImages/LightBlasterTwoWay/LightBlaster(orange).png"
+import LightBlaster10 from "../assets/MultipleViewImages/LightBlasterTwoWay/LightBlaster(yellow).png"
 import Laptop1 from "../assets/MultipleViewImages/Laptop1(blue).png"
 import Laptop2 from "../assets/MultipleViewImages/Laptop2(pink).png"
 import Laptop3 from "../assets/MultipleViewImages/Laptop3(black).png"
@@ -303,7 +305,7 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Non - Rechargable",
                     ProductImage: [
-                        LightBlaster1, LightBlaster2, LightBlaster3, LightBlaster4, LightBlaster5, LightBlaster6,
+                        LightBlaster1, LightBlaster2, LightBlaster3, LightBlaster4, LightBlaster5, LightBlaster6,LightBlaster9,LightBlaster10
                     ],
                     Price: "Rs.399",
                     ProductStyleCode: "1182W001",
