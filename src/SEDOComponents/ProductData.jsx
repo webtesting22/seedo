@@ -296,6 +296,11 @@ const SeedoProductData = {
                 {
                     id: 1,
                     name: "Light Blaster 2 Way",
+                    Features:[
+                        "/Images/ProductIconsImages/Moves2Ways.png",
+                        "/Images/ProductIconsImages/RubberTires.png",
+                        "/Images/ProductIconsImages/3DLights.png",
+                    ],
                     ProductBatteryType: "Non - Rechargable",
                     ProductImage: [
                         LightBlaster1, LightBlaster2, LightBlaster3, LightBlaster4, LightBlaster5, LightBlaster6,
@@ -320,6 +325,11 @@ const SeedoProductData = {
                 {
                     id: 2,
                     name: "Famous Car 2 Way",
+                    Features:[
+                        "/Images/ProductIconsImages/Moves2Ways.png",
+                        "/Images/ProductIconsImages/RubberTires.png",
+                        "/Images/ProductIconsImages/HeadLights.png",
+                    ],
                     ProductBatteryType: "Non - Rechargable",
                     ProductImage: [
                         W002
@@ -345,6 +355,11 @@ const SeedoProductData = {
                 {
                     id: 3,
                     name: "Formula Car 2 Way",
+                    Features:[
+                        "/Images/ProductIconsImages/Moves2Ways.png",
+                        "/Images/ProductIconsImages/RubberTires.png",
+                        "/Images/ProductIconsImages/HeadLights.png",
+                    ],
                     ProductBatteryType: "Non - Rechargable",
                     ProductImage: [
                         W003
@@ -369,7 +384,12 @@ const SeedoProductData = {
                 },
                 {
                     id: 4,
-                    name: "Blazer Runner",
+                    name: "Blaze Runner",
+                    Features:[
+                        "/Images/ProductIconsImages/Moves4Ways.png",
+                        "/Images/ProductIconsImages/RubberTires.png",
+                        "/Images/ProductIconsImages/HeadLights.png",
+                    ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         RC001, BlazeRunner1, BlazeRunner2, BlazeRunner3, BlazeRunner4, BlazeRunner5, BlazeRunner6, BlazeRunner7, BlazeRunner8, BlazeRunner9, BlazeRunner10, BlazeRunner11
@@ -395,6 +415,11 @@ const SeedoProductData = {
                 {
                     id: 120,
                     name: "Famous Car 4 Way",
+                    Features:[
+                        "/Images/ProductIconsImages/Moves4Ways.png",
+                        "/Images/ProductIconsImages/RubberTires.png",
+                        "/Images/ProductIconsImages/HeadLights.png",
+                    ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         W002
@@ -420,6 +445,11 @@ const SeedoProductData = {
                 {
                     id: 5,
                     name: "Light Blaster 4 Way",
+                    Features:[
+                        "/Images/ProductIconsImages/Moves4Ways.png",
+                        "/Images/ProductIconsImages/RubberTires.png",
+                        "/Images/ProductIconsImages/HeadLights.png",
+                    ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         W001_2, LightBlaster7, LightBlaster8
@@ -442,6 +472,11 @@ const SeedoProductData = {
                 {
                     id: 121,
                     name: "Blaster 023 4 Way",
+                    Features:[
+                        "/Images/ProductIconsImages/Moves4Ways.png",
+                        "/Images/ProductIconsImages/RubberTires.png",
+                        "/Images/ProductIconsImages/HeadLights.png",
+                    ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         Blaster1
@@ -493,7 +528,13 @@ const SeedoProductData = {
                 {
                     id: 7,
                     name: "Racer Car 4 Way",
+                    Features:[
+                        "/Images/ProductIconsImages/Moves4Ways.png",
+                        "/Images/ProductIconsImages/RubberTires.png",
+                        "/Images/ProductIconsImages/HeadLights.png",
+                    ],
                     ProductBatteryType: "Rechargable",
+                    
                     ProductImage: [
                         RacerCar1, RacerCar2, RacerCar3, RacerCar4, RacerCar5
                     ],
@@ -519,6 +560,11 @@ const SeedoProductData = {
                 {
                     id: 8,
                     name: "Little Roaster",
+                    Features:[
+                        "/Images/ProductIconsImages/Moves4Ways.png",
+                        "/Images/ProductIconsImages/RubberTires.png",
+                        "/Images/ProductIconsImages/HeadLights.png",
+                    ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         LRC00B
@@ -542,6 +588,11 @@ const SeedoProductData = {
                 {
                     id: 9,
                     name: "Spectre Car",
+                    Features:[
+                        "/Images/ProductIconsImages/Moves4Ways.png",
+                        "/Images/ProductIconsImages/RubberTires.png",
+                        "/Images/ProductIconsImages/HeadLights.png",
+                    ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         SpectreCar3, SpectreCar2, SpectreCar1, SpectreCar4, SpectreCar5, SpectreCar6, SpectreCar7, SpectreCar8, SpectreCar9, SpectreCar10, SpectreCar11, LRC00C
@@ -565,6 +616,11 @@ const SeedoProductData = {
                 {
                     id: 10,
                     name: "Road Sniper 01",
+                    Features:[
+                        "/Images/ProductIconsImages/Moves4Ways.png",
+                        "/Images/ProductIconsImages/RubberTires.png",
+                        "/Images/ProductIconsImages/HeadLights.png",
+                    ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         LRC00D, RoadSniper02, RoadSniper03, RoadSniper04, RoadSniper05, RoadSniper06, RoadSniper07, RoadSniper08, RoadSniper09, RoadSniper010
@@ -589,6 +645,11 @@ const SeedoProductData = {
                 {
                     id: 11,
                     name: "Road Sniper 02",
+                    Features:[
+                        "/Images/ProductIconsImages/Moves4Ways.png",
+                        "/Images/ProductIconsImages/RubberTires.png",
+                        "/Images/ProductIconsImages/HeadLights.png",
+                    ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         LRC00E, RoadSniper2, RoadSniper3, RoadSniper4, RoadSniper5, RoadSniper6, RoadSniper7, RoadSniper8
@@ -614,6 +675,11 @@ const SeedoProductData = {
                 {
                     id: 116,
                     name: "Road Sniper 03",
+                    Features:[
+                        "/Images/ProductIconsImages/Moves4Ways.png",
+                        "/Images/ProductIconsImages/RubberTires.png",
+                        "/Images/ProductIconsImages/HeadLights.png",
+                    ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         RoadSniper6
@@ -638,6 +704,11 @@ const SeedoProductData = {
                 {
                     id: 12,
                     name: "Police Car",
+                    Features:[
+                        "/Images/ProductIconsImages/Moves4Ways.png",
+                        "/Images/ProductIconsImages/RubberTires.png",
+                        "/Images/ProductIconsImages/HeadLights.png",
+                    ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         PoliceCar1, PoliceCar2, PoliceCar3, PoliceCar4, PoliceCar5, PoliceCar6, PoliceCar7
@@ -662,6 +733,12 @@ const SeedoProductData = {
                 {
                     id: 13,
                     name: "Dazzling",
+                    Features:[
+                        "/Images/ProductIconsImages/Music.png",
+                        "/Images/ProductIconsImages/Moves4Ways.png",
+                        "/Images/ProductIconsImages/RubberTires.png",
+                        "/Images/ProductIconsImages/3DLights.png",
+                    ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         RC001_124, DazzalingCar1, DazzalingCar2, DazzalingCar3, DazzalingCar4, DazzalingCar5, DazzalingCar6, DazzalingCar7, DazzalingCar8, DazzalingCar9, DazzalingCar10, DazzalingCar11, DazzalingCar12
@@ -687,6 +764,12 @@ const SeedoProductData = {
                 {
                     id: 14,
                     name: "Stunt Car",
+                    Features:[
+                        "/Images/ProductIconsImages/360Flip.png",
+                        "/Images/ProductIconsImages/Moves4Ways.png",
+                        "/Images/ProductIconsImages/RubberTires.png",
+                        "/Images/ProductIconsImages/Action.png",
+                    ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         SC001_124
@@ -710,6 +793,12 @@ const SeedoProductData = {
                 {
                     id: 15,
                     name: "Big Stunt",
+                    Features:[
+                        "/Images/ProductIconsImages/360Flip.png",
+                        "/Images/ProductIconsImages/Moves4Ways.png",
+                        "/Images/ProductIconsImages/RubberTires.png",
+                        "/Images/ProductIconsImages/Action.png",
+                    ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         SC001_118, BigStunt1, BigStunt2, BigStunt3, BigStunt4, BigStunt5
@@ -735,6 +824,12 @@ const SeedoProductData = {
                 {
                     id: 16,
                     name: "Twisting Stunt",
+                    Features:[
+                        "/Images/ProductIconsImages/Moves4Ways.png",
+                        "/Images/ProductIconsImages/RubberTires.png",
+                        "/Images/ProductIconsImages/3DLights.png",
+                        "/Images/ProductIconsImages/360Flip.png",
+                    ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         SC001
@@ -758,6 +853,12 @@ const SeedoProductData = {
                 {
                     id: 17,
                     name: "Twisting Drift",
+                    Features:[
+                        "/Images/ProductIconsImages/Moves4Ways.png",
+                        "/Images/ProductIconsImages/RubberTires.png",
+                        "/Images/ProductIconsImages/3DLights.png",
+                        "/Images/ProductIconsImages/360Flip.png",
+                    ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         SC003
@@ -781,6 +882,13 @@ const SeedoProductData = {
                 {
                     id: 18,
                     name: "Super Sonic Stunt Car",
+                    Features:[
+                        "/Images/ProductIconsImages/StuntShot.png",
+                        "/Images/ProductIconsImages/ShockAbsorber.png",
+                        "/Images/ProductIconsImages/Moves4Ways.png",
+                        "/Images/ProductIconsImages/FoamTires.png",
+                        "/Images/ProductIconsImages/stuntInVarious.png",
+                    ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         SuperSonic1, SuperSonic2, SuperSonic3, SuperSonic4, SC002
@@ -806,6 +914,12 @@ const SeedoProductData = {
                 {
                     id: 21,
                     name: "Dino/Shark/PVC Rock Crawler",
+                    Features:[
+                        "/Images/ProductIconsImages/Moves4Ways.png",
+                        "/Images/ProductIconsImages/RubberTires.png",
+                        "/Images/ProductIconsImages/ShellLight.png",
+                        "/Images/ProductIconsImages/ShockAbsorber.png",
+                    ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         MT003, DinoShellCrawler1, DinoShellCrawler2, DinoShellCrawler3, DinoShellCrawler4, DinoShellCrawler5, DinoShellCrawler6
@@ -831,6 +945,13 @@ const SeedoProductData = {
                 {
                     id: 109,
                     name: "PVC Shell Rock Crawler",
+                    Features:[
+                        "/Images/ProductIconsImages/Moves4Ways.png",
+                        "/Images/ProductIconsImages/RubberTires.png",
+                        "/Images/ProductIconsImages/HeadLights.png",
+                        "/Images/ProductIconsImages/ ShockAbsorber.png",
+                       
+                    ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         MT003_2
@@ -855,6 +976,13 @@ const SeedoProductData = {
                 {
                     id: 19,
                     name: "Rock Crawler",
+                    Features:[
+                        "/Images/ProductIconsImages/Moves4Ways.png",
+                        "/Images/ProductIconsImages/RubberTires.png",
+                        "/Images/ProductIconsImages/3DLights.png",
+                        "/Images/ProductIconsImages/ ShockAbsorber.png",
+                       
+                    ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         RockCrawler1,
@@ -891,6 +1019,12 @@ const SeedoProductData = {
                 {
                     id: 22,
                     name: "Gun Rock Crawler",
+                    Features:[
+                        "/Images/ProductIconsImages/Moves4Ways.png",
+                        "/Images/ProductIconsImages/RubberTires.png",
+                        "/Images/ProductIconsImages/3DLights.png",
+                        "/Images/ProductIconsImages/ShockAbsorber.png",
+                    ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         MT003G, GunRockCrawler, GunRockCrawler2
@@ -915,6 +1049,12 @@ const SeedoProductData = {
                 {
                     id: 23,
                     name: "Smoke Rock Crawler",
+                    Features:[
+                        "/Images/ProductIconsImages/Moves4Ways.png",
+                        "/Images/ProductIconsImages/RubberTires.png",
+                        "/Images/ProductIconsImages/3DLights.png",
+                        "/Images/ProductIconsImages/ShockAbsorber.png",
+                    ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         SmokeCrawler
@@ -963,6 +1103,13 @@ const SeedoProductData = {
                 {
                     id: 24,
                     name: "Luxurious Sports Car",
+                    Features:[
+                        "/Images/ProductIconsImages/Moves4Ways.png",
+                        "/Images/ProductIconsImages/RubberTires.png",
+                        "/Images/ProductIconsImages/HeadLights.png",
+                        "/Images/ProductIconsImages/metalicFinish.png",
+                        "/Images/ProductIconsImages/TailLights.png",
+                    ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         RC00127MHz, RC00124GHz, LuxuriousCar1, LuxuriousCar2, LuxuriousCar3, LuxuriousCar4, LuxuriousCar5, LuxuriousCar6, LuxuriousCar7, LuxuriousCar8
@@ -1030,20 +1177,33 @@ const SeedoProductData = {
                         </div>
                     </>
                 },
-                {
-                    id: 27,
-                    name: "Hyper Beast Car 2.4GHz",
-                    ProductBatteryType: "Rechargable",
-                    ProductImage: [
-                        RC00224GHz
-                    ],
-                    Price: "Rs.1599",
-                    Quantity: "",
-                    ProductStyleCode: "116RC002/2.4GHz"
-                },
+                // {
+                //     id: 27,
+                //     name: "Hyper Beast Car 2.4GHz",
+                //     Features:[
+                //         "/Images/ProductIconsImages/Moves4Ways.png",
+                //         "/Images/ProductIconsImages/RubberTires.png",
+                //         "/Images/ProductIconsImages/HeadLights.png",
+                //         "/Images/ProductIconsImages/metalicFinish.png",
+                //         "/Images/ProductIconsImages/TailLights.png",
+                //     ],
+                //     ProductBatteryType: "Rechargable",
+                //     ProductImage: [
+                //         RC00224GHz
+                //     ],
+                //     Price: "Rs.1599",
+                //     Quantity: "",
+                //     ProductStyleCode: "116RC002/2.4GHz"
+                // },
                 {
                     id: 28,
                     name: "ThunderBird",
+                    Features:[
+                        "/Images/ProductIconsImages/Moves4Ways.png",
+                        "/Images/ProductIconsImages/RubberTires.png",
+                        "/Images/ProductIconsImages/HeadTailLights.png",
+                        "/Images/ProductIconsImages/PremiumDesign.png",
+                    ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         ThunderBird1, ThunderBird2, ThunderBird3, ThunderBird4, ThunderBird5, ThunderBird6, ThunderBird7, RC003_2
@@ -1068,6 +1228,11 @@ const SeedoProductData = {
                 {
                     id: 89,
                     name: "750 Drone",
+                    Features:[
+                        "/Images/ProductIconsImages/Stability.png",
+                        "/Images/ProductIconsImages/CollisionAvoidance.png",
+                        "/Images/ProductIconsImages/PremiumDesign.png",
+                    ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         Drone1, Drone2, Drone3, Drone4, Drone5, Drone6, Drone7, Drone8, Drone9, Drone10
@@ -2799,6 +2964,13 @@ const SeedoProductData = {
             {
                 id: 85,
                 name: "Pick and Pop",
+                Features:[
+                    "/Images/ProductIconsImages/Music.png",
+                    "/Images/ProductIconsImages/TouchSenses.png",
+                    "/Images/ProductIconsImages/LimbTraining.png",
+                    "/Images/ProductIconsImages/VisualTraining.png",
+                    "/Images/ProductIconsImages/AuditoryTraining.png",
+                ],
                 ProductBatteryType: "-",
                 ProductImage: [SLTPP001],
                 Price: "Rs.1999",
@@ -2825,6 +2997,11 @@ const SeedoProductData = {
             {
                 id: 86,
                 name: "Techno Tutor",
+                Features:[
+                    "/Images/ProductIconsImages/Music.png",
+                    "/Images/ProductIconsImages/Alphabet.png",
+                    "/Images/ProductIconsImages/LearnNumbers.png",
+                ],
                 ProductBatteryType: "-",
                 ProductImage: [SLTTT001, Laptop1, Laptop2, Laptop3, Laptop4, Laptop5, Laptop6, Laptop7],
                 Price: "Rs. 1699",
@@ -2892,6 +3069,11 @@ const SeedoProductData = {
             {
                 id: 88,
                 name: "Brainy Bear",
+                Features:[
+                    "/Images/ProductIconsImages/Music.png",
+                    "/Images/ProductIconsImages/Record.png",
+                    "/Images/ProductIconsImages/Ryhmes.png",
+                ],
                 ProductBatteryType: "-",
                 ProductImage: [SLTBB001, BrainyBear1, BrainyBear2, BrainyBear3, BrainyBear4],
                 Price: "Rs. 699",

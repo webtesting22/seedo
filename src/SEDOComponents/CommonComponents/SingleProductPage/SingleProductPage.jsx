@@ -149,6 +149,11 @@ const SingleProductPage = () => {
                                             style={{ backgroundColor }}
                                             className="ProductImageContainer"
                                         >
+                                            <div className="FeaturesIcons OnPCOnly" >
+                                                {product.Features && product.Features.map((feature, index) => (
+                                                    <img key={index} src={feature} alt={`Feature ${index + 1}`} />
+                                                ))}
+                                            </div>
                                             {mainImage ? (
                                                 <img src={mainImage} alt={product.name} />
                                             ) : (
@@ -255,7 +260,11 @@ const SingleProductPage = () => {
                                     <div className="SpecificationContainer">
                                         <div className="ColorsContainer">
 
-
+                                            <div className="FeaturesIcons OnMobileOnly" >
+                                                {product.Features && product.Features.map((feature, index) => (
+                                                    <img key={index} src={feature} alt={`Feature ${index + 1}`} />
+                                                ))}
+                                            </div>
                                             <p style={{ fontSize: "22px", marginBottom: "10px" }}><b>Colours</b></p>
                                             <div style={{ display: "flex", gap: "10px" }}>
                                                 {Object.keys(colorMap).map((color, index) => (
@@ -294,7 +303,7 @@ const SingleProductPage = () => {
                                                 {product.Quantity && (
                                                     <button style={{ fontSize: "18px" }}>
                                                         <b>Box Quantity</b>
-                                                       <br />
+                                                        <br />
                                                         <span style={{ display: "flex", flexDirection: "column" }}>{product.Quantity}</span>
                                                     </button>
                                                 )}

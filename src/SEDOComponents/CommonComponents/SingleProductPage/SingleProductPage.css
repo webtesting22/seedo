@@ -525,7 +525,8 @@ width: 150px !important;
     align-items: center;
     width: 100%;
 }
-.MRPButtonsContainer>div{
+
+.MRPButtonsContainer>div {
     display: flex;
     gap: 10px;
 }
@@ -702,6 +703,7 @@ width: 150px !important;
     justify-content: center;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    position: relative;
     /* padding-right: 20px; */
     /* background-color: red; */
 }
@@ -746,7 +748,37 @@ width: 150px !important;
     /* Thumb color and track color */
 }
 
+.FeaturesIcons {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+}
+
+.FeaturesIcons img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin: 13px;
+    margin-bottom: 10px;
+    border-radius: 0px;
+}
+
+
 @media (max-width:900px) {
+    .SpecificationContainer .FeaturesIcons {
+        position: static !important;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .SpecificationContainer .FeaturesIcons img {
+        /* margin-left: 0px !important; */
+        height: unset;
+        height: unset;
+        margin: 0px !important;
+    }
+
     .ProductCard {
         padding: 10px 0px !important;
     }
