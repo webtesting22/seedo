@@ -74,7 +74,7 @@ const HomePage = () => {
                 </div> */}
                 <div style={{ height: "100%", width: "100%" }} id="HomePageNewCarousal">
                     <Swiper
-                        spaceBetween={30}
+                        spaceBetween={0}
                         centeredSlides={true}
                         loop={true}
                         autoplay={{

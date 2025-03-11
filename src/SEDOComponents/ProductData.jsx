@@ -296,7 +296,7 @@ const SeedoProductData = {
                 {
                     id: 1,
                     name: "Light Blaster 2 Way",
-                    Features:[
+                    Features: [
                         "/Images/ProductIconsImages/Moves2Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
                         "/Images/ProductIconsImages/3DLights.png",
@@ -325,7 +325,7 @@ const SeedoProductData = {
                 {
                     id: 2,
                     name: "Famous Car 2 Way",
-                    Features:[
+                    Features: [
                         "/Images/ProductIconsImages/Moves2Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
                         "/Images/ProductIconsImages/HeadLights.png",
@@ -355,7 +355,7 @@ const SeedoProductData = {
                 {
                     id: 3,
                     name: "Formula Car 2 Way",
-                    Features:[
+                    Features: [
                         "/Images/ProductIconsImages/Moves2Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
                         "/Images/ProductIconsImages/HeadLights.png",
@@ -385,7 +385,7 @@ const SeedoProductData = {
                 {
                     id: 4,
                     name: "Blaze Runner",
-                    Features:[
+                    Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
                         "/Images/ProductIconsImages/HeadLights.png",
@@ -415,7 +415,7 @@ const SeedoProductData = {
                 {
                     id: 120,
                     name: "Famous Car 4 Way",
-                    Features:[
+                    Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
                         "/Images/ProductIconsImages/HeadLights.png",
@@ -445,7 +445,7 @@ const SeedoProductData = {
                 {
                     id: 5,
                     name: "Light Blaster 4 Way",
-                    Features:[
+                    Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
                         "/Images/ProductIconsImages/HeadLights.png",
@@ -472,7 +472,7 @@ const SeedoProductData = {
                 {
                     id: 121,
                     name: "Blaster 023 4 Way",
-                    Features:[
+                    Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
                         "/Images/ProductIconsImages/HeadLights.png",
@@ -528,13 +528,13 @@ const SeedoProductData = {
                 {
                     id: 7,
                     name: "Racer Car 4 Way",
-                    Features:[
+                    Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
                         "/Images/ProductIconsImages/HeadLights.png",
                     ],
                     ProductBatteryType: "Rechargable",
-                    
+
                     ProductImage: [
                         RacerCar1, RacerCar2, RacerCar3, RacerCar4, RacerCar5
                     ],
@@ -560,7 +560,7 @@ const SeedoProductData = {
                 {
                     id: 8,
                     name: "Little Roaster",
-                    Features:[
+                    Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
                         "/Images/ProductIconsImages/HeadLights.png",
@@ -588,7 +588,7 @@ const SeedoProductData = {
                 {
                     id: 9,
                     name: "Spectre Car",
-                    Features:[
+                    Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
                         "/Images/ProductIconsImages/HeadLights.png",
@@ -616,7 +616,7 @@ const SeedoProductData = {
                 {
                     id: 10,
                     name: "Road Sniper 01",
-                    Features:[
+                    Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
                         "/Images/ProductIconsImages/HeadLights.png",
@@ -645,7 +645,7 @@ const SeedoProductData = {
                 {
                     id: 11,
                     name: "Road Sniper 02",
-                    Features:[
+                    Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
                         "/Images/ProductIconsImages/HeadLights.png",
@@ -675,7 +675,7 @@ const SeedoProductData = {
                 {
                     id: 116,
                     name: "Road Sniper 03",
-                    Features:[
+                    Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
                         "/Images/ProductIconsImages/HeadLights.png",
@@ -704,7 +704,7 @@ const SeedoProductData = {
                 {
                     id: 12,
                     name: "Police Car",
-                    Features:[
+                    Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
                         "/Images/ProductIconsImages/HeadLights.png",
@@ -733,7 +733,7 @@ const SeedoProductData = {
                 {
                     id: 13,
                     name: "Dazzling",
-                    Features:[
+                    Features: [
                         "/Images/ProductIconsImages/Music.png",
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -764,7 +764,7 @@ const SeedoProductData = {
                 {
                     id: 14,
                     name: "Stunt Car",
-                    Features:[
+                    Features: [
                         "/Images/ProductIconsImages/360Flip.png",
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -793,7 +793,7 @@ const SeedoProductData = {
                 {
                     id: 15,
                     name: "Big Stunt",
-                    Features:[
+                    Features: [
                         "/Images/ProductIconsImages/360Flip.png",
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -824,7 +824,7 @@ const SeedoProductData = {
                 {
                     id: 16,
                     name: "Twisting Stunt",
-                    Features:[
+                    Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
                         "/Images/ProductIconsImages/3DLights.png",
@@ -853,7 +853,7 @@ const SeedoProductData = {
                 {
                     id: 17,
                     name: "Twisting Drift",
-                    Features:[
+                    Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
                         "/Images/ProductIconsImages/3DLights.png",
@@ -882,7 +882,7 @@ const SeedoProductData = {
                 {
                     id: 18,
                     name: "Super Sonic Stunt Car",
-                    Features:[
+                    Features: [
                         "/Images/ProductIconsImages/StuntShot.png",
                         "/Images/ProductIconsImages/ShockAbsorber.png",
                         "/Images/ProductIconsImages/Moves4Ways.png",
@@ -914,7 +914,7 @@ const SeedoProductData = {
                 {
                     id: 21,
                     name: "Dino/Shark/PVC Rock Crawler",
-                    Features:[
+                    Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
                         "/Images/ProductIconsImages/ShellLight.png",
@@ -945,12 +945,12 @@ const SeedoProductData = {
                 {
                     id: 109,
                     name: "PVC Shell Rock Crawler",
-                    Features:[
+                    Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
                         "/Images/ProductIconsImages/HeadLights.png",
                         "/Images/ProductIconsImages/ ShockAbsorber.png",
-                       
+
                     ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
@@ -976,12 +976,12 @@ const SeedoProductData = {
                 {
                     id: 19,
                     name: "Rock Crawler",
-                    Features:[
+                    Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
                         "/Images/ProductIconsImages/3DLights.png",
                         "/Images/ProductIconsImages/ ShockAbsorber.png",
-                       
+
                     ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
@@ -1019,7 +1019,7 @@ const SeedoProductData = {
                 {
                     id: 22,
                     name: "Gun Rock Crawler",
-                    Features:[
+                    Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
                         "/Images/ProductIconsImages/3DLights.png",
@@ -1049,7 +1049,7 @@ const SeedoProductData = {
                 {
                     id: 23,
                     name: "Smoke Rock Crawler",
-                    Features:[
+                    Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
                         "/Images/ProductIconsImages/3DLights.png",
@@ -1103,7 +1103,7 @@ const SeedoProductData = {
                 {
                     id: 24,
                     name: "Luxurious Sports Car",
-                    Features:[
+                    Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
                         "/Images/ProductIconsImages/HeadLights.png",
@@ -1198,7 +1198,7 @@ const SeedoProductData = {
                 {
                     id: 28,
                     name: "ThunderBird",
-                    Features:[
+                    Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
                         "/Images/ProductIconsImages/HeadTailLights.png",
@@ -1228,7 +1228,7 @@ const SeedoProductData = {
                 {
                     id: 89,
                     name: "750 Drone",
-                    Features:[
+                    Features: [
                         "/Images/ProductIconsImages/Stability.png",
                         "/Images/ProductIconsImages/CollisionAvoidance.png",
                         "/Images/ProductIconsImages/PremiumDesign.png",
@@ -2964,7 +2964,7 @@ const SeedoProductData = {
             {
                 id: 85,
                 name: "Pick and Pop",
-                Features:[
+                Features: [
                     "/Images/ProductIconsImages/Music.png",
                     "/Images/ProductIconsImages/TouchSenses.png",
                     "/Images/ProductIconsImages/LimbTraining.png",
@@ -2997,7 +2997,7 @@ const SeedoProductData = {
             {
                 id: 86,
                 name: "Techno Tutor",
-                Features:[
+                Features: [
                     "/Images/ProductIconsImages/Music.png",
                     "/Images/ProductIconsImages/Alphabet.png",
                     "/Images/ProductIconsImages/LearnNumbers.png",
@@ -3069,7 +3069,7 @@ const SeedoProductData = {
             {
                 id: 88,
                 name: "Brainy Bear",
-                Features:[
+                Features: [
                     "/Images/ProductIconsImages/Music.png",
                     "/Images/ProductIconsImages/Record.png",
                     "/Images/ProductIconsImages/Ryhmes.png",

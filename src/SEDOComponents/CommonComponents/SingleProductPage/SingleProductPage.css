@@ -278,7 +278,7 @@
     .ProductCard {
         background: #ffffff;
         padding: 80px 8rem !important;
-        padding-top: 2rem !important;
+        padding-top: 0rem !important;
     }
 }
 
@@ -692,7 +692,7 @@ width: 150px !important;
 
 .SingleProductContainer {
     padding: 80px 40px;
-    padding-top: 8rem !important;
+    padding-top: 6rem !important;
 }
 
 .SingleProductContainer .ProductImageContainer {
