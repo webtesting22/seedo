@@ -30,7 +30,7 @@ const BestSellerProducts = {
                 ],
                 ProductStyleCode: "118RC001",
                 link: "singleproduct/Remote%20Controlled%20Cars/4",
-                colorCode: "#A9FE28"
+                colorCode: "rgb(169 254 40 / 59%)"
             },
             {
                 id: 2,
@@ -41,7 +41,7 @@ const BestSellerProducts = {
                 ],
                 ProductStyleCode: "124SC001",
                 link: "singleproduct/Remote%20Controlled%20Cars/14",
-                colorCode: "#EC5444"
+                colorCode: "rgb(236 84 68 / 59%)"
             },
             {
                 id: 3,
@@ -52,7 +52,7 @@ const BestSellerProducts = {
                 ],
                 ProductStyleCode: "124LRC00D",
                 link: "singleproduct/Remote%20Controlled%20Cars/10",
-                colorCode: "#6798E5"
+                colorCode: "rgb(103 152 229 / 59%)"
 
             },
             {
@@ -64,7 +64,7 @@ const BestSellerProducts = {
                 ],
                 ProductStyleCode: "124LRC00E",
                 link: "singleproduct/Remote%20Controlled%20Cars/11",
-                colorCode: "#F9A760"
+                colorCode: "rgb(249 167 96 / 59%)"
             },
 
             {
@@ -76,7 +76,7 @@ const BestSellerProducts = {
                 ],
                 ProductStyleCode: "116RC001/2.4GHz",
                 link: "singleproduct/Remote%20Controlled%20Cars/25",
-                colorCode: "#9A9AB5"
+                colorCode: "rgb(154 154 181 / 59%)"
 
 
             },
@@ -89,7 +89,7 @@ const BestSellerProducts = {
                 ],
                 ProductStyleCode: "118MT003",
                 link: "singleproduct/Remote%20Controlled%20Cars/21",
-                colorCode: "#6BCE52"
+                colorCode: "rgb(107 206 82 / 59%)"
             },
             {
                 id: 8,
@@ -100,7 +100,7 @@ const BestSellerProducts = {
                 ProductBatteryType: "Non-Electric",
                 ProductCode: "SMR-FWPB-P3",
                 link: "singleproduct/Metal%20Die%20Cast%20Cars/73",
-                colorCode: "#44A5DA"
+                colorCode: "rgb(68 165 218 / 59%)"
             },
             {
                 id: 9,
@@ -110,7 +110,7 @@ const BestSellerProducts = {
                 ],
                 ProductCode: "PNG-SS-PO9",
                 link: "singleproduct/Friction,%20Pull%20Back,%20Press%20&%20Go%20Toys/78",
-                colorCode: "#2F66C6"
+                colorCode: "rgb(47 102 198 / 59%)"
             },
             {
                 id: 5,
@@ -121,7 +121,7 @@ const BestSellerProducts = {
                 ],
                 ProductStyleCode: "116RC001/27MHz",
                 link: "singleproduct/Remote%20Controlled%20Cars/26",
-                colorCode: "#FFA573"
+                colorCode: "rgb(255 165 115 / 59%)"
             },
         ]
     }
