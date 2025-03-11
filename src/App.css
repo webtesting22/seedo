@@ -74,3 +74,8 @@ body {
   background-color: #f8c6d466; /* Change to your preferred highlight color */
   color: #000; /* Change text color when highlighted */
 }
+
+
+.AboutUs #NavigationContainer{
+  background-color: white;
+}
