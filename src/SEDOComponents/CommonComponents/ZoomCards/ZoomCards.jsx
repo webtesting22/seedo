@@ -181,14 +181,14 @@ const ZoomCards = () => {
                     <div className="AboutHomePageSwiperContainer">
                         <div>
                             <Swiper
-                                slidesPerView={2}
-                                spaceBetween={10}
+                                slidesPerView={3}
+                                spaceBetween={30}
                                 centeredSlides={true}
                                 loop={true}
-                                // autoplay={{
-                                //     delay: 2500,
-                                //     disableOnInteraction: false,
-                                // }}
+                                autoplay={{
+                                    delay: 2500,
+                                    disableOnInteraction: false,
+                                }}
                                 // pagination={{
                                 //     clickable: true,
                                 // }}
