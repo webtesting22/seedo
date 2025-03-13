@@ -298,6 +298,7 @@ const SeedoProductData = {
                 {
                     id: 1,
                     name: "Light Blaster 2 Way",
+                    cardColor: "rgb(243 91 89 / 79%)",
                     Features: [
                         "/Images/ProductIconsImages/Moves2Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -305,7 +306,7 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Non - Rechargable",
                     ProductImage: [
-                        LightBlaster1, LightBlaster2, LightBlaster3, LightBlaster4, LightBlaster5, LightBlaster6,LightBlaster9,LightBlaster10
+                        LightBlaster1, LightBlaster2, LightBlaster3, LightBlaster4, LightBlaster5, LightBlaster6, LightBlaster9, LightBlaster10
                     ],
                     Price: "Rs.399",
                     ProductStyleCode: "1182W001",
@@ -327,6 +328,7 @@ const SeedoProductData = {
                 {
                     id: 2,
                     name: "Famous Car 2 Way",
+                    cardColor: "#F0FE9F",
                     Features: [
                         "/Images/ProductIconsImages/Moves2Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -357,6 +359,7 @@ const SeedoProductData = {
                 {
                     id: 3,
                     name: "Formula Car 2 Way",
+                    cardColor: "#F8A88E",
                     Features: [
                         "/Images/ProductIconsImages/Moves2Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -387,6 +390,7 @@ const SeedoProductData = {
                 {
                     id: 4,
                     name: "Blaze Runner",
+                    cardColor: "rgba(169, 254, 40, 0.59)",
                     Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -394,7 +398,8 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        RC001, BlazeRunner1, BlazeRunner2, BlazeRunner3, BlazeRunner4, BlazeRunner5, BlazeRunner6, BlazeRunner7, BlazeRunner8, BlazeRunner9, BlazeRunner10, BlazeRunner11
+                        RC001, BlazeRunner1, BlazeRunner2, BlazeRunner3, BlazeRunner4, BlazeRunner5, BlazeRunner6, BlazeRunner7, BlazeRunner8, BlazeRunner9,
+                        //  BlazeRunner10, BlazeRunner11
                     ],
                     Price: "Rs.899",
                     Quantity: "48 pcs./box",
@@ -417,6 +422,7 @@ const SeedoProductData = {
                 {
                     id: 120,
                     name: "Famous Car 4 Way",
+                    cardColor: "rgb(240, 254, 159)",
                     Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -447,17 +453,19 @@ const SeedoProductData = {
                 {
                     id: 5,
                     name: "Light Blaster 4 Way",
+                    cardColor: "#C4C52E",
                     Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
                         "/Images/ProductIconsImages/HeadLights.png",
                     ],
+                    Quantity: "48 pcs/box",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        W001_2, LightBlaster7, LightBlaster8,"https://prepseed.s3.ap-south-1.amazonaws.com/Light+Blaster+(4+Way)+-new+music+(1).mp4"
+                        W001_2, LightBlaster7, LightBlaster8, "https://prepseed.s3.ap-south-1.amazonaws.com/Light+Blaster+(4+Way)+-new+music+(1).mp4"
                     ],
                     Price: "Rs.899",
-                    ProductStyleCode: "118BC023",
+                    ProductStyleCode: "118RC002",
                     Productdescription: <>
                         <div>
                             <div>
@@ -474,6 +482,7 @@ const SeedoProductData = {
                 {
                     id: 121,
                     name: "Blaster 023 4 Way",
+                    cardColor: "#7B776B",
                     Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -530,6 +539,7 @@ const SeedoProductData = {
                 {
                     id: 7,
                     name: "Racer Car 4 Way",
+                    cardColor: "rgb(91 115 167 / 87%)",
                     Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -538,7 +548,7 @@ const SeedoProductData = {
                     ProductBatteryType: "Rechargable",
 
                     ProductImage: [
-                        RacerCar1, RacerCar2, RacerCar3, RacerCar4, RacerCar5,"https://prepseed.s3.ap-south-1.amazonaws.com/Racer+Car+(1).mp4"
+                        RacerCar1, RacerCar2, RacerCar3, RacerCar4, RacerCar5, "https://prepseed.s3.ap-south-1.amazonaws.com/Racer+Car+(1).mp4"
                     ],
                     Price: "Rs.899",
                     Quantity: "48 pcs./box",
@@ -562,6 +572,7 @@ const SeedoProductData = {
                 {
                     id: 8,
                     name: "Little Roaster",
+                    cardColor: "#F8B2AD",
                     Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -590,6 +601,7 @@ const SeedoProductData = {
                 {
                     id: 9,
                     name: "Spectre Car",
+                    cardColor: "#FCD087",
                     Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -597,7 +609,7 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        SpectreCar3, SpectreCar2, SpectreCar1, SpectreCar4, SpectreCar5, SpectreCar6, SpectreCar7, SpectreCar8, SpectreCar9, SpectreCar10, SpectreCar11, LRC00C,"https://prepseed.s3.ap-south-1.amazonaws.com/Copy+of+specter+car+(1).mp4"
+                        SpectreCar3, SpectreCar2, SpectreCar1, SpectreCar4, SpectreCar5, SpectreCar6, SpectreCar7, SpectreCar8, SpectreCar9, SpectreCar10, SpectreCar11, LRC00C, "https://prepseed.s3.ap-south-1.amazonaws.com/Copy+of+specter+car+(1).mp4"
                     ],
                     Price: "Rs.899",
                     Quantity: "48 pcs./box",
@@ -618,6 +630,7 @@ const SeedoProductData = {
                 {
                     id: 10,
                     name: "Road Sniper 01",
+                    cardColor: "rgba(103, 152, 229, 0.59)",
                     Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -647,6 +660,7 @@ const SeedoProductData = {
                 {
                     id: 11,
                     name: "Road Sniper 02",
+                    cardColor: "rgba(249, 167, 96, 0.59)",
                     Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -677,6 +691,7 @@ const SeedoProductData = {
                 {
                     id: 116,
                     name: "Road Sniper 03",
+                    cardColor: "#B3B1B2",
                     Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -706,6 +721,7 @@ const SeedoProductData = {
                 {
                     id: 12,
                     name: "Police Car",
+                    cardColor: "#D3D3D3",
                     Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -713,11 +729,11 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        PoliceCar1, PoliceCar2, PoliceCar3, PoliceCar4, PoliceCar5, PoliceCar6, PoliceCar7,"https://prepseed.s3.ap-south-1.amazonaws.com/police+car+(1).mp4"
+                        PoliceCar1, PoliceCar2, PoliceCar3, PoliceCar4, PoliceCar5, PoliceCar6, PoliceCar7, "https://prepseed.s3.ap-south-1.amazonaws.com/police+car+(1).mp4"
                     ],
                     Price: "Rs.899",
                     Quantity: "48 pcs./box",
-                    ProductStyleCode: "118RC001",
+                    ProductStyleCode: "124PRC001",
                     Productdescription: <>
                         <div>
                             <div>
@@ -735,6 +751,7 @@ const SeedoProductData = {
                 {
                     id: 13,
                     name: "Dazzling",
+                    cardColor: "rgb(174 225 97 / 74%)",
                     Features: [
                         "/Images/ProductIconsImages/Music.png",
                         "/Images/ProductIconsImages/Moves4Ways.png",
@@ -766,6 +783,7 @@ const SeedoProductData = {
                 {
                     id: 14,
                     name: "Stunt Car",
+                    cardColor: "rgba(236, 84, 68, 0.59)",
                     Features: [
                         "/Images/ProductIconsImages/360Flip.png",
                         "/Images/ProductIconsImages/Moves4Ways.png",
@@ -795,6 +813,7 @@ const SeedoProductData = {
                 {
                     id: 15,
                     name: "Big Stunt",
+                    cardColor: "rgb(74 198 232 / 75%)",
                     Features: [
                         "/Images/ProductIconsImages/360Flip.png",
                         "/Images/ProductIconsImages/Moves4Ways.png",
@@ -826,6 +845,7 @@ const SeedoProductData = {
                 {
                     id: 16,
                     name: "Twisting Stunt",
+                    cardColor: "rgb(137 211 231 / 75%)",
                     Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -855,6 +875,7 @@ const SeedoProductData = {
                 {
                     id: 17,
                     name: "Twisting Drift",
+                    cardColor: "rgb(75 198 229 / 62%)",
                     Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -863,7 +884,7 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        SC003,"https://prepseed.s3.ap-south-1.amazonaws.com/Twisting+Drift+.mp4"
+                        SC003, SC003, "https://prepseed.s3.ap-south-1.amazonaws.com/Twisting+Drift+.mp4"
                     ],
                     Price: "Rs.2999",
                     Quantity: "12 pcs./box",
@@ -884,6 +905,7 @@ const SeedoProductData = {
                 {
                     id: 18,
                     name: "Super Sonic Stunt Car",
+                    cardColor: "rgb(253 87 100 / 74%)",
                     Features: [
                         "/Images/ProductIconsImages/StuntShot.png",
                         "/Images/ProductIconsImages/ShockAbsorber.png",
@@ -893,7 +915,7 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        SuperSonic1, SuperSonic2, SuperSonic3, SuperSonic4, SC002,"https://prepseed.s3.ap-south-1.amazonaws.com/Super+sonic.mp4"
+                        SuperSonic1, SuperSonic2, SuperSonic3, SuperSonic4, SC002, "https://prepseed.s3.ap-south-1.amazonaws.com/Super+sonic.mp4"
                     ],
                     Price: "Rs.2499",
                     Quantity: "12 pcs./box",
@@ -916,6 +938,7 @@ const SeedoProductData = {
                 {
                     id: 21,
                     name: "Dino/Shark/PVC Rock Crawler",
+                    cardColor: "rgb(101 199 74 / 58%)",
                     Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -947,6 +970,7 @@ const SeedoProductData = {
                 {
                     id: 109,
                     name: "PVC Shell Rock Crawler",
+                    cardColor: "rgb(134 195 67 / 65%)",
                     Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -956,7 +980,7 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        MT003_2,"https://prepseed.s3.ap-south-1.amazonaws.com/PVC+SHELL+ROCK+CRAWLER+.mp4"
+                        MT003_2, MT003_2, "https://prepseed.s3.ap-south-1.amazonaws.com/PVC+SHELL+ROCK+CRAWLER+.mp4"
                     ],
                     Price: "Rs.1599",
                     Quantity: "24 pcs./box",
@@ -978,6 +1002,7 @@ const SeedoProductData = {
                 {
                     id: 19,
                     name: "Rock Crawler",
+                    cardColor: "rgb(244 123 216 / 63%)",
                     Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -988,7 +1013,7 @@ const SeedoProductData = {
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         RockCrawler1,
-                        RockCrawler2, RockCrawler3, RockCrawler4, RockCrawler5, RockCrawler6, RockCrawler7,"https://prepseed.s3.ap-south-1.amazonaws.com/pvc+rock+crawler+.mp4",
+                        RockCrawler2, RockCrawler3, RockCrawler4, RockCrawler5, RockCrawler6, RockCrawler7, "https://prepseed.s3.ap-south-1.amazonaws.com/pvc+rock+crawler+.mp4",
                         MT002,
                     ],
                     Price: "Rs.1499",
@@ -1021,6 +1046,7 @@ const SeedoProductData = {
                 {
                     id: 22,
                     name: "Gun Rock Crawler",
+                    cardColor: "rgb(240 190 1 / 61%)",
                     Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -1029,7 +1055,7 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        MT003G, GunRockCrawler, GunRockCrawler2,"https://prepseed.s3.ap-south-1.amazonaws.com/Gun+Rock+Crawler+Vid+.mp4"
+                        MT003G, GunRockCrawler, GunRockCrawler2, "https://prepseed.s3.ap-south-1.amazonaws.com/Gun+Rock+Crawler+Vid+.mp4"
                     ],
                     Price: "Rs.1849",
                     Quantity: "24 pcs./box",
@@ -1051,6 +1077,7 @@ const SeedoProductData = {
                 {
                     id: 23,
                     name: "Smoke Rock Crawler",
+                    cardColor: "rgb(237 50 55 / 60%)",
                     Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -1077,34 +1104,36 @@ const SeedoProductData = {
                         </div>
                     </>
                 },
-                {
-                    id: 108,
-                    name: "Monster Acrobatic Truck",
-                    ProductBatteryType: "Rechargable",
-                    ProductImage: [
-                        Monstertruck5, Monstertruck2, Monstertruck1, , Monstertruck3, Monstertruck4, Monstertruck6, Monstertruck7, Monstertruck8, Monstertruck9, Monstertruck10, Monstertruck11
-                    ],
-                    Price: "Rs.1599",
-                    Quantity: "24 pcs./box",
-                    ProductStyleCode: "118MT001",
-                    Productdescription: <>
-                        <div>
-                            <div>
-                                <p><b>Material type</b> PVC</p>
-                                <p><b>Scale</b> 1:18</p>
-                                <p><b>USB</b> Yes</p>
-                                <p><b>Frequency</b> 2.4GHz</p>
-                                <p><b>HSN Code</b> 95030030</p>
-                                <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
-                            </div>
-                        </div>
-                    </>
-                }
+                // {
+                //     id: 108,
+                //     name: "Monster Acrobatic Truck",
+                //     cardColor: "rgb(73 94 200 / 57%)",
+                //     ProductBatteryType: "Rechargable",
+                //     ProductImage: [
+                //         Monstertruck5, Monstertruck2, Monstertruck1, , Monstertruck3, Monstertruck4, Monstertruck6, Monstertruck7, Monstertruck8, Monstertruck9, Monstertruck10, Monstertruck11
+                //     ],
+                //     Price: "Rs.1599",
+                //     Quantity: "24 pcs./box",
+                //     ProductStyleCode: "118MT001",
+                //     Productdescription: <>
+                //         <div>
+                //             <div>
+                //                 <p><b>Material type</b> PVC</p>
+                //                 <p><b>Scale</b> 1:18</p>
+                //                 <p><b>USB</b> Yes</p>
+                //                 <p><b>Frequency</b> 2.4GHz</p>
+                //                 <p><b>HSN Code</b> 95030030</p>
+                //                 <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
+                //             </div>
+                //         </div>
+                //     </>
+                // }
             ],
             "1:16": [
                 {
                     id: 24,
                     name: "Luxurious Sports Car",
+                    cardColor: "rgba(255, 165, 115, 0.59)",
                     Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -1114,7 +1143,7 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        RC00127MHz, RC00124GHz, LuxuriousCar1, LuxuriousCar2, LuxuriousCar3, LuxuriousCar4, LuxuriousCar5, LuxuriousCar6, LuxuriousCar7, LuxuriousCar8,"https://prepseed.s3.ap-south-1.amazonaws.com/luxurious+car-2+(1).mp4"
+                        RC00127MHz, RC00124GHz, LuxuriousCar1, LuxuriousCar2, LuxuriousCar3, LuxuriousCar4, LuxuriousCar5, LuxuriousCar6, LuxuriousCar7, LuxuriousCar8, "https://prepseed.s3.ap-south-1.amazonaws.com/luxurious+car-2+(1).mp4"
                     ],
                     Price: "Rs.1599",
                     Quantity: "18 pcs./box",
@@ -1159,9 +1188,10 @@ const SeedoProductData = {
                 {
                     id: 26,
                     name: "Hyper Beast Car 27 MHz",
+                    cardColor: "#BABCE3",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        RC00227MHz, HyperBeast1, HyperBeast2, HyperBeast3, HyperBeast4, HyperBeast5, HyperBeast6, HyperBeast7, HyperBeast8, HyperBeast9,"https://prepseed.s3.ap-south-1.amazonaws.com/hyper+beast-2+(1).mp4"
+                        RC00227MHz, HyperBeast1, HyperBeast2, HyperBeast3, HyperBeast4, HyperBeast5, HyperBeast6, HyperBeast7, HyperBeast8, HyperBeast9, "https://prepseed.s3.ap-south-1.amazonaws.com/hyper+beast-2+(1).mp4"
                     ],
                     ProductStyleCode: "116RC002",
                     Quantity: "48 pcs./box",
@@ -1200,6 +1230,7 @@ const SeedoProductData = {
                 {
                     id: 28,
                     name: "ThunderBird",
+                    cardColor: "rgb(255 160 65 / 65%)",
                     Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -1208,7 +1239,7 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        ThunderBird1, ThunderBird2, ThunderBird3, ThunderBird4, ThunderBird5, ThunderBird6, ThunderBird7, RC003_2,"https://prepseed.s3.ap-south-1.amazonaws.com/Copy+of+Thunderbird-2+(1).mp4"
+                        ThunderBird1, ThunderBird2, ThunderBird3, ThunderBird4, ThunderBird5, ThunderBird6, ThunderBird7, RC003_2, "https://prepseed.s3.ap-south-1.amazonaws.com/Copy+of+Thunderbird-2+(1).mp4"
                     ],
                     Price: "Rs.1799",
                     Quantity: "12 pcs./box",
@@ -1230,6 +1261,7 @@ const SeedoProductData = {
                 {
                     id: 89,
                     name: "750 Drone",
+                    cardColor: "rgb(164 213 58 / 58%)",
                     Features: [
                         "/Images/ProductIconsImages/Stability.png",
                         "/Images/ProductIconsImages/CollisionAvoidance.png",
@@ -1237,7 +1269,7 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        Drone1, Drone2, Drone3, Drone4, Drone5, Drone6, Drone7, Drone8, Drone9, Drone10
+                        Drone1, Drone8, Drone2, Drone3, Drone4, , Drone6, Drone7, Drone9, Drone10
                     ],
                     Price: "Rs.2999",
                     Quantity: "24 pcs./box",
@@ -1267,6 +1299,7 @@ const SeedoProductData = {
                 {
                     id: 57,
                     name: "SMR Jet Series-JS01/8",
+                    cardColor: "rgb(245 194 47 / 70%)",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWJS018],
                     ProductStyleCode: "SMR-FW-JS01/8",
@@ -1286,6 +1319,7 @@ const SeedoProductData = {
                 {
                     id: 58,
                     name: "SMR Jet Series-JS02/8",
+                    cardColor: "rgb(124 210 243 / 72%)",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWJS028],
                     Price: "Rs.139",
@@ -1305,6 +1339,7 @@ const SeedoProductData = {
                 {
                     id: 59,
                     name: "SMR Jet Series-JS03/8",
+                    cardColor: "rgb(147 92 106 / 70%)",
                     ProductBatteryType: "-",
                     ProductImage: [SMRFWJS038],
                     Price: "Rs.139",
@@ -1325,6 +1360,7 @@ const SeedoProductData = {
                     id: 60,
                     name: "SMR Jet Series-JS04/8",
                     ProductBatteryType: "-",
+                    cardColor: "rgb(1 167 187 / 70%)",
                     ProductImage: [SMRFWJS048],
                     Price: "Rs.139",
                     Quantity: "72 pcs./box",
@@ -1344,6 +1380,7 @@ const SeedoProductData = {
                     id: 61,
                     name: "SMR Jet Series-JS05/8",
                     ProductBatteryType: "-",
+                    cardColor: "#E1E0DE",
                     ProductImage: [SMRFWJS058],
                     Price: "Rs.139",
                     Quantity: "72 pcs./box",
@@ -1362,6 +1399,7 @@ const SeedoProductData = {
                 {
                     id: 62,
                     name: "SMR Jet Series-JS06/8",
+                    cardColor: "rgb(253 224 0 / 65%)",
                     ProductBatteryType: "-",
                     Price: "Rs.139",
                     Quantity: "72 pcs./box",
@@ -1382,6 +1420,7 @@ const SeedoProductData = {
                     id: 63,
                     name: "SMR Jet Series-JS07/8",
                     ProductBatteryType: "-",
+                    cardColor: "rgb(115 191 67 / 61%)",
                     ProductImage: [SMRFWJS078],
                     Price: "Rs.139",
                     Quantity: "72 pcs./box",
@@ -1401,6 +1440,7 @@ const SeedoProductData = {
                     id: 64,
                     name: "SMR Jet Series-JS08/8",
                     ProductBatteryType: "-",
+                    cardColor: "rgb(57 191 217 / 59%)",
                     Price: "Rs.139",
                     Quantity: "72 pcs./box",
                     ProductImage: [SMRFWJS088],
@@ -1421,6 +1461,7 @@ const SeedoProductData = {
                 {
                     id: 65,
                     name: "SMR Fire Birds-FBS01/8",
+                    cardColor: "rgb(222 219 31 / 69%)",
                     ProductBatteryType: "-",
                     Price: "Rs.139",
                     Quantity: "24 pcs./box",
@@ -1441,6 +1482,7 @@ const SeedoProductData = {
                     id: 66,
                     name: "SMR Fire Birds-FBS02/8 ",
                     ProductBatteryType: "-",
+                    cardColor: "rgb(204 113 173 / 61%)",
                     Price: "Rs.139",
                     Quantity: "24 pcs./box",
                     ProductImage: [SMRFWFBS028],
@@ -1459,6 +1501,7 @@ const SeedoProductData = {
                 {
                     id: 67,
                     name: "SMR Fire Birds-FBS03/8 ",
+                    cardColor: "rgb(125 199 138 / 65%)",
                     ProductBatteryType: "-",
                     Price: "Rs.139",
                     Quantity: "24 pcs./box",
@@ -1479,6 +1522,7 @@ const SeedoProductData = {
                     id: 68,
                     name: "SMR Fire Birds-FBS04/8",
                     ProductBatteryType: "-",
+                    cardColor: "rgb(98 199 200 / 62%)",
                     Price: "Rs.139",
                     Quantity: "24 pcs./box",
                     ProductImage: [SMRFWFBS048],
@@ -1497,6 +1541,7 @@ const SeedoProductData = {
                 {
                     id: 69,
                     name: "SMR Fire Birds-FBS05/8",
+                    cardColor: "rgb(104 108 112 / 77%)",
                     ProductBatteryType: "-",
                     Price: "Rs.139",
                     Quantity: "24 pcs./box",
@@ -1516,6 +1561,7 @@ const SeedoProductData = {
                 {
                     id: 70,
                     name: "SMR Fire Birds-FBS06/8",
+                    cardColor: "rgb(250 218 1 / 58%)",
                     ProductBatteryType: "-",
                     Price: "Rs.139",
                     Quantity: "24 pcs./box",
@@ -1535,6 +1581,7 @@ const SeedoProductData = {
                 {
                     id: 71,
                     name: "SMR Fire Birds-FBS07/8",
+                    cardColor: "rgb(243 114 91 / 70%)",
                     ProductBatteryType: "-",
                     Price: "Rs.139",
                     Quantity: "24 pcs./box",
@@ -1554,6 +1601,7 @@ const SeedoProductData = {
                 {
                     id: 72,
                     name: "SMR Fire Birds-FBS08/8",
+                    cardColor: "rgb(2 183 230 / 65%)",
                     ProductBatteryType: "-",
                     Price: "Rs.139",
                     Quantity: "24 pcs./box",
@@ -3046,7 +3094,7 @@ const SeedoProductData = {
                 id: 87,
                 name: "Activity Cube",
                 ProductBatteryType: "-",
-                ProductImage: [Cube,"https://prepseed.s3.ap-south-1.amazonaws.com/Cube+Video+.mp4"],
+                ProductImage: [Cube, Cube, "https://prepseed.s3.ap-south-1.amazonaws.com/Cube+Video+.mp4"],
                 Price: "Rs. 2499",
                 ProductStyleCode: "-",
                 Productdescription: <>
@@ -3077,7 +3125,7 @@ const SeedoProductData = {
                     "/Images/ProductIconsImages/Ryhmes.png",
                 ],
                 ProductBatteryType: "-",
-                ProductImage: [SLTBB001, BrainyBear1, BrainyBear2, BrainyBear3, BrainyBear4,"https://prepseed.s3.ap-south-1.amazonaws.com/Brainy+Bear+Video++.mp4"],
+                ProductImage: [SLTBB001, BrainyBear1, BrainyBear2, BrainyBear3, BrainyBear4, "https://prepseed.s3.ap-south-1.amazonaws.com/Brainy+Bear+Video++.mp4"],
                 Price: "Rs. 699",
                 Quantity: "30 pcs per box",
                 ProductStyleCode: "SLT-BB-001",
