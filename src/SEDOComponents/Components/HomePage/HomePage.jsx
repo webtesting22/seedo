@@ -107,7 +107,7 @@ const HomePage = () => {
                         <div>
                             <h1 style={{ color: headingColors[activeIndex], transition: ".5s" }}>SEEDO</h1>
                             <p>BREAK THE LIMIT!</p>
-                            <button>View catalog</button>
+                            <button style={{color:headingColors[activeIndex]}}>View catalog</button>
                         </div>
                     </div>
                     {/* <video

@@ -39,25 +39,30 @@ const SingleProductPage = () => {
         Object.values(subcategories)
             .flat()
             .find((p) => String(p.id) === productId);
-
     useEffect(() => {
         if (product?.ProductImage && product.ProductImage.length > 0) {
-            setMainImage(product.ProductImage[0]);
-            setOtherImages(product.ProductImage.slice(1));
-        }
+            const firstMedia = product.ProductImage[0];
+            if (product?.ProductImage) {
+                const map = {};
+                product.ProductImage.forEach((img) => {
+                    const match = img.match(/\((.*?)\)/); // Extract color name from parentheses
+                    if (match && match[1]) {
+                        map[match[1].toLowerCase()] = img; // Use color as key
+                    }
+                });
+                setColorMap(map);
+            }
+            if (firstMedia.includes(".mp4")) {
+                setMainImage({ type: "video", url: firstMedia });
+            } else {
+                setMainImage({ type: "image", url: firstMedia });
+            }
 
-        // Generate a color map based on image names
-        if (product?.ProductImage) {
-            const map = {};
-            product.ProductImage.forEach((img) => {
-                const match = img.match(/\((.*?)\)/); // Extract color name from parentheses
-                if (match && match[1]) {
-                    map[match[1].toLowerCase()] = img; // Use color as key
-                }
-            });
-            setColorMap(map);
+            setOtherImages(product.ProductImage.slice(1));
+            
         }
     }, [product]);
+
 
     useEffect(() => {
         window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
@@ -68,9 +73,14 @@ const SingleProductPage = () => {
     }
 
     // Handle clicking on an "other image" or color
-    const handleImageClick = (clickedImage) => {
-        setMainImage(clickedImage);
+    const handleImageClick = (clickedMedia) => {
+        if (clickedMedia.includes(".mp4")) {
+            setMainImage({ type: "video", url: clickedMedia });
+        } else {
+            setMainImage({ type: "image", url: clickedMedia });
+        }
     };
+
 
     // Determine if the product is from a subcategory
     const productSubcategory = Object.keys(subcategories).find((subcategory) =>
@@ -156,10 +166,19 @@ const SingleProductPage = () => {
                                                 ))}
                                             </div>
                                             {mainImage ? (
+                                                mainImage.type === "video" ? (
+                                                    <video src={mainImage.url} controls autoPlay style={{ width: "100%", borderRadius: "5px" }} />
+                                                ) : (
+                                                    <img src={mainImage.url} alt={product.name} />
+                                                )
+                                            ) : (
+                                                <p>No media available</p>
+                                            )}
+                                            {/* {mainImage ? (
                                                 <img src={mainImage} alt={product.name} />
                                             ) : (
                                                 <p>No image available</p>
-                                            )}
+                                            )} */}
                                         </div>
                                     </Col>
 
@@ -169,11 +188,10 @@ const SingleProductPage = () => {
                                         </button>
                                         <div >
                                             <Swiper
-
                                                 slidesPerView={4}
                                                 spaceBetween={15}
                                                 freeMode={true}
-                                                direction={'vertical'}
+                                                direction="vertical"
                                                 autoplay={{
                                                     delay: 2000,
                                                     disableOnInteraction: false,
@@ -183,26 +201,39 @@ const SingleProductPage = () => {
                                                 className="mySwiper"
                                                 onSwiper={(swiper) => (swiperRef.current = swiper)}
                                             >
-
                                                 <div style={{ height: "590px", overflow: "auto" }}>
                                                     {otherImages.length > 0 ? (
-                                                        otherImages.map((img, index) => (
-                                                            <SwiperSlide>
-                                                                <div
-                                                                    key={index}
-                                                                    className="OtherImageThumbnail"
-                                                                    onClick={() => handleImageClick(img)}
-                                                                    style={{ cursor: "pointer" }}
-                                                                >
-                                                                    <img src={img} alt={`Other image ${index + 1}`} />
-                                                                </div>
-                                                            </SwiperSlide>
-                                                        ))
+                                                        otherImages.map((media, index) => {
+                                                            const mediaUrl = typeof media === "string" ? media : ""; // Ensure it's a string
+
+                                                            return (
+                                                                <SwiperSlide key={index}>
+                                                                    <div
+                                                                        className="OtherImageThumbnail"
+                                                                        onClick={() => handleImageClick(mediaUrl)}
+                                                                        style={{ cursor: "pointer" }}
+                                                                    >
+                                                                        {mediaUrl.includes(".mp4") ? ( // 🔥 Check if it's a video
+                                                                            <video
+                                                                                src={mediaUrl}
+                                                                                controls
+                                                                                muted
+                                                                                style={{ width: "100%", borderRadius: "5px" }} // Adjust styles as needed
+                                                                            />
+                                                                        ) : (
+                                                                            <img src={mediaUrl} alt={`Other media ${index + 1}`} />
+                                                                        )}
+                                                                    </div>
+                                                                </SwiperSlide>
+                                                            );
+                                                        })
                                                     ) : (
-                                                        <p>Other images coming soon!</p>
+                                                        <p>Other images/videos coming soon!</p>
                                                     )}
                                                 </div>
                                             </Swiper>
+
+
                                         </div>
                                         <button className="swiper-button next" onClick={handleNext}>
                                             <MdKeyboardArrowDown />
