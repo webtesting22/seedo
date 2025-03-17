@@ -1,57 +1,24 @@
 import React, { useState, useEffect } from "react";
-import { Row, Col, Checkbox, Button, Input, Drawer, Modal, Image } from "antd"; // Import Modal
-import { Link } from "react-router-dom";
-import { TfiLayoutGrid3Alt, TfiLayoutGrid4Alt } from "react-icons/tfi";
-import { CiFilter } from "react-icons/ci";
+import { Row, Col, Checkbox, Button, Input, Drawer, Modal, Image, AutoComplete } from "antd"; // Import Modal
+import { Link, useNavigate } from "react-router-dom";
 import { useMediaQuery } from "react-responsive";
 import "../../Styles/Product.css";
 import Navigation from "../../CommonComponents/Navigation/Navigation";
-// import SEEDOData from "../../ProductUpdatedData";
-import gene7 from "/Images/gene7.jpg";
-import { FaArrowRightLong } from "react-icons/fa6";
-import { FaArrowRight } from "react-icons/fa";
-import ProductPageBanner from "./ProductPageBanner.svg"
 import SeedoProductData from "../../ProductData";
-import friction from "./friction.svg"
-import RemoteCar from "./RemoteCar.svg"
-import DieCast from "./DieCast.svg"
-import EarlyLearning from "./EarlyLearning.svg"
-import ProductContext from "./Context/ProductContext";
-import TopBack from "/Images/Banners/ProductPageBanner.jpg"
 const { Search } = Input;
 
 const Products = () => {
     const [isDrawerOpen, setDrawerOpen] = useState(false);
     const [isModalOpen, setModalOpen] = useState(false); // Modal visibility state
     const [selectedProduct, setSelectedProduct] = useState(null); // Selected product
+    const [searchQuery, setSearchQuery] = useState("");
+    const [searchResults, setSearchResults] = useState([]);
+    const [filteredProducts, setFilteredProducts] = useState([]);
+    const navigate = useNavigate();
     const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
+
     // const { toggleComponent } = ProductContext();
 
-    const [selectedCategories, setSelectedCategories] = useState([]);
-    const [layout, setLayout] = useState(6); // Default layout 4x4x4
-    const [searchQuery, setSearchQuery] = useState(""); // Search query state
-
-    const staticCategories = [
-        "Friction & Pull back + Press & Go",
-        "RC Car",
-        "Early Learning Toys",
-        "Seedo Metal X Racer", // This is the static category to be non-clickable
-        "Construction Series",
-        "Pull Back Series",
-        "Cruiser Series",
-        "Drift Series",
-        "Racing Series",
-        "Jet Series",
-        "Fire Birds Series",
-    ];
-
-    const handleCategoryChange = (checkedValues) => setSelectedCategories(checkedValues);
-
-
-    const handleLayoutChange = (layoutType) => {
-        setLayout(layoutType);
-        AOS.refresh(); // Reinitialize AOS animations after changing the layout
-    };
 
     useEffect(() => {
         window.scrollTo({
@@ -60,7 +27,56 @@ const Products = () => {
             behavior: "smooth",
         });
     }, []);
-    const handleSearch = (value) => setSearchQuery(value);
+    // 🔍 Extract all products from categories & subcategories
+    const getAllProducts = () => {
+        return Object.keys(SeedoProductData).flatMap((categoryName) => {
+            const categoryData = SeedoProductData[categoryName];
+            const subcategories = categoryData.subcategories || {};
+            const products = categoryData.products || [];
+
+            // Extract products from subcategories
+            const subcategoryProducts = Object.entries(subcategories).flatMap(([subName, subProducts]) =>
+                subProducts.map((product) => ({
+                    ...product,
+                    categoryName, // Store parent category
+                    subcategoryName: subName, // Store subcategory
+                }))
+            );
+
+            // Attach category name to products
+            return [...products, ...subcategoryProducts].map((product) => ({
+                ...product,
+                categoryName, // Store category for navigation
+            }));
+        });
+    };
+
+    // 🔍 Handle search input
+    const handleSearch = (value) => {
+        setSearchQuery(value);
+
+        if (!value) {
+            setSearchResults([]); // Clear suggestions when input is empty
+            return;
+        }
+
+        // ✅ Prevent errors for missing fields
+        const filtered = getAllProducts().filter((product) =>
+            product?.name?.toLowerCase().includes(value.toLowerCase()) ||
+            (product?.categoryName?.toLowerCase() || "").includes(value.toLowerCase()) ||
+            (product?.subcategoryName?.toLowerCase() || "").includes(value.toLowerCase())
+        );
+
+        // Store search results
+        setSearchResults(filtered);
+    };
+
+    // 📌 Navigate to product page on selection
+    const onSelectProduct = (product) => {
+        navigate(`/singleproduct/${product.categoryName}/${product.id}`);
+    };
+
+    // const handleSearch = (value) => setSearchQuery(value);
 
     // const filteredProducts = SEEDOData.filter(item => {
     //     const matchesCategory = selectedCategories.length
@@ -92,12 +108,12 @@ const Products = () => {
         // AOS.init(); // Initialize AOS
         window.scrollTo(0, 0);
     }, []);
-    const staticProductCategories = ["Category1", "Category2", "Category3"]; // Define static categories
+    // const staticProductCategories = ["Category1", "Category2", "Category3"]; // Define static categories
 
     return (
         <>
             <div className="AboutUs">
-                <Navigation/>
+                <Navigation />
             </div>
 
             <section id="ProductContainer">
@@ -108,26 +124,48 @@ const Products = () => {
                 <div className="SectionHeadingContainer" style={{ paddingBottom: "0px" }}>
                     <img src="/Images/NewBanners/1.jpg" alt="" />
                     <img src="/Images/NewBanners/MobileBanners/1.jpg" alt="" />
-                    {/* <h2 className="titleFont" data-aos="fade-up"
-                        data-aos-duration="1000">Explore Our Exclusive Toys</h2> */}
-                    {/* <div className="BackSVG">
-                    <svg width="1895" height="997" viewBox="0 0 1895 997" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M489 15.2177C394.5 -2.98877 212 -4.08235 0 74.7177V996.5H1895V18.2177C1888.83 23.8843 1864.8 39.2177 1818 55.2177C1739.67 78.551 1575.33 94.0308 1397 48.5C1373.5 42.5 1279.3 16.1177 1240.5 9.71766C1187.5 0.217663 1045.7 -14.9823 822.5 36.2177C745.5 53.8807 663.4 48.8177 489 15.2177Z" fill="#A0DEF7" />
-                    </svg>
-                </div> */}
                 </div>
+
                 <div className="CatalogueCardsContainer">
-                    {/* <div className="SectionInfoContainer">
-                        <div className="CategoryCountContainer" style={{ width: "100%" }}>
-                            <p> <span>{Object.keys(SeedoProductData).length}</span> Available Selections</p>
+                    <div style={{ textAlign: "center", marginBottom: "10px" }} id="SearchBarComponent">
+                        <AutoComplete
+                            options={searchResults.map((product) => ({
+                                value: product.name, // Display product name
+                                label: (
+                                    <div onClick={() => onSelectProduct(product)} style={{ cursor: "pointer" }}>
+                                        {product.name} <small>({product.categoryName})</small>
+                                    </div>
+                                ),
+                            }))}
+                            onSearch={handleSearch}
+                            placeholder="Search for products..."
+                            allowClear
+
+                        />
+                    </div>
+
+                    {/* 🔎 Display search results */}
+                    {searchQuery && (
+                        <div className="SearchResultsContainer">
+                            {/* <h3>Search Results:</h3> */}
+                            {filteredProducts.length > 0 ? (
+                                <ul>
+                                    {filteredProducts.map((product) => (
+                                        <li
+                                            key={product.ProductID}
+                                            style={{ cursor: "pointer", padding: "10px", borderBottom: "1px solid #ddd" }}
+                                            onClick={() => navigate(`/singleproduct/${product.categoryName}/${product.ProductID}`)}
+                                        >
+                                            {product.ProductTitle}
+                                        </li>
+                                    ))}
+                                </ul>
+                            ) : (
+                                ""
+                                // <p>No products found</p>
+                            )}
                         </div>
-                        <div style={{ width: "100%" }}>
-                            <p style={{ textAlign: "center" }}>grid horizontal grid Vertical</p>
-                        </div>
-                        <div style={{ width: "100%" }} className="SortFilterContainer">
-                            <p style={{ textAlign: "end" }}> hello</p>
-                        </div>
-                    </div> */}
+                    )}
                     <Row>
                         {Object.keys(SeedoProductData).map((categoryName, index) => {
                             const categoryData = SeedoProductData[categoryName];
@@ -169,19 +207,7 @@ const Products = () => {
                                     <Link to={hasSubcategories ? `/subcategories/${categoryName}` : `/subcategoriesproducts/${categoryName}`}>
                                         <div className="CatalogueCardContainer" style={{ backgroundColor }} >
                                             <div className="CatalogueImageContainer">
-                                                {/* Check if there are products in the category */}
-                                                {/* {products.length > 0 ? (
-                                                    <img
-                                                        src={products[0].ProductImage?.[0] || "path/to/placeholder_image.jpg"}
-                                                        alt={products[0].name || "Placeholder"}
-                                                    />
-                                                ) : (
-                                                    // If no products, fallback to the subcategory first product's first image
-                                                    <img
-                                                        src={subcategorySecondImage}
-                                                        alt={`${categoryName} First Product`}
-                                                    />
-                                                )} */}
+
                                                 <img
                                                     src={categoryData?.CategoriryImage || "path/to/placeholder_image.jpg"} // Use the category image
                                                     alt={`${categoryName} Category Image`} // Alt text for the image
@@ -198,181 +224,9 @@ const Products = () => {
 
 
 
-                        {/* <Col lg={12} md={24} style={{ width: "100%" }}>
-
-                            <div className="CatalogueCardContainer">
-                                <div className="CatalogueImageContainer">
-                                    <img src={RemoteCar} alt="" />
-                                </div>
-                                <div className="productTitleContainer">
-                                    <h1>Remote Controlled Car</h1>
-                                    <p>Category</p>
-                                </div>
-                            </div>
-
-                        </Col>
-                        <Col lg={12} md={24} style={{ width: "100%" }}>
-
-                            <div className="CatalogueCardContainer">
-                                <div className="CatalogueImageContainer">
-
-                                </div>
-                                <div className="productTitleContainer">
-                                    <h1>Metal X Racer</h1>
-                                    <p>Category</p>
-                                </div>
-                            </div>
-
-                        </Col>
-                        <Col lg={12} md={24} style={{ width: "100%" }}>
-
-                            <div className="CatalogueCardContainer">
-                                <div className="CatalogueImageContainer">
-                                    <img src={DieCast} alt="" />
-                                </div>
-                                <div className="productTitleContainer">
-                                    <h1>Die cast cars</h1>
-                                    <p>Category</p>
-                                </div>
-                            </div>
-
-                        </Col>
-                        <Col lg={12} md={24} style={{ width: "100%" }}>
-
-                            <div className="CatalogueCardContainer">
-                                <div className="CatalogueImageContainer">
-                                    <img src={EarlyLearning} alt="" />
-                                </div>
-                                <div className="productTitleContainer">
-                                    <h1>Early learning toys </h1>
-                                    <p>Category</p>
-                                </div>
-                            </div>
-
-                        </Col> */}
                     </Row>
                 </div>
-                {/* <button onClick={toggleComponent}>Switch Component</button> */}
-                {/* <div className="BannerContainer">
-                    <img src={gene7} alt="Products Banner" />
-                </div>
-                <div style={{ padding: "20px" }}>
-                    <span>
-                        <Link to="/" className="breadcrumb-link" style={{ color: "black" }}>Home</Link> &gt;{" "}
-                        <Link to="/products" className="breadcrumb-link" style={{ color: "black" }}>Product</Link>
-                    </span>
-                </div> */}
-                {/* <div className="TopLinksContainer">
-                    <div >
-                        <Link to="/" className="breadcrumb-link" style={{ color: "#999", fontSize: "12px" }}>Home</Link>&nbsp;&nbsp; <span style={{ color: "#999", fontSize: "12px", display: "flex" }}><FaArrowRight /></span> &nbsp;&nbsp;
-                        <Link to="/products" className="breadcrumb-link" style={{ color: "#999", fontSize: "12px" }}>Products</Link>
-                    </div>
-                </div>
-                <div id="ProductShowContainer">
-                    <div className="CategorieHeadingContainer">
-                        <div>
-                            <h2 className="SecondaryHeading">Best Selling Products</h2>
-                            <p>Discover the toys kids adore and parents trust. Shop our bestsellers for endless joy!</p>
-                        </div>
-                    </div>
-                    <div className="SearchAndAddons">
-                        <div style={{ display: "flex", justifyContent: "space-between", width: "100%", gap: "10px" }}>
-                            <div className="SearchBarContainer" style={{ width: "100%" }}></div>
-                            <Search
-                                placeholder="Search for products"
-                                allowClear
-                                size="large"
-                                onChange={(e) => setSearchQuery(e.target.value)}
-                            />
-                            <div className="LayoutBtn" style={{ display: "flex", gap: "10px" }}>
-                                <Button onClick={() => handleLayoutChange(8)}>
-                                    <TfiLayoutGrid3Alt />
-                                </Button>
-                                <Button onClick={() => handleLayoutChange(6)}>
-                                    <TfiLayoutGrid4Alt />
-                                </Button>
-                            </div>
-                            {isMobile && (
-                                <div className="FilterBtn">
-                                    <Button onClick={showDrawer}>
-                                        <CiFilter />
-                                    </Button>
-                                </div>
-                            )}
-                        </div>
-                    </div>
-                    <br />
-                    {isMobile && (
-                        <Drawer
-                            title="Filter by Categories"
-                            placement="right"
-                            onClose={closeDrawer}
-                            open={isDrawerOpen}
-                            style={{ position: "relative" }}
-                        >
-                            <div className="CategoriesFilters">
-                                <h3>Filter by Categories</h3>
-                                <Checkbox.Group
-                                    options={staticCategories.map(category =>
-                                        category === "Seedo Metal X Racer"
-                                            ? { label: category, value: category, disabled: true }
-                                            : { label: category, value: category }
-                                    )}
-                                    onChange={handleCategoryChange}
-                                    className="FilterCheckBox"
-                                />
-                            </div>
-                            <Button type="primary" onClick={closeDrawer} style={{ position: "absolute", bottom: "20px", width: "200px", background: "#A5252B" }}>Apply</Button>
-                        </Drawer>
-                    )}
 
-                    <div>
-                        <Row>
-                          
-                            <Col lg={24} sm={24}>
-                                <Row id="ProductCardRow">
-                                    {filteredProducts.map((item, index) => (
-                                        <Col lg={layout} md={layout} key={index}>
-                                            <div
-                                                className="BigCardEdit"
-                                                data-aos="fade-up"
-                                                data-aos-delay={`${index * 10}`}
-                                            >
-                                                <div className="HoverImageContainer">
-                                                    <img
-                                                        src={item.ProductImage[0]}
-                                                        alt={`${item.ProductTitle} Default`}
-                                                        className="defaultImage"
-                                                    />
-                                                    {item.ProductImage[1] ? (
-                                                        <img
-                                                            src={item.ProductImage[1]}
-                                                            alt={`${item.ProductTitle} Hover`}
-                                                            className="hoverImage"
-                                                        />
-                                                    ) : (
-                                                        <img
-                                                            src={item.ProductImage[0]}
-                                                            alt={`${item.ProductTitle} Hover`}
-                                                            className="hoverImage"
-                                                        />
-                                                    )}
-                                                </div>
-                                                <div className="TitleContainer">
-                                                    <span>{item.ProductCategories}</span>
-                                                    <h4>{item.ProductTitle}</h4>
-                                                    <div style={{ display: "flex", justifyContent: "center", width: "100%" }} className="InsideContainer" id="ProductButton">
-                                                        <button onClick={() => openModal(item)}><FaArrowRightLong /></button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </Col>
-                                    ))}
-                                </Row>
-                            </Col>
-                        </Row>
-                    </div>
-                </div> */}
             </section>
 
             {/* Modal for product info */}

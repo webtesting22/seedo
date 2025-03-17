@@ -272,9 +272,11 @@
     .ReviewCardContainer {
         padding: 0rem 10rem;
     }
-    .SingleProductContainer{
+
+    .SingleProductContainer {
         padding: 0rem 10rem;
     }
+
     .ProductCard {
         background: #ffffff;
         padding: 80px 8rem !important;
@@ -284,7 +286,7 @@
 
 .ProductCard {
     background: #ffffff;
-    padding: 0px 0rem ;
+    padding: 0px 0rem;
     /* padding-top: 2rem ; */
 }
 
@@ -331,7 +333,7 @@
 }
 
 .SimilarProductCard img {
-    width: 80%;
+    width: 90%;
     aspect-ratio: 3/2;
     /* height: 300px; */
     object-fit: contain;
@@ -546,10 +548,18 @@ width: 150px !important;
     border-radius: 6px;
 }
 
-@media (max-width:900px) {
+@media (max-width:600px){
     .productSpecificatinContainer .ProductFeaturesList p b {
         width: unset;
     }
+}
+
+@media (max-width:900px) {
+   .OnMobileOnly .swiper-wrapper{
+    display: flex;
+    align-items: center;
+   }
+  
 
     .OnMobileOnly {
         margin-left: 0px !important;
@@ -772,7 +782,7 @@ width: 150px !important;
     .SpecificationContainer .FeaturesIcons {
         position: static !important;
         display: flex;
-        justify-content:start;
+        justify-content: start;
         gap: 20px;
     }
 

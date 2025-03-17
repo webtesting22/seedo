@@ -14,8 +14,6 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 // import required modules
 import { Autoplay, FreeMode, Pagination } from 'swiper/modules';
-import { IoArrowDownOutline } from "react-icons/io5";
-import { IoMdArrowUp } from "react-icons/io";
 import { MdKeyboardArrowUp, MdKeyboardArrowDown } from "react-icons/md";
 
 const SingleProductPage = () => {
@@ -42,6 +40,8 @@ const SingleProductPage = () => {
     useEffect(() => {
         if (product?.ProductImage && product.ProductImage.length > 0) {
             const firstMedia = product.ProductImage[0];
+
+            // Generate a color map based on image names
             if (product?.ProductImage) {
                 const map = {};
                 product.ProductImage.forEach((img) => {
@@ -52,14 +52,17 @@ const SingleProductPage = () => {
                 });
                 setColorMap(map);
             }
-            if (firstMedia.includes(".mp4")) {
-                setMainImage({ type: "video", url: firstMedia });
-            } else {
-                setMainImage({ type: "image", url: firstMedia });
+
+            // Set main image based on type
+            if (typeof firstMedia === "string") {
+                setMainImage(
+                    firstMedia.includes(".mp4")
+                        ? { type: "video", url: firstMedia }
+                        : { type: "image", url: firstMedia }
+                );
             }
 
             setOtherImages(product.ProductImage.slice(1));
-            
         }
     }, [product]);
 
@@ -74,10 +77,14 @@ const SingleProductPage = () => {
 
     // Handle clicking on an "other image" or color
     const handleImageClick = (clickedMedia) => {
-        if (clickedMedia.includes(".mp4")) {
-            setMainImage({ type: "video", url: clickedMedia });
-        } else {
-            setMainImage({ type: "image", url: clickedMedia });
+        event.stopPropagation(); // ✅ Prevent Swiper from blocking clicks
+
+        if (typeof clickedMedia === "string") {
+            setMainImage(
+                clickedMedia.includes(".mp4")
+                    ? { type: "video", url: clickedMedia }
+                    : { type: "image", url: clickedMedia }
+            );
         }
     };
 
@@ -241,43 +248,46 @@ const SingleProductPage = () => {
                                     </Col>
                                     <Col lg={4} className="OnMobileOnly" style={{ width: "100%" }} >
                                         <Swiper
-                                            slidesPerView={3}
+                                            slidesPerView={2}
                                             spaceBetween={10}
                                             freeMode={true}
                                             loop={true}
-                                            // direction={'vertical'}
                                             autoplay={{
                                                 delay: 2000,
                                                 disableOnInteraction: true,
                                             }}
-                                            // pagination={{
-                                            //     clickable: true,
-                                            // }}
-                                            // navigation={true}
                                             modules={[Autoplay, FreeMode, Pagination]}
                                             className="mySwiper"
                                         >
+                                            {otherImages.length > 0 ? (
+                                                otherImages.map((media, index) => {
+                                                    const mediaUrl = typeof media === "string" ? media : ""; // Ensure it's a string
 
-                                            <div >
-                                                {otherImages.length > 0 ? (
-                                                    otherImages.map((img, index) => (
-                                                        <SwiperSlide>
+                                                    return (
+                                                        <SwiperSlide key={index}> {/* ✅ Key added */}
                                                             <div
-                                                                key={index}
                                                                 className="OtherImageThumbnail"
-                                                                onClick={() => handleImageClick(img)}
+                                                                onClick={() => handleImageClick(mediaUrl)}
                                                                 style={{ cursor: "pointer" }}
                                                             >
-                                                                <img src={img} alt={`Other image ${index + 1}`} />
+                                                                {mediaUrl.includes(".mp4") ? ( // ✅ Check for video
+                                                                    <video
+                                                                        src={mediaUrl}
+                                                                        controls
+                                                                        muted
+                                                                        autoPlay
+                                                                        style={{ width: "100%", borderRadius: "5px" }}
+                                                                    />
+                                                                ) : (
+                                                                    <img src={mediaUrl} alt={`Other media ${index + 1}`} />
+                                                                )}
                                                             </div>
                                                         </SwiperSlide>
-                                                    ))
-                                                ) : (
-                                                    <p>Other images coming soon!</p>
-                                                )}
-                                            </div>
-
-
+                                                    );
+                                                })
+                                            ) : (
+                                                <p>Other images coming soon!</p>
+                                            )}
                                         </Swiper>
                                     </Col>
                                 </Row>
@@ -382,7 +392,7 @@ const SingleProductPage = () => {
 
                             return (
                                 <Col key={prod.id} lg={6} md={12} sm={24} style={{ width: "100%" }}>
-                                    <div className="SimilarProductCard" style={{ backgroundColor }}>
+                                    <div className="SimilarProductCard" style={{ backgroundColor: prod.cardColor }}>
                                         <Link
                                             to={`/singleproduct/${categoryName}/${prod.id}`}
                                             className="ProductLink"

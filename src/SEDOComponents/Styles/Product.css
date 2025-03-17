@@ -517,7 +517,29 @@
   opacity: 1;
   /* Hide the first image on hover */
 }
+#SearchBarComponent{
+  display: flex;
+  justify-content: end;
+}
 
+#SearchBarComponent .ant-select-selector {
+  border-color: #156ba18b !important;
+  box-shadow: none;
+  background-color: transparent;
+  border-radius: 30px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 29px;
+  width: 100%;
+}
+
+
+
+#SearchBarComponent .ant-select {
+  width: 30%;
+}
 
 @media (min-width:1500px) and (max-width:3000px) {
   .CatalogueCardsContainer {
@@ -528,9 +550,14 @@
 }
 
 @media (max-width:769px) {
+  #SearchBarComponent .ant-select {
+    width: 100%;
+  }
+  
   .SubCategoryProductsContainer {
     padding-top: 4rem;
   }
+
   .ProductHeaderContainer {
     min-height: 400px;
     /* width: 100%; */
