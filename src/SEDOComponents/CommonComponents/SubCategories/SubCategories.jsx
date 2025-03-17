@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import Navigation from "../Navigation/Navigation";
 import "./SubCategories.css"
 import SeedoProductData from "../../ProductData";
-import { Row, Col, Button } from "antd";
+import { Row, Col, Button,Breadcrumb } from "antd";
 import { Link } from "react-router-dom";
 import { IoGrid } from "react-icons/io5";
 import { BsGrid3X3GapFill } from "react-icons/bs";
@@ -46,43 +46,21 @@ const SubCategories = () => {
                     <img src={categoryData.MobilesubcategoryImage} alt={categoryName} style={{ maxWidth: "100%", height: "auto" }} />
                 </div>
                 <div className="CatalogueCardsContainer" >
-                    <div className="SectionInfoContainer">
-                        <div className="CategoryCountContainer" style={{ width: "100%" }}>
-                            {/* Display the dynamic count of subcategories or products */}
-                            <p>
-                                <span>
-                                    {hasSubcategories
-                                        ? Object.keys(categoryData.subcategories).length // Count of subcategories
-                                        : products.length} {/* Count of products if no subcategories */}
-                                </span>{" "}
-                                {hasSubcategories ? "Available Selections" : "Available Selections"}
-                            </p>
-                        </div>
-                        <div style={{ width: "100%", display: "flex", justifyContent: "end" }}>
-                            <Button
-                                type={columnSpan === 8 ? "primary" : "default"}
-                                onClick={() => handleColumnSpanChange(8)}
-                                style={{ marginRight: "8px" }}
-                            >
-                                <BsGrid3X3GapFill />
-                            </Button>
-                            <Button
-                                type={columnSpan === 12 ? "primary" : "default"}
-                                onClick={() => handleColumnSpanChange(12)}
-                                style={{ marginRight: "8px" }}
-                            >
-                                <IoGrid />
-                            </Button>
-                            {/* <Button
-                    type={columnSpan === 24 ? "primary" : "default"}
-                    onClick={() => handleColumnSpanChange(24)}
-                >
-                    Vertical (1 Column)
-                </Button> */}
-                        </div>
-                        {/* <div style={{ width: "100%" }} className="SortFilterContainer">
-                            <p style={{ textAlign: "end" }}> hello</p>
-                        </div> */}
+                <div style={{ margin: "16px 0", padding: "0 24px" }}>
+                        <Breadcrumb>
+                            <Breadcrumb.Item>
+                                <Link to="/">Home</Link>
+                            </Breadcrumb.Item>
+                            <Breadcrumb.Item>
+                                <Link to="/products">Products</Link>
+                            </Breadcrumb.Item>
+                            <Breadcrumb.Item>
+                                <Link to={`/subcategories/${categoryName}`}>
+                                    {categoryName}
+                                </Link>
+                            </Breadcrumb.Item>
+                            
+                        </Breadcrumb>
                     </div>
                     <Row>
                         {hasSubcategories ? (
