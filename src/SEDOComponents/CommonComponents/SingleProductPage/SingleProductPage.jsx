@@ -319,7 +319,7 @@ const SingleProductPage = () => {
                                                             height: "30px",
                                                             borderRadius: "50%",
                                                             cursor: "pointer",
-                                                            border: colorMap[color] === mainImage ? "1px solid #00000061" : "1px solid #00000054",
+                                                            // border: colorMap[color] === mainImage ? "1px solid #00000061" : "1px solid #00000054",
                                                         }}
                                                         onClick={() => handleImageClick(colorMap[color])}
                                                     ></div>

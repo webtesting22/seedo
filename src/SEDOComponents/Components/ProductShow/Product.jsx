@@ -104,12 +104,74 @@ const Products = () => {
         setSelectedProduct(null);
     };
 
-    useEffect(() => {
-        // AOS.init(); // Initialize AOS
-        window.scrollTo(0, 0);
-    }, []);
-    // const staticProductCategories = ["Category1", "Category2", "Category3"]; // Define static categories
+    // useEffect(() => {
+    //     const categoryCount = Object.keys(SeedoProductData).length;
 
+    //     let totalSubcategories = 0;
+    //     let totalProducts = 0;
+
+    //     Object.keys(SeedoProductData).forEach((categoryName) => {
+    //         const categoryData = SeedoProductData[categoryName];
+    //         const subcategories = categoryData.subcategories || {};
+
+    //         totalSubcategories += Object.keys(subcategories).length;
+
+    //         Object.keys(subcategories).forEach((subName) => {
+    //             totalProducts += subcategories[subName].length; // Count products inside subcategories
+    //         });
+
+    //         if (categoryData.products) {
+    //             totalProducts += categoryData.products.length; // Count direct products inside category
+    //         }
+    //     });
+
+    //     console.log("Total Categories:", categoryCount);
+    //     console.log("Total Subcategories:", totalSubcategories);
+    //     console.log("Total Products:", totalProducts);
+    //     // AOS.init(); // Initialize AOS
+    //     window.scrollTo(0, 0);
+    // }, []);
+    // useEffect(() => {
+    //     console.log("===== Category Breakdown =====");
+    
+    //     const categoryDetails = Object.keys(SeedoProductData).map((categoryName) => {
+    //         const categoryData = SeedoProductData[categoryName];
+    //         const subcategories = categoryData.subcategories || {};
+            
+    //         const subcategoryDetails = Object.keys(subcategories).map((subName) => {
+    //             const productCount = subcategories[subName]?.length || 0;
+    //             console.log(`  🔹 Subcategory: ${subName} - ${productCount} Products`);
+    //             return { name: subName, productCount };
+    //         });
+    
+    //         const totalCategoryProducts = categoryData.products ? categoryData.products.length : 0;
+    //         const totalSubcategoryProducts = subcategoryDetails.reduce((sum, sub) => sum + sub.productCount, 0);
+    //         const totalProducts = totalCategoryProducts + totalSubcategoryProducts;
+    
+    //         console.log(`🟢 Category: ${categoryName}`);
+    //         console.log(`  🔸 Total Subcategories: ${Object.keys(subcategories).length}`);
+    //         console.log(`  🔸 Total Products (Including Subcategories): ${totalProducts}`);
+    
+    //         return {
+    //             categoryName,
+    //             subcategories: subcategoryDetails,
+    //             totalProducts,
+    //         };
+    //     });
+    
+    //     console.log("===== Summary =====");
+    //     console.log(`Total Categories: ${categoryDetails.length}`);
+    //     console.log(
+    //         `Total Subcategories: ${categoryDetails.reduce((sum, cat) => sum + cat.subcategories.length, 0)}`
+    //     );
+    //     console.log(
+    //         `Total Products: ${categoryDetails.reduce((sum, cat) => sum + cat.totalProducts, 0)}`
+    //     );
+    
+    // }, []);
+    
+    // const staticProductCategories = ["Category1", "Category2", "Category3"]; // Define static categories
+   
     return (
         <>
             <div className="AboutUs">

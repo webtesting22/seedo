@@ -281,7 +281,7 @@ import BIGMONSTERWHEELFARMERTRACTOR2 from "../assets/MultipleViewImages/BIGMONST
 import DOUBLEINERTIAINSECTBEETLE from "../assets/MultipleViewImages/DOUBLEINERTIAINSECTBEETLE.png"
 import COOLRUNDINOSAUR from "../assets/MultipleViewImages/COOLRUNDINOSAUR.png"
 import ULTRALEDFLYINGDISC from "../assets/MultipleViewImages/ULTRA LEDFLYINGDISC.png"
-import MONSTERTUMBLE from "../assets/MultipleViewImages/MONSTERTUMBLE.png"
+import MONSTERTUMBLE from "../assets/MultipleViewImages/MosterThumble.png"
 import MUSICALSAXOPHONETOY from "../assets/MultipleViewImages/MUSICALSAXOPHONETOY.png"
 import WaterTurtleToy from "../assets/MultipleViewImages/WaterTurtleToy.png"
 import MUSICALTRUMPETTOY from "../assets/MultipleViewImages/MUSICALTRUMPETTOY.png"
@@ -947,7 +947,8 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        MT003, DinoShellCrawler1, DinoShellCrawler2, DinoShellCrawler3, DinoShellCrawler4, DinoShellCrawler5, DinoShellCrawler6
+                        MT003,
+                         DinoShellCrawler1, DinoShellCrawler2, DinoShellCrawler3, DinoShellCrawler4, DinoShellCrawler5, DinoShellCrawler6
                     ],
                     Price: "Rs.1599",
                     Quantity: "24 pcs./box",
@@ -1007,13 +1008,13 @@ const SeedoProductData = {
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
                         "/Images/ProductIconsImages/3DLights.png",
-                        "/Images/ProductIconsImages/ ShockAbsorber.png",
+                        "/Images/ProductIconsImages/ShockAbsorber.png",
 
                     ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        RockCrawler1,
-                        RockCrawler2, RockCrawler3, RockCrawler4, RockCrawler5, RockCrawler6, RockCrawler7, "https://prepseed.s3.ap-south-1.amazonaws.com/pvc+rock+crawler+.mp4",
+                        // RockCrawler1,
+                        RockCrawler2,RockCrawler6, RockCrawler3, RockCrawler4, RockCrawler5 , RockCrawler7, "https://prepseed.s3.ap-south-1.amazonaws.com/pvc+rock+crawler+.mp4",
                         MT002,
                     ],
                     Price: "Rs.1499",
@@ -1472,7 +1473,7 @@ const SeedoProductData = {
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Packaging</b> 2.4GHz</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1839,7 +1840,7 @@ const SeedoProductData = {
                     id: 36,
                     name: "SMR Pull Back Series-A02/6",
                     ProductBatteryType: "-",
-                    ProductImage: [SMRPBSA026],
+                    ProductImage: [SMRPBSA036],
                     Price: "Rs.159",
                     Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-PBS-A02/6",
@@ -1858,7 +1859,7 @@ const SeedoProductData = {
                     id: 37,
                     name: "SMR Pull Back Series-A03/6",
                     ProductBatteryType: "-",
-                    ProductImage: [SMRPBSA036],
+                    ProductImage: [SMRPBSA026],
                     Price: "Rs.159",
                     Quantity: "72 pcs./box",
                     ProductStyleCode: "SMR-PBS-A03/6",
