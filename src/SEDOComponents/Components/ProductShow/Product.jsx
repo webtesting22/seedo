@@ -95,7 +95,7 @@ const Products = () => {
     const closeDrawer = () => setDrawerOpen(false);
 
     const openModal = (product) => {
-        setSelectedProduct(product);
+        setSelectedProduct(product)
         setModalOpen(true);
     };
 

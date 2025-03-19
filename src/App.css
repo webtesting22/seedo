@@ -56,26 +56,70 @@ body {
 .ant-drawer {
   z-index: 10000000000;
 }
-@media (max-width:900px){
 
-.titleFont {
-  font-size: 34px;
-  position: relative;
-  padding: 10px 20px;
-  color: #2f2b2b;
-  margin: 0px;
-  position: sticky;
-  text-align: center;
+.BrainyBearStyle {
+  gap: 20px;
 }
+
+.BrainyBearStyle ul {
+  list-style: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.BrainyBearStyle ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.BrainyBearStyle ul li {
+  width: 100%;
+}
+
+.BrainyBearStyle ul:first-child li {
+  width: 50%;
+  margin-bottom: 7px;
+}
+
+.BrainyBearStyle ul li:first-child {
+  width: 100% !important;
+  margin-bottom: 20px;
+}
+
+@media (max-width:900px) {
+  .BrainyBearStyle ul:first-child li {
+    width: 100%;
+    margin-bottom: 7px;
+  }
+
+  .titleFont {
+    font-size: 34px;
+    position: relative;
+    padding: 10px 20px;
+    color: #2f2b2b;
+    margin: 0px;
+    position: sticky;
+    text-align: center;
+  }
+
+  .BrainyBearStyle ul:first-child {
+    padding: 10px;
+  }
+
+  .BrainyBearStyle ul {
+    width: none;
+  }
 
 }
 
 ::selection {
-  background-color: #f8c6d466; /* Change to your preferred highlight color */
-  color: #000; /* Change text color when highlighted */
+  background-color: #f8c6d466;
+  /* Change to your preferred highlight color */
+  color: #000;
+  /* Change text color when highlighted */
 }
 
-
-.AboutUs #NavigationContainer{
+.AboutUs #NavigationContainer {
   background-color: white;
 }

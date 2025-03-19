@@ -15,9 +15,9 @@ import PNGMC_4 from "/Images/ProductsImages/Friction and pull back products/PNG-
 import PNGMC_5 from "/Images/ProductsImages/Friction and pull back products/PNG-MC(yellow).png"
 import PNGMC_6 from "/Images/ProductsImages/Friction and pull back products/PNG-MC6.png"
 import PNGSRPO12 from "/Images/ProductsImages/Friction and pull back products/PNG-SR-PO12.png"
-import PNGSSPO9 from "/Images/ProductsImages/Friction and pull back products/PNG-SS-PO9.png"
-import PNGSSPO9_2 from "/Images/ProductsImages/Friction and pull back products/PNG-SS-PO9(2).png"
-import PNGSSPO9_3 from "/Images/ProductsImages/Friction and pull back products/PNG-SS-PO9(3).png"
+import SpaceSeries from "../assets/MultipleViewImages/SpaceSeriesPressAndGo/SpaceSeries(grey).png"
+import SpaceSeries2 from "../assets/MultipleViewImages/SpaceSeriesPressAndGo/SpaceSeries(blue).png"
+import SpaceSeries3 from "../assets/MultipleViewImages/SpaceSeriesPressAndGo/SpaceSeries(skyblue).png"
 import PNGToys from "/Images/ProductsImages/Friction and pull back products/PNG-Toys(red).png"
 import PNGToys_2 from "/Images/ProductsImages/Friction and pull back products/PNG-Toys(green).png"
 import SMRCSA016 from "/Images/ProductsImages/Metal x Racer/ConstructionSeries/SMR-CS-A01-6.png"
@@ -100,11 +100,14 @@ import LRC00E from "/Images/ProductsImages/RC Car/124LRC00E(orange).png"
 import PRC001 from "/Images/ProductsImages/RC Car/124PRC001.png"
 import RC001_124 from "/Images/ProductsImages/RC Car/124RC001.png"
 import SC001_124 from "/Images/ProductsImages/RC Car/124SC001(red).png"
+import StuntCar from "../assets/MultipleViewImages/StuntCar/StuntCar(green).png"
+import StuntCar2 from "../assets/MultipleViewImages/StuntCar/StuntCar(Blue).png"
+import StuntCar3 from "../assets/MultipleViewImages/StuntCar/StuntCar(yellow).png"
 import W001 from "/Images/ProductsImages/RC Car/1182W001(red).png"
 import W001_2 from "/Images/ProductsImages/RC Car/1182W001(yellow).png"
 import W002 from "/Images/ProductsImages/RC Car/1182W002.png"
 import W003 from "/Images/ProductsImages/RC Car/1182W003.png"
-// import STDR001 from "/Images/ProductsImages/RC Car/STDR001.png"
+import STDR001 from "/Images/ProductsImages/RC Car/STDR001.png"
 import CRAWLER from "/Images/Products/ProductImages/CRAWLER.png"
 import ThunderBird1 from "../assets/MultipleViewImages/ThunderBird1.png"
 import ThunderBird2 from "../assets/MultipleViewImages/ThunderBird2(orange).png"
@@ -135,7 +138,7 @@ import RockCrawler4 from "../assets/MultipleViewImages/RockCrawler4.jpg"
 import RockCrawler5 from "../assets/MultipleViewImages/RockCrawler5(green).jpg"
 import RockCrawler6 from "../assets/MultipleViewImages/RockCrawler6.jpg"
 import RockCrawler7 from "../assets/MultipleViewImages/RockCrawler7(red).jpg"
-// import RoadSniper1 from "../assets/MultipleViewImages/RoadSniper1.png"
+import RoadSniper1 from "../assets/MultipleViewImages/RoadSniper1.png"
 import RoadSniper2 from "../assets/MultipleViewImages/RoadSniper2(red).png"
 import RoadSniper3 from "../assets/MultipleViewImages/RoadSniper3.png"
 import RoadSniper4 from "../assets/MultipleViewImages/RoadSniper4.png"
@@ -173,16 +176,8 @@ import LuxuriousCar5 from "../assets/MultipleViewImages/LuxuriousCar5.png"
 import LuxuriousCar6 from "../assets/MultipleViewImages/LuxuriousCar6.png"
 import LuxuriousCar7 from "../assets/MultipleViewImages/LuxuriousCar7.png"
 import LuxuriousCar8 from "../assets/MultipleViewImages/LuxuriousCar8.png"
-import LightBlaster1 from "../assets/MultipleViewImages/LightBlaster1(red).png"
-import LightBlaster2 from "../assets/MultipleViewImages/LightBlaster2.png"
-import LightBlaster3 from "../assets/MultipleViewImages/LightBlaster3.png"
-import LightBlaster4 from "../assets/MultipleViewImages/LightBlaster4.png"
-import LightBlaster5 from "../assets/MultipleViewImages/LightBlaster5.png"
-import LightBlaster6 from "../assets/MultipleViewImages/LightBlaster6.png"
 import LightBlaster7 from "../assets/MultipleViewImages/LightBlaster7.png"
 import LightBlaster8 from "../assets/MultipleViewImages/LightBlaster8.png"
-import LightBlaster9 from "../assets/MultipleViewImages/LightBlasterTwoWay/LightBlaster(orange).png"
-import LightBlaster10 from "../assets/MultipleViewImages/LightBlasterTwoWay/LightBlaster(yellow).png"
 import Laptop1 from "../assets/MultipleViewImages/Laptop1(blue).png"
 import Laptop2 from "../assets/MultipleViewImages/Laptop2(pink).png"
 import Laptop3 from "../assets/MultipleViewImages/Laptop3(black).png"
@@ -201,7 +196,7 @@ import HyperBeast8 from "../assets/MultipleViewImages/HyperBeast8.png"
 import HyperBeast9 from "../assets/MultipleViewImages/HyperBeast9.png"
 import GunRockCrawler2 from "../assets/MultipleViewImages/GunRockCrawler2.jpg"
 import GunRockCrawler from "../assets/MultipleViewImages/GunRockCrawler(red).jpg"
-import BrainyBear1 from "../assets/MultipleViewImages/BrainyBear1(brown).png"
+// import BrainyBear1 from "../assets/MultipleViewImages/BrainyBear1(#b57d43).png"
 import BrainyBear2 from "../assets/MultipleViewImages/BrainyBear2(white).png"
 import BrainyBear3 from "../assets/MultipleViewImages/BrainyBear3.png"
 import BrainyBear4 from "../assets/MultipleViewImages/BrainyBear4(beige).png"
@@ -219,8 +214,6 @@ import BlazeRunner6 from "../assets/MultipleViewImages/BlazeRunner6.png"
 import BlazeRunner7 from "../assets/MultipleViewImages/BlazeRunner7.png"
 import BlazeRunner8 from "../assets/MultipleViewImages/BlazeRunner8.png"
 import BlazeRunner9 from "../assets/MultipleViewImages/BlazeRunner9.png"
-import BlazeRunner10 from "../assets/MultipleViewImages/BlazeRunner10.png"
-import BlazeRunner11 from "../assets/MultipleViewImages/BlazeRunner11.png"
 import DazzalingCar1 from "../assets/MultipleViewImages/DazzalingCar1(blue).png"
 import DazzalingCar2 from "../assets/MultipleViewImages/DazzalingCar2.png"
 import DazzalingCar3 from "../assets/MultipleViewImages/DazzalingCar3.png"
@@ -237,7 +230,6 @@ import Drone1 from "../assets/MultipleViewImages/Drone1(green).png"
 import Drone2 from "../assets/MultipleViewImages/Drone2.png"
 import Drone3 from "../assets/MultipleViewImages/Drone3(white).png"
 import Drone4 from "../assets/MultipleViewImages/Drone4.png"
-import Drone5 from "../assets/MultipleViewImages/Drone5.png"
 import Drone6 from "../assets/MultipleViewImages/Drone6.png"
 import Drone7 from "../assets/MultipleViewImages/Drone7(yellow).png"
 import Drone8 from "../assets/MultipleViewImages/Drone8.png"
@@ -250,6 +242,10 @@ import DinoShellCrawler4 from "../assets/MultipleViewImages/DinoShellCrawler4.jp
 import DinoShellCrawler5 from "../assets/MultipleViewImages/DinoShellCrawler5.jpg"
 import DinoShellCrawler6 from "../assets/MultipleViewImages/DinoShellCrawler6.jpg"
 import DANCINGOCTOPUSTOY from "../assets/MultipleViewImages/DANCINGOCTOPUSTOY.png"
+import DinoRockCrawler1 from "../assets/MultipleViewImages/RockCrawler/RockCrawler(red).png"
+import DinoRockCrawler2 from "../assets/MultipleViewImages/RockCrawler/RockCrawler(Orange).png"
+import DinoRockCrawler3 from "../assets/MultipleViewImages/RockCrawler/RockCrawler(green).png"
+import DinoRockCrawler4 from "../assets/MultipleViewImages/RockCrawler/RockCrawler(skyblue).png"
 import MUSICALDINO from "../assets/MultipleViewImages/MUSICALDINO.png"
 import MUSICALGUITAR from "../assets/MultipleViewImages/MUSICALGUITAR.png"
 import PULLBACKEMERGENCYVEHICLES from "../assets/MultipleViewImages/PULLBACKEMERGENCYVEHICLES.png"
@@ -258,18 +254,6 @@ import TUMBLINGROBOT from "../assets/MultipleViewImages/TUMBLINGROBOT.png"
 import WATERFROGTOY from "../assets/MultipleViewImages/WATERFROGTOY.png"
 import WHISTLEDINOPRESSGO from "../assets/MultipleViewImages/WHISTLEDINOPRESSGO.png"
 import MUSICALRESCUEHELICOPTER from "../assets/MultipleViewImages/MUSICALRESCUEHELICOPTER.png"
-// import MONSTERACROBATICTRUCK from "../assets/MultipleViewImages/MONSTERACROBATICTRUCK.png"
-import Monstertruck1 from "../assets/MultipleViewImages/Monstertruck1(blue).png"
-import Monstertruck5 from "../assets/MultipleViewImages/Monstertruck1.png"
-import Monstertruck2 from "../assets/MultipleViewImages/Monstertruck2.png"
-import Monstertruck3 from "../assets/MultipleViewImages/Monstertruck3.png"
-import Monstertruck4 from "../assets/MultipleViewImages/Monstertruck4.png"
-import Monstertruck9 from "../assets/MultipleViewImages/Monstertruck5(red).png"
-import Monstertruck6 from "../assets/MultipleViewImages/Monstertruck6.png"
-import Monstertruck7 from "../assets/MultipleViewImages/Monstertruck7(green).png"
-import Monstertruck8 from "../assets/MultipleViewImages/Monstertruck8.png"
-import Monstertruck10 from "../assets/MultipleViewImages/Monstertruck9(yellow).png"
-import Monstertruck11 from "../assets/MultipleViewImages/Monstertruck10.png"
 import DINOPULLBACK1 from "../assets/MultipleViewImages/DINOPULLBACK.png"
 import PULLBACKTWISTINGSTUNT1 from "../assets/MultipleViewImages/PULLBACKTWISTINGSTUNT.png"
 import PRESSNGOJCBTOYS1 from "../assets/MultipleViewImages/PRESSNGOJCBTOYS.png"
@@ -290,11 +274,12 @@ import Blaster1 from "../assets/MultipleViewImages/Blaster(black).png"
 import SmokeCrawler from "../assets/MultipleViewImages/SmokeCrawler.png"
 const SeedoProductData = {
     "Remote Controlled Cars": {
-        CategoriryImage: "Images/RCCar.png",
-        subcategoryImage: "/Images/NewBanners/6.jpg",
-        MobilesubcategoryImage: "/Images/NewBanners/MobileBanners/6.jpg",
-        subcategories: {
-            "1:18": [
+        CategoriryImage: "Images/RCCar.png",   // Product Category card Image........... (Remote Control Car Image)
+        subcategoryImage: "/Images/NewBanners/6.jpg",  //  SubCategory TopSection Banner Specific Pc...........
+        MobilesubcategoryImage: "/Images/NewBanners/MobileBanners/6.jpg", //  SubCategory TopSection Banner Specific Mobile...........
+        subcategories: { // Divided Subcategories to the main category............
+            "1:18": [  //This is the Subcategory Example..............
+
                 {
                     id: 1,
                     name: "Light Blaster 2 Way",
@@ -306,7 +291,14 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Non - Rechargable",
                     ProductImage: [
-                        LightBlaster1, LightBlaster2, LightBlaster3, LightBlaster4, LightBlaster5, LightBlaster6, LightBlaster9, LightBlaster10
+                        "/Images/ProductsImages/LightBlaster2way/LightBlaster1(red).png",
+                        "/Images/ProductsImages/LightBlaster2way/LightBlaster(yellow).png",
+                        "/Images/ProductsImages/LightBlaster2way/LightBlaster(orange).png",
+                        "/Images/ProductsImages/LightBlaster2way/LightBlaster2.png",
+                        "/Images/ProductsImages/LightBlaster2way/LightBlaster3.png",
+                        "/Images/ProductsImages/LightBlaster2way/LightBlaster4.png",
+                        "/Images/ProductsImages/LightBlaster2way/LightBlaster5.png",
+                        "/Images/ProductsImages/LightBlaster2way/LightBlaster6.png",
                     ],
                     Price: "Rs.399",
                     ProductStyleCode: "1182W001",
@@ -329,6 +321,9 @@ const SeedoProductData = {
                     id: 2,
                     name: "Famous Car 2 Way",
                     cardColor: "#F0FE9F",
+                    colorOptions: [
+                        "orange", "red", "yellow", "green"
+                    ],
                     Features: [
                         "/Images/ProductIconsImages/Moves2Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -336,7 +331,7 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Non - Rechargable",
                     ProductImage: [
-                        W002
+                        "/Images/ProductsImages/FamousCar2way/FamousCar1.png",
                     ],
                     Quantity: "48 pcs./box",
                     Price: "Rs.399",
@@ -367,7 +362,7 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Non - Rechargable",
                     ProductImage: [
-                        W003
+                        "/Images/ProductsImages/FormulaCar2Way/FormulaCar(orange).png"
                     ],
                     Price: "Rs.399",
                     Quantity: "48 pcs./box",
@@ -379,7 +374,6 @@ const SeedoProductData = {
                                 <p><b>Scale</b> 1:18</p>
                                 <p><b>USB</b> No</p>
                                 <p><b>Frequency</b> 27MHz</p>
-
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery</b> Non rechargeable</p>
                             </div>
@@ -398,8 +392,18 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        RC001, BlazeRunner1, BlazeRunner2, BlazeRunner3, BlazeRunner4, BlazeRunner5, BlazeRunner6, BlazeRunner7, BlazeRunner8, BlazeRunner9,
-                        //  BlazeRunner10, BlazeRunner11
+                        "/Images/ProductsImages/BlazeRunner/BlazeRunner.png",
+                        "/Images/ProductsImages/BlazeRunner/BlazeRunner1(blue).png",
+                        "/Images/ProductsImages/BlazeRunner/BlazeRunner2(red).png",
+                        "/Images/ProductsImages/BlazeRunner/BlazeRunner3.png",
+                        "/Images/ProductsImages/BlazeRunner/BlazeRunner4(orange).png",
+                        "/Images/ProductsImages/BlazeRunner/BlazeRunner5(green).png",
+                        "/Images/ProductsImages/BlazeRunner/BlazeRunner6.png",
+                        "/Images/ProductsImages/BlazeRunner/BlazeRunner7.png",
+                        "/Images/ProductsImages/BlazeRunner/BlazeRunner8.png",
+                        "/Images/ProductsImages/BlazeRunner/BlazeRunner9.png",
+                        "/Images/ProductsImages/BlazeRunner/BlazeRunner10.png",
+                        "/Images/ProductsImages/BlazeRunner/BlazeRunner11.png",
                     ],
                     Price: "Rs.899",
                     Quantity: "48 pcs./box",
@@ -411,7 +415,6 @@ const SeedoProductData = {
                                 <p><b>Scale</b> 1:18</p>
                                 <p><b>USB</b> Yes</p>
                                 <p><b>Frequency</b> 27MHz</p>
-
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion
                                     Rechargeable Battery</p>
@@ -430,7 +433,7 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        W002
+                        "/Images/ProductsImages/FamousCar2way/FamousCar1.png",
                     ],
                     Price: "Rs.899",
                     Quantity: "48 pcs./box",
@@ -462,7 +465,10 @@ const SeedoProductData = {
                     Quantity: "48 pcs/box",
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        W001_2, LightBlaster7, LightBlaster8, "https://prepseed.s3.ap-south-1.amazonaws.com/Light+Blaster+(4+Way)+-new+music+(1).mp4"
+                        "/Images/ProductsImages/LightBlaster4Way/LightBlaster(yellow).png",
+                        "/Images/ProductsImages/LightBlaster4Way/LightBlaster7.png",
+                        "/Images/ProductsImages/LightBlaster4Way/LightBlaster8.png",
+                        "https://prepseed.s3.ap-south-1.amazonaws.com/Light+Blaster+(4+Way)+-new+music+(1).mp4"
                     ],
                     Price: "Rs.899",
                     ProductStyleCode: "118RC002",
@@ -490,7 +496,7 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        Blaster1
+                        "/Images/ProductsImages/Blaster023/Blaster023(black).png"
                     ],
                     Price: "Rs.899",
                     Quantity: "48 pcs./box",
@@ -508,33 +514,8 @@ const SeedoProductData = {
                         </div>
                     </>
                 },
-
-                // {
-                //     id: 6,
-                //     name: "Famous Car 4W",
-                //     ProductBatteryType: "Rechargable",
-                //     ProductImage: [
-                //         RC003_118
-                //     ],
-                //     ProductStyleCode: "118RC003",
-                //     Productdescription: <>
-                //         <div>
-                //             <div>
-                //                 <p><b>Material type</b> Virgin grade, High
-                //                     strength ABS Material</p>
-                //                 <p><b>Scale</b> 1:18</p>
-                //                 <p><b>USB</b> Yes (C Type)</p>
-                //                 <p><b>Box Quantity</b> 48 pcs./box</p>
-                //                 <p><b>Frequency</b> 27MHz</p>
-                //                 
-                //                 <p><b>HSN Code</b> 95030030</p>
-                //                 <p><b>Battery Cell type</b> 3.7V Li-ion
-                //                     Rechargeable Battery</p>
-                //             </div>
-                //         </div>
-                //     </>
-                // },
             ],
+
             "1:24": [
                 {
                     id: 7,
@@ -548,7 +529,12 @@ const SeedoProductData = {
                     ProductBatteryType: "Rechargable",
 
                     ProductImage: [
-                        RacerCar1, RacerCar2, RacerCar3, RacerCar4, RacerCar5, "https://prepseed.s3.ap-south-1.amazonaws.com/Racer+Car+(1).mp4"
+                        "/Images/ProductsImages/RacerCar4way/RacerCar1(blue).png",
+                        "/Images/ProductsImages/RacerCar4way/RacerCar2.png",
+                        "/Images/ProductsImages/RacerCar4way/RacerCar3.png",
+                        "/Images/ProductsImages/RacerCar4way/RacerCar4.png",
+                        "/Images/ProductsImages/RacerCar4way/RacerCar5.png",
+                        "https://prepseed.s3.ap-south-1.amazonaws.com/Racer+Car+(1).mp4"
                     ],
                     Price: "Rs.899",
                     Quantity: "48 pcs./box",
@@ -561,7 +547,6 @@ const SeedoProductData = {
                                 <p><b>Scale</b> 1:24</p>
                                 <p><b>USB</b> Yes</p>
                                 <p><b>Frequency</b> 27MHz</p>
-
                                 <p><b>HSN Code</b> 95030030</p>
                                 <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
                             </div>
@@ -578,10 +563,10 @@ const SeedoProductData = {
                         "/Images/ProductIconsImages/RubberTires.png",
                         "/Images/ProductIconsImages/HeadLights.png",
                     ],
-                    ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        LRC00B
+                        "/Images/ProductsImages/LittleRoster/LittleRoster.png"
                     ],
+                    ProductBatteryType: "Rechargable",
                     Price: "Rs.899",
                     Quantity: "48 pcs./box",
                     ProductStyleCode: "124LRCOOB",
@@ -607,10 +592,21 @@ const SeedoProductData = {
                         "/Images/ProductIconsImages/RubberTires.png",
                         "/Images/ProductIconsImages/HeadLights.png",
                     ],
-                    ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        SpectreCar3, SpectreCar2, SpectreCar1, SpectreCar4, SpectreCar5, SpectreCar6, SpectreCar7, SpectreCar8, SpectreCar9, SpectreCar10, SpectreCar11, LRC00C, "https://prepseed.s3.ap-south-1.amazonaws.com/Copy+of+specter+car+(1).mp4"
+                        "/Images/ProductsImages/SpectreCar/SpectreCar(blue).png",
+                        "/Images/ProductsImages/SpectreCar/SpectreCar(orange).png",
+                        "/Images/ProductsImages/SpectreCar/SpectreCar(red).png",
+                        "/Images/ProductsImages/SpectreCar/SpectreCar(yellow).png",
+                        "/Images/ProductsImages/SpectreCar/SpectreCar1.png",
+                        "/Images/ProductsImages/SpectreCar/SpectreCar2.png",
+                        "/Images/ProductsImages/SpectreCar/SpectreCar3.png",
+                        "/Images/ProductsImages/SpectreCar/SpectreCar4.png",
+                        "/Images/ProductsImages/SpectreCar/SpectreCar5.png",
+                        "/Images/ProductsImages/SpectreCar/SpectreCar6.png",
+                        "/Images/ProductsImages/SpectreCar/SpectreCar7.png",
+                        "https://prepseed.s3.ap-south-1.amazonaws.com/Copy+of+specter+car+(1).mp4"
                     ],
+                    ProductBatteryType: "Rechargable",
                     Price: "Rs.899",
                     Quantity: "48 pcs./box",
                     ProductStyleCode: "124LRC00C",
@@ -631,6 +627,9 @@ const SeedoProductData = {
                     id: 10,
                     name: "Road Sniper 01",
                     cardColor: "rgba(103, 152, 229, 0.59)",
+                    colorOptions: [
+                        "grey",
+                    ],
                     Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -638,7 +637,16 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        LRC00D, RoadSniper02, RoadSniper03, RoadSniper04, RoadSniper05, RoadSniper06, RoadSniper07, RoadSniper08, RoadSniper09, RoadSniper010
+                        "/Images/ProductsImages/RoadSniper01/RoadSniper(blue).png",
+                        "/Images/ProductsImages/RoadSniper01/RoadSniper(black).png",
+                        "/Images/ProductsImages/RoadSniper01/RoadSniper(red).png",
+                        "/Images/ProductsImages/RoadSniper01/RoadSniper1.png",
+                        "/Images/ProductsImages/RoadSniper01/RoadSniper2.png",
+                        "/Images/ProductsImages/RoadSniper01/RoadSniper3.png",
+                        "/Images/ProductsImages/RoadSniper01/RoadSniper4.png",
+                        "/Images/ProductsImages/RoadSniper01/RoadSniper5.png",
+                        "/Images/ProductsImages/RoadSniper01/RoadSniper6.png",
+                        "/Images/ProductsImages/RoadSniper01/RoadSniper7.png",
                     ],
                     Price: "Rs.899",
                     Quantity: "48 pcs./box",
@@ -668,7 +676,14 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        LRC00E, RoadSniper2, RoadSniper3, RoadSniper4, RoadSniper5, RoadSniper6, RoadSniper7, RoadSniper8
+                        "/Images/ProductsImages/RoadSniper02/RoadSniper(red).png",
+                        "/Images/ProductsImages/RoadSniper02/RoadSniper(blue).png",
+                        // "/Images/ProductsImages/RoadSniper02/RoadSniper(gray).png",
+                        "/Images/ProductsImages/RoadSniper02/RoadSniper(yellow).png",
+                        "/Images/ProductsImages/RoadSniper02/RoadSniper1.png",
+                        "/Images/ProductsImages/RoadSniper02/RoadSniper2.png",
+                        "/Images/ProductsImages/RoadSniper02/RoadSniper3.png",
+                        "/Images/ProductsImages/RoadSniper02/RoadSniper4.png"
                     ],
                     Price: "Rs.899",
                     Quantity: "48 pcs./box",
@@ -699,7 +714,7 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        RoadSniper6
+                        "/Images/ProductsImages/RoadSniper02/RoadSniper(gray).png",
                     ],
                     Price: "Rs.899",
                     Quantity: "48 pcs./box",
@@ -721,6 +736,9 @@ const SeedoProductData = {
                 {
                     id: 12,
                     name: "Police Car",
+                    colorOptions: [
+                        "white",
+                    ],
                     cardColor: "#D3D3D3",
                     Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
@@ -729,7 +747,14 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        PoliceCar1, PoliceCar2, PoliceCar3, PoliceCar4, PoliceCar5, PoliceCar6, PoliceCar7, "https://prepseed.s3.ap-south-1.amazonaws.com/police+car+(1).mp4"
+                        "/Images/ProductsImages/PoliceCar/PoliceCar(black).png",
+                        "/Images/ProductsImages/PoliceCar/PoliceCar2.png",
+                        "/Images/ProductsImages/PoliceCar/PoliceCar3.png",
+                        "/Images/ProductsImages/PoliceCar/PoliceCar4.png",
+                        "/Images/ProductsImages/PoliceCar/PoliceCar5.png",
+                        "/Images/ProductsImages/PoliceCar/PoliceCar6.png",
+                        "/Images/ProductsImages/PoliceCar/PoliceCar7.png",
+                        "https://prepseed.s3.ap-south-1.amazonaws.com/police+car+(1).mp4"
                     ],
                     Price: "Rs.899",
                     Quantity: "48 pcs./box",
@@ -751,6 +776,9 @@ const SeedoProductData = {
                 {
                     id: 13,
                     name: "Dazzling",
+                    colorOptions: [
+                        "orange"
+                    ],
                     cardColor: "rgb(174 225 97 / 74%)",
                     Features: [
                         "/Images/ProductIconsImages/Music.png",
@@ -760,7 +788,18 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        RC001_124, DazzalingCar1, DazzalingCar2, DazzalingCar3, DazzalingCar4, DazzalingCar5, DazzalingCar6, DazzalingCar7, DazzalingCar8, DazzalingCar9, DazzalingCar10, DazzalingCar11, DazzalingCar12
+                        "/Images/ProductsImages/Dazzling/DazzalingCar(green).png",
+                        "/Images/ProductsImages/Dazzling/DazzalingCar(blue).png",
+                        "/Images/ProductsImages/Dazzling/DazzalingCar(red).png",
+                        "/Images/ProductsImages/Dazzling/DazzalingCar1.png",
+                        "/Images/ProductsImages/Dazzling/DazzalingCar2.png",
+                        "/Images/ProductsImages/Dazzling/DazzalingCar3.png",
+                        "/Images/ProductsImages/Dazzling/DazzalingCar4.png",
+                        "/Images/ProductsImages/Dazzling/DazzalingCar5.png",
+                        "/Images/ProductsImages/Dazzling/DazzalingCar6.png",
+                        "/Images/ProductsImages/Dazzling/DazzalingCar7.png",
+                        "/Images/ProductsImages/Dazzling/DazzalingCar8.png",
+                        "/Images/ProductsImages/Dazzling/DazzalingCar9.png",
                     ],
                     Price: "Rs.:1099",
                     Quantity: "36 pcs./box",
@@ -792,7 +831,10 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        SC001_124
+                        "/Images/ProductsImages/StuntCar/StuntCar(Blue).png",
+                        "/Images/ProductsImages/StuntCar/StuntCar(green).png",
+                        "/Images/ProductsImages/StuntCar/StuntCar(yellow).png",
+                        "/Images/ProductsImages/StuntCar/StuntCar(Blue).png",
                     ],
                     Price: "Rs.749",
                     Quantity: "48 pcs./box",
@@ -822,7 +864,11 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        SC001_118, BigStunt1, BigStunt2, BigStunt3, BigStunt4, BigStunt5
+                        "/Images/ProductsImages/BigStunt/BigStunt(blue).jpg",
+                        "/Images/ProductsImages/BigStunt/BigStunt(orange).jpg",
+                        "/Images/ProductsImages/BigStunt/BigStunt1.jpg",
+                        "/Images/ProductsImages/BigStunt/BigStunt2.jpg",
+                        "/Images/ProductsImages/BigStunt/BigStunt3.jpg"
                     ],
                     Price: "Rs.1099",
                     Quantity: "12 pcs./box",
@@ -948,7 +994,8 @@ const SeedoProductData = {
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         MT003,
-                         DinoShellCrawler1, DinoShellCrawler2, DinoShellCrawler3, DinoShellCrawler4, DinoShellCrawler5, DinoShellCrawler6
+                        DinoRockCrawler1, DinoRockCrawler2, DinoRockCrawler3, DinoRockCrawler4,
+                        DinoShellCrawler1, DinoShellCrawler2, DinoShellCrawler3, DinoShellCrawler4, DinoShellCrawler5, DinoShellCrawler6
                     ],
                     Price: "Rs.1599",
                     Quantity: "24 pcs./box",
@@ -971,6 +1018,9 @@ const SeedoProductData = {
                 {
                     id: 109,
                     name: "PVC Shell Rock Crawler",
+                    colorOptions: [
+                        "green", "purple"
+                    ],
                     cardColor: "rgb(134 195 67 / 65%)",
                     Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
@@ -1014,7 +1064,7 @@ const SeedoProductData = {
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         // RockCrawler1,
-                        RockCrawler2,RockCrawler6, RockCrawler3, RockCrawler4, RockCrawler5 , RockCrawler7, "https://prepseed.s3.ap-south-1.amazonaws.com/pvc+rock+crawler+.mp4",
+                        RockCrawler2, RockCrawler6, RockCrawler3, RockCrawler4, RockCrawler5, RockCrawler7, "https://prepseed.s3.ap-south-1.amazonaws.com/pvc+rock+crawler+.mp4",
                         MT002,
                     ],
                     Price: "Rs.1499",
@@ -1105,35 +1155,13 @@ const SeedoProductData = {
                         </div>
                     </>
                 },
-                // {
-                //     id: 108,
-                //     name: "Monster Acrobatic Truck",
-                //     cardColor: "rgb(73 94 200 / 57%)",
-                //     ProductBatteryType: "Rechargable",
-                //     ProductImage: [
-                //         Monstertruck5, Monstertruck2, Monstertruck1, , Monstertruck3, Monstertruck4, Monstertruck6, Monstertruck7, Monstertruck8, Monstertruck9, Monstertruck10, Monstertruck11
-                //     ],
-                //     Price: "Rs.1599",
-                //     Quantity: "24 pcs./box",
-                //     ProductStyleCode: "118MT001",
-                //     Productdescription: <>
-                //         <div>
-                //             <div>
-                //                 <p><b>Material type</b> PVC</p>
-                //                 <p><b>Scale</b> 1:18</p>
-                //                 <p><b>USB</b> Yes</p>
-                //                 <p><b>Frequency</b> 2.4GHz</p>
-                //                 <p><b>HSN Code</b> 95030030</p>
-                //                 <p><b>Battery Cell type</b> 3.7V Li-ion Rechargeable Battery</p>
-                //             </div>
-                //         </div>
-                //     </>
-                // }
+
             ],
             "1:16": [
                 {
                     id: 24,
                     name: "Luxurious Sports Car",
+
                     cardColor: "rgba(255, 165, 115, 0.59)",
                     Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
@@ -1145,6 +1173,9 @@ const SeedoProductData = {
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
                         RC00127MHz, RC00124GHz, LuxuriousCar1, LuxuriousCar2, LuxuriousCar3, LuxuriousCar4, LuxuriousCar5, LuxuriousCar6, LuxuriousCar7, LuxuriousCar8, "https://prepseed.s3.ap-south-1.amazonaws.com/luxurious+car-2+(1).mp4"
+                    ],
+                    colorOptions: [
+                        "red", "yellow"
                     ],
                     Price: "Rs.1599",
                     Quantity: "18 pcs./box",
@@ -1231,6 +1262,9 @@ const SeedoProductData = {
                 {
                     id: 28,
                     name: "ThunderBird",
+                    colorOptions: [
+                        "black", "red", "grey"
+                    ],
                     cardColor: "rgb(255 160 65 / 65%)",
                     Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
@@ -1493,7 +1527,7 @@ const SeedoProductData = {
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Packaging</b> 2.4GHz</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1513,7 +1547,7 @@ const SeedoProductData = {
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Packaging</b> 2.4GHz</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1533,7 +1567,7 @@ const SeedoProductData = {
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Packaging</b> 2.4GHz</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1553,7 +1587,7 @@ const SeedoProductData = {
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Packaging</b> 2.4GHz</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1573,7 +1607,7 @@ const SeedoProductData = {
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Packaging</b> 2.4GHz</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1593,7 +1627,7 @@ const SeedoProductData = {
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Packaging</b> 2.4GHz</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -1613,7 +1647,7 @@ const SeedoProductData = {
                             <div>
                                 <p><b>Material type</b> Metal Die Cast</p>
                                 <p><b>Scale</b> 1:64</p>
-                                <p><b>Packaging</b> 2.4GHz</p>
+                                <p><b>Packaging</b> 72 pcs./box</p>
                                 <p><b>HSN Code</b> 95030090</p>
                             </div>
                         </div>
@@ -2325,7 +2359,7 @@ const SeedoProductData = {
                 id: 78,
                 name: "Space Series Press N Go",
                 ProductImage: [
-                    PNGSSPO9, PNGSSPO9_2, PNGSSPO9_3
+                    SpaceSeries, SpaceSeries2, SpaceSeries3
                 ],
                 Price: "Rs.199",
                 Quantity: "",
@@ -3033,14 +3067,19 @@ const SeedoProductData = {
 
                             <p><b>Box Dementions</b> 43x24x22cm</p>
                             <p><b>HSN Code</b> 95030030</p>
-                            <ul>
-                                <li>1. Fine Motor</li>
-                                <li>2. Touch Sences</li>
-                                <li>3. Music</li>
-                                <li>4. Limb Training</li>
-                                <li>5. Auditory Training</li>
-                                <li>5. Visual Training</li>
-                            </ul>
+
+                            <div className="BrainyBearStyle">
+                                <ul>
+                                    <li><b>Products Highlights</b></li>
+                                    <br />
+                                    <li>1. Fine Motor</li>
+                                    <li>2. Touch Sences</li>
+                                    <li>3. Music</li>
+                                    <li>4. Limb Training</li>
+                                    <li>5. Auditory Training</li>
+                                    <li>5. Visual Training</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </>
@@ -3063,30 +3102,33 @@ const SeedoProductData = {
                         <div>
                             <p><b>Material type</b> ABS Material</p>
 
-                            <p><b>Box Dementions</b> 19x24x5cm</p>
+                            <p><b>Product Dementions</b> 19x24x5cm</p>
                             <p><b>Packaging</b> 1 Unit</p>
                             <p><b>HSN Code</b> 95030030</p>
-                            <ul>
-                                <li> Say the letter</li>
-                                <li>Write the letter</li>
-                                <li>Press the correct letter</li>
-                                <li>Where is the letter</li>
-                                <li>Say the words</li>
-                                <li>Spelling test</li>
-                                <li>Press the correct word</li>
-                                <li>Find the word</li>
-                                <li>Say the number</li>
-                                <li>Write the number</li>
-                                <li>Press the correct number</li>
-                                <li>Find the number</li>
-                                <li>Play melody</li>
-                                <li>Play notes</li>
-                                <li>Listen and find note</li>
-                                <li>Catch me</li>
-                                <li>Find the match pair</li>
-                                <li>Star shooting</li>
-                                <li>Draw a picture</li>
-                            </ul>
+                            <div className="BrainyBearStyle">
+                                <ul>
+                                    <li><b>Touch Points For Easy Learning</b></li>
+                                    <li>1. Say the letter</li>
+                                    <li>2. Write the letter</li>
+                                    <li>3. Press the correct letter</li>
+                                    <li>4. Where is the letter</li>
+                                    <li>5. Say the words</li>
+                                    <li>6. Spelling test</li>
+                                    <li>7. Press the correct word</li>
+                                    <li>8. Find the word</li>
+                                    <li>9. Say the number</li>
+                                    <li>10. Write the number</li>
+                                    <li>11. Press the correct number</li>
+                                    <li>12. Find the number</li>
+                                    <li>13. Play melody</li>
+                                    <li>14. Play notes</li>
+                                    <li>15. Listen and find note</li>
+                                    <li>16. Catch me</li>
+                                    <li>17. Find the match pair</li>
+                                    <li>18. Star shooting</li>
+                                    <li>19. Draw a picture</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </>
@@ -3105,14 +3147,20 @@ const SeedoProductData = {
 
                             {/* <p><b>Box Dementions</b> 19x24x5cm</p> */}
                             <p><b>HSN Code</b> 95030030</p>
-                            <ul>
-                                <li> Interactive Learning</li>
-                                <li>Musical Features</li>
-                                <li>Rotary Dial Phone</li>
-                                <li>Light-Up Buttons</li>
-                                <li>Cognitive Development</li>
-                                <li>Durable Design</li>
-                            </ul>
+                            <div className="BrainyBearStyle" style={{ display: "flex" }}>
+                                <ul>
+                                    <li style={{ width: "100%" }}><b> Learning</b></li>
+                                    <li style={{ width: "100%" }}>1. Musical Features</li>
+                                    <li style={{ width: "100%" }}>2. Rotary Dial Phone</li>
+                                    <li style={{ width: "100%" }}>3. Light-Up Buttons</li>
+                                    <li style={{ width: "100%" }}>4. Cognitive Development</li>
+                                    <li style={{ width: "100%" }}>5. Durable Design</li>
+                                </ul>
+                                <ul style={{ width: "100%", border: "none" }}>
+
+                                </ul>
+                            </div>
+
                         </div>
                     </div>
                 </>
@@ -3126,36 +3174,61 @@ const SeedoProductData = {
                     "/Images/ProductIconsImages/Ryhmes.png",
                 ],
                 ProductBatteryType: "-",
-                ProductImage: [SLTBB001, BrainyBear1, BrainyBear2, BrainyBear3, BrainyBear4, "https://prepseed.s3.ap-south-1.amazonaws.com/Brainy+Bear+Video++.mp4"],
+                ProductImage: [SLTBB001, "/Images/BrainyBear1(brown).png", BrainyBear2, BrainyBear3, BrainyBear4, "https://prepseed.s3.ap-south-1.amazonaws.com/Brainy+Bear+Video++.mp4"],
                 Price: "Rs. 699",
                 Quantity: "30 pcs per box",
                 ProductStyleCode: "SLT-BB-001",
                 Productdescription: <>
                     <div>
                         <div>
-                            <p><b>Material type</b> Virgin garde,High
-                                strength ABS Material</p>
-                            <p><b>Scale</b> 1:64</p>
+                            <p><b>Material type</b> Virgin grade, High strength ABS Material</p>
                             <p><b>HSN Code</b> 95030030</p>
-                            <ul>
-                                <li> Left Ear</li>
-                                <li>Right Ear</li>
-                                <li> Left Eye brow</li>
-                                <li> Right Eye brow</li>
-                                <li> Left Eye</li>
-                                <li>Right Eye</li>
-                                <li>Nose</li>
-                                <li>Left Cheek</li>
-                                <li>Voice Recording</li>
-                                <li>Musical Ryhmes</li>
-                                <li>Tail</li>
-                                <li>Left Arm</li>
-                                <li>Bely</li>
-                                <li>Left Leg</li>
-                                <li>Right Leg</li>
-                                <li>Left Foot</li>
-                                <li>Right Foot</li>
-                            </ul>
+                            <div style={{ display: "flex" }} className="BrainyBearStyle more">
+                                <ul>
+                                    <li><b>Touch Points For Easy Learning</b></li>
+                                    <br />
+                                    <li> 1. Left Ear</li>
+                                    <li>2. Right Ear</li>
+                                    <li> 3. Left Eye brow</li>
+                                    <li> 4. Right Eye brow</li>
+                                    <li> 5. Left Eye</li>
+                                    <li>6. Right Eye</li>
+                                    <li>7. Nose</li>
+                                    <li>8. Left Cheek</li>
+                                    <li>9. Voice Recording</li>
+                                    <li>10. Musical Ryhmes</li>
+                                    <li>11. Tail</li>
+                                    <li>12. Left Arm</li>
+                                    <li>13. Bely</li>
+                                    <li>14. Left Leg</li>
+                                    <li>15. Right Leg</li>
+                                    <li>16. Left Foot</li>
+                                    <li>17. Right Foot</li>
+                                </ul>
+                                <ul>
+                                    <li ><b>Musical Rhymes </b></li>
+                                    <br />
+                                    <li>1. Ba Ba Black Sheep
+                                    </li>
+                                    <li>2. Jack an Jill
+                                    </li>
+                                    <li>3. Twinkle Twinkle Little Star
+                                    </li>
+                                    <li>4. Old McDonald had a farm</li>
+                                    <li>
+                                        5. When you're happy and you know it
+                                    </li>
+                                    <li>
+                                        6. Three blind mice
+
+                                    </li>
+                                    <li>7. Hickory Dickory Dock
+                                    </li>
+                                    <li>8. Humpty Dumpty
+                                    </li>
+                                    <li>9. Teddy Bear Teddy Bear</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </>

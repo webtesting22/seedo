@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Row, Col } from "antd";
 import "./ImagesGallery.css"
 import { FaArrowRightLong } from "react-icons/fa6";
@@ -30,6 +30,19 @@ import MakeinIndia from "./Make-in-India-Logo-PNG-HD.svg"
 import BestSellerProducts from "../../BestSellerProductList";
 import ProductsBackShape from "./ProductsBackShape.svg"
 const ImagesGallery = () => {
+    const [selectedColors, setSelectedColors] = useState(
+        BestSellerProducts.BestSeller.products.map(product =>
+            product.colors?.[0] || { colorCode: "#FFF", ProductImage: product.ProductImage[0] }
+        )
+    );
+
+    const handleColorChange = (index, color) => {
+        const updatedColors = [...selectedColors];
+        updatedColors[index] = color;
+        setSelectedColors(updatedColors);
+    };
+
+
     const ImagesGalleryData = [
         image1,
         image2,
@@ -130,42 +143,52 @@ const ImagesGallery = () => {
                         >
                             {BestSellerProducts.BestSeller.products.map((item, index) => (
                                 <SwiperSlide key={item.id}>
-                                    <Link to={item.link} style={{ textDecoration: "none", width: "100%" }}>
-                                        <div className="BestSellerCardsContainer">
+
+
+                                    <div className="BestSellerCardsContainer">
+                                        <Link to={item.link} style={{ textDecoration: "none", width: "100%" }}>
                                             <div
                                                 style={{
                                                     display: "flex",
                                                     justifyContent: "center",
                                                     alignItems: "center",
-                                                    backgroundColor: `${item.colorCode}`,
-                                                    borderRadius: "10px",
+                                                    background: selectedColors[index].colorCode,
+                                                    borderRadius: "30px 30px 0px 0px",
                                                     minHeight: "400px",
                                                     width: "100%",
                                                     overflow: "hidden",
                                                 }}
                                             >
-                                                {/* Default image */}
                                                 <img
-                                                    src={item.ProductImage[0]}
+                                                    src={selectedColors[index].ProductImage}
                                                     alt={item.name}
-                                                    className={`BestSellerImage ${item.ProductImage[1] ? "DefaultImage" : "" // Add class only if hover image exists
-                                                        }`}
+                                                    className="BestSellerImage"
                                                 />
-
-                                                {/* Hover image (only if available) */}
-                                                {item.ProductImage[1] && (
-                                                    <img
-                                                        src={item.ProductImage[1]}
-                                                        alt={item.name}
-                                                        className="BestSellerImage hoverableImageImage"
-                                                    />
-                                                )}
                                             </div>
-                                            <div style={{ width: "100%", height: "60px" }}>
-                                                <h3 className="BestSellerTitle">{item.name}</h3>
-                                            </div>
+                                        </Link>
+                                        <div className="BestSellerCardHeading">
+                                            <h3 className="BestSellerTitle">{item.name}</h3>
                                         </div>
-                                    </Link>
+
+                                        {/* Color Options */}
+                                        <div className="color-options">
+                                            {item.colors.map((color, colorIndex) => (
+                                                <span
+                                                    key={colorIndex}
+                                                    className="color-circle"
+                                                    style={{
+                                                        background: color.colorCode,
+                                                        border: selectedColors[index].colorName === color.colorName,
+                                                    }}
+                                                    onClick={() => handleColorChange(index, color)}
+                                                ></span>
+                                            ))}
+                                        </div>
+                                    </div>
+                                    {/* </Link> */}
+
+                                    {/* Product Name */}
+
                                 </SwiperSlide>
                             ))}
                         </Swiper>
@@ -277,3 +300,4 @@ const ImagesGallery = () => {
     )
 }
 export default ImagesGallery
+

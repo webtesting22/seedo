@@ -5,9 +5,6 @@ import "./SingleProductPage.css";
 import { Row, Col, Image, Breadcrumb } from "antd";
 import SeedoProductData from "../../ProductData";
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
@@ -23,6 +20,17 @@ const SingleProductPage = () => {
     const [colorMap, setColorMap] = useState({});
     const location = useLocation();
     const swiperRef = useRef(null);
+    const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth <= 768);
+        };
+
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
+
     // Retrieve the backgroundColor from state or use a fallback
     const backgroundColor = location.state?.backgroundColor || "defaultColor";
 
@@ -38,33 +46,36 @@ const SingleProductPage = () => {
             .flat()
             .find((p) => String(p.id) === productId);
     useEffect(() => {
-        if (product?.ProductImage && product.ProductImage.length > 0) {
-            const firstMedia = product.ProductImage[0];
+        if (!product?.ProductImage || product.ProductImage.length === 0) return;
 
-            // Generate a color map based on image names
-            if (product?.ProductImage) {
-                const map = {};
-                product.ProductImage.forEach((img) => {
-                    const match = img.match(/\((.*?)\)/); // Extract color name from parentheses
-                    if (match && match[1]) {
-                        map[match[1].toLowerCase()] = img; // Use color as key
-                    }
-                });
-                setColorMap(map);
+        const firstMedia = product.ProductImage[0];
+
+        // Generate a color map based on image names
+        const map = {};
+        product.ProductImage.forEach((img) => {
+            if (typeof img === "string") {
+                const match = img.match(/\((#?[a-zA-Z0-9]+)\)/); // Capture color names and hex codes
+                if (match && match[1]) {
+                    const colorKey = match[1].trim().toLowerCase(); // Trim spaces and normalize case
+                    map[colorKey] = img; // Use extracted color as key
+                }
             }
+        });
+        setColorMap(map);
 
-            // Set main image based on type
-            if (typeof firstMedia === "string") {
-                setMainImage(
-                    firstMedia.includes(".mp4")
-                        ? { type: "video", url: firstMedia }
-                        : { type: "image", url: firstMedia }
-                );
-            }
-
-            setOtherImages(product.ProductImage.slice(1));
+        // Set main image (Check for video/image)
+        if (typeof firstMedia === "string") {
+            setMainImage(
+                firstMedia.includes(".mp4")
+                    ? { type: "video", url: firstMedia }
+                    : { type: "image", url: firstMedia }
+            );
         }
+
+        // Set other images (excluding the first one)
+        setOtherImages(product.ProductImage.slice(1));
     }, [product]);
+
 
 
     useEffect(() => {
@@ -105,7 +116,6 @@ const SingleProductPage = () => {
     const handlePrev = () => {
         if (swiperRef.current) swiperRef.current.slidePrev();
     };
-
     return (
         <>
             <div className="AboutUs">
@@ -167,11 +177,11 @@ const SingleProductPage = () => {
                                             style={{ backgroundColor }}
                                             className="ProductImageContainer"
                                         >
-                                            <div className="FeaturesIcons OnPCOnly" >
+                                            {/* <div className="FeaturesIcons OnPCOnly">
                                                 {product.Features && product.Features.map((feature, index) => (
                                                     <img key={index} src={feature} alt={`Feature ${index + 1}`} />
                                                 ))}
-                                            </div>
+                                            </div> */}
                                             {mainImage ? (
                                                 mainImage.type === "video" ? (
                                                     <video src={mainImage.url} controls autoPlay style={{ width: "100%", borderRadius: "5px" }} />
@@ -198,10 +208,14 @@ const SingleProductPage = () => {
                                                 slidesPerView={4}
                                                 spaceBetween={15}
                                                 freeMode={true}
-                                                direction="vertical"
-                                                autoplay={{
-                                                    delay: 2000,
-                                                    disableOnInteraction: false,
+                                                direction={isMobile ? "horizontal" : "vertical"}
+                                                // autoplay={{
+                                                //     delay: 2000,
+                                                //     disableOnInteraction: false,
+                                                // }}
+                                                breakpoints={{
+                                                    0: { slidesPerView: 2 }, // ✅ 3 slides for mobile (up to 767px)
+                                                    768: { slidesPerView: 4 }, // ✅ 4 slides for tablets & desktop
                                                 }}
                                                 loop={true}
                                                 modules={[Autoplay, FreeMode, Pagination]}
@@ -246,7 +260,7 @@ const SingleProductPage = () => {
                                             <MdKeyboardArrowDown />
                                         </button>
                                     </Col>
-                                    <Col lg={4} className="OnMobileOnly" style={{ width: "100%" }} >
+                                    {/* <Col lg={4} className="OnMobileOnly" style={{ width: "100%" }} >
                                         <Swiper
                                             slidesPerView={2}
                                             spaceBetween={10}
@@ -264,7 +278,7 @@ const SingleProductPage = () => {
                                                     const mediaUrl = typeof media === "string" ? media : ""; // Ensure it's a string
 
                                                     return (
-                                                        <SwiperSlide key={index}> {/* ✅ Key added */}
+                                                        <SwiperSlide key={index}> 
                                                             <div
                                                                 className="OtherImageThumbnail"
                                                                 onClick={() => handleImageClick(mediaUrl)}
@@ -289,14 +303,14 @@ const SingleProductPage = () => {
                                                 <p>Other images coming soon!</p>
                                             )}
                                         </Swiper>
-                                    </Col>
+                                    </Col> */}
                                 </Row>
                             </Col>
 
 
                         </Row>
                         <Row>
-                            <Col lg={12}>
+                            <Col lg={14}>
                                 <div className="ProductTitle">
 
                                     <div className="SpecificationContainer">
@@ -309,9 +323,29 @@ const SingleProductPage = () => {
                                             </div>
                                             <p style={{ fontSize: "22px", marginBottom: "10px" }}><b>Colours</b></p>
                                             <div style={{ display: "flex", gap: "10px" }}>
+                                                {/* If colorOptions exist, show both color swatches and images */}
+                                                {product.colorOptions && product.colorOptions.length > 0 && (
+                                                    product.colorOptions.map((color, index) => (
+                                                        <div
+                                                            key={`color-${index}`}
+                                                            className="ColorSwatch"
+                                                            style={{
+                                                                backgroundColor: color,
+                                                                width: "30px",
+                                                                height: "30px",
+                                                                borderRadius: "50%",
+                                                                cursor: "pointer",
+                                                                border: "1px solid #00000054",
+                                                            }}
+                                                        // onClick={() => handleImageClick(color)}
+                                                        ></div>
+                                                    ))
+                                                )}
+
+                                                {/* Always show image-based color swatches */}
                                                 {Object.keys(colorMap).map((color, index) => (
                                                     <div
-                                                        key={index}
+                                                        key={`image-${index}`}
                                                         className="ColorSwatch"
                                                         style={{
                                                             backgroundColor: color,
@@ -319,7 +353,6 @@ const SingleProductPage = () => {
                                                             height: "30px",
                                                             borderRadius: "50%",
                                                             cursor: "pointer",
-                                                            // border: colorMap[color] === mainImage ? "1px solid #00000061" : "1px solid #00000054",
                                                         }}
                                                         onClick={() => handleImageClick(colorMap[color])}
                                                     ></div>
@@ -355,7 +388,7 @@ const SingleProductPage = () => {
                                     </div>
                                 </div>
                             </Col>
-                            <Col lg={12}>
+                            <Col lg={10}>
                                 <div>
                                     <div className="DiscriptionGraphicsImage">
                                         <img src="/Images/SingleProductPageGraphic.png" alt="" />
@@ -392,10 +425,11 @@ const SingleProductPage = () => {
 
                             return (
                                 <Col key={prod.id} lg={6} md={12} sm={24} style={{ width: "100%" }}>
-                                    <div className="SimilarProductCard" style={{ backgroundColor: prod.cardColor }}>
+                                    <div className="SimilarProductCard" >
                                         <Link
                                             to={`/singleproduct/${categoryName}/${prod.id}`}
                                             className="ProductLink"
+                                            style={{ backgroundColor: prod.cardColor }}
                                         >
                                             <div className="ImageContainer">
                                                 <img
@@ -406,8 +440,9 @@ const SingleProductPage = () => {
                                                 />
 
                                             </div>
-                                            <h3 style={{ color: "black", textAlign: "center" }}>{prod.name}</h3>
+
                                         </Link>
+                                        <h3 style={{ color: "black", textAlign: "start", width: "100%", paddingLeft: "50px", fontSize: "18px" }}>{prod.name}</h3>
                                     </div>
                                 </Col>
                             );
