@@ -243,7 +243,7 @@ import DinoShellCrawler5 from "../assets/MultipleViewImages/DinoShellCrawler5.jp
 import DinoShellCrawler6 from "../assets/MultipleViewImages/DinoShellCrawler6.jpg"
 import DANCINGOCTOPUSTOY from "../assets/MultipleViewImages/DANCINGOCTOPUSTOY.png"
 import DinoRockCrawler1 from "../assets/MultipleViewImages/RockCrawler/RockCrawler(red).png"
-import DinoRockCrawler2 from "../assets/MultipleViewImages/RockCrawler/RockCrawler(Orange).png"
+import DinoRockCrawler2 from "../assets/MultipleViewImages/RockCrawler/RockCrawler(orange).png"
 import DinoRockCrawler3 from "../assets/MultipleViewImages/RockCrawler/RockCrawler(green).png"
 import DinoRockCrawler4 from "../assets/MultipleViewImages/RockCrawler/RockCrawler(skyblue).png"
 import MUSICALDINO from "../assets/MultipleViewImages/MUSICALDINO.png"
