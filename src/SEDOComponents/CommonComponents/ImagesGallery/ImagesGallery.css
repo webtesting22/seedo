@@ -301,6 +301,7 @@
 .BestSellerCardsContainer>div p{
     transform: translateY(30px);
     transition: .5s;
+    margin-bottom: 0px;
 }
 .BestSellerCardsContainer:hover>div p{
     transform: translateY(0px);

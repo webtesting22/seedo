@@ -16,7 +16,32 @@ const ZoomCards = () => {
     const rightImageRef = useRef(null);
     const leftImageRef = useRef(null);
     const [scrollPosition, setScrollPosition] = useState(0);
+    const videoRef = useRef(null);
 
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        videoRef.current.play();
+                    } else {
+                        videoRef.current.pause();
+                    }
+                });
+            },
+            { threshold: 0.5 } // Play when 50% of the video is visible
+        );
+
+        if (videoRef.current) {
+            observer.observe(videoRef.current);
+        }
+
+        return () => {
+            if (videoRef.current) {
+                observer.unobserve(videoRef.current);
+            }
+        };
+    }, []);
     // Handle scroll event
     useEffect(() => {
         const handleScroll = () => {
@@ -239,7 +264,13 @@ const ZoomCards = () => {
                     </div>
                 </div>
             </div>
-            <div className="AboutSeedoContent">
+            <div className="AboutSeedoContent"  ref={videoRef}>
+                <div className="SeedoVideoSection">
+                    <video controls autoPlay loop muted style={{ width: "100%", borderRadius: "10px" }}>
+                        <source src="https://prepseed.s3.ap-south-1.amazonaws.com/WhatsApp+Video+2025-03-20+at+12.59.19_23e53ae3.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
 
                 <div>
                     <div>
