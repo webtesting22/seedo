@@ -298,17 +298,19 @@
     padding-left: 50px;
 }
 
-.BestSellerCardsContainer>div p{
+.BestSellerCardsContainer>div p {
     transform: translateY(30px);
     transition: .5s;
     margin-bottom: 0px;
 }
-.BestSellerCardsContainer:hover>div p{
+
+.BestSellerCardsContainer:hover>div p {
     transform: translateY(0px);
     transition: .5s;
     margin-bottom: 0px;
     margin-top: 0px;
 }
+
 .BestSellerCardsContainer h3 {
     margin-bottom: 0px;
     font-size: 23px;
@@ -472,14 +474,26 @@
     .BestSellerCardsContainer h3 {
         margin-bottom: 0px;
         font-size: 23px;
-        /* text-align: center; */
-        /* font-family: "Lato", serif; */
         color: black;
         margin-top: 0px;
-        padding-left: 50px;
+        padding-left: 0px;
         transform: translateY(0px);
         transition: .5s;
-        /* margin-top: 0px; */
+    }
+
+    .BestSellerCardsContainer>div p {
+        transform: translateY(0px);
+        transition: .5s;
+        margin-bottom: 0px;
+        margin-top: 10px;
+
+    }
+
+    .BestSellerCardsContainer:hover>div p {
+        transform: translateY(0px);
+        transition: .5s;
+        margin-bottom: 0px;
+        margin-top: 0px;
     }
 
     .BestSellerCardsContainer:hover h3 {

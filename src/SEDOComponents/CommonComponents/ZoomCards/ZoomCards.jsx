@@ -17,19 +17,22 @@ const ZoomCards = () => {
     const leftImageRef = useRef(null);
     const [scrollPosition, setScrollPosition] = useState(0);
     const videoRef = useRef(null);
+    const [videoSrc, setVideoSrc] = useState("");
 
     useEffect(() => {
         const observer = new IntersectionObserver(
             (entries) => {
                 entries.forEach((entry) => {
                     if (entry.isIntersecting) {
-                        videoRef.current.play();
+                        setVideoSrc(
+                            "https://www.youtube.com/embed/F5tvpnWTgvQ?autoplay=1&mute=1&rel=0&playlist=F5tvpnWTgvQ"
+                        );
                     } else {
-                        videoRef.current.pause();
+                        setVideoSrc(""); // Stops the video when out of view
                     }
                 });
             },
-            { threshold: 0.5 } // Play when 50% of the video is visible
+            { threshold: 0.1 }
         );
 
         if (videoRef.current) {
@@ -264,12 +267,19 @@ const ZoomCards = () => {
                     </div>
                 </div>
             </div>
-            <div className="AboutSeedoContent"  ref={videoRef}>
-                <div className="SeedoVideoSection">
-                    <video controls autoPlay loop muted style={{ width: "100%", borderRadius: "10px" }}>
-                        <source src="https://prepseed.s3.ap-south-1.amazonaws.com/WhatsApp+Video+2025-03-20+at+12.59.19_23e53ae3.mp4" type="video/mp4" />
-                        Your browser does not support the video tag.
-                    </video>
+            <div className="AboutSeedoContent" ref={videoRef}>
+                <div className="SeedoVideoSection SeedoVideoSection">
+                    {/* {videoSrc && ( */}
+                        <iframe
+                            width="100%"
+                            src={videoSrc}
+                            title="Seedo Video"
+                            frameBorder="0"
+                            allow="autoplay; encrypted-media"
+                            allowFullScreen
+                            style={{ borderRadius: "10px" }}
+                        ></iframe>
+                    {/* )} */}
                 </div>
 
                 <div>

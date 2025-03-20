@@ -36,11 +36,12 @@ const ImageSticky = () => {
     return (
         <>
             <div className="WhyUsContainer">
-                <div className="BackSVG">
+                <img src="/Images/Icons/WhyChooseUsQuestionGraphic.png" alt="" className="QuestionMarkImage"/>
+                {/* <div className="BackSVG">
                     <svg width="1895" height="997" viewBox="0 0 1895 997" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M489 15.2177C394.5 -2.98877 212 -4.08235 0 74.7177V996.5H1895V18.2177C1888.83 23.8843 1864.8 39.2177 1818 55.2177C1739.67 78.551 1575.33 94.0308 1397 48.5C1373.5 42.5 1279.3 16.1177 1240.5 9.71766C1187.5 0.217663 1045.7 -14.9823 822.5 36.2177C745.5 53.8807 663.4 48.8177 489 15.2177Z" fill="#A0DEF7" />
                     </svg>
-                </div>
+                </div> */}
                 <div className="SectionHeadingContainer">
                     <h2 data-aos="fade-up"
                         data-aos-duration="1000" className="titleFont">Why Choose Us ?</h2>
@@ -48,6 +49,7 @@ const ImageSticky = () => {
                 <div className="stickyContainer">
 
                     <p data-aos="fade-up"
+                    style={{marginTop:"-10px"}}
                         data-aos-duration="1500">We are committed to excellence and safety in everything we do. Every product is meticulously tested through stringent quality checks to ensure it meets the highest safety standards, offering 100% safety for children and flawless craftsmanship.
                         <br /> Our goal? To become India’s leading brand, setting new benchmarks for quality and creativity.
                     </p>
