@@ -29,6 +29,7 @@ const BestSellerProducts = {
             {
                 id: 1,
                 name: "Blaze Runner Car",
+                categoryName:"Remote Controlled Car",
                 ProductBatteryType: "Rechargable",
                 ProductStyleCode: "118RC001",
                 link: "singleproduct/Remote%20Controlled%20Cars/4",
@@ -41,6 +42,7 @@ const BestSellerProducts = {
             {
                 id: 2,
                 name: "Stunt Car",
+                categoryName:"Remote Controlled Car",
                 ProductBatteryType: "Rechargable",
                 ProductStyleCode: "124SC001",
                 link: "singleproduct/Remote%20Controlled%20Cars/14",
@@ -54,18 +56,21 @@ const BestSellerProducts = {
             {
                 id: 3,
                 name: "Road Sniper 01 Car",
+                categoryName:"Remote Controlled Car",
                 ProductBatteryType: "Rechargable",
                 ProductStyleCode: "124LRC00D",
                 link: "singleproduct/Remote%20Controlled%20Cars/10",
                 colors: [
+                    { colorName: "blue", colorCode: "linear-gradient(135deg, #C6D9FF, #0069DC)", ProductImage: RoadSniper08 },
                     { colorName: "Red", colorCode: "linear-gradient(135deg, #FFA1A1, #C92626)", ProductImage: RoadSniper07 },
                     { colorName: "black", colorCode: "linear-gradient(135deg, #E8EEF3, #3B3B3B)", ProductImage: RoadSniper04 },
-                    { colorName: "blue", colorCode: "linear-gradient(135deg, #C6D9FF, #0069DC)", ProductImage: RoadSniper08 }
+                   
                 ]
             },
             {
                 id: 4,
                 name: "Road Sniper 02 Car",
+                categoryName:"Remote Controlled Car",
                 ProductBatteryType: "Rechargable",
                 ProductStyleCode: "124LRC00E",
                 link: "singleproduct/Remote%20Controlled%20Cars/11",
@@ -82,6 +87,7 @@ const BestSellerProducts = {
             {
                 id: 5,
                 name: "Luxurious Sports Car",
+                categoryName:"Remote Controlled Car",
                 ProductBatteryType: "Rechargable",
                 ProductStyleCode: "116RC001/27MHz",
                 link: "singleproduct/Remote%20Controlled%20Cars/24",
@@ -104,6 +110,7 @@ const BestSellerProducts = {
             {
                 id: 7,
                 name: "Dino/Shark/PVC Rock Crawler",
+                categoryName:"Remote Controlled Car",
                 ProductBatteryType: "Rechargable",
                 ProductStyleCode: "118MT003",
                 link: "singleproduct/Remote%20Controlled%20Cars/21",
@@ -117,6 +124,7 @@ const BestSellerProducts = {
             {
                 id: 8,
                 name: "Metal Racers Pack of 3",
+                categoryName:"Metal Die Cast Car",
                 ProductBatteryType: "Non-Electric",
                 ProductCode: "SMR-FWPB-P3",
                 link: "singleproduct/Metal%20Die%20Cast%20Cars/73",
@@ -128,6 +136,7 @@ const BestSellerProducts = {
                 id: 9,
                 name: "Space Series",
                 ProductCode: "PNG-SS-PO9",
+                categoryName:"Friction, Pull Back, Press&Go Toys",
                 link: "singleproduct/Friction,%20Pull%20Back,%20Press%20&%20Go%20Toys/78",
                 colors: [
                     { colorName: "White", colorCode: "linear-gradient(135deg, #EFEFEF, #CCCCCB)", ProductImage: SpaceSeries },

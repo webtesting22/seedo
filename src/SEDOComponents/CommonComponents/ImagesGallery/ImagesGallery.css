@@ -294,6 +294,20 @@
     cursor: pointer;
 }
 
+.BestSellerCardsContainer>div {
+    padding-left: 50px;
+}
+
+.BestSellerCardsContainer>div p{
+    transform: translateY(30px);
+    transition: .5s;
+}
+.BestSellerCardsContainer:hover>div p{
+    transform: translateY(0px);
+    transition: .5s;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
 .BestSellerCardsContainer h3 {
     margin-bottom: 0px;
     font-size: 23px;
@@ -301,7 +315,7 @@
     /* font-family: "Lato", serif; */
     color: black;
     margin-top: 0px;
-    padding-left: 50px;
+
     transform: translateY(30px);
     transition: .5s;
     /* margin-top: 0px; */
@@ -448,7 +462,8 @@
     position: absolute;
     transition: .5s;
 }
-.OurBestsellers .swiper{
+
+.OurBestsellers .swiper {
     padding-bottom: 5rem;
 }
 
@@ -465,10 +480,11 @@
         transition: .5s;
         /* margin-top: 0px; */
     }
+
     .BestSellerCardsContainer:hover h3 {
         font-size: 23px;
     }
-    
+
     .color-options {
         display: flex;
         padding: 0px 50px;
@@ -477,9 +493,11 @@
         transform: translateY(0px);
         transition: .5s;
     }
-    .OurBestsellers .swiper{
+
+    .OurBestsellers .swiper {
         padding-bottom: 0rem;
     }
+
     .BackShapeAjust {
         width: 200px;
         position: absolute;

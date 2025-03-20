@@ -167,7 +167,10 @@ const ImagesGallery = () => {
                                             </div>
                                         </Link>
                                         <div className="BestSellerCardHeading">
-                                            <h3 className="BestSellerTitle">{item.name}</h3>
+                                           <div>
+                                           <h3 className="BestSellerTitle">{item.name}</h3>
+                                           <p>{item.categoryName}</p>
+                                           </div>
                                         </div>
 
                                         {/* Color Options */}
@@ -179,6 +182,7 @@ const ImagesGallery = () => {
                                                     style={{
                                                         background: color.colorCode,
                                                         border: selectedColors[index].colorName === color.colorName,
+                                                        transition:"2s"
                                                     }}
                                                     onClick={() => handleColorChange(index, color)}
                                                 ></span>

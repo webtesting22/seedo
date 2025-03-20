@@ -886,16 +886,6 @@ const SeedoProductData = {
                         </div>
                     </>
                 },
-                // {
-                //     id: 20,
-                //     name: " Monster Acrobatics Truck",
-                //     ProductBatteryType: "Rechargable",
-                //     ProductImage: [
-                //         MT001
-                //     ],
-                //     ProductStyleCode: "118MT001"
-                // },
-
                 {
                     id: 22,
                     name: "Gun Rock Crawler",
@@ -2137,14 +2127,12 @@ const SeedoProductData = {
                         </div>
                     </div>
                 </>
-
-
             },
             {
                 id: 114,
                 name: "Monster Tumble",
                 ProductImage: [
-                    MONSTERTUMBLE,
+                   "/Images/ProductsImages/otherFrictionPullBack/MonsterThumble.png"
                 ],
                 Price: "Rs.249",
                 Quantity: "",
@@ -2186,13 +2174,13 @@ const SeedoProductData = {
                         </div>
                     </div>
                 </>
-
             },
             {
                 id: 79,
                 name: "Press N Go Ship",
                 ProductImage: [
-                    PNGBSS, PNGBSS_2
+                     "/Images/ProductsImages/otherFrictionPullBack/PressNGoShip1.png",
+                     "/Images/ProductsImages/otherFrictionPullBack/PressNGoShip2.png"
                 ],
                 Quantity: "",
                 ProductStyleCode: "PNG-BS&S",
@@ -2209,7 +2197,7 @@ const SeedoProductData = {
                 id: 111,
                 name: "Pull Back Twisting Stunt",
                 ProductImage: [
-                    PULLBACKTWISTINGSTUNT1,
+                    "/Images/ProductsImages/otherFrictionPullBack/PullBackTwistingStunt.png"
                 ],
                 Price: "Rs. 349",
                 Quantity: "48 pcs./6PDQ",
@@ -2267,29 +2255,29 @@ const SeedoProductData = {
                     </div>
                 </>
             },
-            {
-                id: 82,
-                name: "Mini Monster Truck",
-                ProductImage: [
-                    MTToys, MTToys_2
-                ],
-                ProductStyleCode: "MT-Toys",
-                Quantity: <>
-                    <span>Inner Packaging: 12 pcs</span>
-                    <span>Master packaging: 192 pcs</span>
-                </>,
-                Productdescription: <>
-                    <div>
-                        <div>
-                            <p><b>Material type</b> Plastic</p>
-                            <p><b>Dimension</b> 8x8.7x7.3cm</p>
-                            <p><b>Inner Packaging</b> 12 pcs</p>
-                            <p><b>Master packaging</b> 192 pcs</p>
-                            <p><b>HSN Code</b> 95030090</p>
-                        </div>
-                    </div>
-                </>
-            },
+            // {
+            //     id: 82,
+            //     name: "Mini Monster Truck",
+            //     ProductImage: [
+            //         MTToys, MTToys_2
+            //     ],
+            //     ProductStyleCode: "MT-Toys",
+            //     Quantity: <>
+            //         <span>Inner Packaging: 12 pcs</span>
+            //         <span>Master packaging: 192 pcs</span>
+            //     </>,
+            //     Productdescription: <>
+            //         <div>
+            //             <div>
+            //                 <p><b>Material type</b> Plastic</p>
+            //                 <p><b>Dimension</b> 8x8.7x7.3cm</p>
+            //                 <p><b>Inner Packaging</b> 12 pcs</p>
+            //                 <p><b>Master packaging</b> 192 pcs</p>
+            //                 <p><b>HSN Code</b> 95030090</p>
+            //             </div>
+            //         </div>
+            //     </>
+            // },
             {
                 id: 112,
                 name: "Press N Go JCB Toys",
@@ -2362,7 +2350,9 @@ const SeedoProductData = {
                 id: 90,
                 name: "Dancing Crab Toy",
                 ProductBatteryType: "-",
-                ProductImage: [DANCINGCRABTOY],
+                ProductImage: [
+                    "/Images/ProductsImages/otherFrictionPullBack/DancingCrabToy.png"
+                ],
                 Price: "Rs. 1449",
                 Quantity: <>
                     <span>Inner Packaging: 1 pcs</span>
@@ -2732,7 +2722,9 @@ const SeedoProductData = {
                 id: 107,
                 name: "Water Turtle Toy",
                 ProductBatteryType: "-",
-                ProductImage: [WaterTurtleToy],
+                ProductImage: [
+                    "/Images/ProductsImages/otherFrictionPullBack/WaterTurtleToy.png"
+                ],
                 Price: "Rs.199",
                 Quantity: <>
                     <span>Inner Packaging: 12 pcs</span>
@@ -2753,7 +2745,7 @@ const SeedoProductData = {
             },
             {
                 id: 115,
-                name: "Musical Saxophone Toy",
+                name: "Musical Trumpet Toy",
                 ProductBatteryType: "-",
                 ProductImage: [MUSICALSAXOPHONETOY],
                 Price: "Rs.1499",
@@ -2775,7 +2767,7 @@ const SeedoProductData = {
             },
             {
                 id: 116,
-                name: "Musical Trumpet Toy",
+                name: "Musical Saxophone Toy",
                 ProductBatteryType: "-",
                 ProductImage: [MUSICALTRUMPETTOY],
                 Price: "Rs.1499",
@@ -2799,7 +2791,9 @@ const SeedoProductData = {
             {
                 id: 119,
                 name: "Small Action Stunt Car",
-                ProductImage: [SMALLACTIONSTUNTCAR],
+                ProductImage: [
+                    "/Images/ProductsImages/otherFrictionPullBack/SmallActionStuntCar.png"
+                ],
                 ProductStyleCode: "-",
                 Price: "Rs.99",
                 Quantity: "72 pcs./6PDQ",
