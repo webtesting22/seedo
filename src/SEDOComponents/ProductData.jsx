@@ -466,7 +466,7 @@ const SeedoProductData = {
                     ProductImage: [
                         "/Images/ProductsImages/RoadSniper02/RoadSniper(red).png",
                         "/Images/ProductsImages/RoadSniper02/RoadSniper(blue).png",
-                        // "/Images/ProductsImages/RoadSniper02/RoadSniper(gray).png",
+                        "/Images/ProductsImages/RoadSniper02/RoadSniper(orange).png",
                         "/Images/ProductsImages/RoadSniper02/RoadSniper(yellow).png",
                         "/Images/ProductsImages/RoadSniper02/RoadSniper1.png",
                         "/Images/ProductsImages/RoadSniper02/RoadSniper2.png",
@@ -622,6 +622,7 @@ const SeedoProductData = {
                         "/Images/ProductsImages/StuntCar/StuntCar(Blue).png",
                         "/Images/ProductsImages/StuntCar/StuntCar(green).png",
                         "/Images/ProductsImages/StuntCar/StuntCar(yellow).png",
+                        "/Images/ProductsImages/StuntCar/StuntCar(red).png",
                         "/Images/ProductsImages/StuntCar/StuntCar(Blue).png",
                     ],
                     Price: "Rs.749",
