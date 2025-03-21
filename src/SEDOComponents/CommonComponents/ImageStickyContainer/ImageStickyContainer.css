@@ -189,10 +189,7 @@
 }
 
 #ImageStickyContainer .WhyUsContainer {
-    /* min-height: 300px; */
     width: 100%;
-    /* background: #A1A1A1; */
-    /* padding: 50px 0px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -209,7 +206,7 @@
         bottom: unset;
         transition: .5s;
     }
-    
+
     .WhyUsContainer {
         padding: 50px 10px;
     }
@@ -220,8 +217,6 @@
         width: 100%;
         /* font-size: 50px; */
     }
-
-
 
     #ImageStickyContainer h1 {
         font-size: 50px;

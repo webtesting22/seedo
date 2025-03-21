@@ -1,13 +1,8 @@
 
 import FLGDSPO12 from "/Images/ProductsImages/Friction and pull back products/FLG-DS-PO12(pink).png"
-import FLGDSPO12_2 from "/Images/ProductsImages/Friction and pull back products/FLG-DS-PO12(blue).png"
-import MTToys from "/Images/ProductsImages/Friction and pull back products/MT-Toys(green).png"
-import MTToys_2 from "/Images/ProductsImages/Friction and pull back products/MT-Toys(purple).png"
 import PNGBC from "/Images/ProductsImages/Friction and pull back products/PNG-BC.png"
 import PNGBC_2 from "/Images/ProductsImages/Friction and pull back products/PNG-BC(2).png"
 import PNGBC_3 from "/Images/ProductsImages/Friction and pull back products/PNG-BC(3).png"
-import PNGBSS from "/Images/ProductsImages/Friction and pull back products/PNG-BS&S.png"
-import PNGBSS_2 from "/Images/ProductsImages/Friction and pull back products/PNG-BS&S(2).png"
 import PNGMC from "/Images/ProductsImages/Friction and pull back products/PNG-MC1.png"
 import PNGMC_2 from "/Images/ProductsImages/Friction and pull back products/PNG-MC(black).png"
 import PNGMC_3 from "/Images/ProductsImages/Friction and pull back products/PNG-MC(red).png"
@@ -39,27 +34,17 @@ import DANCINGOCTOPUSTOY from "../assets/MultipleViewImages/DANCINGOCTOPUSTOY.pn
 import MUSICALDINO from "../assets/MultipleViewImages/MUSICALDINO.png"
 import MUSICALGUITAR from "../assets/MultipleViewImages/MUSICALGUITAR.png"
 import PULLBACKEMERGENCYVEHICLES from "../assets/MultipleViewImages/PULLBACKEMERGENCYVEHICLES.png"
-import SMALLTRACTORMONSTERWHEELS from "../assets/MultipleViewImages/SMALLTRACTORMONSTERWHEELS.png"
 import TUMBLINGROBOT from "../assets/MultipleViewImages/TUMBLINGROBOT.png"
 import WATERFROGTOY from "../assets/MultipleViewImages/WATERFROGTOY.png"
 import WHISTLEDINOPRESSGO from "../assets/MultipleViewImages/WHISTLEDINOPRESSGO.png"
 import MUSICALRESCUEHELICOPTER from "../assets/MultipleViewImages/MUSICALRESCUEHELICOPTER.png"
 import DINOPULLBACK1 from "../assets/MultipleViewImages/DINOPULLBACK.png"
-import PULLBACKTWISTINGSTUNT1 from "../assets/MultipleViewImages/PULLBACKTWISTINGSTUNT.png"
 import PRESSNGOJCBTOYS1 from "../assets/MultipleViewImages/PRESSNGOJCBTOYS.png"
 import FRICTIONDRIFTCAR1 from "../assets/MultipleViewImages/FRICTIONDRIFTCAR.png"
-import DANCINGCRABTOY from "../assets/MultipleViewImages/DANCINGCRABTOY.png"
-import ANIMALFACECAR from "../assets/MultipleViewImages/ANIMALFACECAR.png"
 import BIGCARRIERTRUCKSSMALLCARS from "../assets/MultipleViewImages/BIG CARRIERTRUCKSSMALLCARS.png"
 import BIGMONSTERWHEELFARMERTRACTOR2 from "../assets/MultipleViewImages/BIGMONSTERWHEELFARMERTRACTOR2.png"
 import DOUBLEINERTIAINSECTBEETLE from "../assets/MultipleViewImages/DOUBLEINERTIAINSECTBEETLE.png"
-import COOLRUNDINOSAUR from "../assets/MultipleViewImages/COOLRUNDINOSAUR.png"
 import ULTRALEDFLYINGDISC from "../assets/MultipleViewImages/ULTRA LEDFLYINGDISC.png"
-import MONSTERTUMBLE from "../assets/MultipleViewImages/MosterThumble.png"
-import MUSICALSAXOPHONETOY from "../assets/MultipleViewImages/MUSICALSAXOPHONETOY.png"
-import WaterTurtleToy from "../assets/MultipleViewImages/WaterTurtleToy.png"
-import MUSICALTRUMPETTOY from "../assets/MultipleViewImages/MUSICALTRUMPETTOY.png"
-import SMALLACTIONSTUNTCAR from "../assets/MultipleViewImages/SMALLACTIONSTUNTCAR.png"
 const SeedoProductData = {
     "Remote Controlled Cars": {
         CategoriryImage: "Images/RCCar.png",   // Product Category card Image........... (Remote Control Car Image)
@@ -71,7 +56,7 @@ const SeedoProductData = {
                 {
                     id: 1,
                     name: "Light Blaster 2 Way",
-                    cardColor: "rgb(243 91 89 / 79%)",
+                    cardColor: "linear-gradient(to right, rgb(255, 161, 161), rgb(201 38 38 / 84%))",
                     Features: [
                         "/Images/ProductIconsImages/Moves2Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -108,7 +93,7 @@ const SeedoProductData = {
                 {
                     id: 2,
                     name: "Famous Car 2 Way",
-                    cardColor: "#F0FE9F",
+                    cardColor: "linear-gradient(to right, #F3FFC9, #A4D100)",
                     colorOptions: [
                         "orange", "red", "yellow", "green"
                     ],
@@ -172,7 +157,7 @@ const SeedoProductData = {
                 {
                     id: 4,
                     name: "Blaze Runner",
-                    cardColor: "rgba(169, 254, 40, 0.59)",
+                    cardColor: "linear-gradient(to right, #F3FFC9, #A4D100)",
                     Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -244,7 +229,7 @@ const SeedoProductData = {
                 {
                     id: 5,
                     name: "Light Blaster 4 Way",
-                    cardColor: "#C4C52E",
+                    cardColor: "linear-gradient(to right, #FFEBCB, #EABF03)",
                     Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -308,7 +293,7 @@ const SeedoProductData = {
                 {
                     id: 7,
                     name: "Racer Car 4 Way",
-                    cardColor: "rgb(91 115 167 / 87%)",
+                    cardColor: "linear-gradient(to right, #C6D9FF, #0069DC)",
                     Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -414,7 +399,7 @@ const SeedoProductData = {
                 {
                     id: 10,
                     name: "Road Sniper 01",
-                    cardColor: "rgba(103, 152, 229, 0.59)",
+                    cardColor: "linear-gradient(to right, #FFA1A1, #C92626)",
                     colorOptions: [
                         "grey",
                     ],
@@ -425,9 +410,9 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
+                        "/Images/ProductsImages/RoadSniper01/RoadSniper(red).png",
                         "/Images/ProductsImages/RoadSniper01/RoadSniper(blue).png",
                         "/Images/ProductsImages/RoadSniper01/RoadSniper(black).png",
-                        "/Images/ProductsImages/RoadSniper01/RoadSniper(red).png",
                         "/Images/ProductsImages/RoadSniper01/RoadSniper1.png",
                         "/Images/ProductsImages/RoadSniper01/RoadSniper2.png",
                         "/Images/ProductsImages/RoadSniper01/RoadSniper3.png",
@@ -456,7 +441,7 @@ const SeedoProductData = {
                 {
                     id: 11,
                     name: "Road Sniper 02",
-                    cardColor: "rgba(249, 167, 96, 0.59)",
+                    cardColor: "linear-gradient(to right, #C6D9FF, #0069DC)",
                     Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -464,8 +449,9 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        "/Images/ProductsImages/RoadSniper02/RoadSniper(red).png",
                         "/Images/ProductsImages/RoadSniper02/RoadSniper(blue).png",
+                        "/Images/ProductsImages/RoadSniper02/RoadSniper(red).png",
+
                         "/Images/ProductsImages/RoadSniper02/RoadSniper(orange).png",
                         "/Images/ProductsImages/RoadSniper02/RoadSniper(yellow).png",
                         "/Images/ProductsImages/RoadSniper02/RoadSniper1.png",
@@ -610,7 +596,7 @@ const SeedoProductData = {
                 {
                     id: 14,
                     name: "Stunt Car",
-                    cardColor: "rgba(236, 84, 68, 0.59)",
+                    cardColor: "linear-gradient(to right, #C6D9FF, #0069DC)",
                     Features: [
                         "/Images/ProductIconsImages/360Flip.png",
                         "/Images/ProductIconsImages/Moves4Ways.png",
@@ -653,11 +639,11 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        "/Images/ProductsImages/BigStunt/BigStunt(blue).jpg",
-                        "/Images/ProductsImages/BigStunt/BigStunt(orange).jpg",
+                        "/Images/ProductsImages/BigStunt/BigStunt(blue).png",
+                        "/Images/ProductsImages/BigStunt/BigStunt(orange).png",
                         "/Images/ProductsImages/BigStunt/BigStunt1.jpg",
                         "/Images/ProductsImages/BigStunt/BigStunt2.jpg",
-                        "/Images/ProductsImages/BigStunt/BigStunt3.jpg"
+                        "/Images/ProductsImages/BigStunt/BigStunt(blue).png",
                     ],
                     Price: "Rs.1099",
                     Quantity: "12 pcs./box",
@@ -689,7 +675,14 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        "/Images/ProductsImages/TwistingStunt/TwistingStunt(blue).png"
+                        "/Images/ProductsImages/TwistingStunt/TwistingStunt(blue).png",
+                        "/Images/ProductsImages/TwistingStunt/TwistingStunt1.png",
+                        "/Images/ProductsImages/TwistingStunt/TwistingStunt2.png",
+                        "/Images/ProductsImages/TwistingStunt/TwistingStunt3.png",
+                        "/Images/ProductsImages/TwistingStunt/TwistingStunt4.png",
+                        "/Images/ProductsImages/TwistingStunt/TwistingStunt5.png",
+                        "/Images/ProductsImages/TwistingStunt/TwistingStunt6.png",
+                        "/Images/ProductsImages/TwistingStunt/TwistingStunt7.png",
                     ],
                     Price: "Rs.2499",
                     Quantity: "12 pcs./box",
@@ -742,7 +735,7 @@ const SeedoProductData = {
                 {
                     id: 18,
                     name: "Super Sonic Stunt Car",
-                    cardColor: "rgb(253 87 100 / 74%)",
+                    cardColor: "linear-gradient(to right, #E4E4E4, #171515)",
                     Features: [
                         "/Images/ProductIconsImages/StuntShot.png",
                         "/Images/ProductIconsImages/ShockAbsorber.png",
@@ -779,7 +772,7 @@ const SeedoProductData = {
                 {
                     id: 21,
                     name: "Dino/Shark/PVC Rock Crawler",
-                    cardColor: "rgb(101 199 74 / 58%)",
+                    cardColor: "linear-gradient(to right, #F3FFC9, #A4D100)",
                     Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -792,11 +785,9 @@ const SeedoProductData = {
                         "/Images/ProductsImages/DinoSharkPVCRock/DinoShellCrawler(orange).png",
                         "/Images/ProductsImages/DinoSharkPVCRock/DinoShellCrawler(red).png",
                         "/Images/ProductsImages/DinoSharkPVCRock/DinoShellCrawler(skyblue).png",
-                        "/Images/ProductsImages/DinoSharkPVCRock/DinoShellCrawler1.jpg",
-                        "/Images/ProductsImages/DinoSharkPVCRock/DinoShellCrawler1.jpg",
-                        "/Images/ProductsImages/DinoSharkPVCRock/DinoShellCrawler1.jpg",
-                        "/Images/ProductsImages/DinoSharkPVCRock/DinoShellCrawler1.jpg",
-                        "/Images/ProductsImages/DinoSharkPVCRock/DinoShellCrawler1.jpg",
+                        "/Images/ProductsImages/DinoSharkPVCRock/DinoShellCrawler1.png",
+                        "/Images/ProductsImages/DinoSharkPVCRock/DinoShellCrawler3.jpg",
+                        "/Images/ProductsImages/DinoSharkPVCRock/DinoShellCrawler6.jpg",
                     ],
                     Price: "Rs.1599",
                     Quantity: "24 pcs./box",
@@ -821,7 +812,7 @@ const SeedoProductData = {
                     // colorOptions: [
                     //     "green", "purple"
                     // ],
-                    cardColor: "rgb(134 195 67 / 65%)",
+                    cardColor: "linear-gradient(to right, #FDCFEF, #B2009E)",
                     Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -831,8 +822,9 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        "/Images/ProductsImages/PVCShellRockCrawler/PVCShellRockCrawler(green).png",
                         "/Images/ProductsImages/PVCShellRockCrawler/PVCShellRockCrawler(purple).png",
+                        "/Images/ProductsImages/PVCShellRockCrawler/PVCShellRockCrawler(green).png",
+
                         "/Images/ProductsImages/PVCShellRockCrawler/PVCShellRockCrawler1.png", "https://prepseed.s3.ap-south-1.amazonaws.com/PVC+SHELL+ROCK+CRAWLER+.mp4"
                     ],
                     Price: "Rs.1599",
@@ -890,7 +882,7 @@ const SeedoProductData = {
                 {
                     id: 22,
                     name: "Gun Rock Crawler",
-                    cardColor: "rgb(240 190 1 / 61%)",
+                    cardColor: "linear-gradient(to right, #FFA2A2, #CE0000)",
                     Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -924,7 +916,7 @@ const SeedoProductData = {
                 {
                     id: 23,
                     name: "Smoke Rock Crawler",
-                    cardColor: "rgb(237 50 55 / 60%)",
+                    cardColor: "linear-gradient(to right, #FFA2A2, #CE0000)",
                     Features: [
                         "/Images/ProductIconsImages/Moves4Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -1289,7 +1281,7 @@ const SeedoProductData = {
                 {
                     id: 65,
                     name: "SMR Fire Birds-FBS01/8",
-                    cardColor: "rgb(222 219 31 / 69%)",
+                    cardColor: "linear-gradient(135deg, #FFFED3, #BCB604)",
                     ProductBatteryType: "-",
                     Price: "Rs.139",
                     Quantity: "24 pcs./box",
@@ -1352,7 +1344,7 @@ const SeedoProductData = {
                     id: 68,
                     name: "SMR Fire Birds-FBS04/8",
                     ProductBatteryType: "-",
-                    cardColor: "rgb(98 199 200 / 62%)",
+                    cardColor: "linear-gradient(135deg, #9EEAFF, #09A5D0)",
                     Price: "Rs.139",
                     Quantity: "24 pcs./box",
                     ProductImage: ["/Images/ProductsImages/FireBirdSeries/FireBirdSeries4.png"],
@@ -1411,7 +1403,7 @@ const SeedoProductData = {
                 {
                     id: 71,
                     name: "SMR Fire Birds-FBS07/8",
-                    cardColor: "rgb(243 114 91 / 70%)",
+                    cardColor: "linear-gradient(135deg, #FFA2A2, #CE0000)",
                     ProductBatteryType: "-",
                     Price: "Rs.139",
                     Quantity: "24 pcs./box",
@@ -1650,6 +1642,7 @@ const SeedoProductData = {
                 {
                     id: 35,
                     name: "SMR Pull Back Series-A01/6",
+                    cardColor:"linear-gradient(135deg, #FFA2A2, #CE0000)",
                     ProductBatteryType: "-",
                     ProductImage: [
                         "/Images/ProductsImages/PullBackSeries/PullBackSeries1.png"
@@ -1671,6 +1664,7 @@ const SeedoProductData = {
                 {
                     id: 36,
                     name: "SMR Pull Back Series-A02/6",
+                    cardColor:"linear-gradient(135deg, #FFEBCB, #EABF03)",
                     ProductBatteryType: "-",
                     ProductImage: ["/Images/ProductsImages/PullBackSeries/PullBackSeries2.png"],
                     Price: "Rs.159",
@@ -1690,6 +1684,7 @@ const SeedoProductData = {
                 {
                     id: 37,
                     name: "SMR Pull Back Series-A03/6",
+                    cardColor:"linear-gradient(135deg, #9EEAFF, #09A5D0)",
                     ProductBatteryType: "-",
                     ProductImage: ["/Images/ProductsImages/PullBackSeries/PullBackSeries3.png"],
                     Price: "Rs.159",
@@ -1709,6 +1704,7 @@ const SeedoProductData = {
                 {
                     id: 38,
                     name: "SMR Pull Back Series-A04/6",
+                    cardColor:"linear-gradient(135deg, #FFD4A6, #F27D01)",
                     ProductBatteryType: "-",
                     ProductImage: ["/Images/ProductsImages/PullBackSeries/PullBackSeries4.png"],
                     Price: "Rs.159",
@@ -1728,6 +1724,7 @@ const SeedoProductData = {
                 {
                     id: 39,
                     name: "SMR Pull Back Series-A05/6",
+                    cardColor:"linear-gradient(135deg, #EFEFEF, #CCCCCB)",
                     ProductBatteryType: "-",
                     ProductImage: ["/Images/ProductsImages/PullBackSeries/PullBackSeries5.png"],
                     Price: "Rs.159",
@@ -1747,6 +1744,7 @@ const SeedoProductData = {
                 {
                     id: 40,
                     name: "SMR Pull Back Series-A06/6",
+                    cardColor:"linear-gradient(135deg, #F3FFC9, #A4D100)",
                     ProductBatteryType: "-",
                     ProductImage: ["/Images/ProductsImages/PullBackSeries/PullBackSeries6.png"],
                     Price: "Rs.159",
@@ -1768,6 +1766,7 @@ const SeedoProductData = {
                 {
                     id: 29,
                     name: "SMR Construction Series-A01/6",
+                    cardColor:"linear-gradient(135deg, #FFD4A6, #F27D01)",
                     ProductBatteryType: "-",
                     ProductImage: [
                         "/Images/ProductsImages/ConstructionSeries/ConstructionSeries1.png"
@@ -1789,6 +1788,7 @@ const SeedoProductData = {
                 {
                     id: 30,
                     name: "SMR Construction Series-A02/6",
+                    cardColor:"linear-gradient(135deg, #FFD4A6, #F27D01)",
                     ProductBatteryType: "-",
                     ProductImage: [
                         "/Images/ProductsImages/ConstructionSeries/ConstructionSeries2.png"
@@ -1810,6 +1810,7 @@ const SeedoProductData = {
                 {
                     id: 31,
                     name: "SMR Construction Series-A03/6",
+                    cardColor:"linear-gradient(135deg, #FFD4A6, #F27D01)",
                     ProductBatteryType: "-",
                     ProductImage: [
                         "/Images/ProductsImages/ConstructionSeries/ConstructionSeries3.png"
@@ -1831,6 +1832,7 @@ const SeedoProductData = {
                 {
                     id: 32,
                     name: "SMR Construction Series-A04/6",
+                    cardColor:"linear-gradient(135deg, #FFD4A6, #F27D01)",
                     ProductBatteryType: "-",
                     ProductImage: [
                         "/Images/ProductsImages/ConstructionSeries/ConstructionSeries4.png"
@@ -1852,6 +1854,7 @@ const SeedoProductData = {
                 {
                     id: 33,
                     name: "SMR Construction Series-A05/6",
+                    cardColor:"linear-gradient(135deg, #FFD4A6, #F27D01)",
                     ProductBatteryType: "-",
                     ProductImage: [
                         "/Images/ProductsImages/ConstructionSeries/ConstructionSeries5.png"
@@ -1873,6 +1876,7 @@ const SeedoProductData = {
                 {
                     id: 34,
                     name: "SMR Construction Series-A06/6",
+                    cardColor:"linear-gradient(135deg, #FFD4A6, #F27D01)",
                     ProductBatteryType: "-",
                     ProductImage: [
                         "/Images/ProductsImages/ConstructionSeries/ConstructionSeries6.png"
@@ -2101,9 +2105,11 @@ const SeedoProductData = {
             {
                 id: 76,
                 name: "Light & Gear - Dino and Snail",
+                cardColor: "linear-gradient(to right, #C6D9FF, #0069DC)",
                 ProductImage: [
+                     "/Images/ProductsImages/otherFrictionPullBack/LightGearDino(blue).png",
                     FLGDSPO12,
-                    FLGDSPO12_2,
+                   
                 ],
                 Price: "Rs.349",
                 Quantity: "",
@@ -2132,8 +2138,9 @@ const SeedoProductData = {
             {
                 id: 114,
                 name: "Monster Tumble",
+                cardColor:"linear-gradient(to right, #FAE0FF, #9200DB)",
                 ProductImage: [
-                   "/Images/ProductsImages/otherFrictionPullBack/MonsterThumble.png"
+                    "/Images/ProductsImages/otherFrictionPullBack/MonsterThumble.png"
                 ],
                 Price: "Rs.249",
                 Quantity: "",
@@ -2161,6 +2168,7 @@ const SeedoProductData = {
             {
                 id: 78,
                 name: "Space Series Press N Go",
+                cardColor:"linear-gradient(135deg, #EFEFEF, #CCCCCB)",
                 ProductImage: [
                     SpaceSeries, SpaceSeries2, SpaceSeries3
                 ],
@@ -2180,8 +2188,8 @@ const SeedoProductData = {
                 id: 79,
                 name: "Press N Go Ship",
                 ProductImage: [
-                     "/Images/ProductsImages/otherFrictionPullBack/PressNGoShip1.png",
-                     "/Images/ProductsImages/otherFrictionPullBack/PressNGoShip2.png"
+                    "/Images/ProductsImages/otherFrictionPullBack/PressNGoShip1.png",
+                    "/Images/ProductsImages/otherFrictionPullBack/PressNGoShip2.png"
                 ],
                 Quantity: "",
                 ProductStyleCode: "PNG-BS&S",
@@ -2235,6 +2243,7 @@ const SeedoProductData = {
             {
                 id: 81,
                 name: "Press N Go Boat Toys",
+                cardColor:"linear-gradient(135deg, #FFA1A1, #C92626)",
                 ProductImage: [
                     PNGToys, PNGToys_2
                 ],
@@ -2256,29 +2265,6 @@ const SeedoProductData = {
                     </div>
                 </>
             },
-            // {
-            //     id: 82,
-            //     name: "Mini Monster Truck",
-            //     ProductImage: [
-            //         MTToys, MTToys_2
-            //     ],
-            //     ProductStyleCode: "MT-Toys",
-            //     Quantity: <>
-            //         <span>Inner Packaging: 12 pcs</span>
-            //         <span>Master packaging: 192 pcs</span>
-            //     </>,
-            //     Productdescription: <>
-            //         <div>
-            //             <div>
-            //                 <p><b>Material type</b> Plastic</p>
-            //                 <p><b>Dimension</b> 8x8.7x7.3cm</p>
-            //                 <p><b>Inner Packaging</b> 12 pcs</p>
-            //                 <p><b>Master packaging</b> 192 pcs</p>
-            //                 <p><b>HSN Code</b> 95030090</p>
-            //             </div>
-            //         </div>
-            //     </>
-            // },
             {
                 id: 112,
                 name: "Press N Go JCB Toys",
@@ -2350,6 +2336,7 @@ const SeedoProductData = {
             {
                 id: 90,
                 name: "Dancing Crab Toy",
+                cardColor:"linear-gradient(to right, #E2F9FF, #2CA5B4)",
                 ProductBatteryType: "-",
                 ProductImage: [
                     "/Images/ProductsImages/otherFrictionPullBack/DancingCrabToy.png"
@@ -2376,7 +2363,9 @@ const SeedoProductData = {
                 id: 91,
                 name: "Animal Face Car",
                 ProductBatteryType: "-",
-                ProductImage: [ANIMALFACECAR],
+                ProductImage: [
+                    "/Images/ProductsImages/otherFrictionPullBack/AnimalFaceCar.png"
+                ],
                 Price: "Rs.329",
                 Quantity: <>
                     <span>Inner Packaging: 12 pcs</span>
@@ -2489,8 +2478,12 @@ const SeedoProductData = {
             {
                 id: 96,
                 name: "SMALL FARMER TRACTOR",
+                cardColor:"linear-gradient(to right, rgb(255, 161, 161), rgb(201 38 38 / 84%))",
                 ProductBatteryType: "-",
-                ProductImage: [SMALLTRACTORMONSTERWHEELS],
+                ProductImage: [
+                    "/Images/ProductsImages/otherFrictionPullBack/SMALLFARMERTRACTOR(red).png",
+                    "/Images/ProductsImages/otherFrictionPullBack/SMALLTRACTORMONSTER(green).png",
+                ],
                 ProductStyleCode: "-",
                 Price: "Rs. 1499",
                 Quantity: <>
@@ -2674,7 +2667,9 @@ const SeedoProductData = {
                 id: 105,
                 name: "Cool Run Dinosaur",
                 ProductBatteryType: "-",
-                ProductImage: [COOLRUNDINOSAUR],
+                ProductImage: [
+                    "/Images/ProductsImages/otherFrictionPullBack/CoolRunDinosaur.png"
+                ],
                 Price: "Rs. 399",
                 Quantity: <>
                     <span>Inner Packaging: 8 pcs</span>
@@ -2722,6 +2717,7 @@ const SeedoProductData = {
             {
                 id: 107,
                 name: "Water Turtle Toy",
+                cardColor:"linear-gradient(135deg, #E2F9FF, #2CA5B4)",
                 ProductBatteryType: "-",
                 ProductImage: [
                     "/Images/ProductsImages/otherFrictionPullBack/WaterTurtleToy.png"
@@ -2747,8 +2743,11 @@ const SeedoProductData = {
             {
                 id: 115,
                 name: "Musical Trumpet Toy",
+                cardColor:"linear-gradient(135deg, #CBEBFF, #004B9E)",
                 ProductBatteryType: "-",
-                ProductImage: [MUSICALSAXOPHONETOY],
+                ProductImage: [
+                           "/Images/ProductsImages/otherFrictionPullBack/MusicalTrumpetToy.png"
+                ],
                 Price: "Rs.1499",
                 Quantity: <>
                     <span>Inner Packaging: 1 pcs</span>
@@ -2769,8 +2768,11 @@ const SeedoProductData = {
             {
                 id: 116,
                 name: "Musical Saxophone Toy",
+                cardColor:"linear-gradient(135deg, #E2F9FF, #2CA5B4)",
                 ProductBatteryType: "-",
-                ProductImage: [MUSICALTRUMPETTOY],
+                ProductImage: [
+                    "/Images/ProductsImages/otherFrictionPullBack/MusicalSaxophoneToy.png"
+                ],
                 Price: "Rs.1499",
                 Quantity: <>
                     <span>Inner Packaging: 1 pcs</span>
@@ -2793,7 +2795,12 @@ const SeedoProductData = {
                 id: 119,
                 name: "Small Action Stunt Car",
                 ProductImage: [
-                    "/Images/ProductsImages/otherFrictionPullBack/SmallActionStuntCar.png"
+                    "/Images/ProductsImages/otherFrictionPullBack/SmallActionStuntCar.png",
+                    "/Images/ProductsImages/otherFrictionPullBack/SmallActionStuntCar1.png",
+                    "/Images/ProductsImages/otherFrictionPullBack/SmallActionStuntCar2.png",
+                    "/Images/ProductsImages/otherFrictionPullBack/SmallActionStuntCar3.png",
+                    "/Images/ProductsImages/otherFrictionPullBack/SmallActionStuntCar4.png",
+
                 ],
                 ProductStyleCode: "-",
                 Price: "Rs.99",

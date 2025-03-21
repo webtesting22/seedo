@@ -410,8 +410,6 @@ const SingleProductPage = () => {
                     </div>
                     <Row gutter={[16, 16]}>
                         {similarProducts.map((prod, index) => {
-
-
                             const colors = [
                                 "rgba(9, 177, 171, 0.25)",
                                 "rgba(241, 142, 170, 0.23)",
@@ -425,11 +423,11 @@ const SingleProductPage = () => {
 
                             return (
                                 <Col key={prod.id} lg={6} md={12} sm={24} style={{ width: "100%" }}>
-                                    <div className="SimilarProductCard" >
+                                    <div className="SimilarProductCard">
                                         <Link
                                             to={`/singleproduct/${categoryName}/${prod.id}`}
                                             className="ProductLink"
-                                            style={{ backgroundColor: prod.cardColor }}
+                                            style={{ background: prod.cardColor || backgroundColor }}
                                         >
                                             <div className="ImageContainer">
                                                 <img
@@ -438,9 +436,7 @@ const SingleProductPage = () => {
                                                     }
                                                     alt={prod.name}
                                                 />
-
                                             </div>
-
                                         </Link>
                                         <h3 style={{ color: "black", textAlign: "start", width: "100%", paddingLeft: "50px", fontSize: "18px" }}>{prod.name}</h3>
                                     </div>
