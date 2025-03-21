@@ -26,9 +26,6 @@ const ImagesGallery = () => {
 
     return (
         <>
-           
-
-
             <section className="OurBestsellers" >
 
                 <div>
@@ -64,8 +61,6 @@ const ImagesGallery = () => {
                         >
                             {BestSellerProducts.BestSeller.products.map((item, index) => (
                                 <SwiperSlide key={item.id}>
-
-
                                     <div className="BestSellerCardsContainer">
                                         <Link to={item.link} style={{ textDecoration: "none", width: "100%" }}>
                                             <div
@@ -88,12 +83,11 @@ const ImagesGallery = () => {
                                             </div>
                                         </Link>
                                         <div className="BestSellerCardHeading">
-                                           <div>
-                                           <h3 className="BestSellerTitle">{item.name}</h3>
-                                           <p>{item.categoryName}</p>
-                                           </div>
+                                            <div>
+                                                <h3 className="BestSellerTitle">{item.name}</h3>
+                                                <p>{item.categoryName}</p>
+                                            </div>
                                         </div>
-
                                         {/* Color Options */}
                                         <div className="color-options">
                                             {item.colors.map((color, colorIndex) => (
@@ -103,17 +97,13 @@ const ImagesGallery = () => {
                                                     style={{
                                                         background: color.colorCode,
                                                         border: selectedColors[index].colorName === color.colorName,
-                                                        transition:"2s"
+                                                        transition: "2s"
                                                     }}
                                                     onClick={() => handleColorChange(index, color)}
                                                 ></span>
                                             ))}
                                         </div>
                                     </div>
-                                    {/* </Link> */}
-
-                                    {/* Product Name */}
-
                                 </SwiperSlide>
                             ))}
                         </Swiper>
@@ -200,7 +190,7 @@ const ImagesGallery = () => {
                 </div>
 
             </section>
-            
+
         </>
     )
 }
