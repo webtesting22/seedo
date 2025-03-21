@@ -12,9 +12,10 @@ const BestSellerProducts = {
                 ProductStyleCode: "118RC001",
                 link: "singleproduct/Remote%20Controlled%20Cars/4",
                 colors: [
+                    { colorName: "green", colorCode: "linear-gradient(135deg, #F3FFC9, #A4D100)", ProductImage: "/Images/ProductsImages/BlazeRunner/BlazeRunner5(green).png" },
                     { colorName: "skyblue", colorCode: "linear-gradient(135deg, #9EEAFF, #09A5D0)", ProductImage: "/Images/ProductsImages/BlazeRunner/BlazeRunner1(blue).png" },
                     { colorName: "red", colorCode: "linear-gradient(135deg, #FFA1A1, #C92626)", ProductImage: "/Images/ProductsImages/BlazeRunner/BlazeRunner2(red).png" },
-                    { colorName: "green", colorCode: "linear-gradient(135deg, #F3FFC9, #A4D100)", ProductImage: "/Images/ProductsImages/BlazeRunner/BlazeRunner5(green).png" }
+                   
                 ]
             },
             {
@@ -53,8 +54,9 @@ const BestSellerProducts = {
                 ProductStyleCode: "124LRC00E",
                 link: "singleproduct/Remote%20Controlled%20Cars/11",
                 colors: [
-                    { colorName: "red", colorCode: "linear-gradient(135deg, #FFA1A1, #C92626)", ProductImage: "/Images/ProductsImages/RoadSniper02/RoadSniper(red).png" },
                     { colorName: "yellow", colorCode: "linear-gradient(135deg, #FFEBCB, #EABF03)", ProductImage: "/Images/ProductsImages/RoadSniper02/RoadSniper(yellow).png" },
+                    { colorName: "red", colorCode: "linear-gradient(135deg, #FFA1A1, #C92626)", ProductImage: "/Images/ProductsImages/RoadSniper02/RoadSniper(red).png" },
+                   
                     { colorName: "blue", colorCode: "linear-gradient(135deg, #C6D9FF, #0069DC)", ProductImage: "/Images/ProductsImages/RoadSniper02/RoadSniper(blue).png" },
                     { colorName: "orange", colorCode: "linear-gradient(135deg, #FFD7AB, #E58117)", ProductImage: "/Images/ProductsImages/RoadSniper02/RoadSniper(orange).png", }
 
