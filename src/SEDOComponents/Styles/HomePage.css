@@ -300,27 +300,6 @@
   border-radius: 10px;
 }
 
-/* #HomePageNewCarousal .mySwiper .swiper-slide:nth-child(1) .HomePageHeadingContainer h1 {
-  color: #EB920E;
-}
-
-#HomePageNewCarousal .mySwiper .swiper-slide:nth-child(2) .HomePageHeadingContainer h1 {
-  color: #417453;
-}
-
-#HomePageNewCarousal .mySwiper .swiper-slide:nth-child(3) .HomePageHeadingContainer h1 {
-  color: #C85F3F;
-}
-
-#HomePageNewCarousal .mySwiper .swiper-slide:nth-child(4) .HomePageHeadingContainer h1 {
-  color: #045A75;
-}
-
-#HomePageNewCarousal .mySwiper .swiper-slide:nth-child(5) .HomePageHeadingContainer h1 {
-  color: #909090;
-} */
-
-
 @media (max-width: 900px) {
 
   .HomePageHeadingContainer button {

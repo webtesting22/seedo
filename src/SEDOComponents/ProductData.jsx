@@ -269,7 +269,10 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        "/Images/ProductsImages/Blaster023/Blaster023(black).png"
+                        "/Images/ProductsImages/Blaster023/Blaster023(black).png",
+                        "/Images/ProductsImages/Blaster023/Blaster0231.png",
+                           "/Images/ProductsImages/Blaster023/Blaster0232.png",
+                              "/Images/ProductsImages/Blaster023/Blaster0233.png"
                     ],
                     Price: "Rs.899",
                     Quantity: "48 pcs./box",
