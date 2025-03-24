@@ -135,7 +135,20 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Non - Rechargable",
                     ProductImage: [
-                        "/Images/ProductsImages/FormulaCar2Way/FormulaCar(orange).png"
+                        "/Images/ProductsImages/FormulaCar2Way/FormulaCar2Way(blue).png",
+                        "/Images/ProductsImages/FormulaCar2Way/FormulaCar2Way(green).png",
+                        "/Images/ProductsImages/FormulaCar2Way/FormulaCar2Way(orange).png",
+                        "/Images/ProductsImages/FormulaCar2Way/FormulaCar2Way(red).png",
+                        "/Images/ProductsImages/FormulaCar2Way/FormulaCar2Way(yellow).png",
+                        "/Images/ProductsImages/FormulaCar2Way/FormulaCar2Way1.png",
+                        "/Images/ProductsImages/FormulaCar2Way/FormulaCar2Way2.png",
+                        "/Images/ProductsImages/FormulaCar2Way/FormulaCar2Way3.png",
+                        "/Images/ProductsImages/FormulaCar2Way/FormulaCar2Way4.png",
+                        "/Images/ProductsImages/FormulaCar2Way/FormulaCar2Way5.png",
+                        "/Images/ProductsImages/FormulaCar2Way/FormulaCar2Way6.png",
+                        "/Images/ProductsImages/FormulaCar2Way/FormulaCar2Way7.png",
+                        "/Images/ProductsImages/FormulaCar2Way/FormulaCar2Way8.png",
+                        "/Images/ProductsImages/FormulaCar2Way/FormulaCar2Way9.png"
                     ],
                     Price: "Rs.399",
                     Quantity: "48 pcs./box",
@@ -206,7 +219,18 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Rechargable",
                     ProductImage: [
-                        "/Images/ProductsImages/FamousCar2way/FamousCar1.png",
+                        "/Images/ProductsImages/FamousCar4Way/FamousCar4Way(green).png",
+                        "/Images/ProductsImages/FamousCar4Way/FamousCar4Way(red).png",
+                        "/Images/ProductsImages/FamousCar4Way/FamousCar4Way(yellow).png",
+                        "/Images/ProductsImages/FamousCar4Way/FamousCar4Way1.png",
+                        "/Images/ProductsImages/FamousCar4Way/FamousCar4Way2.png",
+                        "/Images/ProductsImages/FamousCar4Way/FamousCar4Way3.png",
+                        "/Images/ProductsImages/FamousCar4Way/FamousCar4Way4.png",
+                        "/Images/ProductsImages/FamousCar4Way/FamousCar4Way5.png",
+                        "/Images/ProductsImages/FamousCar4Way/FamousCar4Way6.png",
+                        "/Images/ProductsImages/FamousCar4Way/FamousCar4Way7.png",
+                        "/Images/ProductsImages/FamousCar4Way/FamousCar4Way8.png",
+                        "/Images/ProductsImages/FamousCar4Way/FamousCar4Way9.png",
                     ],
                     Price: "Rs.899",
                     Quantity: "48 pcs./box",
@@ -271,8 +295,8 @@ const SeedoProductData = {
                     ProductImage: [
                         "/Images/ProductsImages/Blaster023/Blaster023(black).png",
                         "/Images/ProductsImages/Blaster023/Blaster0231.png",
-                           "/Images/ProductsImages/Blaster023/Blaster0232.png",
-                              "/Images/ProductsImages/Blaster023/Blaster0233.png"
+                        "/Images/ProductsImages/Blaster023/Blaster0232.png",
+                        "/Images/ProductsImages/Blaster023/Blaster0233.png"
                     ],
                     Price: "Rs.899",
                     Quantity: "48 pcs./box",
@@ -1645,7 +1669,7 @@ const SeedoProductData = {
                 {
                     id: 35,
                     name: "SMR Pull Back Series-A01/6",
-                    cardColor:"linear-gradient(135deg, #FFA2A2, #CE0000)",
+                    cardColor: "linear-gradient(135deg, #FFA2A2, #CE0000)",
                     ProductBatteryType: "-",
                     ProductImage: [
                         "/Images/ProductsImages/PullBackSeries/PullBackSeries1.png"
@@ -1667,7 +1691,7 @@ const SeedoProductData = {
                 {
                     id: 36,
                     name: "SMR Pull Back Series-A02/6",
-                    cardColor:"linear-gradient(135deg, #FFEBCB, #EABF03)",
+                    cardColor: "linear-gradient(135deg, #FFEBCB, #EABF03)",
                     ProductBatteryType: "-",
                     ProductImage: ["/Images/ProductsImages/PullBackSeries/PullBackSeries2.png"],
                     Price: "Rs.159",
@@ -1687,7 +1711,7 @@ const SeedoProductData = {
                 {
                     id: 37,
                     name: "SMR Pull Back Series-A03/6",
-                    cardColor:"linear-gradient(135deg, #9EEAFF, #09A5D0)",
+                    cardColor: "linear-gradient(135deg, #9EEAFF, #09A5D0)",
                     ProductBatteryType: "-",
                     ProductImage: ["/Images/ProductsImages/PullBackSeries/PullBackSeries3.png"],
                     Price: "Rs.159",
@@ -1707,7 +1731,7 @@ const SeedoProductData = {
                 {
                     id: 38,
                     name: "SMR Pull Back Series-A04/6",
-                    cardColor:"linear-gradient(135deg, #FFD4A6, #F27D01)",
+                    cardColor: "linear-gradient(135deg, #FFD4A6, #F27D01)",
                     ProductBatteryType: "-",
                     ProductImage: ["/Images/ProductsImages/PullBackSeries/PullBackSeries4.png"],
                     Price: "Rs.159",
@@ -1727,7 +1751,7 @@ const SeedoProductData = {
                 {
                     id: 39,
                     name: "SMR Pull Back Series-A05/6",
-                    cardColor:"linear-gradient(135deg, #EFEFEF, #CCCCCB)",
+                    cardColor: "linear-gradient(135deg, #EFEFEF, #CCCCCB)",
                     ProductBatteryType: "-",
                     ProductImage: ["/Images/ProductsImages/PullBackSeries/PullBackSeries5.png"],
                     Price: "Rs.159",
@@ -1747,7 +1771,7 @@ const SeedoProductData = {
                 {
                     id: 40,
                     name: "SMR Pull Back Series-A06/6",
-                    cardColor:"linear-gradient(135deg, #F3FFC9, #A4D100)",
+                    cardColor: "linear-gradient(135deg, #F3FFC9, #A4D100)",
                     ProductBatteryType: "-",
                     ProductImage: ["/Images/ProductsImages/PullBackSeries/PullBackSeries6.png"],
                     Price: "Rs.159",
@@ -1769,7 +1793,7 @@ const SeedoProductData = {
                 {
                     id: 29,
                     name: "SMR Construction Series-A01/6",
-                    cardColor:"linear-gradient(135deg, #FFD4A6, #F27D01)",
+                    cardColor: "linear-gradient(135deg, #FFD4A6, #F27D01)",
                     ProductBatteryType: "-",
                     ProductImage: [
                         "/Images/ProductsImages/ConstructionSeries/ConstructionSeries1.png"
@@ -1791,7 +1815,7 @@ const SeedoProductData = {
                 {
                     id: 30,
                     name: "SMR Construction Series-A02/6",
-                    cardColor:"linear-gradient(135deg, #FFD4A6, #F27D01)",
+                    cardColor: "linear-gradient(135deg, #FFD4A6, #F27D01)",
                     ProductBatteryType: "-",
                     ProductImage: [
                         "/Images/ProductsImages/ConstructionSeries/ConstructionSeries2.png"
@@ -1813,7 +1837,7 @@ const SeedoProductData = {
                 {
                     id: 31,
                     name: "SMR Construction Series-A03/6",
-                    cardColor:"linear-gradient(135deg, #FFD4A6, #F27D01)",
+                    cardColor: "linear-gradient(135deg, #FFD4A6, #F27D01)",
                     ProductBatteryType: "-",
                     ProductImage: [
                         "/Images/ProductsImages/ConstructionSeries/ConstructionSeries3.png"
@@ -1835,7 +1859,7 @@ const SeedoProductData = {
                 {
                     id: 32,
                     name: "SMR Construction Series-A04/6",
-                    cardColor:"linear-gradient(135deg, #FFD4A6, #F27D01)",
+                    cardColor: "linear-gradient(135deg, #FFD4A6, #F27D01)",
                     ProductBatteryType: "-",
                     ProductImage: [
                         "/Images/ProductsImages/ConstructionSeries/ConstructionSeries4.png"
@@ -1857,7 +1881,7 @@ const SeedoProductData = {
                 {
                     id: 33,
                     name: "SMR Construction Series-A05/6",
-                    cardColor:"linear-gradient(135deg, #FFD4A6, #F27D01)",
+                    cardColor: "linear-gradient(135deg, #FFD4A6, #F27D01)",
                     ProductBatteryType: "-",
                     ProductImage: [
                         "/Images/ProductsImages/ConstructionSeries/ConstructionSeries5.png"
@@ -1879,7 +1903,7 @@ const SeedoProductData = {
                 {
                     id: 34,
                     name: "SMR Construction Series-A06/6",
-                    cardColor:"linear-gradient(135deg, #FFD4A6, #F27D01)",
+                    cardColor: "linear-gradient(135deg, #FFD4A6, #F27D01)",
                     ProductBatteryType: "-",
                     ProductImage: [
                         "/Images/ProductsImages/ConstructionSeries/ConstructionSeries6.png"
@@ -2110,9 +2134,9 @@ const SeedoProductData = {
                 name: "Light & Gear - Dino and Snail",
                 cardColor: "linear-gradient(to right, #C6D9FF, #0069DC)",
                 ProductImage: [
-                     "/Images/ProductsImages/otherFrictionPullBack/LightGearDino(blue).png",
+                    "/Images/ProductsImages/otherFrictionPullBack/LightGearDino(blue).png",
                     FLGDSPO12,
-                   
+
                 ],
                 Price: "Rs.349",
                 Quantity: "",
@@ -2141,9 +2165,14 @@ const SeedoProductData = {
             {
                 id: 114,
                 name: "Monster Tumble",
-                cardColor:"linear-gradient(to right, #FAE0FF, #9200DB)",
+                cardColor: "linear-gradient(to right, #FAE0FF, #9200DB)",
                 ProductImage: [
-                    "/Images/ProductsImages/otherFrictionPullBack/MonsterThumble.png"
+                    "/Images/ProductsImages/MonsterTumble/MonsterTumble(red).png",
+                    "/Images/ProductsImages/MonsterTumble/MonsterTumble(purple).png",
+                    "/Images/ProductsImages/MonsterTumble/MonsterTumble(green).png",
+                    "/Images/ProductsImages/MonsterTumble/MonsterTumble(orange).png",
+                    "/Images/ProductsImages/MonsterTumble/MonsterTumble1.png",
+                    "/Images/ProductsImages/MonsterTumble/MonsterTumble2.png"
                 ],
                 Price: "Rs.249",
                 Quantity: "",
@@ -2153,9 +2182,26 @@ const SeedoProductData = {
                 id: 110,
                 name: "Dino Pull Back",
                 ProductImage: [
-                    DINOPULLBACK1,
+                    "/Images/ProductsImages/DinoPullBack/DinoPullBack(blue).png",
+                    "/Images/ProductsImages/DinoPullBack/DinoPullBack(green).png",
+                    "/Images/ProductsImages/DinoPullBack/DinoPullBack(red).png",
+                    "/Images/ProductsImages/DinoPullBack/DinoPullBack(yellow).png",
+                    "/Images/ProductsImages/DinoPullBack/DinoPullBack1.png",
+                    "/Images/ProductsImages/DinoPullBack/DinoPullBack2.png",
+                    "/Images/ProductsImages/DinoPullBack/DinoPullBack3.png",
+                    "/Images/ProductsImages/DinoPullBack/DinoPullBack4.png",
+                    "/Images/ProductsImages/DinoPullBack/DinoPullBack5.png",
+                    "/Images/ProductsImages/DinoPullBack/DinoPullBack6.png",
+                    "/Images/ProductsImages/DinoPullBack/DinoPullBack7.png",
+                    "/Images/ProductsImages/DinoPullBack/DinoPullBack8.png",
+                    "/Images/ProductsImages/DinoPullBack/DinoPullBack9.png",
+                    "/Images/ProductsImages/DinoPullBack/DinoPullBack10.png",
+                    "/Images/ProductsImages/DinoPullBack/DinoPullBack11.png",
+                    "/Images/ProductsImages/DinoPullBack/DinoPullBack12.png",
+                    "/Images/ProductsImages/DinoPullBack/DinoPullBack13.png",
+                    "/Images/ProductsImages/DinoPullBack/DinoPullBack14.png",
                 ],
-                Price: "Rs. 499",
+                Price: "Rs.499",
                 Quantity: "",
                 ProductStyleCode: "DPB-PO8",
                 Productdescription: <>
@@ -2171,7 +2217,7 @@ const SeedoProductData = {
             {
                 id: 78,
                 name: "Space Series Press N Go",
-                cardColor:"linear-gradient(135deg, #EFEFEF, #CCCCCB)",
+                cardColor: "linear-gradient(135deg, #EFEFEF, #CCCCCB)",
                 ProductImage: [
                     SpaceSeries, SpaceSeries2, SpaceSeries3
                 ],
@@ -2191,8 +2237,9 @@ const SeedoProductData = {
                 id: 79,
                 name: "Press N Go Ship",
                 ProductImage: [
-                    "/Images/ProductsImages/otherFrictionPullBack/PressNGoShip1.png",
-                    "/Images/ProductsImages/otherFrictionPullBack/PressNGoShip2.png"
+                    "/Images/ProductsImages/PressAndGoShip/PressAndGoShip2.png",
+                    "/Images/ProductsImages/PressAndGoShip/PressAndGoShip1.png",
+                    "/Images/ProductsImages/PressAndGoShip/PressAndGoShip3.png"
                 ],
                 Quantity: "",
                 ProductStyleCode: "PNG-BS&S",
@@ -2200,7 +2247,7 @@ const SeedoProductData = {
                     <div>
                         <div>
                             <p><b>Material type</b> ABS Material</p>
-                            <p>HSN Code<b></b> 95030030</p>
+                            <p><b>HSN Code</b> 95030030</p>
                         </div>
                     </div>
                 </>
@@ -2209,7 +2256,15 @@ const SeedoProductData = {
                 id: 111,
                 name: "Pull Back Twisting Stunt",
                 ProductImage: [
-                    "/Images/ProductsImages/otherFrictionPullBack/PullBackTwistingStunt.png"
+                    "/Images/ProductsImages/PullBackTwistingStunt/PullBackTwistingStunt(black).png",
+                    "/Images/ProductsImages/PullBackTwistingStunt/PullBackTwistingStunt(orange).png",
+                    "/Images/ProductsImages/PullBackTwistingStunt/PullBackTwistingStunt(skyblue).png",
+                    "/Images/ProductsImages/PullBackTwistingStunt/PullBackTwistingStunt(yellow).png",
+                    "/Images/ProductsImages/PullBackTwistingStunt/PullBackTwistingStunt1.png",
+                    "/Images/ProductsImages/PullBackTwistingStunt/PullBackTwistingStunt2.png",
+                    "/Images/ProductsImages/PullBackTwistingStunt/PullBackTwistingStunt3.png",
+                    "/Images/ProductsImages/PullBackTwistingStunt/PullBackTwistingStunt4.png",
+                    "/Images/ProductsImages/PullBackTwistingStunt/PullBackTwistingStunt5.png",
                 ],
                 Price: "Rs. 349",
                 Quantity: "48 pcs./6PDQ",
@@ -2219,7 +2274,7 @@ const SeedoProductData = {
                         <div>
                             <p><b>Material type</b> ABS Material</p>
                             <p><b>Dimension</b> 15x10.5x6.5cm</p>
-                            <p>HSN Code<b></b> 95030090</p>
+                            <p><b>HSN Code</b> 95030090</p>
                         </div>
                     </div>
                 </>
@@ -2246,9 +2301,12 @@ const SeedoProductData = {
             {
                 id: 81,
                 name: "Press N Go Boat Toys",
-                cardColor:"linear-gradient(135deg, #FFA1A1, #C92626)",
+                cardColor: "linear-gradient(135deg, #FFA1A1, #C92626)",
                 ProductImage: [
-                    PNGToys, PNGToys_2
+                    "/Images/ProductsImages/PressAndGoBoat/PressAndGoBoat(red).png",
+                    "/Images/ProductsImages/PressAndGoBoat/PressAndGoBoat(green).png",
+                    "/Images/ProductsImages/PressAndGoBoat/PressAndGoBoat(skyblue).png",
+                    "/Images/ProductsImages/PressAndGoBoat/PressAndGoBoat4.png"
                 ],
                 Price: "Rs.349",
                 Quantity: <>
@@ -2339,7 +2397,7 @@ const SeedoProductData = {
             {
                 id: 90,
                 name: "Dancing Crab Toy",
-                cardColor:"linear-gradient(to right, #E2F9FF, #2CA5B4)",
+                cardColor: "linear-gradient(to right, #E2F9FF, #2CA5B4)",
                 ProductBatteryType: "-",
                 ProductImage: [
                     "/Images/ProductsImages/otherFrictionPullBack/DancingCrabToy.png"
@@ -2481,7 +2539,7 @@ const SeedoProductData = {
             {
                 id: 96,
                 name: "SMALL FARMER TRACTOR",
-                cardColor:"linear-gradient(to right, rgb(255, 161, 161), rgb(201 38 38 / 84%))",
+                cardColor: "linear-gradient(to right, rgb(255, 161, 161), rgb(201 38 38 / 84%))",
                 ProductBatteryType: "-",
                 ProductImage: [
                     "/Images/ProductsImages/otherFrictionPullBack/SMALLFARMERTRACTOR(red).png",
@@ -2720,7 +2778,7 @@ const SeedoProductData = {
             {
                 id: 107,
                 name: "Water Turtle Toy",
-                cardColor:"linear-gradient(135deg, #E2F9FF, #2CA5B4)",
+                cardColor: "linear-gradient(135deg, #E2F9FF, #2CA5B4)",
                 ProductBatteryType: "-",
                 ProductImage: [
                     "/Images/ProductsImages/otherFrictionPullBack/WaterTurtleToy.png"
@@ -2746,10 +2804,10 @@ const SeedoProductData = {
             {
                 id: 115,
                 name: "Musical Trumpet Toy",
-                cardColor:"linear-gradient(135deg, #CBEBFF, #004B9E)",
+                cardColor: "linear-gradient(135deg, #CBEBFF, #004B9E)",
                 ProductBatteryType: "-",
                 ProductImage: [
-                           "/Images/ProductsImages/otherFrictionPullBack/MusicalTrumpetToy.png"
+                    "/Images/ProductsImages/otherFrictionPullBack/MusicalTrumpetToy.png"
                 ],
                 Price: "Rs.1499",
                 Quantity: <>
@@ -2771,7 +2829,7 @@ const SeedoProductData = {
             {
                 id: 116,
                 name: "Musical Saxophone Toy",
-                cardColor:"linear-gradient(135deg, #E2F9FF, #2CA5B4)",
+                cardColor: "linear-gradient(135deg, #E2F9FF, #2CA5B4)",
                 ProductBatteryType: "-",
                 ProductImage: [
                     "/Images/ProductsImages/otherFrictionPullBack/MusicalSaxophoneToy.png"

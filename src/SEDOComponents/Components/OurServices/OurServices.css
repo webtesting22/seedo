@@ -260,7 +260,7 @@
     .AdjustWidthSection .ant-row .ant-col:last-child {
         display: flex;
         align-items: center;
-        padding-left: 0px;
+        /* padding-left: 0px; */
     }
 
     .PendingGrayBox {
