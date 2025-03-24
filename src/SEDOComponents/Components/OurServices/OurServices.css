@@ -87,56 +87,43 @@
     align-items: center;
 }
 
-.AdjustWidthSection .ant-row .ant-col:last-child {
-    display: flex;
-    align-items: center;
-    padding-left: 30px;
-}
-
 .ImageAdjust .ant-row .ant-col .ant-image {
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
     overflow: hidden;
+    height: 100%;
 
 }
 
 .ImageAdjust .ant-row .ant-col .ant-image img {
     border-radius: 10px;
+    height: 100%;
+    object-fit: cover;
 }
 
-.ImageAdjust .ant-row .ant-col:first-child {
-    padding: 80px 10px;
-    padding-bottom: 0px !important;
-}
-
-.ImageAdjust .ant-row .ant-col:first-child .ant-image-img {
-    width: 100%;
-    /* margin-top: 80px; */
-}
-
-.ImageAdjust .ant-row .ant-col:nth-child(2) {
+.ImageAdjust .ant-row .ant-col{
     padding: 10px;
-    padding-bottom: 0px;
-    padding-right: 0px;
-    padding-left: 0px;
+}
+
+.AboutUsFactoryContainer{
+    display: flex;
+    justify-content: center;
+}
+.AboutUsFactoryContainer p{
+    width: 60%;
+    text-align: center;
+    margin-top: 30px;
 }
 
 .ImageAdjust .ant-row .ant-col:nth-child(2) .ant-image-img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
     /* margin-top: 10px; */
 }
 
-.ImageAdjust .ant-row .ant-col:last-child {
-    padding: 80px 10px;
-    padding-bottom: 0px !important;
-}
-
-.ImageAdjust .ant-row .ant-col:last-child .ant-image-img {
-    width: 100%;
-    /* margin-top: 80px; */
-}
 
 .BlankGrayBoxContainer {
     /* background-color: #D9D9D9; */
@@ -192,6 +179,7 @@
 
 .PendingGrayBox .ant-row .ant-col .ant-image {
     width: 100%;
+    height: 100%;
 }
 
 /* .PendingGrayBox .ant-row .ant-col div .ant-image-img{
@@ -213,6 +201,12 @@
 } */
 
 @media (max-width:769px) {
+    .AboutUsFactoryContainer p{
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
     .ContactContainerandSocial {
         display: flex;
         gap: 20px;
@@ -253,11 +247,6 @@
         margin: 0px 0px;
     }
 
-    .ImageAdjust .ant-row .ant-col:first-child {
-        padding: 80px 0px;
-        padding-bottom: 0px !important;
-    }
-
 
 
     .OURLEADERSHIPContainer .ant-row .ant-col {
@@ -281,10 +270,10 @@
         overflow: hidden;
         /* border-radius: 20px; */
     }
-
+/* 
     .PendingGrayBox .ant-row .ant-col {
         width: 33% !important;
-    }
+    } */
 
     .OurServicesContainer {
         margin-top: 4rem !important;

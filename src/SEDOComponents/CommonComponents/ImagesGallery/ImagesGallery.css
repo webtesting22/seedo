@@ -256,16 +256,6 @@
     transition: .5s;
 }
 
-/* 
-.BestSellerCardsContainer hr {
-    width: 100%;
-    background-color: #BC252B;
-    border: 0.2px solid #BC252B;
-    bottom: 90px;
-    opacity: 0.4;
-    margin-bottom: 0px;
-} */
-
 .color-circle {
     width: 20px !important;
 }
@@ -559,15 +549,6 @@
         padding-left: 0rem !important;
         padding: 0px 0rem;
     }
-
-    /* 
-    .OurServicesSection .headingHeaderContainer h1 {
-        font-size: 30px;
-        text-align: center;
-        width: 100%;
-
-    } */
-
     .CardsContainer {
         padding-left: 00px;
     }

@@ -18,19 +18,22 @@ const Navigation = () => {
         const handleScroll = () => {
             const scrollTop = window.scrollY;
             setIsScrolled(scrollTop > 300);
-
-            // Dynamically calculate height for IncreaseBack
+    
+            // Check if the device is mobile (width <= 768px)
+            const isMobile = window.innerWidth <= 768;
             const maxScroll = 300; // Adjust the range as per your preference
-            const maxHeight = 80; // Maximum height of IncreaseBack
+            const maxHeight = isMobile ? 70 : 80; // 70px for mobile, 80px for desktop
             const calculatedHeight = Math.min((scrollTop / maxScroll) * maxHeight, maxHeight);
+            
             setScrollHeight(calculatedHeight);
         };
-
+    
         window.addEventListener("scroll", handleScroll);
         return () => {
             window.removeEventListener("scroll", handleScroll);
         };
     }, []);
+    
 
     // Determine link color based on page and scroll position
     const linkColor = pathname === "/" && !isScrolled ? "white" : "black";
@@ -42,7 +45,7 @@ const Navigation = () => {
                 style={{
                     height: `${scrollHeight}px`,
                     width: "100%",
-                    backgroundColor: "white",
+                    backgroundColor: "#F9D32B",
                     transition: "height 0.3s ease",
                 }}
             ></div>

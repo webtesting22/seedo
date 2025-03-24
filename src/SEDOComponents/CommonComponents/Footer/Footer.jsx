@@ -46,11 +46,9 @@ const Footer = () => {
     return (
         <>
             <section id="Footer">
-                <div className="BackSVG">
-                    <svg width="1895" height="997" viewBox="0 0 1895 997" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M489 15.2177C394.5 -2.98877 212 -4.08235 0 74.7177V996.5H1895V18.2177C1888.83 23.8843 1864.8 39.2177 1818 55.2177C1739.67 78.551 1575.33 94.0308 1397 48.5C1373.5 42.5 1279.3 16.1177 1240.5 9.71766C1187.5 0.217663 1045.7 -14.9823 822.5 36.2177C745.5 53.8807 663.4 48.8177 489 15.2177Z" fill="#A0DEF7" />
-                    </svg>
-                </div>
+               {/* <div>
+                <img src="/Images/FooterCloudImage.png" alt="" />
+               </div> */}
                 <div className="FooterAdjustContainer">
                     <Row>
                         <Col lg={6} style={{ width: "100%" }}>
@@ -66,7 +64,7 @@ const Footer = () => {
                                     <p><b>Contact Us</b> </p>
                                     <div style={{ display: "flex", flexDirection: "Column", gap: "10px" }}>
                                         <Link to="mailto:info@seedotoys.com" target="_blank" > <FaRegEnvelope /> &nbsp;&nbsp;info@seedotoys.com</Link>
-                                        <Link><MdOutlinePhone />&nbsp;&nbsp;</Link>
+                                       <p style={{marginTop:"0px"}}> <Link to='tel:7496905806'><MdOutlinePhone />&nbsp;&nbsp;7496 905 806</Link> / <Link to="tel:7496905804">7496 905 804</Link></p>
                                     </div>
                                     {/* <p><b>Privacy Policy</b></p>
                                     <p><b>Terms and Condition</b></p> */}

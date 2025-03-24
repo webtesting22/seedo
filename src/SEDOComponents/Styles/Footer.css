@@ -3,7 +3,7 @@
     padding: 0rem 4rem;
     background: rgba(149, 179, 224, 0.634);
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 #Footer a {
@@ -104,7 +104,7 @@
         padding: 0px;
         display: flex;
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 15px;
     }
 
     .FooterAdressContainer div:first-child {

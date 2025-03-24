@@ -294,7 +294,7 @@ const AboutSeedo = () => {
                     <h1>Our Journey </h1>
                 </div> */}
                 <div className="JourneyImageContainer">
-                    <img src={timelinepc} alt="" />
+                    <img src="/Images/OurJourneyImage3.png" alt="" />
                     <img src={timelinemobile} alt="" />
                 </div>
             </section>
@@ -454,25 +454,25 @@ const AboutSeedo = () => {
                     </div>
                     <div>
                         <Row>
-                            <Col lg={12}>
+                            <Col lg={24}>
                                 <div className="PendingGrayBox" data-aos="fade-up"
                                     data-aos-duration="1300">
                                     <div style={{ display: "flex", height: "100%" }} className="ImageAdjust">
                                         <Row style={{ width: "100%" }}>
-                                            <Col lg={8}>
+                                              <Col lg={8} md={12}>
 
                                                 <div>
-                                                    <Image src={About3} alt="" />
+                                                    <Image src="/Images/AboutUsFactoryImages/1.JPG" alt="" />
                                                 </div>
                                             </Col>
-                                            <Col lg={8}>
-                                                <div>
-                                                    <Image src={About1} alt="" />
+                                              <Col lg={8} md={12}>
+                                                <div style={{ height: "100%" }}>
+                                                    <Image src="/Images/AboutUsFactoryImages/2.JPG" alt="" />
                                                 </div>
                                             </Col>
-                                            <Col lg={8}>
-                                                <div>
-                                                    <Image src={About2} alt="" />
+                                              <Col lg={8} md={12}>
+                                                <div style={{ height: "100%" }}>
+                                                    <Image src="/Images/AboutUsFactoryImages/3.JPG" alt="" />
                                                 </div>
                                             </Col>
                                         </Row>
@@ -481,9 +481,9 @@ const AboutSeedo = () => {
                             </Col>
 
                             <br />
-                            <Col lg={12}>
+                            <Col lg={24}>
 
-                                <p data-aos="fade-up"
+                                <div className="AboutUsFactoryContainer"><p data-aos="fade-up"
                                     data-aos-duration="1400">At Seedo, we take pride in our
                                     in-house spraying capabilities, including
                                     pad printing, spray printing, tampo
@@ -495,7 +495,7 @@ const AboutSeedo = () => {
                                     pearl effects. All chemicals, coatings, and
                                     pigments used meet child safety
                                     standards, ensuring the highest safety for
-                                    young users.</p>
+                                    young users.</p></div>
                             </Col>
                         </Row>
                         {/* <div style={{ display: "flex", justifyContent: "center" }}>
@@ -514,27 +514,24 @@ const AboutSeedo = () => {
                     </div>
                     <div>
                         <Row>
-                            <Col lg={12}>
-                                <p data-aos="fade-up"
-                                    data-aos-duration="1300">Seedo, in partnership with its strategic ally, has achieved a significant milestone by designing and producing its own PCBs, leveraging cutting-edge pick-and-place technology. Today, this innovation enables us to manufacture 50% of our PCBs in-house. Our PCB materials meet global safety standards, offering surge, voltage, and heat protection. They are phthalate-free, lead-free, and ROHS-compliant for international exports, ensuring both safety and reliability for our products.</p>
-                            </Col>
-                            <Col lg={12}><div className="PendingGrayBox">
+                            
+                            <Col lg={24}><div style={{width:"100%"}}>
                                 <div style={{ display: "flex", height: "100%" }} className="ImageAdjust" data-aos="fade-up"
                                     data-aos-duration="1400">
                                     <Row style={{ width: "100%" }}>
-                                        <Col lg={8}>
-                                            <div>
-                                                <Image src={About5} alt="" />
+                                        <Col lg={8} md={12}>
+                                            <div style={{width:"100%",height:"100%"}}>
+                                                <Image src="/Images/AboutUsFactoryImages/4.JPG" alt=""  style={{width:"100%",height:"100%",objectFit:"cover"}}/>
                                             </div>
                                         </Col>
-                                        <Col lg={8}>
+                                        <Col lg={8} md={12}>
                                             <div>
-                                                <Image src={About7} alt="" />
+                                                <Image src="/Images/AboutUsFactoryImages/5.JPG" alt="" />
                                             </div>
                                         </Col>
-                                        <Col lg={8}>
+                                        <Col lg={8} md={12}>
                                             <div>
-                                                <Image src={About10} alt="" />
+                                                <Image src="/Images/AboutUsFactoryImages/6.JPG" alt="" />
                                             </div>
                                         </Col>
                                     </Row>
@@ -542,6 +539,12 @@ const AboutSeedo = () => {
                                 </div>
                             </div>
 
+                            </Col>
+                            <Col lg={24}>
+                                <div className="AboutUsFactoryContainer">
+                                    <p data-aos="fade-up"
+                                        data-aos-duration="1300">Seedo, in partnership with its strategic ally, has achieved a significant milestone by designing and producing its own PCBs, leveraging cutting-edge pick-and-place technology. Today, this innovation enables us to manufacture 50% of our PCBs in-house. Our PCB materials meet global safety standards, offering surge, voltage, and heat protection. They are phthalate-free, lead-free, and ROHS-compliant for international exports, ensuring both safety and reliability for our products.</p>
+                                </div>
                             </Col>
                         </Row>
                         {/* <div style={{ display: "flex", justifyContent: "center" }}>

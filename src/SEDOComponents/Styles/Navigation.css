@@ -5,6 +5,7 @@
   width: 100%;
   background-color: transparent;
   top: 0px;
+  height: 80px;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 
@@ -167,7 +168,16 @@
 }
 
 @media (max-width: 769px) {
-
+  #NavigationContainer {
+    /* padding: 2rem; */
+    position: fixed;
+    z-index: 5555555;
+    width: 100%;
+    background-color: transparent;
+    top: 0px;
+    height: 70px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  }
   #NavigationLink {
     margin-bottom: 20px !important;
     display: block !important;

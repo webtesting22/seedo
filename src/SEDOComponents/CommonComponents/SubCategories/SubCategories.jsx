@@ -41,7 +41,7 @@ const SubCategories = () => {
                 <Navigation />
             </div>
             <section className="SubCategoryContainer">
-                <div className="SectionHeadingContainer" style={{ paddingBottom: "0px" }}>
+                <div className="SectionHeadingContainer" >
                     <img src={categoryData.subcategoryImage} alt={categoryName} style={{ maxWidth: "100%", height: "auto" }} />
                     <img src={categoryData.MobilesubcategoryImage} alt={categoryName} style={{ maxWidth: "100%", height: "auto" }} />
                 </div>
