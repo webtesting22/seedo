@@ -94,9 +94,9 @@ const SeedoProductData = {
                     id: 2,
                     name: "Famous Car 2 Way",
                     cardColor: "linear-gradient(to right, #F3FFC9, #A4D100)",
-                    colorOptions: [
-                        "orange", "red", "yellow", "green"
-                    ],
+                    // colorOptions: [
+                    //     "orange", "red", "yellow", "green"
+                    // ],
                     Features: [
                         "/Images/ProductIconsImages/Moves2Ways.png",
                         "/Images/ProductIconsImages/RubberTires.png",
@@ -104,7 +104,18 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Non - Rechargable",
                     ProductImage: [
-                        "/Images/ProductsImages/FamousCar2way/FamousCar1.png",
+                       "/Images/ProductsImages/FamousCar4Way/FamousCar4Way(green).png",
+                        "/Images/ProductsImages/FamousCar4Way/FamousCar4Way(red).png",
+                        "/Images/ProductsImages/FamousCar4Way/FamousCar4Way(yellow).png",
+                        "/Images/ProductsImages/FamousCar4Way/FamousCar4Way1.png",
+                        "/Images/ProductsImages/FamousCar4Way/FamousCar4Way2.png",
+                        "/Images/ProductsImages/FamousCar4Way/FamousCar4Way3.png",
+                        "/Images/ProductsImages/FamousCar4Way/FamousCar4Way4.png",
+                        "/Images/ProductsImages/FamousCar4Way/FamousCar4Way5.png",
+                        "/Images/ProductsImages/FamousCar4Way/FamousCar4Way6.png",
+                        "/Images/ProductsImages/FamousCar4Way/FamousCar4Way7.png",
+                        "/Images/ProductsImages/FamousCar4Way/FamousCar4Way8.png",
+                        "/Images/ProductsImages/FamousCar4Way/FamousCar4Way9.png",
                     ],
                     Quantity: "48 pcs./box",
                     Price: "Rs.399",

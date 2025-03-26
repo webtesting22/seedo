@@ -42,6 +42,7 @@ const ImagesGallery = () => {
                             autoplay={{
                                 delay: 2000,
                                 disableOnInteraction: false,
+                                pauseOnMouseEnter: true,
                             }}
                             navigation={true}
                             speed={700}

@@ -15,8 +15,8 @@ const HomePage = () => {
     const videoRef = useRef(null);
     const [activeIndex, setActiveIndex] = useState(0);
     const mediaItem = { type: "video", src: landingPageVideo1 };
-    const headingColors = ["#EB920E", "#417453", "#C85F3F", "#045A75", "#909090"];
-
+    const headingColors = ["#EB920E", "#417453", "#C85F3F", "rgb(77 182 215)", "#909090"];
+    const buttonColors = ["rgb(235, 146, 14)", "rgb(125 203 152)", "rgb(252 150 119)", "rgb(115 214 244)", "rgb(206 206 206)"];
     // Function to handle video end and restart with fade-out and fade-in effect
     const handleVideoEnd = () => {
         setFadeIn(false); // Start fade-out effect
@@ -77,10 +77,10 @@ const HomePage = () => {
                         spaceBetween={0}
                         centeredSlides={true}
                         loop={true}
-                        autoplay={{
-                            delay: 2500,
-                            disableOnInteraction: false,
-                        }}
+                        // autoplay={{
+                        //     delay: 2500,
+                        //     disableOnInteraction: false,
+                        // }}
                         speed={800}
                         modules={[Autoplay, Pagination, Navigation]}
                         className="mySwiper"
@@ -107,7 +107,7 @@ const HomePage = () => {
                         <div>
                             <h1 style={{ color: headingColors[activeIndex], transition: ".5s" }}>SEEDO</h1>
                             <p>BREAK THE LIMIT!</p>
-                            <button style={{color:headingColors[activeIndex]}}>View catalog</button>
+                            <button style={{ color: buttonColors[activeIndex] }}>View catalog</button>
                         </div>
                     </div>
                     {/* <video

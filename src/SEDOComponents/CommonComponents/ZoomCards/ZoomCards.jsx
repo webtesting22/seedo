@@ -227,12 +227,13 @@ const ZoomCards = () => {
                                     480: { slidesPerView: 2, spaceBetween: 8 },  // Small tablets
                                     768: { slidesPerView: 3, spaceBetween: 10 }, // Tablets
                                 }}
+                                slideToClickedSlide={true}
                                 modules={[Autoplay, Pagination, Navigation, FreeMode]}
                                 className="mySwiper"
                             >
                                 {CarousalImages.map((item, index) => (
                                     <SwiperSlide key={index}>
-                                        <div className="AboutHomeCarousal">
+                                        <div className="AboutHomeCarousal" style={{ cursor: "pointer" }}>
                                             <div>
                                                 <img src={item.img} alt="" />
                                             </div>
@@ -261,7 +262,7 @@ const ZoomCards = () => {
                 <div className="SANSONGraphicContainer" style={{ position: "sticky" }}>
                     <div>
                         <h1 style={{ fontSize: "30px", margin: "0px" }} data-aos="fade-up"
-                            data-aos-duration="1000" >Sanson Promo Innovations LLP</h1>
+                            data-aos-duration="1000">Sanson Promo Innovations LLP</h1>
                         <p data-aos="fade-up"
                             data-aos-duration="1500"> <b>Sanson Promo Innovations LLP</b> is a prominent leader in consumer and trade promotions, trusted by major FMCG brands such as Unilever, Glaxo, Perfetti, Mondelez, and Britannia. As the parent company of Seedo, Sanson excels in collaborating with esteemed licensors like Disney, Marvel, Mattel, Pokémon, and Doraemon. With comprehensive expertise in conceptualization, product engineering, mass manufacturing, quality assurance, and logistics, Sanson consistently surpasses client expectations. <br /> This commitment to delivering high-quality products and innovative campaigns is reflected in Seedo's values as well.</p>
                     </div>
@@ -269,17 +270,15 @@ const ZoomCards = () => {
             </div>
             <div className="AboutSeedoContent" ref={videoRef}>
                 <div className="SeedoVideoSection SeedoVideoSection">
-                    {/* {videoSrc && ( */}
-                        <iframe
-                            width="100%"
-                            src={videoSrc}
-                            title="Seedo Video"
-                            frameBorder="0"
-                            allow="autoplay; encrypted-media"
-                            allowFullScreen
-                            style={{ borderRadius: "10px" }}
-                        ></iframe>
-                    {/* )} */}
+                    <video
+                        src="https://prepseed.s3.ap-south-1.amazonaws.com/SeedoManufacturingVideo.mp4"
+                        controls
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                        style={{ width: "100%", height: "auto", borderRadius: "8px" }}
+                    />
                 </div>
 
                 <div>

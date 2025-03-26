@@ -10,7 +10,7 @@
     position: relative;
     /* overflow: hidden; */
     /* Create a background that goes from #FCDD54 (left) to #FFD000 (right) */
-    background: linear-gradient(to right, #FCDD54, #FFD000);
+    background: radial-gradient(circle, rgba(245, 153, 55, 0.83) 10%, /* Center color with slight opacity */ rgba(255, 208, 0, 0.8) 60%, /* First outer color */ rgba(255, 208, 0, 0.8) 90%);
     padding: 60px 40px;
 }
 
