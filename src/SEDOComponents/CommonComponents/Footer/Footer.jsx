@@ -2,20 +2,13 @@ import React, { useState, useEffect, useRef } from "react";
 import "../../Styles/Footer.css"
 import { Row, Col } from "antd";
 import SEEDOLogo from "/SEEDOLogo.png"
-import { IoLocationSharp } from "react-icons/io5";
-import { IoMdCall } from "react-icons/io";
-import { FaEnvelope } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import LocationOnIcon from '@mui/icons-material/LocationOn';
-import MailIcon from '@mui/icons-material/Mail';
-import PhoneIcon from '@mui/icons-material/Phone';
-import { LiaFacebookSquare } from "react-icons/lia";
 import { CiInstagram } from "react-icons/ci";
-import { FaXTwitter } from "react-icons/fa6";
 import NavigationLinks from "../Navigation/NavigationLinks";
 import { FaRegEnvelope } from "react-icons/fa";
 import { MdOutlinePhone } from "react-icons/md";
 import CarDoodle from "./Car doodle.svg"
+import { CiLinkedin } from "react-icons/ci";
 
 const Footer = () => {
     const [isVisible, setIsVisible] = useState(false);
@@ -46,7 +39,7 @@ const Footer = () => {
     return (
         <>
             <section id="Footer">
-               {/* <div>
+                {/* <div>
                 <img src="/Images/FooterCloudImage.png" alt="" />
                </div> */}
                 <div className="FooterAdjustContainer">
@@ -64,7 +57,7 @@ const Footer = () => {
                                     <p><b>Contact Us</b> </p>
                                     <div style={{ display: "flex", flexDirection: "Column", gap: "10px" }}>
                                         <Link to="mailto:info@seedotoys.com" target="_blank" > <FaRegEnvelope /> &nbsp;&nbsp;info@seedotoys.com</Link>
-                                       <p style={{marginTop:"0px",marginBottom:"0px"}}> <Link to='tel:7496905806'><MdOutlinePhone />&nbsp;&nbsp;7496 905 806</Link> / <Link to="tel:7496905804">7496 905 804</Link></p>
+                                        <p style={{ marginTop: "0px", marginBottom: "0px" }}> <Link to='tel:7496905806'><MdOutlinePhone />&nbsp;&nbsp;7496 905 806</Link> / <Link to="tel:7496905804">7496 905 804</Link></p>
                                     </div>
                                     {/* <p><b>Privacy Policy</b></p>
                                     <p><b>Terms and Condition</b></p> */}
@@ -72,8 +65,9 @@ const Footer = () => {
                                 <div style={{ display: "flex", flexDirection: "column", gap: "0px" }}>
                                     <p><b>Follow Us</b> &nbsp;&nbsp;</p>
                                     {/* <p><LiaFacebookSquare /></p> */}
-                                    <div>
+                                    <div style={{display:"flex",gap:"10px"}}>
                                         <Link to="https://www.instagram.com/seedotoys/" target="_blank"><p style={{ margin: "0px" }}><CiInstagram /></p></Link>
+                                        <Link to="https://www.linkedin.com/company/sanson-promo-innovations-llp/" target="_blank"><p style={{ margin: "0px" }}><CiLinkedin /></p></Link>
                                     </div>
                                     {/* <p><FaXTwitter /></p> */}
                                 </div>
