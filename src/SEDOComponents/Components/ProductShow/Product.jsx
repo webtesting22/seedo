@@ -184,7 +184,7 @@ const Products = () => {
                     <h1>We Create For You!</h1>
                 </div> */}
                 <div className="SectionHeadingContainer" style={{ paddingBottom: "0px" }}>
-                    <img src="/Images/NewBanners/1.jpg" alt="" />
+                    <img src="/Images/ProductPageTopNewBanner.jpg" alt="" />
                     <img src="/Images/NewBanners/MobileBanners/1.jpg" alt="" />
                 </div>
 
