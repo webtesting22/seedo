@@ -57,7 +57,7 @@ const Footer = () => {
                                     <p><b>Contact Us</b> </p>
                                     <div style={{ display: "flex", flexDirection: "Column", gap: "10px" }}>
                                         <Link to="mailto:info@seedotoys.com" target="_blank" > <FaRegEnvelope /> &nbsp;&nbsp;info@seedotoys.com</Link>
-                                        <p style={{ marginTop: "0px", marginBottom: "0px" }}> <Link to='tel:7496905806'><MdOutlinePhone />&nbsp;&nbsp;7496 905 806</Link> / <Link to="tel:7496905804">7496 905 804</Link></p>
+                                        <p style={{ marginTop: "0px", marginBottom: "0px" }}><MdOutlinePhone />&nbsp;&nbsp;<Link to="tel:7496905804">7496 905 804</Link> / <Link to='tel:7496905806'>7496 905 806</Link> </p>
                                     </div>
                                     {/* <p><b>Privacy Policy</b></p>
                                     <p><b>Terms and Condition</b></p> */}
