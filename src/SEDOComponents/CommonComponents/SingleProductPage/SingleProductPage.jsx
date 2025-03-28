@@ -382,7 +382,6 @@ const SingleProductPage = () => {
                                                         <span style={{ display: "flex", flexDirection: "column" }}>{product.Quantity}</span>
                                                     </button>
                                                 )}
-
                                             </div>
                                         </div>
                                     </div>
@@ -435,6 +434,7 @@ const SingleProductPage = () => {
                                                         prod.ProductImage?.[0] || "path/to/placeholder.jpg"
                                                     }
                                                     alt={prod.name}
+                                                    loading="lazy"
                                                 />
                                             </div>
                                         </Link>

@@ -166,8 +166,8 @@ const AboutSeedo = () => {
             </div>
             <section id="AboutSEDOSection">
                 <div className="SectionHeadingContainer">
-                    <img src="/Images/AboutusTopNewBanner.jpg" alt="" style={{ width: "100%" }} />
-                    <img src="/Images/NewBanners/MobileBanners/5.jpg" alt="" style={{ width: "100%" }} />
+                    <img src="/Images/AboutusTopNewBanner.jpg" alt="" style={{ width: "100%" }} loading="lazy"/>
+                    <img src="/Images/NewBanners/MobileBanners/5.jpg" alt="" style={{ width: "100%" }} loading="lazy"/>
                 </div>
                 {/* <div>
                     <div className="BannerContainer">
@@ -294,7 +294,7 @@ const AboutSeedo = () => {
                     <h1>Our Journey </h1>
                 </div> */}
                 <div className="JourneyImageContainer">
-                    <img src="/Images/OurJourneyImage3.png" alt="" />
+                    <img src="/Images/NewUpdatedTimeline.png" alt="" />
                     <img src={timelinemobile} alt="" />
                 </div>
             </section>

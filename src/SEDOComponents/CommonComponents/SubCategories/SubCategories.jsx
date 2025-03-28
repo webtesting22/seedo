@@ -59,7 +59,6 @@ const SubCategories = () => {
                                     {categoryName}
                                 </Link>
                             </Breadcrumb.Item>
-                            
                         </Breadcrumb>
                     </div>
                     <Row>
@@ -86,11 +85,9 @@ const SubCategories = () => {
                                 );
                             })
                         ) : (
-                            // If no subcategories, show products in the category
                             <Link to={`/products/${categoryName}`}>
                                 <div className="CatalogueCardContainer">
                                     <div className="CatalogueImageContainer">
-                                        {/* Get the first product's image if products exist */}
                                         {products.length > 0 ? (
                                             <img src={products[0].ProductImage?.[0] || "path/to/placeholder.jpg"} alt={categoryName} />
                                         ) : (
