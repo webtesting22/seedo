@@ -39,8 +39,8 @@ const Footer = () => {
     return (
         <>
             <section id="Footer">
-                {/* <div>
-                <img src="/Images/FooterCloudImage.png" alt="" />
+                {/* <div className="CloudClipPathImage">
+                <img src="/Images/FooterClipPath.png" alt="" />
                </div> */}
                 <div className="FooterAdjustContainer">
                     <Row>

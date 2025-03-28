@@ -1,6 +1,7 @@
 #Footer {
-    margin-top: 10rem !important;
+    /* margin-top: 10rem !important; */
     padding: 0rem 4rem;
+    padding-top: 2rem;
     background: #1A236E;
     position: relative;
     color: white;
