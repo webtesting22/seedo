@@ -167,7 +167,7 @@ const AboutSeedo = () => {
             <section id="AboutSEDOSection">
                 <div className="SectionHeadingContainer">
                     <img src="/Images/AboutusTopNewBanner.jpg" alt="" style={{ width: "100%" }} loading="lazy"/>
-                    <img src="/Images/NewBanners/MobileBanners/5.jpg" alt="" style={{ width: "100%" }} loading="lazy"/>
+                    <img src="/Images/NewBanners/MobileBanners/AboutUsTopMobile.png" alt="" style={{ width: "100%" }} loading="lazy"/>
                 </div>
                 {/* <div>
                     <div className="BannerContainer">
