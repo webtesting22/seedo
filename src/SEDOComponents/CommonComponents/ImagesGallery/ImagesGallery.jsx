@@ -128,7 +128,7 @@ const ImagesGallery = () => {
                                     <h1 className="titleFont">Our Offerings</h1>
                                 </div>
                             </Col>
-                            <Col lg={6} md={8} style={{ width: "100%" }}>
+                            <Col lg={6} md={12} style={{ width: "100%" }}>
                                 <Link to="/ourOfferings">
                                     <div className="GreyBox" data-aos="fade-up"
                                         data-aos-duration="1000">
@@ -142,7 +142,7 @@ const ImagesGallery = () => {
                                     </div>
                                 </Link>
                             </Col>
-                            <Col lg={6} md={8} style={{ width: "100%" }}>
+                            <Col lg={6} md={12} style={{ width: "100%" }}>
                                 <Link to="/ourOfferings">
                                     <div className="GreyBox" data-aos="fade-up"
                                         data-aos-duration="1200">
@@ -157,7 +157,7 @@ const ImagesGallery = () => {
                                     </div>
                                 </Link>
                             </Col>
-                            <Col lg={6} md={8} style={{ width: "100%" }}>
+                            <Col lg={6} md={12} style={{ width: "100%" }}>
                                 <Link to="/ourOfferings">
                                     <div className="GreyBox" data-aos="fade-up"
                                         data-aos-duration="1500">
@@ -171,7 +171,7 @@ const ImagesGallery = () => {
                                     </div>
                                 </Link>
                             </Col>
-                            <Col lg={6} md={8} style={{ width: "100%" }}>
+                            <Col lg={6} md={12} style={{ width: "100%" }}>
                                 <Link to="/ourOfferings">
                                     <div className="GreyBox" data-aos="fade-up"
                                         data-aos-duration="1500">

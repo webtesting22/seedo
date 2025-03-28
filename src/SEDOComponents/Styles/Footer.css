@@ -1,13 +1,14 @@
 #Footer {
-    padding-top: 1.5rem !important;
+    margin-top: 10rem !important;
     padding: 0rem 4rem;
-    background: rgba(149, 179, 224, 0.634);
+    background: #1A236E;
     position: relative;
+    color: white;
     /* overflow: hidden; */
 }
 
 #Footer a {
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 16px;
 }
 
@@ -23,7 +24,7 @@
     list-style: none;
     padding: 5px 0px;
     font-size: 16px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     transition: .5s;
     width: 100%;
     font-weight: 400;
@@ -34,7 +35,7 @@
     padding: 5px 0px;
     font-weight: 400;
     font-size: 16px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     transform: translateX(10px);
     transition: .5s;
     /* border-bottom: 1px solid white; */
@@ -68,6 +69,7 @@
     margin: 10px;
     margin-left: 0px;
     font-size: 16px;
+    color: white;
 }
 
 .CopywriteText {
@@ -77,7 +79,8 @@
     padding: 10px 0px;
     position: relative;
 }
-.CopywriteText img{
+
+.CopywriteText img {
     width: 100px;
     position: absolute;
     left: 0px;
@@ -89,17 +92,51 @@
 
 .CopywriteText p {
     font-size: 16px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .CopywriteText p a {
     font-size: 16px;
-    color: rgb(0, 0, 0);
+    color: #ffffff;
     text-decoration: none;
+}
+
+.CloudClipPathImage {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.CloudClipPathImage img {
+    width: 100%;
+}
+
+@media (max-width:1100px) {
+    .CloudClipPathImage {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        display: none;
+    }
+
+    #Footer {
+        margin-top: 2rem !important;
+        padding: 0rem 4rem;
+        background: #1A236E;
+        position: relative;
+        color: white;
+        /* overflow: hidden; */
+    }
+   .FooterAdjustContainer .ant-row .ant-col:nth-child(3){
+    width: 100%;
+   }
 }
 
 
 @media (max-width:769px) {
+
     #Footer .LinksContainer ul {
         padding: 0px;
         display: flex;
@@ -140,7 +177,7 @@
         /* background: #253874; */
         margin-top: 3rem !important;
         padding-bottom: 1rem;
-        color: black;
+        color: rgb(255, 255, 255);
         /* min-height: 400px; */
     }
 }

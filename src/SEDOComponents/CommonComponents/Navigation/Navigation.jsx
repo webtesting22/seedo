@@ -36,7 +36,7 @@ const Navigation = () => {
     
 
     // Determine link color based on page and scroll position
-    const linkColor = pathname === "/" && !isScrolled ? "white" : "black";
+    const linkColor = pathname === "/" && !isScrolled ? "black" : "black";
 
     return (
         <section id="NavigationContainer">

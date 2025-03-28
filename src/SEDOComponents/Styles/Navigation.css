@@ -167,6 +167,17 @@
   top: 0px;
 }
 
+@media (max-width:900px) {
+
+  .MenuToggle {
+    display: block;
+  }
+
+  .PcManuOnly {
+    display: none !important;
+  }
+}
+
 @media (max-width: 769px) {
   #NavigationContainer {
     /* padding: 2rem; */
@@ -178,14 +189,13 @@
     height: 70px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
   }
+
   #NavigationLink {
     margin-bottom: 20px !important;
     display: block !important;
   }
 
-  .PcManuOnly {
-    display: none !important;
-  }
+
 
   #NavigationLink a {
     font-size: 20px;
@@ -198,9 +208,6 @@
     transition: .5s;
   }
 
-  .MenuToggle {
-    display: block;
-  }
 
   .OnMoblilemenu {
     display: block;
