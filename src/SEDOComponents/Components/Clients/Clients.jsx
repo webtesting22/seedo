@@ -27,26 +27,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 const Client = () => {
-    // const OfllineClients = [
-    //     {
-    //         img: image1
-    //     },
-    //     {
-    //         img: image2,
-    //     },
-    //     {
-    //         img: image3
-    //     },
-    //     {
-    //         img: image4
-    //     },
-    //     {
-    //         img: image5
-    //     },
-    //     {
-    //         img: image6
-    //     }
-    // ]
+ 
     const LogosData = [
 
         {
@@ -134,8 +115,6 @@ const Client = () => {
             img: MRDIY,
             link: "https://www.mrdiy.co.in/"
         },
-
-
         {
             img: image4
         },

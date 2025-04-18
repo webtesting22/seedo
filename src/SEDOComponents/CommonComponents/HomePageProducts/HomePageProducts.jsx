@@ -73,7 +73,6 @@ const HomePageProducts = () => {
                                 <Link to="/products"><button className="buttonStyleSecond" style={{ padding: "0.75rem 2rem" }}>Explore More</button></Link>
                             </div> */}
                             <div className="RightSideRow">
-
                                 <Row>
                                     {ProductData.map((item, index) => (
                                         <Col lg={6} md={12} key={index}>
