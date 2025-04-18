@@ -45,10 +45,11 @@ const SubcategoriesProducts = () => {
                         src={categoryData.subcategoryImage}
                         alt={categoryName}
                         style={{ maxWidth: "100%", height: "auto" }}
+                        loading="lazy"
                     />
                     <img src={categoryData.MobilesubcategoryImage}
                         alt={categoryName}
-                        style={{ maxWidth: "100%", height: "auto" }} />
+                        style={{ maxWidth: "100%", height: "auto" }} loading="lazy" />
                 </div>
                 <div className="CatalogueCardsContainer">
                     <div style={{ margin: "16px 0", padding: "0 24px" }}>
@@ -95,23 +96,25 @@ const SubcategoriesProducts = () => {
                                                                 className="product-image"
                                                                 src={product.ProductImage[0]} // First image by default
                                                                 alt={`${product.ProductTitle}-0`}
+                                                                loading="lazy"
                                                             />
                                                             {/* Second image for hover */}
                                                             <img
                                                                 className="product-image-hover"
                                                                 src={product.ProductImage[1]} // Second image on hover
                                                                 alt={`${product.ProductTitle}-1`}
+                                                                loading="lazy"
                                                             />
                                                         </>
                                                     ) : product.ProductImage && product.ProductImage.length > 0 ? (
                                                         <>
                                                             {/* // If only one image exists, show the first image */}
-                                                            <img src={product.ProductImage[0]} className="product-image" alt={`${product.ProductTitle}-0`} />
-                                                            <img src={product.ProductImage[0]} className="product-image-hover" alt={`${product.ProductTitle}-0`} />
+                                                            <img src={product.ProductImage[0]} className="product-image" alt={`${product.ProductTitle}-0`} loading="lazy"/>
+                                                            <img src={product.ProductImage[0]} className="product-image-hover" alt={`${product.ProductTitle}-0`} loading="lazy"/>
                                                         </>
                                                     ) : (
                                                         // If no images, show a default image
-                                                        <img src="path/to/default-image.jpg" alt="Default Image" />
+                                                        <img src="path/to/default-image.jpg" alt="Default Image" loading="lazy"/>
                                                     )}
                                                 </div>
                                                 <div className="productTitleContainer">

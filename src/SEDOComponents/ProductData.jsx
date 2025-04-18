@@ -47,8 +47,8 @@ import DOUBLEINERTIAINSECTBEETLE from "../assets/MultipleViewImages/DOUBLEINERTI
 import ULTRALEDFLYINGDISC from "../assets/MultipleViewImages/ULTRA LEDFLYINGDISC.png"
 const SeedoProductData = {
     "Remote Controlled Cars": {
-        CategoriryImage: "Images/RCCar.png",   // Product Category card Image........... (Remote Control Car Image)
-        subcategoryImage: "/Images/NewBanners/6.jpg",  //  SubCategory TopSection Banner Specific Pc...........
+        CategoriryImage: "https://s3.ap-south-1.amazonaws.com/prepseed/prod/ldoc/inventoryManagement/krd2oTQwdvf6TPJatpOr/WhatsApp Image 2025-04-18 at 15.57.57.jpeg",   // Product Category card Image........... (Remote Control Car Image)
+        subcategoryImage: "https://s3.ap-south-1.amazonaws.com/prepseed/prod/ldoc/inventoryManagement/gI46z4xTniJwhPIeOjya/6.jpg",  //  SubCategory TopSection Banner Specific Pc...........
         MobilesubcategoryImage: "/Images/NewBanners/MobileBanners/6.jpg", //  SubCategory TopSection Banner Specific Mobile...........
         subcategories: { // Divided Subcategories to the main category............
             "1:18": [  //This is the Subcategory Example..............
@@ -104,7 +104,7 @@ const SeedoProductData = {
                     ],
                     ProductBatteryType: "Non - Rechargable",
                     ProductImage: [
-                       "/Images/ProductsImages/FamousCar4Way/FamousCar4Way(green).png",
+                        "/Images/ProductsImages/FamousCar4Way/FamousCar4Way(green).png",
                         "/Images/ProductsImages/FamousCar4Way/FamousCar4Way(red).png",
                         "/Images/ProductsImages/FamousCar4Way/FamousCar4Way(yellow).png",
                         "/Images/ProductsImages/FamousCar4Way/FamousCar4Way1.png",
@@ -1147,7 +1147,7 @@ const SeedoProductData = {
         },
     },
     "Metal Die Cast Cars": {
-        CategoriryImage: "/Images/DieCast.png",
+        CategoriryImage: "https://s3.ap-south-1.amazonaws.com/prepseed/prod/ldoc/inventoryManagement/nMNIjiC6ARtCdFd7He5O/WhatsApp Image 2025-04-18 at 16.01.11.jpeg",
         subcategoryImage: "/Images/NewBanners/8.jpg",
         MobilesubcategoryImage: "/Images/NewBanners/MobileBanners/8.jpg",
         subcategories: {
@@ -2136,7 +2136,7 @@ const SeedoProductData = {
         // }
     },
     "Friction, Pull Back, Press & Go Toys": {
-        CategoriryImage: "/Images/Friction.png",
+        CategoriryImage: "https://s3.ap-south-1.amazonaws.com/prepseed/prod/ldoc/inventoryManagement/pZtPh85zhRm66L0NdEK6/WhatsApp Image 2025-04-18 at 16.02.17.jpeg",
         subcategoryImage: "/Images/NewBanners/7.jpg",
         MobilesubcategoryImage: "/Images/NewBanners/MobileBanners/7.jpg",
         products: [
@@ -2907,7 +2907,7 @@ const SeedoProductData = {
     },
 
     "Early Learning Toys": {
-        CategoriryImage: "/Images/EarlyLearn.png",
+        CategoriryImage: "https://s3.ap-south-1.amazonaws.com/prepseed/prod/ldoc/inventoryManagement/KYewEK4j0vdZ9BC8iOCf/WhatsApp Image 2025-04-18 at 16.03.20.jpeg",
         subcategoryImage: "/Images/NewBanners/9.jpg",
         MobilesubcategoryImage: "/Images/NewBanners/MobileBanners/9.jpg",
         products: [

@@ -133,32 +133,32 @@ const Products = () => {
     // }, []);
     // useEffect(() => {
     //     console.log("===== Category Breakdown =====");
-    
+
     //     const categoryDetails = Object.keys(SeedoProductData).map((categoryName) => {
     //         const categoryData = SeedoProductData[categoryName];
     //         const subcategories = categoryData.subcategories || {};
-            
+
     //         const subcategoryDetails = Object.keys(subcategories).map((subName) => {
     //             const productCount = subcategories[subName]?.length || 0;
     //             console.log(`  🔹 Subcategory: ${subName} - ${productCount} Products`);
     //             return { name: subName, productCount };
     //         });
-    
+
     //         const totalCategoryProducts = categoryData.products ? categoryData.products.length : 0;
     //         const totalSubcategoryProducts = subcategoryDetails.reduce((sum, sub) => sum + sub.productCount, 0);
     //         const totalProducts = totalCategoryProducts + totalSubcategoryProducts;
-    
+
     //         console.log(`🟢 Category: ${categoryName}`);
     //         console.log(`  🔸 Total Subcategories: ${Object.keys(subcategories).length}`);
     //         console.log(`  🔸 Total Products (Including Subcategories): ${totalProducts}`);
-    
+
     //         return {
     //             categoryName,
     //             subcategories: subcategoryDetails,
     //             totalProducts,
     //         };
     //     });
-    
+
     //     console.log("===== Summary =====");
     //     console.log(`Total Categories: ${categoryDetails.length}`);
     //     console.log(
@@ -167,11 +167,11 @@ const Products = () => {
     //     console.log(
     //         `Total Products: ${categoryDetails.reduce((sum, cat) => sum + cat.totalProducts, 0)}`
     //     );
-    
+
     // }, []);
-    
+
     // const staticProductCategories = ["Category1", "Category2", "Category3"]; // Define static categories
-   
+
     return (
         <>
             <div className="AboutUs">
@@ -184,8 +184,8 @@ const Products = () => {
                     <h1>We Create For You!</h1>
                 </div> */}
                 <div className="SectionHeadingContainer" style={{ paddingBottom: "0px" }}>
-                    <img src="/Images/ProductPageTopNewBanner.jpg" alt="" />
-                    <img src="/Images/NewBanners/MobileBanners/productBannerMobile.png" alt="" />
+                    <img src="https://s3.ap-south-1.amazonaws.com/prepseed/prod/ldoc/inventoryManagement/53WptlHbpE9lOoPfmQen/ProductPageTopNewBanner.jpg" alt=""  loading="lazy"/>
+                    <img src="/Images/NewBanners/MobileBanners/productBannerMobile.png" alt="" loading="lazy"/>
                 </div>
 
                 <div className="CatalogueCardsContainer">

@@ -42,8 +42,8 @@ const SubCategories = () => {
             </div>
             <section className="SubCategoryContainer">
                 <div className="SectionHeadingContainer" >
-                    <img src={categoryData.subcategoryImage} alt={categoryName} style={{ maxWidth: "100%", height: "auto" }} />
-                    <img src={categoryData.MobilesubcategoryImage} alt={categoryName} style={{ maxWidth: "100%", height: "auto" }} />
+                    <img src={categoryData.subcategoryImage} alt={categoryName} style={{ maxWidth: "100%", height: "auto" }} loading="lazy"/>
+                    <img src={categoryData.MobilesubcategoryImage} alt={categoryName} style={{ maxWidth: "100%", height: "auto" }} loading="lazy"/>
                 </div>
                 <div className="CatalogueCardsContainer" >
                 <div style={{ margin: "16px 0", padding: "0 24px" }}>
@@ -74,7 +74,7 @@ const SubCategories = () => {
                                         <Link to={`/subcategories/${categoryName}/${subcategoryName}`}>
                                             <div className="CatalogueCardContainer" style={{ backgroundColor }}>
                                                 <div className="CatalogueImageContainer">
-                                                    <img src={firstProductImage} alt={subcategoryName} />
+                                                    <img src={firstProductImage} alt={subcategoryName} loading="lazy"/>
                                                 </div>
                                                 <div className="productTitleContainer">
                                                     <h1>{subcategoryName}</h1>
@@ -89,9 +89,9 @@ const SubCategories = () => {
                                 <div className="CatalogueCardContainer">
                                     <div className="CatalogueImageContainer">
                                         {products.length > 0 ? (
-                                            <img src={products[0].ProductImage?.[0] || "path/to/placeholder.jpg"} alt={categoryName} />
+                                            <img src={products[0].ProductImage?.[0] || "path/to/placeholder.jpg"} alt={categoryName} loading="lazy"/>
                                         ) : (
-                                            <img src="path/to/placeholder.jpg" alt={categoryName} />
+                                            <img src="path/to/placeholder.jpg" alt={categoryName} loading="lazy"/>
                                         )}
                                     </div>
                                     <div className="productTitleContainer">

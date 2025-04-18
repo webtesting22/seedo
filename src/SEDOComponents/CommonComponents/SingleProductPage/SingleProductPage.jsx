@@ -186,7 +186,7 @@ const SingleProductPage = () => {
                                                 mainImage.type === "video" ? (
                                                     <video src={mainImage.url} controls autoPlay style={{ width: "100%", borderRadius: "5px" }} />
                                                 ) : (
-                                                    <img src={mainImage.url} alt={product.name} />
+                                                    <img src={mainImage.url} alt={product.name} loading="lazy"/>
                                                 )
                                             ) : (
                                                 <p>No media available</p>
@@ -242,7 +242,7 @@ const SingleProductPage = () => {
                                                                                 style={{ width: "100%", borderRadius: "5px" }} // Adjust styles as needed
                                                                             />
                                                                         ) : (
-                                                                            <img src={mediaUrl} alt={`Other media ${index + 1}`} />
+                                                                            <img src={mediaUrl} alt={`Other media ${index + 1}`} loading="lazy"/>
                                                                         )}
                                                                     </div>
                                                                 </SwiperSlide>
@@ -318,7 +318,7 @@ const SingleProductPage = () => {
 
                                             <div className="FeaturesIcons OnMobileOnly" >
                                                 {product.Features && product.Features.map((feature, index) => (
-                                                    <img key={index} src={feature} alt={`Feature ${index + 1}`} />
+                                                    <img key={index} src={feature} alt={`Feature ${index + 1}`} loading="lazy" />
                                                 ))}
                                             </div>
                                             <p style={{ fontSize: "22px", marginBottom: "10px" }}><b>Colours</b></p>
@@ -390,7 +390,7 @@ const SingleProductPage = () => {
                             <Col lg={10}>
                                 <div>
                                     <div className="DiscriptionGraphicsImage">
-                                        <img src="/Images/SingleProductPageGraphic.png" alt="" />
+                                        <img src="/Images/SingleProductPageGraphic.png" alt="" loading="lazy" />
                                     </div>
                                 </div>
                             </Col>
