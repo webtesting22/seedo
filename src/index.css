@@ -284,11 +284,6 @@ p {
   text-decoration: none;
 }
 
-/* .ant-drawer-header {
-  background-color: #a12024 !important;
-  color: white;
-} */
-
 .ant-drawer-header svg {
   color: rgb(0, 0, 0);
 }

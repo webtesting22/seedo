@@ -1,18 +1,7 @@
 import React, { useEffect } from "react";
 import "../../Styles/AboutSeedo.css";
 import { Row, Col, Image } from "antd";
-import SeedoPoster from "/Images/Banners/SeedoPoster.png"
-import PhotosGrid from "../../CommonComponents/PhotosGrid/PhotosGrid";
-import AboutContent from "../AboutContentPoint/AboutContent";
-import { Link } from "react-router-dom";
-import BannerAbout from "/BannerAbout.avif"
 import Navigation from "../../CommonComponents/Navigation/Navigation";
-import MissionVision from "../VisionMission/MissionVision";
-import generative from "./generative .jpg"
-import { FaArrowRight } from "react-icons/fa";
-import BackBannerAbout from "./BackBannerAbout.svg"
-import timelinepc from "./timelinepc.png"
-import timelinemobile from "./timelinemobile.png"
 import pngwing from "./Logos/pngwing.com.svg"
 import logo from "./Logos/logo (1).svg"
 import Perfetti from "./Logos/Perfetti_Van_Melle_logo.svg.svg"
@@ -29,114 +18,12 @@ import ToyStory3 from "/Images/Logos/Clientlogos/ToyStory3.png"
 import Barbie from "/Images/Logos/Clientlogos/Barbie.png"
 import doraemon from "/Images/Logos/Clientlogos/doraemon.png"
 import Pepsi from "/Images/Logos/Clientlogos/Pepsi.png"
-import { Swiper, SwiperSlide } from 'swiper/react';
-import About1 from "./About1.svg"
-import About2 from "./About2.svg"
-import About3 from "./About3.svg"
-import About5 from "./About5 1.svg"
-import About7 from "./About7 1.svg"
-import About10 from "./About10 1.svg"
-import TopAboutUsWavesImage from "./TopAboutUsWavesImage.webp"
 import SectionCurveImage from "./SectionCurveImage.png"
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
-// import required modules
-import { Autoplay, Pagination } from 'swiper/modules';
 
 const AboutSeedo = () => {
-    const ServicesCardData = [
-        {
-            title: "Infrastructure",
-            content: "Our 150,000 sq. ft. manufacturing facility includes a 75,000 sq. ft. area dedicated to toy production. Equipped with state-of-the-art machinery and advanced automation technology, our facility supports a production capacity of 5 billion battery-operated toys annually, ensuring we can meet large-scale demand without compromising on quality or safety."
-        },
-        {
-            title: "Productivity",
-            content: "With a fully automated plant, Seedo achieves an annual production capacity of nearly 5 million battery-operated toys, employing the latest automation technologies to ensure efficient, high-quality manufacturing with precision and consistency."
-        },
-        {
-            title: "Experience",
-            content: "Our team is made up of skilled experts with extensive market experience and deep product knowledge, allowing us to create innovative toys that meet the highest standards of quality and customer satisfaction."
-        },
-        {
-            title: "Quality and Affordability",
-            content: "Seedo proves that high-quality products can also be affordable. By offering superior craftsmanship at budget-friendly prices, we challenge the norm and provide customers with excellent value, ensuring they get the best of both worlds—quality and affordability."
-        },
-
-        {
-            title: "Make in india",
-            content: "As strong advocates for local manufacturing, we take pride in sourcing all our components from within India. We fully support and align with Mr. Narendra Modi's vision of promoting the Make in India* initiative, fostering economic growth and self-reliance in our nation"
-        },
-    ]
-
-
-    const LogosData = [
-        {
-            img: pngwing,
-            link: "https://www.unilever.com/"
-        },
-        {
-            img: logo,
-            link: "https://www.uscindia.co.in/"
-        },
-        {
-            img: Perfetti,
-            link: "https://www.perfettivanmelle.com/"
-        },
-        {
-            img: GSK,
-            link: "https://www.gsk.com/en-gb/"
-        },
-        {
-            img: Vector,
-            link: "https://www.haldiram.com/"
-        },
-        {
-            img: TheHimalayaLogo,
-            link: "https://himalayawellness.in/"
-        },
-        {
-            img: Amway,
-            link: "https://www.amway.in/"
-        },
-        {
-            img: Disney,
-            link: "https://www.disney.in/"
-        },
-        {
-            img: doraemon,
-            link: "https://dora-world.com/"
-        },
-        {
-            img: Barbie,
-            link: "https://www.barbie.com"
-        },
-        {
-            img: tomandjerry,
-            link: "https://www.warnerbros.com/brands/tom-and-jerry",
-        },
-        {
-            img: Pepsi,
-            link: "https://www.pepsi.com"
-        },
-        {
-            img: Marvel,
-            link: "https://www.marvel.com"
-        },
-        {
-            img: CartoonNetwork,
-            link: "https://www.cartoonnetwork.co.uk/"
-        },
-        {
-            img: ToyStory3,
-            link: "https://www.pixar.com/toy-story-3"
-        },
-        {
-            img: ChhotaBheem,
-            link: "https://www.chhotabheem.com"
-        },
-    ]
-
 
     const VissionMissionData = [
         {
@@ -166,13 +53,10 @@ const AboutSeedo = () => {
             </div>
             <section id="AboutSEDOSection">
                 <div className="SectionHeadingContainer">
-                    <img src="/Images/AboutusTopNewBanner.jpg" alt="" style={{ width: "100%" }} loading="lazy"/>
-                    <img src="/Images/NewBanners/MobileBanners/AboutUsTopMobile.png" alt="" style={{ width: "100%" }} loading="lazy"/>
+                    <img src="/Images/AboutusTopNewBanner.jpg" alt="" style={{ width: "100%" }} loading="lazy" />
+                    <img src="/Images/NewBanners/MobileBanners/AboutUsTopMobile.png" alt="" style={{ width: "100%" }} loading="lazy" />
                 </div>
-                
-                {/* <div className="TopVideoContainer">
-                    <img src={BackBannerAbout} alt="" />
-                </div> */}
+
                 <div className="AboutContentContainer">
                     {/* <img src={TopAboutUsWavesImage} alt="" /> */}
                     <div className="paddingContainer">
@@ -199,21 +83,6 @@ const AboutSeedo = () => {
                     </div>
                 </div>
             </section>
-            {/* <section className="founderSectionContainer">
-                <Row>
-                    <Col lg={14} style={{ width: "100%" }}>
-                        <div className="FounderContent">
-                            <h1>FOUNDER</h1>
-                            <p>We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. We look forward to hearing from you!We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. We look forward to hearing from you!We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the </p>
-                        </div>
-                    </Col>
-                    <Col lg={10} style={{ width: "100%" }}>
-                        <div className="grayBoxContainer">
-
-                        </div>
-                    </Col>
-                </Row>
-            </section> */}
             <section className="OurJourneyContainer">
                 {/* <div>
                     <h1>Our Journey </h1>
@@ -287,89 +156,9 @@ const AboutSeedo = () => {
                         </Col>
                     </Row>
                 </div>
-                {/* <div className="gridContainer">
-                    <Row>
-                        <Col lg={8} md={12}>
-                            <div>
-                                <h2>Our Mission</h2>
-                                <p>To deliver high-quality, safe, and innovative toys that inspire creativity and confidence in children and parents alike. </p>
-                            </div>
-                        </Col>
-                        <Col lg={8} md={12}>
-                            <div>
-                                <h2>Our Vision</h2>
-                                <p>To become a leading toy manufacturer globally, Seedo Toys aims to be recognized for excellence in product quality and innovation while integrating advanced technology into its offerings.</p>
-                            </div>
-                        </Col>
-                        <Col lg={8} md={12}>
-                            <div>
-                                <h2>Our Purpose</h2>
-                                <p>To foster children's imagination through engaging play experiences while ensuring parents' trust in our craftsmanship and commitment to safety.</p>
-                            </div>
-                        </Col>
-                    </Row>
-                </div> */}
+
             </section>
-            {/* <section className="VisionContainer">
-              
-            </section>
-            <section className="PurposeContainer">
-                
-            </section> */}
-            {/* <section className="OURLEADERSHIPContainer">
-                <div className="LeaderShipHeaderContainer">
-                    <h1>Sanson Promotion Innovations LLP Clients</h1>
-                    <h1>Our Trusted Partners</h1>
-                </div>
-                <div className="LeaderShipCardContainer">
-                    <Row>
-                        {LogosData.map((item, index) => (
-                            <Col lg={4} md={6} key={index}  data-aos="fade-up"
-                            data-aos-delay={`${index * 100}`}>
-                                <Link to={item.link} target="_blank">
-                                    <div className="CerticationCardGreyBox">
-                                        <img src={item.img} alt="" />
-                                    </div>
-                                </Link>
-                            </Col>
-                        ))}
 
-                        <Col lg={8}>
-                            <div className="LeaderShipCardContainerCard">
-                                <div className="LeaderShipImageCardContainer">
-
-                                </div>
-                                <div className="LeaderShipContentCardContainer">
-                                    <h5>DESIGNATION</h5>
-                                    <p>We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. We look forward to hearing from you!We offer these services, and </p>
-                                </div>
-                            </div>
-                        </Col>
-                        <Col lg={8}>
-                            <div className="LeaderShipCardContainerCard">
-                                <div className="LeaderShipImageCardContainer">
-
-                                </div>
-                                <div className="LeaderShipContentCardContainer">
-                                    <h5>DESIGNATION</h5>
-                                    <p>We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. We look forward to hearing from you!We offer these services, and  </p>
-                                </div>
-                            </div>
-                        </Col>
-                        <Col lg={8}>
-                            <div className="LeaderShipCardContainerCard">
-                                <div className="LeaderShipImageCardContainer">
-
-                                </div>
-                                <div className="LeaderShipContentCardContainer">
-                                    <h5>DESIGNATION</h5>
-                                    <p>We offer these services, and we invite you to reach out for any inquiries. Please feel free to connect with us through the footer section or the "Contact Us" page. We look forward to hearing from you!We offer these services, and </p>
-                                </div>
-                            </div>
-                        </Col>
-                    </Row>
-                </div>
-            </section> */}
 
             <div className="AjustCenterContainer">
 
@@ -384,18 +173,18 @@ const AboutSeedo = () => {
                                     data-aos-duration="1300">
                                     <div style={{ display: "flex", height: "100%" }} className="ImageAdjust">
                                         <Row style={{ width: "100%" }}>
-                                              <Col lg={8} md={12}>
+                                            <Col lg={8} md={12}>
 
                                                 <div>
                                                     <Image src="/Images/AboutUsFactoryImages/1.JPG" alt="" />
                                                 </div>
                                             </Col>
-                                              <Col lg={8} md={12}>
+                                            <Col lg={8} md={12}>
                                                 <div style={{ height: "100%" }}>
                                                     <Image src="/Images/AboutUsFactoryImages/2.JPG" alt="" />
                                                 </div>
                                             </Col>
-                                              <Col lg={8} md={12}>
+                                            <Col lg={8} md={12}>
                                                 <div style={{ height: "100%" }}>
                                                     <Image src="/Images/AboutUsFactoryImages/3.JPG" alt="" />
                                                 </div>
@@ -439,14 +228,14 @@ const AboutSeedo = () => {
                     </div>
                     <div>
                         <Row>
-                            
-                            <Col lg={24}><div style={{width:"100%"}}>
+
+                            <Col lg={24}><div style={{ width: "100%" }}>
                                 <div style={{ display: "flex", height: "100%" }} className="ImageAdjust" data-aos="fade-up"
                                     data-aos-duration="1400">
                                     <Row style={{ width: "100%" }}>
                                         <Col lg={8} md={12}>
-                                            <div style={{width:"100%",height:"100%"}}>
-                                                <Image src="/Images/AboutUsFactoryImages/4.JPG" alt=""  style={{width:"100%",height:"100%",objectFit:"cover"}}/>
+                                            <div style={{ width: "100%", height: "100%" }}>
+                                                <Image src="/Images/AboutUsFactoryImages/4.JPG" alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
                                             </div>
                                         </Col>
                                         <Col lg={8} md={12}>
@@ -478,10 +267,7 @@ const AboutSeedo = () => {
                     </div>
                 </div>
             </div>
-            {/* <MissionV¸¸¸¸ent /> */}
-            {/* <PhotosGrid /> */}
-            {/* <SeedoCertification />
-            <Client /> */}
+
 
         </>
     );

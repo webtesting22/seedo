@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Row, Col } from "antd";
 import "./ImagesGallery.css"
-import { FaArrowRightLong } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -30,7 +29,6 @@ const ImagesGallery = () => {
 
                 <div>
                     <div className="SectionHeadingContainer">
-                        {/* <span>Best Sellers</span> */}
                         <h1 className="titleFont">Featured Collection</h1>
                     </div>
                     <div>
@@ -80,6 +78,7 @@ const ImagesGallery = () => {
                                                     src={selectedColors[index].ProductImage}
                                                     alt={item.name}
                                                     className="BestSellerImage"
+                                                    loading="lazy"
                                                 />
                                             </div>
                                         </Link>
