@@ -2,18 +2,9 @@ import React, { useEffect } from "react";
 import "./OurServices.css"
 import Navigation from "../../CommonComponents/Navigation/Navigation";
 import { Row, Col, Image } from "antd";
-import About1 from "./About1.svg"
-import About2 from "./About2.svg"
-import About3 from "./About3.svg"
-import About5 from "./About5 1.svg"
-import About7 from "./About7 1.svg"
-import About10 from "./About10 1.svg"
-import TopBanner from "./TopBanner.svg"
-import ODMBanner from "./ODMBanner.svg"
 import WhiteLebelling from "./WhiteLebelling.jpg"
 import ODMNew from "./ODMNew.jpg"
 import BrandDiscribution from "./BrandDiscribution.jpg"
-import odm from "./odm.jpg"
 import OEM from "./OEM.jpg"
 const OurServices = () => {
     const servicesData = [
@@ -80,7 +71,7 @@ const OurServices = () => {
                                 data-aos-delay={`${index * 100}`}>
                                 <div>
                                     <div className="BlankGrayBoxContainer">
-                                        <img src={item.image} alt="" />
+                                        <img src={item.image} alt="" loading="lazy" />
                                     </div>
                                     <div>
                                         <h2>{item.title}</h2>

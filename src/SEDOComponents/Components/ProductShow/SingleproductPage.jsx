@@ -4,13 +4,12 @@ import Navigation from "../../CommonComponents/Navigation/Navigation"; // Adjust
 import { Row, Col, Breadcrumb } from "antd";
 import SeedoProductData from "../../ProductData";
 import { Link } from "react-router-dom";
-import Ourproducts from "./Ourproducts.png";
 
 const SubcategoriesProducts = () => {
     const { categoryName, subcategoryName } = useParams();
     const categoryData = SeedoProductData[categoryName];
 
-    // If there's no subcategory, directly get the products for the category
+   
     const products = subcategoryName
         ? categoryData?.subcategories[subcategoryName]
         : categoryData?.products;
@@ -109,18 +108,17 @@ const SubcategoriesProducts = () => {
                                                     ) : product.ProductImage && product.ProductImage.length > 0 ? (
                                                         <>
                                                             {/* // If only one image exists, show the first image */}
-                                                            <img src={product.ProductImage[0]} className="product-image" alt={`${product.ProductTitle}-0`} loading="lazy"/>
-                                                            <img src={product.ProductImage[0]} className="product-image-hover" alt={`${product.ProductTitle}-0`} loading="lazy"/>
+                                                            <img src={product.ProductImage[0]} className="product-image" alt={`${product.ProductTitle}-0`} loading="lazy" />
+                                                            <img src={product.ProductImage[0]} className="product-image-hover" alt={`${product.ProductTitle}-0`} loading="lazy" />
                                                         </>
                                                     ) : (
                                                         // If no images, show a default image
-                                                        <img src="path/to/default-image.jpg" alt="Default Image" loading="lazy"/>
+                                                        <img src="path/to/default-image.jpg" alt="Default Image" loading="lazy" />
                                                     )}
                                                 </div>
                                                 <div className="productTitleContainer">
                                                     <h1>{product.name}</h1>
                                                     <p>{product.description}</p>
-                                                    {/* <p>Price: ${product.price}</p> */}
                                                 </div>
                                             </div>
                                         </Link>

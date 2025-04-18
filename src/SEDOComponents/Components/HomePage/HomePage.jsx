@@ -1,6 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
 import "../../Styles/HomePage.css";
-import landingPageVideo1 from "./Video/die cast .mp4";
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
@@ -14,7 +13,6 @@ const HomePage = () => {
     const [fadeIn, setFadeIn] = useState(true); // State to control fade-in effect
     const videoRef = useRef(null);
     const [activeIndex, setActiveIndex] = useState(0);
-    const mediaItem = { type: "video", src: landingPageVideo1 };
     const headingColors = ["#EB920E", "#417453", "#C85F3F", "rgb(77 182 215)", "#909090"];
     const buttonColors = ["rgb(235, 146, 14)", "rgb(125 203 152)", "rgb(252 150 119)", "rgb(115 214 244)", "rgb(206 206 206)"];
     // Function to handle video end and restart with fade-out and fade-in effect

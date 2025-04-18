@@ -13,8 +13,6 @@ import PNGSRPO12 from "/Images/ProductsImages/Friction and pull back products/PN
 import SpaceSeries from "../assets/MultipleViewImages/SpaceSeriesPressAndGo/SpaceSeries(grey).png"
 import SpaceSeries2 from "../assets/MultipleViewImages/SpaceSeriesPressAndGo/SpaceSeries(blue).png"
 import SpaceSeries3 from "../assets/MultipleViewImages/SpaceSeriesPressAndGo/SpaceSeries(skyblue).png"
-import PNGToys from "/Images/ProductsImages/Friction and pull back products/PNG-Toys(red).png"
-import PNGToys_2 from "/Images/ProductsImages/Friction and pull back products/PNG-Toys(green).png"
 import Cube from "/Images/ProductsImages/EasyLearningToys/Cube.png"
 import SLTBB001 from "/Images/ProductsImages/EasyLearningToys/SLT-BB-001.png"
 import SLTPP001 from "/Images/ProductsImages/EasyLearningToys/SLT-PP-001.png"
