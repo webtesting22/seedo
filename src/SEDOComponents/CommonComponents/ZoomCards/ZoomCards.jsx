@@ -204,7 +204,7 @@ const ZoomCards = () => {
             <div style={{ display: "flex", justifyContent: "center" }}>
                 <div id="SeedoPersonal">
                     <div className="SkyAbsoluteImage">
-                        <img src="/Images/ZoomCardsImages/cloud.png" alt="" />
+                        <img src="/Images/ZoomCardsImages/cloud.png" alt="" loading="lazy" />
                     </div>
                     <div className="AboutHomePageSwiperContainer">
                         <div>
@@ -235,7 +235,7 @@ const ZoomCards = () => {
                                     <SwiperSlide key={index}>
                                         <div className="AboutHomeCarousal" style={{ cursor: "pointer" }}>
                                             <div>
-                                                <img src={item.img} alt="" />
+                                                <img src={item.img} alt="" loading="lazy"/>
                                             </div>
                                         </div>
                                     </SwiperSlide>
@@ -257,7 +257,7 @@ const ZoomCards = () => {
             </div>
             <div style={{ display: "flex", justifyContent: "center", position: "relative", }} id="ParentBox">
                 <div className="BackSVG">
-                    <img src="/Images/ZoomCardsImages/SansonImage.png" alt="" />
+                    <img src="/Images/ZoomCardsImages/SansonImage.png" alt="" loading="lazy"/>
                 </div>
                 <div className="SANSONGraphicContainer" style={{ position: "sticky" }}>
                     <div>
