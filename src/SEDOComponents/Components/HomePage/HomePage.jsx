@@ -75,10 +75,10 @@ const HomePage = () => {
                         spaceBetween={0}
                         centeredSlides={true}
                         loop={true}
-                        // autoplay={{
-                        //     delay: 2500,
-                        //     disableOnInteraction: false,
-                        // }}
+                        autoplay={{
+                            delay: 2500,
+                            disableOnInteraction: false,
+                        }}
                         speed={800}
                         modules={[Autoplay, Pagination, Navigation]}
                         className="mySwiper"
