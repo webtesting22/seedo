@@ -188,7 +188,7 @@ const Products = () => {
                     <img src="/Images/NewBanners/MobileBanners/productBannerMobile.png" alt="" loading="lazy"/>
                 </div>
 
-                <div className="CatalogueCardsContainer">
+                <div className="CatalogueCardsContainer" id="NewContainer">
                     <div style={{ textAlign: "center", marginBottom: "10px" }} id="SearchBarComponent">
                         <AutoComplete
                             options={searchResults.map((product) => ({

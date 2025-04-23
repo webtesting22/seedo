@@ -377,7 +377,7 @@
   /* border: 2px dashed #bc252a72; */
 }
 
-.CatalogueCardsContainer .ant-row .ant-col:nth-child(1) .CatalogueCardContainer::after {
+#NewContainer .ant-row .ant-col:nth-child(1) .CatalogueCardContainer::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -389,7 +389,7 @@
   pointer-events: none; /* allows clicks through it */
   border-radius: 0 0 10px 10px; /* match card rounding */
 }
-.CatalogueCardsContainer .ant-row .ant-col:nth-child(2) .CatalogueCardContainer::after {
+#NewContainer .ant-row .ant-col:nth-child(2) .CatalogueCardContainer::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -400,7 +400,7 @@
   pointer-events: none; /* allows clicks through it */
   border-radius: 0 0 10px 10px; /* match card rounding */
 }
-.CatalogueCardsContainer .ant-row .ant-col:nth-child(3) .CatalogueCardContainer::after {
+#NewContainer .ant-row .ant-col:nth-child(3) .CatalogueCardContainer::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -413,7 +413,7 @@
   border-radius: 0 0 10px 10px; /* match card rounding */
 }
 
-.CatalogueCardsContainer .ant-row .ant-col:nth-child(4) .CatalogueCardContainer::after {
+#NewContainer .ant-row .ant-col:nth-child(4) .CatalogueCardContainer::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -424,7 +424,7 @@
   pointer-events: none; /* allows clicks through it */
   border-radius: 0 0 10px 10px; /* match card rounding */
 }
-.CatalogueCardsContainer .ant-row .ant-col:nth-child(5) .CatalogueCardContainer::after {
+#NewContainer .ant-row .ant-col:nth-child(5) .CatalogueCardContainer::after {
   content: "";
   position: absolute;
   bottom: 0;
