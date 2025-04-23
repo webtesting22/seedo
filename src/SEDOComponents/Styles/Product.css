@@ -377,10 +377,71 @@
   /* border: 2px dashed #bc252a72; */
 }
 
+.CatalogueCardsContainer .ant-row .ant-col:nth-child(1) .CatalogueCardContainer::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 200px; /* height of the fade effect */
+  background: linear-gradient(to bottom, #00000000, #6A0000);
+
+  pointer-events: none; /* allows clicks through it */
+  border-radius: 0 0 10px 10px; /* match card rounding */
+}
+.CatalogueCardsContainer .ant-row .ant-col:nth-child(2) .CatalogueCardContainer::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;  /* height of the fade effect */
+  background: linear-gradient(to top, #00489bd3, #00000000); 
+  pointer-events: none; /* allows clicks through it */
+  border-radius: 0 0 10px 10px; /* match card rounding */
+}
+.CatalogueCardsContainer .ant-row .ant-col:nth-child(3) .CatalogueCardContainer::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 200px; /* height of the fade effect */
+  background: linear-gradient(to bottom, #00000000, #920038);
+
+  pointer-events: none; /* allows clicks through it */
+  border-radius: 0 0 10px 10px; /* match card rounding */
+}
+
+.CatalogueCardsContainer .ant-row .ant-col:nth-child(4) .CatalogueCardContainer::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;  /* height of the fade effect */
+  background: linear-gradient(to bottom, #00000000, #000000cc);
+  pointer-events: none; /* allows clicks through it */
+  border-radius: 0 0 10px 10px; /* match card rounding */
+}
+.CatalogueCardsContainer .ant-row .ant-col:nth-child(5) .CatalogueCardContainer::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;  /* height of the fade effect */
+  background: linear-gradient(to bottom, #00000000, #000000cc);
+  pointer-events: none; /* allows clicks through it */
+  border-radius: 0 0 10px 10px; /* match card rounding */
+}
+
 .CatalogueCardsContainer .ant-row .ant-col {
   padding: 20px 10px;
   padding-bottom: 0px !important;
 }
+
+
 
 .CatalogueCardsContainer {
   padding: 80px 40px;
@@ -439,6 +500,8 @@
   color: #ffffff;
   font-size: 18px;
   text-align: center;
+  position: sticky;
+  z-index: 555555;
 }
 
 .productTitleContainer h1 {

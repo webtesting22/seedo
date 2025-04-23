@@ -45,7 +45,7 @@ import DOUBLEINERTIAINSECTBEETLE from "../assets/MultipleViewImages/DOUBLEINERTI
 import ULTRALEDFLYINGDISC from "../assets/MultipleViewImages/ULTRA LEDFLYINGDISC.png"
 const SeedoProductData = {
     "Remote Controlled Cars": {
-        CategoriryImage: "https://s3.ap-south-1.amazonaws.com/prepseed/prod/ldoc/inventoryManagement/krd2oTQwdvf6TPJatpOr/WhatsApp Image 2025-04-18 at 15.57.57.jpeg",   // Product Category card Image........... (Remote Control Car Image)
+        CategoriryImage: "https://s3.ap-south-1.amazonaws.com/prepseed/prod/ldoc/inventoryManagement/iWcEUBYhUXcuj5ExBX3M/Rectangle 348.png",   // Product Category card Image........... (Remote Control Car Image)
         subcategoryImage: "https://s3.ap-south-1.amazonaws.com/prepseed/prod/ldoc/inventoryManagement/gI46z4xTniJwhPIeOjya/6.jpg",  //  SubCategory TopSection Banner Specific Pc...........
         MobilesubcategoryImage: "/Images/NewBanners/MobileBanners/6.jpg", //  SubCategory TopSection Banner Specific Mobile...........
         subcategories: { // Divided Subcategories to the main category............
@@ -1145,7 +1145,7 @@ const SeedoProductData = {
         },
     },
     "Metal Die Cast Cars": {
-        CategoriryImage: "https://s3.ap-south-1.amazonaws.com/prepseed/prod/ldoc/inventoryManagement/nMNIjiC6ARtCdFd7He5O/WhatsApp Image 2025-04-18 at 16.01.11.jpeg",
+        CategoriryImage: "https://s3.ap-south-1.amazonaws.com/prepseed/prod/ldoc/inventoryManagement/S16Qj9dTY4NebbVhyhRt/Rectangle 349.png",
         subcategoryImage: "/Images/NewBanners/8.jpg",
         MobilesubcategoryImage: "/Images/NewBanners/MobileBanners/8.jpg",
         subcategories: {
