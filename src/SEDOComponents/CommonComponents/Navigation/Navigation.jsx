@@ -53,7 +53,7 @@ const Navigation = () => {
                 <div>
                     <div className={`NavigationLogo ${pathname === "/"}`}>
                         <Link to="/" className="logo-container">
-                            <img src="https://s3.ap-south-1.amazonaws.com/prepseed/prod/ldoc/inventoryManagement/IZApK7nLpi7f8Corvtyx/seedo pro Video copy.png" alt="Logo" />
+                            <img src="https://s3.ap-south-1.amazonaws.com/prepseed/prod/ldoc/inventoryManagement/OCoG3casNzHsvmgFC3p0/seedo pro Video (1).png" alt="Logo" />
                         </Link>
                     </div>
                 </div>
@@ -81,7 +81,7 @@ const Navigation = () => {
             {/* Ant Design Drawer */}
             <div className="OnMoblilemenu">
                 <Drawer
-                    title={<img src="https://s3.ap-south-1.amazonaws.com/prepseed/prod/ldoc/inventoryManagement/IZApK7nLpi7f8Corvtyx/seedo pro Video copy.png" alt="SEEDO Logo" style={{ height: "40px" }} />}
+                    title={<img src="https://s3.ap-south-1.amazonaws.com/prepseed/prod/ldoc/inventoryManagement/OCoG3casNzHsvmgFC3p0/seedo pro Video (1).png" alt="SEEDO Logo" style={{ height: "40px" }} />}
                     placement="right"
                     closable={true}
                     onClose={() => setMobileMenuOpen(false)}

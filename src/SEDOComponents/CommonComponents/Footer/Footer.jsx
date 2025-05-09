@@ -45,7 +45,7 @@ const Footer = () => {
                     <Row>
                         <Col lg={6} style={{ width: "100%" }}>
                             <div>
-                                <img src="https://s3.ap-south-1.amazonaws.com/prepseed/prod/ldoc/inventoryManagement/IZApK7nLpi7f8Corvtyx/seedo pro Video copy.png" alt="" style={{ width: "125px", borderRadius: "10px", marginTop: "25px" }} />
+                                <img src="https://s3.ap-south-1.amazonaws.com/prepseed/prod/ldoc/inventoryManagement/OCoG3casNzHsvmgFC3p0/seedo pro Video (1).png" alt="" style={{ width: "125px", borderRadius: "10px", marginTop: "25px" }} />
                                 <h1 style={{ fontSize: "18px", fontWeight: "500" }}>Break the Limit</h1>
                             </div>
                         </Col>
