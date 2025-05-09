@@ -3,8 +3,7 @@ import NavigationLinks from "./NavigationLinks";
 import "../../Styles/Navigation.css";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { Link, useLocation } from "react-router-dom";
-import { Drawer } from "antd"; // Import the Drawer component from Ant Design
-import SeedoLogo from "/Images/SeedonewLogo.png";
+import { Drawer } from "antd"; 
 const Navigation = () => {
     const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false); // Track if navigation bar is scrolled
