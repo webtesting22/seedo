@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import NavigationLinks from "./NavigationLinks";
 import "../../Styles/Navigation.css";
-import SEEDoLogo from "./NewSeedoLogo.png";
+import SEEDoLogo from "/Images/SeedonewLogo.png";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { Link, useLocation } from "react-router-dom";
 import { Drawer } from "antd"; // Import the Drawer component from Ant Design
@@ -18,22 +18,22 @@ const Navigation = () => {
         const handleScroll = () => {
             const scrollTop = window.scrollY;
             setIsScrolled(scrollTop > 300);
-    
+
             // Check if the device is mobile (width <= 768px)
             const isMobile = window.innerWidth <= 768;
             const maxScroll = 300; // Adjust the range as per your preference
             const maxHeight = isMobile ? 70 : 80; // 70px for mobile, 80px for desktop
             const calculatedHeight = Math.min((scrollTop / maxScroll) * maxHeight, maxHeight);
-            
+
             setScrollHeight(calculatedHeight);
         };
-    
+
         window.addEventListener("scroll", handleScroll);
         return () => {
             window.removeEventListener("scroll", handleScroll);
         };
     }, []);
-    
+
 
     // Determine link color based on page and scroll position
     const linkColor = pathname === "/" && !isScrolled ? "black" : "black";
