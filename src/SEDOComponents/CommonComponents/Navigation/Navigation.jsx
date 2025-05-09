@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import NavigationLinks from "./NavigationLinks";
 import "../../Styles/Navigation.css";
-import SEEDoLogo from "/Images/SeedonewLogo.png";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { Link, useLocation } from "react-router-dom";
 import { Drawer } from "antd"; // Import the Drawer component from Ant Design
@@ -55,7 +54,7 @@ const Navigation = () => {
                 <div>
                     <div className={`NavigationLogo ${pathname === "/"}`}>
                         <Link to="/" className="logo-container">
-                            <img src={SEEDoLogo} alt="Logo" />
+                            <img src="/Images/SeedonewLogo.png" alt="Logo" />
                         </Link>
                     </div>
                 </div>
@@ -83,7 +82,7 @@ const Navigation = () => {
             {/* Ant Design Drawer */}
             <div className="OnMoblilemenu">
                 <Drawer
-                    title={<img src={SEEDoLogo} alt="SEEDO Logo" style={{ height: "40px" }} />}
+                    title={<img src="/Images/SeedonewLogo.png" alt="SEEDO Logo" style={{ height: "40px" }} />}
                     placement="right"
                     closable={true}
                     onClose={() => setMobileMenuOpen(false)}
