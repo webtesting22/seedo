@@ -9,7 +9,6 @@ import { FaRegEnvelope } from "react-icons/fa";
 import { MdOutlinePhone } from "react-icons/md";
 import CarDoodle from "./Car doodle.svg"
 import { CiLinkedin } from "react-icons/ci";
-import SeedoLogo from "/Images/SeedonewLogo.png"
 const Footer = () => {
     const [isVisible, setIsVisible] = useState(false);
     const imageRef = useRef(null);
@@ -46,7 +45,7 @@ const Footer = () => {
                     <Row>
                         <Col lg={6} style={{ width: "100%" }}>
                             <div>
-                                <img src={SeedoLogo} alt="" style={{ width: "125px", borderRadius: "10px", marginTop: "25px" }} />
+                                <img src="https://s3.ap-south-1.amazonaws.com/prepseed/prod/ldoc/inventoryManagement/IZApK7nLpi7f8Corvtyx/seedo pro Video copy.png" alt="" style={{ width: "125px", borderRadius: "10px", marginTop: "25px" }} />
                                 <h1 style={{ fontSize: "18px", fontWeight: "500" }}>Break the Limit</h1>
                             </div>
                         </Col>
