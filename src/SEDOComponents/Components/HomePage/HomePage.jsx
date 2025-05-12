@@ -105,7 +105,13 @@ const HomePage = () => {
                         <div>
                             <h1 style={{ color: headingColors[activeIndex], transition: ".5s" }}>SEEDO</h1>
                             <p>BREAK THE LIMIT!</p>
-                            <button style={{ color: buttonColors[activeIndex] }}>View catalog</button>
+                            <button
+                                style={{ color: buttonColors[activeIndex],cursor:"pointer" }}
+                                onClick={() => window.open('/Images/previewDocuments/SeedoCatalog.pdf', '_blank')}
+                            >
+                                View catalog
+                            </button>
+
                         </div>
                     </div>
                     {/* <video
