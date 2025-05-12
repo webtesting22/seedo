@@ -68,11 +68,11 @@ const SeedoCertification = () => {
             link: "https://ec.europa.eu/growth/single-market/ce-marking/"
 
         },
-        {
-            img: GCE,
-            title: "Gas Control Equipment",
-            link: "https://www.gcegroup.com/en/"
-        },
+        // {
+        //     img: GCE,
+        //     title: "Gas Control Equipment",
+        //     link: "https://www.gcegroup.com/en/"
+        // },
 
         // {
         //     img:logo2
