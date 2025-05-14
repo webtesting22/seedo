@@ -271,7 +271,7 @@ const ZoomCards = () => {
             <div className="AboutSeedoContent" ref={videoRef}>
                 <div className="SeedoVideoSection SeedoVideoSection">
                     <video
-                        src="https://prepseed.s3.ap-south-1.amazonaws.com/Seedo_Manufacturing.mp4"
+                        src="https://prepseed.s3.ap-south-1.amazonaws.com/Untitled_design_Seedo.mp4"
                         controls
                         autoPlay
                         loop
